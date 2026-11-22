@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700" role="img"><title>集合保护与计数保护</title><desc>示意规则差异，不是实际实验结果；候选损坏已通过A、补好B，通过数不变。</desc><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#586b7b"/></marker></defs><rect width="100%" height="100%" fill="white"/><style>text{font-family:"Microsoft YaHei","DengXian",sans-serif;fill:#17324d}.h{font-weight:700}.muted{fill:#586b7b}</style>
+<text x="38" y="45" font-size="30" class="h">保护的是已经通过的具体行为</text>
+<text x="38" y="82" font-size="20" style="fill:#586b7b">规则示意，不是已发生的实验结果  ·  普通保护测试O在下例中始终通过</text>
+<rect x="38" y="132" width="336" height="194" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="148" width="5" height="162" rx="2" fill="#087f83"/>
+<text x="61" y="170" font-size="24" class="h">已接纳状态</text>
+<text x="61" y="208" font-size="20">目标 A：通过</text>
+<text x="61" y="238" font-size="20">目标 B：失败</text>
+<text x="61" y="268" font-size="20">已保护进展 P = {A}</text>
+<rect x="422" y="132" width="336" height="194" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="422" y="148" width="5" height="162" rx="2" fill="#087f83"/>
+<text x="445" y="170" font-size="24" class="h">新候选状态</text>
+<text x="445" y="208" font-size="20">目标 A：失败</text>
+<text x="445" y="238" font-size="20">目标 B：通过</text>
+<text x="445" y="268" font-size="20">目标通过数仍为 1</text>
+<rect x="806" y="132" width="336" height="194" rx="13" fill="#fff6e9" stroke="#ccdbe3"/><rect x="806" y="148" width="5" height="162" rx="2" fill="#986720"/>
+<text x="829" y="170" font-size="24" class="h">两种规则分歧</text>
+<text x="829" y="208" font-size="20">COUNT：数量未降，可接纳</text>
+<text x="829" y="238" font-size="20">SET：丢失A，拒绝</text>
+<text x="829" y="268" font-size="20">拒绝后恢复旧状态</text>
+<path d="M374,230 L412,230" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M758,230 L796,230" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<rect x="38" y="390" width="528" height="164" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="406" width="5" height="132" rx="2" fill="#087f83"/>
+<text x="61" y="428" font-size="24" class="h">条件性保证</text>
+<text x="61" y="466" font-size="20">若身份固定、观察完整、结果可靠，</text>
+<text x="61" y="496" font-size="20">每个已接纳状态均保持P中的全部测试。</text>
+<text x="61" y="526" font-size="20">它不能保证未测试的软件行为正确。</text>
+<rect x="606" y="390" width="536" height="164" rx="13" fill="#f4f1ea" stroke="#ccdbe3"/><rect x="606" y="406" width="5" height="132" rx="2" fill="#986720"/>
+<text x="629" y="428" font-size="24" class="h">当前真实证据</text>
+<text x="629" y="466" font-size="20">18个合格初态 P₀为空；普通O另行存在。</text>
+<text x="629" y="496" font-size="20">六题18次运行：未见SET独有分歧。</text>
+<text x="629" y="526" font-size="20">旧7081的2→0退步会被两种规则共同拒绝。</text>
+<text x="38" y="620" font-size="23" class="h">有效验证需要：自然部分进展 → 真实候选分歧 → 分别执行后续流程 → 共同终验</text>
+<text x="38" y="660" font-size="21" style="fill:#586b7b">仅离线重算准入规则，可以证明决策不同；不能直接给出反事实恢复率。</text></svg>

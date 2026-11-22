@@ -1,0 +1,13 @@
+{
+  "python_distribution": {
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260623/cpython-3.11.15+20260623-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+    "name": "cpython-3.11.15+20260623-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+    "sha256": "6589ca6d63f520bec4096d62b3ab91da3d0a80b16b594c99a6b677e335814683"
+  },
+  "relative": "工作区/1006-exp150-unified-recovery/实验/实验150_统一任务排序与恢复/native_envs/moto",
+  "venv_launcher_sha256": "4cca2027319c08dca5cc4b64c9ba415cc89205152202cb6805081277c43b610f",
+  "requirements": "reproduction/native-py311.lock",
+  "source": "Exact package metadata and read-only dependency path recovered from the original native environment",
+  "sealed_configuration_sha256": "6461040b85cc6200186d76438f781e3fcebf8459123fb8f7bd7b1bfca7c3deaf",
+  "original_configuration_path": "D:/Code/毕设/graduate-thesis-experiments/工作区/1006-exp150-unified-recovery/实验/实验150_统一任务排序与恢复/native_envs/moto/pyvenv.cfg"
+}

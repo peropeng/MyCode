@@ -1,0 +1,30 @@
+{
+  "schema": "same-six-native-scheduling-v5-four-SOURCE/1",
+  "at_UTC": "2026-10-11T09:52:36.033105+00:00",
+  "all_four_methods_same_available_resources": true,
+  "native_maximum_actual_parallel_roots": 4,
+  "MONAI_maximum_parallel_roots": 1,
+  "lock_path": "D:/Code/毕设/graduate-thesis-experiments/工作区/1003-diagnosis-investigation/exp132_review/new_window_2332/finance/shared_flash_budget.lock",
+  "native_slot_offsets": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "MONAI_exclusive_offset": 3,
+  "financial_offset_zero_untouched": true,
+  "historical_owners_respected_by_same_file_and_ranges": true,
+  "legacy_contract_SHA256": "151a96d5a9516dd7d9e61ce74e232c8c922b06b11eca26dbbe52bd6ba3c00e88",
+  "source_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-unified-six\\native_four_slots_v5_SOURCE.py",
+  "source_SHA256": "62f5364a19df43f9c27d989cfdefd79376e3b25b41fbb001cf6b906e140609ea",
+  "Root_basis": "Human continuous general repair and resource acceleration authorized; observed CPU22%,16 logical cores,6GB free; prospective four native slots for all four methods, historical two slots respected; MONAI3/finance0 retained",
+  "queue_poll": "grant/STOP/clock only every0.1sec; full source/input/C0 validation before queue and after slot obtained; no policy/test cache",
+  "live_old_versions_unchanged": true,
+  "no_scientific_success_claim": true,
+  "source_only": true,
+  "READY": false,
+  "activation_authorized": false,
+  "old_live_source_and_contract_unchanged": true,
+  "capacity_observation": "2026-10-11 about17:06BJT, read-only system observation; actual four-method capacity qualification still pending",
+  "algorithms_model_existing_six_information_guard_finance_and_per_flow_budgets_unchanged": true
+}

@@ -1,0 +1,73 @@
+{
+  "stepfinder_commit": "48d71c7090adca3667a31b043a78484f407b4a2f",
+  "official_files": {
+    "model.py": {
+      "worktree_sha256": "96ea4dce3a76a9a730d59c7aac1954c6d5f9f2d449c55c5e3b6d9092c00c0c5a",
+      "git_blob_sha256": "842830e48c773882d0d9b5527e538c093f3c33f96277f749b7f04d3462cafdaf"
+    },
+    "Q3Emb.py": {
+      "worktree_sha256": "6a6fa26c53d8b47d7bd851e0971960b540b59ea79ddc7300961872b3cd7d3189",
+      "git_blob_sha256": "9c2fde8d2d419579f53fca70b403d5dc3ba926fcb0d9ed298102f89085185291"
+    },
+    "feature_construction.py": {
+      "worktree_sha256": "0b91d7bfefe183dd463440013b09b0e4b589d2296a8a88e5fd790ea8a8c194d7",
+      "git_blob_sha256": "ac80df3ddf2319b03e480083f96fd5bae997abb5b50abed2c45d87732de2d7c4"
+    },
+    "main.py": {
+      "worktree_sha256": "8d8c2480c73e5e3c5653825c69cd36a9552043610e659869eceb365bee3270db",
+      "git_blob_sha256": "c93028102d328eb4132e6163dc2c1215322c3c41ce00bd35db9ebfe1827cd35e"
+    },
+    "collate_fn.py": {
+      "worktree_sha256": "752e4e34a94b1ba0ee344b9a6d448cb45befb278181de1a961e963cea0ed4619",
+      "git_blob_sha256": "639bd21dc90a25a939b8d916c43fb431dc217250ce72c6e63ac3eb194df686c6"
+    }
+  },
+  "model_files_sha256": {
+    "config.json": "b5bf1f51fc45be473a54718cef92448d90a1be001bf9b9a44b8c7f10a19feaa9",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "model.safetensors": "0437e45c94563b09e13cb7a64478fc406947a93cb34a7e05870fc8dcd48e23fd",
+    "tokenizer.json": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a",
+    "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "science_sources_lf_sha256": {
+    "实验\\实验88_责任桥_去错误词与长度资格\\runner.py": "1c83a3d1d6ab0dd74478a0da5515afb61ff72bcd6087ef3ab070f00a46bd0ed7",
+    "实验\\实验96_责任主体_组内Pairwise候选排序\\runner.py": "146ff9eb6e8bf651bd164ef3f340df4a46bc33bb0c28e2ff475851ff6c4a1d5d",
+    "实验\\实验105_责任排序_连续软融合\\runner.py": "cedb03c1289827de270c5839592c285a1dd86e24f73a0a12de80024706b837ae",
+    "实验\\实验106_责任排序_Top1提升级联\\runner.py": "f08ce0660f565dd5ad46ae1ce92b53c7e726a3ff8fa946d3d01adc1d1cf3cb56",
+    "实验\\实验112_RQ1时序交互依赖完整排序\\runner.py": "037c9a76ead69a69f8c3d754fc15cbe986b887b24587dc30416ede14061a4956"
+  },
+  "science_source_snapshot": "ab1fa8d5b23a9d591c5809ea299ce381eb99b21c",
+  "historical_commit_object_available": false,
+  "historical_source_limitation": "Original 4fe2d9 Git object absent after migration; current authoritative source snapshot, exact sealed tie-function SHA, scientific constants, dataset SHA and published split algorithm verified. Original protocol did not seal full runner hashes.",
+  "sealed_tie_function_matches": true,
+  "historical_output_worktree_sha256": "df6e9b7c968b369f39edd8679fac6a176793c16d2c683c35ad4be32fcb3e3bb7",
+  "historical_output_lf_sha256": "d99f9468adeadec4e69e30e0a2c44aafc277c4a034be0f1b7f678c4da5deb851",
+  "protocol_sha256": "9d67043361ba6a02cf2bc9295bf51350e8ed9293370cb13d08349e2478be8495",
+  "runner_sha256": "ec62b42d5822c5863ec49cad5c8b0b9eb8849326c2e5419d51d055676a75ab8e",
+  "embedding_binding": {
+    "model_files_sha256": {
+      "config.json": "b5bf1f51fc45be473a54718cef92448d90a1be001bf9b9a44b8c7f10a19feaa9",
+      "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "model.safetensors": "0437e45c94563b09e13cb7a64478fc406947a93cb34a7e05870fc8dcd48e23fd",
+      "tokenizer.json": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a",
+      "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "official_encoder_sha256": "9c2fde8d2d419579f53fca70b403d5dc3ba926fcb0d9ed298102f89085185291",
+    "projection_source_sha256": "002ccfd098d0a25aff0c03aeaaa9032d5f4bb053542631070aee7dd5004f4589",
+    "embedding_protocol": {
+      "model": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "max_length": 8192,
+      "content_dim": 128,
+      "agent_dim": 32,
+      "dtype": "float16",
+      "trainable": false,
+      "encode_batch_size": 8
+    },
+    "torch": "2.7.1+cu128",
+    "transformers": "4.51.3"
+  },
+  "embedding_binding_sha256": "07c98793fcb3878fcd629c34b38b211feeeca9804983076c9a101757c045715a"
+}

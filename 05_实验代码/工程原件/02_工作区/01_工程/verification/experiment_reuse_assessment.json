@@ -1,0 +1,88 @@
+{
+  "assessment_only": true,
+  "model_weights_loaded": false,
+  "model_forward_calls": 0,
+  "Gold_labels_read": false,
+  "evidence_paths": [
+    ".rebuild/paper-inputs/experiment257/RQ1_SOURCE3_RELEASE.json",
+    ".rebuild/current-method/ranking/工作区/1007-exp158-author-preset-baseline/实验/实验158_StepFinder论文双预设强对照/validation_selection_decisions.json"
+  ],
+  "existing_source_models": [
+    {
+      "method": "SOURCE3",
+      "seed": 20261006,
+      "selected_epoch": 6,
+      "model_path": ".rebuild/current-method/ranking/工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/training/source/AB_GLOBAL/20261006/source_fit_selected.pt",
+      "model_identity_verified": true,
+      "fit492_ids_directly_verified": true,
+      "validation122_ids_match": true,
+      "standalone_training_receipt_restored": true,
+      "scaler_fit_only_as_recorded": true,
+      "held_labels_used_for_selection_as_recorded": 0
+    },
+    {
+      "method": "SOURCE3",
+      "seed": 20261007,
+      "selected_epoch": 6,
+      "model_path": ".rebuild/current-method/ranking/工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/training/source/AB_GLOBAL/20261007/source_fit_selected.pt",
+      "model_identity_verified": true,
+      "fit492_ids_directly_verified": true,
+      "validation122_ids_match": true,
+      "standalone_training_receipt_restored": true,
+      "scaler_fit_only_as_recorded": true,
+      "held_labels_used_for_selection_as_recorded": 0
+    },
+    {
+      "method": "SOURCE3",
+      "seed": 20261008,
+      "selected_epoch": 3,
+      "model_path": ".rebuild/current-method/ranking/工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/training/source/AB_GLOBAL/20261008/source_fit_selected.pt",
+      "model_identity_verified": true,
+      "fit492_ids_directly_verified": true,
+      "validation122_ids_match": true,
+      "standalone_training_receipt_restored": true,
+      "scaler_fit_only_as_recorded": true,
+      "held_labels_used_for_selection_as_recorded": 0
+    },
+    {
+      "method": "SF_ALG50",
+      "seed": 20261006,
+      "selected_epoch": 23,
+      "model_path": ".rebuild/current-method/ranking/工作区/1007-exp158-author-preset-baseline/实验/实验158_StepFinder论文双预设强对照/training/source/SF_ALG_PAPER50/20261006/source_fit_selected.pt",
+      "model_identity_verified": true,
+      "fit492_ids_directly_verified": null,
+      "validation122_ids_match": true,
+      "standalone_training_receipt_restored": false,
+      "scaler_fit_only_as_recorded": null,
+      "held_labels_used_for_selection_as_recorded": null
+    },
+    {
+      "method": "SF_ALG50",
+      "seed": 20261007,
+      "selected_epoch": 14,
+      "model_path": ".rebuild/current-method/ranking/工作区/1007-exp158-author-preset-baseline/实验/实验158_StepFinder论文双预设强对照/training/source/SF_ALG_PAPER50/20261007/source_fit_selected.pt",
+      "model_identity_verified": true,
+      "fit492_ids_directly_verified": true,
+      "validation122_ids_match": true,
+      "standalone_training_receipt_restored": true,
+      "scaler_fit_only_as_recorded": true,
+      "held_labels_used_for_selection_as_recorded": 0
+    },
+    {
+      "method": "SF_ALG50",
+      "seed": 20261008,
+      "selected_epoch": 20,
+      "model_path": ".rebuild/current-method/ranking/工作区/1007-exp158-author-preset-baseline/实验/实验158_StepFinder论文双预设强对照/training/source/SF_ALG_PAPER50/20261008/source_fit_selected.pt",
+      "model_identity_verified": true,
+      "fit492_ids_directly_verified": true,
+      "validation122_ids_match": true,
+      "standalone_training_receipt_restored": true,
+      "scaler_fit_only_as_recorded": true,
+      "held_labels_used_for_selection_as_recorded": 0
+    }
+  ],
+  "missing_receipt": "StepFinder SF_ALG_PAPER50 seed20261006 standalone source_fit.json is not restored; selection metadata binds validation members and model, preparation source inherits common source_ids.",
+  "formal_reuse_status": "Candidate only; acceptance depends on freezing current protocol and confirming architecture, input construction, loss, initialization/selection rules and preset compatibility.",
+  "new_training_if_all_six_accepted": 9,
+  "planned_training_products": 15
+}

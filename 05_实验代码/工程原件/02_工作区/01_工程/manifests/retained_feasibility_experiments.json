@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "repository": "peropeng/graduate-thesis",
+  "snapshot_revision": "26a67efdcd5c8b336b36a43235b75b69dc2bed34",
+  "legacy_revision": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+  "groups": [
+    {
+      "experiment": "124",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment124",
+      "original_directories": [
+        "实验/实验124_责任排序强基线与外部迁移"
+      ],
+      "restorable_files": 71,
+      "restorable_bytes": 21502911,
+      "unavailable_files": 0,
+      "unavailable_bytes": 0,
+      "snapshot_conflicts": [],
+      "portable_record_files": 69,
+      "local_parameter_and_cache_files": 2,
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "130",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment130",
+      "original_directories": [
+        "实验/实验130_语义多关系诊断改进"
+      ],
+      "restorable_files": 3781,
+      "restorable_bytes": 1018353808,
+      "unavailable_files": 0,
+      "unavailable_bytes": 0,
+      "snapshot_conflicts": [],
+      "portable_record_files": 3258,
+      "local_parameter_and_cache_files": 523,
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "131",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment131",
+      "original_directories": [
+        "实验/实验131_RQ1快速方法筛选"
+      ],
+      "restorable_files": 9741,
+      "restorable_bytes": 2646012277,
+      "unavailable_files": 0,
+      "unavailable_bytes": 0,
+      "snapshot_conflicts": [],
+      "portable_record_files": 9400,
+      "local_parameter_and_cache_files": 341,
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "132",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment132",
+      "original_directories": [
+        "实验/实验132_论文驱动三案归因对比"
+      ],
+      "restorable_files": 2346,
+      "restorable_bytes": 40834399,
+      "unavailable_files": 0,
+      "unavailable_bytes": 0,
+      "snapshot_conflicts": [],
+      "portable_record_files": 2345,
+      "local_parameter_and_cache_files": 1,
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "133",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment133",
+      "original_directories": [
+        "实验/实验133_状态动作选择性核验"
+      ],
+      "restorable_files": 40,
+      "restorable_bytes": 6928887,
+      "unavailable_files": 10,
+      "unavailable_bytes": 2927479,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 5,
+      "deferred_dependency_bytes": 6427206
+    },
+    {
+      "experiment": "134",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment134",
+      "original_directories": [
+        "实验/实验134_状态动作表示与关系排序"
+      ],
+      "restorable_files": 127,
+      "restorable_bytes": 23625221,
+      "unavailable_files": 155,
+      "unavailable_bytes": 152959273,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 12,
+      "deferred_dependency_bytes": 12867454
+    },
+    {
+      "experiment": "135",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment135",
+      "original_directories": [
+        "实验/实验135_冻结节点模型前瞻确认"
+      ],
+      "restorable_files": 59,
+      "restorable_bytes": 6995146,
+      "unavailable_files": 23,
+      "unavailable_bytes": 79019973,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 5,
+      "deferred_dependency_bytes": 6427206
+    },
+    {
+      "experiment": "136",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment136",
+      "original_directories": [
+        "实验/实验136_AB性能与机制确认"
+      ],
+      "restorable_files": 73,
+      "restorable_bytes": 7073542,
+      "unavailable_files": 83,
+      "unavailable_bytes": 167014563,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 5,
+      "deferred_dependency_bytes": 6427206
+    },
+    {
+      "experiment": "137",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment137",
+      "original_directories": [
+        "实验/实验137_冻结模型范围压力核验"
+      ],
+      "restorable_files": 27,
+      "restorable_bytes": 157331,
+      "unavailable_files": 20,
+      "unavailable_bytes": 99426881,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "147",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment147",
+      "original_directories": [
+        "实验/实验147_无ID公开请求联系残差"
+      ],
+      "restorable_files": 244,
+      "restorable_bytes": 941561,
+      "unavailable_files": 308,
+      "unavailable_bytes": 76797303,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "148",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment148",
+      "original_directories": [
+        "实验/实验148_冻结主干与动态邻域读出"
+      ],
+      "restorable_files": 220,
+      "restorable_bytes": 863419,
+      "unavailable_files": 322,
+      "unavailable_bytes": 122424448,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "149",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment149",
+      "original_directories": [
+        "实验/实验149_任务步骤联合编码"
+      ],
+      "restorable_files": 318,
+      "restorable_bytes": 1245082,
+      "unavailable_files": 485,
+      "unavailable_bytes": 300030381,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "150",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment150",
+      "original_directories": [
+        "实验/实验150_统一任务排序与恢复"
+      ],
+      "restorable_files": 1943,
+      "restorable_bytes": 33560943,
+      "unavailable_files": 352,
+      "unavailable_bytes": 27846054,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "151",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment151",
+      "original_directories": [
+        "实验/实验151_排序引导的累积闭包恢复"
+      ],
+      "restorable_files": 1171,
+      "restorable_bytes": 17948257,
+      "unavailable_files": 222,
+      "unavailable_bytes": 48699262,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 6,
+      "deferred_dependency_bytes": 20838
+    },
+    {
+      "experiment": "152",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment152",
+      "original_directories": [
+        "实验/实验152_可见反馈双向依赖修复"
+      ],
+      "restorable_files": 1572,
+      "restorable_bytes": 24694974,
+      "unavailable_files": 288,
+      "unavailable_bytes": 30326630,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 10,
+      "deferred_dependency_bytes": 34750
+    },
+    {
+      "experiment": "152C",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment152C",
+      "original_directories": [
+        "实验/实验152C_输入隔离修正重跑"
+      ],
+      "restorable_files": 1576,
+      "restorable_bytes": 24773573,
+      "unavailable_files": 290,
+      "unavailable_bytes": 30644923,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 10,
+      "deferred_dependency_bytes": 34750
+    },
+    {
+      "experiment": "153",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment153",
+      "original_directories": [
+        "实验/实验153_候选条件全轨迹上下文"
+      ],
+      "restorable_files": 729,
+      "restorable_bytes": 14634999,
+      "unavailable_files": 1241,
+      "unavailable_bytes": 2419194021,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "154",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment154",
+      "original_directories": [
+        "实验/实验154_固定主模型的机制强对照"
+      ],
+      "restorable_files": 294,
+      "restorable_bytes": 1649653,
+      "unavailable_files": 491,
+      "unavailable_bytes": 974769037,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "155",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment155",
+      "original_directories": [
+        "实验/实验155_固定方法三种子分组复验"
+      ],
+      "restorable_files": 550,
+      "restorable_bytes": 3100091,
+      "unavailable_files": 979,
+      "unavailable_bytes": 1760617678,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "156",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment156",
+      "original_directories": [
+        "实验/实验156_固定模型位置角色强对照"
+      ],
+      "restorable_files": 23,
+      "restorable_bytes": 3762692,
+      "unavailable_files": 124,
+      "unavailable_bytes": 133998088,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "157",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment157",
+      "original_directories": [
+        "实验/实验157_固定模型数据划分敏感性"
+      ],
+      "restorable_files": 603,
+      "restorable_bytes": 3679999,
+      "unavailable_files": 953,
+      "unavailable_bytes": 1783464581,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "158",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment158",
+      "original_directories": [
+        "实验/实验158_StepFinder论文双预设强对照"
+      ],
+      "restorable_files": 143,
+      "restorable_bytes": 1226175,
+      "unavailable_files": 264,
+      "unavailable_bytes": 503822203,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "159",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment159",
+      "original_directories": [
+        "实验/实验159_论文强基线跨划分复验"
+      ],
+      "restorable_files": 57,
+      "restorable_bytes": 469753,
+      "unavailable_files": 211,
+      "unavailable_bytes": 298873939,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "160",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment160",
+      "original_directories": [
+        "实验/实验160_固定候选方差与预算诊断"
+      ],
+      "restorable_files": 27,
+      "restorable_bytes": 614377,
+      "unavailable_files": 20,
+      "unavailable_bytes": 64883046,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "161",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment161",
+      "original_directories": [
+        "实验/实验161_公开任务近似与泛化边界"
+      ],
+      "restorable_files": 31,
+      "restorable_bytes": 192823,
+      "unavailable_files": 12,
+      "unavailable_bytes": 34371751,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "162",
+      "rq": "RQ1",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq1/experiment162",
+      "original_directories": [
+        "实验/实验162_显式标记覆盖与成绩边界"
+      ],
+      "restorable_files": 34,
+      "restorable_bytes": 893962,
+      "unavailable_files": 12,
+      "unavailable_bytes": 18184969,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "174",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment174",
+      "original_directories": [
+        "实验/实验174_Flash完整恢复可行性小试"
+      ],
+      "restorable_files": 294,
+      "restorable_bytes": 845253,
+      "unavailable_files": 64,
+      "unavailable_bytes": 13776965,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 12,
+      "deferred_dependency_bytes": 418195
+    },
+    {
+      "experiment": "175",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment175",
+      "original_directories": [
+        "实验/实验175_EnAgent正式论文完整小试"
+      ],
+      "restorable_files": 69,
+      "restorable_bytes": 331976,
+      "unavailable_files": 20,
+      "unavailable_bytes": 524850,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 695,
+      "deferred_dependency_bytes": 14931907
+    },
+    {
+      "experiment": "176",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment176",
+      "original_directories": [
+        "实验/实验176_Flash六任务完整恢复与排序证据控制"
+      ],
+      "restorable_files": 488,
+      "restorable_bytes": 1853714,
+      "unavailable_files": 127,
+      "unavailable_bytes": 17450258,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 8,
+      "deferred_dependency_bytes": 193341
+    },
+    {
+      "experiment": "178",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment178",
+      "original_directories": [
+        "实验/实验178_公平输出预算与诊断引导语义恢复"
+      ],
+      "restorable_files": 1122,
+      "restorable_bytes": 7661240,
+      "unavailable_files": 117,
+      "unavailable_bytes": 56351810,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 6709,
+      "deferred_dependency_bytes": 71686172
+    },
+    {
+      "experiment": "183",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment183",
+      "original_directories": [
+        "实验/实验183_固定十二题完整恢复与排序对照"
+      ],
+      "restorable_files": 479,
+      "restorable_bytes": 10377179,
+      "unavailable_files": 140,
+      "unavailable_bytes": 74057082,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 5,
+      "deferred_dependency_bytes": 291298
+    },
+    {
+      "experiment": "191",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment191",
+      "original_directories": [
+        "实验/实验191_十五题公开排序与约束输出接口资格"
+      ],
+      "restorable_files": 153,
+      "restorable_bytes": 1035093,
+      "unavailable_files": 122,
+      "unavailable_bytes": 168421241,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "224",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment224",
+      "original_directories": [
+        "sealed-root/实验",
+        "实验/实验224_二十三题Flash完整共同恢复比较"
+      ],
+      "restorable_files": 3882,
+      "restorable_bytes": 198356795,
+      "unavailable_files": 38,
+      "unavailable_bytes": 178572499,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "225",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment225",
+      "original_directories": [
+        "sealed-root/实验",
+        "实验/实验225_二十三题EnAgentFlash完整恢复"
+      ],
+      "restorable_files": 13532,
+      "restorable_bytes": 179418793,
+      "unavailable_files": 49,
+      "unavailable_bytes": 1787225,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 4855,
+      "deferred_dependency_bytes": 53823084
+    },
+    {
+      "experiment": "239",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment239",
+      "original_directories": [
+        "sealed-root/实验",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然10_Moto5406_SourceIOV4",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然11_Moto6387_SourceIOV4",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然4_Moto6352",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然5_Pydantic8567",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然6_Mypy10392",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然7_Mypy11134_InitialV3",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然8_Moto7081_InitialV3",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然8_Moto7081_SourceIOV4",
+        "实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然9_Moto6212_SourceIOV4",
+        "实验/实验239_EnAgentFlash原auto完整小试",
+        "实验/实验239_EnAgentFlash新确认集21",
+        "实验/实验239_EnAgent_Scope242六题新窗口_SOURCE",
+        "实验/实验239_EnAgent_统一六题财政V3_SOURCE"
+      ],
+      "restorable_files": 11191,
+      "restorable_bytes": 143326909,
+      "unavailable_files": 1223,
+      "unavailable_bytes": 491765308,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 5508,
+      "deferred_dependency_bytes": 86817604
+    },
+    {
+      "experiment": "240",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment240",
+      "original_directories": [
+        "sealed-root/实验",
+        "实验/实验240_修复进展保护V4_Moto5406自然index10源码准备",
+        "实验/实验240_修复进展保护V4_Moto6387自然index11源码准备",
+        "实验/实验240_修复进展保护V4_自然两题源码准备",
+        "实验/实验240_消费者闭合与状态保护_共享错误池V3",
+        "实验/实验240_消费者闭合与状态保护_共享错误池V3_Mypy10392_BASE侧车",
+        "实验/实验240_消费者闭合与状态保护_共享错误池V3_自然第七题",
+        "实验/实验240_消费者闭合与状态保护_共享错误池V3_自然第九题",
+        "实验/实验240_消费者闭合与状态保护_共享错误池V3_自然第五题",
+        "实验/实验240_消费者闭合与状态保护_共享错误池V3_自然第八题",
+        "实验/实验240_消费者闭合与状态保护_共享错误池V3_自然第六题",
+        "实验/实验240_消费者闭合与状态保护新确认集21",
+        "实验/实验240_消费者闭合与状态保护机制"
+      ],
+      "restorable_files": 2847,
+      "restorable_bytes": 203040408,
+      "unavailable_files": 197,
+      "unavailable_bytes": 68201874,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 20,
+      "deferred_dependency_bytes": 1039982
+    },
+    {
+      "experiment": "241",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment241",
+      "original_directories": [
+        "sealed-root/实验",
+        "实验/实验241_Agentless严格V2完整共同恢复",
+        "实验/实验241_Agentless新确认集21",
+        "实验/实验241_Agentless新确认集21_生成测试ScopeV2",
+        "实验/实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容",
+        "实验/实验241_Agentless新确认集21_自然10_WarmPublicIndexV1",
+        "实验/实验241_Agentless统一六题论文主配置新窗口"
+      ],
+      "restorable_files": 9361,
+      "restorable_bytes": 541895198,
+      "unavailable_files": 485,
+      "unavailable_bytes": 281833405,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 568,
+      "deferred_dependency_bytes": 8154372
+    },
+    {
+      "experiment": "245",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment245",
+      "original_directories": [
+        "实验/实验245_EnAgent论文完整配置无外部预算"
+      ],
+      "restorable_files": 1211,
+      "restorable_bytes": 7574052,
+      "unavailable_files": 1960,
+      "unavailable_bytes": 124727730,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 500,
+      "deferred_dependency_bytes": 9304758
+    },
+    {
+      "experiment": "246",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment246",
+      "original_directories": [
+        "实验/实验246_Agentless论文完整配置无外部预算"
+      ],
+      "restorable_files": 43,
+      "restorable_bytes": 236655,
+      "unavailable_files": 15,
+      "unavailable_bytes": 3977276,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "247",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment247",
+      "original_directories": [
+        "实验/实验247_本文完整排序证据无外部预算"
+      ],
+      "restorable_files": 141,
+      "restorable_bytes": 2310452,
+      "unavailable_files": 53,
+      "unavailable_bytes": 134711388,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "248",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment248",
+      "original_directories": [
+        "实验/实验248_当前失败反馈绑定与修复闭包"
+      ],
+      "restorable_files": 202,
+      "restorable_bytes": 768668,
+      "unavailable_files": 85,
+      "unavailable_bytes": 285919682,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 0,
+      "deferred_dependency_bytes": 0
+    },
+    {
+      "experiment": "249",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249",
+      "original_directories": [
+        "实验/实验249_固定顺序新任务共同确认"
+      ],
+      "restorable_files": 2917,
+      "restorable_bytes": 16240465,
+      "unavailable_files": 822,
+      "unavailable_bytes": 1083243198,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 1,
+      "deferred_dependency_bytes": 1070
+    },
+    {
+      "experiment": "250",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment250",
+      "original_directories": [
+        "实验/实验250_EnAgent新任务概率性共同确认"
+      ],
+      "restorable_files": 23965,
+      "restorable_bytes": 236441160,
+      "unavailable_files": 27162,
+      "unavailable_bytes": 7210777475,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 6,
+      "deferred_dependency_bytes": 140322
+    },
+    {
+      "experiment": "251",
+      "rq": "RQ2",
+      "restore_to": ".rebuild/paper-inputs/retained-experiments/rq2/experiment251",
+      "original_directories": [
+        "实验/实验251_Agentless完整参数新任务共同确认"
+      ],
+      "restorable_files": 9012,
+      "restorable_bytes": 21533586,
+      "unavailable_files": 3372,
+      "unavailable_bytes": 7658459304,
+      "snapshot_conflicts": [],
+      "deferred_dependency_files": 1,
+      "deferred_dependency_bytes": 1070
+    }
+  ],
+  "excluded_execution_clone_files": {
+    "150": 138477,
+    "151": 78447,
+    "152": 100416,
+    "152C": 100416,
+    "174": 2326,
+    "224": 91512,
+    "225": 20803,
+    "175": 697,
+    "176": 13072,
+    "178": 44340,
+    "183": 48166,
+    "239": 148331,
+    "240": 128615,
+    "241": 197141,
+    "245": 3881,
+    "247": 4072,
+    "248": 9402,
+    "249": 121668,
+    "250": 29280,
+    "251": 136632
+  },
+  "candidates_without_sealed_scope": [
+    "138",
+    "143",
+    "144",
+    "145",
+    "146"
+  ],
+  "recovered_file_map": "manifests/retained_feasibility_experiments.files.jsonl.gz",
+  "unavailable_file_map": "manifests/retained_feasibility_experiments.unavailable.jsonl.gz",
+  "retained_asset": "retained-feasibility-experiments-original.tar.gz",
+  "restored_file_count": 106709,
+  "restored_byte_count": 5478983451,
+  "unavailable_file_count": 42916,
+  "all_restored_files_byte_verified": true,
+  "restoration_scope": "Original experiment sources and surviving evidence are restored exactly. Removed archive assets and dependent historical tensor layouts are unavailable. Fixed-upstream sources, package copies and source-delta dependencies not needed for inspecting the retained research evidence are separately listed as deferred, not reported as lost data.",
+  "early_rq1_original_local_archive": ".restore-cache/rq1-ranking-development-original.tar.gz",
+  "early_rq1_portable_records_asset": "rq1-ranking-development-records-original.tar.gz",
+  "early_rq1_parameter_and_cache_backup_scope": "All four original experiment directories restored locally. Private portable records bundle excludes historical .pt/.npy/.npz and ZIP caches; current three ranking checkpoints and current training inputs remain backed up by the existing current-method and research-data bundles.",
+  "deferred_dependency_file_map": "manifests/retained_feasibility_experiments.dependencies.jsonl.gz",
+  "supplementary_original_records_asset": "rq1-supplementary-original-records.tar.gz",
+  "deferred_dependency_file_count": 18941
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "call_id": "getmoto__moto-6352|sft:328|call:7",
+    "call_index": 7,
+    "message_index": 16,
+    "state_path": "repo/moto/secretsmanager/responses.py",
+    "source_command": "str_replace",
+    "source_parameters": {
+      "command": "str_replace",
+      "new_str": "        description = self._get_param(\"Description\")\n        return self.backend.update_secret(\n            secret_id=secret_id,\n            secret_string=secret_string,\n            secret_binary=secret_binary,\n            client_request_token=client_request_token,\n            kms_key_id=kms_key_id,\n            description=description,\n        )",
+      "old_str": "        return self.backend.update_secret(\n            secret_id=secret_id,\n            secret_string=secret_string,\n            secret_binary=secret_binary,\n            client_request_token=client_request_token,\n            kms_key_id=kms_key_id,\n        )",
+      "path": "/workspace/getmoto__moto__4.1/moto/secretsmanager/responses.py"
+    },
+    "serialized_parameters": {
+      "command": "str_replace",
+      "new_str": "\n        description = self._get_param(\"Description\")\n        return self.backend.update_secret(\n            secret_id=secret_id,\n            secret_string=secret_string,\n            secret_binary=secret_binary,\n            client_request_token=client_request_token,\n            kms_key_id=kms_key_id,\n            description=description,\n        )\n",
+      "old_str": "\n        return self.backend.update_secret(\n            secret_id=secret_id,\n            secret_string=secret_string,\n            secret_binary=secret_binary,\n            client_request_token=client_request_token,\n            kms_key_id=kms_key_id,\n        )\n",
+      "path": "/workspace/getmoto__moto__4.1/moto/secretsmanager/responses.py"
+    },
+    "parameter_codec": "SWE-Gym-OpenHands-forward-serializer-left-inverse/1.0",
+    "source_outcome": "reported_success",
+    "before": {
+      "sha256": "d9e0a1bee9d19a53379e17cd8e27e292bc897ed6aee1555a399b485e2a6b2346",
+      "bytes": 9090,
+      "blob": "blobs/d9e0a1bee9d19a53379e17cd8e27e292bc897ed6aee1555a399b485e2a6b2346"
+    },
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "new_str": "        description = self._get_param(\"Description\")\n        return self.backend.update_secret(\n            secret_id=secret_id,\n            secret_string=secret_string,\n            secret_binary=secret_binary,\n            client_request_token=client_request_token,\n            kms_key_id=kms_key_id,\n            description=description,\n        )",
+      "old_str": "        return self.backend.update_secret(\n            secret_id=secret_id,\n            secret_string=secret_string,\n            secret_binary=secret_binary,\n            client_request_token=client_request_token,\n            kms_key_id=kms_key_id,\n        )",
+      "path": "/workspace/getmoto__moto__4.1/moto/secretsmanager/responses.py"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "d1faaf95122c25e9ef13ad0ee433430702a1bd481e7c8606c61b6cbf29333605",
+      "bytes": 9180,
+      "blob": "blobs/d1faaf95122c25e9ef13ad0ee433430702a1bd481e7c8606c61b6cbf29333605"
+    }
+  }
+]

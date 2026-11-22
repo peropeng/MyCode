@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-11-02T02:02:45.369571+08:00",
+  "cleanup_pass_finished": true,
+  "current_method_verified_after_cleanup": true,
+  "historical_conclusion_documents": 348,
+  "former_workspace_directories": 278,
+  "remaining_workspace_directories": 1,
+  "old_registered_git_worktrees_after_prune": 1,
+  "free_bytes_before": 3375443968,
+  "free_bytes_after": 218791075840,
+  "disk_free_bytes_net_increase": 215415631872,
+  "measurement": "Net change in available disk space during cleanup, including task temporary directories and worktree metadata pruning",
+  "protected_cache_file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure\\2.0.1\\Te18Ffx5zD5iOETA\\sure-2.0.1-py3-none-any.whl",
+  "protected_cache_file_bytes": 35778,
+  "acl_repair_automatic_approval_rejected": true,
+  "acl_changed": false,
+  "source_repository": "https://github.com/peropeng/graduate-thesis",
+  "release_asset_bytes": 33792000,
+  "historical_release_bytes_removed": 19935027200
+}

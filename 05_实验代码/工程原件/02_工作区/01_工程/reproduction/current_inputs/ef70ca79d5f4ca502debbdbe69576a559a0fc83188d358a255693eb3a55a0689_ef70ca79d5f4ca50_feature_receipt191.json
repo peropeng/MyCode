@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "task_id": "getmoto__moto-5406",
+      "new_encoder_batches": 6,
+      "input_turns_sha256": "fcb2bf6f90c29a53a69484fe903c6b78fe55b3def9d69e7fbbc507124a9c0c8f",
+      "source": "ORIGINAL_QWEN_CONTENT128_ROLE32_RAW_FLOAT32",
+      "observed_state_action_links": []
+    },
+    {
+      "task_id": "getmoto__moto-6387",
+      "new_encoder_batches": 29,
+      "input_turns_sha256": "dca7448fbce46decc08ac8d8675e96668ff58c4d0b916514dc2d4d63d3fa34af",
+      "source": "ORIGINAL_QWEN_CONTENT128_ROLE32_RAW_FLOAT32",
+      "observed_state_action_links": []
+    },
+    {
+      "task_id": "getmoto__moto-5980",
+      "new_encoder_batches": 12,
+      "input_turns_sha256": "5ef95bbd85e3fa87519d4536e3f9b32da372e16ad3ce5d15ee59dbb57b1f94f0",
+      "source": "ORIGINAL_QWEN_CONTENT128_ROLE32_RAW_FLOAT32",
+      "observed_state_action_links": []
+    }
+  ],
+  "feature_sha256": "0b8932b6ed7d83dcf5208eb2dcb148267a13f2e1cb9f3f36e77f1eb7b319eea6",
+  "actual_counts": {
+    "tokenizer_loads": 1,
+    "tokenizer_prechecks": 46,
+    "encoder_loads": 1,
+    "encoder_forward_batches": 47,
+    "ranker_loads": 0,
+    "ranker_forward_batches": 0,
+    "ranker_task_outputs": 0,
+    "training": 0,
+    "new_weights": 0,
+    "historical_generation": 0,
+    "native": 0,
+    "paid": 0
+  }
+}

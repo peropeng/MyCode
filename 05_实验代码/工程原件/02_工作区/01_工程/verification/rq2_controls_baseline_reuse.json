@@ -1,0 +1,465 @@
+{
+  "schema": "rq2-controls.baseline-reuse.v1",
+  "at_utc": "2026-11-17T17:41:40.535406+00:00",
+  "scope": "Publicly structured candidates, then disclosed historical normal-failure pressure case. No API or native task testing by auditor.",
+  "active_tasks": [
+    "getmoto__moto-5516",
+    "getmoto__moto-7081",
+    "getmoto__moto-6212"
+  ],
+  "backup": "getmoto__moto-6387",
+  "tasks": {
+    "getmoto__moto-5516": {
+      "public_problem": "取消Spot Fleet而不终止实例后应保留舰队和实例，随后仍可终止；当前公开反馈是取消后描述结果为空。",
+      "selected_active": true,
+      "common_contract": {
+        "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/last_nine_qualification_SOURCE/contracts/getmoto__moto-5516/public_contract.json",
+        "sha256": "dbdb18c68324b1ddf43d885ae0f13ca1e821a7e58842e52f1bc23667b28d165d"
+      },
+      "input_digest": "3b2653ade8915e5a8f00adcf7e46a877a983bd24ac876c99b4221953bfff1743",
+      "C0_business_inventory_sha256": "5a5fe6519b9e845d04bc1355489c867b5eec1fe695ebc96e014486309dfe1cae",
+      "public_goal_count": 1,
+      "ordinary_count": 1,
+      "baselines": {
+        "AOrchestra": {
+          "state": "UNTESTED_THIS_TASK",
+          "whole_flow_completed_elsewhere": "Dask9378 only",
+          "result": null,
+          "action": "Do not label as failure. New complete author-flow task only if parent elects to fill baseline gap, with current authorization and same C0/info/acceptance."
+        },
+        "Agentless": {
+          "state": "COMPLETED_NATURAL_NORMAL_FAILURE_DO_NOT_RERUN",
+          "successes": 0,
+          "total": 1,
+          "natural_success": false,
+          "known_complete": true,
+          "fixed30_success": false,
+          "actual_model_intents_or_calls_as_recorded": 16,
+          "actual_settled_responses": 16,
+          "output_tokens": 5187,
+          "usage_fee_upper_CNY": "0.15183478",
+          "same_input_bindings_from_common_protocol": {
+            "input_digest": true,
+            "pack": true,
+            "semantic": true,
+            "C0_inventory": true
+          },
+          "public_GO_match_basis": "Common comparison contract and original shared V2 public-pack bindings; no new private-node inspection by auditor. Direct per-node union check kept separate from raw private outcomes.",
+          "original_configuration": "4L/4P/4T complete Agentless stages",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-five-continue/FULLRUN_FIXED_FIVE_COMPARISON.json",
+              "sha256": "d18628729f5f5ef8f5e4c2fed92d618f31f15fc476d575595a76f5f706e0e0fc"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-two-hour-common/FIXED30_BUDGET_ENDPOINT_REPORT.json",
+              "sha256": "f1cb6c3d777f6e4a991494efc3aaad27ff4a51188225dfacffca05a9e8846270"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/source/工作区/1011-five-continue/enagent_checkpoint_pathfix_SOURCE/protocol225.json",
+              "sha256": "39db27f40a7dc39c2753a54d7b10de02b53c3c44fcbeb8070de5186193770488"
+            }
+          ],
+          "action": "Reuse terminal. A changed method/config is a separately labeled development condition, not continuation of this finished negative."
+        },
+        "EnAgent": {
+          "state": "COMPLETED_NATURAL_NORMAL_FAILURE_DO_NOT_RERUN",
+          "successes": 0,
+          "total": 1,
+          "natural_success": false,
+          "known_complete": true,
+          "fixed30_success": false,
+          "actual_model_intents_or_calls_as_recorded": 94,
+          "actual_settled_responses": 94,
+          "output_tokens": 44817,
+          "usage_fee_upper_CNY": "0.71727248",
+          "same_input_bindings_from_common_protocol": {
+            "input_digest": true,
+            "pack": true,
+            "semantic": true,
+            "C0_inventory": true
+          },
+          "public_GO_match_basis": "Common comparison contract and original shared V2 public-pack bindings; no new private-node inspection by auditor. Direct per-node union check kept separate from raw private outcomes.",
+          "original_configuration": "N2/coder24/selector30 complete EnAgent stages",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-five-continue/FULLRUN_FIXED_FIVE_COMPARISON.json",
+              "sha256": "d18628729f5f5ef8f5e4c2fed92d618f31f15fc476d575595a76f5f706e0e0fc"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-two-hour-common/FIXED30_BUDGET_ENDPOINT_REPORT.json",
+              "sha256": "f1cb6c3d777f6e4a991494efc3aaad27ff4a51188225dfacffca05a9e8846270"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/source/工作区/1011-five-continue/enagent_checkpoint_pathfix_SOURCE/protocol225.json",
+              "sha256": "39db27f40a7dc39c2753a54d7b10de02b53c3c44fcbeb8070de5186193770488"
+            }
+          ],
+          "action": "Reuse terminal. A changed method/config is a separately labeled development condition, not continuation of this finished negative."
+        }
+      },
+      "new_API_requests_by_auditor": 0,
+      "natural_RSR_headroom": "Both historical complete methods failed; any recovery is a real development improvement opportunity, not guaranteed and not an independent holdout.",
+      "public_scope_direct_checks": {
+        "initial_failure_keys_equal_common_goals": true,
+        "public_spec_matches_common_ordinary": false,
+        "visible_target_names_match_common_goals": true
+      },
+      "failure_mechanism_evidence": {
+        "public_initial_failure": "After cancel without terminate, describe_spot_fleet_requests returns an empty fleet list instead of retaining one.",
+        "EnAgent_selected_patch_public": "Changed SpotFleetBackend cancel logic in spot_requests.py to keep the dictionary entry and assign cancelled_running/cancelled_terminating; changed response flag parsing to bool. Its own completed final still fails public target.",
+        "EnAgent_generator_candidate_status": "Two generation routes, first no patch, second reached24 steps with nonempty patch, ordinary pruning retained it; selector voted candidate1 twice. Complete pipeline can naturally fail despite ordinary tests passing.",
+        "baseline_patch_changed_paths": [
+          "moto/ec2/models/spot_requests.py",
+          "moto/ec2/responses/spot_fleets.py"
+        ],
+        "new_rank_history_edited_path": "moto/ec2/models/fleets.py",
+        "opportunity_not_guarantee": "EC2 Fleet and Spot Fleet are distinct resource paths despite similar names. History-only snippets can be misleading; current public failure and actual handler/backend must be checked to reach the right current source. A ranking win is not established by path names.",
+        "source": {
+          "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-five-continue/enagent_checkpoint_pathfix_SOURCE/leases/lease_004/f/getmoto__moto-5516/ENAGENT_BUDGET_N2_C24_S30_GO_FLASH/immutable_selection.json",
+          "sha256": "43863b335073ac5aa5914c4da99445240926323cc3981af760296e2cd0c00630"
+        },
+        "private_details_read": false
+      }
+    },
+    "getmoto__moto-7081": {
+      "public_problem": "IoT thing创建、读取和更新的响应须保留thingId；历史涉及模型提供方和响应端。",
+      "selected_active": true,
+      "common_contract": {
+        "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/next_six_qualification_SOURCE/contracts/getmoto__moto-7081/public_contract.json",
+        "sha256": "80e4d54a0ac89c181f16dfbd014a25f374f6fe6e3a80782a354cf8d208797f70"
+      },
+      "input_digest": "e6e111f17aee92e4f0967db4307002ed9b7c44eea815fc9f97faa0fdf752de2c",
+      "C0_business_inventory_sha256": "56581e4a9525cb3b297ac9c72dfc128cba1c88997501a65f78f593ef2a051c7c",
+      "public_goal_count": 3,
+      "ordinary_count": 1,
+      "baselines": {
+        "AOrchestra": {
+          "state": "UNTESTED_THIS_TASK",
+          "whole_flow_completed_elsewhere": "Dask9378 only",
+          "result": null,
+          "action": "Do not label as failure. New complete author-flow task only if parent elects to fill baseline gap, with current authorization and same C0/info/acceptance."
+        },
+        "EnAgent": {
+          "state": "COMPLETED_NATURAL_SUCCESS_DO_NOT_RERUN",
+          "successes": 1,
+          "total": 1,
+          "natural_success": true,
+          "original_900s_success": true,
+          "original_seconds": 673.344000000041,
+          "actual_requests": 61,
+          "output_tokens": 15039,
+          "usage_fee_upper_CNY": "0.22601808",
+          "same_input_bindings": {
+            "input_digest": true,
+            "pack": true,
+            "semantic": true,
+            "C0_inventory": true
+          },
+          "original_configuration": {
+            "flow_wall_seconds": 900,
+            "max_model_calls_per_flow": 64,
+            "max_output_tokens_per_flow": 65536,
+            "role_output_caps": {
+              "agentless_localize": 8192,
+              "agentless_patch": 16384,
+              "agentless_reproduction": 8192,
+              "agentless_regression_or_vote": 4096,
+              "enagent_coder": 8192,
+              "enagent_tester": 4096,
+              "enagent_selector": 4096,
+              "ours_patch": 16384
+            },
+            "enagent_coder_max_steps": 24,
+            "enagent_selector_max_turn": 6,
+            "max_git_bash_roots_per_flow": 12,
+            "native_roots_total": 64,
+            "native_timeout_seconds": 90,
+            "shell_timeout_seconds": 45,
+            "final_reserve_seconds": 90,
+            "master_seed": 20261008,
+            "enagent_ensemble_size": 2,
+            "enagent_selector_vote_max": 2,
+            "declared_model_call_upper": 61
+          },
+          "configuration_limit": "Full stages preserved but N2/coder24/selector6 resource setting, not later 250 N3/coder200/selector30. Stale protocol.algorithm text says N3 and is not used as actual configuration.",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment239/实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然8_Moto7081_SourceIOV4/protocol225.json",
+              "sha256": "fe5dbdab41814d1ae1ede44215dd47ff769533af1d98ffdc697f40872c69501f"
+            },
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment239/实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然8_Moto7081_SourceIOV4/SCIENCE_RESULT239_V3_MOTO7081_SOURCEIOV4.json",
+              "sha256": "3600ce36a8727baccb5e340b945f49c1b7928439e33ef9201413afcea058a76d"
+            }
+          ],
+          "action": "Reuse completed fixed-configuration result; do not continue natural terminal."
+        },
+        "Agentless": {
+          "state": "COMPLETED_NATURAL_SUCCESS_DO_NOT_RERUN",
+          "successes": 1,
+          "total": 1,
+          "natural_success": true,
+          "original_900s_success": true,
+          "original_seconds": 332.4681329727173,
+          "actual_requests": 16,
+          "output_tokens": 3946,
+          "usage_fee_upper_CNY": "0.02913060",
+          "same_input_bindings": {
+            "input_digest": true,
+            "semantic_sha256": true,
+            "c0_business_inventory_sha256": true,
+            "c0_business_paths_sha256": true,
+            "public_target_nodes": true,
+            "ordinary_nodes": true,
+            "pack_sha256": true,
+            "registry_sha256": true,
+            "frozen_inventory": true
+          },
+          "original_configuration": "4 fine localizations, 4 total patches, 4 reproduction samples; full stages at a lower budget point, not later 251 default 4x10 patches/40 tests.",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment241/实验/实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容/candidate/getmoto__moto-7081/public_contract.json",
+              "sha256": "4c7b934e4a41ad2e4669529c2139c34bd5fa217c7b58eb5c0098d8d822a141ec"
+            },
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment241/实验/实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容/candidate/getmoto__moto-7081/TERMINAL_PACKET241.json",
+              "sha256": "6aef66e871d59408bd09578e3f8c0c49c14a55a8c032868d9690fb839f6b78b5"
+            }
+          ],
+          "action": "Reuse completed result; no new independent validation or generation required for this historical scope."
+        }
+      },
+      "new_API_requests_by_auditor": 0,
+      "natural_RSR_headroom": "None against these two already-successful historical deployments on this task. Can study cost/finite-budget effects and ranking information, not claim natural-rate improvement."
+    },
+    "getmoto__moto-6212": {
+      "public_problem": "Athena默认primary工作组配置应保持与显式工作组相同的对象结构，不能留下字典/对象混用。",
+      "selected_active": true,
+      "common_contract": {
+        "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/next_six_qualification_SOURCE/contracts/getmoto__moto-6212/public_contract.json",
+        "sha256": "99e8793afe8ec26fa45eb9350e03f61652b7aa98382977e709ffef8b6d9a5fec"
+      },
+      "input_digest": "5c2f5293d225f01f83be851358a1c9a7914f26b0dfeb3c4143ea2f0baa99e058",
+      "C0_business_inventory_sha256": "442ec4a6d5a3db700a82f49648cb72d2cb1ff168f5ec624da5aaba20e09c092a",
+      "public_goal_count": 1,
+      "ordinary_count": 1,
+      "baselines": {
+        "AOrchestra": {
+          "state": "UNTESTED_THIS_TASK",
+          "whole_flow_completed_elsewhere": "Dask9378 only",
+          "result": null,
+          "action": "Do not label as failure. New complete author-flow task only if parent elects to fill baseline gap, with current authorization and same C0/info/acceptance."
+        },
+        "EnAgent": {
+          "state": "COMPLETED_NATURAL_SUCCESS_DO_NOT_RERUN",
+          "successes": 1,
+          "total": 1,
+          "natural_success": true,
+          "original_900s_success": true,
+          "original_seconds": 726.5779999999795,
+          "actual_requests": 61,
+          "output_tokens": 12784,
+          "usage_fee_upper_CNY": "0.24863940",
+          "same_input_bindings": {
+            "input_digest": true,
+            "pack": true,
+            "semantic": true,
+            "C0_inventory": true
+          },
+          "original_configuration": {
+            "flow_wall_seconds": 900,
+            "max_model_calls_per_flow": 64,
+            "max_output_tokens_per_flow": 65536,
+            "role_output_caps": {
+              "agentless_localize": 8192,
+              "agentless_patch": 16384,
+              "agentless_reproduction": 8192,
+              "agentless_regression_or_vote": 4096,
+              "enagent_coder": 8192,
+              "enagent_tester": 4096,
+              "enagent_selector": 4096,
+              "ours_patch": 16384
+            },
+            "enagent_coder_max_steps": 24,
+            "enagent_selector_max_turn": 6,
+            "max_git_bash_roots_per_flow": 12,
+            "native_roots_total": 64,
+            "native_timeout_seconds": 90,
+            "shell_timeout_seconds": 45,
+            "final_reserve_seconds": 90,
+            "master_seed": 20261008,
+            "enagent_ensemble_size": 2,
+            "enagent_selector_vote_max": 2,
+            "declared_model_call_upper": 61
+          },
+          "configuration_limit": "Full stages preserved but N2/coder24/selector6 resource setting, not later 250 N3/coder200/selector30. Stale protocol.algorithm text says N3 and is not used as actual configuration.",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment239/实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然9_Moto6212_SourceIOV4/protocol225.json",
+              "sha256": "e032f4466735eecc01d61871eae93f7acc39e6ba60d41bd594b2f580213a8db4"
+            },
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment239/实验/实验239_EnAgentFlash_N2深度24_工具兼容V3_自然9_Moto6212_SourceIOV4/SCIENCE_RESULT239_V3_MOTO6212_SOURCEIOV4.json",
+              "sha256": "6bc1144fbf09a1e1a4706bfb3ba7f5b0c1d092590f9f06878cf02f4e0a0ff1ea"
+            }
+          ],
+          "action": "Reuse completed fixed-configuration result; do not continue natural terminal."
+        },
+        "Agentless": {
+          "state": "COMPLETED_NATURAL_SUCCESS_DO_NOT_RERUN",
+          "successes": 1,
+          "total": 1,
+          "natural_success": true,
+          "original_900s_success": true,
+          "original_seconds": 317.1489622592926,
+          "actual_requests": 16,
+          "output_tokens": 5205,
+          "usage_fee_upper_CNY": "0.03740146",
+          "same_input_bindings": {
+            "input_digest": true,
+            "semantic_sha256": true,
+            "c0_business_inventory_sha256": true,
+            "c0_business_paths_sha256": true,
+            "public_target_nodes": true,
+            "ordinary_nodes": true,
+            "pack_sha256": true,
+            "registry_sha256": true,
+            "frozen_inventory": true
+          },
+          "original_configuration": "4 fine localizations, 4 total patches, 4 reproduction samples; full stages at a lower budget point, not later 251 default 4x10 patches/40 tests.",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment241/实验/实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容/candidate/getmoto__moto-6212/public_contract.json",
+              "sha256": "864aa0f8f149e9745527ce9e0f83ee2f027e12c5399b03eaab1b2f1d68ade5e5"
+            },
+            {
+              "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment241/实验/实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容/candidate/getmoto__moto-6212/TERMINAL_PACKET241.json",
+              "sha256": "b3f3a63f64e249aa6a80c9ed4d04e7732f8e27f8f137d2a0a5800936726d2031"
+            }
+          ],
+          "action": "Reuse completed result; no new independent validation or generation required for this historical scope."
+        }
+      },
+      "new_API_requests_by_auditor": 0,
+      "natural_RSR_headroom": "None against these two already-successful historical deployments on this task. Can study cost/finite-budget effects and ranking information, not claim natural-rate improvement."
+    },
+    "getmoto__moto-6387": {
+      "public_problem": "CloudFront单个失效路径必须作为一项路径保留，多路径仍逐项处理，不能拆字符串或误读嵌套请求字段。",
+      "selected_active": false,
+      "common_contract": {
+        "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/next_six_qualification_SOURCE/contracts/getmoto__moto-6387/public_contract.json",
+        "sha256": "abc93502fa71d78c73450db6c24b44265a34abe07fd884374d700d984f2c7af6"
+      },
+      "input_digest": "424cdda893364f9173f4aafd7f732cfb7d09295edf213d86a2cb373b30ee167e",
+      "C0_business_inventory_sha256": "ea27a85b5842429d54ef3e90bed9733b740e99368aeef525f0d18147a0e80681",
+      "public_goal_count": 1,
+      "ordinary_count": 1,
+      "baselines": {
+        "AOrchestra": {
+          "state": "UNTESTED_THIS_TASK",
+          "whole_flow_completed_elsewhere": "Dask9378 only",
+          "result": null,
+          "action": "Do not label as failure. New complete author-flow task only if parent elects to fill baseline gap, with current authorization and same C0/info/acceptance."
+        },
+        "Agentless": {
+          "state": "COMPLETED_NATURAL_SUCCESS_DO_NOT_RERUN",
+          "successes": 1,
+          "total": 1,
+          "natural_success": true,
+          "known_complete": true,
+          "fixed30_success": true,
+          "actual_model_intents_or_calls_as_recorded": 16,
+          "actual_settled_responses": 16,
+          "output_tokens": 4684,
+          "usage_fee_upper_CNY": "0.06178588",
+          "same_input_bindings_from_common_protocol": {
+            "input_digest": true,
+            "pack": true,
+            "semantic": true,
+            "C0_inventory": true
+          },
+          "public_GO_match_basis": "Common comparison contract and original shared V2 public-pack bindings; no new private-node inspection by auditor. Direct per-node union check kept separate from raw private outcomes.",
+          "original_configuration": "4L/4P/4T complete Agentless stages",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-five-continue/FULLRUN_FIXED_FIVE_COMPARISON.json",
+              "sha256": "d18628729f5f5ef8f5e4c2fed92d618f31f15fc476d575595a76f5f706e0e0fc"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-two-hour-common/FIXED30_BUDGET_ENDPOINT_REPORT.json",
+              "sha256": "f1cb6c3d777f6e4a991494efc3aaad27ff4a51188225dfacffca05a9e8846270"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/source/工作区/1011-five-continue/enagent_checkpoint_pathfix_SOURCE/protocol225.json",
+              "sha256": "39db27f40a7dc39c2753a54d7b10de02b53c3c44fcbeb8070de5186193770488"
+            }
+          ],
+          "action": "Reuse terminal. A changed method/config is a separately labeled development condition, not continuation of this finished negative."
+        },
+        "EnAgent": {
+          "state": "COMPLETED_NATURAL_SUCCESS_DO_NOT_RERUN",
+          "successes": 1,
+          "total": 1,
+          "natural_success": true,
+          "known_complete": true,
+          "fixed30_success": false,
+          "actual_model_intents_or_calls_as_recorded": 118,
+          "actual_settled_responses": 117,
+          "output_tokens": 36583,
+          "usage_fee_upper_CNY": "0.70515964",
+          "same_input_bindings_from_common_protocol": {
+            "input_digest": true,
+            "pack": true,
+            "semantic": true,
+            "C0_inventory": true
+          },
+          "public_GO_match_basis": "Common comparison contract and original shared V2 public-pack bindings; no new private-node inspection by auditor. Direct per-node union check kept separate from raw private outcomes.",
+          "original_configuration": "N2/coder24/selector30 complete EnAgent stages",
+          "evidence": [
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-five-continue/FULLRUN_FIXED_FIVE_COMPARISON.json",
+              "sha256": "d18628729f5f5ef8f5e4c2fed92d618f31f15fc476d575595a76f5f706e0e0fc"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/evidence/工作区/1011-two-hour-common/FIXED30_BUDGET_ENDPOINT_REPORT.json",
+              "sha256": "f1cb6c3d777f6e4a991494efc3aaad27ff4a51188225dfacffca05a9e8846270"
+            },
+            {
+              "path": ".rebuild/paper-inputs/experiment244/source/工作区/1011-five-continue/enagent_checkpoint_pathfix_SOURCE/protocol225.json",
+              "sha256": "39db27f40a7dc39c2753a54d7b10de02b53c3c44fcbeb8070de5186193770488"
+            }
+          ],
+          "action": "Reuse terminal. A changed method/config is a separately labeled development condition, not continuation of this finished negative."
+        }
+      },
+      "new_API_requests_by_auditor": 0,
+      "natural_RSR_headroom": "None against successful historical Agentless/EnAgent natural terminals."
+    }
+  },
+  "full_new_preset_deployments": {
+    "EnAgent250": "Only original six tasks deployed; none of active three.",
+    "Agentless251": "Only original six-task author-parameter confirmation records; active-three lower-budget historical records not relabeled as 251.",
+    "AOrchestra261": "Only completed Dask9378 trial found; active three untested."
+  },
+  "continuation_policy": "All relevant old 239/241/244 method trajectories cited here are terminal. Do not continue them to erase negatives. Unrun method/task cells need new scoped current records. Ranking/reverse controls are new scientific conditions.",
+  "comparison_limits": [
+    "Three cases have different original budget windows and sampler settings. Report original endpoints separately, not as one strict uniform historical benchmark.",
+    "Whole-method baselines remain Agentless, EnAgent, AOrchestra; ranking-vs-reverse controls do not replace them.",
+    "Same C0/public input does not by itself prove current private-node identity; reuse only known original acceptance certificates and let parent do any required independent acceptance without model feedback.",
+    "5516 chosen as exposed all-method negative by user-directed failure mechanism after structural shortlist, not because current method previously wins."
+  ],
+  "api_usage": {
+    "new_generation_requests": 0,
+    "new_input_tokens": 0,
+    "new_output_tokens": 0,
+    "new_cost_CNY": 0,
+    "Gold_or_private_test_names_bodies_or_per_test_outcomes_read": false
+  },
+  "minimal_next_actions": [
+    "Run paired SOURCE3/reverse new conditions with same C0, full public history, tools and budgets.",
+    "For5516, verify actual failed handler/backend and distinguish EC2 Fleet from Spot Fleet; preserve old failures.",
+    "Reuse completed 7081/6212 Agentless/EnAgent records at their declared budgets; do not spend to repeat them.",
+    "AOrchestra active task cells are untested; if whole-method claims are needed, run its full author flow in new bounded records after common native qualification."
+  ]
+}

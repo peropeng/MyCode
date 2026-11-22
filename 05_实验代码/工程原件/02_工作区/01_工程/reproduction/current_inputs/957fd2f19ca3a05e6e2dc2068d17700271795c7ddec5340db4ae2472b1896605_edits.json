@@ -1,0 +1,41 @@
+[
+  {
+    "call_id": "getmoto__moto-5072|sft:341|call:9",
+    "call_index": 9,
+    "message_index": 20,
+    "state_path": "repo/moto/organizations/models.py",
+    "source_command": "str_replace",
+    "source_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/getmoto__moto__3.1/moto/organizations/models.py",
+      "old_str": "def close_account_status(self):\n        return {\n            \"CloseAccountStatus\": {\n                \"Id\": self.create_account_status_id,\n                \"AccountName\": self.name,\n                \"State\": \"SUCCEEDED\",\n                \"RequestedTimestamp\": unix_time(datetime.datetime.utcnow()),\n                \"CompletedTimestamp\": unix_time(datetime.datetime.utcnow()),\n                \"AccountId\": self.id,\n            }\n        }",
+      "new_str": "def close_account(self):\n        if self.status == \"ACTIVE\":\n            self.status = \"PENDING_CLOSURE\"\n            # In a real scenario, there would be an async process here\n            # but for simplicity we'll turn to SUSPENDED instantly after\n            # being PENDING_CLOSURE\n            self.status = \"SUSPENDED\"\n        return {\n            \"AccountId\": self.id,\n            \"State\": self.status\n        }"
+    },
+    "serialized_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/getmoto__moto__3.1/moto/organizations/models.py",
+      "old_str": "\ndef close_account_status(self):\n        return {\n            \"CloseAccountStatus\": {\n                \"Id\": self.create_account_status_id,\n                \"AccountName\": self.name,\n                \"State\": \"SUCCEEDED\",\n                \"RequestedTimestamp\": unix_time(datetime.datetime.utcnow()),\n                \"CompletedTimestamp\": unix_time(datetime.datetime.utcnow()),\n                \"AccountId\": self.id,\n            }\n        }\n",
+      "new_str": "\ndef close_account(self):\n        if self.status == \"ACTIVE\":\n            self.status = \"PENDING_CLOSURE\"\n            # In a real scenario, there would be an async process here\n            # but for simplicity we'll turn to SUSPENDED instantly after\n            # being PENDING_CLOSURE\n            self.status = \"SUSPENDED\"\n        return {\n            \"AccountId\": self.id,\n            \"State\": self.status\n        }\n"
+    },
+    "parameter_codec": "SWE-Gym-OpenHands-forward-serializer-left-inverse/1.0",
+    "source_outcome": "reported_success",
+    "before": {
+      "sha256": "3bfd90beac13f3a1e75eb34257d15fedc3c529688c0d1a0a2c1856e884b76c56",
+      "bytes": 34066,
+      "blob": "blobs/3bfd90beac13f3a1e75eb34257d15fedc3c529688c0d1a0a2c1856e884b76c56"
+    },
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/getmoto__moto__3.1/moto/organizations/models.py",
+      "old_str": "def close_account_status(self):\n        return {\n            \"CloseAccountStatus\": {\n                \"Id\": self.create_account_status_id,\n                \"AccountName\": self.name,\n                \"State\": \"SUCCEEDED\",\n                \"RequestedTimestamp\": unix_time(datetime.datetime.utcnow()),\n                \"CompletedTimestamp\": unix_time(datetime.datetime.utcnow()),\n                \"AccountId\": self.id,\n            }\n        }",
+      "new_str": "def close_account(self):\n        if self.status == \"ACTIVE\":\n            self.status = \"PENDING_CLOSURE\"\n            # In a real scenario, there would be an async process here\n            # but for simplicity we'll turn to SUSPENDED instantly after\n            # being PENDING_CLOSURE\n            self.status = \"SUSPENDED\"\n        return {\n            \"AccountId\": self.id,\n            \"State\": self.status\n        }"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "f74e42a86e0c1d459d1aeddd597c56fcb69b7fa08821d8dfc2d173a1dc83d470",
+      "bytes": 34049,
+      "blob": "blobs/f74e42a86e0c1d459d1aeddd597c56fcb69b7fa08821d8dfc2d173a1dc83d470"
+    }
+  }
+]

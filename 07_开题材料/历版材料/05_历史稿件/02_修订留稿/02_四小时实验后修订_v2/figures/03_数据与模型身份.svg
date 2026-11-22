@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="860" viewBox="0 0 1180 860" role="img"><title>模型身份与数据角色</title><desc>source3软件开发权重和AF15历史恢复权重不同；所有已曝光数据不能再次声称新确认。</desc><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#586b7b"/></marker></defs><rect width="100%" height="100%" fill="white"/><style>text{font-family:"Microsoft YaHei","DengXian",sans-serif;fill:#17324d}.h{font-weight:700}.muted{fill:#586b7b}</style>
+<text x="38" y="45" font-size="30" class="h">同名网络，不同训练来源与证据角色</text>
+<rect x="38" y="110" width="528" height="206" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="126" width="5" height="174" rx="2" fill="#087f83"/>
+<text x="61" y="148" font-size="24" class="h">source3：本轮软件排序</text>
+<text x="61" y="186" font-size="20">AgenTracer作者TRAIN内：训练492 / 验证122</text>
+<text x="61" y="216" font-size="20">训练 coding256 + math236；验证64 + 58</text>
+<text x="61" y="246" font-size="20">三次初始化，选轮6 / 6 / 3</text>
+<text x="61" y="276" font-size="20">coding363开发正结果来自这套权重</text>
+<rect x="606" y="110" width="536" height="206" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="606" y="126" width="5" height="174" rx="2" fill="#087f83"/>
+<text x="629" y="148" font-size="24" class="h">AF15：历史恢复实际使用</text>
+<text x="629" y="186" font-size="20">AF开发731条 / 716任务组</text>
+<text x="629" y="216" font-size="20">三次初始化 × 五个外折重训 = 15权重</text>
+<text x="629" y="246" font-size="20">新外部轨迹可平均15份概率</text>
+<text x="629" y="276" font-size="20">AF自身评价只用未训练该组的外折预测</text>
+<rect x="38" y="375" width="528" height="200" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="391" width="5" height="168" rx="2" fill="#087f83"/>
+<text x="61" y="413" font-size="24" class="h">本轮实际排序发布</text>
+<text x="61" y="451" font-size="20">18题：source3 / 强SF / AF15</text>
+<text x="61" y="481" font-size="20">3 + 3 + 15份权重，固定两个批次</text>
+<text x="61" y="511" font-size="20">按原次序选moto5134和5286</text>
+<text x="61" y="541" font-size="20">排序共同组0；保护另题完成9条</text>
+<rect x="606" y="375" width="536" height="200" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="606" y="391" width="5" height="168" rx="2" fill="#087f83"/>
+<text x="629" y="413" font-size="24" class="h">历史恢复的证据归属</text>
+<text x="629" y="451" font-size="20">旧五题：本文2 / Agentless3 / EnAgent2</text>
+<text x="629" y="481" font-size="20">新六题：本文18次，三方共同仅2题</text>
+<text x="629" y="511" font-size="20">这两组成绩使用历史AF15条件</text>
+<text x="629" y="541" font-size="20">不能转移成source3恢复效果</text>
+<path d="M300,316 L300,365" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M874,316 L874,365" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<rect x="38" y="638" width="1104" height="160" rx="13" fill="#fff6e9" stroke="#ccdbe3"/><rect x="38" y="654" width="5" height="128" rx="2" fill="#986720"/>
+<text x="61" y="676" font-size="24" class="h">独立确认仍有缺口</text>
+<text x="61" y="714" font-size="20">AgenTracer官方TEST：coding124/127、math63/63均已实际评分；余3条不符旧长度资格。</text>
+<text x="61" y="744" font-size="20">WhoWhenPro全部6257文本、TraceElephant固定220、AF历史分区均有开发曝光。</text>
+<text x="61" y="774" font-size="20">新的确认集合必须先核来源和任务组；重新下载、重新切分或重新命名都不恢复独立性。</text></svg>

@@ -1,0 +1,39 @@
+{
+  "completed": false,
+  "cleanup_pass_finished": true,
+  "user_instruction": "2026-11-02: early experiments retain conclusions only",
+  "removed_directories": [
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\实验",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\归档",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\交接",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\结论",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\经验",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\迁移",
+    "D:\\Code\\毕设\\graduate-thesis\\.external\\historical_fixed_model_assets"
+  ],
+  "retained_protected_roots": [
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区"
+  ],
+  "retained_file_errors": [
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure\\2.0.1\\Te18Ffx5zD5iOETA\\sure-2.0.1-py3-none-any.whl | Access to the path 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure\\2.0.1\\Te18Ffx5zD5iOETA\\sure-2.0.1-py3-none-any.whl' is denied.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure\\2.0.1\\Te18Ffx5zD5iOETA | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure\\2.0.1\\Te18Ffx5zD5iOETA'.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure\\2.0.1 | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure\\2.0.1'.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi\\sure'.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9\\pypi'.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9 | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache\\sdists-v9'.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit\\uv-cache'.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-recovery-audit'.",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区 | 目录不是空的。 : 'D:\\Code\\毕设\\graduate-thesis-experiments\\工作区'."
+  ],
+  "former_workspace_directories": 278,
+  "acl_unchanged": true,
+  "acl_repair_automatic_approval_rejected": true,
+  "directory_links_not_followed": true,
+  "directory_link_safety_check_passed": true,
+  "files_removed_in_final_pass": 2988345,
+  "free_before": 3375443968,
+  "free_after": 207708184576,
+  "disk_bytes_released": 204332740608,
+  "current_method_retained": true,
+  "historical_conclusion_documents": 348
+}

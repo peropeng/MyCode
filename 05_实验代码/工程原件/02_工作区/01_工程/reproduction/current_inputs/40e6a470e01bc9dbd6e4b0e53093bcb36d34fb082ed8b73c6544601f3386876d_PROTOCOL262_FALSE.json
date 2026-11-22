@@ -1,0 +1,373 @@
+{
+  "schema": "EXP262-exposed-partial-state-predeclared-pressure/1",
+  "SOURCE_ONLY": true,
+  "execution_authorized": false,
+  "model_authorized": false,
+  "native_authorized": false,
+  "finance_authorized": false,
+  "private_authorized": false,
+  "task_id": "getmoto__moto-7081",
+  "pressure_state": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\PARTIAL_BUSINESS_STATE.json",
+    "sha256": "7d54081eaabbaa136d0a4d3cfaaae0d2f534c4b1f9d4a7966446e829ff94c3a2"
+  },
+  "source3_plan": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp257-source3-postreview\\实验\\实验257_source3与强SF推断发布\\ranking\\plans\\getmoto__moto-7081\\SOURCE3.json",
+    "sha256": "a9c12fa30ebbc626ad526f9c59f20f31e7752bf57bb36a054f0e992eeccca674"
+  },
+  "public_pack": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-2320-exp224-flash-common\\实验\\实验224_二十三题Flash完整共同恢复比较\\v2_auth_direct_publicpack\\packs\\getmoto__moto-7081.json",
+    "sha256": "3af20f739fab9edc46c3a6e5ab6527d646445a136aabb48a52f8169ece2660f1"
+  },
+  "original_public_binding": {
+    "task_id": "getmoto__moto-7081",
+    "task_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-7081\\tasks\\getmoto__moto-7081",
+    "harness": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\asset",
+    "python": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\native_envs\\moto\\Scripts\\python.exe",
+    "package": "moto",
+    "asset_root": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\asset",
+    "template": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\state\\repo",
+    "frozen_tests": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\frozen_tests",
+    "saved_source_inventory": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-7081\\tasks\\getmoto__moto-7081\\source_inventory.json",
+    "input_digest": "e6e111f17aee92e4f0967db4307002ed9b7c44eea815fc9f97faa0fdf752de2c",
+    "input_turns_sha256": "c1a7e5d8b3c74218d1443a3b46f7c4f8e4bddf197945352e034eb2604e0d7919",
+    "mapping": [
+      {
+        "step": 0,
+        "message_index": 2,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 1,
+        "message_index": 4,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 2,
+        "message_index": 6,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 3,
+        "message_index": 8,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 4,
+        "message_index": 11,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 5,
+        "message_index": 13,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 6,
+        "message_index": 15,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 7,
+        "message_index": 17,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:8"
+        ]
+      },
+      {
+        "step": 8,
+        "message_index": 19,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:9"
+        ]
+      },
+      {
+        "step": 9,
+        "message_index": 21,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:10"
+        ]
+      },
+      {
+        "step": 10,
+        "message_index": 23,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:11"
+        ]
+      },
+      {
+        "step": 11,
+        "message_index": 25,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:12"
+        ]
+      },
+      {
+        "step": 12,
+        "message_index": 27,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 13,
+        "message_index": 29,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 14,
+        "message_index": 31,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 15,
+        "message_index": 33,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:16"
+        ]
+      },
+      {
+        "step": 16,
+        "message_index": 35,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 17,
+        "message_index": 37,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 18,
+        "message_index": 39,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 19,
+        "message_index": 41,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:20"
+        ]
+      },
+      {
+        "step": 20,
+        "message_index": 43,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 21,
+        "message_index": 45,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 22,
+        "message_index": 47,
+        "successful_edit_ids": []
+      },
+      {
+        "step": 23,
+        "message_index": 49,
+        "successful_edit_ids": [
+          "getmoto__moto-7081|RAW:3395|call:24"
+        ]
+      }
+    ],
+    "dependency_graph": {
+      "getmoto__moto-7081|RAW:3395|call:8": [],
+      "getmoto__moto-7081|RAW:3395|call:9": [],
+      "getmoto__moto-7081|RAW:3395|call:10": [],
+      "getmoto__moto-7081|RAW:3395|call:11": [],
+      "getmoto__moto-7081|RAW:3395|call:12": [],
+      "getmoto__moto-7081|RAW:3395|call:16": [],
+      "getmoto__moto-7081|RAW:3395|call:20": [],
+      "getmoto__moto-7081|RAW:3395|call:24": []
+    },
+    "candidate_pool": 7,
+    "business_edits": 7,
+    "steps": 24,
+    "invalid_roots": [],
+    "binding_kind": "Exp166_qualified_state",
+    "source_round": "Exp166_old_certified",
+    "copy_estimate": {
+      "bytes": 51095033,
+      "files": 2147
+    },
+    "raw_row_index": 3395,
+    "public_projection_version": "Exp165-native-RAW-public-projection/1",
+    "binding_seal": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-7081\\tasks\\getmoto__moto-7081\\READY166.json",
+    "ready_sha256": "cb96937a7284730ff363f21c45aaa9dd005f5bb5598bf7f0964e532db2d43f03",
+    "cohort": "joint",
+    "candidate_budget": 9,
+    "public_regression_nodes": [
+      "tests/test_iot/test_iot_things.py::test_list_things_with_next_token"
+    ],
+    "original_input_digest": "5bdc710dd3eb5e6b23ab50e418b2df95d69d088de5b0cdb3124284526b300422",
+    "original_qualification_input_digest": "e6e111f17aee92e4f0967db4307002ed9b7c44eea815fc9f97faa0fdf752de2c",
+    "stratum": "agent_induced_regression",
+    "retrieval_cache": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-2320-exp224-flash-common\\实验\\实验224_二十三题Flash完整共同恢复比较\\retrieval",
+    "G_frozen_plan": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp191-public-rank-output-interface\\实验\\实验191_十五题公开排序与约束输出接口资格\\ranking\\plans\\getmoto__moto-7081\\OURS_G153_VBR.json"
+  },
+  "GO_nodes": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\NATIVE_READY262_FALSE.json",
+    "sha256": "29d94e8c17a3a77cddadad26ec85163f157fe6d75aa79075485ea478d1cb09fc"
+  },
+  "current_qualified_partial_START": null,
+  "current_P_derived_only_after_native": true,
+  "controls": {
+    "SET": "PROGRESS_SET",
+    "COUNT": "COUNT_TNR",
+    "O_ONLY": "ORDINARY_GUARD"
+  },
+  "limits": {
+    "outer_seconds": 1800,
+    "max_model_calls": 128,
+    "max_completion_tokens": 131072,
+    "max_generation_attempts": 3,
+    "max_legal_evidence_items": 3,
+    "max_output_per_generation": 16384,
+    "native_seconds": 300
+  },
+  "global_window_start_UTC": "2026-10-12T11:29:05+00:00",
+  "global_window_end_UTC": "2026-10-12T15:29:05+00:00",
+  "no_new_long_UTC": "2026-10-12T14:49:05+00:00",
+  "finance_shared_BC_total_CNY": "1.00",
+  "finance_no_new_allocation": true,
+  "complete_body_peak_before_POST_required": true,
+  "original_counter_T0_usage_and_unknown_preserved": true,
+  "no_first_body_partial_feedback_fabrication": true,
+  "masked_public_tool_scope_Root_qualification_required": true,
+  "slots": [
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial1",
+      "policy": "SET",
+      "state_admission_mode": "PROGRESS_SET",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial1",
+      "policy": "COUNT",
+      "state_admission_mode": "COUNT_TNR",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial1",
+      "policy": "O_ONLY",
+      "state_admission_mode": "ORDINARY_GUARD",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "policy": "SET",
+      "state_admission_mode": "PROGRESS_SET",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "policy": "COUNT",
+      "state_admission_mode": "COUNT_TNR",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "policy": "O_ONLY",
+      "state_admission_mode": "ORDINARY_GUARD",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial3",
+      "policy": "SET",
+      "state_admission_mode": "PROGRESS_SET",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial3",
+      "policy": "COUNT",
+      "state_admission_mode": "COUNT_TNR",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial3",
+      "policy": "O_ONLY",
+      "state_admission_mode": "ORDINARY_GUARD",
+      "status": "UNRUN_CURRENT_START_NATIVE_NOT_QUALIFIED",
+      "method": "CURRENT_FEEDBACK_MAX3_SOURCE3",
+      "namespace": null,
+      "owner_PID": null,
+      "owner_birth": null,
+      "specific_owned_Job": null,
+      "T0_monotonic": null,
+      "finance_bucket": "control_BC",
+      "finance_phase": "Until0900ConfirmOurs24920261012"
+    }
+  ]
+}

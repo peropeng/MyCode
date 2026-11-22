@@ -1,0 +1,78 @@
+{
+  "schema": "EXP262-one-public-partial-state-qualification/1",
+  "SOURCE_ONLY": true,
+  "native_authorized": false,
+  "task_id": "getmoto__moto-7081",
+  "partial_state": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\PARTIAL_BUSINESS_STATE.json",
+    "sha256": "7d54081eaabbaa136d0a4d3cfaaae0d2f534c4b1f9d4a7966446e829ff94c3a2"
+  },
+  "native_output": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\qualification\\once_original_G_O",
+  "asset_root": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\asset",
+  "frozen_tests": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\frozen_tests",
+  "native_interpreter": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\native_envs\\moto\\Scripts\\python.exe",
+  "goals": [
+    "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+    "tests/test_iot/test_iot_things.py::test_delete_thing",
+    "tests/test_iot/test_iot_things.py::test_update_thing"
+  ],
+  "ordinary": [
+    "tests/test_iot/test_iot_things.py::test_list_things_with_next_token"
+  ],
+  "expected_historical_P_not_authoritative": [
+    "tests/test_iot/test_iot_things.py::test_delete_thing",
+    "tests/test_iot/test_iot_things.py::test_update_thing"
+  ],
+  "exact_nodes": [
+    "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+    "tests/test_iot/test_iot_things.py::test_delete_thing",
+    "tests/test_iot/test_iot_things.py::test_update_thing",
+    "tests/test_iot/test_iot_things.py::test_list_things_with_next_token"
+  ],
+  "historical_observation": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-exp240-consumer-state\\实验\\实验240_消费者闭合与状态保护_共享错误池V3_自然第九题\\runs\\getmoto__moto-7081\\BASE\\recovery\\getmoto__moto-7081\\G_PROGRESSIVE_SEMANTIC_FLASH\\public_native\\01_ranked_repair178_public_1\\run.json",
+    "exists": true,
+    "sha256": "7afe8f66e04a45d09e5029b9e7c789ec20ada3bab755945e9a5f4adef5662081"
+  },
+  "source_assets": {
+    "qualify.py": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\asset\\qualify.py",
+      "sha256": "9dbca169b5c7d2e64cbac711d5d6890e815461a6b35b35070532579256b0ea26"
+    },
+    "qualification_plugin.py": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\asset\\qualification_plugin.py",
+      "sha256": "f42c0ae90e343fd3b5d70b7e48563556885dfd69868ed3ef098d702c6aa6a40c"
+    },
+    "sitecustomize.py": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\asset\\sitecustomize.py",
+      "sha256": "71abe9140e7a5d0308b6805a6ea1c71a3af6c3886ace4865116cea6b6acd5ba7"
+    },
+    "source_codec.py": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\qualification\\getmoto__moto-7081\\asset\\source_codec.py",
+      "sha256": "f9a9be5aa6e6316e94f98faa98527d310c83fcf2b928dad2e15369e709829d21"
+    },
+    "native_interpreter": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\native_envs\\moto\\Scripts\\python.exe",
+      "sha256": "4cca2027319c08dca5cc4b64c9ba415cc89205152202cb6805081277c43b610f"
+    },
+    "pyvenv_cfg": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\native_envs\\moto\\pyvenv.cfg",
+      "sha256": "6461040b85cc6200186d76438f781e3fcebf8459123fb8f7bd7b1bfca7c3deaf"
+    },
+    "native_executor242_prospective.py": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\native_executor242_prospective.py",
+      "sha256": "7ea905f5171095898278bbad08d271cdec15a11754f81c1ced0f8b1d92d84fb9"
+    },
+    "native_capacity_v10.py": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\native_capacity_v10.py",
+      "sha256": "8e5fcf611ec55a82110b4fe4b86a3c8020bddcc86d3e79470487b378219b740a"
+    },
+    "original_probe": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1002-exp129-expanded-baselines\\实验\\实验129_扩展基线与恢复证据\\executor\\run.py",
+      "sha256": "2e42c7a489989641c63ef2b703acb35ad83c31960cd93f64885deeca6a7dde69"
+    }
+  },
+  "partial_initial_feedback_must_come_from_current_native": true,
+  "maximum_new_original_G_O_native": 1,
+  "no_independent_or_hidden_tests": true
+}

@@ -1,0 +1,18 @@
+{
+  "task_order": [
+    "getmoto__moto-7081"
+  ],
+  "all_three_methods_required": true,
+  "all_first_and_later_model_requests_required": true,
+  "Root_actual_C0_parent_STOP_required": true,
+  "codec_source_SHA256": "e3a4a9dd683b4a85035f530da2390eac3036ff3c601bd2d55df00cb6eede3486",
+  "tasks": {
+    "getmoto__moto-7081": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\CURRENT_PRESSURE_FEEDBACK262.json",
+      "sha256": "6b13e3d5ef5097ba2716e006e825cf4c8f82d305fbd1f46e9803e3699e623242",
+      "Root_actual_C0_accepted": true,
+      "decoded_current_incumbent_SHA256": "5e14e3b92bce7755c2bd924f235860fc594922c7ea5d8060c02342578b651986"
+    }
+  },
+  "field_C0_is_transport_compatibility_for_actual_partial_start": true
+}

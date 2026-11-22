@@ -1,0 +1,82 @@
+[
+  {
+    "call_id": "dask__dask-8484|RAW:4367|call:18",
+    "call_index": 18,
+    "tool_call_id": "call_RVV28q5FSxARZuIp8yrfhwep",
+    "message_index": 38,
+    "raw_message_position": 38,
+    "response_message_index": 39,
+    "function": "str_replace_editor",
+    "parameters": {
+      "command": "str_replace",
+      "path": "/workspace/dask__dask__2021.12/dask/array/reductions.py",
+      "old_str": "def nanmin(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isnan(a.size):",
+      "new_str": "def nanmin(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isscalar(a):\n        return np.nanmin(a)\n    if np.isnan(a.size):"
+    },
+    "original_arguments_json": "{\"command\":\"str_replace\",\"path\":\"/workspace/dask__dask__2021.12/dask/array/reductions.py\",\"old_str\":\"def nanmin(a, axis=None, keepdims=False, split_every=None, out=None):\\n    if np.isnan(a.size):\",\"new_str\":\"def nanmin(a, axis=None, keepdims=False, split_every=None, out=None):\\n    if np.isscalar(a):\\n        return np.nanmin(a)\\n    if np.isnan(a.size):\"}",
+    "original_arguments_sha256": "96d560b2e69c752ce751c8906de63a8cd5ec6fa46c9970736c80b26a239914aa",
+    "parameters_sha256": "d5a097bb55f36249c0e0d6b1b875ca9741cd4008802739a549ecd4cf6a5cfea8",
+    "response_sha256": "b5718ac89f5e5a86c9371440121bdfb1b041036fa4e3f4fa9f818a81be1a38ab",
+    "state_path": "repo/dask/array/reductions.py",
+    "source_command": "str_replace",
+    "before": {
+      "sha256": "2f539104de52614b9c1a23e3fd6178c4a827448cbd2b959275ea6b77dcefdaca",
+      "bytes": 53663,
+      "blob": "blobs/2f539104de52614b9c1a23e3fd6178c4a827448cbd2b959275ea6b77dcefdaca"
+    },
+    "parameter_codec": "RAW-json.loads-no-transformation/1",
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/dask__dask__2021.12/dask/array/reductions.py",
+      "old_str": "def nanmin(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isnan(a.size):",
+      "new_str": "def nanmin(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isscalar(a):\n        return np.nanmin(a)\n    if np.isnan(a.size):"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "073bf946cfdb59d3672f8094d3a4eff56c423c9b1667b062a527ee61d73ec57b",
+      "bytes": 53714,
+      "blob": "blobs/073bf946cfdb59d3672f8094d3a4eff56c423c9b1667b062a527ee61d73ec57b"
+    }
+  },
+  {
+    "call_id": "dask__dask-8484|RAW:4367|call:19",
+    "call_index": 19,
+    "tool_call_id": "call_QoROubzLZIHWZ5kJLVpKtbOx",
+    "message_index": 40,
+    "raw_message_position": 40,
+    "response_message_index": 41,
+    "function": "str_replace_editor",
+    "parameters": {
+      "command": "str_replace",
+      "path": "/workspace/dask__dask__2021.12/dask/array/reductions.py",
+      "old_str": "def nanmax(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isnan(a.size):",
+      "new_str": "def nanmax(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isscalar(a):\n        return np.nanmax(a)\n    if np.isnan(a.size):"
+    },
+    "original_arguments_json": "{\"command\":\"str_replace\",\"path\":\"/workspace/dask__dask__2021.12/dask/array/reductions.py\",\"old_str\":\"def nanmax(a, axis=None, keepdims=False, split_every=None, out=None):\\n    if np.isnan(a.size):\",\"new_str\":\"def nanmax(a, axis=None, keepdims=False, split_every=None, out=None):\\n    if np.isscalar(a):\\n        return np.nanmax(a)\\n    if np.isnan(a.size):\"}",
+    "original_arguments_sha256": "46efef7157c1770cdb064b94185276e978f2fa46673a03ad9d735fa7fb5a89a2",
+    "parameters_sha256": "b4bfd38ed167c12f29c5218dff73b78f99f6a9b980bf3cd4a951adb8e2acb6a4",
+    "response_sha256": "c49e10199a41f92c3f75dc337328a0d4afff7570e4d0823a4cf12e2d7564c156",
+    "state_path": "repo/dask/array/reductions.py",
+    "source_command": "str_replace",
+    "before": {
+      "sha256": "073bf946cfdb59d3672f8094d3a4eff56c423c9b1667b062a527ee61d73ec57b",
+      "bytes": 53714,
+      "blob": "blobs/073bf946cfdb59d3672f8094d3a4eff56c423c9b1667b062a527ee61d73ec57b"
+    },
+    "parameter_codec": "RAW-json.loads-no-transformation/1",
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/dask__dask__2021.12/dask/array/reductions.py",
+      "old_str": "def nanmax(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isnan(a.size):",
+      "new_str": "def nanmax(a, axis=None, keepdims=False, split_every=None, out=None):\n    if np.isscalar(a):\n        return np.nanmax(a)\n    if np.isnan(a.size):"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "403c30f2b89f5b2b1c1bc2e7c932c8021350749ee33b3da1e3cac28d4347c070",
+      "bytes": 53765,
+      "blob": "blobs/403c30f2b89f5b2b1c1bc2e7c932c8021350749ee33b3da1e3cac28d4347c070"
+    }
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "schema": "EXP249-Root-shared-current-C0-supplement-registry/1",
+  "at_UTC": "2026-10-11T18:12:05.340983+00:00",
+  "task_order": [
+    "dask__dask-9378",
+    "getmoto__moto-5072",
+    "getmoto__moto-5134",
+    "getmoto__moto-5286",
+    "getmoto__moto-6352",
+    "pydantic__pydantic-8567"
+  ],
+  "all_three_methods_required": true,
+  "all_first_and_later_model_requests_required": true,
+  "Root_actual_C0_parent_STOP_required": true,
+  "codec_source_SHA256": "e3a4a9dd683b4a85035f530da2390eac3036ff3c601bd2d55df00cb6eede3486",
+  "tasks": {
+    "dask__dask-9378": {
+      "Root_actual_C0_accepted": true,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-until0900-common\\confirmation_common_C0_v2\\dask__dask-9378.json",
+      "sha256": "92d7214294c6aa6006a53b92f41d6a0107d0ae875242355632edee7ef58256ca",
+      "decoded_current_incumbent_SHA256": "e2273624ccdbf2704c96adb08817db6e594414fc74d780f452532fb877d87153",
+      "current_observation_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\dask__dask-9378\\current_C0_public_channel_v4\\PUBLIC_CURRENT_C0_OBSERVATION249.json",
+      "current_observation_SHA256": "d7c45cc567d047a0aced7b879d982ecb7e45c1ac20aaf377f4528a2f652ece62",
+      "current_parent_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\dask__dask-9378\\current_C0_public_channel_v4\\PARENT_TERMINAL249.json",
+      "current_parent_STOP_SHA256": "e3e7981cf76aa5c836ab5e94f3c45a8c4dd07911ab8f18f8254b81db748df382",
+      "masked_channel_run_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\dask__dask-9378\\current_C0_public_channel_v4\\masked_public_native\\0002_zero_model_masked_ordinary\\run.json",
+      "masked_channel_run_SHA256": "1bb4b80095d7f316c33fd2bd126ea291362f421f623b604287b1610a379f1d50",
+      "original_G_O_not_replaced": true,
+      "auxiliary_channel_selector": [
+        "dask/array/tests/test_array_core.py::test_top"
+      ],
+      "physical_product_ABI": [
+        3,
+        8,
+        20,
+        "final",
+        0
+      ],
+      "same_actual_C0_and_input_for_all_methods": true
+    },
+    "getmoto__moto-5072": {
+      "Root_actual_C0_accepted": true,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-until0900-common\\confirmation_common_C0_v1\\getmoto__moto-5072.json",
+      "sha256": "cb89d97c9687d2455b894caf88dab200ecaa389342c5d9276662cabda042832d",
+      "decoded_current_incumbent_SHA256": "6b2f8ea97302a93bf2625161ae0cbf5d7147b8a121e9ac2fdfc724c0f76ce1c2",
+      "original_raw_public_G_O_SHA256": "e24c196aac40a4670dc19b0d80f1ba72b4ecc095821b77741a938bd66a6a861b",
+      "current_observation_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5072\\current_C0_mask_v3\\PUBLIC_CURRENT_C0_OBSERVATION249.json",
+      "current_observation_SHA256": "fc18d3f74f9f3f1b00f4ac0397462550eee2b38e6ee7db24357617f2fad13a38",
+      "current_parent_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5072\\current_C0_mask_v3\\PARENT_TERMINAL249.json",
+      "current_parent_STOP_SHA256": "529886378b586ccc67f4a5bf64dacffd8d387f941b316dc94c578cf2164204ab",
+      "masked_ordinary_run_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5072\\current_C0_mask_v3\\masked_public_native\\0002_zero_model_masked_ordinary\\run.json",
+      "masked_ordinary_run_SHA256": "058c1201b6c9c3fd04faa751aa1ccfda1fcab2d65ad5c9ec61e9e8560ed75842",
+      "physical_product_ABI": [
+        3,
+        11,
+        15,
+        "final",
+        0
+      ],
+      "same_actual_C0_and_input_for_all_methods": true
+    },
+    "getmoto__moto-5134": {
+      "Root_actual_C0_accepted": true,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-until0900-common\\confirmation_common_C0_v3\\getmoto__moto-5134.json",
+      "sha256": "611c15b365831c9873b7917d56fb77685fc257d9d645a6bd16ca31983c3c5ef3",
+      "decoded_current_incumbent_SHA256": "1289cf89bb6267f89cc51302b3ea8424133bbf592fa35a53bfe122f1c103baf1",
+      "current_observation_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5134\\current_C0_batch2\\PUBLIC_CURRENT_C0_OBSERVATION249.json",
+      "current_observation_SHA256": "3f535c17d93a3248608a9f3046030e2ec15ddb1b0710a929725bd118b2335599",
+      "current_parent_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5134\\current_C0_batch2\\PARENT_TERMINAL249.json",
+      "current_parent_STOP_SHA256": "06f212400a28dc1e4c26981dd6101019b418fbbcf0295c60152c87f257d0bccb",
+      "masked_channel_run_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5134\\current_C0_batch2\\masked_public_native\\0002_zero_model_masked_ordinary\\run.json",
+      "masked_channel_run_SHA256": "cacb3fe8d8068acc0d803ae8f0dbe6f6bbcec83333231eecaf7b57b68a26d87a",
+      "original_G_O_not_replaced": true,
+      "auxiliary_channel_selector": [
+        "tests/test_events/test_events_integration.py::test_send_to_cw_log_group"
+      ],
+      "physical_product_ABI": [
+        3,
+        11,
+        15,
+        "final",
+        0
+      ],
+      "same_actual_C0_and_input_for_all_methods": true
+    },
+    "getmoto__moto-5286": {
+      "Root_actual_C0_accepted": true,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-until0900-common\\confirmation_common_C0_v3\\getmoto__moto-5286.json",
+      "sha256": "be71faaf04491e6ed5de2027d37b910a137ad2654280025f59a29f4045cb6427",
+      "decoded_current_incumbent_SHA256": "016c1dec57cdbac4e4081712a0b8bd041de22d98b108703ee47191d2267f8c80",
+      "current_observation_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5286\\current_C0_batch2_r2\\PUBLIC_CURRENT_C0_OBSERVATION249.json",
+      "current_observation_SHA256": "62a74a09c76ba34e2b2b3ebefc681829e36e4dd57135c1a0a5d282edc0e16a44",
+      "current_parent_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5286\\current_C0_batch2_r2\\PARENT_TERMINAL249.json",
+      "current_parent_STOP_SHA256": "fe946aa6ed9202214c54496b9b10b61fc686c765f0f921a1656995970e6db9ee",
+      "masked_channel_run_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-5286\\current_C0_batch2_r2\\masked_public_native\\0002_zero_model_masked_ordinary\\run.json",
+      "masked_channel_run_SHA256": "24dc772181c5df59df0b478d30ced745b10c43a26d0509dcd505140efe694429",
+      "original_G_O_not_replaced": true,
+      "auxiliary_channel_selector": [
+        "tests/test_acm/test_acm.py::test_add_tags_to_certificate"
+      ],
+      "physical_product_ABI": [
+        3,
+        11,
+        15,
+        "final",
+        0
+      ],
+      "same_actual_C0_and_input_for_all_methods": true
+    },
+    "getmoto__moto-6352": {
+      "Root_actual_C0_accepted": true,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-until0900-common\\confirmation_common_C0_v4\\getmoto__moto-6352.json",
+      "sha256": "982fee62da45b3901ea143b8374e1fc2e94477b5d0f27a7d8261fac961e06071",
+      "decoded_current_incumbent_SHA256": "f8a8dc53166bfed2d8b833a3e55002c2cc29d68bf9c23b85746e29c099bf9565",
+      "current_observation_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-6352\\current_C0_batch3\\PUBLIC_CURRENT_C0_OBSERVATION249.json",
+      "current_observation_SHA256": "20ca80fd1254c9c339a31d4f5b12b2871328c90663337d6a12379a5d954f7f6f",
+      "current_parent_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-6352\\current_C0_batch3\\PARENT_TERMINAL249.json",
+      "current_parent_STOP_SHA256": "35b6fd41c74a502a33b0fef4dc3f41fff06d211d3d36d1acd5114e61b7620937",
+      "masked_channel_run_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\getmoto__moto-6352\\current_C0_batch3\\masked_public_native\\0002_zero_model_masked_ordinary\\run.json",
+      "masked_channel_run_SHA256": "f58627ab66123dae1b87c9fd82f485f8d1c168e2f507b88037decc44203e8567",
+      "original_G_O_not_replaced": true,
+      "auxiliary_channel_selector": [
+        "tests/test_secretsmanager/test_secretsmanager.py::test_rotate_secret"
+      ],
+      "physical_product_ABI": [
+        3,
+        11,
+        15,
+        "final",
+        0
+      ],
+      "same_actual_C0_and_input_for_all_methods": true
+    },
+    "pydantic__pydantic-8567": {
+      "Root_actual_C0_accepted": true,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-until0900-common\\confirmation_common_C0_v4\\pydantic__pydantic-8567.json",
+      "sha256": "104acbbef868a1de56c27a6360c5f2ac54539d9c93ecf12cec7a7c6e518d3319",
+      "decoded_current_incumbent_SHA256": "3e018d926fa74c76c63f4a9012b71ec8b9dd192da11b7c8b8d95428d3807198c",
+      "current_observation_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\pydantic__pydantic-8567\\current_C0_batch3_r2\\PUBLIC_CURRENT_C0_OBSERVATION249.json",
+      "current_observation_SHA256": "bc4354b17a961347fba7b47287d9c9432badb6688e13c3cc41f5e9afc09d9602",
+      "current_parent_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\pydantic__pydantic-8567\\current_C0_batch3_r2\\PARENT_TERMINAL249.json",
+      "current_parent_STOP_SHA256": "6c890d6db93071277d051ba9c85cb6c96ccf12d6dd9fea00ef983bc20e5e521b",
+      "masked_channel_run_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp249-prospective-confirmation\\实验\\实验249_固定顺序新任务共同确认\\qualification\\pydantic__pydantic-8567\\current_C0_batch3_r2\\masked_public_native\\0002_zero_model_masked_ordinary\\run.json",
+      "masked_channel_run_SHA256": "d0739f9b437eb3802b13e17f8b7edc374977f3c1dd96d45645628d91bb3cef3e",
+      "original_G_O_not_replaced": true,
+      "auxiliary_channel_selector": [
+        "tests/test_abc.py::test_model_subclassing_abstract_base_classes"
+      ],
+      "physical_product_ABI": [
+        3,
+        11,
+        15,
+        "final",
+        0
+      ],
+      "same_actual_C0_and_input_for_all_methods": true
+    }
+  },
+  "qualified_tasks_only": [
+    "dask__dask-9378",
+    "getmoto__moto-5072",
+    "getmoto__moto-5134",
+    "getmoto__moto-5286",
+    "getmoto__moto-6352",
+    "pydantic__pydantic-8567"
+  ],
+  "complete_common_denominator_not_claimed": true,
+  "V1_Moto_supplement_and_all_inputs_preserved": true,
+  "V1_V2_entries_and_all_old_inputs_preserved": true,
+  "all_six_now_actual_Gfail_Opass_masked_channel_and_parent_STOP": true,
+  "all_old_input_entries_exact_preserved": true
+}

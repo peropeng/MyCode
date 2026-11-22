@@ -1,0 +1,28 @@
+[
+  {
+    "component": "ranking",
+    "root": ".rebuild/current-method/ranking",
+    "hash_bound_files_checked": 215,
+    "missing": [],
+    "optional_embedding_model_deferred": [],
+    "relocated_runtime_configurations": [],
+    "experiments_executed": 0
+  },
+  {
+    "component": "recovery",
+    "root": ".rebuild/current-method/recovery",
+    "hash_bound_files_checked": 3058,
+    "missing": [],
+    "optional_embedding_model_deferred": [],
+    "relocated_runtime_configurations": [
+      {
+        "original_path": "D:/Code/毕设/graduate-thesis-experiments/工作区/1006-exp150-unified-recovery/实验/实验150_统一任务排序与恢复/native_envs/moto/pyvenv.cfg",
+        "original_sha256": "6461040b85cc6200186d76438f781e3fcebf8459123fb8f7bd7b1bfca7c3deaf",
+        "runtime_configuration": ".rebuild/current-method/recovery/工作区/1006-exp150-unified-recovery/实验/实验150_统一任务排序与恢复/native_envs/moto/pyvenv.cfg",
+        "runtime_configuration_sha256": "ed76265a633573846d339ac193292992287fb304d01b7e11ccf25c567f2cf415",
+        "archived_configuration": ".rebuild/current-method/recovery/.sealed-configs/6461040b85cc6200186d76438f781e3fcebf8459123fb8f7bd7b1bfca7c3deaf/pyvenv.cfg"
+      }
+    ],
+    "experiments_executed": 0
+  }
+]

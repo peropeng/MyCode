@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "after_historical_workspace_cleanup": true,
+  "formal_document_sha256_checks": 3,
+  "frozen_source_sha256_checks": 18,
+  "embedding_model_sha256_checks": 6,
+  "current_release_asset_sha256_checked": true,
+  "ranking_replay": {
+    "check": "source3_portable_replay",
+    "models": 3,
+    "tasks": 18,
+    "rankings_checked": 54,
+    "all_orders_match": true,
+    "maximum_probability_error": 0.0,
+    "training_steps": 0,
+    "api_requests": 0,
+    "gold_reads": 0
+  },
+  "recovery_entry": {
+    "entry": "工作区/1012-exp262-progress-pressure-postreview/实验/实验262_已有进展保护真实压力场景/SOURCE/environment262.py",
+    "loaded_without_original_machine": true,
+    "main_executed": false,
+    "network_enabled": false
+  },
+  "training_steps": 0,
+  "paid_api_requests": 0,
+  "gold_reads": 0
+}

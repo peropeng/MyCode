@@ -1,0 +1,59 @@
+{
+  "schema": "rq2-compat-offline-audit/1",
+  "at_utc": "2026-11-17T16:04:18.535823+00:00",
+  "entry_check": {
+    "entry": "D:\\Code\\毕设\\02_工作区\\01_工程\\.rebuild\\paper-inputs\\experiment261\\product_entry_pp.py",
+    "original_sha256": "749cd7a1e1f28e213862acb20e1a6ffc9859ec09c430a8b32b22d7ba4e937986",
+    "in_memory_adapted_sha256": "aa02d1bc495ddfa909f167d2c3bf10a776974b49d565af50a6d10361f8fec599",
+    "original_file_modified": false,
+    "adaptation": "recognize only nul and normalized Windows null-device aliases before Path.resolve",
+    "compiled": true,
+    "full_runtime_qualified": false
+  },
+  "runtime": {
+    "executable": "D:\\Code\\毕设\\02_工作区\\01_工程\\.venv\\Scripts\\python.exe",
+    "version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "win32"
+  },
+  "historical_failure": {
+    "source": ".rebuild/paper-inputs/experiment261/THIRD_BASELINE_QUALIFICATION261_R2.json",
+    "status": "UNKNOWN",
+    "actual_model_POST": 0,
+    "reason": "Python 3.8 Path.resolve of normalized Windows null-device path raises WinError 87 before pytest collection"
+  },
+  "current_offline_reproduction": {
+    "logging_null_path": "\\\\.\\nul",
+    "original_audit_error": {
+      "type": "PermissionError",
+      "message": "PATCHPILOT_GENERATED_WRITE_SCOPE"
+    },
+    "mechanism": "original equality check misses normalized null path; current Python rejects it through write-scope guard instead of historical Path.resolve WinError"
+  },
+  "adaptation": "strict source-layout match; inject narrow null-device helper and replace one equality check in memory; original identity/harness and other audit restrictions retained",
+  "validation": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -p test_rq2_compat.py -v",
+    "tests_run": 3,
+    "passed": 3,
+    "skipped": 0,
+    "uses_actual_archived_audit_AST": true,
+    "actual_logging_FileHandler_subprocess": true,
+    "original_bytes_preserved": true,
+    "boundary_rejections_checked": [
+      "source write",
+      "source tests read",
+      "frozen read",
+      "outside read/write",
+      "subprocess",
+      "network"
+    ]
+  },
+  "integration_status": "explicit compatibility launcher ready for review; original 261 executor is not automatically rewired",
+  "full_runtime_qualified": false,
+  "remaining": "validate target archived runtime and full author-flow deployment with its own process identity/harness in a separately authorized run",
+  "experiment_execution": {
+    "API_requests": 0,
+    "Gold_access": 0,
+    "task_recovery_runs": 0,
+    "independent_task_validation_runs": 0
+  }
+}

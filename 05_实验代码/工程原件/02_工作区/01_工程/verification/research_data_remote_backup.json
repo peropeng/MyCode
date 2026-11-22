@@ -1,0 +1,62 @@
+{
+  "verified_at_utc": "2026-11-02T04:53:32.963184+00:00",
+  "release_url": "https://github.com/peropeng/graduate-thesis/releases/tag/rq1-rq2-research-inputs-v1",
+  "repository_visibility": "PRIVATE",
+  "assets": [
+    {
+      "name": "experiment244-original.tar.gz",
+      "size": 22434727,
+      "digest": "sha256:668c08b085d52566b08869189439bd1237af0911585eb418eed6659c53dcef56",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment244-original.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment257-original.tar.gz",
+      "size": 715710,
+      "digest": "sha256:ac64180f97c2455aaf2b403fceb8b238e11d5eaaedd08f6f4b4c094fdfca8208",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment257-original.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment260-original.tar.gz",
+      "size": 123661474,
+      "digest": "sha256:d4a540d11fb18d51c1c68fdb363c481f9b93d8cdf8dbe231828dbcb206a817bc",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment260-original.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment261-original.tar.gz",
+      "size": 278608385,
+      "digest": "sha256:a4015cae868f01b8897bdbbee3fe24dc12e702d016a8194772383086c60f1899",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment261-original.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment262-original.tar.gz",
+      "size": 79791763,
+      "digest": "sha256:2dcd634997848d10f3b5b43e73371b4adcf30881fab9aa3c9fee9c297051d2cc",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment262-original.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "rq2-experiment129-original.tar.gz",
+      "size": 42160091,
+      "digest": "sha256:c763895438bf2274dd245c505012182c9e83cbd846244450068c57b2d065335f",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/rq2-experiment129-original.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "rq1-training-inputs-restored.tar.gz",
+      "size": 6951235,
+      "digest": "sha256:76fd45f8e29af0855b14ca9b6980ca5d7be187aed025dd3aa4676b1a5c2d3813",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/rq1-training-inputs-restored.tar.gz",
+      "state": "uploaded"
+    }
+  ],
+  "all_remote_sizes_and_sha256_match": true,
+  "packed_bytes": 554323385,
+  "restored_file_count": 18829,
+  "restored_unpacked_bytes": 1883572718,
+  "original_training_cache_bytes_recovered": false,
+  "training_cache_rebuilt": true
+}

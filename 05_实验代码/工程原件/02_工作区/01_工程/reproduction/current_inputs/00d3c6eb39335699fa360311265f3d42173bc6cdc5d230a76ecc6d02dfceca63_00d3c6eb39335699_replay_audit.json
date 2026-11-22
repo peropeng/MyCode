@@ -1,0 +1,42 @@
+[
+  {
+    "call_id": "getmoto__moto-5406|RAW:1532|call:4",
+    "call_index": 4,
+    "tool_call_id": "call_UkXOSXlR2OOAOEVTNg1O2DEB",
+    "message_index": 10,
+    "raw_message_position": 10,
+    "response_message_index": 11,
+    "function": "str_replace_editor",
+    "parameters": {
+      "command": "str_replace",
+      "path": "/workspace/getmoto__moto__4.0/moto/dynamodb/models/__init__.py",
+      "old_str": "return f\"arn:aws:dynamodb:us-east-1:{self.account_id}:table/{name}\"",
+      "new_str": "return f\"arn:aws:dynamodb:{self.region_name}:{self.account_id}:table/{name}\""
+    },
+    "original_arguments_json": "{\"command\":\"str_replace\",\"path\":\"/workspace/getmoto__moto__4.0/moto/dynamodb/models/__init__.py\",\"old_str\":\"return f\\\"arn:aws:dynamodb:us-east-1:{self.account_id}:table/{name}\\\"\",\"new_str\":\"return f\\\"arn:aws:dynamodb:{self.region_name}:{self.account_id}:table/{name}\\\"\"}",
+    "original_arguments_sha256": "6c749982588ef4e9b1fb89ad6afe8312289cc619178b1b6eb133e320fef8a212",
+    "parameters_sha256": "1da1834b1795855608b93c2c49a90c6338f63e94d4db9c69ae279ea84b9684fe",
+    "response_sha256": "d4dc449a4e9146d26d0fbee268c01ec55b73bff749bd7904dff5f21840dd0e98",
+    "state_path": "repo/moto/dynamodb/models/__init__.py",
+    "source_command": "str_replace",
+    "before": {
+      "sha256": "87a558769bc0786464aeaca26fc29217c718971f447d6ddfc4ced9a3977d4f23",
+      "bytes": 69027,
+      "blob": "blobs/87a558769bc0786464aeaca26fc29217c718971f447d6ddfc4ced9a3977d4f23"
+    },
+    "parameter_codec": "RAW-json.loads-no-transformation/1",
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/getmoto__moto__4.0/moto/dynamodb/models/__init__.py",
+      "old_str": "return f\"arn:aws:dynamodb:us-east-1:{self.account_id}:table/{name}\"",
+      "new_str": "return f\"arn:aws:dynamodb:{self.region_name}:{self.account_id}:table/{name}\""
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "2374d6d6696cfc20da0a9521ee40b977aad5a01a42af9f9d4adc05bf3264eac0",
+      "bytes": 69036,
+      "blob": "blobs/2374d6d6696cfc20da0a9521ee40b977aad5a01a42af9f9d4adc05bf3264eac0"
+    }
+  }
+]

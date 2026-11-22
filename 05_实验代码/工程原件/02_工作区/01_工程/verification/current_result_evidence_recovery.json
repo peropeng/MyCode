@@ -1,0 +1,62 @@
+{
+  "source_git_commit": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+  "experiments": [
+    {
+      "original_experiment": "实验244_固定五题恢复比较_完整终态封存",
+      "source_git_commit": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+      "restored_files": 615,
+      "restored_bytes": 125664454,
+      "all_git_blob_identities_verified": true,
+      "destination": ".rebuild/paper-inputs/experiment244",
+      "archive": ".restore-cache/experiment244-original.tar.gz",
+      "archive_sha256": "668c08b085d52566b08869189439bd1237af0911585eb418eed6659c53dcef56",
+      "archive_bytes": 22434727
+    },
+    {
+      "original_experiment": "实验257_source3与强SF推断发布",
+      "source_git_commit": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+      "restored_files": 97,
+      "restored_bytes": 2874908,
+      "all_git_blob_identities_verified": true,
+      "destination": ".rebuild/paper-inputs/experiment257",
+      "archive": ".restore-cache/experiment257-original.tar.gz",
+      "archive_sha256": "ac64180f97c2455aaf2b403fceb8b238e11d5eaaedd08f6f4b4c094fdfca8208",
+      "archive_bytes": 715710
+    },
+    {
+      "original_experiment": "实验260_排序与当前反馈共同恢复",
+      "source_git_commit": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+      "restored_files": 1082,
+      "restored_bytes": 715938423,
+      "all_git_blob_identities_verified": true,
+      "destination": ".rebuild/paper-inputs/experiment260",
+      "archive": ".restore-cache/experiment260-original.tar.gz",
+      "archive_sha256": "d4a540d11fb18d51c1c68fdb363c481f9b93d8cdf8dbe231828dbcb206a817bc",
+      "archive_bytes": 123661474
+    },
+    {
+      "original_experiment": "实验261_AOrchestra完整资格",
+      "source_git_commit": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+      "restored_files": 2740,
+      "restored_bytes": 340246212,
+      "all_git_blob_identities_verified": true,
+      "destination": ".rebuild/paper-inputs/experiment261",
+      "archive": ".restore-cache/experiment261-original.tar.gz",
+      "archive_sha256": "a4015cae868f01b8897bdbbee3fe24dc12e702d016a8194772383086c60f1899",
+      "archive_bytes": 278608385
+    },
+    {
+      "original_experiment": "实验262_已有进展保护真实压力场景",
+      "source_git_commit": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+      "restored_files": 368,
+      "restored_bytes": 409317806,
+      "all_git_blob_identities_verified": true,
+      "destination": ".rebuild/paper-inputs/experiment262",
+      "archive": ".restore-cache/experiment262-original.tar.gz",
+      "archive_sha256": "2dcd634997848d10f3b5b43e73371b4adcf30881fab9aa3c9fee9c297051d2cc",
+      "archive_bytes": 79791763
+    }
+  ],
+  "new_experiments_executed": 0,
+  "model_api_requests": 0
+}

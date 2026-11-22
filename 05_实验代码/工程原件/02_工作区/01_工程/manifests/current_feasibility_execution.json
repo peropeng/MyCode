@@ -1,0 +1,67 @@
+{
+  "schema": "current.feasibility_execution.v1",
+  "authorized_at_context": "2026-11-18 Asia/Shanghai",
+  "user_instruction": "先用deepseek-flash补齐固定120题的Binary Search，再把EnAgent和AOrchestra在共同条件下的完整恢复流程跑通，做小规模可行性比较。能续跑的就续跑，已完成的别重跑，根据实际差距再决定RQ2模块。",
+  "authorization_scope": {
+    "ranking": "fixed120 Binary Search; reuse completed records before new model calls",
+    "recovery": "small common-condition complete EnAgent/AOrchestra comparison and necessary independent acceptance",
+    "backend": "deepseek-flash",
+    "new_training": false,
+    "large_scale_expansion": false
+  },
+  "status": "COMPLETE_FIXED120_REUSE_AND_COMMON_DASK_FINAL_ACCEPTANCE",
+  "RQ1": {
+    "Binary_Search_correct": 51,
+    "total": 120,
+    "original_requests": 377,
+    "current_new_requests": 0,
+    "reuse_receipt": "verification/fixed120_binary_reuse_audit.json"
+  },
+  "RQ2": {
+    "common_task": "dask__dask-9378",
+    "planned_action": "independently accept preserved EnAgent selected candidate; reuse completed Agentless/AOrchestra/current-method results",
+    "new_model_generation": false,
+    "original_candidate_business_files": 119,
+    "environment_receipt": "verification/rq2_dask38_environment.json",
+    "old_completed_flows_not_restarted": true,
+    "completed_action": "EnAgent preserved final candidate independent acceptance completed; public probe reused",
+    "public_passed": true,
+    "independent_acceptance_known": true,
+    "private_passed": true,
+    "natural_success": true,
+    "all_owned_processes_stopped": true,
+    "new_model_requests": 0,
+    "fresh_private_acceptance": 1,
+    "current_result": ".rebuild/rq2-feasibility/enagent-dask-trial1/SCALAR_RESULT.json",
+    "common_methods_success": {
+      "ours": {
+        "successful_runs": 3,
+        "runs": 3,
+        "independent_problems": 1
+      },
+      "Agentless": {
+        "successful_runs": 1,
+        "runs": 1,
+        "independent_problems": 1
+      },
+      "EnAgent": {
+        "successful_runs": 1,
+        "runs": 1,
+        "independent_problems": 1
+      },
+      "AOrchestra": {
+        "successful_runs": 1,
+        "runs": 1,
+        "independent_problems": 1
+      }
+    },
+    "scope": "Single exposed development problem; complete native methods, own sampling parameters, shared C0 and acceptance; not formal experiment",
+    "module_decision": "Retain ranking/current-source/visible-feedback as development mainline. No success-rate advantage established; cumulative goal protection not fixed by this one-round task.",
+    "scope_comparability": {
+      "same_failure_code_public_history_GO": "verified for four methods",
+      "same_135_independent_scope": "directly verified for ours, Agentless, EnAgent",
+      "AOrchestra_independent_scope": "known independent pass, exact node identity not confirmed; no rerun; unified-scope uplift not computed"
+    }
+  },
+  "at_utc": "2026-11-17T16:31:06.085580+00:00"
+}

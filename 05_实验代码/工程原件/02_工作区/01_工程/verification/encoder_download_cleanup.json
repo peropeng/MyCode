@@ -1,0 +1,13 @@
+{
+  "operation": "remove only current-task download segments, duplicate official wheel and temporary uv encoder cache",
+  "targets": [
+    ".external/cuda-wheel-parts",
+    ".external/torch-2.7.1+cu128-cp312-cp312-win_amd64.whl",
+    ".external/uv-encoder-cache"
+  ],
+  "deletion_executed": false,
+  "automatic_approval_rejected": true,
+  "reported_reason": "blocked by policy",
+  "scientific_data_deleted": false,
+  "retry_by_other_method": false
+}

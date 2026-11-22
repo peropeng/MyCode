@@ -1,0 +1,82 @@
+[
+  {
+    "call_id": "pydantic__pydantic-8965|RAW:4735|call:16",
+    "call_index": 16,
+    "tool_call_id": "call_cBvwXHdnBetRpdNVH9mldnDr",
+    "message_index": 31,
+    "raw_message_position": 31,
+    "response_message_index": 32,
+    "function": "str_replace_editor",
+    "parameters": {
+      "command": "str_replace",
+      "path": "/workspace/pydantic__pydantic__2.7/pydantic/main.py",
+      "old_str": "    ) -> dict[str, Any]:\n        \"\"\"Usage docs: https://docs.pydantic.dev/2.7/concepts/serialization/#modelmodel_dump",
+      "new_str": "    context: dict[str, Any] | None = None\n    ) -> dict[str, Any]:\n        \"\"\"Usage docs: https://docs.pydantic.dev/2.7/concepts/serialization/#modelmodel_dump"
+    },
+    "original_arguments_json": "{\"command\": \"str_replace\", \"path\": \"/workspace/pydantic__pydantic__2.7/pydantic/main.py\", \"old_str\": \"    ) -> dict[str, Any]:\\n        \\\"\\\"\\\"Usage docs: https://docs.pydantic.dev/2.7/concepts/serialization/#modelmodel_dump\", \"new_str\": \"    context: dict[str, Any] | None = None\\n    ) -> dict[str, Any]:\\n        \\\"\\\"\\\"Usage docs: https://docs.pydantic.dev/2.7/concepts/serialization/#modelmodel_dump\"}",
+    "original_arguments_sha256": "09b3cdef4328c199e5a83fb23f10a1705ea4e65108fae332199934af3b46efdf",
+    "parameters_sha256": "b9cc5cb6218f0886b78d29ebf597c83e00cffd660a0b4d276c4d8696876ad4dc",
+    "response_sha256": "6518137ad96a10ec6a2cc716fec4c3bab74dcfee3c766f1176fcf100454e1ae1",
+    "state_path": "repo/pydantic/main.py",
+    "source_command": "str_replace",
+    "before": {
+      "sha256": "cddc1d1eecc5eac2471d2d3c7186bf11582e72bf25d7c15faf0ab7bba8a000d6",
+      "bytes": 68214,
+      "blob": "blobs/cddc1d1eecc5eac2471d2d3c7186bf11582e72bf25d7c15faf0ab7bba8a000d6"
+    },
+    "parameter_codec": "RAW-json.loads-no-transformation/1",
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/pydantic__pydantic__2.7/pydantic/main.py",
+      "old_str": "    ) -> dict[str, Any]:\n        \"\"\"Usage docs: https://docs.pydantic.dev/2.7/concepts/serialization/#modelmodel_dump",
+      "new_str": "    context: dict[str, Any] | None = None\n    ) -> dict[str, Any]:\n        \"\"\"Usage docs: https://docs.pydantic.dev/2.7/concepts/serialization/#modelmodel_dump"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "a2a8ec652539ce157c3e2f5df93edd482120ac4888f3eede59444ae6ba22de97",
+      "bytes": 68256,
+      "blob": "blobs/a2a8ec652539ce157c3e2f5df93edd482120ac4888f3eede59444ae6ba22de97"
+    }
+  },
+  {
+    "call_id": "pydantic__pydantic-8965|RAW:4735|call:17",
+    "call_index": 17,
+    "tool_call_id": "call_rM5efJ4MLpzTvlpqsi9wTRkI",
+    "message_index": 31,
+    "raw_message_position": 31,
+    "response_message_index": 33,
+    "function": "str_replace_editor",
+    "parameters": {
+      "command": "str_replace",
+      "path": "/workspace/pydantic__pydantic__2.7/pydantic/main.py",
+      "old_str": "        serialize_as_any: bool = False,\n    ) -> str:",
+      "new_str": "        serialize_as_any: bool = False,\n        context: dict[str, Any] | None = None\n    ) -> str:"
+    },
+    "original_arguments_json": "{\"command\": \"str_replace\", \"path\": \"/workspace/pydantic__pydantic__2.7/pydantic/main.py\", \"old_str\": \"        serialize_as_any: bool = False,\\n    ) -> str:\", \"new_str\": \"        serialize_as_any: bool = False,\\n        context: dict[str, Any] | None = None\\n    ) -> str:\"}",
+    "original_arguments_sha256": "fbece02f2934122c96f97b760be1145b02e8a697b06d1f88dc6d6a3eb49c9052",
+    "parameters_sha256": "208ebe60b39a9d713e9674ff893922f31ddef34c679fc09317b35b17783021e7",
+    "response_sha256": "2ba168bbeb615868ffc497e89847b9285d9a786cd020ffd4ecb5aa6bbd337395",
+    "state_path": "repo/pydantic/main.py",
+    "source_command": "str_replace",
+    "before": {
+      "sha256": "a2a8ec652539ce157c3e2f5df93edd482120ac4888f3eede59444ae6ba22de97",
+      "bytes": 68256,
+      "blob": "blobs/a2a8ec652539ce157c3e2f5df93edd482120ac4888f3eede59444ae6ba22de97"
+    },
+    "parameter_codec": "RAW-json.loads-no-transformation/1",
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "path": "/workspace/pydantic__pydantic__2.7/pydantic/main.py",
+      "old_str": "        serialize_as_any: bool = False,\n    ) -> str:",
+      "new_str": "        serialize_as_any: bool = False,\n        context: dict[str, Any] | None = None\n    ) -> str:"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "720d52234c991c15e26d95963fa5a93ec2f2e998ab5cd64c22588f61322a03a7",
+      "bytes": 68302,
+      "blob": "blobs/720d52234c991c15e26d95963fa5a93ec2f2e998ab5cd64c22588f61322a03a7"
+    }
+  }
+]

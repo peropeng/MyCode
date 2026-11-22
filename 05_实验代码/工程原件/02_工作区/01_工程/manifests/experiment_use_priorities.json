@@ -1,0 +1,679 @@
+{
+  "schema_version": 2,
+  "objective": "以RQ1排序质量与成本、RQ2排序支持恢复的实际作用安排后续工作。保留范围不等于运行清单。",
+  "proposal_path_from_project_root": "03_开题/01_当前材料_v1.0/开题报告_评议修订稿_v1.0.md",
+  "raw_material_deletion_authorized": false,
+  "historical_rerun_policy": "已完成旧实验不重跑。未完成且仍直接回答当前研究问题的记录，可在输入、代码、提示词、后端、参数和累计资源均可核对时续跑；条件变化另建运行记录，不拼接成绩。",
+  "preservation_rule": "所有已恢复档案、当前依赖、模型和数据继续保留。下述顺序只决定下一步投入，不构成删除或重新训练依据。",
+  "rq1": {
+    "implementation": "src/thesis_recovery/rq1_study.py",
+    "protocol": "manifests/rq1_study_protocol.json",
+    "complete_architecture": "frozen AB_GLOBAL, unchanged",
+    "interventions": [
+      {
+        "condition": "without_multirelation",
+        "change": "2 RelationLayers -> 2 NodeLayers",
+        "retained": "EventResidual, candidate-conditioned full-trajectory attention, head",
+        "claim_limit": "不等于取消所有关联信息；容量不同"
+      },
+      {
+        "condition": "without_candidate_attention",
+        "change": "AB_REF trajectory mean replaces candidate-conditioned QKVO",
+        "retained": "EventResidual, graph, mean context, head",
+        "claim_limit": "不等于取消全部全轨迹上下文"
+      }
+    ],
+    "ordered_work": [
+      {
+        "action": "固定120题Binary Search按已完成原记录补表，不重跑",
+        "why": "129已有120/120有效完成、377次deepseek-flash请求，51题正确；先前未测试状态属于汇总遗漏",
+        "sources": [
+          "129",
+          "153",
+          "158"
+        ],
+        "completion": "已核对原输入、步骤映射和历史审计链；当前模型逐题数组缺口保留，不新算配对显著性"
+      },
+      {
+        "action": "核定评价候选曝光及原任务分组",
+        "why": "开发成绩不能代替独立泛化",
+        "sources": [
+          "134",
+          "161",
+          "162"
+        ],
+        "completion": "coding127、AFTraj163逐项记录历史使用，剔除同源交叉后封存清单"
+      },
+      {
+        "action": "完成两个精确模块干预",
+        "why": "检验关系消息和候选上下文分别提供什么增量",
+        "sources": [
+          "130",
+          "134",
+          "136",
+          "153",
+          "154"
+        ],
+        "completion": "同数据同编码同验证规则，报告原始计数、重复波动与容量差别"
+      },
+      {
+        "action": "计算原生完整排序指标和诊断开销",
+        "why": "Top1不能说明前列候选质量和成本",
+        "sources": [
+          "153",
+          "160",
+          "257"
+        ],
+        "completion": "Top1/MRR/Hit@3/5和首载/已载P50/P95；生成式单位置不造完整排名"
+      },
+      {
+        "action": "按需要开展仅代码训练分析",
+        "why": "回答加入现有数学轨迹是否值得，低于核心基线和模块优先级",
+        "sources": [
+          "134",
+          "153"
+        ],
+        "completion": "先统一代码验证规则；若只比较492/122与256/64，只能解释整个方案净变化，不能单独归因数学内容"
+      }
+    ],
+    "model_reuse": "本方法3份和StepFinder3份继续保留为候选；一份StepFinder独立训练回执未恢复。新入口不是历史训练逐字节重跑，复用需核定比较条件。",
+    "training_count_status": "旧15份产物/可能新增9次属于此前估算，定稿未固定训练次数，本轮未执行科学训练。",
+    "diagnostic_adapter": {
+      "code": "src/thesis_recovery/diagnostic_baselines.py",
+      "cli": "tools/diagnostic_session.py",
+      "status": "OFFLINE_TESTED_NO_MODEL_REQUESTS",
+      "fixed120_binary_search": "COMPLETED_DEEPSEEK_FLASH_51_OF_120_REUSED",
+      "remaining": [
+        "external client with pinned model revision/generation settings",
+        "common public sample mapping and cohort",
+        "actual model calls and evaluation"
+      ],
+      "reuse_receipt": "verification/fixed120_binary_reuse_audit.json"
+    }
+  },
+  "rq2": {
+    "design_status": "RESET_TO_EXPLORATION",
+    "retained_question": "根因排序如何帮助软件运行故障恢复",
+    "frozen_modules": [],
+    "historical_implementation_status": "262是开发参照，不能作为已确定方法或已超过完整基线的依据。",
+    "baselines": [
+      "Agentless",
+      "EnAgent",
+      "AOrchestra"
+    ],
+    "ordered_work": [
+      {
+        "action": "共同Dask单题四方法完整终态已补齐，已完成不重跑",
+        "why": "本方法3/3，Agentless/EnAgent/AOrchestra各1/1；本轮仅补EA原候选独立验收，0新模型请求",
+        "sources": [
+          "249",
+          "250",
+          "251",
+          "261"
+        ],
+        "completion": "DONE for this exposed development task only; common inputs/acceptance checked, native sampling settings differ"
+      },
+      {
+        "action": "比较排序线索是否改变有效修复",
+        "why": "这是RQ1到RQ2的核心连接，不先沿用262的全部模块",
+        "sources": [
+          "248",
+          "257",
+          "260",
+          "262"
+        ],
+        "completion": "同完整历史、源码和反馈，匹配编辑数及证据容量，记录当前仍存在的错误与实际补丁"
+      },
+      {
+        "action": "只在出现真实进展丢失时研究保持规则",
+        "why": "目标测试保护集合为空或从不冲突时无法解释模块作用",
+        "sources": [
+          "151",
+          "240",
+          "248",
+          "262"
+        ],
+        "completion": "记录先通过后失败、拒绝/接受候选与最终成功的联系，保留负结果"
+      },
+      {
+        "action": "探索方向成立后再冻结方法及跨仓库比较",
+        "why": "当前未证明超过基线，不用旧420次计划倒逼模块定型",
+        "sources": [
+          "244",
+          "249",
+          "250",
+          "251",
+          "261",
+          "262"
+        ],
+        "completion": "独立任务清单、重复数、共同预算及停止判据提前确定"
+      }
+    ],
+    "planned_scope": "定稿拟覆盖5仓库20问题；仍是后续评价目标，不是本轮续跑队列。",
+    "run_count_status": "旧240+120+60=420是此前工作量估计，方法和干预尚待探索，本轮不执行。",
+    "aorchestra_compatibility": {
+      "code": "src/thesis_recovery/rq2_compat.py",
+      "receipt": "verification/rq2_compat_audit.json",
+      "status": "HISTORICAL_LATER_FULL_FLOW_COMPLETED; EARLY_GUARD_CANDIDATE_NOT_NEEDED_FOR_THIS_COMPLETED_TRIAL",
+      "full_runtime_qualified": true,
+      "scientific_run": "COMPLETE_NATURAL_PASS_FIXED30_FAIL_1_TASK",
+      "remaining": [
+        "reuse completed task without regenerating",
+        "check new deployment only when another task requires it"
+      ],
+      "final_source": ".rebuild/paper-inputs/experiment261/CONTINUE_AFTER_USER2335/SCI_R7/FINAL_SCIENTIFIC_SAFE_SUMMARY261.json"
+    },
+    "current_common_feasibility": {
+      "human_report": "01_实验/02_运行故障恢复_RQ2/共同任务可行性比较.md",
+      "audit": "verification/rq2_common_feasibility_audit.json",
+      "new_model_requests": 0,
+      "independent_problem_count": 1,
+      "candidate_business_unchanged": true,
+      "fresh_EnAgent_independent_acceptance": "PASS",
+      "module_decision": "Continue ranking/current-source/visible-feedback exploration; initial behavior protection retained, cumulative progress mechanism not proven or frozen",
+      "sampling_parameters_fully_identical": false,
+      "AOrchestra_scope_limit": "Own independent pass retained; exact 135-node equivalence unconfirmed, no unified-scope uplift."
+    }
+  },
+  "human_decision_entries": {
+    "RQ1": "01_实验/01_根因排序_RQ1/保留实验索引.md",
+    "RQ2": "01_实验/02_运行故障恢复_RQ2/保留实验索引.md"
+  },
+  "historical_assessment": {
+    "active": false,
+    "reason": "已被本轮根据定稿及RQ2探索重置要求替代；保留原取舍与工作量来源，不能据此启动或清理。",
+    "record": {
+      "schema_version": 1,
+      "objective": "以当前开题待做的学术实验为目标，历史恢复组数不是必须重跑或完整维护的实验数。",
+      "assessment_only": true,
+      "scientific_execution_authorized": false,
+      "raw_material_deletion_authorized": false,
+      "archived_groups": [
+        {
+          "experiment": "124",
+          "rq": "RQ1",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不复跑旧731条外折比较。",
+          "preserve_scope": "保留同数据StepFinder协议、分组、逐题预测与结论；旧参数和特征不作为新实验前置。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "130",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧多版本搜索。",
+          "preserve_scope": "保留负结果、归一化混杂及机制诊断总结。当前153引用的RelationLayer源码单独保留，不需要整套旧模型和特征。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "131",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑32组筛选及后续数十个候选。",
+          "preserve_scope": "保留候选取舍、失败原因、紧凑对比和代表反例；旧候选参数、特征与运行环境无需再次铺开。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "132",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧三案接口试验。",
+          "preserve_scope": "保留格式、截断、证据校验问题及少量代表请求响应；不能作为三方法有效准确率比较。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "133",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑选择性核验流程。",
+          "preserve_scope": "当前特征仍需is_state、representation和配对规则，作为小范围源码依赖保留；其余留结论。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "134",
+          "rq": "RQ1",
+          "retention_class": "core",
+          "retention_label": "主线材料",
+          "historical_rerun": "按统一开题协议准备输入，不复跑旧全条件。",
+          "preserve_scope": "保留614条原轨迹、492/122划分、标签映射、编码与关系特征函数，以及原件/重建件区分。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "135",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑历史前瞻确认。",
+          "preserve_scope": "保留冻结条件、确认范围与结果摘要，不为复述结论恢复旧参数、特征和全部预测。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "136",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧AB机制组合。",
+          "preserve_scope": "当前153实际引用的original_models等源码保留；旧控制训练只保留紧凑结果与适用边界。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "137",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧范围压力试验。",
+          "preserve_scope": "保留候选范围、数据来源与迁移边界结论，不追补整套旧缓存。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "147",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑公开请求联系残差。",
+          "preserve_scope": "保留联系建模与身份线索边界结论；该候选不是当前模型的新增运行条件。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "148",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑动态邻域读出。",
+          "preserve_scope": "保留未得到稳定增益的开发结论与代表控制结果，不恢复旧参数和训练缓存。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "149",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑任务—步骤联合编码。",
+          "preserve_scope": "保留匹配、空任务、错配控制的结论；不能据开发负结果推断任务信息普遍无用，也不把它当当前模型输入。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "150",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧排序到恢复桥接。",
+          "preserve_scope": "保留映射与桥接结论。工程环境清单引用的解释器/配置由当前环境依赖保存，不要求恢复本实验全部运行树。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "153",
+          "rq": "RQ1",
+          "retention_class": "core",
+          "retention_label": "主线材料",
+          "historical_rerun": "保留训练骨架，按新协议选定条件；不重跑旧198阶段组合。",
+          "preserve_scope": "保留当前模型、训练损失、选轮、标准化和推断代码及其选定依赖；三份现有完整模型先做复用资格核对。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "154",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧四控制臂；不能抵扣开题两项w/o。",
+          "preserve_scope": "保留控制定义及不等价原因。其点层容量替换、内容清零、关系重排、复制temporal均不是当前两项模块消融。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "155",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧多组复验。",
+          "preserve_scope": "保留随机状态、种子与稳定性经验及紧凑汇总；后续按固定协议三次初始化。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "156",
+          "rq": "RQ1",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不复跑旧模型位置/角色诊断。",
+          "preserve_scope": "保留分层规则、少量审计代码和代表反例，供新结果的位置/长度分析使用。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "157",
+          "rq": "RQ1",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不重跑三划分下的旧组合。",
+          "preserve_scope": "保留原划分、匹配逐题预测和汇总；用于旧成绩追溯与曝光核查，不替代开题固定划分。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "158",
+          "rq": "RQ1",
+          "retention_class": "core",
+          "retention_label": "主线材料",
+          "historical_rerun": "不重跑双预设全套；按冻结设置训练/核验StepFinder。",
+          "preserve_scope": "保留作者模型、独立实现、选定预设、三份现有SF_ALG_PAPER50模型及选择/训练来源，优先审查复用；一份独立fit回执待补证。148/363属于旧开发设置，不替换匹配划分结果。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "159",
+          "rq": "RQ1",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不重跑旧18次跨划分预设训练。",
+          "preserve_scope": "保留与157匹配的配置、逐划分预测和汇总，避免比较错位。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "160",
+          "rq": "RQ1",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复算全部历史候选组合。",
+          "preserve_scope": "保留方差、预算和差异分解结论及紧凑表，不增加正式实验条件。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "161",
+          "rq": "RQ1",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不重跑旧描述性分层。",
+          "preserve_scope": "保留原问题成员、近似规则和审计代码作参考；163/127候选仍须重新核定历史使用和原问题重叠。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "162",
+          "rq": "RQ1",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不重跑旧缓存覆盖计数。",
+          "preserve_scope": "保留显式标记覆盖规则和代表证据，新评价按冻结规则检查，不恢复旧全量模型。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "151",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑旧累计闭包面板。",
+          "preserve_scope": "保留扩范围同时出现救回和损坏的结论，指导保护规则和候选预算；不追补旧状态副本。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "152",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑存在输入协议偏差的旧配置。",
+          "preserve_scope": "保留偏差原因及纠正依据，不将其失败等同于恢复机制失败。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "152C",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑旧纠正面板。",
+          "preserve_scope": "保留修正后的条件、共同分母与开发结论；不作为新20题成绩。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "174",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑早期Flash小试。",
+          "preserve_scope": "保留完整流程可行性和部署问题总结；后续完整方法比较另按统一条件。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "175",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不把旧接线准备重跑成科学实验。",
+          "preserve_scope": "保留必要作者核心/适配源码的当前引用版本，其余机械接线结论即可；准备状态不是恢复效果。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "176",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不继续补齐旧六题计划。",
+          "preserve_scope": "保留部分完成、编辑顺序与共同分母的结论，不累加到正式420次。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "178",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧容量与输出预算试验。",
+          "preserve_scope": "保留截断、预算删失和完整流程不可比的原因，必要时留一个代表请求；避免再用裁剪核心的基线。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "183",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不补跑旧固定十二题队列。",
+          "preserve_scope": "保留完成状态与排序对照经验；新任务清单、对照定义和预算统一后再比较。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "191",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑接口资格试验。",
+          "preserve_scope": "当前257/262实际引用的公开输入、无损编码和接口文件单独保留；整个资格目录只留结论。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "224",
+          "rq": "RQ2",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不复跑旧Main21队列。",
+          "preserve_scope": "保留共同完成任务的逐题状态、选择补丁、验收与计时依据；不需要每轮完整执行克隆。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "225",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑旧EnAgent配置。",
+          "preserve_scope": "保留工具、路径、完整性和预算经验。当前250确实引用的核心与兼容适配另存，不恢复整套旧部署。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "239",
+          "rq": "RQ2",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不逐个重跑V3/V4及自然题变体。",
+          "preserve_scope": "保留版本边界、少量完整结果与工具兼容反例；当前EnAgent用到的兼容源码随250保留。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "240",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不复跑旧共享池与源码准备目录。",
+          "preserve_scope": "当前262中的progress_guard与源码关联模块必须留；原实验只需机制演进、失效案例和版本总结。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "241",
+          "rq": "RQ2",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不重跑旧ScopeV2/V3比较队列。",
+          "preserve_scope": "保留测试范围与源码许可纠正、代表结果；当前Agentless需要的核心随251保留。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "245",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不恢复旧暂停轨迹继续运行。",
+          "preserve_scope": "保留暂停、未知、删失与有效终验边界总结，不为补完历史窗口花新预算。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "246",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不重跑旧无外部预算比较。",
+          "preserve_scope": "保留历史SEARCH错位、目标消费者遗漏两类失败原因及少量代表补丁。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "247",
+          "rq": "RQ2",
+          "retention_class": "conclusion",
+          "retention_label": "结论为主",
+          "historical_rerun": "不为救回旧题再扩大K。",
+          "preserve_scope": "保留K=4属于参数变化、不能回填旧K=3成绩的结论；当前最多3项编辑按开题冻结。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "248",
+          "rq": "RQ2",
+          "retention_class": "evidence",
+          "retention_label": "精选证据",
+          "historical_rerun": "不重跑两道已曝光题。",
+          "preserve_scope": "保留当前反馈绑定的代表输入、补丁与测试事件；保护初始集为空，不能据此证明累计保持收益。当前核心已随262保留。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "249",
+          "rq": "RQ2",
+          "retention_class": "core",
+          "retention_label": "主线材料",
+          "historical_rerun": "不重跑旧六题及其历史窗口。",
+          "preserve_scope": "仅保留仍有用的共同C0、公开历史、测试范围、输入契约与资格工具；为新20题重新核定起点和历史使用。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "250",
+          "rq": "RQ2",
+          "retention_class": "core",
+          "retention_label": "主线材料",
+          "historical_rerun": "迁移完整EnAgent作为基线，不复跑旧部署树。",
+          "preserve_scope": "保留完整作者流程、角色/阶段、工具/剪枝/投票与当前适配源码；不追补全部旧检查点和财政窗口。尚需统一20题配置和资格检查。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        },
+        {
+          "experiment": "251",
+          "rq": "RQ2",
+          "retention_class": "core",
+          "retention_label": "主线材料",
+          "historical_rerun": "迁移完整Agentless作为基线，不复跑旧部署树。",
+          "preserve_scope": "保留完整定位、补丁/复现采样、回归筛选和选择源码及当前适配；旧缓存只在新任务精确匹配时复用，不能借题或省略检索。",
+          "restore_missing_policy": "只在当前实际引用的源码、固定输入、共同起点或必要结论证据存在缺口时补取，不按历史缺口总数追补。"
+        }
+      ],
+      "existing_current_materials": [
+        {
+          "experiment": "129",
+          "class": "conclusion",
+          "keep": "当前原生执行器仍引用的executor/run.py须保留在工程依赖中；旧恢复实验只需结论和来源。",
+          "rerun": "不重跑旧面板。",
+          "retention_label": "结论为主"
+        },
+        {
+          "experiment": "244",
+          "class": "evidence",
+          "keep": "固定五题预算与自然终态的逐题结果、交付、验收和计时证据。",
+          "rerun": "不把旧五题再跑一次当成新独立比较。",
+          "retention_label": "精选证据"
+        },
+        {
+          "experiment": "257",
+          "class": "core",
+          "keep": "当前3模型、18任务排序发布、输入映射与推断入口。",
+          "rerun": "可继续推断与联调；发布回放不是训练，也不抵扣训练次数。",
+          "retention_label": "主线材料"
+        },
+        {
+          "experiment": "260",
+          "class": "evidence",
+          "keep": "两条真实负响应、输入链与控制定义；必要控制代码可作为改写参考。",
+          "rerun": "不补旧18槽。旧NO_DIAG是时间正序，且保留关系上下文；既不等于逆序同量控制，也不等于移除修复上下文。",
+          "retention_label": "精选证据"
+        },
+        {
+          "experiment": "261",
+          "class": "core",
+          "keep": "AOrchestra完整作者流程、适配差分、接口及资格记录。",
+          "rerun": "先完成新配置的完整方法资格，再作为20题基线；现有部署记录不等于已有恢复比较成绩。",
+          "retention_label": "主线材料"
+        },
+        {
+          "experiment": "262",
+          "class": "core",
+          "keep": "当前恢复器、嵌入的248/240模块、共同输入/测试接口及关键9轨迹的进展事件。",
+          "rerun": "不重复单issue压力面板追求优势；按新20题完成整体与消融。O_ONLY是否等于新w/o累计保持须先冻结语义。",
+          "retention_label": "主线材料"
+        }
+      ],
+      "future_experiments": {
+        "ranking_training_conditions": {
+          "complete_model": 3,
+          "StepFinder": 3,
+          "without_relation_module": 3,
+          "without_global_self_attention": 3,
+          "coding_only_complete_model": 3
+        },
+        "planned_training_products": 15,
+        "existing_complete_checkpoints_reusable": "本方法SOURCE3三份与StepFinder SF_ALG_PAPER50三份均纳入候选复用。模型字节及全部验证成员已核对，五份有直接训练成员回执，一份StepFinder独立训练回执仍缺。由冻结协议认可及补证决定，不能提前抵扣。",
+        "recovery_conditions": {
+          "complete_methods": 240,
+          "two_module_ablations": 120,
+          "reverse_chronological_same_edit_budget": 60
+        },
+        "planned_recovery_runs": 420,
+        "additional_evaluation_work": [
+          "核定AFTraj163与AgenTracer coding127候选的历史使用及原问题重叠",
+          "All-at-Once与Binary Search共同评价，其推断不属于15次训练",
+          "对完整排序计算Top-1/MRR/Hit@3/5；对单位置输出不补造完整排名",
+          "首次加载和已加载条件下的编码加评分P50/P95",
+          "核定20问题共同故障代码、公共历史、测试与独立验收许可"
+        ],
+        "existing_reuse_candidates": {
+          "complete_model": 3,
+          "StepFinder": 3
+        },
+        "new_training_if_all_six_candidates_accepted": 9,
+        "reuse_assessment_receipt": "verification/experiment_reuse_assessment.json",
+        "old_AF_fold_models_not_counted_as_fixed_split_initializations": 15
+      },
+      "specific_non_equivalences": [
+        "154的容量替换/内容清零/关系重排/temporal复制不是当前两项w/o。",
+        "157/159的跨划分多预设组合不是固定一划分三初始化。",
+        "260旧NO_DIAG时间正序并保留上下文，不等于新逆序控制或上下文构建消融。",
+        "262的SET/COUNT/O_ONLY单issue比较不替代新20题两项模块消融。"
+      ],
+      "preservation_rule": "运行依赖按实际引用文件保留；精选证据保留共同输入标识、逐题/逐轮必要结果和代表反例；结论级材料不恢复旧环境和全量缓存。既有归档与备份本轮不删除。",
+      "proposal_path_from_project_root": "03_开题/01_当前材料_v1.0/开题报告_v1.0.md"
+    }
+  },
+  "execution_authorization": {
+    "manifest": "manifests/current_feasibility_execution.json",
+    "current_task_status": "completed",
+    "standing_future_run_authorization": false
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "original_path": "工作区/1003-diagnosis-investigation/exp132_review/new_window_1959/基线对比表_最新有效结果_20261007.txt",
+    "restored_path": "01_实验/历史结论与经验/汇总/基线对比原始记录/基线对比表_最新有效结果_20261007.txt",
+    "bytes": 1816,
+    "sha256": "654134164833d2bf7cb11015aaeab889a45272ee967b2f96ce8a292c12593af8",
+    "source_snapshot": "26a67efdcd5c8b336b36a43235b75b69dc2bed34"
+  },
+  {
+    "original_path": "工作区/1003-diagnosis-investigation/exp132_review/new_window_2332/基线对比表_Exp183派发前历史快照.txt",
+    "restored_path": "01_实验/历史结论与经验/汇总/基线对比原始记录/基线对比表_Exp183派发前历史快照.txt",
+    "bytes": 5025,
+    "sha256": "10bea81ffa6b9c132a4c9dd4ddd2c731fa94b56e2b3b5882381dbfa22d5099db",
+    "source_snapshot": "26a67efdcd5c8b336b36a43235b75b69dc2bed34"
+  },
+  {
+    "original_path": "工作区/1003-diagnosis-investigation/exp132_review/new_window_2332/基线对比表_当前有效资格与小试_20261008.txt",
+    "restored_path": "01_实验/历史结论与经验/汇总/基线对比原始记录/基线对比表_当前有效资格与小试_20261008.txt",
+    "bytes": 8300,
+    "sha256": "428dc8709000b35df5a0851b987ddcf92a241bec8dcec5df2122c189c6d367f4",
+    "source_snapshot": "26a67efdcd5c8b336b36a43235b75b69dc2bed34"
+  },
+  {
+    "original_path": "工作区/1003-diagnosis-investigation/exp132_review/new_window_1959/baseline_comparison_latest_20261007.json",
+    "restored_path": "01_实验/历史结论与经验/汇总/基线对比原始记录/baseline_comparison_latest_20261007.json",
+    "bytes": 4419,
+    "sha256": "9895e7d1acc1fdd2072728965e6206bfc9068edd7de45c3632cb44384c3d5d14"
+  }
+]

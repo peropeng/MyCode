@@ -1,0 +1,8 @@
+{
+  "user_instruction": "2026-11-02: early experiments retain conclusions only",
+  "historical_assets_removed": 76,
+  "historical_asset_bytes_removed": 19935027200,
+  "remaining_asset": "current-inputs-full.tar",
+  "remaining_bytes": 33792000,
+  "remaining_sha256_digest": "sha256:ceb672b479c96882c64c825e8ff79548a7f9d874b878934cd5026dfb8dee8bde"
+}

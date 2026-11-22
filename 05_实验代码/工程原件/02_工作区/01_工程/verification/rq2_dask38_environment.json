@@ -1,0 +1,38 @@
+{
+  "scope": "reconstructed environment for one preserved EnAgent final candidate, no model generation",
+  "runtime": {
+    "python": "3.8.20 (default, Oct  2 2024, 15:21:04) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "pandas": "1.5.3",
+    "pytest": "7.4.4"
+  },
+  "explicit_dependencies": "original prepare_env38.py fixed versions",
+  "transitive_versions": [
+    "cloudpickle==2.2.1",
+    "colorama==0.4.6",
+    "exceptiongroup==1.3.1",
+    "fsspec==2022.8.2",
+    "iniconfig==2.1.0",
+    "locket==1.0.0",
+    "numpy==1.23.5",
+    "packaging==23.2",
+    "pandas==1.5.3",
+    "partd==1.4.1",
+    "pluggy==1.5.0",
+    "pytest==7.4.4",
+    "pytest-mock==3.12.0",
+    "python-dateutil==3.0.0",
+    "pytz==2026.6",
+    "pyyaml==6.0.1",
+    "scipy==1.10.1",
+    "six==1.17.0",
+    "tomli==2.5.0",
+    "toolz==0.12.1",
+    "typing-extensions==4.13.2",
+    "tzdata==2026.6"
+  ],
+  "original_environment_bytes_identical": false,
+  "python": "D:\\Code\\毕设\\02_工作区\\01_工程\\.external\\dask38\\Scripts\\python.exe",
+  "new_model_requests": 0
+}

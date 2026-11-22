@@ -1,0 +1,82 @@
+{
+  "schema": "fixed120.binary_reuse_audit.v1",
+  "decision": "REUSE_COMPLETED_DEEPSEEK_FLASH_BINARY_SEARCH; DO_NOT_RERUN_120",
+  "current_task_new_API_requests": 0,
+  "direct_original_evidence": {
+    "source_root": ".rebuild/paper-inputs/rq2-experiment129",
+    "manifest_records": 120,
+    "unique_sample_ids": 120,
+    "unique_task_groups": 120,
+    "public_input_hashes_match_manifest": true,
+    "original124_anonymous_turn_hashes_match": true,
+    "record_group_source_conv_and_step_count_match": true,
+    "gold_step_is_zero_based_and_maps_to_recorded_gold_role": true,
+    "Binary_Search": {
+      "correct": 51,
+      "total": 120,
+      "comparison_eligible_completed_format_valid": 120,
+      "backend": "deepseek-flash",
+      "new_requests": 0,
+      "original_submitted_requests": 377
+    },
+    "All_at_Once": {
+      "correct": 77,
+      "total": 120,
+      "same_manifest": true
+    },
+    "legacy_ours_27_of_120_is_not_current_method": true
+  },
+  "existing_model_score_binding": {
+    "verified_current_compact_summary": "01_实验/历史结论与经验/实验/实验158_StepFinder论文双预设强对照/compact_summary.json",
+    "compact_matches_historical_PASS_audit": true,
+    "current_ours": {
+      "correct": 86,
+      "total": 120
+    },
+    "StepFinder_ALG_PAPER50": {
+      "correct": 82,
+      "total": 120
+    },
+    "membership_lineage": [
+      "evaluate153.py: af_cached_and_history requires all four cached methods over identical fixed120 and identifies Exp129 cache preserved by Exp138",
+      "evaluate153.py: cached120 manifest checks record_id, task_group, source_conv_id and per-method input hashes before current fixed120 scoring",
+      "evaluate158.py: reuses old153 AF.fixed120_sample_ids, requires exact equality with 155/156/157 and 120 independent groups, then scores locked153 and current SF presets",
+      "evaluate158.py: retains old153 original_fixed120_AA_Binary_SDBL_SF_reference_only in same AF object"
+    ],
+    "direct_current_153_158_full_comparison_arrays_restored": false,
+    "limit": "The current original per-task prediction arrays and cached120 intermediate are listed as unavailable archive assets. Same-cohort relation relies on preserved evaluators plus historical PASS audits and verified current compact summary, not a new direct re-read of missing arrays."
+  },
+  "protocol_review": {
+    "old_diagnose_source_matches_all_six_pre_generation_receipts": true,
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "thinking": "disabled",
+    "binary_max_output_tokens": 128,
+    "diagnostic_budget_seconds": 900,
+    "rendering": "Original Step i - role: JSON whitelist of content/action/thought/observation; complete selected interval, no truncation",
+    "prompt": "Official Who&When prompt with complete answer line removed; author source pinned in retained prompt module",
+    "parser": "upper half/lower half only after trimming surrounding quotes/backticks/punctuation; no random fallback",
+    "single_step_no_fabricated_full_ranking": true,
+    "new_adapter_equivalence_limit": "Do not re-render old calls with the newer role:content adapter or equate its cumulative model-time budget with the original whole-diagnostic 900-second budget. Reuse the completed original protocol as its own result."
+  },
+  "result_reporting": {
+    "binary_Top1_percent": 42.5,
+    "ours_minus_binary_percentage_points": 29.17,
+    "stage": "early feasibility only",
+    "paired_significance_against_current_model": "NOT_RECOMPUTED; current per-task model arrays unavailable"
+  },
+  "bindings": {
+    "02_工作区/01_工程/.rebuild/paper-inputs/rq2-experiment129/samples/diagnostic_manifest.json": "a9ce5a19366013856004f1c7efc4c5d76eead5fcfb821d3671d674263b21c019",
+    "02_工作区/01_工程/.rebuild/paper-inputs/rq2-experiment129/samples/diagnostic_inputs.jsonl": "e31be3a28f3545a75eac177d0366edb2c844b80ca932e0466fc2210b1378a8a6",
+    "02_工作区/01_工程/.rebuild/paper-inputs/rq2-experiment129/samples/diagnostic_labels.evaluation_only.jsonl": "6aff2777f0e2e3cf0e64e061928552ab10e0dbec0c848fcab3918b3bc97c0c64",
+    "02_工作区/01_工程/.rebuild/paper-inputs/rq2-experiment129/protocol.json": "24c03247e1378c05bd98e79bfd5b1113eab2aaaaf1ae9c18fa45df36e54c921d",
+    "02_工作区/01_工程/.rebuild/paper-inputs/rq2-experiment129/analysis/prefix120_v1/task_metrics.jsonl": "2ca66f7224dfd09d0bfb6430abbdbac55d5c6e0effcbe55fc97f64b48f250b0b",
+    "02_工作区/01_工程/.rebuild/paper-inputs/rq2-experiment129/analysis/prefix120_v1/paired_comparisons.json": "60c329d1356247f0fca132eb3b80e875bd7f823fa8391c1d6c8a1086e15249f0",
+    "02_工作区/01_工程/.rebuild/paper-inputs/retained-experiments/rq1/experiment133/实验/实验133_状态动作选择性核验/resources/llm_methods.py": "aaf1ff86d3e01659615b53d04276dc7a3f7424f73f33c44bc9a1af985eadc7af",
+    "01_实验/历史结论与经验/实验/实验158_StepFinder论文双预设强对照/compact_summary.json": "cba33139404b6e7e6f6393c31d48c67c25174541e60c69f248c63908faa610e8",
+    "02_工作区/01_工程/.rebuild/paper-inputs/retained-experiments/rq1/experiment158/实验/实验158_StepFinder论文双预设强对照/final_execution_audit.json": "a67dfb363faebaa099eee262b2373e32027e258af4cf8bcaf3cde97b20e8ac9a",
+    "01_实验/历史结论与经验/实验/实验153_候选条件全轨迹上下文/evaluate153.py": "215cd9673ba88c293bb4fc2ed4325c23c2c042ecb55cd8d976a433b2217f773e",
+    "01_实验/历史结论与经验/实验/实验153_候选条件全轨迹上下文/finalize153.py": "80ddc79da72f966363bdfeccd38171453e3c7e90653ed3aab1f895ab5b497cab",
+    "01_实验/历史结论与经验/实验/实验158_StepFinder论文双预设强对照/evaluate158.py": "0383c024cf8d2d86d6c946a0e9ef19f885a1061072833ec0c3cf504c1e77d67c"
+  }
+}

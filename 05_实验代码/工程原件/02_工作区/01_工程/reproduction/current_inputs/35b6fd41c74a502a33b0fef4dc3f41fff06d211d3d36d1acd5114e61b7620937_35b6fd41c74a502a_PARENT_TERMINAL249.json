@@ -1,0 +1,39 @@
+{
+  "UTC": "2026-10-11T18:04:47.409404+00:00",
+  "task_id": "getmoto__moto-6352",
+  "stage": "current_C0",
+  "exit_code": 0,
+  "error": null,
+  "held_launcher": {
+    "pid": 41484,
+    "creation_time100ns": 134362154633064424,
+    "image": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp124-ranking-baselines\\.venv\\Scripts\\python.exe",
+    "actual_OS_image": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp124-ranking-baselines\\.venv\\Scripts\\python.exe",
+    "identity_source": "GetProcessId/GetProcessTimes/QueryFullProcessImageNameW on held process handle"
+  },
+  "stop_receipt": {
+    "owned_job_closed": true,
+    "root_process_stopped": true,
+    "all_owned_descendants_terminated": true,
+    "job_active_processes_after_termination": 0,
+    "actual_job_accounting_observations": [
+      {
+        "active_processes": 0,
+        "total_processes": 13,
+        "total_terminated_processes": 0
+      },
+      {
+        "active_processes": 0,
+        "total_processes": 13,
+        "total_terminated_processes": 0
+      }
+    ],
+    "assigned_root_verified_member": true,
+    "STOP_evidence": "specific Job QueryInformationJobObject active=0 before CloseHandle; held root WaitForSingleObject=WAIT_OBJECT_0"
+  },
+  "Root_grant_SHA256": "b48ca7bbf1296a2aadd946bc189b82e5c59782bd8db0870f5ad2fc983ae3eef5",
+  "outcome_not_inferred_from_STOP": true,
+  "model_calls": 0,
+  "private_calls": 0,
+  "finance_writes": 0
+}

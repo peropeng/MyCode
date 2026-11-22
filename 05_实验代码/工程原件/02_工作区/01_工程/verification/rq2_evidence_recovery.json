@@ -1,0 +1,15 @@
+{
+  "source_git_commit": "7c3e2a14188f34cb9bfdc6917517e71df0b08b88",
+  "original_experiment": "实验/实验129_扩展基线与恢复证据",
+  "destination": ".rebuild/paper-inputs/rq2-experiment129",
+  "original_files_in_git": 13912,
+  "restored_regular_files": 13912,
+  "restored_regular_file_bytes": 259386428,
+  "all_restored_git_blob_identities_verified": true,
+  "deferred_symlinks": [],
+  "archive": ".restore-cache/rq2-experiment129-original.tar.gz",
+  "archive_sha256": "c763895438bf2274dd245c505012182c9e83cbd846244450068c57b2d065335f",
+  "archive_size": 42160091,
+  "scientific_experiments_executed": 0,
+  "model_api_requests": 0
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="940" viewBox="0 0 1180 940" role="img"><title>同一部分修复状态上的两种实际成功路径</title><desc>一个已曝光问题，九条新轨迹。七个成功终态保持后端对象，一条O-only轨迹先退步后修复消费者。</desc><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#586b7b"/></marker></defs><rect width="100%" height="100%" fill="white"/><style>text{font-family:"Microsoft YaHei","DengXian",sans-serif;fill:#17324d}.h{font-weight:700}.muted{fill:#586b7b}</style>
+<text x="38" y="45" font-size="30" class="h">相同起点，两种已验收的恢复路径</text>
+<text x="38" y="82" font-size="20" style="fill:#586b7b">实际执行结果  ·  一个已曝光问题，三策略各三次  ·  不代表策略总体优劣</text>
+<rect x="38" y="122" width="1104" height="128" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="138" width="5" height="96" rx="2" fill="#087f83"/>
+<text x="61" y="160" font-size="24" class="h">共同部分修复状态：2/3目标通过，普通保护通过</text>
+<text x="61" y="198" font-size="20">后端 describe_thing 返回 FakeThing；删除与更新目标通过。</text>
+<text x="61" y="228" font-size="20">创建相关测试在 describe_thing 的响应序列化处失败。</text>
+<rect x="38" y="307" width="528" height="187" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="323" width="5" height="155" rx="2" fill="#087f83"/>
+<text x="61" y="345" font-size="24" class="h">路径一：保持提供者接口</text>
+<text x="61" y="383" font-size="20">后端继续返回对象，在响应层转为字典。</text>
+<text x="61" y="413" font-size="20">已有消费者继续使用对象字段。</text>
+<text x="61" y="443" font-size="20">本轮七条成功轨迹到达同一终态。</text>
+<rect x="606" y="307" width="536" height="187" rx="13" fill="#fff6e9" stroke="#ccdbe3"/><rect x="606" y="323" width="5" height="155" rx="2" fill="#986720"/>
+<text x="629" y="345" font-size="24" class="h">路径二：改变接口后修复消费者</text>
+<text x="629" y="383" font-size="20">后端改为返回字典，创建目标通过；</text>
+<text x="629" y="413" font-size="20">删除与更新退步，目标由2/3降至1/3。</text>
+<text x="629" y="443" font-size="20">O-only第一条实际轨迹接纳该状态。</text>
+<path d="M300,250 L300,297" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M874,250 L874,297" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<rect x="38" y="555" width="528" height="174" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="571" width="5" height="142" rx="2" fill="#087f83"/>
+<text x="61" y="593" font-size="24" class="h">终态：3/3目标通过，独立验收通过</text>
+<text x="61" y="631" font-size="20">保持原后端对象契约；</text>
+<text x="61" y="661" font-size="20">SET三条、COUNT两条、O-only两条。</text>
+<text x="61" y="691" font-size="20">不依赖先接纳上述退步候选。</text>
+<rect x="606" y="555" width="536" height="174" rx="13" fill="#fff6e9" stroke="#ccdbe3"/><rect x="606" y="571" width="5" height="142" rx="2" fill="#986720"/>
+<text x="629" y="593" font-size="24" class="h">下一次修改两个消费者后成功</text>
+<text x="629" y="631" font-size="20">delete / update 直接读取所需对象；</text>
+<text x="629" y="661" font-size="20">达到3/3并通过独立验收。</text>
+<text x="629" y="691" font-size="20">这是一次实际观察到的2→1→3路径。</text>
+<path d="M300,494 L300,545" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M874,494 L874,545" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<text x="38" y="785" font-size="24" class="h">规则重算与真实执行要分开</text>
+<text x="38" y="826" font-size="20" style="fill:#586b7b">十个可测试候选中有两次2→1退步，SET和COUNT均会拒绝；SET独有拒绝为0/10。</text>
+<text x="38" y="861" font-size="20" style="fill:#586b7b">COUNT另一条轨迹在后两次编辑校验中失败，留在2/3；不补记为成功。</text>
+<text x="38" y="896" font-size="20" style="fill:#586b7b">两种终态源码不同、均通过本次验收；不推断全部调用点语义等价或反事实结果。</text></svg>

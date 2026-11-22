@@ -1,0 +1,151 @@
+[
+  {
+    "call_id": "getmoto__moto-5286|sft:143|call:1",
+    "call_index": 1,
+    "message_index": 4,
+    "state_path": "workspace/reproduce.py",
+    "source_command": "create",
+    "source_parameters": {
+      "command": "create",
+      "file_text": "import boto3\nfrom moto import mock_cognitoidp\n\n\n@mock_cognitoidp\ndef test_moto_cognito_user_pool_domain():\n    client = boto3.client(\"cognito-idp\")\n    user_pool_id = client.create_user_pool(PoolName='TestPool')['UserPool']['Id']\n    client.create_user_pool_domain(\n        Domain='test-domain123',\n        UserPoolId=user_pool_id\n    )\n\n    user_pool = client.describe_user_pool(UserPoolId=user_pool_id)['UserPool']\n\n    assert user_pool['Domain'] == 'test-domain123'\n\n\nif __name__ == \"__main__\":\n    test_moto_cognito_user_pool_domain()",
+      "path": "/workspace/reproduce.py"
+    },
+    "serialized_parameters": {
+      "command": "create",
+      "file_text": "\nimport boto3\nfrom moto import mock_cognitoidp\n\n\n@mock_cognitoidp\ndef test_moto_cognito_user_pool_domain():\n    client = boto3.client(\"cognito-idp\")\n    user_pool_id = client.create_user_pool(PoolName='TestPool')['UserPool']['Id']\n    client.create_user_pool_domain(\n        Domain='test-domain123',\n        UserPoolId=user_pool_id\n    )\n\n    user_pool = client.describe_user_pool(UserPoolId=user_pool_id)['UserPool']\n\n    assert user_pool['Domain'] == 'test-domain123'\n\n\nif __name__ == \"__main__\":\n    test_moto_cognito_user_pool_domain()\n",
+      "path": "/workspace/reproduce.py"
+    },
+    "parameter_codec": "SWE-Gym-OpenHands-forward-serializer-left-inverse/1.0",
+    "source_outcome": "reported_success",
+    "before": null,
+    "command": "create",
+    "original_parameters": {
+      "command": "create",
+      "file_text": "import boto3\nfrom moto import mock_cognitoidp\n\n\n@mock_cognitoidp\ndef test_moto_cognito_user_pool_domain():\n    client = boto3.client(\"cognito-idp\")\n    user_pool_id = client.create_user_pool(PoolName='TestPool')['UserPool']['Id']\n    client.create_user_pool_domain(\n        Domain='test-domain123',\n        UserPoolId=user_pool_id\n    )\n\n    user_pool = client.describe_user_pool(UserPoolId=user_pool_id)['UserPool']\n\n    assert user_pool['Domain'] == 'test-domain123'\n\n\nif __name__ == \"__main__\":\n    test_moto_cognito_user_pool_domain()",
+      "path": "/workspace/reproduce.py"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "fd75a0185810177e94cf64b15d09833af656c01429b72ae72615215c5aaf09b0",
+      "bytes": 538,
+      "blob": "blobs/fd75a0185810177e94cf64b15d09833af656c01429b72ae72615215c5aaf09b0"
+    }
+  },
+  {
+    "call_id": "getmoto__moto-5286|sft:143|call:3",
+    "call_index": 3,
+    "message_index": 8,
+    "state_path": "workspace/reproduce.py",
+    "source_command": "str_replace",
+    "source_parameters": {
+      "command": "str_replace",
+      "new_str": "    client = boto3.client(\"cognito-idp\", region_name=\"us-east-1\")",
+      "old_str": "    client = boto3.client(\"cognito-idp\")",
+      "path": "/workspace/reproduce.py"
+    },
+    "serialized_parameters": {
+      "command": "str_replace",
+      "new_str": "    client = boto3.client(\"cognito-idp\", region_name=\"us-east-1\")",
+      "old_str": "    client = boto3.client(\"cognito-idp\")",
+      "path": "/workspace/reproduce.py"
+    },
+    "parameter_codec": "SWE-Gym-OpenHands-forward-serializer-left-inverse/1.0",
+    "source_outcome": "reported_success",
+    "before": {
+      "sha256": "fd75a0185810177e94cf64b15d09833af656c01429b72ae72615215c5aaf09b0",
+      "bytes": 538,
+      "blob": "blobs/fd75a0185810177e94cf64b15d09833af656c01429b72ae72615215c5aaf09b0"
+    },
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "new_str": "    client = boto3.client(\"cognito-idp\", region_name=\"us-east-1\")",
+      "old_str": "    client = boto3.client(\"cognito-idp\")",
+      "path": "/workspace/reproduce.py"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "c423c994d71538de046376450427f1c2e37a6e1178a17524935850960056c210",
+      "bytes": 563,
+      "blob": "blobs/c423c994d71538de046376450427f1c2e37a6e1178a17524935850960056c210"
+    }
+  },
+  {
+    "call_id": "getmoto__moto-5286|sft:143|call:13",
+    "call_index": 13,
+    "message_index": 28,
+    "state_path": "repo/moto/cognitoidp/models.py",
+    "source_command": "str_replace",
+    "source_parameters": {
+      "command": "str_replace",
+      "new_str": "    def describe_user_pool_domain(self, domain):\n        if domain not in self.user_pool_domains:\n            return None\n\n        return self.user_pool_domains[domain]\n\n    def get_domain_by_user_pool_id(self, user_pool_id):\n        for domain, domain_obj in self.user_pool_domains.items():\n            if domain_obj.user_pool_id == user_pool_id:\n                return domain_obj\n        return None",
+      "old_str": "    def describe_user_pool_domain(self, domain):\n        if domain not in self.user_pool_domains:\n            return None\n\n        return self.user_pool_domains[domain]",
+      "path": "/workspace/getmoto__moto__3.1/moto/cognitoidp/models.py"
+    },
+    "serialized_parameters": {
+      "command": "str_replace",
+      "new_str": "\n    def describe_user_pool_domain(self, domain):\n        if domain not in self.user_pool_domains:\n            return None\n\n        return self.user_pool_domains[domain]\n\n    def get_domain_by_user_pool_id(self, user_pool_id):\n        for domain, domain_obj in self.user_pool_domains.items():\n            if domain_obj.user_pool_id == user_pool_id:\n                return domain_obj\n        return None\n",
+      "old_str": "\n    def describe_user_pool_domain(self, domain):\n        if domain not in self.user_pool_domains:\n            return None\n\n        return self.user_pool_domains[domain]\n",
+      "path": "/workspace/getmoto__moto__3.1/moto/cognitoidp/models.py"
+    },
+    "parameter_codec": "SWE-Gym-OpenHands-forward-serializer-left-inverse/1.0",
+    "source_outcome": "reported_success",
+    "before": {
+      "sha256": "92a4715b5ecce725b46e72052abf4ef931dfff8ac7cb7b75e61b98c308eb052b",
+      "bytes": 72882,
+      "blob": "blobs/92a4715b5ecce725b46e72052abf4ef931dfff8ac7cb7b75e61b98c308eb052b"
+    },
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "new_str": "    def describe_user_pool_domain(self, domain):\n        if domain not in self.user_pool_domains:\n            return None\n\n        return self.user_pool_domains[domain]\n\n    def get_domain_by_user_pool_id(self, user_pool_id):\n        for domain, domain_obj in self.user_pool_domains.items():\n            if domain_obj.user_pool_id == user_pool_id:\n                return domain_obj\n        return None",
+      "old_str": "    def describe_user_pool_domain(self, domain):\n        if domain not in self.user_pool_domains:\n            return None\n\n        return self.user_pool_domains[domain]",
+      "path": "/workspace/getmoto__moto__3.1/moto/cognitoidp/models.py"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "4fceaf18f39a0d53a122a3ce043fb84833d89b3bf9dfc1f78f8cffb5914e9828",
+      "bytes": 73115,
+      "blob": "blobs/4fceaf18f39a0d53a122a3ce043fb84833d89b3bf9dfc1f78f8cffb5914e9828"
+    }
+  },
+  {
+    "call_id": "getmoto__moto-5286|sft:143|call:14",
+    "call_index": 14,
+    "message_index": 30,
+    "state_path": "repo/moto/cognitoidp/models.py",
+    "source_command": "str_replace",
+    "source_parameters": {
+      "command": "str_replace",
+      "new_str": "    def _base_json(self):\n        from moto.cognitoidp.backends import cognitoidp_backends\n        backend = cognitoidp_backends[self.region]\n        domain_obj = backend.get_domain_by_user_pool_id(self.id)\n        base = {\n            \"Id\": self.id,\n            \"Arn\": self.arn,\n            \"Name\": self.name,\n            \"Status\": self.status,\n            \"CreationDate\": time.mktime(self.creation_date.timetuple()),\n            \"LastModifiedDate\": time.mktime(self.last_modified_date.timetuple()),\n            \"MfaConfiguration\": self.mfa_config,\n            \"EstimatedNumberOfUsers\": len(self.users),\n        }\n        if domain_obj:\n            base[\"Domain\"] = domain_obj.domain\n        return base",
+      "old_str": "    def _base_json(self):\n        return {\n            \"Id\": self.id,\n            \"Arn\": self.arn,\n            \"Name\": self.name,\n            \"Status\": self.status,\n            \"CreationDate\": time.mktime(self.creation_date.timetuple()),\n            \"LastModifiedDate\": time.mktime(self.last_modified_date.timetuple()),\n            \"MfaConfiguration\": self.mfa_config,\n            \"EstimatedNumberOfUsers\": len(self.users),\n        }",
+      "path": "/workspace/getmoto__moto__3.1/moto/cognitoidp/models.py"
+    },
+    "serialized_parameters": {
+      "command": "str_replace",
+      "new_str": "\n    def _base_json(self):\n        from moto.cognitoidp.backends import cognitoidp_backends\n        backend = cognitoidp_backends[self.region]\n        domain_obj = backend.get_domain_by_user_pool_id(self.id)\n        base = {\n            \"Id\": self.id,\n            \"Arn\": self.arn,\n            \"Name\": self.name,\n            \"Status\": self.status,\n            \"CreationDate\": time.mktime(self.creation_date.timetuple()),\n            \"LastModifiedDate\": time.mktime(self.last_modified_date.timetuple()),\n            \"MfaConfiguration\": self.mfa_config,\n            \"EstimatedNumberOfUsers\": len(self.users),\n        }\n        if domain_obj:\n            base[\"Domain\"] = domain_obj.domain\n        return base\n",
+      "old_str": "\n    def _base_json(self):\n        return {\n            \"Id\": self.id,\n            \"Arn\": self.arn,\n            \"Name\": self.name,\n            \"Status\": self.status,\n            \"CreationDate\": time.mktime(self.creation_date.timetuple()),\n            \"LastModifiedDate\": time.mktime(self.last_modified_date.timetuple()),\n            \"MfaConfiguration\": self.mfa_config,\n            \"EstimatedNumberOfUsers\": len(self.users),\n        }\n",
+      "path": "/workspace/getmoto__moto__3.1/moto/cognitoidp/models.py"
+    },
+    "parameter_codec": "SWE-Gym-OpenHands-forward-serializer-left-inverse/1.0",
+    "source_outcome": "reported_success",
+    "before": {
+      "sha256": "4fceaf18f39a0d53a122a3ce043fb84833d89b3bf9dfc1f78f8cffb5914e9828",
+      "bytes": 73115,
+      "blob": "blobs/4fceaf18f39a0d53a122a3ce043fb84833d89b3bf9dfc1f78f8cffb5914e9828"
+    },
+    "command": "str_replace",
+    "original_parameters": {
+      "command": "str_replace",
+      "new_str": "    def _base_json(self):\n        from moto.cognitoidp.backends import cognitoidp_backends\n        backend = cognitoidp_backends[self.region]\n        domain_obj = backend.get_domain_by_user_pool_id(self.id)\n        base = {\n            \"Id\": self.id,\n            \"Arn\": self.arn,\n            \"Name\": self.name,\n            \"Status\": self.status,\n            \"CreationDate\": time.mktime(self.creation_date.timetuple()),\n            \"LastModifiedDate\": time.mktime(self.last_modified_date.timetuple()),\n            \"MfaConfiguration\": self.mfa_config,\n            \"EstimatedNumberOfUsers\": len(self.users),\n        }\n        if domain_obj:\n            base[\"Domain\"] = domain_obj.domain\n        return base",
+      "old_str": "    def _base_json(self):\n        return {\n            \"Id\": self.id,\n            \"Arn\": self.arn,\n            \"Name\": self.name,\n            \"Status\": self.status,\n            \"CreationDate\": time.mktime(self.creation_date.timetuple()),\n            \"LastModifiedDate\": time.mktime(self.last_modified_date.timetuple()),\n            \"MfaConfiguration\": self.mfa_config,\n            \"EstimatedNumberOfUsers\": len(self.users),\n        }",
+      "path": "/workspace/getmoto__moto__3.1/moto/cognitoidp/models.py"
+    },
+    "status": "applied_exact_recorded_edit",
+    "after": {
+      "sha256": "7279b937f89f88ab81ea1b6d31fa3c4a55c771cef2ad5e55919d08e9aac615fc",
+      "bytes": 73386,
+      "blob": "blobs/7279b937f89f88ab81ea1b6d31fa3c4a55c771cef2ad5e55919d08e9aac615fc"
+    }
+  }
+]

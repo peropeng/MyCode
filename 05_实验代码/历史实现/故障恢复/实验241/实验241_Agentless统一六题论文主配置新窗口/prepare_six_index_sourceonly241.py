@@ -1,0 +1,20 @@
+"""Source-only complete chunk/key estimate, never loads encoder or forwards a model."""
+from pathlib import Path
+import json,sys,os,hashlib,time
+sys.dont_write_bytecode=True;os.environ.update(HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',HF_DATASETS_OFFLINE='1')
+E=Path(r'D:/Code/毕设/graduate-thesis-experiments/工作区/1010-exp241-agentless-common/实验/实验241_Agentless统一六题论文主配置新窗口');W=E.parents[1];OLD=W/'实验/实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容';AL=Path(r'D:/Code/毕设/graduate-thesis-experiments/工作区/1008-exp183-fixed12-complete-main/实验/实验183_固定十二题完整恢复与排序对照')
+def read(p):return json.loads(Path(p).read_text('utf-8-sig'))
+def textsha(t):return hashlib.sha256(t.encode()).hexdigest()
+def canonical(v):return json.dumps(v,ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)
+sys.path.insert(0,str(OLD));from contracts241 import decode;from public_v2_241 import semantic_index
+p=read(OLD/'candidate/getmoto__moto-5406/protocol.json')
+for path in reversed(p['controller_dependency_paths']):sys.path.insert(0,path)
+sys.path.insert(0,str(AL));from agentless_bridge import dense166
+identity=dense166.identity();mid=textsha(canonical(identity));tok=dense166.tokenizer();OUT=E/'resource_source_only';OUT.mkdir(exist_ok=True);rows=[];global_keys=set();full=[]
+for cp in sorted((E/'candidate').glob('*/public_contract.json')):
+ c=read(cp);files={rel:(Path(c['template'])/rel).read_text('utf-8') for rel in c['c0_business_paths_sha256']};started=time.monotonic();nodes=dense166.chunks(files,tok,identity);sem=decode(read(c['pack']));errors=semantic_index(sem['failure_feedback'])['errors'];query='Restore the observed failure while preserving passing behavior. Original issue background: '+str(sem['original_issue'])+'\nAll distinct observed public errors:\n'+canonical(errors);qt=len(tok(query,add_special_tokens=True)['input_ids']);qid={'model_identity_sha256':mid,'max_length':8192,'tokenization':'Frozen Q3Emb left padding; complete query; no truncation if <=8192','pooling_version':'native_Q3Emb_last_nonpadding_v1','normalization':'L2 float32'};qkey=textsha(canonical(qid)+'|'+query);keys={n['vector_key'] for n in nodes}|{qkey};global_keys|=keys
+ row={'task':c['task_id'],'files':len(files),'source_chunks':len(nodes),'unique_source_query_vectors':len(keys),'complete_query_tokens':qt,'query_complete_le8192':qt<=8192,'query_vector_key':qkey,'model_identity_sha256':mid,'source_chunk_max512_nooverlap_exactreassembly':True,'encoder_model_forward_count':0,'source_tokenizer_seconds':time.monotonic()-started};rows.append(row);full.append({'summary':row,'source_inventory':{r:textsha(t) for r,t in files.items()},'nodes':[{'key':n['vector_key'],'embedding_text_sha256':n['embedding_text_sha256'],'file':n['file'],'tokens':n['tokens']} for n in nodes],'query_sha256':textsha(query)})
+ print(canonical(row),flush=True)
+(OUT/'COMPLETE_PUBLIC_CHUNK_KEYS_SOURCE_ONLY.json').write_text(json.dumps({'model_identity':identity,'model_identity_sha256':mid,'per_task':full,'six_unique_union':len(global_keys),'no_encoder_AutoModel_or_GPU_forward':True},ensure_ascii=False,indent=2)+'\n','utf-8')
+report={'schema':'Agentless241-new-six-index-source-only-resource-estimate/1','task_summaries':rows,'six_unique_union_keys':len(global_keys),'cold_CPU_estimate_full_union_seconds_using_old360per600':len(global_keys)*600/360,'estimate_only_not_guarantee':True,'strict_reuse_proof_for_new_allkeys_pending':True,'known_old_first5406_fullysealed_copy_keys':1880,'old_unsealed_1940_partial_never_admitted_as_complete_or_resume':True,'old_resource_complete_or_STOP_UNKNOWN':True,'real_encoder_native_model_API_private_fiscal':0,'all_grants_false':True,'new_resource_scope_clock_or_deadline_not_authorized_yet':True,'paper_embedding_different':'existinglocalQwen3Embedding0.6B vs originalOpenAI textembedding3small','retrieval_query_adaptation':'shared recovery original issue+all distinct observed publicerrors, same currentpublicpack information; originalpaperqueryisissueonly'}
+(OUT/'SIX_INDEX_RESOURCE_SOURCE_ONLY_REPORT.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n','utf-8');print(canonical(report))

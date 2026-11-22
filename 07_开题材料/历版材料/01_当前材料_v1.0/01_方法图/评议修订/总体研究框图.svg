@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Microsoft YaHei,SimHei,sans-serif" width="1920" height="790" viewBox="0 0 1920 790"><defs><marker id="arrow-667E8C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 Z" fill="#667E8C"/></marker><marker id="arrow-222" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 Z" fill="#222"/></marker></defs><rect width="1920" height="972" fill="white"/><style>text{fill:#222}.bold{font-weight:700}</style>
+<rect x="110" y="21.6" width="1700" height="90" stroke="#222222" stroke-width="2.4" fill="white"/>
+<text x="960" y="57.6" font-size="32" text-anchor="middle" fill="#222222" style="fill:#222222" class="bold">总体目标</text>
+<text x="960" y="93.60000000000001" font-size="30" text-anchor="middle" fill="#222222" style="fill:#222222">研究故障轨迹的根因排序，以及诊断信息如何支持运行故障恢复。</text>
+<path d="M960,111.60000000000001 L960,126 L460,126 L460,149.4" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><path d="M960,111.60000000000001 L960,126 L1460,126 L1460,149.4" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><rect x="40" y="153" width="840" height="91.8" stroke="#365f91" stroke-width="2.4" fill="white"/>
+<rect x="40" y="153" width="840" height="38.7" stroke="#365f91" stroke-width="2.4" fill="#365f91"/>
+<text x="58" y="181.8" font-size="30" text-anchor="start" fill="white" style="fill:white" class="bold">研究目标1  提高根因排序质量</text>
+<text x="61" y="228.6" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">结合分散证据，为历史步骤检查提供次序</text>
+<rect x="1040" y="153" width="840" height="91.8" stroke="#b8642d" stroke-width="2.4" fill="white"/>
+<rect x="1040" y="153" width="840" height="38.7" stroke="#b8642d" stroke-width="2.4" fill="#b8642d"/>
+<text x="1058" y="181.8" font-size="30" text-anchor="start" fill="white" style="fill:white" class="bold">研究目标2  改善运行故障恢复效果</text>
+<text x="1061" y="228.6" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">联系历史编辑和当前代码，保持已通过测试</text>
+<path d="M460,244.8 L460,269.1" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><path d="M1460,244.8 L1460,269.1" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><rect x="40" y="271.8" width="840" height="130.5" stroke="#365f91" stroke-width="2.4" fill="white"/>
+<rect x="40" y="271.8" width="840" height="38.7" stroke="#365f91" stroke-width="2.4" fill="#365f91"/>
+<text x="58" y="300.6" font-size="30" text-anchor="start" fill="white" style="fill:white" class="bold">研究问题一  根因排序</text>
+<text x="61" y="347.40000000000003" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">如何结合日志关系与步骤相关上下文，</text>
+<text x="61" y="385.2" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">提高根因步骤识别质量并控制诊断开销？</text>
+<rect x="1040" y="271.8" width="840" height="130.5" stroke="#b8642d" stroke-width="2.4" fill="white"/>
+<rect x="1040" y="271.8" width="840" height="38.7" stroke="#b8642d" stroke-width="2.4" fill="#b8642d"/>
+<text x="1058" y="300.6" font-size="30" text-anchor="start" fill="white" style="fill:white" class="bold">研究问题二  运行故障恢复</text>
+<text x="1061" y="347.40000000000003" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">如何利用历史排序组织当前修复，</text>
+<text x="1061" y="385.2" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">保持已通过测试并完成原任务？</text>
+<path d="M460,402.3 L460,429.3" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><path d="M1460,402.3 L1460,429.3" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><rect x="40" y="432" width="840" height="140" stroke="#365f91" stroke-width="2.4" fill="white"/>
+<text x="460" y="485" font-size="32" text-anchor="middle" fill="#365f91" style="fill:#365f91" class="bold">根因排序方法</text>
+<rect x="1040" y="432" width="840" height="140" stroke="#b8642d" stroke-width="2.4" fill="white"/>
+<text x="1460" y="485" font-size="32" text-anchor="middle" fill="#b8642d" style="fill:#b8642d" class="bold">运行故障恢复方法</text>
+<path d="M880,520 L1034,520" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><rect x="898" y="479" width="124" height="35.1" stroke="white" stroke-width="2.4" fill="white"/>
+<text x="960" y="499" font-size="27" text-anchor="middle" fill="#222222" style="fill:#222222">步骤排序</text>
+<text x="460" y="544" font-size="26" text-anchor="middle" fill="#222222" style="fill:#222222">输入：故障轨迹    输出：根因检查次序</text>
+<text x="1460" y="544" font-size="26" text-anchor="middle" fill="#222222" style="fill:#222222">输入：任务、完整轨迹、排序、代码与反馈    输出：交付代码</text>
+<path d="M460,572 L460,601.7" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><path d="M1460,572 L1460,601.7" fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow-222)"/><rect x="40" y="605.3" width="840" height="160.20000000000002" stroke="#365f91" stroke-width="2.4" fill="white"/>
+<rect x="40" y="605.3" width="840" height="38.7" stroke="#365f91" stroke-width="2.4" fill="#365f91"/>
+<text x="58" y="634.1" font-size="30" text-anchor="start" fill="white" style="fill:white" class="bold">根因排序预期成果</text>
+<text x="61" y="680.9" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">形成日志关系与步骤相关上下文的联合排序方法，</text>
+<text x="61" y="718.7" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">评价定位质量、证据作用与诊断耗时。</text>
+<rect x="1040" y="605.3" width="840" height="160.20000000000002" stroke="#b8642d" stroke-width="2.4" fill="white"/>
+<rect x="1040" y="605.3" width="840" height="38.7" stroke="#b8642d" stroke-width="2.4" fill="#b8642d"/>
+<text x="1058" y="634.1" font-size="30" text-anchor="start" fill="white" style="fill:white" class="bold">运行故障恢复预期成果</text>
+<text x="1061" y="680.9" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">形成利用诊断信息继续修正故障状态的方法，</text>
+<text x="1061" y="718.7" font-size="29" text-anchor="start" fill="#222222" style="fill:#222222">以独立验收结果评价运行故障恢复成功率。</text>
+</svg>

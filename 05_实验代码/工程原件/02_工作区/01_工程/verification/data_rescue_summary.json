@@ -1,0 +1,64 @@
+{
+  "scope": "Current method data rescue and per-revision material grouping",
+  "research_source_files_sha256_verified": 108,
+  "canonical_implementation_files_byte_identical": 36,
+  "formal_documents_byte_identical": true,
+  "historical_revision_groups": 48,
+  "historical_files_preserved": 1419,
+  "historical_files_byte_identical": 1245,
+  "historical_files_link_paths_only": 174,
+  "current_version_files_regrouped": 15,
+  "historical_external_references_unresolved": 2095,
+  "migration_tests_passed": 4,
+  "existing_rankings_verified": 54,
+  "maximum_probability_error": 0.0,
+  "new_ranker_training_steps": 0,
+  "paid_generation_calls": 0,
+  "test_label_values_parsed": 0,
+  "original_training_feature_cache_recovered": false,
+  "training_features_rebuilt_and_validated": true,
+  "remaining_original_process_record_gaps": [
+    {
+      "scope": "1006-exp134-event-relation",
+      "path": "实验/实验134_状态动作表示与关系排序/confirmation/protocol.json",
+      "sha256": "6134937b6bad8c17330b8c7b06a45b99d9c99fe36112fe36cf14587f34e7757b",
+      "size": 99192,
+      "category": "research_asset"
+    },
+    {
+      "scope": "1006-exp134-event-relation",
+      "path": "实验/实验134_状态动作表示与关系排序/development/comparison.json",
+      "sha256": "c496956bc7ef69b42cf911d5cd9aced90d44042f6362527c6a2a2f1f6b7d70e0",
+      "size": 42374,
+      "category": "research_asset"
+    },
+    {
+      "scope": "1006-exp136-ab-mechanism",
+      "path": "实验/实验136_AB性能与机制确认/api_runtime/official_codec/saved_payload_token_comparison.json",
+      "sha256": "d5ed9b67256d0babf5fc1b4a5459b355736594fe625c03f89cdf3a32177b4ffe",
+      "size": 138320,
+      "category": "research_asset"
+    },
+    {
+      "scope": "1006-exp150-unified-recovery",
+      "path": "实验/实验150_统一任务排序与恢复/protocol.json",
+      "sha256": "5d9b470d2156c4110a888e501c0ae533a289bb0752e5b05474215af076fd3d36",
+      "size": 210289,
+      "category": "research_asset"
+    },
+    {
+      "scope": "1007-exp152-clean-rerun",
+      "path": "实验/实验152C_输入隔离修正重跑/raw_policy_comparison_before_relative_path_normalization.json",
+      "sha256": "08419b48c469941c911c324c6ce2b928f2bdc6c420061bb5f66304009cee5e48",
+      "size": 53325,
+      "category": "research_asset"
+    },
+    {
+      "scope": "1007-exp153-global-context",
+      "path": "实验/实验153_候选条件全轨迹上下文/compact_summary.json",
+      "sha256": "86e7a2394b30f7fcb20794e99b417e5d86c0f5532d34842f87d22593d0143ad2",
+      "size": 25606,
+      "category": "research_asset"
+    }
+  ]
+}

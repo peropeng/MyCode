@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-02T06:07:13.522320+00:00",
+  "scope": "Rewrite two experiment analyses according to latest proposal chapter5; original results unchanged",
+  "files": [
+    "01_实验/01_根因排序_RQ1/README.md",
+    "01_实验/02_运行故障恢复_RQ2/README.md"
+  ],
+  "source_proposal": "03_开题/01_当前材料_v1.0/开题报告_v1.0.md",
+  "rq1_original_count_rows_checked": 5,
+  "rq2_count_sources": [
+    "01_实验/历史结论与经验/汇总/20261008_三小时论文主比较/实验脉络与快速排除总览.md",
+    "01_实验/历史结论与经验/汇总/20261009_复盘再实验/整体设计与前瞻验收.md",
+    "02_工作区/01_工程/.rebuild/paper-inputs/experiment244/REPORT.md"
+  ],
+  "local_links_resolve": true,
+  "formal_documents_unchanged": true,
+  "research_data_changed": false,
+  "new_experiments_run": 0
+}

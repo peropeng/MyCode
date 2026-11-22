@@ -1,0 +1,44 @@
+{
+  "scope": "Current proposal RQ1 code review and RQ2 exploratory reset; no scientific experiment executed",
+  "protocol": "manifests/rq1_study_protocol.json",
+  "offline_tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+    "tests_run": 21,
+    "passed": 21,
+    "skipped": 0,
+    "synthetic_training_driver_only": true
+  },
+  "cli_smoke": {
+    "diagnostic_session": "PASS with synthetic response; UTF-8 output checked",
+    "rq2_compat_check": "PASS without executing archived entry"
+  },
+  "existing_ranking_replay": {
+    "models": 3,
+    "tasks": 18,
+    "rankings_checked": 54,
+    "all_orders_match": true,
+    "maximum_probability_error": 0.0
+  },
+  "protocol_binding_check": "PASS after final code normalization",
+  "local_links_checked": 109,
+  "research_execution": {
+    "new_research_training_runs": 0,
+    "paid_model_requests": 0,
+    "held_gold_reads": 0,
+    "new_recovery_runs": 0
+  },
+  "remaining": {
+    "RQ1": [
+      "fixed120 Binary Search actual prediction and matched protocol audit",
+      "independent candidate exposure/group audit",
+      "module comparisons and complete efficiency metrics",
+      "six model reuse eligibility final decision"
+    ],
+    "RQ2": [
+      "integrate and validate AOrchestra compatibility in archived full runtime",
+      "complete three baselines on common development conditions",
+      "select repair evidence and progress rules based on controlled exploration",
+      "freeze method and evaluation only after development"
+    ]
+  }
+}

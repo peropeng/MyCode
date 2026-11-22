@@ -1,0 +1,658 @@
+{
+  "schema": "rq2.multi-edit-controls.audit/1",
+  "at_utc": "2026-11-17T18:26:15.180169+00:00",
+  "scope": "Exposed development cases; preliminary feasibility, not independent confirmation or final thesis results",
+  "independent_problems": 3,
+  "completed_new_flows": 8,
+  "paired_primary": {
+    "SOURCE3": {
+      "successes": 3,
+      "total": 3
+    },
+    "REVERSE": {
+      "successes": 3,
+      "total": 3
+    }
+  },
+  "sorting_minus_reverse_uplift_percentage_points": "0.00",
+  "rows": [
+    {
+      "task_id": "getmoto__moto-5516",
+      "condition": "SOURCE3",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": true,
+      "goal_passed": true,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": 3,
+      "final_snapshot_id": "attempt3",
+      "final_changed_paths_from_C0": [
+        "moto/ec2/models/fleets.py",
+        "moto/ec2/models/spot_requests.py",
+        "moto/ec2/responses/spot_fleets.py"
+      ],
+      "model_requests": 3,
+      "usage": {
+        "prompt_tokens": 266591,
+        "completion_tokens": 1910,
+        "prompt_cache_hit_tokens": 104832,
+        "prompt_cache_miss_tokens": 161759
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.17149564",
+        "cost_upper_cny": "0.34299128"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            9
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": false,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py"
+          ]
+        },
+        {
+          "attempt": 2,
+          "evidence_steps": [
+            9,
+            20
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": false,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py",
+            "moto/ec2/models/spot_requests.py"
+          ]
+        },
+        {
+          "attempt": 3,
+          "evidence_steps": [
+            9,
+            20,
+            26
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": true,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 1,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py",
+            "moto/ec2/models/spot_requests.py",
+            "moto/ec2/responses/spot_fleets.py"
+          ]
+        }
+      ],
+      "nonedge_source_budget_audit": [],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\SOURCE3\\RESULT.json": "9689fc8353e4adf6886aa24b76d1bdfbf3db79ee1128394c36cf66061bbdcb55",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-5516\\trial1\\SOURCE3\\SCALAR_RESULT.json": "c767ba7334b241d87c16fe0e0af9486fc41d67163ab10b38ec47a9b5c413a3d4",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\SOURCE3\\SELECTED_PUBLIC_ONLY.json": "b9ae8cd88fb614d8f3c673bfd90e0dd9f44147a311b5e9749acbe5b7176616c8"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    },
+    {
+      "task_id": "getmoto__moto-5516",
+      "condition": "REVERSE",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": true,
+      "goal_passed": true,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": 3,
+      "final_snapshot_id": "attempt3",
+      "final_changed_paths_from_C0": [
+        "moto/ec2/models/fleets.py",
+        "moto/ec2/models/spot_requests.py",
+        "moto/ec2/responses/spot_fleets.py"
+      ],
+      "model_requests": 3,
+      "usage": {
+        "prompt_tokens": 265353,
+        "completion_tokens": 1547,
+        "prompt_cache_hit_tokens": 235008,
+        "prompt_cache_miss_tokens": 30345
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.04123316",
+        "cost_upper_cny": "0.08246632"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            35
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": false,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py"
+          ]
+        },
+        {
+          "attempt": 2,
+          "evidence_steps": [
+            35,
+            33
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": false,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py",
+            "moto/ec2/models/spot_requests.py"
+          ]
+        },
+        {
+          "attempt": 3,
+          "evidence_steps": [
+            35,
+            33,
+            31
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": true,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 1,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py",
+            "moto/ec2/models/spot_requests.py",
+            "moto/ec2/responses/spot_fleets.py"
+          ]
+        }
+      ],
+      "nonedge_source_budget_audit": [],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\REVERSE\\RESULT.json": "1f3c66939e5e16b49997ba02bafb011aa1664001c642f346d4504fc8cd6088bb",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-5516\\trial1\\REVERSE\\SCALAR_RESULT.json": "950790ddd35671030151d0cd9d247e4a00bcd1b61a4b6e888e8750197c86e3b9",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\REVERSE\\SELECTED_PUBLIC_ONLY.json": "c0ff8ba6ddc8da87d19fe93ee526995dccb429f62512808ff00ddb0756375f65"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    },
+    {
+      "task_id": "getmoto__moto-5516",
+      "condition": "SOURCE3_NO_ADDITIONAL_CONTEXT_V2",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": false,
+      "goal_passed": false,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": null,
+      "final_snapshot_id": "C0",
+      "final_changed_paths_from_C0": [],
+      "model_requests": 3,
+      "usage": {
+        "prompt_tokens": 255892,
+        "completion_tokens": 1345,
+        "prompt_cache_hit_tokens": 234240,
+        "prompt_cache_miss_tokens": 21652
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.0317168",
+        "cost_upper_cny": "0.0634336"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            9
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": false,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py"
+          ]
+        },
+        {
+          "attempt": 2,
+          "evidence_steps": [
+            9,
+            20
+          ],
+          "parsed": false,
+          "applied": false,
+          "public_passed": null,
+          "state_accepted": null,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": []
+        },
+        {
+          "attempt": 3,
+          "evidence_steps": [
+            9,
+            20,
+            26
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": false,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py"
+          ]
+        }
+      ],
+      "nonedge_source_budget_audit": [],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\SOURCE3_NO_ADDITIONAL_CONTEXT_V2\\RESULT.json": "dc8a92d36b8bf0771bceb07da5a27661654bbc24954d6b724abafb4bd79b7f44",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-5516\\trial1\\SOURCE3_NO_ADDITIONAL_CONTEXT_V2\\SCALAR_RESULT.json": "dfa95031bd791c0ea89462dc8f2901eda3f4ffce0bfd281fe6b8cc352c97df8f",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\SOURCE3_NO_ADDITIONAL_CONTEXT_V2\\SELECTED_PUBLIC_ONLY.json": "f41ba2a00799d9be5ac0c12decfa7adc4d40f3f37f8817699feb5b435b6eeb2a"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    },
+    {
+      "task_id": "getmoto__moto-5516",
+      "condition": "SOURCE3_MATCHED_NONEDGE_CONTEXT",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": false,
+      "goal_passed": false,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": null,
+      "final_snapshot_id": "C0",
+      "final_changed_paths_from_C0": [],
+      "model_requests": 3,
+      "usage": {
+        "prompt_tokens": 262103,
+        "completion_tokens": 1463,
+        "prompt_cache_hit_tokens": 234240,
+        "prompt_cache_miss_tokens": 27863
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.0383998",
+        "cost_upper_cny": "0.0767996"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            9
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": false,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py"
+          ]
+        },
+        {
+          "attempt": 2,
+          "evidence_steps": [
+            9,
+            20
+          ],
+          "parsed": true,
+          "applied": false,
+          "public_passed": null,
+          "state_accepted": null,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": [
+            "moto/ec2/models/fleets.py"
+          ]
+        },
+        {
+          "attempt": 3,
+          "evidence_steps": [
+            9,
+            20,
+            26
+          ],
+          "parsed": false,
+          "applied": false,
+          "public_passed": null,
+          "state_accepted": null,
+          "protected_before_count": 0,
+          "goal_pass_count": 0,
+          "candidate_changed_paths_from_C0": []
+        }
+      ],
+      "nonedge_source_budget_audit": [
+        {
+          "rule": "Lexical path/start/end; whole legal function spans outside changed paths and every relation endpoint",
+          "closure_source_text_bytes": 3608,
+          "nonedge_source_text_bytes": 3595,
+          "byte_shortfall": 13,
+          "nonedge_not_over_target": true,
+          "eligible_functions": 10154,
+          "selected_functions": 14,
+          "padding_or_clipping": false,
+          "dynamic_noninterference_claim": false
+        },
+        {
+          "rule": "Lexical path/start/end; whole legal function spans outside changed paths and every relation endpoint",
+          "closure_source_text_bytes": 3608,
+          "nonedge_source_text_bytes": 3595,
+          "byte_shortfall": 13,
+          "nonedge_not_over_target": true,
+          "eligible_functions": 10154,
+          "selected_functions": 14,
+          "padding_or_clipping": false,
+          "dynamic_noninterference_claim": false
+        },
+        {
+          "rule": "Lexical path/start/end; whole legal function spans outside changed paths and every relation endpoint",
+          "closure_source_text_bytes": 3608,
+          "nonedge_source_text_bytes": 3595,
+          "byte_shortfall": 13,
+          "nonedge_not_over_target": true,
+          "eligible_functions": 10154,
+          "selected_functions": 14,
+          "padding_or_clipping": false,
+          "dynamic_noninterference_claim": false
+        }
+      ],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\SOURCE3_MATCHED_NONEDGE_CONTEXT\\RESULT.json": "9399af1f267e44655bb286deb246e814d46302df4bbd67aa4ad2e6321705eae9",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-5516\\trial1\\SOURCE3_MATCHED_NONEDGE_CONTEXT\\SCALAR_RESULT.json": "a6c1e87211839b6cbfd2ec67501947c5acf1caa7c6dae4f5b504df1499ba7136",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-5516\\trial1\\SOURCE3_MATCHED_NONEDGE_CONTEXT\\SELECTED_PUBLIC_ONLY.json": "b585ebf10276254161036246340631a70dabbb428bd44485efbc18aa748600cc"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "condition": "SOURCE3",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": true,
+      "goal_passed": true,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": 1,
+      "final_snapshot_id": "attempt1",
+      "final_changed_paths_from_C0": [
+        "moto/iot/models.py",
+        "moto/iot/responses.py"
+      ],
+      "model_requests": 1,
+      "usage": {
+        "prompt_tokens": 98561,
+        "completion_tokens": 567,
+        "prompt_cache_hit_tokens": 69248,
+        "prompt_cache_miss_tokens": 29313
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.03296596",
+        "cost_upper_cny": "0.06593192"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            8
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": true,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 3,
+          "candidate_changed_paths_from_C0": [
+            "moto/iot/models.py",
+            "moto/iot/responses.py"
+          ]
+        }
+      ],
+      "nonedge_source_budget_audit": [],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-7081\\trial1\\SOURCE3\\RESULT.json": "f6651faaa7181a1d93f7a38b44746ecfa6b0b2bf66e5b00d477fa22f65bb3d9d",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-7081\\trial1\\SOURCE3\\SCALAR_RESULT.json": "1441fe6721da3b63d813121c9b5bbcc0ad03d1046ffa515c03d61117e797ce52",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-7081\\trial1\\SOURCE3\\SELECTED_PUBLIC_ONLY.json": "42e9629e3eec77b747a41812877c3cca06754fc2bb06c162e70f1ada2f9f66fb"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "condition": "REVERSE",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": true,
+      "goal_passed": true,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": 1,
+      "final_snapshot_id": "attempt1",
+      "final_changed_paths_from_C0": [
+        "moto/iot/models.py",
+        "moto/iot/responses.py"
+      ],
+      "model_requests": 1,
+      "usage": {
+        "prompt_tokens": 98374,
+        "completion_tokens": 486,
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 97734
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.0996908",
+        "cost_upper_cny": "0.1993816"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            23
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": true,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 3,
+          "candidate_changed_paths_from_C0": [
+            "moto/iot/models.py",
+            "moto/iot/responses.py"
+          ]
+        }
+      ],
+      "nonedge_source_budget_audit": [],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-7081\\trial1\\REVERSE\\RESULT.json": "24c522a9f1476a964286c79230e7258b7c1797729f008159241ee18eee72299c",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-7081\\trial1\\REVERSE\\SCALAR_RESULT.json": "4ea76cf6923dde78f337cf03bde3d1753c45a5ad5aa208b5fc474420d24ffd3a",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-7081\\trial1\\REVERSE\\SELECTED_PUBLIC_ONLY.json": "8dd97c7ddefcc0d67d8e565d55571a98b05975a84b7c15824ba43922cf9af8ab"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    },
+    {
+      "task_id": "getmoto__moto-6212",
+      "condition": "SOURCE3",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": true,
+      "goal_passed": true,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": 1,
+      "final_snapshot_id": "attempt1",
+      "final_changed_paths_from_C0": [
+        "moto/athena/models.py"
+      ],
+      "model_requests": 1,
+      "usage": {
+        "prompt_tokens": 86033,
+        "completion_tokens": 446,
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 85393
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.0871898",
+        "cost_upper_cny": "0.1743796"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            7
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": true,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 1,
+          "candidate_changed_paths_from_C0": [
+            "moto/athena/models.py"
+          ]
+        }
+      ],
+      "nonedge_source_budget_audit": [],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-6212\\trial1\\SOURCE3\\RESULT.json": "d91e3c64f7941c82bdf1cc79ad4ef82147d79fd71f59f640c31836cdaba3d942",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-6212\\trial1\\SOURCE3\\SCALAR_RESULT.json": "f2911e15b9f96324977f7836e58a7846fa94a7029c0b3398a3ef2ffb2169675a",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-6212\\trial1\\SOURCE3\\SELECTED_PUBLIC_ONLY.json": "f9d837cab4d6683c334cbcd58bc7f9a111ec7484405b8b38c122781557c8f5b2"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    },
+    {
+      "task_id": "getmoto__moto-6212",
+      "condition": "REVERSE",
+      "trial": "trial1",
+      "status": "COMPLETED",
+      "success": true,
+      "goal_passed": true,
+      "ordinary_passed": true,
+      "independent_acceptance_passed": true,
+      "first_public_pass_attempt": 1,
+      "final_snapshot_id": "attempt1",
+      "final_changed_paths_from_C0": [
+        "moto/athena/models.py"
+      ],
+      "model_requests": 1,
+      "usage": {
+        "prompt_tokens": 84784,
+        "completion_tokens": 434,
+        "prompt_cache_hit_tokens": 75392,
+        "prompt_cache_miss_tokens": 9392
+      },
+      "estimated_cost_cny": {
+        "cost_lower_cny": "0.01263584",
+        "cost_upper_cny": "0.02527168"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "evidence_steps": [
+            15
+          ],
+          "parsed": true,
+          "applied": true,
+          "public_passed": true,
+          "state_accepted": true,
+          "protected_before_count": 0,
+          "goal_pass_count": 1,
+          "candidate_changed_paths_from_C0": [
+            "moto/athena/models.py"
+          ]
+        }
+      ],
+      "nonedge_source_budget_audit": [],
+      "sources": {
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-6212\\trial1\\REVERSE\\RESULT.json": "eb257f72ad55cb670920f9cd92b353d90e228b7d77a9e2801e71a9b1bd8b9f12",
+        ".rebuild\\rq2-controls\\private_ROOT\\getmoto__moto-6212\\trial1\\REVERSE\\SCALAR_RESULT.json": "eb38e007137a7c1b4cdfe7099f28b91af93bde7f937ce5d6ee61644034d678d6",
+        ".rebuild\\rq2-controls\\runs\\getmoto__moto-6212\\trial1\\REVERSE\\SELECTED_PUBLIC_ONLY.json": "afb5184345ec8aec6d6d9a59954e6890037b24f394de850a448eac005da04869"
+      },
+      "private_feedback_to_method": false,
+      "original_independent_scope_exactly_preserved": true
+    }
+  ],
+  "current_generation_usage": {
+    "submitted": 16,
+    "completed": 16,
+    "unresolved": 0,
+    "prompt_tokens": 1417691,
+    "completion_tokens": 8198,
+    "prompt_cache_hit_tokens": 954240,
+    "prompt_cache_miss_tokens": 463451,
+    "cost_lower_cny": "0.51532780",
+    "cost_upper_cny": "1.03065560",
+    "cost_basis": "Official peak upper / idle lower estimate, not a per-request invoice"
+  },
+  "additional_prePOST_engineering_attempts": [
+    {
+      "condition": "SOURCE3_NO_ADDITIONAL_CONTEXT",
+      "status": "ENGINEERING_UNKNOWN",
+      "new_model_requests": 0,
+      "reason": "Frozen finish_body required feedback/source binding before any HTTP body dispatch",
+      "counted_as_method_failure": false
+    }
+  ],
+  "historical_baselines_rerun": 0,
+  "new_training": 0,
+  "same_new_primary_conditions": [
+    "C0",
+    "complete public history",
+    "public G/O",
+    "no test-source readers",
+    "current-source readers",
+    "generation backend and sampling parameters",
+    "three attempts",
+    "owned native process guard",
+    "original task-specific independent scope"
+  ],
+  "goal_progress_opportunity": {
+    "initially_passed_goals": 0,
+    "candidate_updates_after_first_all_goal_pass": 0,
+    "identity_protection_increment_established": false
+  },
+  "historical_comparison_limits": [
+    "Old completed Agentless/EnAgent records reused at their original budgets and permissions",
+    "Current no-test-source permission differs; no strict uplift against old complete methods computed",
+    "AOrchestra is untested on these three cases; its completed Dask case is kept separate"
+  ],
+  "module_decisions": {
+    "ranking_order": "No increment seen; retain as candidate, do not freeze as proven recovery contribution",
+    "current_public_feedback_source_package": "Retain as development mainline: pressure case 1/1 with package vs 0/1 for each two bounded controls",
+    "static_relation_specificity": "Not established against targeted traceback/API-name retrieval; nonedge is a negative control",
+    "goal_identity_protection": "Safety behavior retained; contribution not established by these cases"
+  },
+  "validation": {
+    "control_adapter_tests": 7,
+    "API_accounting_tests": 3,
+    "scope_admission_tests": 4,
+    "all_passed": true,
+    "real_independent_acceptance_runs": 8,
+    "all_completed_actor_and_acceptance_locks_absent": true
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "schema": "aorchestra-fixed-author-source/1",
+  "method": "AOrchestra",
+  "ownership": "Third-party author source; not original work by this thesis project",
+  "repository_url": "https://github.com/FoundationAgents/AOrchestra",
+  "fixed_revision": "1fccfed44dcb4be05360ddc84373858cb40302c0",
+  "historical_source_branch": "fix/swebench-grader-audit",
+  "source_manifest": "02_工作区/01_工程/.rebuild/paper-inputs/experiment261/AUTHOR_MANIFEST261.json",
+  "upstream_selected_files": 79,
+  "files": [
+    {
+      "path": "原始源码/.env.example",
+      "upstream_path": ".env.example",
+      "size": 838,
+      "sha256": "67feb2742e5fc3231b601b617d7c340e02e024fdadd3a4bd1fab3e1e79e32468",
+      "git_blob_sha1": "4985a26e6a1a4911dbfc02a2b0422098c7a79c28",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/README.md",
+      "upstream_path": "README.md",
+      "size": 5774,
+      "sha256": "4cb700bbf503d91ca3e90e92a8c323148e9a1ed2009c0cab6b8dcc463990a77b",
+      "git_blob_sha1": "f056ef2c39a954ac3e09bb09b7b5ac143c961486",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/README.md",
+      "upstream_path": "aorchestra/README.md",
+      "size": 4787,
+      "sha256": "4b226840bcde0592a2fea608719bc3c7467ec17d2c65d16e5dd30f0b3627c6a5",
+      "git_blob_sha1": "35ca59a83249e8daee8041adf5132e8a23028e61",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/__init__.py",
+      "upstream_path": "aorchestra/__init__.py",
+      "size": 588,
+      "sha256": "c00e1e35a8fd219320bf9edcff79fc59b27f084d83f3ae602f126fd2dd6b1286",
+      "git_blob_sha1": "c0ab7b615947eb69527f5d655d91d39f97d48df0",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/common/__init__.py",
+      "upstream_path": "aorchestra/common/__init__.py",
+      "size": 158,
+      "sha256": "7dac89437cd3893c5372d88761f8ceb382d6815a69c2d43e4a7bc5f9e51d35e1",
+      "git_blob_sha1": "305a720fd9bfa78a9ec75ab5632e1d3263eb42ae",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/common/utils.py",
+      "upstream_path": "aorchestra/common/utils.py",
+      "size": 1882,
+      "sha256": "66a861b6549a1e07c04c77267a4c251a283bf089d3eb6da483644d65db28e99b",
+      "git_blob_sha1": "14b51a2a5a7ca019144a3352fd36670dd75b9b2e",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/config.py",
+      "upstream_path": "aorchestra/config.py",
+      "size": 11912,
+      "sha256": "606cfc2998f6b1f5aa91e87ffefd5d28053a7ecbb170185e007d04f5901590a8",
+      "git_blob_sha1": "44f56c8ad7136aaa16b42e49169d55458a8938df",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/main_agent.py",
+      "upstream_path": "aorchestra/main_agent.py",
+      "size": 12971,
+      "sha256": "50711e5525e0aba14d2124da2b588ee2a64ae03bbff0f0ba1a28329b3eec4fc3",
+      "git_blob_sha1": "33c63bcc61682327f54490a2c613f9c67e157b9c",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/prompts/__init__.py",
+      "upstream_path": "aorchestra/prompts/__init__.py",
+      "size": 310,
+      "sha256": "c5d10327e137fc5217b5d9ac0d00c4562a667ba443fb2a4db97b763186211225",
+      "git_blob_sha1": "18a4ed88c42f32902caa972961bc7bc5a6c04335",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/prompts/gaia.py",
+      "upstream_path": "aorchestra/prompts/gaia.py",
+      "size": 4700,
+      "sha256": "261c520661de45906c98bbf8727010ff2c96c323ca3d7885560775512af24c32",
+      "git_blob_sha1": "1fad881077ee034479db0257f532bd52fd24e6f8",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/prompts/swebench.py",
+      "upstream_path": "aorchestra/prompts/swebench.py",
+      "size": 8189,
+      "sha256": "2d99275b0b2bdf7ec057bedd4c557fd2171fbaa45eb26a5820cbb534882f61cc",
+      "git_blob_sha1": "a722e3d23d0c39b57aeed6d7172620ffd5875ce8",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/prompts/terminalbench.py",
+      "upstream_path": "aorchestra/prompts/terminalbench.py",
+      "size": 4366,
+      "sha256": "3baa600cda624ffbcafb7ade6dee1b19f0032a55e7e18d1be9396325d98eea15",
+      "git_blob_sha1": "f524d47e1c2ad87ab9891f0e9252aaf4411b839c",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/runners/__init__.py",
+      "upstream_path": "aorchestra/runners/__init__.py",
+      "size": 335,
+      "sha256": "7ddf9ce22742073619aac21f38c37fb02cb01722461abfab2f289af312b57baf",
+      "git_blob_sha1": "c82f7a447d26edb96e021790bfdf63e44d09c662",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/runners/gaia_runner.py",
+      "upstream_path": "aorchestra/runners/gaia_runner.py",
+      "size": 16417,
+      "sha256": "33923ebb8c03c14b832eb67a057e823ea7f2ead83db48dd47cd3698ae4e04a08",
+      "git_blob_sha1": "e3ff6e1263c7eac593dacb9594dcd306b81a346a",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/runners/swebench_runner.py",
+      "upstream_path": "aorchestra/runners/swebench_runner.py",
+      "size": 24814,
+      "sha256": "40db10f87cc5987dec7b1d6badc043bdf4c2a8c0673ae1f1c830606b2d6afa3f",
+      "git_blob_sha1": "c5f1afadc83921ce8dafd2f1bd12db435cd1f54d",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/runners/terminalbench_runner.py",
+      "upstream_path": "aorchestra/runners/terminalbench_runner.py",
+      "size": 15449,
+      "sha256": "a6fd6de95533543e23f729710caca2559f24e3a4b8b711d4453f499fae33797e",
+      "git_blob_sha1": "5407f6f49252e0c931dfc64e115bbfe3c75eebed",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/sub_agent.py",
+      "upstream_path": "aorchestra/sub_agent.py",
+      "size": 332,
+      "sha256": "ff1c4fdbbec4eed7b1901165aa28574bbdcea3671f12f868e1f6e168069897f3",
+      "git_blob_sha1": "d344e45b71d326ee05dd7c62fd7f42c74b184751",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/subagents/__init__.py",
+      "upstream_path": "aorchestra/subagents/__init__.py",
+      "size": 220,
+      "sha256": "7e89d61307a8464877a4375b0662bf4428592fadc5273f23d77fdca7b569c251",
+      "git_blob_sha1": "03896b119102450a52992f0991ddfe20433d92fb",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/subagents/react_agent.py",
+      "upstream_path": "aorchestra/subagents/react_agent.py",
+      "size": 11659,
+      "sha256": "5c65e5c1fed26023c100c08d21dc07c9fe9c5c82ec7f6e0b26be5c50968b107d",
+      "git_blob_sha1": "af7be296be9ad2f7b4e618f105074f28c61e3ad5",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/subagents/swebench_agent.py",
+      "upstream_path": "aorchestra/subagents/swebench_agent.py",
+      "size": 14878,
+      "sha256": "706a0e3b81de995b469bafaee0c3ed81ea7d6d26a0f14843ad5c84764645d3f1",
+      "git_blob_sha1": "5284b7e4d81bbfb9e444d0818d57199dc3987bfd",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/tools/__init__.py",
+      "upstream_path": "aorchestra/tools/__init__.py",
+      "size": 479,
+      "sha256": "8075d9c6d2954d928d6e45db9e3a72626857f6825b47fbf7190810990567d57c",
+      "git_blob_sha1": "4f7777f26867ed01b6e230785ba4050c4ec0cee0",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/tools/complete.py",
+      "upstream_path": "aorchestra/tools/complete.py",
+      "size": 1003,
+      "sha256": "713027fa76612f1daac85272a71bf56f3c54c80a43a7c29cc06be3ede88c5162",
+      "git_blob_sha1": "15161faff1805c87fc90df3d84966e6bb00d0241",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/tools/delegate.py",
+      "upstream_path": "aorchestra/tools/delegate.py",
+      "size": 16207,
+      "sha256": "1fdd99f76e07a22e2ee4c4adbcb5b36317d96b4bf3cf14b6bd7f1dd88357ad6a",
+      "git_blob_sha1": "42694df05ac8ff6052eafbe9e58984a0ed65d570",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/tools/submit.py",
+      "upstream_path": "aorchestra/tools/submit.py",
+      "size": 1954,
+      "sha256": "ed520c7716cd696c339233bef93692ca7432da3fc6d0c2adf937c6869d1471bb",
+      "git_blob_sha1": "86713c8c7f7248a6020f6b7057df3dd6132efdbd",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/aorchestra/tools/trace_formatter.py",
+      "upstream_path": "aorchestra/tools/trace_formatter.py",
+      "size": 11838,
+      "sha256": "de0e905ead6bc106fc4c4ed3f1691589fc60be4b7f2274603d17b7b735c80c2c",
+      "git_blob_sha1": "89867fa57ec2a438298448a0867ad24f3d8adf26",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/__init__.py",
+      "upstream_path": "base/__init__.py",
+      "size": 27,
+      "sha256": "8b6aab1c6e50cdd35234d36f256c6517516b67a7497ba4646e78712bf207999c",
+      "git_blob_sha1": "165a1aa48b6e24aa0849f25893b59ad1027cac83",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/agent/__init__.py",
+      "upstream_path": "base/agent/__init__.py",
+      "size": 19,
+      "sha256": "db70a2577cbb0a88a30cd7a1fb55843951b159f0d6815ab011c86b3658c9642e",
+      "git_blob_sha1": "531967d39845e058fc3c512136b9eb8ce0b1ca2c",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/agent/base_action.py",
+      "upstream_path": "base/agent/base_action.py",
+      "size": 592,
+      "sha256": "c4a57de62affa5a577ce9656c729bb23b91e958f61a1a01902bb1a5330995ab4",
+      "git_blob_sha1": "e44d70eeaeb832ed9c11a23cfd9a49c0c21185f8",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/agent/base_agent.py",
+      "upstream_path": "base/agent/base_agent.py",
+      "size": 2049,
+      "sha256": "6da2583406eb56e41ddfcb2a6c7ca25c09a1cd714203beddf60dc71d200d7cef",
+      "git_blob_sha1": "4868032859c146adb540ab0ff7c08d393855547f",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/agent/memory.py",
+      "upstream_path": "base/agent/memory.py",
+      "size": 4777,
+      "sha256": "91d2faf8a38f053e15201f1f7d64a114fc7cf0fb3ff048f59a1c73c43cb49e3c",
+      "git_blob_sha1": "a5c668261e1c53268177167fb722f54dbf6e0621",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/agent/react_agent.py",
+      "upstream_path": "base/agent/react_agent.py",
+      "size": 2979,
+      "sha256": "f2b0dca304e005cce7d41fea24cf0da6cf8a3a50d4fc5bd1e8351cb9cc474d2f",
+      "git_blob_sha1": "51d715c1cb4cbef289045633e994a50f2c54cff1",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/engine/__init__.py",
+      "upstream_path": "base/engine/__init__.py",
+      "size": 20,
+      "sha256": "da90fe5905c6d9a94f8391dbde022941b86eb1fed9e88ed59082f11a5d4337a0",
+      "git_blob_sha1": "c11fc807c793e07282e5ed0ad7df8ff419f81a15",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/engine/async_llm.py",
+      "upstream_path": "base/engine/async_llm.py",
+      "size": 19058,
+      "sha256": "33afb943556c57d9c6d7c69a97b2861c702f46a2ecea66277df453ca13cf418c",
+      "git_blob_sha1": "694c331e4287c56012cb80c743b3f972a3f50f34",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/engine/cost_monitor.py",
+      "upstream_path": "base/engine/cost_monitor.py",
+      "size": 3468,
+      "sha256": "14c5d11fa5cb818e694d985f089bc449f131d0e82594f679773b5be0fb65940a",
+      "git_blob_sha1": "bd0703be881be23dc1f01e69effba16f501b14de",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/engine/logs.py",
+      "upstream_path": "base/engine/logs.py",
+      "size": 11821,
+      "sha256": "bf3bb14cd67a023e2577ff2a25fa3c097f4b16ab8f1444c96bc3ca0345eed3aa",
+      "git_blob_sha1": "159f0395804b93c13f22f38de6b6562b2574fbff",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/base/engine/utils.py",
+      "upstream_path": "base/engine/utils.py",
+      "size": 16266,
+      "sha256": "3afca5cfcc0c6f56ecd709eb476299dd215b0da2ca521223299d04b7f3c7c5fc",
+      "git_blob_sha1": "aaf8fc9cb85e3f26b5f2897517d9ba55d77db543",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/bench_aorchestra_swebench.py",
+      "upstream_path": "bench_aorchestra_swebench.py",
+      "size": 5499,
+      "sha256": "83417fa56a87bbbf84b8a4f5503d65482b4ae262de7c583dff652af8de82f88b",
+      "git_blob_sha1": "b9f4ae4c191d9ae9bfa12c9a336d516fd3b2acc2",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/aorchestra_bench_gaia.py",
+      "upstream_path": "benchmark/aorchestra_bench_gaia.py",
+      "size": 13562,
+      "sha256": "4af5932a15e5890d82697353b10cf9f0f8fce141037ac1ef152dbb8d5755d9a3",
+      "git_blob_sha1": "0cd53116d2869400961ac5f3dfdb0c5d668bf8c7",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/bench_gaia.py",
+      "upstream_path": "benchmark/bench_gaia.py",
+      "size": 17973,
+      "sha256": "5e81f37c06859e03bc2dadfe85858ff27bc5eec08975d8a735c33478a9548c2d",
+      "git_blob_sha1": "ffa48fb21436f2270fbae7fa955b64fc1f4b2e70",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/bench_swebench.py",
+      "upstream_path": "benchmark/bench_swebench.py",
+      "size": 29485,
+      "sha256": "063beedec2f02136f43b7d35d0fde5d74e0c1207f16ab5001bca42315228d62a",
+      "git_blob_sha1": "c0bb4e08be69adbf4ffe703c17103ee5b0750fab",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/bench_terminalbench.py",
+      "upstream_path": "benchmark/bench_terminalbench.py",
+      "size": 19124,
+      "sha256": "4f0530124e7a35c9cf5d07ad33188758b859208ac8c5ae8afcd719f9a07e431f",
+      "git_blob_sha1": "b94fd7393bd621f63296062d9f692ed720ada4db",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/benchmark.py",
+      "upstream_path": "benchmark/benchmark.py",
+      "size": 3184,
+      "sha256": "970c1afc4d94b1766cea12bdd540510557b8e23a7df79bc83b7b361f40f3c7c2",
+      "git_blob_sha1": "28cccb3a5f1767c5610b9a5e4abbac6d7016097c",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/common/__init__.py",
+      "upstream_path": "benchmark/common/__init__.py",
+      "size": 64,
+      "sha256": "a51f6f8c394bc754b418715338f27cc5a740d5c25a614e12fa42ccead2b2dd3a",
+      "git_blob_sha1": "2e54fb00cd600a475eca368d0e1c95a6081dbfb4",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/common/env.py",
+      "upstream_path": "benchmark/common/env.py",
+      "size": 890,
+      "sha256": "58ecfa761b67ebc2637982c90466f36d118c998f34d66c1eaabb2263a95a6dd6",
+      "git_blob_sha1": "a68f47a931dc34472cd2f3ff58ffd6f7ad3a9b5f",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/common/incremental_runner.py",
+      "upstream_path": "benchmark/common/incremental_runner.py",
+      "size": 7917,
+      "sha256": "b74ab8986a423b169e03397e7c8a611e80313707676be0b0a07098e2498f5f31",
+      "git_blob_sha1": "e8aadcd642a94de625caf76008e0cc104b65f941",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/common/runner.py",
+      "upstream_path": "benchmark/common/runner.py",
+      "size": 4700,
+      "sha256": "95a2faa2bad921ee86c8a031f64e4069fe125c4208d4126d8608f0127d4d6bc3",
+      "git_blob_sha1": "0354e19feb76c7d03ff5176d2302475d1ecba878",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/__init__.py",
+      "upstream_path": "benchmark/gaia/__init__.py",
+      "size": 335,
+      "sha256": "6f12dd09d8ef195c6ab9df6fb3178ad2b9740dce851a570ba2e71432ac2c6c66",
+      "git_blob_sha1": "f4a71453e1bce222682fda986a992d31b20dbc0d",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/llm_scorer.py",
+      "upstream_path": "benchmark/gaia/llm_scorer.py",
+      "size": 4595,
+      "sha256": "7d6e5000fe693c2c3046e543e894e45eff9c8d408f4c875a234017ca2c5a08d2",
+      "git_blob_sha1": "280c1bfd53b95b462831d3699153fac05f0b49f1",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/scorer.py",
+      "upstream_path": "benchmark/gaia/scorer.py",
+      "size": 5713,
+      "sha256": "00214c07f9055d618f4ad6b1378efe545a15983026646344e943a20a8975bd3f",
+      "git_blob_sha1": "67bce44fb6908a2c3720b9d791ae8dc9aef1e2eb",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/tools/__init__.py",
+      "upstream_path": "benchmark/gaia/tools/__init__.py",
+      "size": 610,
+      "sha256": "67cd94a1d1db150003d995244464792772fe648f70a0b8505cc7a11479f7396e",
+      "git_blob_sha1": "e66e4d9643ad41ce338abded2e221511ad734acc",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/tools/execute_code.py",
+      "upstream_path": "benchmark/gaia/tools/execute_code.py",
+      "size": 3824,
+      "sha256": "9c062f8450adfb35f495928ffd47c277f75bed8714faaea81baaaf1ffe338abd",
+      "git_blob_sha1": "f852577ab3bd69a7d0d3c01d20d76b2d7baf8601",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/tools/extract_url_jina.py",
+      "upstream_path": "benchmark/gaia/tools/extract_url_jina.py",
+      "size": 7773,
+      "sha256": "eccc32c60e69c8d9f9cfd0981da012e3313ee4f4d7dbb1f3e28a835142138055",
+      "git_blob_sha1": "7704778a461a9e09b83df561f5baab6b0fb9c13a",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/tools/google_search.py",
+      "upstream_path": "benchmark/gaia/tools/google_search.py",
+      "size": 4341,
+      "sha256": "2f02fe2765483b44acf0403b93a91aa6018ea61f691e115a8e5b07f29f0d962e",
+      "git_blob_sha1": "fa213be30d97e47e8a105767f36ff263e036d61d",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/gaia/tools/multimodal_toolkit.py",
+      "upstream_path": "benchmark/gaia/tools/multimodal_toolkit.py",
+      "size": 8822,
+      "sha256": "c9b47083582cf3ce1045a64280c762eb0b8ffe77870325cb3a50338c61d1ce26",
+      "git_blob_sha1": "19b45941f6a59f56b4e5fea8ecb3103e924d9a77",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/swebench/__init__.py",
+      "upstream_path": "benchmark/swebench/__init__.py",
+      "size": 1064,
+      "sha256": "7d4f99e8340ee1cab5776564ff6647279927f3804e7552cdd69ec1290dd03f39",
+      "git_blob_sha1": "e5dac72fe48b2d16bfba0d20868926b9352374f2",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/swebench/aci_tools.py",
+      "upstream_path": "benchmark/swebench/aci_tools.py",
+      "size": 31298,
+      "sha256": "6f2c8a26e6892d689e516b54fcba721d4cc3206d7fb8cd6049783f580de7e835",
+      "git_blob_sha1": "da99954fc43a43e23a56866ea92a141ee398969f",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/swebench/data_loader.py",
+      "upstream_path": "benchmark/swebench/data_loader.py",
+      "size": 6619,
+      "sha256": "0b4281c4d6ca54d6e6d37e032da8459f1320f4155ab49f1bfadc995217046ff9",
+      "git_blob_sha1": "46f8c3c53e6d66e608581cfc208078217e62f614",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/swebench/result_reporter.py",
+      "upstream_path": "benchmark/swebench/result_reporter.py",
+      "size": 2774,
+      "sha256": "ec9f91325c02b5c397806f63e55d5356a4b4c21e2fd89692427f47e1a462615f",
+      "git_blob_sha1": "755490b25aef4ccc09e8230c51b4eb2dd49298ef",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/swebench/swebench_executor.py",
+      "upstream_path": "benchmark/swebench/swebench_executor.py",
+      "size": 19131,
+      "sha256": "ef5b0be6a8c7938f799161932bdcb71e234760114245a1b718a2ddbd5251a16c",
+      "git_blob_sha1": "62ffaae74c64f1d682d05046803f5e2eec5cffce",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/swebench/swebench_selected_ids.json",
+      "upstream_path": "benchmark/swebench/swebench_selected_ids.json",
+      "size": 2703,
+      "sha256": "a8a7a268e402d1c28d05dc1db53e875aff008cbc1ac4d9f4b1999bf589fd05d4",
+      "git_blob_sha1": "6f71ff8d08513578163894fbfcdd4bbada64de99",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/swebench/utils.py",
+      "upstream_path": "benchmark/swebench/utils.py",
+      "size": 6902,
+      "sha256": "cccd613e9688913d35798cb45c794264135e505e85e7e0750768a4509d6edf79",
+      "git_blob_sha1": "74e427f0f70a19a11fd97f89131d5b1541eb2580",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/__init__.py",
+      "upstream_path": "benchmark/terminalbench/__init__.py",
+      "size": 61,
+      "sha256": "40c54ae137c91b1ea0df8e7e5efeb90cad682bc4946598340042d7d01349a514",
+      "git_blob_sha1": "7ee3c963a79b0ecf7950c9eee090e216a158ae2b",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/base_executor.py",
+      "upstream_path": "benchmark/terminalbench/base_executor.py",
+      "size": 1633,
+      "sha256": "84d25ce29776b0c97e989b226daba6fb785b4c5d3ededd62f8524f6f7895526f",
+      "git_blob_sha1": "bf98215a1a70dd765a6888ea9ac260a591c2ff24",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/daytona_executor.py",
+      "upstream_path": "benchmark/terminalbench/daytona_executor.py",
+      "size": 12070,
+      "sha256": "c06e97ac4cac2b5a58c4a193306c41050424a616d6ee4d86136511ad55e8de37",
+      "git_blob_sha1": "144795b92fdbded71cfa1fb205baf5f89556fa1f",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/docker-compose-build.yaml",
+      "upstream_path": "benchmark/terminalbench/docker-compose-build.yaml",
+      "size": 408,
+      "sha256": "a836c1496352e9c97730b09253c0de4ef0f5b619237ff6c0a40532db0e075eae",
+      "git_blob_sha1": "be769eeefeeeb6b36e1f936794af80f11f41425a",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/docker_executor.py",
+      "upstream_path": "benchmark/terminalbench/docker_executor.py",
+      "size": 16626,
+      "sha256": "91cd62e02794a1e5211f08d5fd765baeae5ab2c41cf22df807a0fd6c986a0e5f",
+      "git_blob_sha1": "b84bf1701f8dff89a4a23da188daf644d6904c33",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/docker_manager.py",
+      "upstream_path": "benchmark/terminalbench/docker_manager.py",
+      "size": 5467,
+      "sha256": "90c78f3da0ed71b7947cc37de2efecfa44cf5dc9f55b555c435b770077dee8f3",
+      "git_blob_sha1": "519ae0a68b13546eaed2a8dd57abe4498176a912",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/e2b_executor.py",
+      "upstream_path": "benchmark/terminalbench/e2b_executor.py",
+      "size": 20988,
+      "sha256": "0659f8e650a281f9674d50f4832a8c4cdba9f04d429bc093d1ed2b22f01bbb04",
+      "git_blob_sha1": "174b0ff2d8ae7a3e9bbbdc9c9f1c2134067cf757",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/result_reporter.py",
+      "upstream_path": "benchmark/terminalbench/result_reporter.py",
+      "size": 1187,
+      "sha256": "4a73572f14f9d487f4d5ce387b018982d8c15e4c7b841c29d82b98d09b4a8078",
+      "git_blob_sha1": "115fed037c9e5e7ce6408e1d11d72e1a3c6792df",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/benchmark/terminalbench/utils.py",
+      "upstream_path": "benchmark/terminalbench/utils.py",
+      "size": 741,
+      "sha256": "6e6c54d630b94726a844e9eecd03ea4e2b0618ebaa6ae3dc1c2e2edcd5fca34c",
+      "git_blob_sha1": "39293c085037266a3b0cab16b9e7279de044e39f",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/requirements.txt",
+      "upstream_path": "requirements.txt",
+      "size": 2597,
+      "sha256": "51b0ca9defe64cb03e538a638f4276c8078cb9bed2f3dcf8ea19224b69d3fee0",
+      "git_blob_sha1": "02114bc4c477b294ca355c5311b5d383daec00a4",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/config/example/benchmarks/aorchestra_gaia.yaml",
+      "upstream_path": "config/example/benchmarks/aorchestra_gaia.yaml",
+      "size": 1191,
+      "sha256": "d84cffdb1a25b9ba01f88d6ef4025bb6df091df9ab30aeda21d468e27e77e482",
+      "git_blob_sha1": "5d8f372bee2d8fd716edb798213a1cc745dcee6e",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/config/example/benchmarks/aorchestra_swebench.yaml",
+      "upstream_path": "config/example/benchmarks/aorchestra_swebench.yaml",
+      "size": 1165,
+      "sha256": "34f9d2caeb70211a966b8818b64f4e283a0ddad002ab7b652f94b68127e6c78d",
+      "git_blob_sha1": "973da1ed8ebc99083f7a44a1902f7ee3a08c0bad",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/config/example/benchmarks/aorchestra_terminalbench.yaml",
+      "upstream_path": "config/example/benchmarks/aorchestra_terminalbench.yaml",
+      "size": 1271,
+      "sha256": "be237d0446387704aa644fea8d9f18533d292dd91c42e12a638252ec74303d20",
+      "git_blob_sha1": "5dd9a6b1fee0dda8bf680abe76e4897b976d509c",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/config/example/benchmarks/gaia.yaml",
+      "upstream_path": "config/example/benchmarks/gaia.yaml",
+      "size": 1335,
+      "sha256": "3d7857abb85e0ebf6ef19296a5cb90f2977bde952279d35acdc95c4762d83a78",
+      "git_blob_sha1": "fe87cf9bba9cf2b255e134d899db22c4a2ce1c94",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/config/example/benchmarks/swebench.yaml",
+      "upstream_path": "config/example/benchmarks/swebench.yaml",
+      "size": 1665,
+      "sha256": "f6b3628f3ec3cf897e384890b4b71afb77f25e029cbcd46d0c23e8c1fad2225a",
+      "git_blob_sha1": "a969cfab2842370cb097d75e145e629be7c4ea7a",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/config/example/benchmarks/terminalbench.yaml",
+      "upstream_path": "config/example/benchmarks/terminalbench.yaml",
+      "size": 1623,
+      "sha256": "65455e53a01866b80ca84923f08d762b21af49b216bf24a0615b089443f68467",
+      "git_blob_sha1": "5866eebf6ee9a1b11e64160fab81322c7e08130a",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/config/example/model_config.yaml",
+      "upstream_path": "config/example/model_config.yaml",
+      "size": 344,
+      "sha256": "01d3004aa975dea34f93075b4d4cebd0e53c1e780bb035c7e6568b23d4ce65f1",
+      "git_blob_sha1": "1827543af13ecad689c272a00770f51ed13a2a7e",
+      "byte_identical": true,
+      "third_party_source": true
+    },
+    {
+      "path": "原始源码/swebench_grader_audit.md",
+      "upstream_path": "swebench_grader_audit.md",
+      "size": 31521,
+      "sha256": "c20bfccee17979e52f6969f4959b404264bbacc2341d60f774c3b768fbae7ed6",
+      "git_blob_sha1": "82bcfbd3ab55e42d4b4962a16703e34917ac8e17",
+      "byte_identical": true,
+      "third_party_source": true
+    }
+  ],
+  "license": {
+    "spdx_id": "Apache-2.0",
+    "path": "LICENSE",
+    "upstream_path": "LICENSE",
+    "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "download_api_url": "https://api.github.com/repos/FoundationAgents/AOrchestra/contents/LICENSE?ref=1fccfed44dcb4be05360ddc84373858cb40302c0"
+  },
+  "upstream_notice_file_present": false,
+  "all_79_blobs_match_fixed_upstream_tree": true,
+  "all_original_source_bytes_unchanged": true,
+  "credential_scan_matches": 0,
+  "API_keys_in_upstream_env_example_are_placeholders": true,
+  "python_files_AST_parsed": 65,
+  "new_model_API_requests": 0,
+  "executed_original_code": false
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "rq1.diagnostic_adapter_review.v1",
+  "status": "offline_contract_verified_not_experiment_run",
+  "source": {
+    "author_url": "https://github.com/mingyin1/Agents_Failure_Attribution/blob/b2bae5c5b06d681d04ea5e9b63b7a30525c04925/Automated_FA/Lib/utils.py",
+    "author_source_online_checked": true,
+    "local_prompt_path_from_project_root": "01_实验/历史结论与经验/实验/实验132_论文驱动三案归因对比/literature/prompts/who_prompts.py",
+    "local_prompt_sha256": "f47a5b45264610a71ae166299e00017fa4011e1d8c124602c78ed73ef153ae16",
+    "binary_interval_update": "mid=start+(end-start)//2; upper=[start,mid]; lower=[mid+1,end]",
+    "author_deviations_reported": [
+      "remove entire answer line so no task answer is sent",
+      "strict output validation instead of author's ambiguous-response random fallback"
+    ],
+    "rendering": "original role: content, one supplied record per zero-based candidate"
+  },
+  "implementation": "src/thesis_recovery/diagnostic_baselines.py",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_diagnostic_baselines.py -v",
+    "passed": 8,
+    "failed": 0,
+    "fake_responses_only": true,
+    "checks": [
+      "midpoint and original candidate boundaries across resume",
+      "submitted request requires reconciliation and cannot be blindly resubmitted",
+      "prepared request export and duplicate receipt are idempotent",
+      "input config method protocol and code identity binding",
+      "journal integrity and no overwrite",
+      "invalid ambiguous truncated late or out of range output cannot complete",
+      "explicit retry retains request and time costs",
+      "unknown usage stays null and cannot become zero",
+      "single selected position never becomes fabricated full ranking"
+    ]
+  },
+  "limits": [
+    "No API client or batch experiment launcher is included",
+    "Request-time budget excludes paused time; end-to-end diagnostic time must be measured by the eventual launcher",
+    "Remote idempotency depends on the external client or reconciliation service",
+    "Public dataset adapter and common evaluation member list still need to be frozen",
+    "Model generation parameters and model revision must be fixed by eventual execution protocol"
+  ],
+  "experiment_activity": {
+    "training_steps": 0,
+    "api_requests": 0,
+    "gold_reads": 0,
+    "binary_search_fixed120_status": "not_tested"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "EXP262-current-pressure-complete-public-input/1",
+  "common_C0_supplement_registry": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\PRESSURE_COMMON_FEEDBACK_REGISTRY262.json",
+  "common_C0_supplement_registry_SHA256": "38e1e68700e84b6d38766c592ac2fd2613a1fe152ef099bbaf521c4e9085947a",
+  "common_tasks": [
+    "getmoto__moto-7081"
+  ],
+  "max_per_call_output": 16384,
+  "official_model_input_capacity_tokens": 1048576,
+  "model_native_finance_authorized": false
+}

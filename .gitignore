@@ -5,3 +5,8 @@ __pycache__/
 .env
 *恢复密钥*
 *.enc
+.external/
+.venv/
+.restore-cache/
+.rebuild/
+*.egg-info/

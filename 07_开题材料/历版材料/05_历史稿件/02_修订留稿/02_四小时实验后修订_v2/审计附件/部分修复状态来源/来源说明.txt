@@ -1,0 +1,13 @@
+7081历史部分状态可精确恢复（仅业务源码字节结论）
+
+已核Exp240 V3第九题BASE的attempt1。s0002为生成后快照，s0003为公开测试状态，s0004为下一请求输入，三份models.py字节一致；全树清单摘要均450ef8d63db8e0bb9146e37e425ff3c83ebb81bbf8291762203e9d7ab2378ca5。原C0的861份公开业务源码实际字节全部匹配历史清单，单一补丁在内存中替换后与保存快照逐字节相同。2147项全树清单替换该项后也精确命中历史snapshot摘要；非业务文件仅核清单，没有读取隐藏测试正文。
+
+源底本：D:\Code\毕设\graduate-thesis-experiments\工作区\1007-exp165-public-raw-regression\实验\实验165_公开原始轨迹自然退化与恢复\qualification\getmoto__moto-7081\state\repo
+唯一覆盖文件：D:\Code\毕设\graduate-thesis-experiments\工作区\1010-exp240-consumer-state\实验\实验240_消费者闭合与状态保护_共享错误池V3_自然第九题\runs\getmoto__moto-7081\BASE\recovery\getmoto__moto-7081\G_PROGRESSIVE_SEMANTIC_FLASH\snapshots\s0002\files\moto\iot\models.py
+覆盖文件SHA256：d21a814952e39fbf406815027a41a45af958259f07aae5e8f1ec94536cb2cfda
+
+三个Goal中test_delete_thing、test_update_thing通过，test_create_thing_with_type失败；Ordinary test_list_things_with_next_token通过。全部身份前缀为tests/test_iot/test_iot_things.py::。保存的run01确证完整4项覆盖、guard加载、源码及测试未被测试修改、正常结束。
+
+这是已曝光开发轨迹中的2/3部分修复状态，不能替代18题主计划中该任务原来的0/3初态C0，也不能并入新独立确认率。后续2→0是COUNT与SET共同可拒的退步，尚非身份集合独有事件。此审计未运行环境、测试或模型；实际起点验证及三策略后续分支由Sol负责。
+
+完整来源、逐文件字节、请求与反馈摘要、补丁、记录行号及校验布尔值见MOTO7081_PARTIAL_STATE_SOURCE_AUDIT.json。只使用s0002/3/4；s0008/9与final_diff含未来完全修复，不应作为起点或交给生成器。

@@ -1,0 +1,10 @@
+{
+  "public_test_scope_contract": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\COMMON_MASKED_PUBLIC_TEST_SCOPE262.json",
+    "sha256": "2b21efcaf2166761b9b03c5621e95e1c472a47484a482baea43849f7bdf27655"
+  },
+  "current_partial_start": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\qualification\\once_original_G_O\\CURRENT_PARTIAL_START262.json",
+    "sha256": "243d32214dd591ca56a82f1dadea84bbdac071ad4f83851fe6ec5c5589ba977e"
+  }
+}

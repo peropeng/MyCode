@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "task_id": "python__mypy-15155",
+      "input_turns_sha256": "bb3c4ec520bac7b713bcb8c9827206e529c9c93ba8d52691bbfd8a29fa3e7eba",
+      "actual_new_encoder_batches": 12,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    },
+    {
+      "task_id": "getmoto__moto-5516",
+      "input_turns_sha256": "6ad73d2d7caa9a8f164df4777915a8d0c80d1af270a7fee743b23b3ce9fd38b3",
+      "actual_new_encoder_batches": 36,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    },
+    {
+      "task_id": "conan-io__conan-14397",
+      "input_turns_sha256": "2cdbd75ecaf41d253755b0d157862fef53360298bba251e9a9a898d234d849d3",
+      "actual_new_encoder_batches": 10,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    },
+    {
+      "task_id": "getmoto__moto-4972",
+      "input_turns_sha256": "a6500a9bc89756661b6254308252c1afc4c2711b94fb9ef3d395fde078edd0b8",
+      "actual_new_encoder_batches": 30,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    },
+    {
+      "task_id": "getmoto__moto-5587",
+      "input_turns_sha256": "ea4ed37458933be0a36674a608d16a8cf57389c887946b498d86ea92d28cef24",
+      "actual_new_encoder_batches": 14,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    },
+    {
+      "task_id": "pydantic__pydantic-8965",
+      "input_turns_sha256": "51f79b86b8d30431392d4a375e78caf67d2e1a083d187af5b6bd3d04f1ca7840",
+      "actual_new_encoder_batches": 14,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    },
+    {
+      "task_id": "dask__dask-8484",
+      "input_turns_sha256": "9ad565bb732dfca3152464925d365b92244ff2671a772c07d6e255b137eb1f5b",
+      "actual_new_encoder_batches": 20,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    },
+    {
+      "task_id": "Project-MONAI__MONAI-4109",
+      "input_turns_sha256": "0003b2af140494b84de5d0130c968eee6e0d718afbe2969887cd18dfcd4162e6",
+      "actual_new_encoder_batches": 11,
+      "observed_state_action_links": [],
+      "old_exact_feature_cache_claimed": false
+    }
+  ],
+  "features_sha256": "60d8eb080084bb6f57ccd1669e6bd1b91c5c257ebb7db24ad00a0939de93eb72",
+  "counts": {
+    "tokenizer_loads": 1,
+    "tokenizer_whole_step_checks": 146,
+    "encoder_loads": 1,
+    "encoder_forward_batches": 147,
+    "encoder_unique_texts": 147,
+    "ranker_loads": 0,
+    "ranker_forward_batches": 0,
+    "ranker_task_outputs": 0,
+    "training": 0,
+    "new_weights": 0,
+    "paid_API": 0,
+    "native": 0,
+    "new_Gold": 0
+  }
+}

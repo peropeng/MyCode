@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="930" viewBox="0 0 1180 930" role="img"><title>诊断排序与软件任务恢复</title><desc>公开数据进入排序与恢复；独立终验不返回生成器。</desc><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#586b7b"/></marker></defs><rect width="100%" height="100%" fill="white"/><style>text{font-family:"Microsoft YaHei","DengXian",sans-serif;fill:#17324d}.h{font-weight:700}.muted{fill:#586b7b}</style>
+<text x="38" y="45" font-size="30" class="h">诊断给出检查次序，恢复接受真实行为检验</text>
+<text x="38" y="82" font-size="20" style="fill:#586b7b">方法流程图  ·  箭头表示实际数据流，终验结果不反馈给候选生成器</text>
+<rect x="38" y="122" width="342" height="160" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="138" width="5" height="128" rx="2" fill="#087f83"/>
+<text x="61" y="160" font-size="24" class="h">公开任务与失败轨迹</text>
+<text x="61" y="198" font-size="20">保留原始步骤、角色与工具反馈</text>
+<text x="61" y="228" font-size="20">移除答案、责任标签和未来补丁</text>
+<rect x="420" y="122" width="342" height="160" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="420" y="138" width="5" height="128" rx="2" fill="#087f83"/>
+<text x="443" y="160" font-size="24" class="h">RQ1：学习排序</text>
+<text x="443" y="198" font-size="20">步骤表示 → 多关系交互</text>
+<text x="443" y="228" font-size="20">候选上下文 → 完整分数与次序</text>
+<rect x="802" y="122" width="340" height="160" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="802" y="138" width="5" height="128" rx="2" fill="#087f83"/>
+<text x="825" y="160" font-size="24" class="h">合法编辑映射</text>
+<text x="825" y="198" font-size="20">核对真实编辑、许可路径和字节</text>
+<text x="825" y="228" font-size="20">输出历史证据及当前状态关系</text>
+<path d="M380,202 L410,202" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M762,202 L792,202" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<rect x="38" y="346" width="342" height="196" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="362" width="5" height="164" rx="2" fill="#087f83"/>
+<text x="61" y="384" font-size="24" class="h">共同起点 C₀</text>
+<text x="61" y="422" font-size="20">当前业务源码与公开失败</text>
+<text x="61" y="452" font-size="20">目标测试 G / 普通保护 O</text>
+<text x="61" y="482" font-size="20">各方法拥有相同许可信息</text>
+<rect x="420" y="346" width="342" height="196" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="420" y="362" width="5" height="164" rx="2" fill="#087f83"/>
+<text x="443" y="384" font-size="24" class="h">RQ2：产生候选补丁</text>
+<text x="443" y="422" font-size="20">排序证据 + 当前反馈</text>
+<text x="443" y="452" font-size="20">当前代码关系与语义修复</text>
+<text x="443" y="482" font-size="20">固定生成、token与工具预算</text>
+<rect x="802" y="346" width="340" height="196" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="802" y="362" width="5" height="164" rx="2" fill="#087f83"/>
+<text x="825" y="384" font-size="24" class="h">逐候选公开验证</text>
+<text x="825" y="422" font-size="20">逐测试身份与状态摘要</text>
+<text x="825" y="452" font-size="20">O全通过且旧进展P未丢失</text>
+<text x="825" y="482" font-size="20">接纳新状态 / 拒绝后精确恢复</text>
+<path d="M972,282 L972,310" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M972,310 L592,310" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M592,310 L592,336" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M380,439 L410,439" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M762,439 L792,439" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M973,542 L973,574 L592,574 L592,552" fill="none" stroke="#087f83" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="610" y="607" font-size="18" style="fill:#087f83">未完成时保留状态，继续下一次尝试</text>
+<rect x="38" y="650" width="342" height="160" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="38" y="666" width="5" height="128" rx="2" fill="#087f83"/>
+<text x="61" y="688" font-size="24" class="h">完整外部方法</text>
+<text x="61" y="726" font-size="20">Agentless / EnAgent / PatchPilot</text>
+<text x="61" y="756" font-size="20">AOrchestra为备选</text>
+<text x="61" y="786" font-size="20">各自生成与选择候选</text>
+<rect x="420" y="650" width="342" height="160" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="420" y="666" width="5" height="128" rx="2" fill="#087f83"/>
+<text x="443" y="688" font-size="24" class="h">封存最终状态</text>
+<text x="443" y="726" font-size="20">方法版本、源码与候选</text>
+<text x="443" y="756" font-size="20">完整请求、工具记录与费用</text>
+<text x="443" y="786" font-size="20">独立新轨迹与条件续跑分开</text>
+<rect x="802" y="650" width="340" height="160" rx="13" fill="#eef5f8" stroke="#ccdbe3"/><rect x="802" y="666" width="5" height="128" rx="2" fill="#087f83"/>
+<text x="825" y="688" font-size="24" class="h">同一独立终验</text>
+<text x="825" y="726" font-size="20">公共目标 + 原有功能</text>
+<text x="825" y="756" font-size="20">独立保留行为与完整覆盖</text>
+<text x="825" y="786" font-size="20">成功 / 失败 / 未知 / 未运行</text>
+<path d="M209,542 L209,640" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M762,730 L792,730" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<path d="M1100,542 L1100,620 L740,620 L740,640" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<text x="1010" y="610" font-size="18" style="fill:#586b7b">终止时</text>
+<path d="M208,810 L208,850 L972,850 L972,820" fill="none" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)"/>
+<text x="38" y="903" font-size="23" class="h">评价分层：责任命中 ≠ 合法证据覆盖 ≠ 预算内恢复 ≠ 完整自然终态</text></svg>

@@ -1,0 +1,5 @@
+"""Interface facts only; identical across prepared tasks, no business hints."""
+ACTOR_TOOL_CONTRACT = '''Tool deployment contract:
+The editable repository contains current business source; original tests are observer-owned and are not files in this repository. Run the exact declared public node IDs from the public evidence with `python -m pytest <nodeID>`; this reaches the observer's public runner. Use read_current_source/read_full_failure for complete source and public errors.
+For your own reproduction, create a new .py file at the repository root, in generated_tests/, or under /tmp with the editor. Run it with `python <path>`, or use a single quoted `python -c "..."` argument; quoted code may contain newlines. /tmp is local to this current actor. Use the editor for writes; shell redirects/background jobs are unavailable.
+Dependencies and product Python are already deployed. Downloads, external network/files, original tests, other cases, dynamic execution and reflective file access are unavailable. Read-only __version__/__name__ metadata and normal business operations are available. Do not spend steps installing dependencies.'''

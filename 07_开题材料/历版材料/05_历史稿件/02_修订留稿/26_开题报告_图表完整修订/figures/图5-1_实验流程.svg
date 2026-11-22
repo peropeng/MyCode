@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650">
+<defs><marker id="arrow-647D8B" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 Z" fill="#647D8B" /></marker></defs><rect width="1280" height="650" fill="white" />
+<polyline points="640,85 640,135" fill="none" stroke="#647D8B" stroke-width="2.2" marker-end="url(#arrow-647D8B)" />
+<polyline points="640,200 640,245 290,245 290,300" fill="none" stroke="#647D8B" stroke-width="2.2" marker-end="url(#arrow-647D8B)" />
+<polyline points="640,245 990,245 990,300" fill="none" stroke="#647D8B" stroke-width="2.2" marker-end="url(#arrow-647D8B)" />
+<polyline points="290,455 290,537 370,537" fill="none" stroke="#647D8B" stroke-width="2.2" marker-end="url(#arrow-647D8B)" />
+<polyline points="990,455 990,537 910,537" fill="none" stroke="#647D8B" stroke-width="2.2" marker-end="url(#arrow-647D8B)" />
+<rect x="370" y="20" width="540" height="65" fill="white" stroke="#35639C" stroke-width="2" />
+<rect x="370" y="135" width="540" height="65" fill="white" stroke="#647D8B" stroke-width="2" />
+<rect x="40" y="300" width="500" height="70" fill="#EDF3FA" stroke="#35639C" stroke-width="2" />
+<rect x="740" y="300" width="500" height="70" fill="#FAF1E9" stroke="#B16A33" stroke-width="2" />
+<rect x="370" y="505" width="540" height="65" fill="white" stroke="#647D8B" stroke-width="2" />
+<text x="640.0" y="62.65" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="29" fill="#35639C" font-weight="700" text-anchor="middle">任务资格核验及分组</text>
+<text x="640.0" y="177.3" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="28" fill="#647D8B" font-weight="700" text-anchor="middle">完成开发并确定独立评价配置</text>
+<text x="290.0" y="345.15" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="29" fill="#35639C" font-weight="700" text-anchor="middle">研究问题一 责任排序独立评价</text>
+<text x="990.0" y="344.8" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="28" fill="#B16A33" font-weight="700" text-anchor="middle">研究问题二 失败任务恢复独立比较</text>
+<text x="290.0" y="412.8" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="24" fill="#647D8B" font-weight="400" text-anchor="middle">使用开发阶段选定模型，保持任务组隔离</text>
+<text x="290.0" y="444.0" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="24" fill="#647D8B" font-weight="400" text-anchor="middle">独立定位评价、基线比较及结构消融</text>
+<text x="990.0" y="412.8" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="24" fill="#647D8B" font-weight="400" text-anchor="middle">共同失败初态，每种方法独立运行三次</text>
+<text x="990.0" y="444.0" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="24" fill="#647D8B" font-weight="400" text-anchor="middle">保存15／30／60分钟交付，事后独立验收</text>
+<rect x="715" y="205" width="550" height="30" fill="white" />
+<text x="990.0" y="227.0" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="20" fill="#647D8B" font-weight="400" text-anchor="middle">诊断模型训练任务与独立评价任务分离</text>
+<text x="640.0" y="546.95" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="27" fill="#647D8B" font-weight="700" text-anchor="middle">任务级配对统计和机制分析</text>
+<text x="640.0" y="623.75" font-family="Microsoft YaHei,SimHei,sans-serif" font-size="25" fill="#647D8B" font-weight="400" text-anchor="middle">综合定位质量、恢复成功率、过程记录和消融结果，分析方法的作用条件</text>
+</svg>

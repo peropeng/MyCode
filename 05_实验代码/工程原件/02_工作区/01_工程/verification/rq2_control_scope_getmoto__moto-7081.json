@@ -1,0 +1,8 @@
+{
+  "task_id": "getmoto__moto-7081",
+  "certificate_path": "D:\\Code\\毕设\\02_工作区\\01_工程\\.rebuild\\paper-inputs\\retained-experiments\\rq2\\experiment241\\实验\\实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容\\runs\\getmoto__moto-7081\\AGENTLESS_FSE2025_4L4P4T_FLASH\\external_once_private\\result.json",
+  "certificate_sha256": "d13094ff6dc9512a535d21bf649e334b92499371a4b71cf0a0c2ee2a54315c17",
+  "terminal_packet_path": "D:\\Code\\毕设\\02_工作区\\01_工程\\.rebuild\\paper-inputs\\retained-experiments\\rq2\\experiment241\\实验\\实验241_Agentless新确认集21_生成测试ScopeV3_AST兼容\\candidate\\getmoto__moto-7081\\TERMINAL_PACKET241.json",
+  "terminal_packet_sha256": "6aef66e871d59408bd09578e3f8c0c49c14a55a8c032868d9690fb839f6b78b5",
+  "recovered_original_file_map": "manifests/retained_feasibility_experiments.files.jsonl.gz"
+}

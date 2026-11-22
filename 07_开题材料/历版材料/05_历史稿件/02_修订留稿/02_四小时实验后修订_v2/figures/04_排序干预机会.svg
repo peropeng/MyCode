@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="760" viewBox="0 0 1180 760" role="img"><title>排序差异与可识别的恢复作用</title><desc>18个合格任务中12个前三证据前缀不同，其中7个集合变化、5个只有顺序变化。按照原顺序选前两题，尚不代表恢复收益。</desc><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#586b7b"/></marker></defs><rect width="100%" height="100%" fill="white"/><style>text{font-family:"Microsoft YaHei","DengXian",sans-serif;fill:#17324d}.h{font-weight:700}</style>
+<text x="38" y="45" font-size="30" style="fill:#17324d" class="h">从排序不同到恢复有效，还需要一次真实比较</text>
+<text x="38" y="83" font-size="20" style="fill:#586b7b">已完成的18题排序审计  ·  source3与强StepFinder  ·  本图不报告恢复胜负</text>
+<rect x="38" y="125" width="342" height="160" rx="12" fill="#eef5f8" stroke="#ccdbe3"/>
+<text x="62" y="180" font-size="38" style="fill:#087f83" class="h">18</text>
+<text x="120" y="177" font-size="23" style="fill:#17324d" class="h">合格任务</text>
+<text x="62" y="219" font-size="20" style="fill:#586b7b">全部取得真实模型推断</text>
+<text x="62" y="249" font-size="20" style="fill:#586b7b">完整步骤全序均不同</text>
+<rect x="420" y="125" width="342" height="160" rx="12" fill="#eef5f8" stroke="#ccdbe3"/>
+<text x="444" y="180" font-size="38" style="fill:#087f83" class="h">12</text>
+<text x="502" y="177" font-size="23" style="fill:#17324d" class="h">证据前缀不同</text>
+<text x="444" y="219" font-size="20" style="fill:#586b7b">按业务路径与真实编辑过滤</text>
+<text x="444" y="249" font-size="20" style="fill:#586b7b">其余6题预算内前缀相同</text>
+<rect x="802" y="125" width="340" height="160" rx="12" fill="#eef5f8" stroke="#ccdbe3"/>
+<text x="826" y="180" font-size="38" style="fill:#087f83" class="h">2</text>
+<text x="884" y="177" font-size="23" style="fill:#17324d" class="h">选定对照任务</text>
+<text x="826" y="219" font-size="20" style="fill:#586b7b">按原任务顺序选择前两题</text>
+<text x="826" y="249" font-size="20" style="fill:#586b7b">moto5134 / moto5286</text>
+<path d="M380,205 L410,205" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)" fill="none"/>
+<path d="M762,205 L792,205" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)" fill="none"/>
+<rect x="38" y="340" width="528" height="155" rx="12" fill="#eef5f8" stroke="#ccdbe3"/>
+<text x="62" y="395" font-size="38" style="fill:#087f83" class="h">7</text>
+<text x="120" y="392" font-size="23" style="fill:#17324d" class="h">前三条的候选集合也变化</text>
+<text x="62" y="434" font-size="20" style="fill:#586b7b">同时改变证据覆盖与呈现顺序</text>
+<text x="62" y="464" font-size="20" style="fill:#586b7b">moto5134属于这一类</text>
+<rect x="606" y="340" width="536" height="155" rx="12" fill="#eef5f8" stroke="#ccdbe3"/>
+<text x="630" y="395" font-size="38" style="fill:#087f83" class="h">5</text>
+<text x="688" y="392" font-size="23" style="fill:#17324d" class="h">前三条只改变呈现顺序</text>
+<text x="630" y="434" font-size="20" style="fill:#586b7b">候选集合相同，逐次前缀可能不同</text>
+<text x="630" y="464" font-size="20" style="fill:#586b7b">moto5286两条候选的顺序相反</text>
+<path d="M590,285 L590,308 L302,308 L302,330" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)" fill="none"/>
+<path d="M590,308 L874,308 L874,330" stroke="#586b7b" stroke-width="2.3" marker-end="url(#a)" fill="none"/>
+<rect x="38" y="547" width="1104" height="153" rx="12" fill="#fff6e9" stroke="#e2d6c0"/>
+<text x="61" y="582" font-size="24" style="fill:#17324d" class="h">作用空间的限制</text>
+<text x="61" y="620" font-size="22" style="fill:#17324d">3题只有一个合法候选；11题全部合法候选不超过3条。</text>
+<text x="61" y="655" font-size="22" style="fill:#17324d">18题状态与动作的有效配对为0；6题的四类关系拓扑完全相同。</text>
+<text x="38" y="739" font-size="21" style="fill:#586b7b">排序改变输入是效果验证的前提；是否改善成功率、成本或时间，由共同恢复对照回答。</text></svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1485" viewBox="0 0 1400 1485"><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#222222"/></marker></defs><rect width="100%" height="100%" fill="white"/><style>text{font-family:"Microsoft YaHei","SimSun",sans-serif;fill:#222222}.bold{font-weight:700}</style>
+<rect x="75" y="25" width="1250" height="130" fill="white" stroke="#222222" stroke-width="2.3"/>
+<text x="700" y="65" font-size="29" text-anchor="middle" style="fill:#222222" class="bold">总体目标</text>
+<text x="700" y="107" font-size="26" text-anchor="middle" style="fill:#222222">建立连接步骤级失败诊断与执行恢复的方法，</text>
+<text x="700" y="140" font-size="26" text-anchor="middle" style="fill:#222222">提高智能体失败分析质量，并检验诊断对恢复效果的实际作用。</text>
+<path d="M700,155 L700,180 L340,180 L340,211" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<path d="M700,155 L700,180 L1060,180 L1060,211" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="40" y="215" width="600" height="133" fill="white" stroke="#365f91" stroke-width="2"/>
+<rect x="40" y="215" width="600" height="43" fill="#365f91" stroke="#365f91" stroke-width="2"/>
+<text x="57" y="245" font-size="25" text-anchor="start" style="fill:white" class="bold">研究目的1  提高失败诊断质量</text>
+<text x="59" y="293" font-size="25" text-anchor="start" style="fill:#222222">形成步骤级完整责任次序，</text>
+<text x="59" y="327" font-size="25" text-anchor="start" style="fill:#222222">提高失败轨迹排序的准确性与稳定性。</text>
+<rect x="760" y="215" width="600" height="133" fill="white" stroke="#b8642d" stroke-width="2"/>
+<rect x="760" y="215" width="600" height="43" fill="#b8642d" stroke="#b8642d" stroke-width="2"/>
+<text x="777" y="245" font-size="25" text-anchor="start" style="fill:white" class="bold">研究目的2  改善智能体执行恢复</text>
+<text x="779" y="293" font-size="25" text-anchor="start" style="fill:#222222">在共同资源约束下恢复失败执行，</text>
+<text x="779" y="327" font-size="25" text-anchor="start" style="fill:#222222">并控制对已验证行为的损害。</text>
+<path d="M340,348 L340,377" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<path d="M1060,348 L1060,377" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="40" y="382" width="600" height="152" fill="white" stroke="#365f91" stroke-width="2"/>
+<rect x="40" y="382" width="600" height="43" fill="#365f91" stroke="#365f91" stroke-width="2"/>
+<text x="57" y="412" font-size="25" text-anchor="start" style="fill:white" class="bold">RQ1  如何形成有效的步骤责任排序？</text>
+<text x="59" y="460" font-size="24" text-anchor="start" style="fill:#222222">如何结合步骤语义、可观察关系与候选</text>
+<text x="59" y="494" font-size="24" text-anchor="start" style="fill:#222222">相关上下文，对失败轨迹的全部步骤</text>
+<text x="59" y="528" font-size="24" text-anchor="start" style="fill:#222222">形成准确、稳定的诊断优先次序？</text>
+<rect x="760" y="382" width="600" height="152" fill="white" stroke="#b8642d" stroke-width="2"/>
+<rect x="760" y="382" width="600" height="43" fill="#b8642d" stroke="#b8642d" stroke-width="2"/>
+<text x="777" y="412" font-size="25" text-anchor="start" style="fill:white" class="bold">RQ2  如何利用诊断实现执行恢复？</text>
+<text x="779" y="460" font-size="24" text-anchor="start" style="fill:#222222">如何将责任排序与当前状态、执行反馈</text>
+<text x="779" y="494" font-size="24" text-anchor="start" style="fill:#222222">结合，选择并验证恢复动作，在有限</text>
+<text x="779" y="528" font-size="24" text-anchor="start" style="fill:#222222">预算内恢复执行并保持已验证行为？</text>
+<path d="M340,534 L340,569" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<path d="M1060,534 L1060,569" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="40" y="574" width="600" height="552" fill="white" stroke="#365f91" stroke-width="2"/>
+<rect x="760" y="574" width="600" height="552" fill="white" stroke="#b8642d" stroke-width="2"/>
+<text x="62" y="614" font-size="28" text-anchor="start" style="fill:#365f91" class="bold">RQ1核心设计技术</text>
+<text x="782" y="614" font-size="28" text-anchor="start" style="fill:#b8642d" class="bold">RQ2核心设计技术</text>
+<rect x="65" y="649" width="252" height="127" fill="white" stroke="#365f91" stroke-width="2"/>
+<text x="191.0" y="703.32" font-size="23" text-anchor="middle" style="fill:#222222">步骤语义与公开结构</text>
+<text x="191.0" y="737.32" font-size="23" text-anchor="middle" style="fill:#222222">形成步骤表示</text>
+<rect x="365" y="649" width="250" height="127" fill="white" stroke="#365f91" stroke-width="2"/>
+<text x="490.0" y="703.32" font-size="23" text-anchor="middle" style="fill:#222222">可观察关系构建</text>
+<text x="490.0" y="737.32" font-size="23" text-anchor="middle" style="fill:#222222">形成关系邻接</text>
+<path d="M191,776 L191,802 L340,802 L340,819" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<path d="M490,776 L490,802 L340,802 L340,819" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="65" y="824" width="550" height="126" fill="white" stroke="#365f91" stroke-width="2"/>
+<text x="340.0" y="878.5" font-size="25" text-anchor="middle" style="fill:#222222">多关系消息交互</text>
+<text x="340.0" y="912.5" font-size="25" text-anchor="middle" style="fill:#222222">候选相关上下文与可学习评分</text>
+<path d="M340,950 L340,983" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="65" y="988" width="550" height="105" fill="white" stroke="#365f91" stroke-width="2"/>
+<text x="340.0" y="1031.66" font-size="24" text-anchor="middle" style="fill:#222222">完整步骤分数与责任全序 π</text>
+<text x="340.0" y="1065.66" font-size="24" text-anchor="middle" style="fill:#222222">保留原始步骤身份及诊断证据</text>
+<rect x="785" y="649" width="550" height="118" fill="white" stroke="#b8642d" stroke-width="2"/>
+<text x="1060.0" y="699.5" font-size="25" text-anchor="middle" style="fill:#222222">诊断到恢复证据的映射</text>
+<text x="1060.0" y="733.5" font-size="25" text-anchor="middle" style="fill:#222222">历史编辑与当前状态对应</text>
+<path d="M1060,767 L1060,801" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="785" y="806" width="550" height="118" fill="white" stroke="#b8642d" stroke-width="2"/>
+<text x="1060.0" y="856.5" font-size="25" text-anchor="middle" style="fill:#222222">当前反馈与关系上下文</text>
+<text x="1060.0" y="890.5" font-size="25" text-anchor="middle" style="fill:#222222">生成可执行的候选恢复动作</text>
+<path d="M1060,924 L1060,958" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="785" y="963" width="550" height="130" fill="white" stroke="#b8642d" stroke-width="2"/>
+<text x="1060.0" y="1019.5" font-size="25" text-anchor="middle" style="fill:#222222">公开行为验证与状态准入</text>
+<text x="1060.0" y="1053.5" font-size="25" text-anchor="middle" style="fill:#222222">接纳或回退；合格后独立验收</text>
+<path d="M615,1041 L701,1041 L701,708 L775,708" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<text x="697" y="873" font-size="18" text-anchor="middle" style="fill:#222222">责任全序</text>
+<text x="697" y="900" font-size="18" text-anchor="middle" style="fill:#222222">与证据</text>
+<path d="M340,1126 L340,1161" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<path d="M1060,1126 L1060,1161" stroke="#222222" stroke-width="2.1" fill="none" marker-end="url(#arr)"/>
+<rect x="40" y="1166" width="600" height="248" fill="white" stroke="#365f91" stroke-width="2"/>
+<rect x="40" y="1166" width="600" height="43" fill="#365f91" stroke="#365f91" stroke-width="2"/>
+<text x="57" y="1196" font-size="25" text-anchor="start" style="fill:white" class="bold">RQ1研究结论  已有证据与边界</text>
+<text x="59" y="1244" font-size="23" text-anchor="start" style="fill:#222222">AFTraj120：本文86，强SF82，AA77；</text>
+<text x="59" y="1278" font-size="23" text-anchor="start" style="fill:#222222">两项差异均未显著。</text>
+<text x="59" y="1312" font-size="23" text-anchor="start" style="fill:#222222">coding363三划分：+7.44～7.99个百分点；</text>
+<text x="59" y="1346" font-size="23" text-anchor="start" style="fill:#222222">相对强SF的配对差异显著。</text>
+<text x="59" y="1380" font-size="23" text-anchor="start" style="fill:#222222">均属既有开发条件，独立确认仍待完成。</text>
+<rect x="760" y="1166" width="600" height="248" fill="white" stroke="#b8642d" stroke-width="2"/>
+<rect x="760" y="1166" width="600" height="43" fill="#b8642d" stroke="#b8642d" stroke-width="2"/>
+<text x="777" y="1196" font-size="25" text-anchor="start" style="fill:white" class="bold">RQ2研究结论  已有证据与边界</text>
+<text x="779" y="1244" font-size="23" text-anchor="start" style="fill:#222222">旧7个配对状态：本文5/7，AL0/7；</text>
+<text x="779" y="1278" font-size="23" text-anchor="start" style="fill:#222222">p=0.0625，未显著（原本地协议）。</text>
+<text x="779" y="1312" font-size="23" text-anchor="start" style="fill:#222222">已观察到真实恢复及不同恢复路径；</text>
+<text x="779" y="1346" font-size="23" text-anchor="start" style="fill:#222222">后续不同协议并未一致领先。</text>
+<text x="779" y="1380" font-size="23" text-anchor="start" style="fill:#222222">诊断独立收益、保护收益与整体优势待证。</text>
+<text x="700" y="1462" font-size="23" text-anchor="middle" style="fill:#222222">共同执行基础：版本化状态、完整工具记录、预算累计与安全边界续跑</text></svg>

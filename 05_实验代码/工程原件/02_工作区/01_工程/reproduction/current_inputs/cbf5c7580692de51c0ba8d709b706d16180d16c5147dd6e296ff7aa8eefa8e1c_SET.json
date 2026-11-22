@@ -1,0 +1,60 @@
+{
+  "schema": "EXP262-exposed-partial-complete-pressure-contract/1",
+  "SOURCE_ONLY": true,
+  "execution_authorized": false,
+  "model_authorized": false,
+  "native_authorized": false,
+  "finance_authorized": false,
+  "private_authorized": false,
+  "policy": "SET",
+  "task_id": "getmoto__moto-7081",
+  "trial_id": "trial1",
+  "trial_master_seed": 2026101201,
+  "output_root": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET",
+  "pressure_state": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\PARTIAL_BUSINESS_STATE.json",
+    "sha256": "7d54081eaabbaa136d0a4d3cfaaae0d2f534c4b1f9d4a7966446e829ff94c3a2"
+  },
+  "current_partial_start": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\qualification\\once_original_G_O\\CURRENT_PARTIAL_START262.json",
+    "sha256": "243d32214dd591ca56a82f1dadea84bbdac071ad4f83851fe6ec5c5589ba977e"
+  },
+  "method_source_seal": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\SOURCE_SEAL262_CALLER_FINAL_FALSE.json",
+    "sha256": "db5bc6447a3f8238026d90053322f5509c0c877d9fe34e5520908356eac35c4d"
+  },
+  "public_contract": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\PRESSURE_PUBLIC_CONTRACT262.json",
+    "sha256": "d5db9b94dfcbbf603e0d1c2eb38c45957e9fbb24f262c7d6438debb124610e94"
+  },
+  "public_test_scope_contract": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\CURRENT_SCOPE262.json",
+    "sha256": "65d5082f5c27096d54a75067ce06b27208615d066648cf529d68b4371ad038cf"
+  },
+  "common_input_configuration": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\COMMON_INPUT_CONFIGURATION262.json",
+    "sha256": "40782827c6f7a7b6a52d09dcc74609050c56aadff19d92955c459a35aa90dfc5"
+  },
+  "public_pack": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\CURRENT_PRESSURE_PUBLIC_PACK262.json",
+    "sha256": "bfe72c9466e61fc6cef35916398e141a4863cf29f7e3a9bf10946b04fed87c58"
+  },
+  "G_plan": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp257-source3-postreview\\实验\\实验257_source3与强SF推断发布\\ranking\\plans\\getmoto__moto-7081\\SOURCE3.json",
+    "sha256": "a9c12fa30ebbc626ad526f9c59f20f31e7752bf57bb36a054f0e992eeccca674"
+  },
+  "goal_nodes": [
+    "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+    "tests/test_iot/test_iot_things.py::test_delete_thing",
+    "tests/test_iot/test_iot_things.py::test_update_thing"
+  ],
+  "ordinary_nodes": [
+    "tests/test_iot/test_iot_things.py::test_list_things_with_next_token"
+  ],
+  "finance_phase": "Until0900ConfirmOurs24920261012",
+  "max_generation_attempts": 3,
+  "max_legal_evidence_items": 3,
+  "owner_PID": null,
+  "owner_birth": null,
+  "specific_owned_Job": null
+}

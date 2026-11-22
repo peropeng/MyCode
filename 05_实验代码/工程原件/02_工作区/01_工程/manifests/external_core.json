@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "repo": "https://github.com/taiyu-zhu/StepFinder.git",
+      "revision": "48d71c7090adca3667a31b043a78484f407b4a2f",
+      "upstream_path": "model.py",
+      "url": "https://raw.githubusercontent.com/taiyu-zhu/StepFinder/48d71c7090adca3667a31b043a78484f407b4a2f/model.py",
+      "destination": ".external/StepFinder/model.py",
+      "sha256": "96ea4dce3a76a9a730d59c7aac1954c6d5f9f2d449c55c5e3b6d9092c00c0c5a",
+      "newline": "CRLF",
+      "reason": "Unmodified author code is downloaded, not uploaded as original source"
+    }
+  ]
+}

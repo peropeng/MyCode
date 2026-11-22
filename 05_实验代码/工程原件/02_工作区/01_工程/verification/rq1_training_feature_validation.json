@@ -1,0 +1,9 @@
+{
+  "records_verified": 614,
+  "steps": 7540,
+  "state_action_pairs": 1992,
+  "finite_tensors": true,
+  "original_input_hash_bindings_valid": true,
+  "new_training_steps": 0,
+  "gold_label_values_parsed": 0
+}

@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>面向有状态工具调用的智能体失败定位与事务式恢复方法研究</title>
+<style>
+:root{--ink:#1e2930;--muted:#6e7e85;--slate:#48616c;--blue:#4472c4;--blue2:#3f78d3;--orange:#f07c2c;--red:#c6453d;--green:#006442;--pale:#e7e6e6;--pale2:#f4f6f7;--white:#fff;--shadow:0 18px 55px rgba(21,39,48,.18)}
+*{box-sizing:border-box} html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#17242b;color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
+#viewport{position:fixed;inset:0;display:grid;place-items:center;background:radial-gradient(circle at 50% 30%,#324b57,#17242b 72%)}
+#deck{position:relative;width:1280px;height:720px;transform-origin:center center;background:#fff;box-shadow:var(--shadow)}
+.slide{position:absolute;inset:0;width:1280px;height:720px;background:#fff;overflow:hidden;display:none}
+.slide.active{display:block}.slide-inner{position:absolute;left:56px;right:56px;top:92px;bottom:62px}.slide.content .slide-inner{top:92px}
+.template-head{position:absolute;left:0;right:0;top:0;height:82px;border-bottom:1px solid #d8dfe2;background:#fff;z-index:3}
+.template-head .roof{position:absolute;left:24px;top:1px;width:58px;height:57px;object-fit:cover;object-position:80% 50%;opacity:.9}
+.template-head h1{position:absolute;left:91px;right:235px;top:11px;margin:0;color:var(--slate);font-size:31px;line-height:1.02;font-weight:800;letter-spacing:.3px;white-space:nowrap;overflow:hidden}
+.template-head h1.long{font-size:26px;top:13px;letter-spacing:0}
+.template-head h1 small{display:block;font-family:Georgia,"Times New Roman",serif;font-size:13px;line-height:1.05;color:#96a3a9;font-weight:400;margin:5px 0 0;letter-spacing:.45px;white-space:nowrap}
+.template-head .brand{position:absolute;right:24px;top:11px;width:54px;height:54px;object-fit:contain}
+.template-head .brand-text{position:absolute;right:85px;top:23px;text-align:right;color:var(--slate);font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:15px;line-height:1.12}
+.footnav{position:absolute;left:0;right:0;bottom:0;height:36px;display:grid;grid-template-columns:repeat(6,1fr);font-size:12px;color:#738188;background:#f0f2f3;border-top:1px solid #d9dee0;z-index:4}
+.footnav span{display:flex;align-items:center;justify-content:center;border-right:1px solid #fff;letter-spacing:.2px}.footnav span.on{color:#fff;background:var(--slate);font-weight:700}.page-no{position:absolute;right:18px;bottom:40px;color:#a2adb1;font-size:12px;z-index:5}
+.eyebrow{font-size:14px;letter-spacing:2.5px;text-transform:uppercase;color:var(--orange);font-weight:800;margin-bottom:8px}.lead{font-size:29px;line-height:1.45;color:var(--slate);font-weight:800}.sublead{font-size:19px;line-height:1.65;color:#56666d}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.col60{display:grid;grid-template-columns:1.45fr 1fr;gap:25px}.col40{display:grid;grid-template-columns:1fr 1.45fr;gap:25px}
+.card{border:1px solid #d8e0e3;border-radius:7px;background:#fff;padding:18px 19px;box-shadow:0 4px 15px rgba(48,73,84,.06)}.card.blue{border-top:5px solid var(--blue)}.card.orange{border-top:5px solid var(--orange)}.card.red{border-top:5px solid var(--red)}.card.slate{border-top:5px solid var(--slate)}.card h2,.card h3{margin:0 0 10px;color:var(--slate)}.card h2{font-size:23px}.card h3{font-size:20px}.card p{margin:6px 0;font-size:18px;line-height:1.55}.card li{font-size:17px;line-height:1.45;margin:6px 0}
+.numcard{position:relative;padding-left:72px;min-height:92px}.numcard .num{position:absolute;left:15px;top:14px;width:42px;height:42px;border-radius:3px;background:var(--blue);color:#fff;display:grid;place-items:center;font:bold 25px Georgia}.numcard.orange .num{background:var(--orange)}
+ul.clean{margin:5px 0 0;padding-left:22px}ul.clean li{margin:7px 0;font-size:19px;line-height:1.48}ul.tight li{font-size:17px;margin:4px 0;line-height:1.38}
+.tag{display:inline-block;padding:4px 9px;border-radius:3px;background:#edf2f5;color:var(--slate);font-size:14px;font-weight:700;margin:2px}.tag.orange{background:#fff0e6;color:#b65311}.tag.blue{background:#eaf0fb;color:#2f5ca9}.tag.red{background:#faeceb;color:#a83c35}.tag.green{background:#e8f3ef;color:#006442}
+.callout{border-left:6px solid var(--orange);background:#fff7f0;padding:15px 20px;font-size:20px;line-height:1.5;color:#4e5c62}.callout.blue{border-color:var(--blue);background:#f1f5fb}.callout.red{border-color:var(--red);background:#fbf0ef}.callout strong{color:var(--slate)}
+.formula{font-family:"Times New Roman","Cambria Math",serif;background:#f6f8f9;border:1px solid #dbe2e5;border-left:6px solid var(--blue);border-radius:5px;padding:15px 18px;margin:12px 0;font-size:27px;line-height:1.38;color:#17272f}.formula.orange{border-left-color:var(--orange)}.formula.small{font-size:22px}.formula .where{display:block;margin-top:8px;font-family:"Microsoft YaHei",sans-serif;font-size:16px;color:#66777f}
+.flow{display:flex;align-items:stretch;gap:16px}.flow .box{position:relative;flex:1;min-height:108px;border:2px solid #cdd8dd;border-radius:6px;background:#fff;padding:14px;text-align:center;display:flex;flex-direction:column;justify-content:center}.flow .box:not(:last-child):after{content:"›";position:absolute;right:-17px;top:31px;font:700 44px Georgia;color:#9eabb1;z-index:2}.flow .box b{font-size:19px;color:var(--slate)}.flow .box small{font-size:14px;color:#72838a;margin-top:7px;line-height:1.35}.flow .box.active{background:var(--orange);border-color:var(--orange);color:#fff}.flow .box.active b,.flow .box.active small{color:#fff}.flow .box.blue{background:var(--blue);border-color:var(--blue)}.flow .box.blue b,.flow .box.blue small{color:#fff}
+.spine{position:absolute;left:55px;right:55px;bottom:45px;height:42px;display:flex;align-items:center;justify-content:center;gap:2px;z-index:2}.spine span{height:29px;flex:1;display:grid;place-items:center;background:#e9edef;color:#6e7e85;font-size:12px;font-weight:700;position:relative}.spine span:not(:last-child):after{content:"";position:absolute;right:-9px;border-left:9px solid #e9edef;border-top:14.5px solid transparent;border-bottom:14.5px solid transparent;z-index:2}.spine span.on{background:var(--orange);color:#fff}.spine span.on:after{border-left-color:var(--orange)}
+.mini-route{display:flex;align-items:center;gap:7px;margin:10px 0}.mini-route span{padding:7px 10px;background:#edf1f3;color:#63757d;font-size:14px;border-radius:3px}.mini-route span.on{background:var(--orange);color:#fff;font-weight:700}.mini-route i{color:#8a989e;font-style:normal}
+.timeline{display:grid;grid-template-columns:repeat(8,1fr);gap:8px;align-items:center;margin-top:25px}.step{height:95px;border-radius:6px;border:2px solid #ccd7dc;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;padding:5px}.step:not(:last-child):after{content:"";position:absolute;right:-11px;top:45px;width:12px;border-top:2px solid #9ba9af}.step b{font-size:17px;color:var(--slate)}.step small{font-size:13px;color:#74848b;margin-top:5px}.step.bad{border-color:var(--orange);background:#fff3e8}.step.fail{border-color:var(--red);background:#fbedec}.step.depend{border-style:dashed;border-color:var(--orange)}
+.graph{position:relative;height:330px;background:#f7f9fa;border:1px solid #dce3e6;border-radius:8px;overflow:hidden}.node{position:absolute;width:52px;height:52px;border-radius:50%;background:#fff;border:3px solid var(--blue);display:grid;place-items:center;font-weight:800;color:var(--slate);z-index:2}.node.orange{border-color:var(--orange);background:#fff3e8}.edge{position:absolute;height:3px;background:#a9b8be;transform-origin:left center;z-index:1}.edge.blue{background:var(--blue)}.edge.orange{background:var(--orange)}.edge.dash{height:0;border-top:3px dashed var(--orange);background:none}
+.legend{display:flex;gap:15px;flex-wrap:wrap;font-size:14px;color:#596a72}.legend span:before{content:"";display:inline-block;width:20px;height:4px;background:var(--blue);margin-right:6px;vertical-align:middle}.legend span.o:before{background:var(--orange)}.legend span.g:before{background:var(--green)}.legend span.s:before{background:var(--slate)}
+.table{width:100%;border-collapse:collapse;font-size:16px}.table th{background:var(--slate);color:#fff;padding:9px 10px;text-align:left;border:1px solid #fff}.table td{padding:8px 10px;border:1px solid #d9e0e3;line-height:1.35}.table tr:nth-child(even) td{background:#f7f9fa}.table .hi td{background:#fff0e5;font-weight:800;color:#8f4214}.table.compact{font-size:14px}.table.compact td,.table.compact th{padding:6px 7px}
+.bars{display:flex;flex-direction:column;gap:12px;margin-top:12px}.barrow{display:grid;grid-template-columns:245px 1fr 90px;gap:12px;align-items:center;font-size:16px}.bartrack{height:27px;background:#e9edef;border-radius:3px;overflow:hidden}.barfill{height:100%;background:var(--blue);display:flex;align-items:center;justify-content:flex-end;padding-right:7px;color:#fff;font-size:12px}.barfill.orange{background:var(--orange)}.barfill.gray{background:#94a3a9}.barfill.red{background:var(--red)}
+.matrix34{display:grid;grid-template-columns:repeat(17,21px);gap:5px;margin:10px 0}.matrix34 i{width:21px;height:21px;border-radius:2px;background:#d8dfe2}.matrix34 i.win{background:var(--orange)}.matrix34 i.base{background:var(--blue)}
+.stat{font-family:Georgia,"Times New Roman",serif;font-size:48px;font-weight:800;color:var(--slate);line-height:1}.stat.orange{color:var(--orange)}.stat.blue{color:var(--blue)}.stat small{font-family:"Microsoft YaHei",sans-serif;font-size:15px;color:#708087;font-weight:400;display:block;margin-top:8px;line-height:1.35}
+.divider{background:#fff}.divider .big-no{position:absolute;left:125px;top:90px;font:900 330px/1 Georgia,"Times New Roman",serif;color:#edf0f1;letter-spacing:-25px}.divider .d-title{position:absolute;left:250px;top:284px;color:var(--slate);font-size:48px;font-weight:900;letter-spacing:1px}.divider .d-en{position:absolute;left:255px;top:353px;color:#85949a;font:italic 26px Georgia,"Times New Roman",serif}.divider .rule{position:absolute;left:255px;top:408px;width:255px;border-top:5px solid var(--orange)}.divider .crest{position:absolute;right:82px;bottom:62px;width:190px;opacity:.065}
+.cover{background:#fff}.cover .photo{position:absolute;left:0;top:0;width:100%;height:475px;object-fit:cover;object-position:center 52%}.cover .curve{position:absolute;left:-5%;top:380px;width:110%;height:215px;background:#fff;border-radius:50% 50% 0 0/52% 52% 0 0}.cover .title{position:absolute;left:92px;right:285px;top:433px;color:var(--slate);font-size:39px;line-height:1.3;font-weight:900}.cover .en-title{position:absolute;left:95px;top:545px;color:#819097;font:19px Georgia,"Times New Roman",serif}.cover .meta{position:absolute;left:95px;top:595px;font-size:16px;color:#5f6f76;line-height:1.55}.cover .crest{position:absolute;right:68px;bottom:46px;width:142px}.cover .motto{position:absolute;left:28px;top:28px;color:#fff;text-shadow:0 2px 9px #000;font:700 18px Georgia}.cover .stamp{position:absolute;right:52px;top:28px;padding:7px 11px;border:1px solid rgba(255,255,255,.7);color:#fff;font-size:13px;letter-spacing:1px;background:rgba(20,42,49,.24)}
+.agenda{background:#fff}.agenda .photo{position:absolute;left:0;top:0;width:510px;height:720px;object-fit:cover}.agenda .mask{position:absolute;left:380px;top:-50px;width:230px;height:820px;background:#fff;border-radius:50% 0 0 50%}.agenda h1{position:absolute;left:535px;top:55px;color:var(--slate);font-size:41px;margin:0}.agenda .list{position:absolute;left:560px;right:80px;top:140px;display:grid;gap:17px}.agenda .item{display:grid;grid-template-columns:74px 1fr;border-bottom:1px solid #dfe5e8;padding-bottom:10px}.agenda .item b{font:800 36px Georgia;color:var(--orange)}.agenda .item strong{font-size:23px;color:var(--slate)}.agenda .item small{display:block;margin-top:4px;font:16px Georgia;color:#8d999e}.agenda .watermark{position:absolute;right:35px;bottom:35px;width:220px;opacity:.045}
+.disclaimer{background:#f7f9fa}.disclaimer .crest-bg{position:absolute;right:-75px;bottom:-90px;width:430px;opacity:.035}.disclaimer .panel{position:absolute;left:95px;right:95px;top:90px;bottom:80px;background:#fff;border-radius:9px;border:1px solid #dbe2e5;padding:38px 46px;box-shadow:0 12px 35px rgba(40,65,77,.09)}
+.section-kicker{font:700 13px Georgia;color:var(--orange);letter-spacing:2px}.source-note{display:none}.notes-panel{position:fixed;right:16px;top:16px;width:min(440px,42vw);max-height:calc(100vh - 32px);overflow:auto;background:rgba(255,255,255,.97);border:1px solid #bfcbd0;box-shadow:0 12px 40px rgba(0,0,0,.3);padding:16px 20px;z-index:40;color:#243239;font-size:14px;line-height:1.5;display:none}.notes-panel.on{display:block}.notes-panel h3{margin:0 0 10px;color:var(--slate)}
+#controls{position:fixed;left:16px;bottom:14px;z-index:50;display:flex;align-items:center;gap:8px;background:rgba(22,36,43,.88);color:#fff;border-radius:18px;padding:7px 12px;font-size:12px;backdrop-filter:blur(6px);opacity:0;transition:opacity .18s}#controls:hover,#controls:focus-within{opacity:1}#controls button{background:none;border:0;color:#fff;font-size:15px;cursor:pointer;padding:0 4px}#controls .count{min-width:52px;text-align:center}.progress{position:fixed;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.12);z-index:60}.progress i{display:block;height:100%;background:var(--orange);width:0}
+.smalltext{font-size:16px;line-height:1.45}.tiny{font-size:14px;line-height:1.36}.muted{color:#708087}.orange-text{color:var(--orange)}.blue-text{color:var(--blue)}.red-text{color:var(--red)}.center{text-align:center}.right{text-align:right}.mt8{margin-top:8px}.mt14{margin-top:14px}.mt20{margin-top:20px}.mb8{margin-bottom:8px}.no-margin{margin:0}.pill{border-radius:999px}.nowrap{white-space:nowrap}
+@media print{html,body{overflow:visible;background:#fff}.slide{display:block!important;position:relative;page-break-after:always;break-after:page}.slide:last-child{page-break-after:auto}.template-head,.footnav,.page-no{print-color-adjust:exact;-webkit-print-color-adjust:exact}#viewport{position:static;display:block;background:#fff}#deck{transform:none!important;box-shadow:none;height:auto}.notes-panel,#controls,.progress{display:none!important}}
+</style>
+</head>
+<body>
+<div id="viewport"><main id="deck" aria-label="开题报告演示文稿">
+
+<section class="slide cover active">
+  <img class="photo" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-campus-sunset.png" alt="武汉大学校园夕阳">
+  <div class="curve"></div><div class="motto">自强 · 弘毅 · 求是 · 拓新</div><div class="stamp">开题报告 · PROPOSAL</div>
+  <div class="title">面向有状态工具调用的智能体<br>失败定位与事务式恢复方法研究</div>
+  <div class="en-title">Failure Localization and Transactional Recovery for Agents with Stateful Tool Use</div>
+  <div class="meta">汇报人：待填写　　指导教师：待填写<br>武汉大学 · 日期待填写</div>
+  <img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt="武汉大学校徽">
+  <aside class="source-note"><b>[Sources]</b><br>校园照片、校徽与弧形封面语言来自用户指定参考 PPT，仅复用视觉风格；研究题目来自仓库两章最终主线裁决。</aside>
+</section>
+
+<section class="slide disclaimer">
+  <img class="crest-bg" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt="">
+  <div class="panel">
+    <div class="eyebrow">Scope & provenance</div>
+    <div class="lead">参考 PPT 的研究内容与本研究无关；仅复用其视觉模板。</div>
+    <div class="grid3 mt20">
+      <div class="card blue"><h3>继承</h3><p>校园封面、目录构图、章节页、校徽、屋檐、蓝灰/橙配色与六段导航。</p></div>
+      <div class="card orange"><h3>排除</h3><p>原作者、产业链风险、图自编码器、原数据、原公式、原结论与原页内图。</p></div>
+      <div class="card slate"><h3>内容权威</h3><p>只采用仓库最新 Exp112C、Exp121 与两章最终主线裁决；旧叙事不进入本稿。</p></div>
+    </div>
+    <div class="callout mt20"><strong>审阅规则：</strong>所有数值都必须能回到正式结果；所有“因果、自愈、自动修复”类表述都按实验边界收紧。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>参考 PPT：20250904组会汇报-代佳宁-开题报告.pptx。研究内容：结论46、交接09、Exp112C、Exp121。</aside>
+</section>
+
+<section class="slide agenda">
+  <img class="photo" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-campus-panorama.jpeg" alt="武汉大学校园全景"><div class="mask"></div>
+  <h1>目 录 <small style="font:18px Georgia;color:#9aa5aa">CONTENTS</small></h1>
+  <div class="list">
+    <div class="item"><b>01</b><div><strong>背景与现状</strong><small>Background and current situation</small></div></div>
+    <div class="item"><b>02</b><div><strong>目标与意义</strong><small>Goal and meaning</small></div></div>
+    <div class="item"><b>03</b><div><strong>内容与方法</strong><small>Contents and methods</small></div></div>
+    <div class="item"><b>04</b><div><strong>难点与创新</strong><small>Difficulties and Innovations</small></div></div>
+    <div class="item"><b>05</b><div><strong>实验与数据</strong><small>Experimentation and data</small></div></div>
+    <div class="item"><b>06</b><div><strong>进度与文献</strong><small>Progress and literature</small></div></div>
+  </div><img class="watermark" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt="">
+  <aside class="source-note"><b>[Sources]</b><br>章节名称来自用户指定的新目录；构图来自参考 PPT 的目录页。</aside>
+</section>
+
+<section class="slide divider" data-section="1"><div class="big-no">01</div><div class="d-title">背景与现状</div><div class="d-en">Background and current situation</div><div class="rule"></div><img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt=""></section>
+
+<section class="slide content" data-section="1" data-title="1.1 智能体执行环境与失败现象" data-en="Why stateful tool use changes failure analysis">
+  <div class="slide-inner">
+    <div class="lead">智能体开始调用工具后，输出不再只是文本，而是连续改变环境的执行过程。</div>
+    <div class="grid2 mt20">
+      <div class="card blue"><h2>执行对象发生变化</h2><p>检索、编辑、测试、进程管理和版本库操作会留下文件、进程和仓库状态。后续步骤读取这些状态，早期的小错误可能沿轨迹传播，直到较晚的测试或验收阶段才暴露。</p><p>因此，最终报错位置只能说明症状出现在哪里，不能直接说明哪一步最先改变了错误状态。</p></div>
+      <div class="card orange"><h2>恢复对象也发生变化</h2><p>恢复不能只删除一条可疑指令。若后续步骤继续写入同一目标，它们可能已经建立在错误状态之上；恢复范围需要结合目标对象、后续依赖和可验证的状态差分来判断。</p><p>本研究把一条失败轨迹作为连续证据，关注责任步骤的排序以及排序结果如何支持后续恢复。</p></div>
+    </div>
+    <div class="callout mt20"><strong>背景判断：</strong>工具调用把“失败定位”从最终答案评价扩展为对完整执行轨迹、状态传播和恢复边界的联合分析。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Yang et al., SWE-agent, NeurIPS 2024；交接09 §3：工具调用改变文件、进程或仓库状态。</aside>
+</section>
+
+<section class="slide content" data-section="1" data-title="1.2 症状、责任与恢复边界" data-en="Why the last visible failure is not enough">
+  <div class="slide-inner">
+    <div class="lead">同一条轨迹中，症状位置、责任位置和需要恢复的状态范围可能并不重合。</div>
+    <div class="grid3 mt20">
+      <div class="card red"><h2>症状位置</h2><p>测试失败、目标探针不通过或版本库出现冲突，通常发生在轨迹后段。它适合用来确定需要回看哪条轨迹，但不能单独完成归因。</p></div>
+      <div class="card orange"><h2>责任位置</h2><p>责任步骤是最早使后续状态偏离参考状态的动作。它可能被后续正确步骤掩盖，也可能因跨步交互而无法用局部文本直接判断。</p></div>
+      <div class="card blue"><h2>恢复边界</h2><p>恢复需要覆盖责任动作之后、与同一目标存在依赖的状态，同时保留无关的正确状态。边界过小会留下污染，边界过大又会损失已经完成的有效工作。</p></div>
+    </div>
+    <div class="callout mt20"><strong>问题由此产生：</strong>研究需要先把完整轨迹中的步骤放到同一可比较尺度，再分析候选恢复范围是否真的通过执行验收。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>交接09 §2–3；Exp120/121 dependency pool rule。</aside>
+</section>
+
+<section class="slide content" data-section="1" data-title="1.3 国外研究：从过程可观测到步骤归因" data-en="International studies and what they establish">
+  <div class="slide-inner">
+    <div class="grid3">
+      <div class="card blue"><h2>SWE-agent</h2><p class="muted">2024 · Yang et al. · NeurIPS</p><p>论文把软件工程智能体放进真实仓库，通过定位、编辑和测试的工具轨迹完成任务。它说明工具接口和执行过程本身会影响最终结果。</p><p><b>分析：</b>过程被完整记录是进一步研究失败责任的前提，但该工作关注任务完成能力，未把每个步骤输出为责任排序。</p></div>
+      <div class="card orange"><h2>Who&When</h2><p class="muted">2025 · Zhang et al. · ICML</p><p>论文区分“哪个智能体负责”和“哪个时刻发生关键行为”，把多智能体失败归因推进到时间位置分析。</p><p><b>分析：</b>它明确了责任主体与责任时刻的区别，但输出仍偏向关键位置识别，尚未说明如何覆盖全部步骤并接入实际恢复。</p></div>
+      <div class="card slate"><h2>TraceElephant</h2><p class="muted">2026 · Chen et al. · ACL</p><p>论文强调输入、工具调用、上下文和执行环境的全轨迹观测，试图避免只看最终答案或单条消息。</p><p><b>分析：</b>完整观测为跨步责任分析提供数据基础，但观测本身不等于排序，也不回答回滚范围如何由证据决定。</p></div>
+    </div>
+    <div class="callout mt20"><strong>国外研究的共同推进：</strong>研究对象已从最终答案扩展到执行过程，归因也从主体识别走向时序步骤分析，但“全步骤排序—可执行恢复”仍未连成一条验证链。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Yang et al., SWE-agent, NeurIPS 2024；Zhang et al., Who&When, ICML 2025；Chen et al., TraceElephant, ACL 2026。</aside>
+</section>
+
+<section class="slide content" data-section="1" data-title="1.4 国外研究：跨步交互、过程追踪与修复范围" data-en="International work on interactions and repair context">
+  <div class="slide-inner">
+    <div class="grid3">
+      <div class="card blue"><h2>StepFinder</h2><p class="muted">2026 · Zhu et al. · arXiv</p><p>论文用时序建模和跨步交互刻画步骤级归因，强调一个动作的影响可能在后续步骤中显现。</p><p><b>分析：</b>这为“责任不等于最近症状”提供了直接依据，但仍需要把归因分数转为稳定的完整排序，并在独立任务上检验。</p></div>
+      <div class="card orange"><h2>CAM</h2><p class="muted">2026 · Lyu et al. · ISSTA</p><p>论文分析中间特征及其交互对结果的贡献，说明局部信号与跨步结构应同时进入模型。</p><p><b>分析：</b>它支持结构化表示的必要性，但贡献分析仍停留在诊断解释层，尚未验证排序对恢复成功和安全性的下游影响。</p></div>
+      <div class="card slate"><h2>ReAgent</h2><p class="muted">2025 · Zhao et al. · EMNLP</p><p>论文在多跳推理中引入可逆执行，发现冲突后回到较早的有效状态，并区分局部回退和全局回退。</p><p><b>分析：</b>它证明早期错误传播可以通过回退抑制，提供了恢复粒度的直接参照；但问答状态主要存在于推理上下文中，软件工具还会改变文件、进程和仓库等外部状态。</p></div>
+    </div>
+    <div class="callout mt20"><strong>分析结论：</strong>现有工作分别解释了轨迹、交互和上下文的重要性，研究仍缺少一个能把责任排序直接接入状态恢复执行的中间层。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Zhu et al., StepFinder, arXiv:2606.03467；Lyu et al., CAM, ISSTA 2026；Zhao et al., ReAgent, EMNLP 2025；Wu et al., CausalRepair, ISSTA 2026。</aside>
+</section>
+
+<section class="slide content" data-section="1" data-title="1.5 国内研究：过程分析与工程化恢复视角" data-en="China-based research and the local context">
+  <div class="slide-inner">
+    <div class="grid3">
+      <div class="card blue"><h2>Process-Centric Analysis</h2><p class="muted">2026 · Liu et al. · PACMPL</p><p>该工作从过程中心视角分析智能体软件系统，把工具接口、任务阶段和执行轨迹作为系统行为的一部分。</p><p><b>分析：</b>它与本研究的状态化执行背景一致，说明过程证据需要进入评价框架；但工作重点是过程理解，尚未形成面向恢复的步骤排序。</p></div>
+      <div class="card orange"><h2>APR Traceability</h2><p class="muted">2026 · Ceka et al. · ISSTA</p><p>该工作追踪自动程序修复智能体的定位、编辑和验证过程，讨论中间决策如何影响最终补丁。</p><p><b>分析：</b>它把“诊断—修改—验证”串成可审计轨迹；但代码补丁轨迹与有状态工具调用的文件、进程、仓库状态仍有对象差异。</p></div>
+      <div class="card slate"><h2>Multi-granularity APR</h2><p class="muted">2024 · Lin et al. · ISSTA</p><p>该工作比较不同修复粒度对可解空间和修复结果的影响，提示恢复范围不能只按单点处理。</p><p><b>分析：</b>多粒度思想可借鉴到状态恢复范围选择，但还需要用同一任务、同一预算和双边验收建立可比证据。</p></div>
+    </div>
+    <div class="callout mt20"><strong>国内研究的位置：</strong>国内相关工作正在加强过程追踪、工具链分析和工程化修复评价，为本研究提供问题背景与方法参照；面向有状态工具调用的完整责任排序和事务恢复仍有展开空间。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Liu et al., Process-Centric Analysis of Agentic Software Systems, PACMPL 2026；Ceka et al., Understanding APR Agents Through Traceability, ISSTA 2026；Lin et al., One Size Does Not Fit All, ISSTA 2024。</aside>
+</section>
+
+<section class="slide content" data-section="1" data-title="1.6 研究缺口：需要一条可执行的证据链" data-en="The unresolved bridge from attribution to recovery">
+  <div class="slide-inner">
+    <div class="lead">现有研究已经分别说明过程可观测、跨步交互和依赖上下文的重要性，但这些证据还没有在同一实验链条中闭合。</div>
+    <div class="grid2 mt20">
+      <div class="card slate"><h2>缺口一：输出不够完整</h2><p>许多方法强调责任主体、关键时刻或有限候选。实际恢复需要在完整轨迹上比较所有步骤，并保留候选之间的相对次序。</p></div>
+      <div class="card slate"><h2>缺口二：诊断与执行脱节</h2><p>归因准确并不自动意味着恢复安全。候选范围需要在隔离环境中真实重放，并同时检查目标是否恢复、非目标状态是否回归。</p></div>
+      <div class="card slate"><h2>缺口三：范围选择缺少统一口径</h2><p>单点撤销、等规模范围和依赖闭包各自代表不同假设，需要在相同任务、相同候选池和相同尝试预算下比较。</p></div>
+      <div class="card slate"><h2>缺口四：证据边界需要明确</h2><p>排序质量、恢复成功、错误干预和资源成本应分别报告，避免把一个组合结果误解为某个单独机制的全部贡献。</p></div>
+    </div>
+    <div class="callout blue mt20"><strong>本研究的切入点：</strong>从完整失败轨迹中学习可审计的步骤排序，再把排序用于候选恢复次序，并在受控执行中检验状态恢复与无回归边界。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>交接09 §§1–5；结论46；Exp112/121 protocols。此页为基于前述国内外研究的综合分析。</aside>
+</section>
+
+<section class="slide divider" data-section="2"><div class="big-no">02</div><div class="d-title">目标与意义</div><div class="d-en">Goal and meaning</div><div class="rule"></div><img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt=""></section>
+
+<section class="slide content" data-section="2" data-title="总体目标与五项可检验产物" data-en="Objectives tied to measurable outputs">
+  <div class="slide-inner">
+    <div class="lead center">构建“全步骤责任排序—依赖闭合事务恢复”的两阶段方法</div>
+    <div class="grid3 mt20">
+      <div class="card blue"><h3>定位输出</h3><p>分数向量 <b>s</b> 与完整排列 <b>π</b></p><p class="muted">MRR / R@1 / R@3 / coverage</p></div>
+      <div class="card orange"><h3>恢复输出</h3><p>候选次序与闭包计划 <b>p<sub>a</sub></b></p><p class="muted">RSR / harm / cost / extent</p></div>
+      <div class="card slate"><h3>可信输出</h3><p>隔离、对照、CI 与执行审计</p><p class="muted">OOF / paired bootstrap / fresh clone / TNR</p></div>
+    </div>
+    <div class="flow mt20">
+      <div class="box"><b>匿名表示</b><small>避免词汇与身份泄漏</small></div><div class="box"><b>跨步排序</b><small>全部步骤可比较</small></div><div class="box"><b>有限预算</b><small>优先尝试高责任候选</small></div><div class="box active"><b>安全恢复</b><small>目标恢复且不破坏正确状态</small></div>
+    </div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>交接09 §§2–4；Exp112C/121 formal metrics。</aside>
+</section>
+
+<section class="slide content" data-section="2" data-title="两个正式研究问题" data-en="Formal research questions">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card blue">
+        <div class="eyebrow">Research Question I</div><h2>长轨迹责任步骤排序</h2>
+        <p>如何在不依赖原始文本、真实角色身份和未来信息的条件下，联合单步匿名行为结构与跨步骤时序交互依赖，为全部步骤产生可比较责任分数和完整排序？</p>
+        <div class="formula small">T=(x₁,…,xₙ) → s∈ℝⁿ → π</div>
+      </div>
+      <div class="card orange">
+        <div class="eyebrow">Research Question II</div><h2>持久化副作用下的事务式恢复</h2>
+        <p>在责任位置需预测、状态会持久化、尝试预算有限且必须保护非目标正确状态时，如何确定候选次序与最小可执行回滚/重放范围？</p>
+        <div class="formula small orange">π + C⁺(a) + B=2 → Success ∧ TNR</div>
+      </div>
+    </div>
+    <div class="callout mt20"><strong>论文写法：</strong>标题使用问题本体，不在正文中只写“RQ1/RQ2”。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>研究问题根据交接09的口语版重写为论文式约束表达。</aside>
+</section>
+
+<section class="slide content" data-section="2" data-title="研究意义：从可解释诊断到可执行可靠性" data-en="Scientific and practical significance">
+  <div class="slide-inner">
+    <div class="grid3">
+      <div class="card blue"><h2>学术意义</h2><ul class="clean tight"><li>从单标签扩展为完整责任排序。</li><li>验证匿名局部证据与跨步依赖的互补性。</li><li>把定位价值置于下游恢复中检验。</li></ul></div>
+      <div class="card orange"><h2>工程意义</h2><ul class="clean tight"><li>减少长轨迹逐步人工排查。</li><li>有限预算优先尝试高价值计划。</li><li>通过闭包限制无关状态损失。</li></ul></div>
+      <div class="card slate"><h2>方法论意义</h2><ul class="clean tight"><li>组级隔离与 OOF 防止乐观偏差。</li><li>用等规模范围控制错误归因。</li><li>成功与 harm 同时报告。</li></ul></div>
+    </div>
+    <div class="formula mt20">诊断价值 ≠ 定位指标本身；诊断价值 = 在同预算、同候选池下提高实际恢复成功</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>交接09 §§4–5；Exp121 shuffled/fixed/extent controls。</aside>
+</section>
+
+<section class="slide content" data-section="2" data-title="论文结构：两章方法、一个递进闭环" data-en="Thesis structure and chapter mapping">
+  <div class="slide-inner">
+    <table class="table">
+      <thead><tr><th style="width:110px">论文章</th><th style="width:370px">建议标题</th><th>承担任务</th></tr></thead>
+      <tbody>
+        <tr><td>第 1 章</td><td>绪论</td><td>背景、现状、问题、目标、意义与论文结构</td></tr>
+        <tr class="hi"><td>第 2 章</td><td>面向长轨迹的时序交互责任步骤排序方法</td><td>匿名局部证据 + 四通道依赖 + 完整排序 + strict OOF</td></tr>
+        <tr class="hi"><td>第 3 章</td><td>诊断引导的依赖感知事务式恢复方法</td><td>候选排序 + 同目标前向闭包 + fresh clone 重放 + TNR</td></tr>
+        <tr><td>第 4 章</td><td>实验设计与结果分析</td><td>基线、消融、统计、审计、误差与外部效度</td></tr>
+        <tr><td>第 5 章</td><td>总结与展望</td><td>结论、局限、自然失败外测与依赖扩展</td></tr>
+      </tbody>
+    </table>
+    <div class="callout blue mt20"><strong>PPT 六部分 ≠ 论文六章：</strong>“内容与方法”集中展开论文第 2、3 章，“实验与数据”集中展示两章证据。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>WHU thesis template 的章节化组织；仓库两章最终主线。</aside>
+</section>
+
+<section class="slide divider" data-section="3"><div class="big-no">03</div><div class="d-title">内容与方法</div><div class="d-en">Contents and methods</div><div class="rule"></div><img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt=""></section>
+
+<section class="slide content" data-section="3" data-title="总体技术路线：诊断输出进入恢复决策" data-en="An executable cross-chapter pipeline">
+  <div class="slide-inner">
+    <div class="flow">
+      <div class="box"><b>失败轨迹 T</b><small>步骤、工具调用、可见状态</small></div><div class="box blue"><b>第二章</b><small>A 局部排序 + B2 交互排序</small></div><div class="box"><b>完整排列 π</b><small>所有步骤的候选优先级</small></div><div class="box active"><b>第三章</b><small>A 候选顺序 + B′ 依赖闭包</small></div><div class="box"><b>实际恢复</b><small>fresh clone + probe + TNR</small></div>
+    </div>
+    <div class="grid2 mt20">
+      <div class="card blue"><h2>第二章输出</h2><div class="formula small">s=(s₁,…,sₙ), π=argsort(−s)</div><p>输出是完整、可消融、可审计的责任排序。</p></div>
+      <div class="card orange"><h2>第三章输入</h2><div class="formula small orange">π × {p₀,…,p₇}, budget=2</div><p>排序只作为候选先验；恢复结果重新实际执行并独立验收。</p></div>
+    </div>
+    <div class="callout mt20"><strong>不重复计数：</strong>第二章 MRR 收益不算作第三章收益；第三章只以实际 Recovery Success Rate 和 harm 判断。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>交接09 §1：输出递进关系；Exp121 uses frozen ranking as selector prior。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 1/10：问题与输出" data-en="Full responsibility ranking">
+  <div class="slide-inner">
+    <div class="col60">
+      <div>
+        <div class="eyebrow">Input</div><div class="formula">T=(x₁,x₂,…,xₙ),　y∈{1,…,n}</div>
+        <div class="eyebrow mt20">Scoring</div><div class="formula orange">f(T,xᵢ)→sᵢ∈ℝ</div>
+        <div class="eyebrow mt20">Output</div><div class="formula">π=argsortᵢ(−sᵢ,dᵢ)</div>
+      </div>
+      <div class="card orange"><h2>为何是完整排序</h2><ul class="clean tight"><li>恢复预算大于 1；</li><li>Top-1 可能不可执行；</li><li>尾部次序可用于不同候选池；</li><li>每一步必须获得可比较分数；</li><li>数值与匿名摘要同分时采用平均名次。</li></ul></div>
+    </div>
+    <div class="callout blue mt20"><strong>本页输出：</strong>定义排序任务与可用输出；下一页说明分数允许看什么、禁止看什么。</div>
+  </div>
+  <div class="spine" data-spine="rq1" data-step="1"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 protocol: input, score_and_ranking_contract。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 2/10：匿名输入与泄漏边界" data-en="What the model may and may not observe">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card blue"><h2>允许</h2><ul class="clean tight"><li>17 个匿名结构描述符</li><li>冻结局部结构分数</li><li>相对位置与三阶段 one-hot</li><li>匿名角色首次出现序号</li><li>只用 outer-train Gold 构造成对标签</li></ul></div>
+      <div class="card red"><h2>禁止</h2><ul class="clean tight"><li>原始文本、词汇、工具名、键和值</li><li>真实角色身份、任务、领域、conv_id</li><li>绝对 turn/activity 数</li><li>未来信息与 held-out Gold</li><li>旧 outer-held 结果和 confirmation 评分</li></ul></div>
+    </div>
+    <div class="formula mt20">role → first-appearance(role<sub>0</sub>,role<sub>1</sub>,…)　　position → i/max(1,n−1)</div>
+    <div class="callout mt20"><strong>本页输出：</strong>得到不携带原始语义身份的可观测表面；下一页把它编码为 23 维初始表示。</div>
+  </div><div class="spine" data-spine="rq1" data-step="2"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 protocol input_contract / representation_contract。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 3/10：23 维初始匿名表示" data-en="Local structural representation">
+  <div class="slide-inner">
+    <div class="formula">hᵢ<sup>(0)</sup> = [ dᵢ<sup>(17)</sup> ; ℓᵢ ; pᵢ ; qᵢ<sup>(3)</sup> ; rᵢ ] ∈ ℝ<sup>23</sup></div>
+    <div class="grid4 mt20">
+      <div class="card blue"><h3>dᵢ<sup>(17)</sup></h3><p>content / action / thought 的存在、JSON、数组、对象、嵌套与动作形状。</p></div>
+      <div class="card orange"><h3>ℓᵢ</h3><p>冻结匿名局部结构分数，不读取原始词汇。</p></div>
+      <div class="card slate"><h3>pᵢ, qᵢ</h3><p>相对位置；<br>phase=min(2,⌊3i/n⌋) 的三维 one-hot。</p></div>
+      <div class="card blue"><h3>rᵢ</h3><p>匿名角色首次出现序号 / max(1, role_count−1)。</p></div>
+    </div>
+    <div class="callout mt20"><strong>维度审计：</strong>17 + 1 + 1 + 3 + 1 = 23；角色数不作为独立特征输出。</div>
+  </div><div class="spine" data-spine="rq1" data-step="2"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 runner `_h0_vector`；protocol h0_dimension=23。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 4/10：模块 A 的局部候选排序" data-en="Stable top-candidate signal">
+  <div class="slide-inner">
+    <div class="col60">
+      <div>
+        <div class="lead">模块 A 回答：<br>“仅看每一步自身，谁应先被怀疑？”</div>
+        <div class="formula orange">aᵢ = 2.0, i=i*　；　aᵢ=MM(eᵢ), i≠i*</div>
+        <p class="sublead">`i*` 由冻结顶部候选规则给出；其余步骤保留 pairwise 数值的轨迹内相对次序。</p>
+      </div>
+      <div class="card orange center"><div class="stat orange">+9.8031%<small>相对最强公平 baseline 的三 seed 平均</small></div><div class="formula small">CI=[0.02077,0.04827]</div><p class="muted">稳定正信号；单独不冒充跨过 10% 门槛。</p></div>
+    </div>
+    <div class="callout blue mt20"><strong>本页输出：</strong>A 提供顶部连续责任信号；下一页用跨步依赖补足“只看本步”的局限。</div>
+  </div><div class="spine" data-spine="rq1" data-step="2"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 runner `a_step_scores`；Exp112C formal aggregate；交接09 §2。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 5/10：四通道交互依赖图" data-en="Temporal, role, shape, and action relations">
+  <div class="slide-inner">
+    <div class="col40">
+      <div class="graph">
+        <div class="node" style="left:18px;top:135px">1</div><div class="node" style="left:92px;top:55px">2</div><div class="node orange" style="left:166px;top:135px">3</div><div class="node" style="left:240px;top:55px">4</div><div class="node" style="left:314px;top:135px">5</div><div class="node" style="left:388px;top:55px">6</div>
+        <div class="edge blue" style="left:59px;top:142px;width:85px;transform:rotate(-47deg)"></div><div class="edge blue" style="left:133px;top:96px;width:85px;transform:rotate(47deg)"></div><div class="edge blue" style="left:207px;top:142px;width:85px;transform:rotate(-47deg)"></div><div class="edge blue" style="left:281px;top:96px;width:85px;transform:rotate(47deg)"></div><div class="edge blue" style="left:355px;top:142px;width:85px;transform:rotate(-47deg)"></div>
+        <div class="edge orange" style="left:118px;top:82px;width:148px;transform:rotate(0deg)"></div><div class="edge dash" style="left:44px;top:161px;width:296px;transform:rotate(0deg)"></div><div class="edge" style="left:192px;top:160px;width:225px;transform:rotate(-19deg);background:var(--green)"></div>
+      </div>
+      <div>
+        <div class="card blue"><h3>temporal</h3><p>相邻前一步 / 后一步</p></div>
+        <div class="card orange mt8"><h3>same_role</h3><p>同匿名角色最近前驱 / 后继</p></div>
+        <div class="card slate mt8"><h3>same_full_shape</h3><p>同完整匿名结构签名</p></div>
+        <div class="card blue mt8" style="border-top-color:var(--green)"><h3>same_action_shape</h3><p>同非空匿名动作形状</p></div>
+      </div>
+    </div>
+    <div class="callout mt20"><strong>本页输出：</strong>每个步骤获得四类匿名邻居集合 N<sub>c</sub>(i)；下一页在图上进行两轮无参数传播。</div>
+  </div><div class="spine" data-spine="rq1" data-step="3"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 protocol dependency_graph_contract；runner `_build_adjacency`。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 6/10：固定两轮无参数消息传播" data-en="Cross-step aggregation without learned graph layers">
+  <div class="slide-inner">
+    <div class="formula">mᵢ,c<sup>(r)</sup> = mean<sub>j∈N<sub>c</sub>(i)</sub> zⱼ<sup>(r−1)</sup>　；若无邻居则为 0</div>
+    <div class="formula orange">zᵢ<sup>(r)</sup> = zᵢ<sup>(r−1)</sup> + Σ<sub>c∈C</sub> mᵢ,c<sup>(r)</sup>，　r∈{1,2}</div>
+    <div class="grid3 mt20">
+      <div class="card blue"><h3>固定轮数</h3><p>恰好两轮；不根据 held-out 结果搜索。</p></div>
+      <div class="card orange"><h3>无图层参数</h3><p>传播仅做邻居均值与自状态相加；没有可学习边权。</p></div>
+      <div class="card slate"><h3>缺邻居处理</h3><p>全零均值 + presence bit=0，保证维度固定。</p></div>
+    </div>
+    <div class="callout blue mt20"><strong>本页输出：</strong>获得 round-1 / round-2 的四通道邻域上下文；下一页拼接为 215 维节点特征。</div>
+  </div><div class="spine" data-spine="rq1" data-step="4"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 runner `_aggregate_graph`；protocol message_passing rounds=2, parameters=none learned。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 7/10：215 维图特征与成对目标" data-en="Graph feature and learning-to-rank objective">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div>
+        <div class="formula small">gᵢ=[hᵢ<sup>(0)</sup>; {mᵢ,c<sup>(1)</sup>}<sub>c</sub>; {mᵢ,c<sup>(2)</sup>}<sub>c</sub>; {gapᵢ,c,presentᵢ,c}<sub>c</sub>]</div>
+        <div class="formula orange center">23 + 4×23 + 4×23 + 4×2 = <b>215</b></div>
+        <p class="smalltext">gap 为归一化邻居时间距离均值，presence 表示该通道是否存在邻居。</p>
+      </div>
+      <div>
+        <div class="formula small">Δg⁺=g<sub>y</sub>−g<sub>j</sub>, label=1<br>Δg⁻=g<sub>j</sub>−g<sub>y</sub>, label=0</div>
+        <div class="formula small orange">L<sub>pair</sub>=−Σ log σ(wᵀ(g<sub>y</sub>−g<sub>j</sub>))+λ||w||²</div>
+        <p class="smalltext">200 epochs；lr=0.05；L2=0.001；pos_weight=1.0；轨迹内效用 uᵢ=wᵀgᵢ。</p>
+      </div>
+    </div>
+    <div class="callout mt20"><strong>本页输出：</strong>每个节点获得图效用 uᵢ；下一页与冻结局部 pairwise 数值按预设权重融合并排序。</div>
+  </div><div class="spine" data-spine="rq1" data-step="5"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 runner `_aggregate_graph`, `fit_b2_model`；protocol graph_feature_dimension and locator_contract。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 8/10：B2 数值融合与完整排序" data-en="Fixed score fusion and deterministic tie rule">
+  <div class="slide-inner">
+    <div class="formula">bᵢ = 0.5·MM(eᵢ) + 0.5·MM(uᵢ)</div>
+    <div class="grid3 mt20">
+      <div class="card blue"><h3>eᵢ</h3><p>冻结 `pairwise_B` 数值；不改变原参数。</p></div>
+      <div class="card orange"><h3>uᵢ</h3><p>215 维图特征上的成对排序效用。</p></div>
+      <div class="card slate"><h3>MM(·)</h3><p>轨迹内 min-max；常量向量统一映射为 0.5。</p></div>
+    </div>
+    <div class="formula small orange">keyᵢ=(−bᵢ, anonymous role+shape digest)；完全同键时给平均名次</div>
+    <div class="callout blue mt20"><strong>实现校验：</strong>把图效用置零后，B2 deletion 必须逐记录精确回到真实 pairwise_B 排序。</div>
+  </div><div class="spine" data-spine="rq1" data-step="5"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 protocol score_and_ranking_contract；runner `b2_scores_from_utilities`, `rank_from_scores`。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 9/10：A+B 的 7 维 OOF 融合" data-en="Complementary local and interaction signals">
+  <div class="slide-inner">
+    <div class="formula small">φᵢ=[aᵢ,bᵢ,aᵢ−bᵢ,aᵢbᵢ,1(i=i*<sub>A</sub>),1(i=i*<sub>B2</sub>),|aᵢ−bᵢ|]∈ℝ⁷</div>
+    <div class="formula orange">vᵢ=θᵀφᵢ　；　π=argsort(−vᵢ,dᵢ)</div>
+    <div class="grid3 mt20">
+      <div class="card blue"><h3>A</h3><p>强调稳定顶部责任候选。</p></div><div class="card orange"><h3>B2</h3><p>提供跨步交互下的全局次序。</p></div><div class="card slate"><h3>Stack</h3><p>只学习二者的 7 维关系，不重新读取原始特征。</p></div>
+    </div>
+    <div class="callout mt20"><strong>常量回退：</strong>若整条轨迹上的融合效用相同，使用预冻结的 B2 分数；A+B 是两个模块的组合，不是第三个模块。</div>
+  </div><div class="spine" data-spine="rq1" data-step="6"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112 protocol stacking_contract；runner `stack_feature_vector`, `predict_stack_utility`。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第二章方法 10/10：嵌套 OOF 隔离" data-en="No outer-held information enters fusion fitting">
+  <div class="slide-inner">
+    <div class="flow">
+      <div class="box"><b>5 outer folds</b><small>当前 1 fold 完全 held-out</small></div><div class="box"><b>4 inner folds</b><small>outer-train 内轮流留 1 fold</small></div><div class="box blue"><b>inner-held A/B2</b><small>每条训练记录恰好一次 OOF 分数</small></div><div class="box active"><b>fit stack</b><small>只用 inner OOF + train pair labels</small></div><div class="box"><b>predict outer-held</b><small>全部组件冻结后一次预测</small></div>
+    </div>
+    <div class="formula mt20">Fit<sub>stack</sub> ⟂ outer-held data, labels, metrics</div>
+    <div class="grid3 mt20">
+      <div class="card blue center"><div class="stat blue">3<small>seeds</small></div></div><div class="card orange center"><div class="stat orange">5×4<small>outer × inner folds / seed</small></div></div><div class="card slate center"><div class="stat">50<small>pairwise model fits / seed</small></div></div>
+    </div>
+    <div class="callout blue mt20"><strong>本页输出：</strong>一条完整、可评分且无 outer-held 拟合泄漏的责任排序 π；该 π 进入第三章候选选择。</div>
+  </div><div class="spine" data-spine="rq1" data-step="7"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112C README nested OOF audits；Exp112 protocol data_and_split / stacking_contract。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 1/8：从责任位置到恢复计划" data-en="Stateful recovery is a separate decision problem">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div>
+        <div class="eyebrow">Given</div><ul class="clean"><li>8 个可见恢复锚点 V={0,…,7}</li><li>冻结责任排序 π</li><li>每任务尝试预算 B=2</li><li>持久化状态与统一验收器</li></ul>
+      </div>
+      <div class="card orange"><div class="eyebrow">Optimize</div><div class="formula small orange">P=(p<sub>π₁</sub>,p<sub>π₂</sub>)</div><p>在预算内找到至少一个 `target probe ∧ TNR` 的计划，并使 harm 不高于最强公平基线。</p></div>
+    </div>
+    <div class="callout mt20"><strong>诊断 ≠ 修复：</strong>排序只回答“先试谁”；第三章还必须回答“与谁一起恢复、如何重放、何时接受”。</div>
+  </div><div class="spine" data-spine="rq2" data-step="1"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp121 protocol research_story / fairness；交接09 §3。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 2/8：模块 A 的候选原生顺序" data-en="Diagnosis-guided candidate ranking">
+  <div class="slide-inner">
+    <div class="flow">
+      <div class="box"><b>outer-train</b><small>实际执行单点候选</small></div><div class="box"><b>候选标签</b><small>success − conflict − cost</small></div><div class="box blue"><b>冻结后验</b><small>fit candidate posterior</small></div><div class="box active"><b>protected order</b><small>第二章 Top-1 固定首位</small></div><div class="box"><b>held order</b><small>解封结果前冻结</small></div>
+    </div>
+    <div class="formula small mt20">utility = success − 0.01·conflict_count − 0.0001·observed_cost</div>
+    <div class="grid2 mt20"><div class="card blue"><h3>复用</h3><p>同一原生顺序用于 singleton、dependency、extent 三个候选池。</p></div><div class="card red"><h3>禁止</h3><p>不得读取 held outcome、旧 formal metrics、Gold 或执行结果后重排。</p></div></div>
+  </div><div class="spine" data-spine="rq2" data-step="1"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp120 `fit_native_orders`；Exp121 protocol frozen_ranking_source / fairness。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 3/8：状态节点资格与目标键" data-en="Visible executable state surface">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card blue"><h2>进入依赖谱系的必要条件</h2><div class="formula small">editor ∧ str_replace_editor<br>∧ success ∧ state_changing<br>∧ omit_call_delta</div><p class="muted">每任务必须暴露恰好 8 个候选与可见 call_index。</p></div>
+      <div class="card orange"><h2>规范化目标键 κ(v)</h2><ul class="clean tight"><li>优先读取 relative_path / params.path；</li><li>统一斜杠、去掉前导路径与 workspace 前缀；</li><li>空路径映射为 repository root；</li><li>只使用可见目标语法，不使用仓库身份。</li></ul></div>
+    </div>
+    <div class="callout red mt20"><strong>当前外部效度：</strong>主要覆盖编辑器类状态改变；数据库、进程和网络副作用是后续扩展，而非已验证结论。</div>
+  </div><div class="spine" data-spine="rq2" data-step="2"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp120 `_canonical_editor_target_key`, `_is_eligible_state_node`, `_validate_task_surface`。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 4/8：同目标严格前向依赖闭包" data-en="A conservative state-lineage proxy">
+  <div class="slide-inner">
+    <div class="formula small">E={(vᵢ,vᵢ₊₁) | κ(vᵢ)=κ(vᵢ₊₁), call(vᵢ)&lt;call(vᵢ₊₁)}</div>
+    <div class="formula orange">C⁺(a)={v | κ(v)=κ(a), call(v)≥call(a), eligible(v)}</div>
+    <div class="timeline mt20">
+      <div class="step bad"><b>v₀</b><small>x.py · anchor</small></div><div class="step"><b>v₁</b><small>y.py</small></div><div class="step depend"><b>v₂</b><small>x.py</small></div><div class="step"><b>v₃</b><small>test</small></div><div class="step"><b>v₄</b><small>z.py</small></div><div class="step depend"><b>v₅</b><small>x.py</small></div><div class="step"><b>v₆</b><small>verify</small></div><div class="step"><b>v₇</b><small>other</small></div>
+    </div>
+    <div class="callout mt20"><strong>示例：</strong>C⁺(v₀)={v₀,v₂,v₅}；C⁺(v₂)={v₂,v₅}；C⁺(v₅)={v₅}。只允许同目标、当前锚点及其严格后继，不包含祖先。</div>
+  </div><div class="spine" data-spine="rq2" data-step="3"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp120 `build_dependency_candidates`；unit fixture [0,2,5] / [2,5] / [5]。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 5/8：等规模范围对照隔离依赖身份" data-en="Separating identity from omission extent">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card orange"><h2>依赖计划 C⁺(a)</h2><div class="formula small orange">same target + forward + same count</div><p>例如省略 `{v₀,v₂,v₅}`，三个动作均指向 x.py。</p></div>
+      <div class="card blue"><h2>Extent control E⁺(a)</h2><div class="formula small">global forward + same count</div><p>保持省略数与前向时间，但忽略目标身份，例如 `{v₀,v₁,v₄}`。</p></div>
+    </div>
+    <div class="formula mt20">multiset(|omissions(C⁺)|) = multiset(|omissions(E⁺)|)</div>
+    <div class="callout red mt20"><strong>归因规则：</strong>完整方法相对单点的收益不能全部归于依赖；只有完整方法超过等规模范围的部分，才支持目标身份的增量价值。</div>
+  </div><div class="spine" data-spine="rq2" data-step="3"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp120 `build_extent_matched_candidates`；Exp121 extent_control_nonidentity_support。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 6/8：事务执行与 fresh clone" data-en="Actual replay under a shared reference">
+  <div class="slide-inner">
+    <div class="flow">
+      <div class="box"><b>base commit</b><small>固定源状态</small></div><div class="box blue"><b>fresh clone</b><small>每个候选独立</small></div><div class="box"><b>ordered replay</b><small>省略计划内 state delta</small></div><div class="box active"><b>final checkpoint</b><small>统一 fault / reference</small></div><div class="box"><b>cleanup</b><small>退出后验证临时克隆已删除</small></div>
+    </div>
+    <div class="grid3 mt20">
+      <div class="card blue"><h3>同一故障</h3><p>统一最终检查点；是否抑制只由密封责任动作是否被省略决定。</p></div>
+      <div class="card orange"><h3>同一参考</h3><p>每个候选接收相同 reference digest。</p></div>
+      <div class="card slate"><h3>同一探针</h3><p>使用相同目标 compile probe 与事务验证器。</p></div>
+    </div>
+    <div class="callout mt20"><strong>执行不是模拟标签：</strong>每个候选都重新克隆、重放并观察结果；前一次尝试不得污染后一次。</div>
+  </div><div class="spine" data-spine="rq2" data-step="5"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp120 `DependencySliceTransactionalExecutor._replay` / `execute_candidate_cache`；Exp121 audits。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 7/8：目标恢复与无回归合取验收" data-en="Transactional no-regression verification">
+  <div class="slide-inner">
+    <div class="formula">TNR(p)=NonTargetEqual(p) ∧ GitDiffOK(p) ∧ NoNewConflict(p)</div>
+    <div class="formula orange">Success(p)=Accepted(p) ∧ TargetProbe(p) ∧ TNR(p)</div>
+    <div class="formula small">Harm(p)=¬TNR(p) ∨ Conflict(p)&gt;Conflict(reference)</div>
+    <div class="grid3 mt20">
+      <div class="card blue"><h3>目标</h3><p>compile probe 是否通过？</p></div><div class="card orange"><h3>非目标</h3><p>非目标 hash 是否与 reference 相等？</p></div><div class="card slate"><h3>事务</h3><p>git diff 是否可接受？是否新增冲突？</p></div>
+    </div>
+    <div class="callout blue mt20"><strong>本页输出：</strong>得到可比较的 success 与 harm；下一页按冻结次序在预算 2 内停止于第一个成功计划。</div>
+  </div><div class="spine" data-spine="rq2" data-step="6"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp120 executor: target_probe, tnr, accepted, harmful；Exp121 gate harm no worse than baseline。</aside>
+</section>
+
+<section class="slide content" data-section="3" data-title="第三章方法 8/8：两章关系由同池换序直接检验" data-en="The upstream ranking has downstream value">
+  <div class="slide-inner">
+    <table class="table">
+      <thead><tr><th>条件</th><th>候选池</th><th>次序</th><th style="width:150px">成功</th></tr></thead>
+      <tbody><tr><td>fixed dependency slice</td><td>同一 B′</td><td>固定</td><td>6/34</td></tr><tr><td>shuffled A + dependency slice</td><td>同一 B′</td><td>打乱 A</td><td class="red-text"><b>1/34</b></td></tr><tr class="hi"><td>A+B′</td><td>同一 B′</td><td>诊断引导原生顺序</td><td><b>14/34</b></td></tr><tr><td>dependency-slice Oracle</td><td>同一 B′</td><td>事后最优</td><td>16/34</td></tr></tbody>
+    </table>
+    <div class="formula orange mt20">同池：shuffled 1/34　→　native 14/34　→　Oracle 16/34</div>
+    <div class="callout mt20"><strong>可证伪递进：</strong>上游排序不是叙事装饰；候选池和预算不变，只打乱顺序即可使恢复显著下降。</div>
+  </div><div class="spine" data-spine="rq2" data-step="6"></div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp121 formal report；交接09 §4。</aside>
+</section>
+
+<section class="slide divider" data-section="4"><div class="big-no">04</div><div class="d-title">难点与创新</div><div class="d-en">Difficulties and Innovations</div><div class="rule"></div><img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt=""></section>
+
+<section class="slide content" data-section="4" data-title="五个核心难点" data-en="Challenges that determine the research design">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card blue numcard"><span class="num">1</span><h3>责任不是局部异常</h3><p>相同步骤结构在不同上下文中可能正常或异常。</p></div>
+      <div class="card orange numcard"><span class="num">2</span><h3>融合必须严格隔离</h3><p>outer-held 不能参与融合权重、公式与基线选择。</p></div>
+      <div class="card blue numcard"><span class="num">3</span><h3>位置不等于范围</h3><p>责任动作之后可能存在同目标依赖状态。</p></div>
+      <div class="card orange numcard"><span class="num">4</span><h3>探针不等于安全</h3><p>还要保护非目标状态并控制新增冲突。</p></div>
+    </div>
+    <div class="callout red mt20"><strong>难点 5：正确归因组合收益。</strong>排序、前向范围和目标身份必须用 singleton、fixed/shuffled、extent 和 Oracle 分开检验。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112/121 protocol design and controls。</aside>
+</section>
+
+<section class="slide content" data-section="4" data-title="创新点：两个方法贡献，一个可信评估框架" data-en="Contributions aligned with evidence">
+  <div class="slide-inner">
+    <div class="grid3">
+      <div class="card blue"><div class="eyebrow">Contribution 1</div><h2>完整责任排序</h2><p>匿名局部证据与四通道时序交互依赖联合，在 strict OOF 下形成全部步骤的可比较排序。</p></div>
+      <div class="card orange"><div class="eyebrow">Contribution 2</div><h2>事务式恢复</h2><p>责任排序驱动同目标严格前向依赖闭包，在实际重放中联合验收目标恢复与 TNR。</p></div>
+      <div class="card slate"><div class="eyebrow">Evaluation</div><h2>可证伪协议</h2><p>删除、换序、随机依赖、等规模范围与 Oracle 分离组合机制。</p></div>
+    </div>
+    <div class="callout mt20"><strong>若学校限定两个创新点：</strong>第三项写为“实验设计与可信性保障”，不另算方法模块。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>结论46；交接09 §§2–5。</aside>
+</section>
+
+<section class="slide content" data-section="4" data-title="不夸张：明确哪些不是创新、哪些还未证明" data-en="Claims remain inside the experimental boundary">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card red"><h2>不拆分成创新</h2><ul class="clean tight"><li>4 个图通道、2 轮传播、215 维特征</li><li>0.5 权重、7 维 stack、候选后验</li><li>OOF、bootstrap、哈希、阈值、验收器</li><li>A+B / A+B′ 不是第三个模块</li></ul></div>
+      <div class="card orange"><h2>不提前声称</h2><ul class="clean tight"><li>自然失败中的真实因果关系</li><li>通用智能体自愈</li><li>自动代码修复/补丁生成</li><li>依赖语义独立造成全部 +100%</li></ul></div>
+    </div>
+    <div class="formula mt20">当前结论 = 受控可执行资产上的方法可行性 + 明确外部效度边界</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>结论46 result boundary；交接09 “建议对外说法 / 禁止说法”。</aside>
+</section>
+
+<section class="slide divider" data-section="5"><div class="big-no">05</div><div class="d-title">实验与数据</div><div class="d-en">Experimentation and data</div><div class="rule"></div><img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt=""></section>
+
+<section class="slide content" data-section="5" data-title="第二章数据与隔离协议：Exp112C" data-en="Responsibility-ranking evaluation contract">
+  <div class="slide-inner">
+    <div class="grid4">
+      <div class="card blue center"><div class="stat blue">731<small>development records</small></div></div><div class="card orange center"><div class="stat orange">716<small>task groups</small></div></div><div class="card slate center"><div class="stat">3×5×4<small>seeds × outer × inner</small></div></div><div class="card blue center"><div class="stat blue">180<small>confirmation held outside scoring</small></div></div>
+    </div>
+    <table class="table compact mt20"><thead><tr><th>主指标</th><th>统计</th><th>覆盖</th><th>Gold 边界</th><th>正式来源</th></tr></thead><tbody><tr><td>task-group equal-step MRR</td><td>5000 次 paired bootstrap 95% CI</td><td>全部步骤 100%</td><td>只用于 train pair labels 与最终评价</td><td>Exp112C corrected formal output</td></tr></tbody></table>
+    <div class="callout red mt20"><strong>来源裁决：</strong>原 Exp112 为不可变 `HARNESS_INVALID` 来源记录；只有 Exp112C 是正式结果。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112C README and formal_corrected_nested_oof_results.json。</aside>
+</section>
+
+<section class="slide content" data-section="5" data-title="第二章结果：局部信号与交互依赖互补" data-en="Task-group MRR improves under strict OOF">
+  <div class="slide-inner">
+    <div class="bars">
+      <div class="barrow"><span>pairwise_B baseline</span><div class="bartrack"><div class="barfill gray" style="width:68.74%">0.3437</div></div><b>—</b></div>
+      <div class="barrow"><span>模块 A</span><div class="bartrack"><div class="barfill" style="width:75.48%">≈0.3774</div></div><b>+9.80%</b></div>
+      <div class="barrow"><span>模块 B2</span><div class="bartrack"><div class="barfill orange" style="width:91.65%">≈0.4583</div></div><b>+33.34%</b></div>
+      <div class="barrow"><span><b>A+B strict stack</b></span><div class="bartrack"><div class="barfill orange" style="width:99.21%">0.4961</div></div><b class="orange-text">+44.33%</b></div>
+    </div>
+    <div class="grid3 mt20"><div class="card blue center"><div class="stat blue">0.496057<small>full method MRR</small></div></div><div class="card orange center"><div class="stat orange">+44.3302%<small>relative to strongest fair baseline</small></div></div><div class="card slate center"><div class="stat" style="font-size:31px">[0.1324, 0.1716]<small>pooled 95% CI of absolute paired difference</small></div></div></div>
+    <p class="tiny muted mt14">条形长度按 MRR/0.5 映射并从 0 开始；图中数值保留 4 位，正式报告保留完整精度。</p>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112C formal aggregate：pairwise_B 0.343699579；A+B 0.496057；relative +44.3302%；CI [0.132369825,0.171638660]。</aside>
+</section>
+
+<section class="slide content" data-section="5" data-title="第二章对照与统计：结果必须能被删掉或打乱" data-en="Ablations, shuffles, and paired confidence intervals">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card blue"><h2>B2 对照</h2><ul class="clean"><li>deletion：逐记录精确回到 pairwise_B；</li><li>shuffle：保留效用多重集合但改变节点对应；</li><li>random dependency：保持节点与每通道边数；</li><li>shuffle / random 三 seed 平均均低于完整 B2。</li></ul></div>
+      <div class="card orange"><h2>A+B 对照</h2><ul class="clean"><li>delete A 低于完整组合；</li><li>delete B2 低于完整组合；</li><li>shuffle B2 低于完整组合；</li><li>A+B vs A、vs B2 的 pooled CI 均为正。</li></ul></div>
+    </div>
+    <div class="formula small mt20">δ<sub>g</sub>=MRR<sub>g</sub>(method)−MRR<sub>g</sub>(baseline) → 5000× paired bootstrap</div>
+    <div class="callout mt20"><strong>解释：</strong>提升不是由覆盖缺失、同分规则变化或依赖边数变化制造；A 与 B2 的信号具有互补性。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp112C README controls and audits；formal report paired CIs。</aside>
+</section>
+
+<section class="slide content" data-section="5" data-title="第三章数据与执行协议：Exp121" data-en="Transactional recovery evaluation contract">
+  <div class="slide-inner">
+    <div class="grid4">
+      <div class="card blue center"><div class="stat blue">34<small>tasks</small></div></div><div class="card orange center"><div class="stat orange">8<small>repositories</small></div></div><div class="card slate center"><div class="stat">8×2<small>visible anchors × attempt budget</small></div></div><div class="card blue center"><div class="stat blue">3<small>frozen seeds</small></div></div>
+    </div>
+    <div class="grid3 mt20"><div class="card blue"><h3>依赖表面</h3><p>27 个 targeted tasks；49 个 forward anchors；每池 8/8 计划。</p></div><div class="card orange"><h3>执行公平</h3><p>同一 fault / reference / probe；每候选 fresh clone。</p></div><div class="card slate"><h3>统计</h3><p>5000 次 task-group paired bootstrap；报告 success、harm、cost。</p></div></div>
+    <div class="callout red mt20"><strong>预算约束：</strong>所有公平方法每任务最多尝试 2 个计划，不能让完整方法多试候选。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp121 protocol fairness / dependency_pool；README formal setup。</aside>
+</section>
+
+<section class="slide content" data-section="5" data-title="第三章结果：恢复成功数 7 → 14" data-en="A twofold relative improvement under budget two">
+  <div class="slide-inner">
+    <div class="bars">
+      <div class="barrow"><span>no recovery</span><div class="bartrack"><div class="barfill gray" style="width:0"></div></div><b>0/34</b></div>
+      <div class="barrow"><span>native_prefix2 baseline</span><div class="bartrack"><div class="barfill gray" style="width:43.75%">7</div></div><b>7/34</b></div>
+      <div class="barrow"><span>extent-matched control</span><div class="bartrack"><div class="barfill" style="width:75%">12</div></div><b>12/34</b></div>
+      <div class="barrow"><span><b>A+B′ full method</b></span><div class="bartrack"><div class="barfill orange" style="width:87.5%">14</div></div><b class="orange-text">14/34</b></div>
+      <div class="barrow"><span>dependency Oracle</span><div class="bartrack"><div class="barfill gray" style="width:100%">16</div></div><b>16/34</b></div>
+    </div>
+    <div class="grid3 mt20"><div class="card orange center"><div class="stat orange">+100%<small>relative improvement: 7/34 → 14/34</small></div></div><div class="card blue center"><div class="stat blue" style="font-size:30px">[0.0882,0.3529]<small>paired bootstrap 95% CI</small></div></div><div class="card slate center"><div class="stat">7/0/27<small>win / loss / tie</small></div></div></div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>Exp121 formal report：native_prefix2 7/34；native_ranked_dependency_slice 14/34；CI [0.088235294,0.352941176]；7/0/27。</aside>
+</section>
+
+<section class="slide content" data-section="5" data-title="第三章归因边界：12 → 14，而不是把 7 → 14 全归给依赖" data-en="What the extent control changes">
+  <div class="slide-inner">
+    <div class="grid3">
+      <div class="card blue center"><div class="stat blue">7<small>A 排序 + singleton<br>排序本身不足</small></div></div>
+      <div class="card orange center"><div class="stat orange">12<small>A 排序 + 等规模前向范围<br>范围贡献显著</small></div></div>
+      <div class="card slate center"><div class="stat">14<small>A 排序 + 同目标依赖闭包<br>目标身份净增 2</small></div></div>
+    </div>
+    <div class="formula orange mt20">组合收益 = 排序价值 + 前向范围价值 + 同目标身份增量</div>
+    <div class="callout red mt20"><strong>严谨结论：</strong>完整方案在当前受控任务上有效；同目标依赖身份相对等规模范围净增 2/34，不能声称依赖语义独立造成全部 +100%。</div>
+    <div class="grid2 mt20"><div class="card blue"><h3>排序对照</h3><p>同池 shuffled 仅 1/34，native 为 14/34。</p></div><div class="card orange"><h3>安全结果</h3><p>harm 从 75/102 降到 63/102，未高于基线。</p></div></div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>结论46；交接09 §3；Exp121 README limitations。</aside>
+</section>
+
+<section class="slide content" data-section="5" data-title="两章证据链与审计状态" data-en="What is complete and what remains open">
+  <div class="slide-inner">
+    <table class="table compact">
+      <thead><tr><th>Gate</th><th>第二章 Exp112C</th><th>第三章 Exp121</th><th>状态</th></tr></thead>
+      <tbody>
+        <tr><td>数据/分组</td><td>716 task groups，confirmation 排除</td><td>34 tasks / 8 repos / 8 anchors</td><td><span class="tag green">PASS</span></td></tr>
+        <tr><td>拟合隔离</td><td>strict nested OOF</td><td>outer-train 排序，unseal 前冻结</td><td><span class="tag green">PASS</span></td></tr>
+        <tr><td>机制对照</td><td>delete / shuffle / random</td><td>singleton / fixed / shuffled / extent / Oracle</td><td><span class="tag green">PASS</span></td></tr>
+        <tr><td>统计</td><td>5000 paired bootstrap，CI&gt;0</td><td>5000 paired bootstrap，CI&gt;0</td><td><span class="tag green">PASS</span></td></tr>
+        <tr><td>执行</td><td>全排序覆盖 100%</td><td>fresh clone + same reference + TNR</td><td><span class="tag green">PASS</span></td></tr>
+        <tr><td>外部效度</td><td>外部/confirmation 仍需扩展</td><td>自然失败与更多工具类型仍需扩展</td><td><span class="tag orange">OPEN</span></td></tr>
+      </tbody>
+    </table>
+    <div class="callout mt20"><strong>开题判断：</strong>两章已有受控可行性证据，可进入论文阶段；下一阶段重点是未参与选择的数据、自然失败与更真实依赖。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>交接09 Gate 表；结论46 final verdict。</aside>
+</section>
+
+<section class="slide divider" data-section="6"><div class="big-no">06</div><div class="d-title">进度与文献</div><div class="d-en">Progress and literature</div><div class="rule"></div><img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt=""></section>
+
+<section class="slide content" data-section="6" data-title="已完成：两章主线、正式实验与审计边界" data-en="Completed work as of 2026-08-30">
+  <div class="slide-inner">
+    <div class="grid2">
+      <div class="card blue"><h2>第二章</h2><ul class="clean tight"><li>冻结匿名表示、四通道图与两轮传播；</li><li>完成 Exp112C 纠正式复跑；</li><li>完成 strict nested OOF、删除/换序/随机对照；</li><li>A+B 相对最强公平基线 +44.3302%。</li></ul></div>
+      <div class="card orange"><h2>第三章</h2><ul class="clean tight"><li>冻结候选原生顺序和同目标前向闭包；</li><li>完成 Exp121 实际 fresh-clone 重放；</li><li>完成 singleton/fixed/shuffled/extent/Oracle；</li><li>成功数 7/34 → 14/34，harm 未恶化。</li></ul></div>
+    </div>
+    <div class="callout mt20"><strong>已统一：</strong>题目、两章递进、正式结果入口、可声称边界、不可覆盖输出与复现审计。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>结论46；交接09；Exp112C/121 README and formal reports。</aside>
+</section>
+
+<section class="slide content" data-section="6" data-title="未来进度：从受控可行性走向论文证据" data-en="Suggested schedule; adjust to official deadlines">
+  <div class="slide-inner">
+    <table class="table compact">
+      <thead><tr><th style="width:160px">时间</th><th>任务</th><th>验收产物</th></tr></thead>
+      <tbody>
+        <tr><td>2026.09–10</td><td>开题答辩；固化术语、公式、图和复现实验入口</td><td>开题报告、修改表、复现说明</td></tr>
+        <tr><td>2026.11–12</td><td>第二章外部/confirmation 验证与分组误差分析</td><td>新数据结果、长度/角色数/阶段分析</td></tr>
+        <tr><td>2027.01–02</td><td>第三章自然失败与更多工具状态类型</td><td>自然失败样本、依赖代理扩展</td></tr>
+        <tr><td>2027.03</td><td>两章联合实验、成本与失败案例、论文初稿</td><td>完整图表与初稿</td></tr>
+        <tr><td>2027.04</td><td>预答辩、复核与修改</td><td>预答辩稿、参考文献、复现归档</td></tr>
+        <tr><td>2027.05</td><td>正式答辩与最终归档</td><td>论文终稿、代码数据说明、答辩稿</td></tr>
+      </tbody>
+    </table>
+    <div class="callout red mt20"><strong>说明：</strong>日期是当前建议计划，并非学院已确认节点；提交前应按学院通知更新。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>基于当前日期 2026-08-30 制定的建议计划；正式日期需用户按学院安排替换。</aside>
+</section>
+
+<section class="slide content" data-section="6" data-title="文献图谱：每篇文献在本研究中承担什么角色" data-en="Literature is used as support, not decoration">
+  <div class="slide-inner">
+    <table class="table compact">
+      <thead><tr><th>路线</th><th>代表工作</th><th>支持本研究</th><th>差异与边界</th></tr></thead>
+      <tbody>
+        <tr><td>失败归因</td><td>Who&When；TraceElephant；StepFinder；CAM</td><td>责任步骤、完整轨迹、时序交互</td><td>本研究强调匿名全排序及下游实际恢复</td></tr>
+        <tr><td>过程分析</td><td>SWE-agent；Process-Centric；APR Traceability</td><td>工具接口与定位—编辑—验证轨迹</td><td>本研究不是过程分类，而是排序与恢复决策</td></tr>
+        <tr><td>切片与修复</td><td>CausalRepair；Multi-granularity APR</td><td>依赖上下文、多粒度候选</td><td>本研究回滚/重放既有状态，不生成新补丁</td></tr>
+        <tr><td>写作与设计</td><td>WHU thesis template；ppt-master</td><td>章节、GB/T 7714、设计与 QA</td><td>不是研究证据，不进入方法有效性论证</td></tr>
+      </tbody>
+    </table>
+    <div class="callout blue mt20"><strong>后续补充：</strong>论文综述还需加入传统 fault localization、delta debugging、program slicing、transactional recovery 与 learning-to-rank 基础文献。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>官方论文/会议页面详见下一页与 Markdown 母稿完整文献表。</aside>
+</section>
+
+<section class="slide content" data-section="6" data-title="代表性参考文献" data-en="Selected references in GB/T 7714 preparation order">
+  <div class="slide-inner">
+    <div class="grid2 tiny">
+      <div class="card blue">
+        <p>[1] ZHANG M, et al. Which Agent Causes Task Failures and When? ICML, 2025.</p>
+        <p>[2] CHEN M, WANG J, MU F, et al. Seeing the Whole Elephant. ACL, 2026.</p>
+        <p>[3] ZHU T, WU Y, JIN W, et al. StepFinder. arXiv:2606.03467, 2026.</p>
+        <p>[4] LYU Z, JI Z, CHEN S, et al. CAM. ISSTA, 2026.</p>
+        <p>[5] LIU S, CHEN Y, KRISHNA R, et al. Process-Centric Analysis of Agentic Software Systems. PACMPL, 2026.</p>
+      </div>
+      <div class="card orange">
+        <p>[6] CEKA I, MITCHELL H, PUJAR S, et al. Understanding APR Agents Through Traceability. ISSTA, 2026.</p>
+        <p>[7] YANG J, JIMENEZ C E, WETTIG A, et al. SWE-agent. NeurIPS, 2024.</p>
+        <p>[8] WU L, CHEN Y, YANG Z, et al. CausalRepair. ISSTA, 2026.</p>
+        <p>[9] LIN B, WANG S, WEN M, et al. One Size Does Not Fit All. ISSTA, 2024.</p>
+        <p>[10] WHU thesis template；[11] ppt-master（写作与制作依据）。</p>
+      </div>
+    </div>
+    <div class="callout mt20"><strong>格式：</strong>最终论文 BibTeX 统一按 GB/T 7714—2015 数字顺序制复核作者、页码、DOI、会议状态与访问日期。</div>
+  </div>
+  <aside class="source-note"><b>[Sources]</b><br>https://proceedings.mlr.press/v267/zhang25cq.html；https://aclanthology.org/2026.acl-long.912/；https://arxiv.org/abs/2606.03467；ISSTA official pages；NeurIPS SWE-agent page；DOI 10.1145/3798271；WHU template；ppt-master。</aside>
+</section>
+
+<section class="slide cover">
+  <img class="photo" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-campus-panorama.jpeg" alt="武汉大学校园"><div class="curve" style="top:360px;height:240px"></div>
+  <div class="title" style="top:435px;font-size:51px">谢谢！请批评指正</div>
+  <div class="en-title" style="top:515px;font-size:23px">Thank you for your attention</div>
+  <div class="meta" style="top:570px">核心主线：完整责任排序 → 依赖闭合事务恢复 → 目标与无回归联合验收</div>
+  <img class="crest" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt="武汉大学校徽">
+  <aside class="source-note"><b>[Sources]</b><br>结束页视觉继承参考 PPT 校园主题；研究主线来自两章最终裁决。</aside>
+</section>
+
+</main></div>
+<div id="controls"><button id="prev" title="上一页">◀</button><span class="count" id="count">1 / 1</span><button id="next" title="下一页">▶</button><span>方向键翻页 · N 来源 · F 全屏</span></div>
+<aside id="notes" class="notes-panel"><h3>Speaker notes / sources</h3><div id="notesBody"></div></aside>
+<div class="progress"><i id="progressBar"></i></div>
+<script>
+const sections=['背景现状','目标意义','内容方法','难点创新','实验数据','进度文献'];
+const slides=[...document.querySelectorAll('.slide')];
+const rq1=['轨迹','匿名表示','四通道图','两轮传播','成对排序','OOF融合','完整排序'];
+const rq2=['排序先验','候选池','依赖闭包','预算选择','fresh clone重放','TNR验收'];
+slides.forEach((s,idx)=>{
+  if(s.classList.contains('content')){
+    const head=document.createElement('header'); head.className='template-head';
+    head.innerHTML=`<img class="roof" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-roof-cutout.png" alt=""><h1 class="${(s.dataset.title||'').length>28?'long':''}">${s.dataset.title||''}<small>${s.dataset.en||''}</small></h1><div class="brand-text">WUHAN<br>UNIVERSITY</div><img class="brand" src="../../07_汇报公共素材与审阅/01_公共素材/assets/whu-wordmark.png" alt="武汉大学">`;
+    s.prepend(head);
+  }
+  const sec=Number(s.dataset.section||0);
+  if(sec>0 && !s.classList.contains('divider')){
+    const f=document.createElement('footer'); f.className='footnav'; f.innerHTML=sections.map((x,i)=>`<span class="${i+1===sec?'on':''}">0${i+1} ${x}</span>`).join(''); s.append(f);
+  }
+  if(!s.classList.contains('cover')&&!s.classList.contains('agenda')&&!s.classList.contains('disclaimer')){const n=document.createElement('div');n.className='page-no';n.textContent=String(idx+1).padStart(2,'0');s.append(n)}
+  s.querySelectorAll('.spine').forEach(sp=>{const arr=sp.dataset.spine==='rq1'?rq1:rq2;const step=Number(sp.dataset.step||1);sp.innerHTML=arr.map((x,i)=>`<span class="${i+1===step?'on':''}">${x}</span>`).join('')});
+});
+let current=Math.max(0,Math.min(slides.length-1,Number(location.hash.replace('#',''))-1||0));
+const deck=document.getElementById('deck'),count=document.getElementById('count'),bar=document.getElementById('progressBar'),notes=document.getElementById('notes'),notesBody=document.getElementById('notesBody');
+function fit(){const scale=Math.min(innerWidth/1280,innerHeight/720);deck.style.transform=`scale(${scale})`}
+function show(i){current=(i+slides.length)%slides.length;slides.forEach((s,j)=>s.classList.toggle('active',j===current));count.textContent=`${current+1} / ${slides.length}`;bar.style.width=`${(current+1)/slides.length*100}%`;location.hash=String(current+1);const src=slides[current].querySelector('.source-note');notesBody.innerHTML=src?src.innerHTML:'本页无补充来源。'}
+function toggleNotes(){notes.classList.toggle('on')}
+document.getElementById('prev').onclick=()=>show(current-1);document.getElementById('next').onclick=()=>show(current+1);
+addEventListener('resize',fit);addEventListener('keydown',e=>{if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();show(current+1)}else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();show(current-1)}else if(e.key==='Home'){show(0)}else if(e.key==='End'){show(slides.length-1)}else if(e.key.toLowerCase()==='n'){toggleNotes()}else if(e.key.toLowerCase()==='f'){document.documentElement.requestFullscreen?.()}});
+addEventListener('hashchange',()=>{const h=Number(location.hash.replace('#',''));if(h&&h-1!==current)show(h-1)});fit();show(current);
+</script>
+</body>
+</html>

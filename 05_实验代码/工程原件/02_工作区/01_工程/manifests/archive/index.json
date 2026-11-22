@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "repository": "peropeng/graduate-thesis",
+  "release_tag": "research-archive-2026-11-01",
+  "object_maps": [
+    "manifests/archive/objects.jsonl.gz"
+  ],
+  "scopes": {},
+  "assets": {
+    "current-inputs-full.tar": {
+      "name": "current-inputs-full.tar",
+      "sha256": "ceb672b479c96882c64c825e8ff79548a7f9d874b878934cd5026dfb8dee8bde",
+      "size": 33792000,
+      "id": 698884461
+    }
+  },
+  "statistics": {
+    "current_file_references": 3273,
+    "unique_current_inputs": 2265,
+    "object_kinds": {
+      "asset": 139,
+      "upstream": 2025,
+      "git": 92,
+      "python_package_file": 2,
+      "download": 6,
+      "download_tar_member": 1
+    }
+  },
+  "git_snapshot_commit": "d6878e2ad316d882d97072ddeb0f1df8e6ea714b"
+}

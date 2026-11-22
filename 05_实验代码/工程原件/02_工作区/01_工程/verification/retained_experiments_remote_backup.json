@@ -1,0 +1,88 @@
+{
+  "verified_at_utc": "2026-11-03T06:06:51.791431+00:00",
+  "release_url": "https://github.com/peropeng/graduate-thesis/releases/tag/rq1-rq2-research-inputs-v1",
+  "assets": [
+    {
+      "name": "experiment244-original.tar.gz",
+      "size": 22434727,
+      "sha256": "668c08b085d52566b08869189439bd1237af0911585eb418eed6659c53dcef56",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment244-original.tar.gz"
+    },
+    {
+      "name": "experiment257-original.tar.gz",
+      "size": 715710,
+      "sha256": "ac64180f97c2455aaf2b403fceb8b238e11d5eaaedd08f6f4b4c094fdfca8208",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment257-original.tar.gz"
+    },
+    {
+      "name": "experiment260-original.tar.gz",
+      "size": 123661474,
+      "sha256": "d4a540d11fb18d51c1c68fdb363c481f9b93d8cdf8dbe231828dbcb206a817bc",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment260-original.tar.gz"
+    },
+    {
+      "name": "experiment261-original.tar.gz",
+      "size": 278608385,
+      "sha256": "a4015cae868f01b8897bdbbee3fe24dc12e702d016a8194772383086c60f1899",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment261-original.tar.gz"
+    },
+    {
+      "name": "experiment262-original.tar.gz",
+      "size": 79791763,
+      "sha256": "2dcd634997848d10f3b5b43e73371b4adcf30881fab9aa3c9fee9c297051d2cc",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/experiment262-original.tar.gz"
+    },
+    {
+      "name": "rq2-experiment129-original.tar.gz",
+      "size": 42160091,
+      "sha256": "c763895438bf2274dd245c505012182c9e83cbd846244450068c57b2d065335f",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/rq2-experiment129-original.tar.gz"
+    },
+    {
+      "name": "rq1-training-inputs-restored.tar.gz",
+      "size": 6951235,
+      "sha256": "76fd45f8e29af0855b14ca9b6980ca5d7be187aed025dd3aa4676b1a5c2d3813",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/rq1-training-inputs-restored.tar.gz"
+    },
+    {
+      "name": "retained-feasibility-experiments-original.tar.gz",
+      "size": 341403323,
+      "sha256": "e38d9bfcc3dfbaccb7e3df2c703c24b43df6644d46a6012e11a82528b24ee169",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/retained-feasibility-experiments-original.tar.gz"
+    },
+    {
+      "name": "rq1-ranking-development-records-original.tar.gz",
+      "size": 167036988,
+      "sha256": "4cbd70117511a34287e7a4d3ca223812758af6ca13795afc75dd9f51a2a4f1b8",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/rq1-ranking-development-records-original.tar.gz"
+    },
+    {
+      "name": "rq1-supplementary-original-records.tar.gz",
+      "size": 1904715,
+      "sha256": "4e0ba4d52ab3a80d1f670b0cd4b49dceddbbb3a9f3213e4f9c4a36fe5ccfd759",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/rq1-supplementary-original-records.tar.gz"
+    },
+    {
+      "name": "retained-experiment-recovery-index.tar.gz",
+      "size": 30891018,
+      "sha256": "bf921436999e81e18ace2698a27179068ece180d10c0edf96364ae4d31bc0e4b",
+      "state": "uploaded",
+      "url": "https://github.com/peropeng/graduate-thesis/releases/download/rq1-rq2-research-inputs-v1/retained-experiment-recovery-index.tar.gz"
+    }
+  ],
+  "all_sizes_and_sha256_match": true,
+  "portable_scope": "Current models and selected training inputs remain in existing bundles; new retained experiment source/evidence archives plus recovery index are backed up. The 867 historical early RQ1 parameter/cache files are preserved locally in the complete original archive and excluded from the portable records bundle.",
+  "new_training_runs": 0,
+  "new_restoration_experiments": 0,
+  "paid_model_calls": 0
+}

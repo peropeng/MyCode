@@ -1,0 +1,64 @@
+{
+  "source_release_sha256": "a4615b2defacc5ec181239da299055e240444b44b414bd7db3d1471c9aa5826d",
+  "source_release_bytes_identical": true,
+  "selection_source_sha256": "c4337ecb6bfe30de41ca5a5f332ba212571a89f7449474321677cafe7da809d0",
+  "train_records": 492,
+  "validation_records": 122,
+  "selected_train_labels_restored": 614,
+  "original_input_checks": [
+    {
+      "path": ".rebuild/paper-inputs/rq1-source/data/public_records.json",
+      "expected_original_sha256": "9b792f522651027ccafd76af43c88da7fc6a1b5e579ba848cfc9fe39028c4885",
+      "actual_sha256": "9b792f522651027ccafd76af43c88da7fc6a1b5e579ba848cfc9fe39028c4885",
+      "original_bytes_reproduced": true,
+      "size": 16056757
+    },
+    {
+      "path": ".rebuild/paper-inputs/rq1-source/data/selected_train_labels.private.json",
+      "expected_original_sha256": "a5f50889aefc6b66cd4b0a5077e137682569d5e24ae8802c26f4203eb59477f1",
+      "actual_sha256": "a5f50889aefc6b66cd4b0a5077e137682569d5e24ae8802c26f4203eb59477f1",
+      "original_bytes_reproduced": true,
+      "size": 200211
+    }
+  ],
+  "all_selected_input_bytes_match_original": true,
+  "test_label_values_parsed": 0,
+  "model_training_executed": false,
+  "model_inference_executed": false,
+  "paid_api_requests": 0,
+  "restoration_events": [
+    {
+      "phase": "EXP134_PUBLIC_SPLIT_FREEZE",
+      "next_executable_command": "prepare_data.py labels",
+      "train_labels_accessed": 0
+    },
+    {
+      "phase": "EXP134_PUBLIC_SPLIT_FROZEN",
+      "train_groups": 492,
+      "validation_groups": 122,
+      "selected_counts": {
+        "coding": {
+          "train": 256,
+          "validation": 64,
+          "available": 939
+        },
+        "math": {
+          "train": 236,
+          "validation": 58,
+          "available": 294
+        }
+      },
+      "train_labels_accessed": 0,
+      "next_executable_command": "prepare_data.py labels"
+    },
+    {
+      "phase": "EXP134_SELECTED_TRAIN_LABELS_MAPPED",
+      "train_groups": 492,
+      "validation_groups": 122,
+      "train_labels_accessed": 614,
+      "malformed_train_labels": 0,
+      "next_executable_command": "prepare_features.py run"
+    }
+  ],
+  "metadata_note": "Restoration manifest/seal use the restoration time and do not recreate old approvals."
+}

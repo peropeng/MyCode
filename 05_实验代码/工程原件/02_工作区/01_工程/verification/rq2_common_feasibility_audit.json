@@ -1,0 +1,267 @@
+{
+  "schema": "rq2-common-feasibility-reconciliation/1",
+  "at_UTC": "2026-11-17T16:59:45.443839+00:00",
+  "scope": "One exposed Dask software problem. Reuse completed generations and append one missing EnAgent independent acceptance. Preliminary feasibility only.",
+  "task": {
+    "internal_id": "dask__dask-9378",
+    "repository": "dask/dask",
+    "public_problem": "Implement mask-preserving ones_like/zeros_like/empty_like for chunked masked arrays. The current empty_like incorrectly reapplies a whole-array mask to every block; the public issue suggests map_blocks with the corresponding numpy.ma functions.",
+    "independent_problem_count": 1
+  },
+  "common_input_checks": {
+    "common_input_digest": "22b4de121d0ced4cf2d0af7a028b6c7cd37b3444fe9e3a86bab056f223c8771c",
+    "same_C0_business_inventory": true,
+    "C0_business_files": 119,
+    "same_public_target_and_ordinary_nodes": true,
+    "same_frozen_test_inventory": true,
+    "enagent_own_input_digest_checked": true,
+    "enagent_actual_initial_snapshot_matches_common_template": true,
+    "enagent_original_initial_G_fail_O_pass_observation_checked": true,
+    "common_public_pack_sha256": "e8efc45e03ee19e903c1533dd5e40d0d0e25eac2c3e6e46039e633a8276b9a38",
+    "enagent_recorded_public_turns_sha256": "744658bdbfa36f5d841570c049c2eb997e7373fe16e87c96b32b7f13a04038ab",
+    "same_declared_public_information_boundary": true
+  },
+  "independent_scope_evidence": {
+    "ours_three_repeats_and_Agentless_original_scope_hash_equal": true,
+    "EnAgent_current135_nodes_exactly_match_Agentless_original_Root_scope": true,
+    "original_scope_sha256": "f1dbf7395ca5b320afa36ff8c5350c735ec651f6081bf1b1a49036b8418cd5c6",
+    "EnAgent_scope_source": "restored original Agentless actual_private_ROOT_ONLY/selected_nodes.json",
+    "AOrchestra_goal_ordinary_private_known_pass": true,
+    "AOrchestra_per_node_private_scope_equality_directly_verified": false,
+    "AOrchestra_limit": "Late scalar certificates attest independent pass and same original C0; they do not contain a directly comparable private-node list or scope digest. Do not claim four-way per-node private-scope identity."
+  },
+  "model_evidence": {
+    "first_actual_settled_response_metadata": {
+      "ours": {
+        "model": "deepseek-flash",
+        "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+      },
+      "Agentless": {
+        "model": "deepseek-flash",
+        "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+      },
+      "EnAgent": {
+        "model": "deepseek-flash",
+        "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+      },
+      "AOrchestra": {
+        "model": "deepseek-flash",
+        "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+      }
+    },
+    "same_historical_alias_and_service_fingerprint": true,
+    "underlying_marketing_revision_not_inferred_from_current_models_endpoint": true
+  },
+  "method_configurations": {
+    "ours": {
+      "reference": "historical OURS248_FULL recovery candidate",
+      "temperature": 0.0,
+      "max_output_per_request": 16384,
+      "max_attempts": 3,
+      "source": "frozen ranked_repair248.py and actual finance receipt"
+    },
+    "Agentless": {
+      "fine_location_sets": 4,
+      "patches_per_location": 10,
+      "reproduction_samples": 40,
+      "temperature_rule": "fine locations 0.8; patch/reproduction first greedy and remaining 0.8",
+      "output_limits": {
+        "first_localization_actual": 8192,
+        "patch_source": 16384,
+        "reproduction_source": 8192
+      },
+      "source": "agentless178.py and actual finance receipt"
+    },
+    "EnAgent": {
+      "actual_wrapper_configuration": {
+        "N": 3,
+        "coder_max_steps": 200,
+        "selector_vote_max": 3,
+        "selector_max_turn": 30
+      },
+      "role_temperatures": {
+        "coder": 0.5,
+        "tester": 0.0,
+        "selector": 0.2
+      },
+      "max_output_per_request": 4096
+    },
+    "AOrchestra": {
+      "author_core_files": 79,
+      "max_main_attempts": 10,
+      "max_child_steps": 50,
+      "memory_max_memory": 20,
+      "window_size": 100,
+      "max_output_per_request": 8192,
+      "last_serialized_request_temperature": 1,
+      "thinking": "disabled"
+    }
+  },
+  "results": {
+    "ours": {
+      "complete_repeats": 3,
+      "natural_successes": 3,
+      "natural_denominator": 3,
+      "fixed30_successes": 3,
+      "fixed30_denominator": 3,
+      "repeats_are_one_issue": true,
+      "model_requests": [
+        1,
+        1,
+        1
+      ],
+      "output_tokens": [
+        369,
+        397,
+        399
+      ],
+      "original_elapsed_seconds": [
+        809.7211000919342,
+        1469.4700820446014,
+        172.84055614471436
+      ],
+      "elapsed_includes_preparation_coordination": true,
+      "initial_passed_goals": 0,
+      "total_goals": 1,
+      "updates_after_first_goal_pass": 0
+    },
+    "Agentless": {
+      "complete_repeats": 1,
+      "natural_successes": 1,
+      "natural_denominator": 1,
+      "original_independent_known_pass": true,
+      "parent_all_stopped": true,
+      "fixed30_success": false,
+      "fixed30_basis": "original observer already past1800s at call48; complete author trajectory used88 calls and independent final later",
+      "model_requests": 88,
+      "output_tokens": 40759,
+      "original_elapsed_to_known_independent_parent_terminal_seconds": 4824.478349,
+      "elapsed_derived_from_original_T0_UTC_and_parent_terminal_UTC": true,
+      "elapsed_includes_preparation_coordination": true
+    },
+    "EnAgent": {
+      "complete_repeats": 1,
+      "natural_successes": 1,
+      "natural_denominator": 1,
+      "independent_final_completed_in_current_migration_acceptance": true,
+      "fixed30_success": false,
+      "original_author_elapsed_seconds": 2596.609000000026,
+      "model_requests": 331,
+      "output_tokens": 104592,
+      "current_missing_acceptance_seconds": 7.452999999994063,
+      "original_30minute_state_unchanged": true
+    },
+    "AOrchestra": {
+      "complete_repeats": 1,
+      "natural_successes": 1,
+      "natural_denominator": 1,
+      "fixed30_success": false,
+      "model_requests": 37,
+      "output_tokens": 11861,
+      "original_elapsed_seconds": 6971.4529999999795,
+      "elapsed_includes_mechanical_recovery_and_authority_wait": true
+    }
+  },
+  "current_execution": {
+    "new_model_requests": 0,
+    "completed_generation_trajectories_rerun": 0,
+    "new_public_probe_runs": 1,
+    "known_complete_public_probe_reused_on_resume": true,
+    "new_independent_acceptance_runs": 1,
+    "last_invocation_fresh_product_native_runs": 1,
+    "selected_business_files": 119,
+    "original_selected_candidate_unchanged": true,
+    "first_scope_mismatch_before_private_preserved": true,
+    "scope_never_relaxed": true,
+    "private_feedback_to_method": false,
+    "all_owned_processes_stopped": true,
+    "current_private_raw_log_node_names_and_outcomes_read_for_this_audit": false,
+    "current_execution_source_is_safe_scalar_only": true
+  },
+  "migration_and_metadata_limits": {
+    "original_166_full_task_manifest_recovered": false,
+    "original_private_selector_file_restored": true,
+    "selector_list_bound_to_original_Root_scope_certificate": true,
+    "enagent_original_immutable_selection_json_missing": true,
+    "enagent_frozen_choice_verified_by_selected_result_snapshot_registry_preselection_witness_and119_business_bytes": true,
+    "runtime": "Rebuilt Python3.8.20 with original pinned explicit requirements; compatible transitives resolved during migration",
+    "byte_identity_to_original_environment_claimed": false,
+    "new_acceptance_receipt_is_append_only_migration_evidence": true
+  },
+  "interpretation_limits": [
+    "All four methods can naturally finish this one exposed problem; no observed natural-success gap here.",
+    "Ours three repeats are not three independent issues; baseline single repeats do not form balanced three-repeat evaluation.",
+    "Shared C0, public information and historical model alias/service fingerprint do not make role temperatures, per-call output limits or waiting times identical.",
+    "Keep original30-minute endpoints; do not report pure speed ranking or causal budget effect from recovered wall time.",
+    "The public issue itself suggests the direct map_blocks fix; success does not establish incremental ranking benefit.",
+    "Zero initially passed goals and no update after first success provide no observed cumulative-preservation opportunity.",
+    "Do not merge this single issue into historical fixed-five or other-version denominators.",
+    "Do not claim directly verified four-way identical private-node scope: AOrchestra has scalar independent-pass evidence only."
+  ],
+  "evidence": {
+    "common_public_contract": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/contracts/dask__dask-9378/public_contract.json",
+      "sha256": "ab71de8d7bf6779134151ff6255c701f7f0cb53780a64ac4b98f701fd8a0dc81"
+    },
+    "aor_late_summary": {
+      "path": ".rebuild/paper-inputs/experiment261/CONTINUE_AFTER_USER2335/SCI_R7/FINAL_SCIENTIFIC_SAFE_SUMMARY261.json",
+      "sha256": "b4f6afc52de60d67d2851b3339d5c1205b7e468758447b58d8ce319a35b7febf"
+    },
+    "aor_late_independent_scalar": {
+      "path": ".rebuild/paper-inputs/experiment261/CONTINUE_AFTER_USER2335/SCI_R7/ROOT_ACCEPTANCE_SCALAR_ONLY261.json",
+      "sha256": "5f10bde6a621b11d3464a567e2ae62d11755a302100c74a29d88e5bba4f7fc1f"
+    },
+    "enagent_original_selection": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment250/实验/实验250_EnAgent新任务概率性共同确认/deployments/dask__dask-9378/trial1/leases/lease_001/f/dask__dask-9378/ENAGENT_ICSE2026_FULL_N3_C200_S30_CONFIRMATION/selected_await_external_private.json",
+      "sha256": "b7da0f241b0ffa5e46c71f9d70c35c02fa630ad230245143dc55f5850d0f66e9"
+    },
+    "enagent_original_initial_snapshot": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment250/实验/实验250_EnAgent新任务概率性共同确认/deployments/dask__dask-9378/trial1/leases/lease_001/f/dask__dask-9378/ENAGENT_ICSE2026_FULL_N3_C200_S30_CONFIRMATION/snapshots/s0000/snapshot.json",
+      "sha256": "3c71bf7435754970462c9f03d0b328d1b9b848a419e9bcd9cd9a87079146b3b1"
+    },
+    "enagent_original_selected_snapshot": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment250/实验/实验250_EnAgent新任务概率性共同确认/deployments/dask__dask-9378/trial1/leases/lease_001/f/dask__dask-9378/ENAGENT_ICSE2026_FULL_N3_C200_S30_CONFIRMATION/snapshots/s0334/snapshot.json",
+      "sha256": "215d5cd2f359daf2e528170995955ce4c6cca621a7417640539d1cbb86e8af86"
+    },
+    "enagent_own_input_binding": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment250/实验/实验250_EnAgent新任务概率性共同确认/deployments/dask__dask-9378/trial1/selected_task_bindings240.json",
+      "sha256": "7955b3864d405546a2380471e421e2c60367546e9b8491da7fa90e097aff865a"
+    },
+    "enagent_current_safe_scalar": {
+      "path": ".rebuild/rq2-feasibility/enagent-dask-trial1/SCALAR_RESULT.json",
+      "sha256": "ad132c980002906325403adb7f393c5224a1ff19e737c26a02c59bf7b367ef24"
+    },
+    "agentless_original_independent_certificate": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment251/实验/实验251_Agentless完整参数新任务共同确认/final_acceptance_SOURCE/private_ROOT/AGENTLESS_FULL/dask__dask-9378/trial1/WORKER_COMPLETED_PRIVATE_ROOT_ONLY.json",
+      "sha256": "95fbd0cfa688708e9553b2eb1ad330f38e950975ac46137f51721af7816d9db2"
+    },
+    "agentless_original_parent_stop": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment251/实验/实验251_Agentless完整参数新任务共同确认/final_acceptance_SOURCE/private_ROOT/AGENTLESS_FULL/dask__dask-9378/trial1/PARENT_TERMINAL249.json",
+      "sha256": "1ed5aafe7f5f8bfff023f297f839def4deba5c938de36617c88d591716b20022"
+    },
+    "agentless_original_private_selector_file": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment251/实验/实验251_Agentless完整参数新任务共同确认/final_acceptance_SOURCE/private_ROOT/AGENTLESS_FULL/dask__dask-9378/trial1/actual_private_ROOT_ONLY/selected_nodes.json",
+      "sha256": "ffe6518bc4f727c8e6fd48fd7a4cbd1760a4202dda07f2d5faac07c372095521"
+    },
+    "agentless_original_private_grant": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment251/实验/实验251_Agentless完整参数新任务共同确认/final_acceptance_SOURCE/public_ready/AGENTLESS_FULL/dask__dask-9378/trial1/ROOT_AL_FULL_FINAL_GRANT_ACTUAL.json",
+      "sha256": "0c6fbae0ae731f115b80d9e2d06b3c236c4a1bbef6e701507b2b8afdd98a29d1"
+    },
+    "first_scope_error_preserved": {
+      "path": ".rebuild/rq2-feasibility/enagent-dask-trial1/diagnostic_history/attempt001_original_scope_error.json",
+      "sha256": "bb027bc8153d036dd9f13f8a62fbc98d7f2a6a189c001538ed7143c2b6301e5e"
+    },
+    "ours_original_scalar_trial1": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/method_sources/final_private_ROOT/OURS248_FULL/dask__dask-9378/trial1/ROOT_FINAL_ACCEPTANCE.json",
+      "sha256": "d4e86ce0a7a4b33b7b4c2eae918ead1a227dfc04cb523ef33b64844b8749a0a0"
+    },
+    "ours_original_scalar_trial2": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/method_sources/final_private_ROOT/OURS248_FULL/dask__dask-9378/trial2/ROOT_FINAL_ACCEPTANCE.json",
+      "sha256": "3e359058eb7a7ddb99179ce551b3efc137a2eeb3274129193719ea695b0e8db5"
+    },
+    "ours_original_scalar_trial3": {
+      "path": ".rebuild/paper-inputs/retained-experiments/rq2/experiment249/实验/实验249_固定顺序新任务共同确认/method_sources/final_private_ROOT/OURS248_FULL/dask__dask-9378/trial3/ROOT_FINAL_ACCEPTANCE.json",
+      "sha256": "dc2fa579119405b536e8772934b636d50426e33d2437abf7d6b93984b1604b35"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thesis-root-cause-recovery"
+version = "1.0.0"
+description = "Portable source and research archive for step-level root-cause ranking and recovery"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==1.26.4", "torch==2.7.1"]
+
+[project.optional-dependencies]
+embedding = ["transformers==4.51.3", "safetensors==0.8.0"]
+recovery = ["requests==2.34.2"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[project.scripts]
+thesis-recovery = "thesis_recovery.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
