@@ -90,7 +90,7 @@ def main():
             encrypted=download(row['url'],cache/(name+'.enc'),row['encrypted_sha256'])
             raw=cache/name;unseal(encrypted,raw,args.key_file)
             if digest(raw)!=row['sha256']:raise RuntimeError('解密后的原件不匹配')
-            parent=work/'原始项目' if row.get('restore_location')=='project-proposal' else engine
+            parent=work/'原始项目' if row.get('restore_location','').startswith('project-') else engine
             base=safe(parent,row['restore_to']);base.mkdir(parents=True,exist_ok=True)
             if name=='current-inputs-full.tar':
                 target=base/name

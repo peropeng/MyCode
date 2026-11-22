@@ -137,6 +137,18 @@
       "strip_prefix": "03_开题",
       "restore_location": "project-proposal",
       "files": 1573
+    },
+    {
+      "name": "reference-library-original.tar.gz",
+      "url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/reference-library-original.tar.gz.enc",
+      "encrypted_size": 33535210,
+      "encrypted_sha256": "fc3d78cf188ed3d2465623a33c2af941ff0befab256ff6567023eb3daed623e4",
+      "size": 33535014,
+      "sha256": "af989c90519c7678dd9bd65b5db15ec8fc0a7ad28aa8ff21f7bb604bc7a198fe",
+      "restore_to": "04_论文/02_参考文献",
+      "strip_prefix": "04_论文/02_参考文献",
+      "restore_location": "project-reference",
+      "files": 14
     }
   ],
   "key_private_repository": "peropeng/graduate-thesis",
