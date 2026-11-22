@@ -1,0 +1,597 @@
+{
+  "schema": "user-positive-results-original-data-provenance/1",
+  "at_utc": "2026-10-12T16:45:06.841873+00:00",
+  "scope": "Existing public identity manifests, source code, saved predictions, aggregate metrics and original statistics; raw AF file bytes hashed without parsing labels. Official AgenTracer repository/release metadata only online. No new data, labels, inference, training or experiment.",
+  "user_anchor": "User explicitly selected AF12086vs82/77 and coding363split gains7.44–7.99pp; preserve as study starting point.",
+  "AF120": {
+    "dataset": "AFTraj-2K",
+    "repository": "ZBox008003/AFTraj",
+    "revision": "11191169d3d99298df098eee8d83db425117faba",
+    "not_ALFWorld": true,
+    "card": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp124-ranking-baselines\\third_party\\AFTraj\\README.md",
+      "sha256": "44738e7c95036b22c7e4b61da1ee574a2d5f52c3de91028e35ce9160bc80311e"
+    },
+    "raw_source_hash_chain": {
+      "aftraj_unsafe.parquet": {
+        "current_sha256": "f19d407898ebf32b32a2e99600f49f53a358ac2831fe437da3dc2a9fe25f8f41",
+        "manifest_sha256": "f19d407898ebf32b32a2e99600f49f53a358ac2831fe437da3dc2a9fe25f8f41",
+        "matches": true
+      },
+      "splits_test.json": {
+        "current_sha256": "b0ac15a34ed051d571d76d537751a015d39a79408af0795723009182b9e76b8e",
+        "manifest_sha256": "b0ac15a34ed051d571d76d537751a015d39a79408af0795723009182b9e76b8e",
+        "matches": true
+      }
+    },
+    "input_manifest": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\samples\\diagnostic_manifest.json",
+      "sha256": "a9ce5a19366013856004f1c7efc4c5d76eead5fcfb821d3671d674263b21c019"
+    },
+    "records": 120,
+    "distinct_groups": 120,
+    "selected_cell_counts": {
+      "agentic|diagnosed": 24,
+      "agentic|injected": 24,
+      "coding|injected": 24,
+      "math|diagnosed": 24,
+      "math|injected": 24
+    },
+    "selection_rule": "one hash-selected representative per task group; exclude all six pilot task groups; round-robin domain x label-source cells; within each cell round-robin fixed length x observed-role-count bins; hash order within bins; fixed first120; no outcome/score/gold used",
+    "boundary": {
+      "development_records": 731,
+      "development_groups": 716,
+      "historical_holdout_not_used": true,
+      "official_test_not_used": true
+    },
+    "estimand": "equal weight across these preselected distinct development groups; not the natural731-record or716-group population and not independent external generalization",
+    "all120_ids_in153_AF_predictions": true,
+    "prediction_metadata": {
+      "arm": "AB_GLOBAL",
+      "seeds": [
+        20260816,
+        20260817,
+        20260818
+      ],
+      "all3_fixed_seeds_retained": true,
+      "exactly_one_OOF_per_record_per_seed": true,
+      "old_dev_labels_joined": 0
+    },
+    "OOF_recheck": [
+      {
+        "seed": 20260816,
+        "outer_models": 5,
+        "all731_exactly_once_held": true,
+        "fixed120_all_once_held": true,
+        "all_record_splits_disjoint": true,
+        "all_group_splits_disjoint": true
+      },
+      {
+        "seed": 20260817,
+        "outer_models": 5,
+        "all731_exactly_once_held": true,
+        "fixed120_all_once_held": true,
+        "all_record_splits_disjoint": true,
+        "all_group_splits_disjoint": true
+      },
+      {
+        "seed": 20260818,
+        "outer_models": 5,
+        "all731_exactly_once_held": true,
+        "fixed120_all_once_held": true,
+        "all_record_splits_disjoint": true,
+        "all_group_splits_disjoint": true
+      }
+    ],
+    "model": "Exp153 AB_GLOBAL 3seed×5outer refits; eachrecord onlyheldmodel eachseed then3probabilityaverage, not15-allmean",
+    "SF": "Exp15850epoch/10patienceALGpreset and validation-selected both82/120; original15340/8SF_REF also82 but distinctcondition",
+    "AA": "OriginalExp129all_at_once77/120,115valid+5invalid; old129ours27/120mustnotberelabeled86",
+    "status": "True groupedOOF on reuseddevelopment; positivepointgains retained, notfreshblind"
+  },
+  "coding363": {
+    "dataset": "AgenTracer expanded data-v1.0.0",
+    "official_release": "https://github.com/bingreeky/AgenTracer/releases/tag/data-v1.0.0",
+    "official_repo": "https://github.com/bingreeky/AgenTracer",
+    "release_archive_sha256": "a4615b2defacc5ec181239da299055e240444b44b414bd7db3d1471c9aa5826d",
+    "training_manifest_archive_matches": true,
+    "official_release_metadata": "3208train+790test acrossAgentic,Coding,Math;expandedversionnotexactpaperdataset;officialSHAisidentical",
+    "input_manifest": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp136-ab-mechanism\\实验\\实验136_AB性能与机制确认\\data\\selected_manifest.json",
+      "sha256": "0620b3c8137954011785d63d142161a1f0c2ea6dd8b0941a56f4c3eb3a4c4b15"
+    },
+    "manifest_n": 363,
+    "source_original_indices": [
+      256,
+      619
+    ],
+    "not_official_test": true,
+    "all363_ids_are_AgenTracer_coding_authorTRAIN": true,
+    "question_ID_prefix_counts": {
+      "Algorithm": 53,
+      "Data": 30,
+      "Filter": 43,
+      "Leetcode": 58,
+      "Codeforces": 17,
+      "Prefill": 32,
+      "Evol": 28,
+      "Apps": 32,
+      "Docs": 23,
+      "Package": 22,
+      "Code": 5,
+      "Taco": 20
+    },
+    "upstream_boundary": "Officialrepo example useskodcode;IDprefixesareidentityevidenceonly,not separately certified upstream datasets. No basis torename actualreleaseasAFTraj/ARBench.",
+    "original153_condition": "source3 mixedcoding+math492/122,3seeds;186vs148=10.4683pp",
+    "three_split_condition": "Exp157GLOBALbyA/B/C+Exp159matchedstrongSF,each3seeds,same614sourcepoolrepartitioned492/122,same363heldevaluationtasks",
+    "split_recheck": {
+      "split_A": {
+        "train": 492,
+        "validation": 122,
+        "domain_counts": {
+          "train": {
+            "coding": 256,
+            "math": 236
+          },
+          "validation": {
+            "coding": 64,
+            "math": 58
+          }
+        },
+        "train_validation_overlap": 0,
+        "train_coding363_overlap": 0,
+        "validation_coding363_overlap": 0,
+        "same614_source_pool_as_original153": true,
+        "fit_ids_sha256": "3527b4e350a06e959340f93bace0de80744d10f921beb8d9426951e623fdf2c0",
+        "validation_ids_sha256": "ad8c1a3edd3e88afa2be02fb0009f264e99d7e628bbf04ff5e73d1cead61fb83",
+        "train_groups": 492,
+        "validation_groups": 122,
+        "train_validation_group_overlap": 0,
+        "fit_evaluation_group_overlap": 0,
+        "validation_evaluation_group_overlap": 0
+      },
+      "split_B": {
+        "train": 492,
+        "validation": 122,
+        "domain_counts": {
+          "train": {
+            "coding": 256,
+            "math": 236
+          },
+          "validation": {
+            "coding": 64,
+            "math": 58
+          }
+        },
+        "train_validation_overlap": 0,
+        "train_coding363_overlap": 0,
+        "validation_coding363_overlap": 0,
+        "same614_source_pool_as_original153": true,
+        "fit_ids_sha256": "8625b91336bd5abc371460eaa3142b6f4d6953908c1c39d5ca90a1fdbdf22bf8",
+        "validation_ids_sha256": "4052078d52328d91c3b6003fc3793016d430191d64a4208764bba503fb164cf0",
+        "train_groups": 492,
+        "validation_groups": 122,
+        "train_validation_group_overlap": 0,
+        "fit_evaluation_group_overlap": 0,
+        "validation_evaluation_group_overlap": 0
+      },
+      "split_C": {
+        "train": 492,
+        "validation": 122,
+        "domain_counts": {
+          "train": {
+            "coding": 256,
+            "math": 236
+          },
+          "validation": {
+            "coding": 64,
+            "math": 58
+          }
+        },
+        "train_validation_overlap": 0,
+        "train_coding363_overlap": 0,
+        "validation_coding363_overlap": 0,
+        "same614_source_pool_as_original153": true,
+        "fit_ids_sha256": "35d13b10b4c033093865f647deac3f1fc6a535135c572f9183bd074a83a4234f",
+        "validation_ids_sha256": "098738eff52958f393f4eecab278cc34cf6aab277702e9d0162d726946ffcbfc",
+        "train_groups": 492,
+        "validation_groups": 122,
+        "train_validation_group_overlap": 0,
+        "fit_evaluation_group_overlap": 0,
+        "validation_evaluation_group_overlap": 0
+      }
+    },
+    "status": "Fixed not-fitted evaluation tasks now repeatedlyexposeddevelopment; keep positivegains and originalscope",
+    "source_members": {
+      "agentracer-data-v1.0.0/coding/train.jsonl": 363
+    },
+    "target_distinct_groups": 363
+  },
+  "original_statistics_not_recomputed": {
+    "AF120_vs_SF": {
+      "unit": "original independent task",
+      "n_tasks": 120,
+      "ours_hits": 86,
+      "other_hits": 82,
+      "ours_only": 13,
+      "other_only": 9,
+      "both_right": 73,
+      "both_wrong": 25,
+      "difference": 0.03333333333333333,
+      "p_value": 0.5234670639038086,
+      "exact_mcnemar_two_sided_p": 0.5234670639038086,
+      "paired_difference_interval": [
+        -0.09052342557869508,
+        0.17364148368583496
+      ],
+      "interval_confidence": 0.95,
+      "interval_method": "Exact-binomial Bonferroni rectangle for discordance/direction projected onto paired difference",
+      "assumptions": "Independent task units; fixed exposed development comparison, not new blind population confirmation",
+      "familywise_difference_interval": [
+        -0.11793753395682727,
+        0.20077213086672438
+      ],
+      "family_interval_per_pair_nominal_confidence": 0.9833333333333333,
+      "familywise_interval_coverage": "Conservative coverage at least95% across family by Bonferroni; Holm p adjustment separate",
+      "holm_adjusted_p": 0.5234670639038086,
+      "family_tests": 3,
+      "holm_reject_at05": false,
+      "point_estimate_leads": true,
+      "statistically_supported_lead": false,
+      "scope": "Prespecified fixed comparisons on exposed historical development; no control promoted to primary"
+    },
+    "AF120_vs_AA": {
+      "unit": "original independent task",
+      "n_tasks": 120,
+      "ours_hits": 86,
+      "other_hits": 77,
+      "ours_only": 23,
+      "other_only": 14,
+      "both_right": 63,
+      "both_wrong": 20,
+      "difference": 0.075,
+      "p_value": 0.18774155899882317,
+      "exact_mcnemar_two_sided_p": 0.18774155899882317,
+      "paired_difference_interval": [
+        -0.06187892662212697,
+        0.24148231440887946
+      ],
+      "interval_confidence": 0.95,
+      "interval_method": "Exact-binomial Bonferroni rectangle for discordance/direction projected onto paired difference",
+      "assumptions": "Independent task units; fixed exposed development comparison, not new blind population confirmation",
+      "familywise_difference_interval": [
+        -0.09169834983162677,
+        0.27242787732947327
+      ],
+      "family_interval_per_pair_nominal_confidence": 0.9833333333333333,
+      "familywise_interval_coverage": "Conservative coverage at least95% across family by Bonferroni; Holm p adjustment separate",
+      "holm_adjusted_p": 0.37548311799764633,
+      "family_tests": 3,
+      "holm_reject_at05": false,
+      "point_estimate_leads": true,
+      "statistically_supported_lead": false,
+      "scope": "Prespecified fixed comparisons on exposed historical development; no control promoted to primary"
+    },
+    "original_coding363_vs_SF": {
+      "unit": "original independent task",
+      "n_tasks": 363,
+      "ours_hits": 186,
+      "other_hits": 148,
+      "ours_only": 59,
+      "other_only": 21,
+      "both_right": 127,
+      "both_wrong": 156,
+      "difference": 0.1046831955922865,
+      "p_value": 2.52911025646706e-05,
+      "exact_mcnemar_two_sided_p": 2.52911025646706e-05,
+      "paired_difference_interval": [
+        0.03867097930913249,
+        0.1861202726054432
+      ],
+      "interval_confidence": 0.95,
+      "interval_method": "Exact-binomial Bonferroni rectangle for discordance/direction projected onto paired difference",
+      "assumptions": "Independent task units; fixed exposed development comparison, not new blind population confirmation",
+      "familywise_difference_interval": [
+        0.02962117739793401,
+        0.20093786182541148
+      ],
+      "family_interval_per_pair_nominal_confidence": 0.9833333333333333,
+      "familywise_interval_coverage": "Conservative coverage at least95% across family by Bonferroni; Holm p adjustment separate",
+      "holm_adjusted_p": 7.58733076940118e-05,
+      "family_tests": 3,
+      "holm_reject_at05": true,
+      "point_estimate_leads": true,
+      "statistically_supported_lead": true,
+      "scope": "Prespecified fixed comparisons on exposed historical development; no control promoted to primary"
+    },
+    "coding_three_splits": {
+      "split_A_coding363_GLOBAL_vs_SF_INNERVAL_PRESET_SELECT": {
+        "unit": "original independent task",
+        "n_tasks": 363,
+        "ours_hits": 179,
+        "other_hits": 150,
+        "ours_only": 45,
+        "other_only": 16,
+        "both_right": 134,
+        "both_wrong": 168,
+        "difference": 0.07988980716253444,
+        "p_value": 0.00026427866182729843,
+        "exact_mcnemar_two_sided_p": 0.00026427866182729843,
+        "paired_difference_interval": [
+          0.023054470216091093,
+          0.15346783257649285
+        ],
+        "interval_confidence": 0.95,
+        "interval_method": "Exact-binomial Bonferroni rectangle for discordance/direction projected onto paired difference",
+        "assumptions": "Independent task units; fixed exposed development comparison, not new blind population confirmation",
+        "familywise_difference_interval": [
+          0.015725533068922323,
+          0.16694887134641914
+        ],
+        "family_interval_per_pair_nominal_confidence": 0.9833333333333333,
+        "familywise_interval_coverage": "Conservative coverage at least95% across family by Bonferroni; Holm p adjustment separate",
+        "MRR": {
+          "difference": 0.07825830030337105,
+          "paired_task_bootstrap95_interval": [
+            0.05073277334131637,
+            0.1057675603181002
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 20261006,
+          "descriptive_only": true
+        },
+        "Top3": {
+          "difference": 0.09641873278236915,
+          "paired_task_bootstrap95_interval": [
+            0.05509641873278237,
+            0.13774104683195593
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 20261006,
+          "descriptive_only": true
+        },
+        "holm_adjusted_p": 0.0007928359854818953,
+        "family_tests": 3,
+        "holm_reject_at05": true,
+        "point_estimate_leads": true,
+        "statistically_supported_lead": true,
+        "scope": "Prespecified fixed comparisons on exposed historical development; no control promoted to primary"
+      },
+      "split_B_coding363_GLOBAL_vs_SF_INNERVAL_PRESET_SELECT": {
+        "unit": "original independent task",
+        "n_tasks": 363,
+        "ours_hits": 184,
+        "other_hits": 156,
+        "ours_only": 53,
+        "other_only": 25,
+        "both_right": 131,
+        "both_wrong": 154,
+        "difference": 0.07713498622589532,
+        "p_value": 0.00203114037416273,
+        "exact_mcnemar_two_sided_p": 0.00203114037416273,
+        "paired_difference_interval": [
+          0.016213911055044484,
+          0.15674649583371
+        ],
+        "interval_confidence": 0.95,
+        "interval_method": "Exact-binomial Bonferroni rectangle for discordance/direction projected onto paired difference",
+        "assumptions": "Independent task units; fixed exposed development comparison, not new blind population confirmation",
+        "familywise_difference_interval": [
+          0.008214905344566696,
+          0.17162077293379194
+        ],
+        "family_interval_per_pair_nominal_confidence": 0.9833333333333333,
+        "familywise_interval_coverage": "Conservative coverage at least95% across family by Bonferroni; Holm p adjustment separate",
+        "MRR": {
+          "difference": 0.06180218157979163,
+          "paired_task_bootstrap95_interval": [
+            0.02868191651617203,
+            0.0941873415393631
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 20261006,
+          "descriptive_only": true
+        },
+        "Top3": {
+          "difference": 0.06336088154269973,
+          "paired_task_bootstrap95_interval": [
+            0.01652892561983471,
+            0.11019283746556474
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 20261006,
+          "descriptive_only": true
+        },
+        "holm_adjusted_p": 0.00203114037416273,
+        "family_tests": 3,
+        "holm_reject_at05": true,
+        "point_estimate_leads": true,
+        "statistically_supported_lead": true,
+        "scope": "Prespecified fixed comparisons on exposed historical development; no control promoted to primary"
+      },
+      "split_C_coding363_GLOBAL_vs_SF_INNERVAL_PRESET_SELECT": {
+        "unit": "original independent task",
+        "n_tasks": 363,
+        "ours_hits": 186,
+        "other_hits": 159,
+        "ours_only": 44,
+        "other_only": 17,
+        "both_right": 142,
+        "both_wrong": 160,
+        "difference": 0.0743801652892562,
+        "p_value": 0.0007299045109347684,
+        "exact_mcnemar_two_sided_p": 0.0007299045109347684,
+        "paired_difference_interval": [
+          0.018598932710582355,
+          0.147818083081379
+        ],
+        "interval_confidence": 0.95,
+        "interval_method": "Exact-binomial Bonferroni rectangle for discordance/direction projected onto paired difference",
+        "assumptions": "Independent task units; fixed exposed development comparison, not new blind population confirmation",
+        "familywise_difference_interval": [
+          0.0114936914935665,
+          0.16138308505208074
+        ],
+        "family_interval_per_pair_nominal_confidence": 0.9833333333333333,
+        "familywise_interval_coverage": "Conservative coverage at least95% across family by Bonferroni; Holm p adjustment separate",
+        "MRR": {
+          "difference": 0.07200115670013069,
+          "paired_task_bootstrap95_interval": [
+            0.042236293636966564,
+            0.10183412388387217
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 20261006,
+          "descriptive_only": true
+        },
+        "Top3": {
+          "difference": 0.09917355371900827,
+          "paired_task_bootstrap95_interval": [
+            0.05509641873278237,
+            0.14325068870523416
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 20261006,
+          "descriptive_only": true
+        },
+        "holm_adjusted_p": 0.0014598090218695368,
+        "family_tests": 3,
+        "holm_reject_at05": true,
+        "point_estimate_leads": true,
+        "statistically_supported_lead": true,
+        "scope": "Prespecified fixed comparisons on exposed historical development; no control promoted to primary"
+      }
+    },
+    "AF716_vs_SF": {
+      "unit": "independent task group; records first averaged within group",
+      "n_independent_task_groups": 716,
+      "n_records": 731,
+      "duplicate_records_above_group_count": 15,
+      "difference": 0.01983240223463687,
+      "group_equal_Top1_difference": 0.01983240223463687,
+      "p_value": 0.14617702864715287,
+      "exact_weighted_group_signflip_two_sided_p": 0.14617702864715287,
+      "positive_groups": 54,
+      "negative_groups": 39,
+      "zero_difference_groups": 623,
+      "nonzero_group_differences": 93,
+      "record_ours_only": 55,
+      "record_other_only": 39,
+      "paired_difference_interval": [
+        -0.0064245810055865915,
+        0.046089385474860335
+      ],
+      "familywise_difference_interval": [
+        -0.012385940409683428,
+        0.051675977653631286
+      ],
+      "interval_confidence": 0.95,
+      "family_interval_per_pair_nominal_confidence": 0.9833333333333333,
+      "interval_method": "Exp138 paired5000 group bootstrap percentile; Bonferroni levels across the frozen joint family",
+      "familywise_interval_coverage": "Nominal bootstrap coverage; no finite-sample exact-coverage claim",
+      "bootstrap_seed": 20261006,
+      "bootstrap_draws": 5000,
+      "group_order_sha256": "433f384a8a233f087721e038855d274e94e3910c993f7460fc7d61016fe4b7b7",
+      "assumptions": "Exploratory OOF comparison; exchangeable paired signs/independent groups; shared overlapping fits and reused data limit confirmation",
+      "MRR": {
+        "difference": 0.019483623152540278,
+        "paired_group_bootstrap95_interval": [
+          0.004271780104453061,
+          0.034810521250847645
+        ],
+        "descriptive_only": true
+      },
+      "Top3": {
+        "difference": 0.02346368715083799,
+        "paired_group_bootstrap95_interval": [
+          0.007681564245810056,
+          0.04022346368715084
+        ],
+        "descriptive_only": true
+      },
+      "holm_adjusted_p": 0.29235405729430575,
+      "family_tests": 3,
+      "holm_reject_at05": false,
+      "point_estimate_leads": true,
+      "statistically_supported_lead": false,
+      "scope": "Prespecified fixed comparisons on exposed historical development; no control promoted to primary"
+    }
+  },
+  "sources": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\compact_summary.json",
+      "sha256": "86e7a2394b30f7fcb20794e99b417e5d86c0f5532d34842f87d22593d0143ad2"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\metrics.csv",
+      "sha256": "708d724136b01affac20080aa4236b435ca43fe169a3c46e5cce8d4889eaf445"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\protocol.json",
+      "sha256": "df0d54673756f410443d2325842abffe46efd62e01e05b8d6de29e06d643d5aa"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\predict153.py",
+      "sha256": "70c16337dbf34e18ea23a7ac6d49df9c52c35c916becfaf8e77a499c3792cfd5"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\evaluate153.py",
+      "sha256": "215cd9673ba88c293bb4fc2ed4325c23c2c042ecb55cd8d976a433b2217f773e"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\results\\AF\\AB_GLOBAL_ensemble.json",
+      "sha256": "137945838ae107296536a071fdd6962d3b6c45d8e553b5816d105e0e5c288bb4"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\compact_summary.json",
+      "sha256": "cba33139404b6e7e6f6393c31d48c67c25174541e60c69f248c63908faa610e8"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\metrics.csv",
+      "sha256": "03887d53438d88ca4453acc9fd4ccef54c882c3d8f420ec8ab191172d0e3276e"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\validation_selection_decisions.json",
+      "sha256": "eadd99ba97cff937c7e13cc5540ec4650e7d0a1f4b5a03bd734cf91b86105816"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp157-split-stability\\实验\\实验157_固定模型数据划分敏感性\\protocol.json",
+      "sha256": "bd876a338d64c8f5abb8154bf16b4faff6cea1edb74359cfe2c6539c94444871"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp159-author-preset-splits\\实验\\实验159_论文强基线跨划分复验\\compact_summary.json",
+      "sha256": "94639aa8b902d3d22a2409f0be09f66e57798f68ffe5818c1ba90f328f187b2a"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp159-author-preset-splits\\实验\\实验159_论文强基线跨划分复验\\metrics.csv",
+      "sha256": "a1f43ac70910a8bae30da181148cc6e9fad8c043d99e97ec249c021c472c63b9"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\common.py",
+      "sha256": "3f7af26571e73cfc293c6bb57bb1b0b6debf21799dd7960c7eecdbac68593892"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\prepare_data.py",
+      "sha256": "c4337ecb6bfe30de41ca5a5f332ba212571a89f7449474321677cafe7da809d0"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\data\\public_split_manifest.json",
+      "sha256": "4e5ab6e469f7caa0320136100bb2d185d6db91f72ea8fedaf3ae2f320219784c"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp136-ab-mechanism\\实验\\实验136_AB性能与机制确认\\data\\selected_manifest.json",
+      "sha256": "0620b3c8137954011785d63d142161a1f0c2ea6dd8b0941a56f4c3eb3a4c4b15"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\prepare_samples.py",
+      "sha256": "f8999e8e1bbaa06eb21ce97abc1288be02c518f836ca39b9621d3574743d95cc"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\samples\\diagnostic_manifest.json",
+      "sha256": "a9ce5a19366013856004f1c7efc4c5d76eead5fcfb821d3671d674263b21c019"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\analysis\\prefix120_v1\\summary.json",
+      "sha256": "c0f86ebc2e4e28c3f63312e7e6dae61593c70af0620c817ff9e8bb1c1b0263fe"
+    }
+  ]
+}

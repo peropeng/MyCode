@@ -1,0 +1,72 @@
+{
+  "schema": "Root-existing-self-response-noop-normalization-source-comparison/1",
+  "scope": "Read permitted public business source and original self outputs; reconstruct strings in memory only. No candidate materialization, native test, model sampling, label or private-test reading.",
+  "unchanged_real_success_counts": true,
+  "not_a_new_successful_run": true,
+  "rejected_full_patch_kept_unchanged": true,
+  "rows": [
+    {
+      "attempt": 2,
+      "source_span_checks": [
+        {
+          "index": 0,
+          "path": "moto/iot/models.py",
+          "identical": true,
+          "actual_span_matches_current_source": 1
+        },
+        {
+          "index": 1,
+          "path": "moto/iot/responses.py",
+          "identical": false,
+          "actual_span_matches_current_source": 1
+        }
+      ],
+      "hypothetical_noop_discard_effective_source_exactly_equals_observed_PASS_source": true,
+      "paths_different_from_PASS_source": [],
+      "nonidentical_edits": 1,
+      "real_frozen_parser_status_unchanged": "MODEL_SEMANTIC_FAILURE",
+      "new_model_native_or_filesystem_candidate_apply": 0
+    },
+    {
+      "attempt": 3,
+      "source_span_checks": [
+        {
+          "index": 0,
+          "path": "moto/iot/models.py",
+          "identical": true,
+          "actual_span_matches_current_source": 1
+        },
+        {
+          "index": 1,
+          "path": "moto/iot/responses.py",
+          "identical": false,
+          "actual_span_matches_current_source": 1
+        }
+      ],
+      "hypothetical_noop_discard_effective_source_exactly_equals_observed_PASS_source": true,
+      "paths_different_from_PASS_source": [],
+      "nonidentical_edits": 1,
+      "real_frozen_parser_status_unchanged": "MODEL_SEMANTIC_FAILURE",
+      "new_model_native_or_filesystem_candidate_apply": 0
+    }
+  ],
+  "normalization_is_unimplemented_future_hypothesis": true,
+  "saved_public_source_references": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+      "sha256": "0069b8478bc973917702425285d40a4a7f73f9fb98c8cad68a938d55544e9176"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\SELECTED_BUSINESS_SOURCE.json",
+      "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\SETTLED_RAW_RESPONSE.json",
+      "sha256": "f64e27be85dc5cd7c7587cfac8f9624c5834006abe55683dd4fdab3f134c913c"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\SETTLED_RAW_RESPONSE.json",
+      "sha256": "03aa1ef95733a3090dac0a665f5260c965c5b4ae9147fa0cb1b631c0902ef526"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_domain_future\\public_features.pt",
+    "sha256": "5509a0b4c580d55628c8913023ead61931d9e3de9afa4ea304656d14940e301a",
+    "logical_bytes": 205556522,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "推断不可用domain信息，训练前拒绝；保留公开输入资格与拒绝记录，不作为算法负成绩。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_task_partition_future_context\\public_features.pt",
+    "sha256": "c3fb4074bfb15a56bb2d1e6b87d086029c382b871dfa419125745b296b60003d",
+    "logical_bytes": 205556522,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "收敛但主AB开发32题21命中，预定门槛未通过，已退出主线。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot19_partition_past_future\\public_features.pt",
+    "sha256": "777dfc002d9ab1aa901a4452d702b3c8ae2d5088ce8ba048a75a04431fc51e2f",
+    "logical_bytes": 205556522,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "收敛但主AB开发32题19命中，预定门槛未通过，已退出主线。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot20_base_uncertainty_gate\\public_features.pt",
+    "sha256": "4558106c45f49e57a213386529bb63ceeb79b8e48f3f1c54b5d147204337c722",
+    "logical_bytes": 205556522,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "收敛但主AB开发32题17命中，预定门槛未通过，已退出主线。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot21_soft_task_partition\\public_features.pt",
+    "sha256": "c5d3fed1f2454c1abc77573c5f293bdd47b31c613c312ea0d5cd89d273d44634",
+    "logical_bytes": 205556522,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "收敛但主AB开发32题18命中，预定门槛未通过，已退出主线。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot21_soft_task_partition\\features_archive.zip",
+    "sha256": "8594cc4d4fdc80e73af2f3cb27b1fe190a2c7c846059eafe26f2b52a138e6ab0",
+    "logical_bytes": 178353876,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "主线保留的有序分片可逐字节恢复同一ZIP；同时保留展开成员完整哈希核验。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot5_field_semantics\\field_derived_features.pt",
+    "sha256": "2528039b9b91c13aa186a1b93d7b92ab435467d0519ae2581ab8fa9e980a25e3",
+    "logical_bytes": 411096445,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "字段语义组合AB开发32题20命中，明确STOP_FIELD_SEMANTIC_COMBINATION；非独立确认。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot5_field_semantics\\field_derived_features.zip",
+    "sha256": "f930fdf6c6f3898ece53d0e8fa92f3632753b634c76651f64117737a9498609f",
+    "logical_bytes": 112698811,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "主线保留的有序分片可逐字节恢复同一ZIP；同时保留展开成员完整哈希核验。"
+  },
+  {
+    "kind": "file",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction_recovery\\raw_background_products.pt",
+    "sha256": "7079b9d46b028e076a0fc50215cc1c04afd0b5f5be483fa4f0743ada477fe1f9",
+    "logical_bytes": 156243276,
+    "retention": "Exact retained ZIP member or retained canonical expanded copy",
+    "reason": "P31主门槛失败已退出主线；恢复目录的派生特征与原目录和已封存ZIP成员三者逐字节一致。"
+  },
+  {
+    "kind": "paused_worktree",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp125-plan-risk",
+    "metadata": "D:\\Code\\毕设\\graduate-thesis-experiments\\.git\\worktrees\\0922-exp125-plan-risk",
+    "preserved_pause": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\清理保留\\实验125暂停记录.md",
+    "preserved_git_metadata": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\清理保留\\Git登记_0922-exp125-plan-risk",
+    "head": "75ae881df561e0217f47775410fd36cf062c746f",
+    "branch": "exp/0922-exp125-plan-risk",
+    "reason": "用户当时撤回后暂停，未形成新方法代码或实验；只有已保留的暂停记录，其余是已合入main的旧提交重复副本。"
+  },
+  {
+    "kind": "paused_worktree",
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp126-relation-residual",
+    "metadata": "D:\\Code\\毕设\\graduate-thesis-experiments\\.git\\worktrees\\0922-exp126-relation-residual",
+    "preserved_pause": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\清理保留\\实验126暂停记录.md",
+    "preserved_git_metadata": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\清理保留\\Git登记_0922-exp126-relation-residual",
+    "head": "75ae881df561e0217f47775410fd36cf062c746f",
+    "branch": "exp/0922-exp126-relation-residual",
+    "reason": "用户当时撤回后暂停，未形成新方法代码或实验；只有已保留的暂停记录，其余是已合入main的旧提交重复副本。"
+  }
+]

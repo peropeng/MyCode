@@ -1,0 +1,32 @@
+{
+  "schema": "Root-eight-accepted-pressure-final-source-variant-audit/1",
+  "no_new_tests_model_or_Gold": true,
+  "distinct_successful_source_inventories": 2,
+  "seven_successful_runs_same_object_preserving_source": true,
+  "one_successful_run_policy": "trial1/O_ONLY",
+  "variant_object_preserving": {
+    "selected_business_source": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\SELECTED_BUSINESS_SOURCE.json",
+      "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+    },
+    "interpretation": "IoTBackend.describe_thing still returns FakeThing; response layer serializes via to_dict(include_default_client_id=True)."
+  },
+  "variant_dict_and_consumer_repair": {
+    "selected_business_source": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+      "sha256": "2c23ce71fe8eab00aa3334840eac95b7ca1be6437aa78e641247ed1e557c48a0"
+    },
+    "interpretation": "IoTBackend.describe_thing returns a dict; delete_thing and update_thing retrieve the FakeThing object directly before using its fields. Response layer serializes that dict."
+  },
+  "changed_paths_between_variants": [
+    "moto/iot/models.py",
+    "moto/iot/responses.py"
+  ],
+  "AST_equivalence_by_path": {
+    "moto/iot/models.py": false,
+    "moto/iot/responses.py": false
+  },
+  "both_original_independent_acceptance_PASS": true,
+  "no_general_semantic_equivalence_or_all_callers_safety_claim": true,
+  "scientific_implication": "The ordinary-only trajectory recovered after a temporary contract-breaking change by updating observed internal consumers; protecting existing success avoided admitting that intermediate state. Equal terminal success does not establish which policy is better."
+}

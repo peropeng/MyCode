@@ -1,0 +1,21 @@
+{
+  "reviewed_utc": "2026-10-12T15:45:53.451361+00:00",
+  "pdf_pages": 25,
+  "all_25_pages_rendered": true,
+  "all_pages_visually_inspected": true,
+  "contact_sheets": [
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-v2\\pdf_render\\contact-1.jpg",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-v2\\pdf_render\\contact-2.jpg",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-v2\\pdf_render\\contact-3.jpg",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-v2\\pdf_render\\contact-4.jpg",
+    "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-v2\\pdf_render\\contact-5.jpg"
+  ],
+  "figures": 5,
+  "figure_text_and_arrows_checked": true,
+  "desktop_and_mobile_reviewed": true,
+  "fixed_issue": "Removed a nearly empty page before references by condensing the already-completed stages in the schedule table; retained all planned work and conclusions.",
+  "clipping_or_overlap_remaining": false,
+  "main_sha256": "debf379f865e701694c099ae8187309b95f238d5e4d7b74b256589624675cb6f",
+  "pdf_sha256": "5a1d06e7a830ccda9200cb221da1a261c69a6c07ba44494a774eb5f2d0fc77b5",
+  "new_experiment_generation_native_or_gold": false
+}

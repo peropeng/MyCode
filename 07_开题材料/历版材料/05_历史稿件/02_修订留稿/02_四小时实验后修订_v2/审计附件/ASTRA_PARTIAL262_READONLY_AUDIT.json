@@ -1,0 +1,53 @@
+{
+  "schema": "Astra-readonly-Exp262-current-partial-start-audit/1",
+  "at_utc": "2026-10-12T12:40:02.195709+00:00",
+  "scope": "Saved public native receipt and 861 public business source files only; no model/native/hidden test body or independent acceptance read.",
+  "historical_audit_sha256": "beb41c134220514d7d2a56bbc7603ca53ae7c576b9dd8abda097cd0f82d65a6a",
+  "current_start_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\qualification\\once_original_G_O\\CURRENT_PARTIAL_START262.json",
+  "current_start_sha256": "243d32214dd591ca56a82f1dadea84bbdac071ad4f83851fe6ec5c5589ba977e",
+  "native_run_sha256_matches": true,
+  "native_log_sha256_matches": true,
+  "business_files_compared": 861,
+  "business_mismatches": [],
+  "current_P": [
+    "tests/test_iot/test_iot_things.py::test_delete_thing",
+    "tests/test_iot/test_iot_things.py::test_update_thing"
+  ],
+  "ordinary_all_pass": true,
+  "native_exact_test_coverage": true,
+  "native_expected_test_count": 4,
+  "native_passed_count": 3,
+  "native_outcomes": {
+    "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "failed",
+    "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+    "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+    "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+  },
+  "business_unchanged_during_native": true,
+  "frozen_tests_unchanged_during_native": true,
+  "native_failure": null,
+  "guard_loaded": true,
+  "stop_receipt": {
+    "STOP_evidence": "specific Job QueryInformationJobObject active=0 before CloseHandle; held root WaitForSingleObject=WAIT_OBJECT_0",
+    "actual_job_accounting_observations": [
+      {
+        "active_processes": 1,
+        "total_processes": 3,
+        "total_terminated_processes": 0
+      },
+      {
+        "active_processes": 0,
+        "total_processes": 3,
+        "total_terminated_processes": 0
+      }
+    ],
+    "all_owned_descendants_terminated": true,
+    "assigned_root_verified_member": true,
+    "job_active_processes_after_termination": 0,
+    "owned_job_closed": true,
+    "root_process_stopped": true,
+    "specific_job_name": "Exp242Native_2168_7d88bb6bac00441a9d359a068f024361"
+  },
+  "pressure_start_qualified": true,
+  "interpretation": "Real current replay confirms the historical 2/3 goal state plus ordinary pass. This is an exposed partial-repair pressure start, not a new C0 task or a completed recovery method."
+}

@@ -1,0 +1,85 @@
+{
+  "checked_on": "2026-10-12",
+  "decision": "RQ1保留StepFinder、All-at-Once、Binary Search三项主对照；合格备选尚缺。Step-by-Step仅为待核候选，SDBL不占当前3+1名额。",
+  "governing_rule": "项目AGENTS.md要求正式CCF A、公开核心源码、实际完整实现与本机非零分别核验，缺核心或无法落地淘汰。",
+  "methods": {
+    "StepByStep": {
+      "paper_id": "L01",
+      "reference_number": 1,
+      "relationship": "与All-at-Once、Binary Search同属Who&When ICML2025论文，不能算新增独立论文。",
+      "formal_publication": "ICML2025, PMLR267:76583–76599",
+      "publication_url": "https://proceedings.mlr.press/v267/zhang25cq.html",
+      "code_revision": "b2bae5c5b06d681d04ea5e9b63b7a30525c04925",
+      "license": "MIT，固定revision LICENSE已读取",
+      "static_core_status": "作者核心完整公开：累计轨迹前缀，逐步调用判别，首个Yes输出角色/原序号并停止；全No、异常响应及API失败分支存在；统一命令入口与评价解析器公开。只核静态连通，不等于本机完成运行。",
+      "code_sources": [
+        {
+          "purpose": "核心算法",
+          "url": "https://github.com/mingyin1/Agents_Failure_Attribution/blob/b2bae5c5b06d681d04ea5e9b63b7a30525c04925/Automated_FA/Lib/utils.py#L111-L185"
+        },
+        {
+          "purpose": "命令入口与调用",
+          "url": "https://github.com/mingyin1/Agents_Failure_Attribution/blob/b2bae5c5b06d681d04ea5e9b63b7a30525c04925/Automated_FA/inference.py#L203-L210"
+        },
+        {
+          "purpose": "原评价器",
+          "url": "https://github.com/mingyin1/Agents_Failure_Attribution/blob/b2bae5c5b06d681d04ea5e9b63b7a30525c04925/Automated_FA/evaluate.py#L6-L108"
+        },
+        {
+          "purpose": "MIT许可",
+          "url": "https://github.com/mingyin1/Agents_Failure_Attribution/blob/b2bae5c5b06d681d04ea5e9b63b7a30525c04925/LICENSE"
+        }
+      ],
+      "local_runtime_status": "未核到SBS本机完整非零证据；不得填0分或认定当前配置恒零。",
+      "existing_evidence": [
+        {
+          "experiment": "Exp124",
+          "index": "../early/逐实验审计索引_01-130.json",
+          "source_report": "实验/实验124_责任排序强基线与外部迁移/results/who_when_resource_gate.json",
+          "report_sha256": "dcc15bdd4c44e6850ae8fea6bbcea40b36ada13b0dbb969669a3267634cbef65",
+          "status": "NOT_RUN_RESOURCE_GAP",
+          "step_by_step_calls": 0,
+          "top1": null,
+          "mrr": null
+        },
+        {
+          "experiment": "Exp128",
+          "index": "../early/实验01-130_独立探索综述.md:227",
+          "actual_methods": [
+            "All-at-Once",
+            "Binary Search",
+            "EASD/SDBL论文重建",
+            "StepFinder"
+          ],
+          "includes_SBS": false
+        }
+      ],
+      "search_scope": "查现有early01–130审计索引/综述、middle131–223索引及pilot索引；未启动任何SBS实验。未核到不等于证明所有历史文件永不存在。",
+      "required_adaptations": [
+        {
+          "id": "no_ground_truth",
+          "issue": "作者utils.py的SBS读取ground_truth并将其作为任务答案拼入判别提示。",
+          "required": "统一公共输入投影必须删除任务答案及诊断Gold；保留逐前缀判断和首个Yes停机核心，明确披露无答案部署与论文原输入条件的差异。"
+        },
+        {
+          "id": "strict_step_id",
+          "issue": "作者evaluate.py使用actual_step in predicted_step字符串包含判断，不能作为严格步骤命中。",
+          "required": "使用一对一原步骤ID/ordinal映射与严格相等；正确/错误/无输出/API异常分开，禁止包含匹配，单步骤输出不补造MRR。"
+        }
+      ],
+      "historical_resource_caveat": "Exp124的资源缺口是当时状态；当前已有Flash历史运行证据不等于SBS已运行，也不能据旧缺口断言今天仍没有后端。",
+      "optional_followup": "后续四小时若不挤占核心排序恢复配对且剩余资源允许，可按与模型结果无关的规则选一项已曝光历史开发任务做一次完整SBS资格小试；预先声明公共输入、原步骤映射、费用/调用上限、无输出与错误处理。未完整结束或无正确步骤则资格仍缺，不刷题、不选择性留成功。一次非零只满足最低运行资格，不是性能确认。"
+    },
+    "SDBL": {
+      "paper_id": "L02",
+      "reference_number": 2,
+      "publication_status": "AAAI2026正式论文",
+      "author_core_status": "固定9734e4c26b34e677997df2f750a74ae69dd21e41作者仓库仅README.md31字节，无核心源码/完整提示/许可证。",
+      "local_result_scope": "历史69/120为论文重建，不能替代作者核心源码资格。",
+      "eligibility": "从当前有效主/备名额移除；只作相关工作与明确标记的重建参考，不用“将来作者发布后”补齐名额。"
+    }
+  },
+  "new_experiments": 0,
+  "new_model_generation_calls": 0,
+  "new_gold_reads": 0
+}

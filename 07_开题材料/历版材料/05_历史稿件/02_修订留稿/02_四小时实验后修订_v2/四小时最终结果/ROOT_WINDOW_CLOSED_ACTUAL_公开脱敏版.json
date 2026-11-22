@@ -1,0 +1,111 @@
+{
+  "schema": "Root-four-hour-window-actual-completion-and-closure/1",
+  "actual_close_UTC": "2026-10-12T15:29:27.533074+00:00",
+  "original_window": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\SCIENCE_T0_WINDOW_ROOT.json",
+    "sha256": "b39c06843cc9a936939fcbf0489d64758f015b6facfcc72c557c674703addd40"
+  },
+  "actual_global_STOP": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp259-window-finance-postreview\\实验\\实验259_四小时连续费用隔离\\WINDOW_STOP_NEW.json",
+    "sha256": "0ed5a4c7533609e7fb5b4979cf822f9c7bfb170530121d3d2ae72165aa84269c"
+  },
+  "ledger": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1003-diagnosis-investigation\\exp132_review\\new_window_2332\\finance\\shared_flash_budget.json",
+    "sha256": "7028a495741bcab6843a560dd2214743a88ccaff994dec8996f46ccaa069a154"
+  },
+  "ledger_rows": 4870,
+  "new_settled_calls": 27,
+  "new_cost_upper_CNY": "0.45924094",
+  "global_cost_upper_CNY": "30.59891152",
+  "old_unknown4842_held_CNY": "0.533734",
+  "available_balance_GET_CNY": "〔账户余额已移至完整受保护原件〕",
+  "new_unknown_or_inflight": 0,
+  "all18_registered_model_flows_actual_parent_STOP": true,
+  "all8_once_acceptance_jobs_actual_parent_STOP": true,
+  "all18_namespace_close_proofs": {
+    "POSTREVIEW260_MOTO5134_TRIAL1_NO_DIAG_ROOT_R3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\NO_DIAG\\ROOT_AUTHORITY_R3\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "8991efba729805e0f666d1b5a348260025e89bd08340effa56ac4a3781cb4b2a"
+    },
+    "POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SF_ALG50\\ROOT_AUTHORITY_R3\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "c040633bf9a6c5cef535cdd6969a611521646ea6a6a4a9446f3ce7d9b3087b80"
+    },
+    "POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R4": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SF_ALG50\\ROOT_AUTHORITY_R4\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "9e7b83c578e9774a4c537d5c252ad22a27ff6417916ea79e92af0bc0f055c210"
+    },
+    "POSTREVIEW260_MOTO5134_TRIAL1_SOURCE3_ROOT_R3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SOURCE3\\ROOT_AUTHORITY_R3\\ROOT_ACTUAL_CLOSED_KNOWN_UNPOST_PROOF.json",
+      "sha256": "69c6c03f44e3eb6b017538266db4ed9f68e8d99cadc50cd78b18f11d1a163d44"
+    },
+    "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_NO_DIAG": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\SOURCE\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\runs\\getmoto__moto-5134\\trial2\\NO_DIAG\\ROOT_AUTHORITY_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "85f67e2e2661c1453f2cc6f7f094aa2ea05c3302cbb120a4587a7b57fa7f939c"
+    },
+    "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SF_ALG50": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\SOURCE\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\runs\\getmoto__moto-5134\\trial2\\SF_ALG50\\ROOT_AUTHORITY_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "7a329cff073b84d262cf7da3c6269a6a057f8f2d21943a71b15b24ed644794b7"
+    },
+    "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SOURCE3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\SOURCE\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\runs\\getmoto__moto-5134\\trial2\\SOURCE3\\ROOT_AUTHORITY_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "0cf44b5d53ee9db9a79cf01521b58189735be9ba4425aba02f447961cc51e4d3"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_COUNT": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "582817abbc50a7655965196173907d8fa9190289f6905aa4d91a0440514137bd"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_O_ONLY": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "82d43f5639fe5c6654d6e53e8a2571e0294125983f8a9ce62eb6f78a79a49398"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_SET": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "558b63bb2e73215a2add175eca8fc0371495ec603bcca10ff7d36dd2bbe85a75"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "6116993c69dd3cfbbbad0175f83b4614f5c28c56f5dd9333afa92f800e92babe"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_O_ONLY": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "b1d3cc835f86f02687289cf93a8fcfff02853f41ecabb70f900dc30dc8aaad3c"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_SET": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "70ab028307d0ac727a1bc7ca15474f0d5a6d7ee39219d51a9ea0c6074a4322e8"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_COUNT": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "69e413e143cb23bc7470b48c2a7e8aa3b80a863b361aa6986515664285df66e8"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_O_ONLY": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "3d0308d1c5465e9963e2b3bc6926db024e4f57f67fbc9bf2ef09a6bf5ed1561e"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_SET": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "52607b338764e02719ebef8096e1350121ac4b031de59384f625754e964f8859"
+    },
+    "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp263-sbs-postreview\\实验\\实验263_SBS固定历史资格\\ROOT_AUTHORITY_R3\\af_0478\\trial1\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "834102537ceaa1c41f9a288910aeffe3181608f599fe0ca26ba53b05e55a7622"
+    },
+    "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp263-sbs-postreview\\实验\\实验263_SBS固定历史资格\\ROOT_AUTHORITY_R3\\af_0598\\trial1\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "5f4856a9a9c72cbcdaf44a5a3dfc13615623c3f2b25e3a435971f1c9be344388"
+    }
+  },
+  "once_acceptance_closure": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_EIGHT_ONCE_ACCEPTANCE_AUTHORITIES_CLOSED.json",
+    "sha256": "4ae99ace7399b7eb040f8bc228a8f49c0573a7d38ba65f84e5160aab60ea97cb"
+  },
+  "third_baseline_stopped_and_unqualified": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\THIRD_BASELINE_QUALIFICATION.json",
+    "sha256": "31b943b437ae0bb85c30491dc089b14dea7810a0cb02314052e9d74cc12821c0"
+  },
+  "no_authorization_or_clock_reopened": true,
+  "scientific_overall_superiority_not_established": true,
+  "complete_main_ranking_recovery_groups": 0,
+  "complete_development_pressure_groups": 3
+}

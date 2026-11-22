@@ -1,0 +1,105 @@
+{
+  "schema": "proposal-public-redaction-proof/1",
+  "redacted_files": 7,
+  "source_and_public_identity_separate": true,
+  "original_balance_values_stored_in_this_proof": false,
+  "embedded_raw_balance_text_candidates": 0,
+  "original_sources_kept_in_complete_archive": true,
+  "API_requests": 0,
+  "files": [
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/CURRENT_BALANCE_READONLY.json",
+      "source_sha256": "c848d1085e0496886a4ceb95ed9d3c5e6d096901ac4fba53246e2d96167375f9",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/CURRENT_BALANCE_READONLY_公开脱敏版.json",
+      "public_sha256": "aeab10776b592e0f1617c53a858a7abbe16b9ed6323c1060d4bd057732842935",
+      "redacted_field_names": [
+        ".balance.balance_infos[].granted_balance",
+        ".balance.balance_infos[].topped_up_balance",
+        ".balance.balance_infos[].total_balance"
+      ],
+      "public_replacement": "〔账户余额已移至完整受保护原件〕",
+      "all_other_JSON_values_preserved": true,
+      "original_source_bytes_unchanged": true
+    },
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/后期逐实验索引_224-256.json",
+      "source_sha256": "5120966e8428b9568c1f0ae990feb29e69fa3c07d5b8c5d3c42c032e0623b76c",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/后期逐实验索引_224-256_公开脱敏版.json",
+      "public_sha256": "0c94b6f8f55e031b18fb05fd6ac4c0d9de99fca31795e265beb1e6a622d710b2",
+      "redacted_field_names": [
+        ".records[].directories[].configuration_values.FALSE_SOURCE_PROTOCOL243.json.finance.last_balance_CNY"
+      ],
+      "public_replacement": "〔账户余额已移至完整受保护原件〕",
+      "all_other_JSON_values_preserved": true,
+      "original_source_bytes_unchanged": true
+    },
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验审计索引_01-130.json",
+      "source_sha256": "65492c962b2c9f0eb49d8c429bb537c5c97a4de28066eda1be07f9d5789bb991",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验审计索引_01-130_公开脱敏版.json",
+      "public_sha256": "21f402c5fa3004e9a807e5cc615bfcfc29be2cd413381248023e6fcbaa8ac850",
+      "redacted_field_names": [
+        ".entries[].result_facts[].facts.historical_balance_cny",
+        ".entries[].result_facts[].facts.historical_initial_balance_cny",
+        ".entries[].result_facts[].facts.independent_cost.maximum_observed_balance_cny",
+        ".entries[].result_facts[].facts.independent_cost.minimum_initial_balance_minus_prior_cost_and_active_reservation_cny",
+        ".entries[].result_facts[].facts.independent_cost.minimum_observed_balance_cny",
+        ".entries[].result_facts[].facts.initial_verified_balance_cny",
+        ".entries[].result_facts[].facts.last_observed_balance_cny",
+        ".entries[].result_facts[].facts.latest_observed_balance_cny",
+        ".entries[].result_facts[].facts.minimum_observed_balance_cny"
+      ],
+      "public_replacement": "〔账户余额已移至完整受保护原件〕",
+      "all_other_JSON_values_preserved": true,
+      "original_source_bytes_unchanged": true
+    },
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FINANCE_AND_RESUME_RECEIPT.json",
+      "source_sha256": "91d98a593078eb25736ba8149dd2572f7f97e7018efd493e30c4ac0340de41af",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FINANCE_AND_RESUME_RECEIPT_公开脱敏版.json",
+      "public_sha256": "12dda8e1acfd198c5d0c0b0b95066f92b58b65c5de7ce57ed36e9908637463f8",
+      "redacted_field_names": [
+        ".available_balance_GET_CNY"
+      ],
+      "public_replacement": "〔账户余额已移至完整受保护原件〕",
+      "all_other_JSON_values_preserved": true,
+      "original_source_bytes_unchanged": true
+    },
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL.json",
+      "source_sha256": "999d49e01293eb2e474c0530e4bffa282a5d68023bdb1be11dd1739839a3f2c3",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL_公开脱敏版.json",
+      "public_sha256": "dce90f6d0ddc342c7a447a4395b73aaa2bcb0511652714d8c9bd9ba21c2986bb",
+      "redacted_field_names": [
+        ".available_balance_GET_CNY"
+      ],
+      "public_replacement": "〔账户余额已移至完整受保护原件〕",
+      "all_other_JSON_values_preserved": true,
+      "original_source_bytes_unchanged": true
+    },
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_results.json",
+      "source_sha256": "1ed98701be23dbda66aea26d5b3e0e7e002a137bafc0c223ba16cec44b8264dc",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_results_公开脱敏版.json",
+      "public_sha256": "74123c8fbdb351603252814247ff04f2257a1d5cf226f3943869645f6b758888",
+      "redacted_field_names": [
+        ".finance.available_balance_record_CNY"
+      ],
+      "public_replacement": "〔账户余额已移至完整受保护原件〕",
+      "all_other_JSON_values_preserved": true,
+      "original_source_bytes_unchanged": true
+    },
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_stdout.json",
+      "source_sha256": "0b193aa4a70eec3bf56d80841f7cb59a550d97465738801a8249079a7b16b93a",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_stdout_公开脱敏版.json",
+      "public_sha256": "1802f1fcab66d47b096bfaf027bbe92951c32d1df216f90cd74e01dd67d3882f",
+      "redacted_field_names": [
+        ".finance.available_balance_record_CNY"
+      ],
+      "public_replacement": "〔账户余额已移至完整受保护原件〕",
+      "all_other_JSON_values_preserved": true,
+      "original_source_bytes_unchanged": true
+    }
+  ]
+}

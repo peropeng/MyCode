@@ -3,6 +3,7 @@
   "scope": "源码浏览原件，历史Prompt与注释未改写；运行记录和模型继续完整保留",
   "expanded_files": 250,
   "expanded_python_files": 130,
+  "redacted_configuration_copies": 2,
   "attachment_only_files": 5,
   "files": [
     {
@@ -747,9 +748,14 @@
       "path": "02_工作区/01_工程/manifests/rq2_control_execution.json",
       "size": 5728,
       "sha256": "8997962ced9ae8c4f3123b6a46a7c2e68c1f8d6be1d54313db1629073eb0509e",
-      "status": "展开",
-      "reason": "已公开代码包中的源码或小型配置原件",
-      "repository_path": "05_实验代码/工程原件/02_工作区/01_工程/manifests/rq2_control_execution.json"
+      "status": "公开脱敏",
+      "reason": "只隐藏账户余额，费用/预算和研究指标保持；原始配置保留附件",
+      "redacted_fields": [
+        "/api/initial_balance_cny",
+        "/generation_usage/balance_snapshot_CNY"
+      ],
+      "public_sha256": "04fa071f03f60ed86b26ff79ca71cfe9bb66824c701cd2557647ee1a9a5f3e55",
+      "repository_path": "05_实验代码/工程原件/02_工作区/01_工程/manifests/rq2_control_execution_公开脱敏版.json"
     },
     {
       "source_archive": "current-code.tar.gz",
@@ -1846,9 +1852,13 @@
       "path": "02_工作区/01_工程/verification/rq2_controls_balance_snapshot.json",
       "size": 238,
       "sha256": "70df03a6324f52c3d077770db8297810107a38a887eb99c05eb31d268216cad7",
-      "status": "展开",
-      "reason": "已公开代码包中的源码或小型配置原件",
-      "repository_path": "05_实验代码/工程原件/02_工作区/01_工程/verification/rq2_controls_balance_snapshot.json"
+      "status": "公开脱敏",
+      "reason": "只隐藏账户余额，费用/预算和研究指标保持；原始配置保留附件",
+      "redacted_fields": [
+        "/balance_CNY"
+      ],
+      "public_sha256": "f95c481a23a57cc037f775713bbd88b797a3b596d9051921e7c9de0756eccb0a",
+      "repository_path": "05_实验代码/工程原件/02_工作区/01_工程/verification/rq2_controls_balance_snapshot_公开脱敏版.json"
     },
     {
       "source_archive": "current-code.tar.gz",

@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-12T11:35:36.664288+00:00",
+  "purpose": "V2 renderer preparation only; no experiment, manuscript or PDF authored by this command",
+  "source_v1_files": {
+    "04_开题报告_V1_六章完整稿.md": "4a465c4ffd03e282e2fd1be29da7aa3a67bdd81c39fc34bc9341fab7b3582fca",
+    "04_开题报告_V1_六章完整稿.pdf": "49036e6475becbd4521cb8889cddda9d1a9e466241ece7d18ae6686e009e3bf9",
+    "03_后续四小时实验执行计划.md": "57843b350ebf8f1950ab4e88aea06d3fd7e5d797108792705a7eca61ec7341aa",
+    "V1_完整交付包.zip": "3dafa6851f2d1c2676d1a7d03f43dc589e886abd85a7c64c5395d07ea960950d",
+    "DELIVERY_MANIFEST.json": "fda86fb95c0270bcc4aec94a4026dad01da034ffd7d3f35bbdba6214e39f5049"
+  },
+  "v2_work_dir": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-v2",
+  "v2_intended_output_dir": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\V2_四小时实验后修订",
+  "experiment_thread": "01a1215c-bedf-7a21-8abd-2a045502e153",
+  "science_start_BJT": "2026-10-12T19:29:05+08:00",
+  "science_deadline_BJT": "2026-10-12T23:29:05+08:00",
+  "required_results": [
+    "RQ1_SOURCE3_RELEASE.json",
+    "RANKING_INTERVENTION_OPPORTUNITIES.tsv",
+    "PAIRED_RECOVERY_MATRIX.json",
+    "PROGRESS_GUARD_EVENTS.json",
+    "THIRD_BASELINE_QUALIFICATION.json",
+    "FINANCE_AND_RESUME_RECEIPT.json",
+    "FOUR_HOUR_FINDINGS.md"
+  ],
+  "renderer_scripts": [
+    "render_reports.cjs",
+    "create_report_pdf.py",
+    "pdf_qa.py",
+    "html_qa.cjs",
+    "make_visuals.py"
+  ],
+  "v1_immutable": true,
+  "v2_pdf_operation_marker_run": true,
+  "v2_pdf_operation_marker_count": 1
+}

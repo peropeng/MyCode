@@ -1,0 +1,1873 @@
+{
+  "mode": "Read-only arithmetic from immutable saved records. No model, training, network, test or replay execution.",
+  "time_beijing": "2026-10-12T18:00:26.821760+08:00",
+  "E02": {
+    "source": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验02_责任动作定位\\results.json",
+      "sha256": "938f810ad02e7444bbbb66fc222a2d9cf72f3e328bab521214487bc482416880",
+      "sha256_LF_normalized": "1424bedfdba850d844eb29b6e299ae7d86f99215b1e1119ecf899b177f715a0c"
+    },
+    "recomputed_from_records": {
+      "checkpoint_binary": {
+        "correct": 34,
+        "denominator": 34,
+        "mean_probes": 3
+      },
+      "uniform_equal_budget": {
+        "correct": 16,
+        "denominator": 34,
+        "mean_probes": 3
+      },
+      "last_window_action": {
+        "correct": 0,
+        "denominator": 34,
+        "mean_probes": null
+      },
+      "fixed_random": {
+        "correct": 6,
+        "denominator": 34,
+        "mean_probes": null
+      },
+      "recent_error_file_edit": {
+        "correct": 0,
+        "denominator": 34,
+        "mean_probes": null
+      },
+      "per_action_exhaustive": {
+        "correct": 34,
+        "denominator": 34,
+        "mean_probes": 8
+      },
+      "per_action_early_stop": {
+        "correct": 34,
+        "denominator": 34,
+        "mean_probes": 4.0588235294117645
+      }
+    },
+    "persistent_fault": 34,
+    "exact_restore": 34,
+    "interpretation": "34/34 binary versus16/34 uniform; all34 controlled faults persistent and restored. Does not show natural responsibility."
+  },
+  "E80": {
+    "source": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验80_AFTraj选择门_严格未见确认\\results\\exp80_result.json",
+      "sha256": "106e094b3cdc50b4e4ea75c5b060dcb42733aa3648c5b5f08d41e13dbe98166e",
+      "sha256_LF_normalized": "1893939cad107b78adb1f7b6bff2ab1f55290e9f6aee9eae36f0d84fc4309b87"
+    },
+    "rows": 311,
+    "groups": 205,
+    "base": {
+      "tp": 15,
+      "fp": 116,
+      "fn": 138
+    },
+    "C": {
+      "tp": 18,
+      "fp": 116,
+      "fn": 135
+    },
+    "F1_base": 0.1056338028169014,
+    "F1_C": 0.1254355400696864,
+    "difference_pp": 1.9801737252785,
+    "group_component_categories": {
+      "neutral": 200,
+      "harmful": 2,
+      "beneficial": 3
+    },
+    "harmful_groups": [
+      {
+        "group_hash": "178c329435111886",
+        "base": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1
+        },
+        "c": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 1
+        }
+      },
+      {
+        "group_hash": "717e3b57902e01f3",
+        "base": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1
+        },
+        "c": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 1
+        }
+      }
+    ],
+    "interpretation": "Exact-correct better/worse/tie does not imply no harmful F1 components."
+  },
+  "E124": {
+    "source": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验124_责任排序强基线与外部迁移\\results\\panel_a.json",
+      "sha256": "7d3d0d187c7c43e4d2339b213a819460197325947cbc1c2b64ba674b9b61656c",
+      "sha256_LF_normalized": "3a3f526f167d860e261a63f6c2cfe8e4e242c8b1cd28652290fd5ed2def180cd"
+    },
+    "per_seed_recomputed": [
+      {
+        "seed": 20260816,
+        "group_counts": {
+          "A_plus_B": 716,
+          "pairwise_B": 716,
+          "local": 716,
+          "recency": 716,
+          "StepFinder": 716
+        },
+        "means": {
+          "A_plus_B": 0.49310784251954237,
+          "pairwise_B": 0.34425986194315705,
+          "local": 0.3142379561260029,
+          "recency": 0.3305202527214237,
+          "StepFinder": 0.8444033064338581
+        },
+        "same_group_keys": true
+      },
+      {
+        "seed": 20260817,
+        "group_counts": {
+          "A_plus_B": 716,
+          "pairwise_B": 716,
+          "local": 716,
+          "recency": 716,
+          "StepFinder": 716
+        },
+        "means": {
+          "A_plus_B": 0.49786768233911266,
+          "pairwise_B": 0.3444571243747908,
+          "local": 0.3142379561260029,
+          "recency": 0.3305202527214237,
+          "StepFinder": 0.8493959597860969
+        },
+        "same_group_keys": true
+      },
+      {
+        "seed": 20260818,
+        "group_counts": {
+          "A_plus_B": 716,
+          "pairwise_B": 716,
+          "local": 716,
+          "recency": 716,
+          "StepFinder": 716
+        },
+        "means": {
+          "A_plus_B": 0.4971954500230511,
+          "pairwise_B": 0.3423817495269478,
+          "local": 0.3142379561260029,
+          "recency": 0.3305202527214237,
+          "StepFinder": 0.8436821835328654
+        },
+        "same_group_keys": true
+      }
+    ],
+    "seed_mean": {
+      "A_plus_B": 0.4960569916272354,
+      "pairwise_B": 0.3436995786149652,
+      "local": 0.3142379561260029,
+      "recency": 0.3305202527214237,
+      "StepFinder": 0.8458271499176068
+    },
+    "difference_ours_minus_StepFinder": -0.3497701582903714,
+    "interpretation": "731 records in716 task groups; not2193 independent examples."
+  },
+  "E129": {
+    "source": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\results\\final_comparison\\comparison.json",
+      "sha256": "6c484e7e2d0be016a15b40369cdc602dc0dee56b60c268c47bb5a6b0ac430ff6",
+      "sha256_LF_normalized": "6c484e7e2d0be016a15b40369cdc602dc0dee56b60c268c47bb5a6b0ac430ff6"
+    },
+    "paired_raw_result_count": 96,
+    "mismatches": [],
+    "method_summary_from_raw": {
+      "all_at_once": {
+        "successes": 11,
+        "denominator": 12,
+        "submissions": 16,
+        "joint_seconds": 775.4301739999937
+      },
+      "binary_search": {
+        "successes": 10,
+        "denominator": 12,
+        "submissions": 20,
+        "joint_seconds": 934.8289528000096
+      },
+      "last_action": {
+        "successes": 11,
+        "denominator": 12,
+        "submissions": 19,
+        "joint_seconds": 701.1742950999906
+      },
+      "no_recovery": {
+        "successes": 0,
+        "denominator": 12,
+        "submissions": 0,
+        "joint_seconds": 510.1333664000049
+      },
+      "ours": {
+        "successes": 11,
+        "denominator": 12,
+        "submissions": 20,
+        "joint_seconds": 671.5127559000175
+      },
+      "random": {
+        "successes": 11,
+        "denominator": 12,
+        "submissions": 16,
+        "joint_seconds": 660.037185000001
+      },
+      "sdbl": {
+        "successes": 11,
+        "denominator": 12,
+        "submissions": 16,
+        "joint_seconds": 685.1104899999991
+      },
+      "stepfinder": {
+        "successes": 11,
+        "denominator": 12,
+        "submissions": 19,
+        "joint_seconds": 851.6396324000161
+      }
+    },
+    "ours_exclusive_success_vs_each": {
+      "all_at_once": [],
+      "binary_search": [
+        "getmoto__moto-5286"
+      ],
+      "last_action": [],
+      "no_recovery": [
+        "Project-MONAI__MONAI-2238",
+        "dask__dask-9378",
+        "getmoto__moto-5072",
+        "getmoto__moto-5134",
+        "getmoto__moto-5286",
+        "getmoto__moto-6352",
+        "pydantic__pydantic-8567",
+        "python__mypy-10392",
+        "python__mypy-10401",
+        "python__mypy-11134",
+        "python__mypy-15155"
+      ],
+      "random": [],
+      "sdbl": [],
+      "stepfinder": []
+    },
+    "others_exclusive_success_vs_ours": {
+      "all_at_once": [],
+      "binary_search": [],
+      "last_action": [],
+      "no_recovery": [],
+      "random": [],
+      "sdbl": [],
+      "stepfinder": []
+    },
+    "candidate_pool_distribution": {
+      "4": 2,
+      "1": 6,
+      "3": 2,
+      "2": 2
+    },
+    "raw_records": [
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\all_at_once\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "d9659b6f74cc908756efb59de7330ed88fdf9e3e59986c7ce9530215530962f9",
+        "joint_seconds": 77.7726599000016,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\binary_search\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "c6094bc47480102382824678780b628c27ffa1fb9ce7e12d581867161d68c31b",
+        "joint_seconds": 73.73205700000108,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\sdbl\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "580a7b5075468706eda64316e6744d746ccc1ee8de38a9fa6812ca88e68369dc",
+        "joint_seconds": 62.63808070000232,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 3,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\stepfinder\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "5762bef75956228107273e7aa2fb3ee000d5b65a279e3572a4673032347f9db6",
+        "joint_seconds": 84.20056620000105,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\ours\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "f0950fea3ae50c4f8094d0c335272fe5ebed16d053d8d7152e2ca56cf02e13df",
+        "joint_seconds": 41.102680999996664,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\random\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "705b8b42f95a2c1a5b140b20891785dbf689dcc98e871b9d3443e7fbbd3e3bc8",
+        "joint_seconds": 46.313398099999176,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\last_action\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "6d0a7dcfcb054a8fea57c2d835c7b1ad945a165a52cefe55257616e0fe1f400f",
+        "joint_seconds": 55.5201345999958,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5134",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\no_recovery\\getmoto__moto-5134\\result.json",
+        "raw_sha256": "ef30c0f91e6daee3ba3ded62cdd6e56a6f9fef946bdf0ce7ab328468f12598b7",
+        "joint_seconds": 39.207075300000724,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\all_at_once\\python__mypy-10392\\result.json",
+        "raw_sha256": "05203a3ac03f3622ea042a39680e27e6565525f7bc2a4c5f0981f6dbb329ac6c",
+        "joint_seconds": 18.85817460000544,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\binary_search\\python__mypy-10392\\result.json",
+        "raw_sha256": "e0c70fcaebe888eb5702cd50d8686ee05500c5a8eb062fad0c5905cb2e74ce8f",
+        "joint_seconds": 21.13305129999935,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\sdbl\\python__mypy-10392\\result.json",
+        "raw_sha256": "7475e4bd81a505d5673b252660d5ea25ed5f5cd0afc05532c477400de136e72a",
+        "joint_seconds": 19.846470800002862,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\stepfinder\\python__mypy-10392\\result.json",
+        "raw_sha256": "5b1208b839c2ef979ab69f8a9dbe6d8d27b97985e89645e93858c47f1075cc65",
+        "joint_seconds": 30.700498200007132,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\ours\\python__mypy-10392\\result.json",
+        "raw_sha256": "23a69adb200ca56b716b7382dcf135254006c595ce9e7c82dee89678be48ba1b",
+        "joint_seconds": 29.819998799997848,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\random\\python__mypy-10392\\result.json",
+        "raw_sha256": "4794f9a73621e6bf8f5c561bb68248d09d6f9475b1eb9fdb3bf5876a2172cce5",
+        "joint_seconds": 25.12475650000124,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\last_action\\python__mypy-10392\\result.json",
+        "raw_sha256": "f0cd376bf8ac66b9b61a190ab96bad28d19b83f6eff7ccc238938694d646707c",
+        "joint_seconds": 33.66491910000332,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10392",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\05\\runs\\no_recovery\\python__mypy-10392\\result.json",
+        "raw_sha256": "4cfe832fc51749230d87349702df7fdc01f9a3c582d141f0e3d0a5b3c7a61e8a",
+        "joint_seconds": 26.32438450000336,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\all_at_once\\python__mypy-11134\\result.json",
+        "raw_sha256": "ce40d78e8b174add8a7500c33cc346dbe988675d9a3057f0673aa0ca7acbb034",
+        "joint_seconds": 27.982362499999,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\binary_search\\python__mypy-11134\\result.json",
+        "raw_sha256": "07d55977dc093fcaa8c495626370fdb80d58305beed3c9af40eb5a77c00dc552",
+        "joint_seconds": 31.40219950000028,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\sdbl\\python__mypy-11134\\result.json",
+        "raw_sha256": "d81eec6556bd7fe2601e2e62cca2a30b3ad7591328d2ffe04f05b11c77263023",
+        "joint_seconds": 32.583434100000886,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\stepfinder\\python__mypy-11134\\result.json",
+        "raw_sha256": "a8ef22296514b4fb05c905d1246a436fcf3082db78423d8ed797ad6fd01096d8",
+        "joint_seconds": 39.243799600000784,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\ours\\python__mypy-11134\\result.json",
+        "raw_sha256": "3e9369d485cfcef2e0db2d53de945cee40c2aba2cfbf86a9eaa282922e0543eb",
+        "joint_seconds": 21.997977000006358,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\random\\python__mypy-11134\\result.json",
+        "raw_sha256": "7185c6c3bd4517a1902d364e194d12b7a160c404127b2a05083795b37d0e9d4f",
+        "joint_seconds": 19.762803700003133,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\last_action\\python__mypy-11134\\result.json",
+        "raw_sha256": "cdd3911c1cc5cf50079fbacc2373df965cf49cdfc596993cd15854bfcc581bcd",
+        "joint_seconds": 19.807980500001577,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-11134",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\no_recovery\\python__mypy-11134\\result.json",
+        "raw_sha256": "44d0f836736b7b5dcfa6b14b2899afa7cf4c7856f279dfcb7cf48f66fbc554bb",
+        "joint_seconds": 25.497727199996007,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\all_at_once\\dask__dask-9378\\result.json",
+        "raw_sha256": "1dcbe9c8b6b02faa7262ce9f27035c75398376ab5bf296ed1704840614253e05",
+        "joint_seconds": 29.81718930000352,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\binary_search\\dask__dask-9378\\result.json",
+        "raw_sha256": "4f3af4c9ecfc296ad11d0068668c0b0628dc433c97f471160bedeb81e5c6ce11",
+        "joint_seconds": 37.42859020000469,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\sdbl\\dask__dask-9378\\result.json",
+        "raw_sha256": "a09b7d1ba6e41fa99aeda3b4a5455c53dea2d652809320c3b572a11cd1c309ff",
+        "joint_seconds": 31.619436699998914,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\stepfinder\\dask__dask-9378\\result.json",
+        "raw_sha256": "d0ab79216a5750614555a486a71e363adce4f593679a14285122f66a31e2aa30",
+        "joint_seconds": 50.704641900010756,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "ours",
+        "success": true,
+        "submissions": 3,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\ours\\dask__dask-9378\\result.json",
+        "raw_sha256": "183d46dfd98776bf715d47fb89c68b93eb06e7995219eb7b3896792b2090e89c",
+        "joint_seconds": 42.33616720000282,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\random\\dask__dask-9378\\result.json",
+        "raw_sha256": "020cc27dac2d6143440436951244cdb77e384161e1deea9b1b0cf6167c575d33",
+        "joint_seconds": 20.38071420000051,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "last_action",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\last_action\\dask__dask-9378\\result.json",
+        "raw_sha256": "4785a759f566fa52cbc5a109401857013d3a8ba6fb607cc06e68089bf29c87f2",
+        "joint_seconds": 41.441849199996796,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "dask__dask-9378",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\no_recovery\\dask__dask-9378\\result.json",
+        "raw_sha256": "c3657e508308314652850d96d029f929f5d69c416261ac1a8f2fe3d6b8d65e56",
+        "joint_seconds": 27.822960299999977,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "all_at_once",
+        "success": false,
+        "submissions": 4,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\all_at_once\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "719cce09be41b4c247c83f4f7386d7e9ecbe4b0e89baf4ab3d16c50ea004df01",
+        "joint_seconds": 213.1102142000018,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "binary_search",
+        "success": false,
+        "submissions": 4,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\binary_search\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "3d913b9a1090b33b33d44db9dd2fa6e9b3a97cb76204a058989ca0091dcc9350",
+        "joint_seconds": 202.648503299999,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "sdbl",
+        "success": false,
+        "submissions": 4,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\sdbl\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "7f6be51bc57bfbd108c66f3ef8912437c4173a9cc8d5b7d6e1d7469646976918",
+        "joint_seconds": 176.9783613000036,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "stepfinder",
+        "success": false,
+        "submissions": 4,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\stepfinder\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "ea7d38826f962f0f2705b5a16eafc2ff37f066edefdb3a080341deeb7f05d4ec",
+        "joint_seconds": 179.70883080000203,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "ours",
+        "success": false,
+        "submissions": 4,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\ours\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "71d8090ae4816187e9d4eba95ce6a5ba57538dfa60f593dc8876330a95ce043a",
+        "joint_seconds": 174.73423859999457,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "random",
+        "success": false,
+        "submissions": 4,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\random\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "7682838a192358a68ecf28ecf524ae2c9d15adb097a6758173a5c11d471a2cd3",
+        "joint_seconds": 186.3127525999953,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "last_action",
+        "success": false,
+        "submissions": 4,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\last_action\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "2fafa1a2cd569816191c05706fb95928465c2ddb55b4a86c31e375769a6a0391",
+        "joint_seconds": 169.3230040999988,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-5093",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 4,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\06\\runs\\no_recovery\\Project-MONAI__MONAI-5093\\result.json",
+        "raw_sha256": "03de0c8073410f1bb8a1f50cfe19479b3f64ff7fed42813f6ee167ea539b2fa0",
+        "joint_seconds": 63.62244479999936,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\all_at_once\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "00fa29ab1c8343ae5a1f9c96dc49db28b863dfd7a7a1f8eb379bff987fcf3bad",
+        "joint_seconds": 102.32125210000231,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\binary_search\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "b4425e8942d0a60c323e12197ea6e3cc31bf9b049facd0a11f7c6c6a42a8e758",
+        "joint_seconds": 75.95638849999523,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\sdbl\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "ff4ac26138f1585200a05b54ea6cf0ed352cc54b795899b4a4b359fa8622689e",
+        "joint_seconds": 66.77670349999971,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\stepfinder\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "f3e900d22a4d6008c962d4d1f74e5d2585f7cc8a2a604016ad681db178de9df8",
+        "joint_seconds": 76.55996650000452,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\ours\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "200488293c70aaaaabfa73ecdbe928f82400479cd87da5c85bac9823cc2bf178",
+        "joint_seconds": 69.21068710000691,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\random\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "e3da7ab45f423db0b0837755f2245402c67284a578f1138bf98fb4ad58b01c38",
+        "joint_seconds": 67.78771050000068,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\last_action\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "f531fabd7bc59641270a77383a60e6ee4a8d5985d812af070109229140606448",
+        "joint_seconds": 70.11607889999868,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5072",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\no_recovery\\getmoto__moto-5072\\result.json",
+        "raw_sha256": "64090334124a7dff5442fd1ecb958a0d05cb3aec62656379f4fc697c72ad3d5b",
+        "joint_seconds": 64.22664970000187,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\all_at_once\\python__mypy-15155\\result.json",
+        "raw_sha256": "5d1d558da067996da6d0fadad1d3430b9e6078b7e6aa1d88b802b0e0acefdfe0",
+        "joint_seconds": 21.79501089999394,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\binary_search\\python__mypy-15155\\result.json",
+        "raw_sha256": "63e86d5cd2f84f8d9c6e89f01d7b0992e2c133ed36f0682ebfda55ed5626618f",
+        "joint_seconds": 28.697283800007426,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\sdbl\\python__mypy-15155\\result.json",
+        "raw_sha256": "337ecb7be441a3ec314ea33de26eb3806b3770f4bc7690296a05016eb5082178",
+        "joint_seconds": 20.58597600000212,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\stepfinder\\python__mypy-15155\\result.json",
+        "raw_sha256": "91351cca895f7ddbaf905fff9395167b14f4c7721ca5c40385fa1efe129623a0",
+        "joint_seconds": 18.42914480000036,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "ours",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\ours\\python__mypy-15155\\result.json",
+        "raw_sha256": "07105944cffc9ac4f28ccc4f05d2a3d4095e8910a2156081d46ef4a467bb52d6",
+        "joint_seconds": 28.36754149999615,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "random",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\random\\python__mypy-15155\\result.json",
+        "raw_sha256": "38773de8f4e00db2d04b7b52577314b547e042a11c521e6901f05f6d89af427c",
+        "joint_seconds": 28.34087630000431,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "last_action",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\last_action\\python__mypy-15155\\result.json",
+        "raw_sha256": "1e767c320f0381f6a82afcffce42a870c653de2e1db8a1e24d37a8929bc3b77e",
+        "joint_seconds": 26.7091419999997,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-15155",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\no_recovery\\python__mypy-15155\\result.json",
+        "raw_sha256": "a3e17400ce50d25620d8e20219759338868ce278e3f1e792a45a3ed13c7c8b93",
+        "joint_seconds": 16.086761500002467,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\all_at_once\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "3c6b2ad61ec24d30215acd675a14d63c21d92234939450c2ace6563015ff4087",
+        "joint_seconds": 75.54305970000132,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\binary_search\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "356d81f6aca3119d34904db9f7294f1dc3b5375ffbb833643319659261671311",
+        "joint_seconds": 74.73633320000226,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\sdbl\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "2271bfae4bc9ab5cba2ff54025d3dd7251fa8b05deb48dcf9561c18c31e7f629",
+        "joint_seconds": 73.0750756999987,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\stepfinder\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "1e1cc923c422a36b68d6a2e69ebd2604b8688f10d6439edced89f3d4408492b0",
+        "joint_seconds": 76.93434609999531,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\ours\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "3f2e7f9f8fd3207137753d686f7a3f61d1ddc23276ba8da4922dfada802844d1",
+        "joint_seconds": 72.40186210000684,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\random\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "2abb00bd9d577c7a6ce44548e14a91658eb7406b619886c4692bf92a0a7ed92c",
+        "joint_seconds": 79.73049880000326,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\last_action\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "f12c579438bc813a4aedd12d930f34209c11abeb907a3cf2b6a6219a53552778",
+        "joint_seconds": 85.02177049999591,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-6352",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\no_recovery\\getmoto__moto-6352\\result.json",
+        "raw_sha256": "6a3fcd8e90a0e80ad70695ce0be3711069ba48fdaf7c84bba576b5007b3d441a",
+        "joint_seconds": 71.32877960000042,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\all_at_once\\python__mypy-10401\\result.json",
+        "raw_sha256": "acad0ac7090545ae559e040c9bd979d554377cfe965b1739b939334537222962",
+        "joint_seconds": 22.988232299998344,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\binary_search\\python__mypy-10401\\result.json",
+        "raw_sha256": "d44b967d005e4beb72ba804ebc7e8b0b0c808895ddd88c57775091e8cd1d2daf",
+        "joint_seconds": 22.145319900002505,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\sdbl\\python__mypy-10401\\result.json",
+        "raw_sha256": "16b50c127cb9f4fa56702773566f5f83a7b90b636d858d548157a6afa067dedf",
+        "joint_seconds": 20.424489099998027,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\stepfinder\\python__mypy-10401\\result.json",
+        "raw_sha256": "cc0138de8dd330f8d66b0fdf71c01a8241d7f8b33d3a8ac87918e3fdf1b8ecd2",
+        "joint_seconds": 19.395255300005374,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\ours\\python__mypy-10401\\result.json",
+        "raw_sha256": "2818c9bf1a2f70a6caa755ba72580278d6da67854704979c6545e1968dd847e3",
+        "joint_seconds": 21.21803770000406,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\random\\python__mypy-10401\\result.json",
+        "raw_sha256": "da57614304b060c944f69c5e1c2ef8e524804bef3da0c30cdc5ec2eaf2254b7e",
+        "joint_seconds": 21.272020599993994,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\last_action\\python__mypy-10401\\result.json",
+        "raw_sha256": "145489a82839ec5d5f76b901aaf4cf535f5ea7196e320d7dad8fde35e8d086b5",
+        "joint_seconds": 33.64101970000047,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "python__mypy-10401",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\07\\runs\\no_recovery\\python__mypy-10401\\result.json",
+        "raw_sha256": "d05077683ca20fd6048dc3a1d8a8a2db03ab7ba9ed288f28b57ff71ee00683c7",
+        "joint_seconds": 26.3272724999988,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\all_at_once\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "27467c3413c27f001dfd63616386cd16229d4df5145d43e9858b85fdf32976fd",
+        "joint_seconds": 13.872120999993058,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 3,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\binary_search\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "e0aa010e2c919d51bafda2753c67dd889de2826d13beda1686c79876c8f4aba7",
+        "joint_seconds": 32.643630399994436,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\sdbl\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "51c8dff4651af2d2aca7e42faa485f3da49d97ae0389b06613f56194639d8eef",
+        "joint_seconds": 13.848670100000163,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\stepfinder\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "577e1c41244cec883187ef503ed1390c65f0ce6656a27bc65c8f158d52eeba59",
+        "joint_seconds": 23.33358009999938,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "ours",
+        "success": true,
+        "submissions": 3,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\ours\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "ff7213025c4b4bfcc792237b2747915c394adb443f58aeb0325249732c0b4bf1",
+        "joint_seconds": 30.052420600004552,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\random\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "81f6e77a6f6fff1b137d40d754a7a9b73c360ad3ba8f0156ba2a68cab5a4713d",
+        "joint_seconds": 11.071564999998373,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "last_action",
+        "success": true,
+        "submissions": 3,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\last_action\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "585042b187c300707a1b65e30ac95bc608ffee5932b8b82c0e8256df9175e750",
+        "joint_seconds": 28.065649800002575,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "pydantic__pydantic-8567",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 3,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\08\\runs\\no_recovery\\pydantic__pydantic-8567\\result.json",
+        "raw_sha256": "da99d5f32eed37000d5502050bb07809f3842ec54dfa6798f26d7cf228f4e4ac",
+        "joint_seconds": 13.206422400005977,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\all_at_once\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "8ee04cb42d1d1d210948231eb2b6422bd649326c83b986139d5e766a0062423f",
+        "joint_seconds": 141.46474319999834,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "binary_search",
+        "success": false,
+        "submissions": 2,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\binary_search\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "ac8c77c32506fd06878dbf4fcf1b00ae3779ec64b28bbaf67edc5902f12b193d",
+        "joint_seconds": 308.40566850000323,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\sdbl\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "c2f8bc063a437adc3232002b159851483e2b76e18d1757fd914a9eb1f7337ce2",
+        "joint_seconds": 142.288776399997,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 2,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\stepfinder\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "dbc93984ade95594d2f856151ed90f34f3690449d091d6206636c67b4a95ae57",
+        "joint_seconds": 221.01513390000036,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\ours\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "1c9c1c073d36c1b465457c7525a02fff1662b3e17a85c91f13f50918cfc27197",
+        "joint_seconds": 112.96411200000148,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\random\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "a839cb933a031ff080c375634e0251d257f8ba74317931e329200edc89b5d3ee",
+        "joint_seconds": 129.35596480000095,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\last_action\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "23e3fae349780a4e575ffb6675a1425fc1b7635dd6726aee3b0a9a8aa8c7ed7e",
+        "joint_seconds": 115.90559940000094,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "getmoto__moto-5286",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 2,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\09\\runs\\no_recovery\\getmoto__moto-5286\\result.json",
+        "raw_sha256": "6bebd1f8e1195a4b8915bba7282d3777d6fafb638833386bd6984a5f86bc97ae",
+        "joint_seconds": 116.62966759999836,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "all_at_once",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\all_at_once\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "a80c4dd3bb2b312e2903b8160c91212c6fbebd3f0d58eda8640653665c017b5a",
+        "joint_seconds": 29.905154299995047,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "binary_search",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\binary_search\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "23f0e67369b8f41562d84331b8f3d1f2d81a84d0bd98a2671132640677a960a0",
+        "joint_seconds": 25.899927200000093,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "sdbl",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\sdbl\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "a7df1eb829a9dcca1bfb54a50903dab6271543603c77105f52f4b85f4f345163",
+        "joint_seconds": 24.445015599994804,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "stepfinder",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\stepfinder\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "455d053789f087ce25afa264045f148b1361255924a8082f1ab8e2e659680099",
+        "joint_seconds": 31.413868999989063,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "ours",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\ours\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "7abf68d1a1375fb2c3443e3b351d94c3144ccf9105b1533de0f176d17b3dc449",
+        "joint_seconds": 27.307032299999264,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "random",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\random\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "3d4b242b5680d77d60786bd4a9316b4712d61a7a2049d325252c30cd4a627cef",
+        "joint_seconds": 24.584123900000122,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "last_action",
+        "success": true,
+        "submissions": 1,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\last_action\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "71d4173c973b959d743e255bed9a93e1ef02da5b38b951475a095948e6042a67",
+        "joint_seconds": 21.957147299995995,
+        "matches_final_row": true
+      },
+      {
+        "task_id": "Project-MONAI__MONAI-2238",
+        "method": "no_recovery",
+        "success": false,
+        "submissions": 0,
+        "candidate_pool": 1,
+        "raw_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验129_扩展基线与恢复证据\\executor\\rounds\\10\\runs\\no_recovery\\Project-MONAI__MONAI-2238\\result.json",
+        "raw_sha256": "5729e5bb9ce6b70bc6a23c87e7e6d0630d326d2500e6f5e3a13ed8028c0c795c",
+        "joint_seconds": 19.853220999997575,
+        "matches_final_row": true
+      }
+    ],
+    "interpretation": "Common12 issue-state sample; no unique Ours success over Random/All-at-Once. Candidate pool<=6 budget saturated."
+  },
+  "E130_V22": {
+    "source": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验130_语义多关系诊断改进\\results\\v22\\evaluation\\AB\\primary5_summary.json",
+      "sha256": "4fdc7dcaa6ad7879c7748127acd41c1213a14e61dd1717b3a14fbb5887788034",
+      "sha256_LF_normalized": "4fdc7dcaa6ad7879c7748127acd41c1213a14e61dd1717b3a14fbb5887788034"
+    },
+    "full_group_Top1": 0.7740223463687151,
+    "full_group_MRR": 0.8562673809027483,
+    "decision": "PRIMARY_NECESSARY_CONDITIONS_FAIL",
+    "seeds": [
+      {
+        "seed": 20260816,
+        "full731": {
+          "records": 731,
+          "groups": 716,
+          "correct": 556,
+          "record_top1": 0.7606019151846786,
+          "task_top1": 0.7740223463687151,
+          "task_full_mrr": 0.8562673809027483,
+          "task_role_accuracy": 0.8847765363128491,
+          "task_r3": 0.9301675977653632
+        },
+        "fixed120": {
+          "records": 120,
+          "groups": 120,
+          "correct": 77,
+          "record_top1": 0.6416666666666667,
+          "task_top1": 0.6416666666666667,
+          "task_full_mrr": 0.7555682743182743,
+          "task_role_accuracy": 0.8666666666666667,
+          "task_r3": 0.85
+        },
+        "paired120_fixed_seed16_baselines": [
+          {
+            "baseline": "all_at_once",
+            "baseline_correct": 77,
+            "ours_correct": 77,
+            "difference": 0.0,
+            "relative_gain": 0.0,
+            "ci95": [
+              -0.1,
+              0.1
+            ],
+            "ci98_75": [
+              -0.125,
+              0.1333333333333333
+            ],
+            "wins": 23,
+            "losses": 23,
+            "ties": 74,
+            "ci98_75_lower_exact": {
+              "numerator": -1,
+              "denominator": 8
+            }
+          },
+          {
+            "baseline": "binary_search",
+            "baseline_correct": 51,
+            "ours_correct": 77,
+            "difference": 0.21666666666666667,
+            "relative_gain": 0.5098039215686275,
+            "ci95": [
+              0.11666666666666667,
+              0.31666666666666665
+            ],
+            "ci98_75": [
+              0.09166666666666667,
+              0.3416666666666667
+            ],
+            "wins": 36,
+            "losses": 10,
+            "ties": 74,
+            "ci98_75_lower_exact": {
+              "numerator": 11,
+              "denominator": 120
+            }
+          },
+          {
+            "baseline": "sdbl",
+            "baseline_correct": 69,
+            "ours_correct": 77,
+            "difference": 0.06666666666666667,
+            "relative_gain": 0.11594202898550725,
+            "ci95": [
+              -0.033333333333333326,
+              0.16666666666666669
+            ],
+            "ci98_75": [
+              -0.058333333333333334,
+              0.19166666666666668
+            ],
+            "wins": 28,
+            "losses": 20,
+            "ties": 72,
+            "ci98_75_lower_exact": {
+              "numerator": -7,
+              "denominator": 120
+            }
+          },
+          {
+            "baseline": "stepfinder",
+            "baseline_correct": 71,
+            "ours_correct": 77,
+            "difference": 0.05,
+            "relative_gain": 0.08450704225352113,
+            "ci95": [
+              -0.025000000000000005,
+              0.13333333333333333
+            ],
+            "ci98_75": [
+              -0.05,
+              0.15000000000000002
+            ],
+            "wins": 15,
+            "losses": 9,
+            "ties": 96,
+            "ci98_75_lower_exact": {
+              "numerator": -1,
+              "denominator": 20
+            }
+          }
+        ],
+        "full731_cached_StepFinder": {
+          "records": 731,
+          "groups": 716,
+          "correct": 543,
+          "record_top1": 0.7428180574555403,
+          "task_top1": 0.7583798882681564,
+          "task_full_mrr": 0.844403306433858,
+          "task_role_accuracy": 0.8732541899441341,
+          "task_r3": 0.9259776536312849
+        },
+        "full731_difference_vs_StepFinder": {
+          "top1": {
+            "difference": 0.015642458100558657,
+            "relative_gain": 0.020626151012891343,
+            "ci95": [
+              -0.013687150837988828,
+              0.044972067039106146
+            ],
+            "wins": 63,
+            "losses": 51,
+            "ties": 602,
+            "difference_exact": {
+              "numerator": 14,
+              "denominator": 895
+            }
+          },
+          "rr": {
+            "difference": 0.011864074468890384,
+            "relative_gain": 0.014050246343770913,
+            "ci95": [
+              -0.0056598417511989005,
+              0.029916941848858736
+            ],
+            "wins": 99,
+            "losses": 82,
+            "ties": 535
+          }
+        },
+        "strata_full731": {
+          "source": {
+            "diagnosed": {
+              "records": 235,
+              "groups": 220,
+              "correct": 122,
+              "record_top1": 0.5191489361702127,
+              "task_top1": 0.5463636363636364,
+              "task_full_mrr": 0.7004732336047025,
+              "task_role_accuracy": 0.6977272727272728,
+              "task_r3": 0.8136363636363636
+            },
+            "injected": {
+              "records": 496,
+              "groups": 496,
+              "correct": 434,
+              "record_top1": 0.875,
+              "task_top1": 0.875,
+              "task_full_mrr": 0.925369623655914,
+              "task_role_accuracy": 0.967741935483871,
+              "task_r3": 0.9818548387096774
+            }
+          },
+          "domain": {
+            "agentic": {
+              "records": 288,
+              "groups": 273,
+              "correct": 167,
+              "record_top1": 0.5798611111111112,
+              "task_top1": 0.6051282051282051,
+              "task_full_mrr": 0.756417110804635,
+              "task_role_accuracy": 0.8113553113553114,
+              "task_r3": 0.9010989010989011
+            },
+            "coding": {
+              "records": 165,
+              "groups": 165,
+              "correct": 158,
+              "record_top1": 0.9575757575757575,
+              "task_top1": 0.9575757575757575,
+              "task_full_mrr": 0.9777777777777776,
+              "task_role_accuracy": 0.9575757575757575,
+              "task_r3": 1.0
+            },
+            "math": {
+              "records": 278,
+              "groups": 278,
+              "correct": 231,
+              "record_top1": 0.8309352517985612,
+              "task_top1": 0.8309352517985612,
+              "task_full_mrr": 0.8822023026739898,
+              "task_role_accuracy": 0.9136690647482014,
+              "task_r3": 0.9172661870503597
+            }
+          },
+          "stratum": {
+            "agentic|diagnosed": {
+              "records": 189,
+              "groups": 174,
+              "correct": 111,
+              "record_top1": 0.5873015873015873,
+              "task_top1": 0.6275862068965518,
+              "task_full_mrr": 0.7678268462624446,
+              "task_role_accuracy": 0.7097701149425287,
+              "task_r3": 0.8793103448275862
+            },
+            "agentic|injected": {
+              "records": 99,
+              "groups": 99,
+              "correct": 56,
+              "record_top1": 0.5656565656565656,
+              "task_top1": 0.5656565656565656,
+              "task_full_mrr": 0.7363636363636363,
+              "task_role_accuracy": 0.98989898989899,
+              "task_r3": 0.9393939393939394
+            },
+            "coding|injected": {
+              "records": 165,
+              "groups": 165,
+              "correct": 158,
+              "record_top1": 0.9575757575757575,
+              "task_top1": 0.9575757575757575,
+              "task_full_mrr": 0.9777777777777776,
+              "task_role_accuracy": 0.9575757575757575,
+              "task_r3": 1.0
+            },
+            "math|diagnosed": {
+              "records": 46,
+              "groups": 46,
+              "correct": 11,
+              "record_top1": 0.2391304347826087,
+              "task_top1": 0.2391304347826087,
+              "task_full_mrr": 0.4457008726819386,
+              "task_role_accuracy": 0.6521739130434783,
+              "task_r3": 0.5652173913043478
+            },
+            "math|injected": {
+              "records": 232,
+              "groups": 232,
+              "correct": 220,
+              "record_top1": 0.9482758620689655,
+              "task_top1": 0.9482758620689655,
+              "task_full_mrr": 0.96875,
+              "task_role_accuracy": 0.9655172413793104,
+              "task_r3": 0.9870689655172413
+            }
+          },
+          "length_bin": {
+            "1-8": {
+              "records": 361,
+              "groups": 361,
+              "correct": 262,
+              "record_top1": 0.7257617728531855,
+              "task_top1": 0.7257617728531855,
+              "task_full_mrr": 0.8343951985226222,
+              "task_role_accuracy": 0.8698060941828255,
+              "task_r3": 0.9418282548476454
+            },
+            "17+": {
+              "records": 76,
+              "groups": 69,
+              "correct": 32,
+              "record_top1": 0.42105263157894735,
+              "task_top1": 0.463768115942029,
+              "task_full_mrr": 0.5993349477251385,
+              "task_role_accuracy": 0.7427536231884058,
+              "task_r3": 0.6666666666666666
+            },
+            "9-16": {
+              "records": 294,
+              "groups": 288,
+              "correct": 262,
+              "record_top1": 0.891156462585034,
+              "task_top1": 0.9069444444444444,
+              "task_full_mrr": 0.9431795634920636,
+              "task_role_accuracy": 0.9351851851851853,
+              "task_r3": 0.9756944444444444
+            }
+          },
+          "role_bin": {
+            "<=3": {
+              "records": 259,
+              "groups": 246,
+              "correct": 189,
+              "record_top1": 0.7297297297297297,
+              "task_top1": 0.765040650406504,
+              "task_full_mrr": 0.854866298150014,
+              "task_role_accuracy": 0.9776422764227642,
+              "task_r3": 0.9552845528455285
+            },
+            ">=4": {
+              "records": 472,
+              "groups": 470,
+              "correct": 367,
+              "record_top1": 0.777542372881356,
+              "task_top1": 0.7787234042553192,
+              "task_full_mrr": 0.8570007135775839,
+              "task_role_accuracy": 0.8361702127659575,
+              "task_r3": 0.9170212765957447
+            }
+          }
+        },
+        "strata_fixed120": {
+          "source": {
+            "diagnosed": {
+              "records": 48,
+              "groups": 48,
+              "correct": 19,
+              "record_top1": 0.3958333333333333,
+              "task_top1": 0.3958333333333333,
+              "task_full_mrr": 0.570517908017908,
+              "task_role_accuracy": 0.6875,
+              "task_r3": 0.6666666666666666
+            },
+            "injected": {
+              "records": 72,
+              "groups": 72,
+              "correct": 58,
+              "record_top1": 0.8055555555555556,
+              "task_top1": 0.8055555555555556,
+              "task_full_mrr": 0.8789351851851852,
+              "task_role_accuracy": 0.9861111111111112,
+              "task_r3": 0.9722222222222222
+            }
+          },
+          "domain": {
+            "agentic": {
+              "records": 48,
+              "groups": 48,
+              "correct": 24,
+              "record_top1": 0.5,
+              "task_top1": 0.5,
+              "task_full_mrr": 0.6600185693935693,
+              "task_role_accuracy": 0.8333333333333334,
+              "task_r3": 0.7916666666666666
+            },
+            "coding": {
+              "records": 24,
+              "groups": 24,
+              "correct": 24,
+              "record_top1": 1.0,
+              "task_top1": 1.0,
+              "task_full_mrr": 1.0,
+              "task_role_accuracy": 1.0,
+              "task_r3": 1.0
+            },
+            "math": {
+              "records": 48,
+              "groups": 48,
+              "correct": 29,
+              "record_top1": 0.6041666666666666,
+              "task_top1": 0.6041666666666666,
+              "task_full_mrr": 0.7289021164021164,
+              "task_role_accuracy": 0.8333333333333334,
+              "task_r3": 0.8333333333333334
+            }
+          },
+          "stratum": {
+            "agentic|diagnosed": {
+              "records": 24,
+              "groups": 24,
+              "correct": 12,
+              "record_top1": 0.5,
+              "task_top1": 0.5,
+              "task_full_mrr": 0.6346204721204721,
+              "task_role_accuracy": 0.6666666666666666,
+              "task_r3": 0.6666666666666666
+            },
+            "agentic|injected": {
+              "records": 24,
+              "groups": 24,
+              "correct": 12,
+              "record_top1": 0.5,
+              "task_top1": 0.5,
+              "task_full_mrr": 0.6854166666666667,
+              "task_role_accuracy": 1.0,
+              "task_r3": 0.9166666666666666
+            },
+            "coding|injected": {
+              "records": 24,
+              "groups": 24,
+              "correct": 24,
+              "record_top1": 1.0,
+              "task_top1": 1.0,
+              "task_full_mrr": 1.0,
+              "task_role_accuracy": 1.0,
+              "task_r3": 1.0
+            },
+            "math|diagnosed": {
+              "records": 24,
+              "groups": 24,
+              "correct": 7,
+              "record_top1": 0.2916666666666667,
+              "task_top1": 0.2916666666666667,
+              "task_full_mrr": 0.5064153439153439,
+              "task_role_accuracy": 0.7083333333333334,
+              "task_r3": 0.6666666666666666
+            },
+            "math|injected": {
+              "records": 24,
+              "groups": 24,
+              "correct": 22,
+              "record_top1": 0.9166666666666666,
+              "task_top1": 0.9166666666666666,
+              "task_full_mrr": 0.9513888888888888,
+              "task_role_accuracy": 0.9583333333333334,
+              "task_r3": 1.0
+            }
+          },
+          "length_bin": {
+            "1-8": {
+              "records": 54,
+              "groups": 54,
+              "correct": 39,
+              "record_top1": 0.7222222222222222,
+              "task_top1": 0.7222222222222222,
+              "task_full_mrr": 0.8246913580246914,
+              "task_role_accuracy": 0.9444444444444444,
+              "task_r3": 0.9444444444444444
+            },
+            "17+": {
+              "records": 24,
+              "groups": 24,
+              "correct": 7,
+              "record_top1": 0.2916666666666667,
+              "task_top1": 0.2916666666666667,
+              "task_full_mrr": 0.47288105413105413,
+              "task_role_accuracy": 0.625,
+              "task_r3": 0.5416666666666666
+            },
+            "9-16": {
+              "records": 42,
+              "groups": 42,
+              "correct": 31,
+              "record_top1": 0.7380952380952381,
+              "task_top1": 0.7380952380952381,
+              "task_full_mrr": 0.8282312925170068,
+              "task_role_accuracy": 0.9047619047619048,
+              "task_r3": 0.9047619047619048
+            }
+          },
+          "role_bin": {
+            "<=3": {
+              "records": 57,
+              "groups": 57,
+              "correct": 39,
+              "record_top1": 0.6842105263157895,
+              "task_top1": 0.6842105263157895,
+              "task_full_mrr": 0.7900156373840586,
+              "task_role_accuracy": 0.9473684210526315,
+              "task_r3": 0.8947368421052632
+            },
+            ">=4": {
+              "records": 63,
+              "groups": 63,
+              "correct": 38,
+              "record_top1": 0.6031746031746031,
+              "task_top1": 0.6031746031746031,
+              "task_full_mrr": 0.7244016124968506,
+              "task_role_accuracy": 0.7936507936507936,
+              "task_r3": 0.8095238095238095
+            }
+          }
+        },
+        "errors_full731": {
+          "errors": 175,
+          "correct_role_wrong_step": 87,
+          "wrong_role": 88,
+          "predicted_before_gold": 91,
+          "predicted_after_gold": 84,
+          "mean_absolute_step_error": 1.039671682626539
+        },
+        "errors_fixed120": {
+          "errors": 43,
+          "correct_role_wrong_step": 27,
+          "wrong_role": 16,
+          "predicted_before_gold": 22,
+          "predicted_after_gold": 21,
+          "mean_absolute_step_error": 2.4583333333333335
+        },
+        "folds": [
+          {
+            "outer": 0,
+            "selected_epoch": 5,
+            "seconds": 378.93700000000536
+          },
+          {
+            "outer": 1,
+            "selected_epoch": 8,
+            "seconds": 478.2190000000119
+          },
+          {
+            "outer": 2,
+            "selected_epoch": 5,
+            "seconds": 367.65600000001723
+          },
+          {
+            "outer": 3,
+            "selected_epoch": 7,
+            "seconds": 424.0929999999935
+          },
+          {
+            "outer": 4,
+            "selected_epoch": 18,
+            "seconds": 822.9219999999623
+          }
+        ]
+      }
+    ],
+    "remaining_seeds_evaluated": false,
+    "mechanisms_evaluated": false,
+    "necessary_checks": {
+      "primary120_above77": false,
+      "all4_adjusted_lower_positive": false,
+      "primary_full_no_cached_StepFinder_regression": true
+    },
+    "scope": "repeatedly_reused_development_not_independent_confirmation"
+  }
+}

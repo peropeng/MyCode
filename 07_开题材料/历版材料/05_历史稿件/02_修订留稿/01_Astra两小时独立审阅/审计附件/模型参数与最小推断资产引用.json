@@ -1,0 +1,820 @@
+{
+  "at_UTC": "2026-10-12T10:03:10.783091+00:00",
+  "code_and_config_refs": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\context_models.py",
+      "exists": true,
+      "bytes": 5393,
+      "sha256": "be5a8865982d67c5971ed5856ec37d6713fb849e29b21e4e3c22ac380f729dd4"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\sources\\original_models.py",
+      "exists": true,
+      "bytes": 4953,
+      "sha256": "7c7ae203c5098da27371719a2fac5b0e4ddc53f6ab54fada2a2a158cc9098595"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\sources\\owned_exp130_model.py",
+      "exists": true,
+      "bytes": 2160,
+      "sha256": "81dbfa7503b61659d0faf12be132b00eddb770b23bfb4e77ccfcdc96e2118a44"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\sources\\stepfinder_model.py",
+      "exists": true,
+      "bytes": 11668,
+      "sha256": "96ea4dce3a76a9a730d59c7aac1954c6d5f9f2d449c55c5e3b6d9092c00c0c5a"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\data153.py",
+      "exists": true,
+      "bytes": 8189,
+      "sha256": "72efad8128af981de8eee467805d5942852eb8d85c8ba68a21d32a1d0e081ca3"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\trainer153.py",
+      "exists": true,
+      "bytes": 15288,
+      "sha256": "ee9898cb4420465d0eee9db0e09b7204375772f2db58dba1c81e4b5a405ba841"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\predict153.py",
+      "exists": true,
+      "bytes": 7546,
+      "sha256": "70c16337dbf34e18ea23a7ac6d49df9c52c35c916becfaf8e77a499c3792cfd5"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\protocol.json",
+      "exists": true,
+      "bytes": 6158977,
+      "sha256": "df0d54673756f410443d2325842abffe46efd62e01e05b8d6de29e06d643d5aa"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\approved_plan.json",
+      "exists": true,
+      "bytes": 16578,
+      "sha256": "0521e7ed973b083872808139fa54f9b313b290d9204bcb0c3db71bdb28de3713"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\all_models_sealed.json",
+      "exists": true,
+      "bytes": 547012,
+      "sha256": "06cbcf6e087f78f2dd2c59ca948db03a1c5ce77c07933a78b32c2edff44e6b58"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\common.py",
+      "exists": true,
+      "bytes": 5378,
+      "sha256": "ba1b4535831a76ac22a0c360161a309453e44dcc1f8b21391b6862862f8da17b"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\models158.py",
+      "exists": true,
+      "bytes": 2521,
+      "sha256": "1a63f61bdf1fb4c3c38e2ba12f92016fe98d79f42adf965c99d0980558f53cea"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\trainer158.py",
+      "exists": true,
+      "bytes": 14160,
+      "sha256": "80f750c8625f87de999a2bedbc7a6ad3c3d0027fe1120079bdc96d93085e852b"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\validation_selection_decisions.json",
+      "exists": true,
+      "bytes": 72649,
+      "sha256": "eadd99ba97cff937c7e13cc5540ec4650e7d0a1f4b5a03bd734cf91b86105816"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp191-public-rank-output-interface\\实验\\实验191_十五题公开排序与约束输出接口资格\\ranking_prepare178.py",
+      "exists": true,
+      "bytes": 25459,
+      "sha256": "76f9dd50a9602c4eaf2c3fb1f3393e85d52c6eca17be001065401ab536784b12"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\sources\\model_adapters.py",
+      "exists": true,
+      "bytes": 21906,
+      "sha256": "5e671b1c86a906744cb8905f9d2309c61d103a4b5f479b22e882473d09a61bb3"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验88_责任桥_去错误词与长度资格\\runner.py",
+      "exists": true,
+      "bytes": 38567,
+      "sha256": "e6cc523e9d1da8328face122b216492d130ab51eb2afe7b099d87dee9798ed54"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验112_RQ1时序交互依赖完整排序\\runner.py",
+      "exists": true,
+      "bytes": 69443,
+      "sha256": "ab02c95823bdd6baaa5d3cf7c7d467fbcfaa8743788a91820b4de55be87dc9df"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp133-state-action\\实验\\实验133_状态动作选择性核验\\method.py",
+      "exists": true,
+      "bytes": 11000,
+      "sha256": "523d73d589fef9d3f3f180d86c3f961bfaf6abf0d5bb422ecbb48c08a99802f1"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp124-ranking-baselines\\third_party\\StepFinder\\Q3Emb.py",
+      "exists": true,
+      "bytes": 3163,
+      "sha256": "6a6fa26c53d8b47d7bd851e0971960b540b59ea79ddc7300961872b3cd7d3189"
+    }
+  ],
+  "SF_source_inner_validation_selected_checkpoints": [
+    {
+      "seed": 20261006,
+      "chosen_preset": "SF_ALG_PAPER50",
+      "epoch": 23,
+      "config": {
+        "parameters": 277633,
+        "lr": 0.001,
+        "alpha": 0.1,
+        "beta": 0.9,
+        "gamma": 0.4,
+        "lambda_temporal": 0.9,
+        "scales": [
+          1,
+          2
+        ],
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\training\\source\\SF_ALG_PAPER50\\20261006\\source_fit_selected.pt",
+        "exists": true,
+        "bytes": 1162804,
+        "sha256": "acec9c4449bac3a9af06b7cf8558d02d75178fbac913d337cda67c510fc9ee09"
+      },
+      "expected_sha256": "acec9c4449bac3a9af06b7cf8558d02d75178fbac913d337cda67c510fc9ee09",
+      "matches": true
+    },
+    {
+      "seed": 20261007,
+      "chosen_preset": "SF_ALG_PAPER50",
+      "epoch": 14,
+      "config": {
+        "parameters": 277633,
+        "lr": 0.001,
+        "alpha": 0.1,
+        "beta": 0.9,
+        "gamma": 0.4,
+        "lambda_temporal": 0.9,
+        "scales": [
+          1,
+          2
+        ],
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\training\\source\\SF_ALG_PAPER50\\20261007\\source_fit_selected.pt",
+        "exists": true,
+        "bytes": 1162804,
+        "sha256": "bac162809702d9c6385615b7a0d23fb5def6786626ead44fe5f19bebf8cc151c"
+      },
+      "expected_sha256": "bac162809702d9c6385615b7a0d23fb5def6786626ead44fe5f19bebf8cc151c",
+      "matches": true
+    },
+    {
+      "seed": 20261008,
+      "chosen_preset": "SF_ALG_PAPER50",
+      "epoch": 20,
+      "config": {
+        "parameters": 277633,
+        "lr": 0.001,
+        "alpha": 0.1,
+        "beta": 0.9,
+        "gamma": 0.4,
+        "lambda_temporal": 0.9,
+        "scales": [
+          1,
+          2
+        ],
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\training\\source\\SF_ALG_PAPER50\\20261008\\source_fit_selected.pt",
+        "exists": true,
+        "bytes": 1162804,
+        "sha256": "8de3237b7046f922cea9621d3f7eeb4cceaddeb03d177642df807f11bd1fef47"
+      },
+      "expected_sha256": "8de3237b7046f922cea9621d3f7eeb4cceaddeb03d177642df807f11bd1fef47",
+      "matches": true
+    }
+  ],
+  "source3_checkpoints": [
+    {
+      "at_utc": "2026-10-06T18:26:15.307115+00:00",
+      "suite": "source",
+      "arm": "AB_GLOBAL",
+      "seed": 20261006,
+      "outer": null,
+      "stage": "source_fit",
+      "selected_epoch": 6,
+      "completed_epochs": 14,
+      "updates": 434,
+      "checkpoint": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\source\\AB_GLOBAL\\20261006\\source_fit_selected.pt",
+      "checkpoint_sha256": "846823beb81667686ebe1229ddd1cc7bd6857c9985213b698c599c92a00dd988",
+      "fit_ids_sha256": "60e44848b82d9735351f20a632fb36531ad8989955186f13619e4df796c97760",
+      "validation_ids_sha256": "e611fd72ff598b796d834050b0976603fcc14a9e14f357233f40ea027581da4d",
+      "scaler_mean_sha256": "7d5d62ba3f46c62e7b67686d42f9783af5af4fdf40d39ac2e6ec3cd79e704fde",
+      "scaler_fit_only": true,
+      "held_labels_used_for_selection": 0,
+      "protocol_sha256": "df0d54673756f410443d2325842abffe46efd62e01e05b8d6de29e06d643d5aa",
+      "elapsed_seconds": 11.313000000023749,
+      "record_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\source\\AB_GLOBAL\\20261006\\source_fit.json",
+      "record_sha256": "5d92f190dda6ecade631b6af48254012a13bb64ce187f733531246a5caf3dbba",
+      "checkpoint_actual_sha256": "846823beb81667686ebe1229ddd1cc7bd6857c9985213b698c599c92a00dd988",
+      "checkpoint_current_hash_matches": true
+    },
+    {
+      "at_utc": "2026-10-06T18:26:26.650913+00:00",
+      "suite": "source",
+      "arm": "AB_GLOBAL",
+      "seed": 20261007,
+      "outer": null,
+      "stage": "source_fit",
+      "selected_epoch": 6,
+      "completed_epochs": 14,
+      "updates": 434,
+      "checkpoint": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\source\\AB_GLOBAL\\20261007\\source_fit_selected.pt",
+      "checkpoint_sha256": "48418cf521a4dc3a19c8b1a0180c04d7c1968c5759cbb9acb817b1ad3d257c91",
+      "fit_ids_sha256": "60e44848b82d9735351f20a632fb36531ad8989955186f13619e4df796c97760",
+      "validation_ids_sha256": "e611fd72ff598b796d834050b0976603fcc14a9e14f357233f40ea027581da4d",
+      "scaler_mean_sha256": "7d5d62ba3f46c62e7b67686d42f9783af5af4fdf40d39ac2e6ec3cd79e704fde",
+      "scaler_fit_only": true,
+      "held_labels_used_for_selection": 0,
+      "protocol_sha256": "df0d54673756f410443d2325842abffe46efd62e01e05b8d6de29e06d643d5aa",
+      "elapsed_seconds": 11.28200000000652,
+      "record_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\source\\AB_GLOBAL\\20261007\\source_fit.json",
+      "record_sha256": "8f7071f4b81bc9a4319a185e45aee358c6625d698c1ab7b9e6436075ec91f817",
+      "checkpoint_actual_sha256": "48418cf521a4dc3a19c8b1a0180c04d7c1968c5759cbb9acb817b1ad3d257c91",
+      "checkpoint_current_hash_matches": true
+    },
+    {
+      "at_utc": "2026-10-06T18:26:35.776947+00:00",
+      "suite": "source",
+      "arm": "AB_GLOBAL",
+      "seed": 20261008,
+      "outer": null,
+      "stage": "source_fit",
+      "selected_epoch": 3,
+      "completed_epochs": 11,
+      "updates": 341,
+      "checkpoint": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\source\\AB_GLOBAL\\20261008\\source_fit_selected.pt",
+      "checkpoint_sha256": "c40672c720c3c78d7cf3d2dbf37d99d696312f15ece9047bbd04b1c3769dd902",
+      "fit_ids_sha256": "60e44848b82d9735351f20a632fb36531ad8989955186f13619e4df796c97760",
+      "validation_ids_sha256": "e611fd72ff598b796d834050b0976603fcc14a9e14f357233f40ea027581da4d",
+      "scaler_mean_sha256": "7d5d62ba3f46c62e7b67686d42f9783af5af4fdf40d39ac2e6ec3cd79e704fde",
+      "scaler_fit_only": true,
+      "held_labels_used_for_selection": 0,
+      "protocol_sha256": "df0d54673756f410443d2325842abffe46efd62e01e05b8d6de29e06d643d5aa",
+      "elapsed_seconds": 9.063000000023749,
+      "record_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\source\\AB_GLOBAL\\20261008\\source_fit.json",
+      "record_sha256": "0a329024f03ba88b012b55a3853e320689de213bc25f960b942085b1453785e7",
+      "checkpoint_actual_sha256": "c40672c720c3c78d7cf3d2dbf37d99d696312f15ece9047bbd04b1c3769dd902",
+      "checkpoint_current_hash_matches": true
+    }
+  ],
+  "AF15_model_refs": [
+    {
+      "seed": 20260816,
+      "outer": 0,
+      "epoch": 29,
+      "record_counts": [
+        442,
+        145,
+        587,
+        144
+      ],
+      "group_counts": [
+        429,
+        143,
+        572,
+        144
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260816_0\\refit_checkpoint.pt",
+        "SHA256": "7266d91b87f35496a2e489bce398fcb1c3e056d59561e0375cf39d86bb69316a",
+        "bytes": 1424559
+      }
+    },
+    {
+      "seed": 20260816,
+      "outer": 1,
+      "epoch": 14,
+      "record_counts": [
+        442,
+        144,
+        586,
+        145
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260816_1\\refit_checkpoint.pt",
+        "SHA256": "62c5c87be5e5ec1801b6d0dbd555868cea03972a9e6dccbf11f16dfa88b1c728",
+        "bytes": 1424559
+      }
+    },
+    {
+      "seed": 20260816,
+      "outer": 2,
+      "epoch": 20,
+      "record_counts": [
+        441,
+        144,
+        585,
+        146
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260816_2\\refit_checkpoint.pt",
+        "SHA256": "badaaaf1ad7c4a904c9311ca01353042977c80958ad4a1fdeb26393e230a04d5",
+        "bytes": 1424495
+      }
+    },
+    {
+      "seed": 20260816,
+      "outer": 3,
+      "epoch": 12,
+      "record_counts": [
+        434,
+        144,
+        578,
+        153
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260816_3\\refit_checkpoint.pt",
+        "SHA256": "6aacfdd40ec0038a31506faeb661dc7f6934c8ce18b58328312c1fe8dedc1e3a",
+        "bytes": 1424431
+      }
+    },
+    {
+      "seed": 20260816,
+      "outer": 4,
+      "epoch": 13,
+      "record_counts": [
+        444,
+        144,
+        588,
+        143
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260816_4\\refit_checkpoint.pt",
+        "SHA256": "48ff6f60b7b4f0d8a38c5781e69de1b534ad946140ef5faa766581e3cd10cd74",
+        "bytes": 1424559
+      }
+    },
+    {
+      "seed": 20260817,
+      "outer": 0,
+      "epoch": 13,
+      "record_counts": [
+        434,
+        150,
+        584,
+        147
+      ],
+      "group_counts": [
+        429,
+        143,
+        572,
+        144
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260817_0\\refit_checkpoint.pt",
+        "SHA256": "db4b1372b11cf213f1969bb520a59c5864a64ecc086a7c4ac5196739fef4dc3b",
+        "bytes": 1424495
+      }
+    },
+    {
+      "seed": 20260817,
+      "outer": 1,
+      "epoch": 8,
+      "record_counts": [
+        434,
+        147,
+        581,
+        150
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260817_1\\refit_checkpoint.pt",
+        "SHA256": "8cbb71cbfeffe64552945c8dab8f4cec8a10064d7382b3418e3f2366c94c95c8",
+        "bytes": 1424431
+      }
+    },
+    {
+      "seed": 20260817,
+      "outer": 2,
+      "epoch": 10,
+      "record_counts": [
+        439,
+        147,
+        586,
+        145
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260817_2\\refit_checkpoint.pt",
+        "SHA256": "85ccac6ad7d048bf64b56716b91e666e1539822a068474c0f9f28db9dfe26290",
+        "bytes": 1424559
+      }
+    },
+    {
+      "seed": 20260817,
+      "outer": 3,
+      "epoch": 8,
+      "record_counts": [
+        441,
+        147,
+        588,
+        143
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260817_3\\refit_checkpoint.pt",
+        "SHA256": "022d25e4fd4a469fffd5cb6cbd679d0d6651ecee4354007108ea68fea8bd1070",
+        "bytes": 1424559
+      }
+    },
+    {
+      "seed": 20260817,
+      "outer": 4,
+      "epoch": 6,
+      "record_counts": [
+        438,
+        147,
+        585,
+        146
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260817_4\\refit_checkpoint.pt",
+        "SHA256": "d5fc03728a0cac17eb8a3b48636cbe73628e6866f6cc9b6a0266418bf1de672f",
+        "bytes": 1424495
+      }
+    },
+    {
+      "seed": 20260818,
+      "outer": 0,
+      "epoch": 8,
+      "record_counts": [
+        437,
+        147,
+        584,
+        147
+      ],
+      "group_counts": [
+        429,
+        143,
+        572,
+        144
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260818_0\\refit_checkpoint.pt",
+        "SHA256": "90f2a4f37474dcc9c7229c8525492cfaaee8703a503ece2f696904344b78c77d",
+        "bytes": 1424495
+      }
+    },
+    {
+      "seed": 20260818,
+      "outer": 1,
+      "epoch": 9,
+      "record_counts": [
+        437,
+        147,
+        584,
+        147
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260818_1\\refit_checkpoint.pt",
+        "SHA256": "b70a223af38cc9fdc20f3efd9f66c0aa096fb59ea0d414f49828e8cdb3a0f537",
+        "bytes": 1424495
+      }
+    },
+    {
+      "seed": 20260818,
+      "outer": 2,
+      "epoch": 8,
+      "record_counts": [
+        441,
+        147,
+        588,
+        143
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260818_2\\refit_checkpoint.pt",
+        "SHA256": "8b0b92a9ad7dcd4ebb36aba23f60e27f759e953269ead44d489a96f3a64c8cf0",
+        "bytes": 1424559
+      }
+    },
+    {
+      "seed": 20260818,
+      "outer": 3,
+      "epoch": 8,
+      "record_counts": [
+        437,
+        147,
+        584,
+        147
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260818_3\\refit_checkpoint.pt",
+        "SHA256": "66a751c550384f6b1b288b98382bcb5e70cd280894b2cf539b794cf4bd6b0354",
+        "bytes": 1424495
+      }
+    },
+    {
+      "seed": 20260818,
+      "outer": 4,
+      "epoch": 9,
+      "record_counts": [
+        437,
+        147,
+        584,
+        147
+      ],
+      "group_counts": [
+        429,
+        144,
+        573,
+        143
+      ],
+      "inner_fit_validation_overlap": 0,
+      "refit_held_overlap": 0,
+      "group_inner_overlap": 0,
+      "group_outer_overlap": 0,
+      "refit_is_fit_union_validation": true,
+      "all731_partitioned": true,
+      "checkpoint": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\training\\AF\\AB_GLOBAL\\20260818_4\\refit_checkpoint.pt",
+        "SHA256": "c6c7d3f82e475caf4541d2f37ece22be2808eea60127ef5f3772772764778237",
+        "bytes": 1424495
+      }
+    }
+  ],
+  "original_software_feature_event_links": [
+    {
+      "sample_id": "Project-MONAI__MONAI-2238",
+      "steps": 9,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "dask__dask-9378",
+      "steps": 12,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "getmoto__moto-7081",
+      "steps": 24,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "pydantic__pydantic-8567",
+      "steps": 28,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "getmoto__moto-5072",
+      "steps": 10,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "getmoto__moto-5134",
+      "steps": 27,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "getmoto__moto-5286",
+      "steps": 15,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "getmoto__moto-7317",
+      "steps": 29,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "getmoto__moto-6212",
+      "steps": 16,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    },
+    {
+      "sample_id": "getmoto__moto-6352",
+      "steps": 8,
+      "event_link_count": 0,
+      "receipt": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+        "exists": true,
+        "bytes": 7454,
+        "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+      }
+    }
+  ],
+  "runtime_python_candidate": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp124-ranking-baselines\\.venv\\Scripts\\python.exe",
+  "runtime_python_candidate_exists": true,
+  "imports_models_native_Gold_runs": 0,
+  "minimal_safe_import_pattern": "Exp191 ranking_prepare178.py models_scoped(): common shim E/CONTEXT_ARMS + 4 pure model sources, no trainer/data/legacy run"
+}

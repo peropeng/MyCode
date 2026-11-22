@@ -1,0 +1,569 @@
+{
+  "schema": "Root-four-hour-continuous-finance-and-resume-receipt/1",
+  "as_of_UTC": "2026-10-12T14:09:05.223880+00:00",
+  "window_stage": "WINDOW_CLOSED_AT_OR_AFTER_ORIGINAL_DEADLINE",
+  "window": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\SCIENCE_T0_WINDOW_ROOT.json",
+    "sha256": "b39c06843cc9a936939fcbf0489d64758f015b6facfcc72c557c674703addd40"
+  },
+  "ledger": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1003-diagnosis-investigation\\exp132_review\\new_window_2332\\finance\\shared_flash_budget.json",
+    "sha256": "7028a495741bcab6843a560dd2214743a88ccaff994dec8996f46ccaa069a154"
+  },
+  "ledger_total_records": 4870,
+  "old_4843_records_preserved": true,
+  "new_window_settled_calls": 27,
+  "new_window_cost_upper_CNY": "0.45924094",
+  "task_cost_upper_CNY": {
+    "getmoto__moto-5134": "0.21202918",
+    "getmoto__moto-7081": "0.24134996",
+    "af_0478": "0.00334456",
+    "af_0598": "0.00251724"
+  },
+  "global_cost_upper_CNY": "30.59891152",
+  "old_unknown4842_status": "UNKNOWN_FULL_RESERVATION_RETAINED",
+  "old_unknown4842_full_held_CNY": "0.533734",
+  "old_unknown4842_body_SHA256": "04a1ea8cc766bbd080730043e4b46861c2d51e97aabbff1c45f59d8cae09154f",
+  "old_unknown4842_no_resend_no_release": true,
+  "old_settled4843_no_rePOST": true,
+  "new_unknown_or_inflight": 0,
+  "available_balance_GET_CNY": "〔账户余额已移至完整受保护原件〕",
+  "balance_GET_not_invoice_or_unknown_reconciliation": true,
+  "window_cap_CNY": "2.25",
+  "source_budget_amendment": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_RESOURCE_V2_BUDGET_AMENDMENT.json",
+    "sha256": "4eae1671b0540b3ec1f2df61a0bd25f7a8b66511312ba49b11ed75fe2d7d5ff7"
+  },
+  "registered_model_flow_namespaces": 18,
+  "closed_model_flow_namespaces": 18,
+  "actual_once_independent_acceptance_calls": 8,
+  "all_eight_private_native_true_STOP": true,
+  "all_generators_closed_no_repeat_sampling": true,
+  "resume_policy": "No old unknown/inflight body may be sent. Settled responses are immutable. Closed flows cannot resume. New independent scientific runs require a new prospective protocol and authority.",
+  "new_calls": [
+    {
+      "ordinal": 4844,
+      "isolation_namespace": "POSTREVIEW260_MOTO5134_TRIAL1_SOURCE3_ROOT_R3",
+      "task_id": "getmoto__moto-5134",
+      "trial_id": "trial1",
+      "method": "SOURCE3",
+      "call_ordinal": 1,
+      "logical_call_id": "b6d5ef90211869e989dd0e9917e2d0475255886e72e6f922bc325de22df7628b",
+      "body_SHA256": "2f0c88637e11bab0b58d4a8e6b1d8f779c58122aaca5dd5c34aaca79a697c68d",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.12935912",
+      "owner_PID": 41920,
+      "owner_birth": "134362801232005425",
+      "fresh_flow_id": "POSTREVIEW260_MOTO5134_TRIAL1_SOURCE3_ROOT_R3",
+      "original_T0_monotonic": 213209.656
+    },
+    {
+      "ordinal": 4845,
+      "isolation_namespace": "POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R4",
+      "task_id": "getmoto__moto-5134",
+      "trial_id": "trial1",
+      "method": "SF_ALG50",
+      "call_ordinal": 1,
+      "logical_call_id": "5151fcd7e1793129653515345129007a20fb1036bfc947766b3bfc1bb0b1bb49",
+      "body_SHA256": "ecca73ff2b7e0da71be48d37d682d1b69737b42b61cb41f0b128fd28ee261377",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.02142148",
+      "owner_PID": 41464,
+      "owner_birth": "134362808381856544",
+      "fresh_flow_id": "POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R4",
+      "original_T0_monotonic": 213259.5
+    },
+    {
+      "ordinal": 4846,
+      "isolation_namespace": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SF_ALG50",
+      "task_id": "getmoto__moto-5134",
+      "trial_id": "trial2",
+      "method": "SF_ALG50",
+      "call_ordinal": 1,
+      "logical_call_id": "4f81efd1ac38dc11e8fbd6b0fe20387c37e1ba8036b56323d00d1d435b459de7",
+      "body_SHA256": "e277caf9a8094ebc3018fdba0343281b7f9d79ad16eb6ad6c84504ba0431053d",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00540614",
+      "owner_PID": 41900,
+      "owner_birth": "134362839062444984",
+      "fresh_flow_id": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SF_ALG50",
+      "original_T0_monotonic": 217702.156
+    },
+    {
+      "ordinal": 4847,
+      "isolation_namespace": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_NO_DIAG",
+      "task_id": "getmoto__moto-5134",
+      "trial_id": "trial2",
+      "method": "NO_DIAG",
+      "call_ordinal": 1,
+      "logical_call_id": "913d4082e4ce443871f8bd2648650d7778b7af80e64f22fbb6d2f6d4721bd47f",
+      "body_SHA256": "87ba3e94becbca2ce41755caa96ea08dd9f6eb57d7d162d5b080658e44173b15",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.02254148",
+      "owner_PID": 40544,
+      "owner_birth": "134362839062450430",
+      "fresh_flow_id": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_NO_DIAG",
+      "original_T0_monotonic": 217705.484
+    },
+    {
+      "ordinal": 4848,
+      "isolation_namespace": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SF_ALG50",
+      "task_id": "getmoto__moto-5134",
+      "trial_id": "trial2",
+      "method": "SF_ALG50",
+      "call_ordinal": 2,
+      "logical_call_id": "a67f567745788ca73763c9ea3bbe42421fbbb4158297b93a911dc6dceab28887",
+      "body_SHA256": "8eb9a632fe078850213e41dd5500a538e4f2f49944351aa4f41b89f47afee880",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.02733848",
+      "owner_PID": 41900,
+      "owner_birth": "134362839062444984",
+      "fresh_flow_id": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SF_ALG50",
+      "original_T0_monotonic": 217702.156
+    },
+    {
+      "ordinal": 4849,
+      "isolation_namespace": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SOURCE3",
+      "task_id": "getmoto__moto-5134",
+      "trial_id": "trial2",
+      "method": "SOURCE3",
+      "call_ordinal": 1,
+      "logical_call_id": "6b2dec4439feebe44f3270a4ea4f3e1818d0b75717996696369d84fe62273730",
+      "body_SHA256": "58ba98c65101b9478338074c383ba1d7a44898fd30fd02ec946e94cb3fa6d085",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00596248",
+      "owner_PID": 22264,
+      "owner_birth": "134362839062450809",
+      "fresh_flow_id": "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SOURCE3",
+      "original_T0_monotonic": 217708.562
+    },
+    {
+      "ordinal": 4850,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_COUNT",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial1",
+      "method": "OURS248_FULL_PRESSURE_COUNT",
+      "call_ordinal": 1,
+      "logical_call_id": "89dcf933c4a66560ea7285286466b6f03b0c5798b9cfd636a566aeb4eae6a9af",
+      "body_SHA256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.0971038",
+      "owner_PID": 39464,
+      "owner_birth": "134362843641639401",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_COUNT",
+      "original_T0_monotonic": 218158.031
+    },
+    {
+      "ordinal": 4851,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_O_ONLY",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial1",
+      "method": "OURS248_FULL_PRESSURE_O_ONLY",
+      "call_ordinal": 1,
+      "logical_call_id": "3f8e4eee69cf1be6f7b22f6e59814b361fbbf0a23ccfc718fa78a4c07ee4408e",
+      "body_SHA256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.005519",
+      "owner_PID": 17464,
+      "owner_birth": "134362843940970753",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_O_ONLY",
+      "original_T0_monotonic": 218203.843
+    },
+    {
+      "ordinal": 4852,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_SET",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial1",
+      "method": "OURS248_FULL_PRESSURE_SET",
+      "call_ordinal": 1,
+      "logical_call_id": "b9853f9f561dff6ea1bb568eb3393f5eb47ac1f569c9cb30da69db11b0b6ae90",
+      "body_SHA256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.003543",
+      "owner_PID": 33540,
+      "owner_birth": "134362843105831431",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_SET",
+      "original_T0_monotonic": 218125.625
+    },
+    {
+      "ordinal": 4853,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_O_ONLY",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial1",
+      "method": "OURS248_FULL_PRESSURE_O_ONLY",
+      "call_ordinal": 2,
+      "logical_call_id": "4da80d3ad4edde10794623571c82ec715e5d4b7625929679c9b1f08505eed890",
+      "body_SHA256": "99e5096ff1c54bee235b63cf2c0e3ed24f3b4318b18c834ab64b47ea6f514cc7",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.05564944",
+      "owner_PID": 17464,
+      "owner_birth": "134362843940970753",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_O_ONLY",
+      "original_T0_monotonic": 218203.843
+    },
+    {
+      "ordinal": 4854,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "method": "OURS248_FULL_PRESSURE_COUNT",
+      "call_ordinal": 1,
+      "logical_call_id": "04c6c963eeb21490028647368d54a8303c38cd12bb37975414ad03cb569cff7f",
+      "body_SHA256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.003403",
+      "owner_PID": 9804,
+      "owner_birth": "134362852225963476",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT",
+      "original_T0_monotonic": 219021.156
+    },
+    {
+      "ordinal": 4855,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_O_ONLY",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "method": "OURS248_FULL_PRESSURE_O_ONLY",
+      "call_ordinal": 1,
+      "logical_call_id": "dc9f8bdcbaa743a5044350b4764e4254cafdd785f008b2a5a3909a4f1612a30c",
+      "body_SHA256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.003603",
+      "owner_PID": 19448,
+      "owner_birth": "134362852392099746",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_O_ONLY",
+      "original_T0_monotonic": 219062.093
+    },
+    {
+      "ordinal": 4856,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_SET",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "method": "OURS248_FULL_PRESSURE_SET",
+      "call_ordinal": 1,
+      "logical_call_id": "16059a4dea2de332d390e43315131f3eb7588d5b3e07ec4ab1bac43f96c76ccf",
+      "body_SHA256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.003403",
+      "owner_PID": 36444,
+      "owner_birth": "134362851815633542",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_SET",
+      "original_T0_monotonic": 219004.359
+    },
+    {
+      "ordinal": 4857,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "method": "OURS248_FULL_PRESSURE_COUNT",
+      "call_ordinal": 2,
+      "logical_call_id": "34677033ecbdcb49aacb897b04eeb38cbda6901d456b2f44e5169f0d82f3996c",
+      "body_SHA256": "7f4d8cf3d9853a7d8555785477f06df6583abfaeebffdf3ff4c7323c2c83aa0f",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.03313392",
+      "owner_PID": 9804,
+      "owner_birth": "134362852225963476",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT",
+      "original_T0_monotonic": 219021.156
+    },
+    {
+      "ordinal": 4858,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial2",
+      "method": "OURS248_FULL_PRESSURE_COUNT",
+      "call_ordinal": 3,
+      "logical_call_id": "390fd9231a7e37857029635f4c21107cf744fe64e76fe9a0925c634804209999",
+      "body_SHA256": "1ff19fbb6989c8e263a8d22c5ffa19fdca682308604d11214919982970b40c23",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.0253548",
+      "owner_PID": 9804,
+      "owner_birth": "134362852225963476",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT",
+      "original_T0_monotonic": 219021.156
+    },
+    {
+      "ordinal": 4859,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_O_ONLY",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial3",
+      "method": "OURS248_FULL_PRESSURE_O_ONLY",
+      "call_ordinal": 1,
+      "logical_call_id": "bc8dc0aefa8041f5f265240c8ae3e4a1e56420c5f233d1171564bf9bfabae913",
+      "body_SHA256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.003879",
+      "owner_PID": 32496,
+      "owner_birth": "134362858307696405",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_O_ONLY",
+      "original_T0_monotonic": 219654.703
+    },
+    {
+      "ordinal": 4860,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_SET",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial3",
+      "method": "OURS248_FULL_PRESSURE_SET",
+      "call_ordinal": 1,
+      "logical_call_id": "ec380f4c21df75150c365a343976708519ac18b6d80d6a70b0f8baea4a6beb09",
+      "body_SHA256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.003467",
+      "owner_PID": 25852,
+      "owner_birth": "134362857772242647",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_SET",
+      "original_T0_monotonic": 219600.921
+    },
+    {
+      "ordinal": 4861,
+      "isolation_namespace": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_COUNT",
+      "task_id": "getmoto__moto-7081",
+      "trial_id": "trial3",
+      "method": "OURS248_FULL_PRESSURE_COUNT",
+      "call_ordinal": 1,
+      "logical_call_id": "eca7aa09ae53262306e91dcf4d12e1d3402beefa2696a6ad0d1ae06125f78034",
+      "body_SHA256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.003291",
+      "owner_PID": 41936,
+      "owner_birth": "134362858149937234",
+      "fresh_flow_id": "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_COUNT",
+      "original_T0_monotonic": 219616.937
+    },
+    {
+      "ordinal": 4862,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "task_id": "af_0478",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 1,
+      "logical_call_id": "8f6d611ad7161adbe8e46122db2756fa7decfb5ad6a59c1623e0db42c417bdb5",
+      "body_SHA256": "033da8218259eb9383c96b3a945bd626d8506c0b1b9313969600f403e9e243e7",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.000554",
+      "owner_PID": 35548,
+      "owner_birth": "134362871746547253",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "original_T0_monotonic": 221004.515
+    },
+    {
+      "ordinal": 4863,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "task_id": "af_0598",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 1,
+      "logical_call_id": "5308c3221e8f4728d204a2cb2bd7c86fb30483957fb3c8eb3cebb7511800c9f2",
+      "body_SHA256": "829e4442dddfc032d85429caf7f3ca81a02a235db49844f46f0e9c7d4ef5953b",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00045",
+      "owner_PID": 18240,
+      "owner_birth": "134362871644737019",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "original_T0_monotonic": 220994.328
+    },
+    {
+      "ordinal": 4864,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "task_id": "af_0478",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 2,
+      "logical_call_id": "8ca3d06e66b8f09cee814f9d5073fd0c7249b70cfba5ed23bf20158f4925a930",
+      "body_SHA256": "e522c39101c80da2fe09f7d91c1d318416204ae0796363fcbc54eee59d827ef3",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00085",
+      "owner_PID": 35548,
+      "owner_birth": "134362871746547253",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "original_T0_monotonic": 221004.515
+    },
+    {
+      "ordinal": 4865,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "task_id": "af_0598",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 2,
+      "logical_call_id": "329b0ce8ad1b871b4c6eb0eb19ff7a2a298222f445781e61efe00699b3b17b7c",
+      "body_SHA256": "0999ddd6beaf81e93ff9ecc184d42031bbb7e308df0bad1632a02638c7d5dba0",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00064256",
+      "owner_PID": 18240,
+      "owner_birth": "134362871644737019",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "original_T0_monotonic": 220994.328
+    },
+    {
+      "ordinal": 4866,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "task_id": "af_0478",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 3,
+      "logical_call_id": "ad73ad5ec6dfe2ede6bbe520916507086f6f42df4f5b7910c00c3ff715655276",
+      "body_SHA256": "8edfdd450e4249eb6053300493f479bcd1d8dedd16a01a5af2ab494b870ca6aa",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.000681",
+      "owner_PID": 35548,
+      "owner_birth": "134362871746547253",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "original_T0_monotonic": 221004.515
+    },
+    {
+      "ordinal": 4867,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "task_id": "af_0598",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 3,
+      "logical_call_id": "fc09ff453f728d82fee2d81f73b430ac0f2d632388d63ea01361562ff9ed3b04",
+      "body_SHA256": "8b371b37cfe50dbc995d165a4cf290573ff7734194f0ab437ca706c9119ba9ae",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00074956",
+      "owner_PID": 18240,
+      "owner_birth": "134362871644737019",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "original_T0_monotonic": 220994.328
+    },
+    {
+      "ordinal": 4868,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "task_id": "af_0478",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 4,
+      "logical_call_id": "5722dbd6fc5ac14029b616654da5fb152b0ddf2f54cb0128e2e6de312ff61089",
+      "body_SHA256": "f57d6f07324e04fba421245f1d7755e1c21e6f8e154ffccf3d06f6761fcf9b75",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.000649",
+      "owner_PID": 35548,
+      "owner_birth": "134362871746547253",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "original_T0_monotonic": 221004.515
+    },
+    {
+      "ordinal": 4869,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "task_id": "af_0598",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 4,
+      "logical_call_id": "22f01d0bc1800895d726bcbea63d97e92dfcaef435d2c245f67fc3a45a09e0e4",
+      "body_SHA256": "e14507c4e845d2bc96892a65817fced8a1522bf25ec1b63c5a393f7e493effea",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00067512",
+      "owner_PID": 18240,
+      "owner_birth": "134362871644737019",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1",
+      "original_T0_monotonic": 220994.328
+    },
+    {
+      "ordinal": 4870,
+      "isolation_namespace": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "task_id": "af_0478",
+      "trial_id": "trial1",
+      "method": "SBS_ICML2025_NOANSWER_FLASH",
+      "call_ordinal": 5,
+      "logical_call_id": "3c372841cf6c240f7271f670476e12c3c7068356ffbde82744c990c6e537310d",
+      "body_SHA256": "709f0e994302003aba1542d185839c9798009558b0f8d020c4189e0940e050d9",
+      "status": "SETTLED",
+      "usage_accounting_upper_CNY": "0.00061056",
+      "owner_PID": 35548,
+      "owner_birth": "134362871746547253",
+      "fresh_flow_id": "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1",
+      "original_T0_monotonic": 221004.515
+    }
+  ],
+  "namespace_close_proofs": {
+    "POSTREVIEW260_MOTO5134_TRIAL1_NO_DIAG_ROOT_R3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\NO_DIAG\\ROOT_AUTHORITY_R3\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "8991efba729805e0f666d1b5a348260025e89bd08340effa56ac4a3781cb4b2a"
+    },
+    "POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SF_ALG50\\ROOT_AUTHORITY_R3\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "c040633bf9a6c5cef535cdd6969a611521646ea6a6a4a9446f3ce7d9b3087b80"
+    },
+    "POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R4": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SF_ALG50\\ROOT_AUTHORITY_R4\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "9e7b83c578e9774a4c537d5c252ad22a27ff6417916ea79e92af0bc0f055c210"
+    },
+    "POSTREVIEW260_MOTO5134_TRIAL1_SOURCE3_ROOT_R3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SOURCE3\\ROOT_AUTHORITY_R3\\ROOT_ACTUAL_CLOSED_KNOWN_UNPOST_PROOF.json",
+      "sha256": "69c6c03f44e3eb6b017538266db4ed9f68e8d99cadc50cd78b18f11d1a163d44"
+    },
+    "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_NO_DIAG": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\SOURCE\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\runs\\getmoto__moto-5134\\trial2\\NO_DIAG\\ROOT_AUTHORITY_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "85f67e2e2661c1453f2cc6f7f094aa2ea05c3302cbb120a4587a7b57fa7f939c"
+    },
+    "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SF_ALG50": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\SOURCE\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\runs\\getmoto__moto-5134\\trial2\\SF_ALG50\\ROOT_AUTHORITY_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "7a329cff073b84d262cf7da3c6269a6a057f8f2d21943a71b15b24ed644794b7"
+    },
+    "POSTREVIEW260_RESOURCEV2_MOTO5134_TRIAL2_SOURCE3": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\SOURCE\\实验\\实验260_排序与当前反馈共同恢复\\resource_v2\\runs\\getmoto__moto-5134\\trial2\\SOURCE3\\ROOT_AUTHORITY_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "0cf44b5d53ee9db9a79cf01521b58189735be9ba4425aba02f447961cc51e4d3"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_COUNT": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "582817abbc50a7655965196173907d8fa9190289f6905aa4d91a0440514137bd"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_O_ONLY": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "82d43f5639fe5c6654d6e53e8a2571e0294125983f8a9ce62eb6f78a79a49398"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL1_SET": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "558b63bb2e73215a2add175eca8fc0371495ec603bcca10ff7d36dd2bbe85a75"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_COUNT": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "6116993c69dd3cfbbbad0175f83b4614f5c28c56f5dd9333afa92f800e92babe"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_O_ONLY": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "b1d3cc835f86f02687289cf93a8fcfff02853f41ecabb70f900dc30dc8aaad3c"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL2_SET": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "70ab028307d0ac727a1bc7ca15474f0d5a6d7ee39219d51a9ea0c6074a4322e8"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_COUNT": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "69e413e143cb23bc7470b48c2a7e8aa3b80a863b361aa6986515664285df66e8"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_O_ONLY": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "3d0308d1c5465e9963e2b3bc6926db024e4f57f67fbc9bf2ef09a6bf5ed1561e"
+    },
+    "POSTREVIEW262_RESOURCEV2_MOTO7081_TRIAL3_SET": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\ROOT_AUTHORITY_C262_V2\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "52607b338764e02719ebef8096e1350121ac4b031de59384f625754e964f8859"
+    },
+    "POSTREVIEW263_SBS_FIXED_AF_0478_TRIAL1": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp263-sbs-postreview\\实验\\实验263_SBS固定历史资格\\ROOT_AUTHORITY_R3\\af_0478\\trial1\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "834102537ceaa1c41f9a288910aeffe3181608f599fe0ca26ba53b05e55a7622"
+    },
+    "POSTREVIEW263_SBS_FIXED_AF_0598_TRIAL1": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp263-sbs-postreview\\实验\\实验263_SBS固定历史资格\\ROOT_AUTHORITY_R3\\af_0598\\trial1\\ROOT_ACTUAL_CLOSED_WHOLE_FLOW_PROOF.json",
+      "sha256": "5f4856a9a9c72cbcdaf44a5a3dfc13615623c3f2b25e3a435971f1c9be344388"
+    }
+  },
+  "B_C_closure": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_ALL_FINISHED_BC_FLOW_NAMESPACES_CLOSED.json",
+    "sha256": "303ac9db9cddfed9c7ab87939197ec7330df62cf5c36b460bc02644f37d96cac"
+  },
+  "SBS_closure": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_SBS263_BOTH_ACTUAL_FLOWS_CLOSED.json",
+    "sha256": "0c5ec5740e307db8158271320fd7c2c6700eb186dfdd9be577d71faea32b2310"
+  },
+  "final_as_of_UTC": "2026-10-12T15:29:27.533074+00:00",
+  "actual_global_STOP": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp259-window-finance-postreview\\实验\\实验259_四小时连续费用隔离\\WINDOW_STOP_NEW.json",
+    "sha256": "0ed5a4c7533609e7fb5b4979cf822f9c7bfb170530121d3d2ae72165aa84269c"
+  },
+  "actual_window_closure": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_WINDOW_CLOSED_ACTUAL.json",
+    "sha256": "999d49e01293eb2e474c0530e4bffa282a5d68023bdb1be11dd1739839a3f2c3"
+  },
+  "final_ledger_no_new_rows_verified": true
+}

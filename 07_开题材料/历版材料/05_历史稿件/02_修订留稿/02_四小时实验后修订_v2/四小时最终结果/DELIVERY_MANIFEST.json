@@ -1,0 +1,82 @@
+{
+  "schema": "Root-seven-required-delivery-evidence-verification/1",
+  "as_of_UTC": "2026-10-12T15:31:22.532479+00:00",
+  "required_files": {
+    "RQ1_SOURCE3_RELEASE.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\RQ1_SOURCE3_RELEASE.json",
+      "sha256": "f02dc801aa6cf21c5d716c346fd41905914db1fab1fc1092263691cf8ea7c5b6",
+      "bytes": 969879
+    },
+    "RANKING_INTERVENTION_OPPORTUNITIES.tsv": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\RANKING_INTERVENTION_OPPORTUNITIES.tsv",
+      "sha256": "b122fc644542d866217ae7b08d1b9d4f18638dcd4e217b5d9105c154c73d368f",
+      "bytes": 29953
+    },
+    "PAIRED_RECOVERY_MATRIX.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\PAIRED_RECOVERY_MATRIX.json",
+      "sha256": "4971802ff1dc9879d7fa2e474a4a79aa8747e1ba053374de6b18d351b464a655",
+      "bytes": 43027
+    },
+    "PROGRESS_GUARD_EVENTS.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\PROGRESS_GUARD_EVENTS.json",
+      "sha256": "39d8c3375cd3cf1dece1ee299f9f0b0327c4c05bdde9b988826784d10096c597",
+      "bytes": 74939
+    },
+    "THIRD_BASELINE_QUALIFICATION.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\THIRD_BASELINE_QUALIFICATION.json",
+      "sha256": "31b943b437ae0bb85c30491dc089b14dea7810a0cb02314052e9d74cc12821c0",
+      "bytes": 5929
+    },
+    "FINANCE_AND_RESUME_RECEIPT.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\FINANCE_AND_RESUME_RECEIPT.json",
+      "sha256": "91d98a593078eb25736ba8149dd2572f7f97e7018efd493e30c4ac0340de41af",
+      "bytes": 30127
+    },
+    "FOUR_HOUR_FINDINGS.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\FOUR_HOUR_FINDINGS.md",
+      "sha256": "b75a5a87eb10dac591cdf4fea4a214cbbf327a30c225ff59787b6ee6025116c8",
+      "bytes": 12814
+    }
+  },
+  "direct_path_SHA256_references_checked": 188,
+  "mismatches": [],
+  "supplementary_evidence": {
+    "FIRST_RESPONSE_VARIATION_AUDIT.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\FIRST_RESPONSE_VARIATION_AUDIT.json",
+      "sha256": "f5f941e16066ef898f4480639f3a67efdefbba18c33e0270bac5914cf198439a"
+    },
+    "NEXT_METHOD_HYPOTHESES_NOT_EXECUTED.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NEXT_METHOD_HYPOTHESES_NOT_EXECUTED.json",
+      "sha256": "0d35391a5db3285fe0f48e8590c2c8bedd26f7f44213a411d36e1dbf21117e8b"
+    },
+    "NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
+      "sha256": "a7f875561fd70c7077269191573af57c700751229567853e366a586295132c27"
+    },
+    "NORMAL_FAILURE_STATE_BINDING_AUDIT.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
+      "sha256": "b5c9cc47eb848969885b911fc64c67183d601c1c4bdb0ee988bd5c5d384510b0"
+    },
+    "PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json",
+      "sha256": "98ec1a5913cfca5e363c9e5b1aa626fad947213420c46082270b421857921627"
+    },
+    "ROOT_WINDOW_CLOSED_ACTUAL.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\ROOT_WINDOW_CLOSED_ACTUAL.json",
+      "sha256": "999d49e01293eb2e474c0530e4bffa282a5d68023bdb1be11dd1739839a3f2c3"
+    },
+    "SBS_ACTUAL_PREFIX_AUDIT.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\SBS_ACTUAL_PREFIX_AUDIT.json",
+      "sha256": "9a140fe50aea07cd98a00b701ea8283a6db5035913b4c843cdc2150cf2bade3f"
+    },
+    "SEQUENTIAL_EVIDENCE_OPPORTUNITY.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\SEQUENTIAL_EVIDENCE_OPPORTUNITY.json",
+      "sha256": "e1ca45acf65319814449b01468e38ab7436c9b5c616f17498bbe051b9fef80a0"
+    },
+    "SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
+      "sha256": "6f0143d39e9580e81c15ededcf1ebd78d18fd4a3fb56c1189635c4f7aa7dbf1f"
+    }
+  },
+  "scope": "Parse documents and verify saved evidence bytes only; no tests, model, native, new Gold, or ledger mutation."
+}

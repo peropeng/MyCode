@@ -1,0 +1,341 @@
+{
+  "schema": "readonly-old-seven-and-baseline-choice/1",
+  "experiments_executed": false,
+  "new_gold_read": false,
+  "rows": [
+    {
+      "task_id": "Project-MONAI__MONAI-2238",
+      "steps": 9,
+      "candidate_pool": 1,
+      "raw_row_index": null,
+      "failure_prefix": {
+        "call_index": 8,
+        "message_index": 19,
+        "source_prefix": "visible/source_prefix.json"
+      },
+      "base_commit": "fac93503994d21c877cba6844135f1bd9168c061",
+      "initial_inventory": {
+        "inventories_by_method": {
+          "G153_SINGLE_VBR": "aac3e5faff3b1a2a3df160c95efee3459e924033fcd66c497a397da97f27148b",
+          "G153_JOINT_VBR": "aac3e5faff3b1a2a3df160c95efee3459e924033fcd66c497a397da97f27148b",
+          "AGENTLESS_FSE2025_3P2T_LOCAL": "aac3e5faff3b1a2a3df160c95efee3459e924033fcd66c497a397da97f27148b"
+        },
+        "all3_started_same_initial_state": true
+      },
+      "original_issue_repair_is_not_the_target": true,
+      "not_original_agent_test_execution": true,
+      "visible_target_count": 1,
+      "hidden_preservation_count": 3,
+      "result": {
+        "G153_SINGLE_VBR": true,
+        "G153_JOINT_VBR": true,
+        "AGENTLESS_FSE2025_3P2T_LOCAL": false
+      },
+      "manifest_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\Project-MONAI__MONAI-2238\\tasks\\Project-MONAI__MONAI-2238\\task_manifest.json"
+    },
+    {
+      "task_id": "dask__dask-9378",
+      "steps": 12,
+      "candidate_pool": 3,
+      "raw_row_index": null,
+      "failure_prefix": {
+        "call_index": 11,
+        "message_index": 25,
+        "source_prefix": "visible/source_prefix.json"
+      },
+      "base_commit": "8b95f983c232c1bd628e9cba0695d3ef229d290b",
+      "initial_inventory": {
+        "inventories_by_method": {
+          "G153_SINGLE_VBR": "fdd2fe0f4b6cc73a619844cbc831e62838a2177c2a77f8a133e3088d9f7a4b78",
+          "G153_JOINT_VBR": "fdd2fe0f4b6cc73a619844cbc831e62838a2177c2a77f8a133e3088d9f7a4b78",
+          "AGENTLESS_FSE2025_3P2T_LOCAL": "fdd2fe0f4b6cc73a619844cbc831e62838a2177c2a77f8a133e3088d9f7a4b78"
+        },
+        "all3_started_same_initial_state": true
+      },
+      "original_issue_repair_is_not_the_target": true,
+      "not_original_agent_test_execution": true,
+      "visible_target_count": 1,
+      "hidden_preservation_count": 135,
+      "result": {
+        "G153_SINGLE_VBR": true,
+        "G153_JOINT_VBR": true,
+        "AGENTLESS_FSE2025_3P2T_LOCAL": false
+      },
+      "manifest_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\dask__dask-9378\\tasks\\dask__dask-9378\\task_manifest.json"
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "steps": 24,
+      "candidate_pool": 7,
+      "raw_row_index": 3395,
+      "failure_prefix": {
+        "message_index": 50,
+        "source_prefix": "visible/source_prefix.json"
+      },
+      "base_commit": "55c589072fc88363fdde9ae8656909f8f24dd13f",
+      "initial_inventory": {
+        "inventories_by_method": {
+          "G153_SINGLE_VBR": "45d7ad62ed39491ba3fa82ec7c7947ffa12c0e9b81a0568d8cad5e16299c8447",
+          "G153_JOINT_VBR": "45d7ad62ed39491ba3fa82ec7c7947ffa12c0e9b81a0568d8cad5e16299c8447",
+          "AGENTLESS_FSE2025_3P2T_LOCAL": "45d7ad62ed39491ba3fa82ec7c7947ffa12c0e9b81a0568d8cad5e16299c8447"
+        },
+        "all3_started_same_initial_state": true
+      },
+      "original_issue_repair_is_not_the_target": null,
+      "not_original_agent_test_execution": null,
+      "visible_target_count": 3,
+      "hidden_preservation_count": 2,
+      "result": {
+        "G153_SINGLE_VBR": false,
+        "G153_JOINT_VBR": false,
+        "AGENTLESS_FSE2025_3P2T_LOCAL": false
+      },
+      "manifest_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-7081\\tasks\\getmoto__moto-7081\\task_manifest.json"
+    },
+    {
+      "task_id": "getmoto__moto-5072",
+      "steps": 10,
+      "candidate_pool": 1,
+      "raw_row_index": null,
+      "failure_prefix": {
+        "call_index": 9,
+        "message_index": 21,
+        "source_prefix": "visible/source_prefix.json"
+      },
+      "base_commit": "d60df32a259b6c30d6c217b53aaad5b28e518db4",
+      "initial_inventory": {
+        "inventories_by_method": {
+          "G153_SINGLE_VBR": "a6c91b3f4c98821dd43827063107a7c4da243033b44ac0b1361297b86b145bbc",
+          "G153_JOINT_VBR": "a6c91b3f4c98821dd43827063107a7c4da243033b44ac0b1361297b86b145bbc",
+          "AGENTLESS_FSE2025_3P2T_LOCAL": "a6c91b3f4c98821dd43827063107a7c4da243033b44ac0b1361297b86b145bbc"
+        },
+        "all3_started_same_initial_state": true
+      },
+      "original_issue_repair_is_not_the_target": true,
+      "not_original_agent_test_execution": true,
+      "visible_target_count": 1,
+      "hidden_preservation_count": 90,
+      "result": {
+        "G153_SINGLE_VBR": true,
+        "G153_JOINT_VBR": true,
+        "AGENTLESS_FSE2025_3P2T_LOCAL": false
+      },
+      "manifest_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-5072\\tasks\\getmoto__moto-5072\\task_manifest.json"
+    },
+    {
+      "task_id": "getmoto__moto-5134",
+      "steps": 27,
+      "candidate_pool": 4,
+      "raw_row_index": null,
+      "failure_prefix": {
+        "call_index": 26,
+        "message_index": 55,
+        "source_prefix": "visible/source_prefix.json"
+      },
+      "base_commit": "0e3ac260682f3354912fe552c61d9b3e590903b8",
+      "initial_inventory": {
+        "inventories_by_method": {
+          "G153_SINGLE_VBR": "31b0a54d23c4d00f1e0ffdbb53d20864de399eb2c2187f4988de913de87ebbc0",
+          "G153_JOINT_VBR": "31b0a54d23c4d00f1e0ffdbb53d20864de399eb2c2187f4988de913de87ebbc0",
+          "AGENTLESS_FSE2025_3P2T_LOCAL": "31b0a54d23c4d00f1e0ffdbb53d20864de399eb2c2187f4988de913de87ebbc0"
+        },
+        "all3_started_same_initial_state": true
+      },
+      "original_issue_repair_is_not_the_target": true,
+      "not_original_agent_test_execution": true,
+      "visible_target_count": 1,
+      "hidden_preservation_count": 11,
+      "result": {
+        "G153_SINGLE_VBR": true,
+        "G153_JOINT_VBR": true,
+        "AGENTLESS_FSE2025_3P2T_LOCAL": false
+      },
+      "manifest_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-5134\\tasks\\getmoto__moto-5134\\task_manifest.json"
+    },
+    {
+      "task_id": "getmoto__moto-7317",
+      "steps": 29,
+      "candidate_pool": 7,
+      "raw_row_index": 4308,
+      "failure_prefix": {
+        "message_index": 59,
+        "source_prefix": "visible/source_prefix.json"
+      },
+      "base_commit": "652eabda5170e772742d4a68234a26fa8765e6a9",
+      "initial_inventory": {
+        "inventories_by_method": {
+          "G153_SINGLE_VBR": "5a3254b7a81d9427877802ac852e0e81222b2bb0e808df09270b079bb7581085",
+          "G153_JOINT_VBR": "5a3254b7a81d9427877802ac852e0e81222b2bb0e808df09270b079bb7581085",
+          "AGENTLESS_FSE2025_3P2T_LOCAL": "5a3254b7a81d9427877802ac852e0e81222b2bb0e808df09270b079bb7581085"
+        },
+        "all3_started_same_initial_state": true
+      },
+      "original_issue_repair_is_not_the_target": null,
+      "not_original_agent_test_execution": null,
+      "visible_target_count": 1,
+      "hidden_preservation_count": 49,
+      "result": {
+        "G153_SINGLE_VBR": false,
+        "G153_JOINT_VBR": true,
+        "AGENTLESS_FSE2025_3P2T_LOCAL": false
+      },
+      "manifest_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-7317\\tasks\\getmoto__moto-7317\\task_manifest.json"
+    },
+    {
+      "task_id": "getmoto__moto-6212",
+      "steps": 16,
+      "candidate_pool": 6,
+      "raw_row_index": 1738,
+      "failure_prefix": {
+        "message_index": 33,
+        "source_prefix": "visible/source_prefix.json"
+      },
+      "base_commit": "8c0c688c7b37f87dfcc00dbf6318d4dd959f91f5",
+      "initial_inventory": {
+        "inventories_by_method": {
+          "G153_SINGLE_VBR": "64a08ec78ff8f92628e5811d9b8e6e23c9cfe48cd2ace12f58438b89acec0076",
+          "G153_JOINT_VBR": "64a08ec78ff8f92628e5811d9b8e6e23c9cfe48cd2ace12f58438b89acec0076",
+          "AGENTLESS_FSE2025_3P2T_LOCAL": "64a08ec78ff8f92628e5811d9b8e6e23c9cfe48cd2ace12f58438b89acec0076"
+        },
+        "all3_started_same_initial_state": true
+      },
+      "original_issue_repair_is_not_the_target": null,
+      "not_original_agent_test_execution": null,
+      "visible_target_count": 1,
+      "hidden_preservation_count": 14,
+      "result": {
+        "G153_SINGLE_VBR": true,
+        "G153_JOINT_VBR": true,
+        "AGENTLESS_FSE2025_3P2T_LOCAL": false
+      },
+      "manifest_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\qualification\\old_states\\getmoto__moto-6212\\tasks\\getmoto__moto-6212\\task_manifest.json"
+    }
+  ],
+  "method_summary": {
+    "G153_SINGLE_VBR": {
+      "planned_denominator": 7,
+      "actual_started": 7,
+      "finished_flows": 7,
+      "true_known_denominator": 7,
+      "true_recovery_successes": 5,
+      "true_unknown": 0,
+      "resource_ITT_successes": 5,
+      "raw_status_counts": {
+        "COMPLETED": 7
+      },
+      "actual_pair_attempts": 0,
+      "actual_exact_frozen_pair_native": 0,
+      "actual_Agentless_core_complete": 0,
+      "actual_patch_generations": 0,
+      "actual_valid_patches": 0,
+      "actual_reproduction_generations": 0,
+      "actual_verified_reproductions": 0,
+      "candidate_regression_runs": 0,
+      "candidate_reproduction_runs": 0
+    },
+    "G153_JOINT_VBR": {
+      "planned_denominator": 7,
+      "actual_started": 7,
+      "finished_flows": 7,
+      "true_known_denominator": 7,
+      "true_recovery_successes": 6,
+      "true_unknown": 0,
+      "resource_ITT_successes": 6,
+      "raw_status_counts": {
+        "COMPLETED": 7
+      },
+      "actual_pair_attempts": 6,
+      "actual_exact_frozen_pair_native": 6,
+      "actual_Agentless_core_complete": 0,
+      "actual_patch_generations": 0,
+      "actual_valid_patches": 0,
+      "actual_reproduction_generations": 0,
+      "actual_verified_reproductions": 0,
+      "candidate_regression_runs": 0,
+      "candidate_reproduction_runs": 0
+    },
+    "AGENTLESS_FSE2025_3P2T_LOCAL": {
+      "planned_denominator": 7,
+      "actual_started": 7,
+      "finished_flows": 7,
+      "true_known_denominator": 7,
+      "true_recovery_successes": 0,
+      "true_unknown": 0,
+      "resource_ITT_successes": 0,
+      "raw_status_counts": {
+        "COMPLETED": 3,
+        "MODEL_SEMANTIC_FAILURE": 4
+      },
+      "actual_pair_attempts": 0,
+      "actual_exact_frozen_pair_native": 0,
+      "actual_Agentless_core_complete": 7,
+      "actual_patch_generations": 21,
+      "actual_valid_patches": 3,
+      "actual_reproduction_generations": 14,
+      "actual_verified_reproductions": 1,
+      "candidate_regression_runs": 3,
+      "candidate_reproduction_runs": 1
+    }
+  },
+  "single_vs_agentless_exact_two_sided_p": 0.0625,
+  "saved_joint_statistics": [
+    {
+      "comparison": "G153_JOINT_VBR vs G153_SINGLE_VBR",
+      "planned_denominator": 7,
+      "known_pairs": 7,
+      "joint_only_success": 1,
+      "comparator_only_success": 0,
+      "complete_fixed_population": true,
+      "exact_two_sided_McNemar_p": 1.0,
+      "Holm2_adjusted_p": 1.0
+    },
+    {
+      "comparison": "G153_JOINT_VBR vs AGENTLESS_FSE2025_3P2T_LOCAL",
+      "planned_denominator": 7,
+      "known_pairs": 7,
+      "joint_only_success": 6,
+      "comparator_only_success": 0,
+      "complete_fixed_population": true,
+      "exact_two_sided_McNemar_p": 0.03125,
+      "Holm2_adjusted_p": 0.0625
+    }
+  ],
+  "overlap_with_later_five": [],
+  "direct_records": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复\\approved_plan.json",
+      "sha256": "c0c1b2d13d3c71d8381523c9fd85b7408a57d02cd0c7acb589dbb186837b0cdc"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复\\main_completion_packet.json",
+      "sha256": "990b00595cb964db54d49da861667359a00ece039daf9a7b4bc0a83cd4503b57"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复\\same_state_native_inconsistency_audit.json",
+      "sha256": "42af2e43ddf4aba50b9cb6304fac282c194241d3bb14216223ee79be8d506c16"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复\\data\\selected_task_bindings.json",
+      "sha256": "612dca147cfd89b793f2551fb6fb4b8bea2ecd7e2445826749f92751189dd25f"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复\\agentless166_source_audit.json",
+      "sha256": "fecaa7171cbb0b2d0ee3441e59d800858ec54ec898e62ab0463d1f1d9f173e49"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\sg166_final1912_real_fixture_receipt.json",
+      "sha256": "e954fc0dc8e4be6391edb290c9bbbd4fd0b4a0117b6648d8797e14cc68f60e82"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\sg166_final1912_source_map.json",
+      "sha256": "0c160a376aca582a310dfc9bb1067ae3c3c09a22e29afce7a57f1174ef5773a3"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1003-diagnosis-investigation\\exp132_review\\final_window_1745\\sgagent_primary\\sgagent_selection_evidence.json",
+      "sha256": "74bfea804ab26fe0dfac6143bdd09016e21d9939637b2f387309be0d6649ce37"
+    }
+  ],
+  "saved_source_input_check_count": 134,
+  "all_saved_checks_true": true,
+  "source_paths_present_now": true
+}

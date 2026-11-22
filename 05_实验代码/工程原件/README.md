@@ -164,3 +164,5 @@
 | `02_工作区/01_工程/manifests/archive/objects.jsonl.gz` | 模型、二进制或大体积机器清单保留附件 |
 
 逐文件来源与校验数据见[机器清单](文件来源.json)。完整原件继续位于[公开代码附件](https://github.com/peropeng/MyCode/releases/download/research-materials-v1/current-code.tar.gz)。
+
+两份含账户余额的历史配置仅提供明确命名的“公开脱敏版”，不隐藏研究费用或预算，原始文件继续保存在完整附件。它们用于查阅，不代替新实验配置。其余已展开源码与模型保留原字节。

@@ -1,0 +1,65 @@
+{
+  "schema": "Root-evidence-driven-next-method-hypotheses-NOT-executed/1",
+  "created_UTC": "2026-10-12T14:29:02.923635+00:00",
+  "status": "RESEARCH_DESIGN_ONLY_UNIMPLEMENTED",
+  "model_authorized": false,
+  "native_authorized": false,
+  "private_authorized": false,
+  "finance_authorized": false,
+  "new_runtime_tests_POST": 0,
+  "evidence": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
+      "sha256": "b5c9cc47eb848969885b911fc64c67183d601c1c4bdb0ee988bd5c5d384510b0"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
+      "sha256": "6f0143d39e9580e81c15ededcf1ebd78d18fd4a3fb56c1189635c4f7aa7dbf1f"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\SEQUENTIAL_EVIDENCE_OPPORTUNITY.json",
+      "sha256": "e1ca45acf65319814449b01468e38ab7436c9b5c616f17498bbe051b9fef80a0"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
+      "sha256": "a7f875561fd70c7077269191573af57c700751229567853e366a586295132c27"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\FIRST_RESPONSE_VARIATION_AUDIT.json",
+      "sha256": "f5f941e16066ef898f4480639f3a67efdefbba18c33e0270bac5914cf198439a"
+    }
+  ],
+  "hypotheses": [
+    {
+      "name": "State-bound semantic correction",
+      "concrete_failure": "Two complete JSON outputs mix an explicitly rejected dict candidate with the current accepted object state and include an identical old/new edit.",
+      "candidate_change": "Represent each feedback observation as snapshot digest, complete public test identity, acceptance status, and current-versus-historical scope. Require every proposed edit to cite a current source digest and specify a nonidentical source span. Bind validation errors to the individual edit without inventing or silently applying a patch. A parser variant may record and skip an identical old/new edit only after its allowed path and unique current-source span are verified; every nonidentical edit still undergoes the original validation, and an empty effective patch is not a successful repair.",
+      "established_now": "Current prompts already contain labels and current source, yet the model still confuses them. In-memory reconstruction after discarding only the identical edit yields the same complete business source as an observed PASS run, for both responses.",
+      "unconfirmed": "A complete revised parser deployment improves success across fresh paired runs, or a revised state presentation reduces confusion. No revised parser or new trajectory was executed."
+    },
+    {
+      "name": "Incumbent preservation with reversible exploration",
+      "concrete_opportunity": "O-only accepted a real 2/3-to-1/3 candidate, then reached 3/3 by repairing consumers; SET found a direct path and did not need that regression on this issue.",
+      "candidate_change": "Keep the accepted best source and all original public progress as the deliverable incumbent. An ordinary-passing but progress-losing candidate may be retained only as a separate labelled exploratory state. A later candidate is committed only after the original admission rule is satisfied. Count every branch generation and native evaluation within the same common resource allowance.",
+      "established_now": "A temporary regression followed by repair is a real observed path, not a necessary path or a SET failure.",
+      "unconfirmed": "Exploration rescues failures, extra branch machinery has a net benefit, or SET-specific identity protection improves terminal outcomes."
+    },
+    {
+      "name": "Provider-consumer contract validation",
+      "concrete_failure": "A backend return-object-to-dict change breaks internal consumers accessing object attributes. One successful alternative repairs two consumers; seven preserve the original backend return object.",
+      "candidate_change": "Connect proposed provider changes to current-source consumers and request explicit justification or coordinated edits for affected callers. Historical provider images must not be treated as the current interface. Public tests remain the acceptance authority.",
+      "established_now": "Two AST-distinct terminal variants passed the original observed acceptance; current static relationship text did not prevent the initial regression.",
+      "unconfirmed": "The proposed static check is complete, all callers are safe, or the relationship module independently increases recovery."
+    }
+  ],
+  "minimum_next_validation_conditions": [
+    "Close complete native runtime qualification before new model queues.",
+    "Make the same fixed tasks, permitted information, model, generation allowance and native allowance apply to every compared condition.",
+    "Select new confirmation tasks by public qualification and structural opportunity before reading method outcomes.",
+    "Keep all old failed and unknown runs and original scientific clocks.",
+    "Separate exposed development pressure from independent confirmation and count all predefined repetitions.",
+    "Use real current-source and test observations; no private feedback to the generator.",
+    "Require complete paired terminal outcomes before claiming improvement over strong baselines."
+  ],
+  "scientific_claim_now": "These are evidence-based candidate designs, not implemented improvements or new experimental results."
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "independent-readonly-PP243-missing-slot/1",
+  "at_utc": "2026-10-12T10:58:05.900343+00:00",
+  "scope": "JSON and source bytes only; no code import, pipeline replay, native tests, API or new model generation",
+  "responses": [
+    {
+      "ordinal": 40,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-third-baseline-unified6\\实验\\实验243_第三基线统一六题\\runtime_v9_SOURCE\\science_T2_once_SOURCE\\flow\\llm\\040_response.json",
+      "sha256": "2792e0f29a929e1da0531842bf5dde9a30df96c99f36f548e565a53e0d95d853",
+      "matches_old_audit": true,
+      "finish_reason": "stop",
+      "BEGIN_STEPS_count": 1,
+      "END_STEPS_count": 1,
+      "passes_exact_delimiter_presence": true
+    },
+    {
+      "ordinal": 41,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-third-baseline-unified6\\实验\\实验243_第三基线统一六题\\runtime_v9_SOURCE\\science_T2_once_SOURCE\\flow\\llm\\041_response.json",
+      "sha256": "89ff16044c3b80c1cbcfcc770a567c76c51b33d95a1eaea788205d1cf43ece14",
+      "matches_old_audit": true,
+      "finish_reason": "stop",
+      "BEGIN_STEPS_count": 0,
+      "END_STEPS_count": 2,
+      "passes_exact_delimiter_presence": false
+    },
+    {
+      "ordinal": 42,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-third-baseline-unified6\\实验\\实验243_第三基线统一六题\\runtime_v9_SOURCE\\science_T2_once_SOURCE\\flow\\llm\\042_response.json",
+      "sha256": "9756ed96d08ec545e1835ae48779d3ba6f0eb121c5473654a0619cf757370d8a",
+      "matches_old_audit": true,
+      "finish_reason": "stop",
+      "BEGIN_STEPS_count": 1,
+      "END_STEPS_count": 1,
+      "passes_exact_delimiter_presence": true
+    },
+    {
+      "ordinal": 43,
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-third-baseline-unified6\\实验\\实验243_第三基线统一六题\\runtime_v9_SOURCE\\science_T2_once_SOURCE\\flow\\llm\\043_response.json",
+      "sha256": "880f791bad089dba4e9fa56776e91a0df63701668f2d208fddb1f248267b6ff2",
+      "matches_old_audit": true,
+      "finish_reason": "stop",
+      "BEGIN_STEPS_count": 1,
+      "END_STEPS_count": 1,
+      "passes_exact_delimiter_presence": true
+    }
+  ],
+  "raw_candidates": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-third-baseline-unified6\\实验\\实验243_第三基线统一六题\\runtime_v9_SOURCE\\science_T2_once_SOURCE\\flow\\author\\repair\\output.jsonl",
+    "sha256": "fd8bfe0fc18f5295268d4046726d555eba722dc26be84e727dbc17326311e1fe",
+    "counts": [
+      {
+        "raw_output": 3,
+        "git_diffs": 3,
+        "raw_git_diffs": 3
+      }
+    ]
+  },
+  "processed_exists": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": false
+  },
+  "source": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-third-baseline-unified6\\实验\\实验243_第三基线统一六题\\runtime_v9_SOURCE\\original_patchpilot\\patchpilot\\repair\\repair.py",
+    "sha256": "85c4866fd5ab4c8e3e6f0622112a3d2c44b87285f5d36313e238be289321c1f4",
+    "parse_lines": "1162-1171",
+    "missing_index_lines": "1454-1455",
+    "fixed_batch_postprocess_and_verify": "1860-1873",
+    "later_fixed_slot_reranking": "1606-1625",
+    "existing_author_empty_patch_branch": "1434-1446"
+  },
+  "verifier": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1010-third-baseline-unified6\\实验\\实验243_第三基线统一六题\\runtime_v9_SOURCE\\original_patchpilot\\patchpilot\\reproduce\\verify.py",
+    "sha256": "07291d367cf40588ddea7fd90614e496050cdfee7c1d0ba4c9ed85db9dacd53d",
+    "entry_lines": "315-342"
+  },
+  "finding": "All four response hashes match. Response41 finished normally but lacks the BEGIN delimiter; the parser keeps three plans. Candidate arrays have length3, output_3 is absent. The source skips out-of-range postprocessing but still verifies every batch slot, then also expects all slot files during reranking. The local terminal is an unhandled cardinality mismatch induced by a real format-negative model response; it is not evidence of zero scientific capability and not simply a filesystem path typo.",
+  "repair_boundary": "Do not retry already settled responses or manufacture a successful candidate. A future version may represent an invalid generated plan as an explicitly failed/no-patch slot using compatible author no-patch semantics, but must check every verifier/reranker consumer and preserve plan/candidate provenance and original 12/4 generation budget. This review did not implement or test that change.",
+  "cross_round_static_risk": {
+    "source_lines": "1224-1232 and 1878",
+    "status": "source-derived risk; no continuation executed",
+    "detail": "Candidate arrays append only actual valid candidates, while num_generated_sample advances by the fixed batch size. Merely touching a missing processed file without restoring explicit slot/cardinality accounting can misalign subsequent-round indices. All three raw arrays, candidate provenance, verification files and generated-count semantics must stay aligned."
+  }
+}

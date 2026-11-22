@@ -1,0 +1,24 @@
+[
+  {
+    "absolute_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp125-plan-risk",
+    "file_count": 4032,
+    "logical_bytes": 686722561,
+    "hardlink_files": 0,
+    "size_errors": [],
+    "directory_links_not_traversed": [],
+    "compressed_storage_bytes_win32": 686722561,
+    "allocated_bytes_FileStandardInfo": 692828016,
+    "allocation_errors": []
+  },
+  {
+    "absolute_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp126-relation-residual",
+    "file_count": 4032,
+    "logical_bytes": 686722650,
+    "hardlink_files": 0,
+    "size_errors": [],
+    "directory_links_not_traversed": [],
+    "compressed_storage_bytes_win32": 686722650,
+    "allocated_bytes_FileStandardInfo": 692828024,
+    "allocation_errors": []
+  }
+]

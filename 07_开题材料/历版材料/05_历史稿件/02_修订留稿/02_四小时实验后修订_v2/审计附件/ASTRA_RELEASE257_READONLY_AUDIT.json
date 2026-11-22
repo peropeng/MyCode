@@ -1,0 +1,343 @@
+{
+  "schema": "Astra-independent-Exp257-JSON-arithmetic-audit/1",
+  "at_utc": "2026-10-12T11:46:00.556291+00:00",
+  "status": "PASS",
+  "scope": "Read saved public-input receipts, score JSONs and existing plans only; no tensor/model/Gold/native/API execution. Encoder and training correctness rely on separately cited original receipts.",
+  "errors": [],
+  "task_count": 18,
+  "permodel_probability_rows": 378,
+  "max_normalization_error": 2.2170243596519867e-07,
+  "ensemble_max_error": 1.1102230246251565e-16,
+  "full_order_different": 18,
+  "legal_order_different": 12,
+  "prefix3_different": 12,
+  "single_candidate_tasks": 3,
+  "pool_fits3_tasks": 11,
+  "selected_first_two": [
+    "getmoto__moto-5134",
+    "getmoto__moto-5286"
+  ],
+  "rows": [
+    {
+      "task": "dask__dask-9378",
+      "candidate_count": 3,
+      "source3_prefix": [
+        3,
+        11,
+        7
+      ],
+      "SF_prefix": [
+        3,
+        11,
+        7
+      ],
+      "prefix_set_diff": false,
+      "eligible": false
+    },
+    {
+      "task": "getmoto__moto-5072",
+      "candidate_count": 1,
+      "source3_prefix": [
+        9
+      ],
+      "SF_prefix": [
+        9
+      ],
+      "prefix_set_diff": false,
+      "eligible": false
+    },
+    {
+      "task": "getmoto__moto-5134",
+      "candidate_count": 4,
+      "source3_prefix": [
+        24,
+        26,
+        16
+      ],
+      "SF_prefix": [
+        26,
+        24,
+        20
+      ],
+      "prefix_set_diff": true,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-5286",
+      "candidate_count": 2,
+      "source3_prefix": [
+        13,
+        14
+      ],
+      "SF_prefix": [
+        14,
+        13
+      ],
+      "prefix_set_diff": false,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-6352",
+      "candidate_count": 1,
+      "source3_prefix": [
+        7
+      ],
+      "SF_prefix": [
+        7
+      ],
+      "prefix_set_diff": false,
+      "eligible": false
+    },
+    {
+      "task": "pydantic__pydantic-8567",
+      "candidate_count": 3,
+      "source3_prefix": [
+        24,
+        27,
+        25
+      ],
+      "SF_prefix": [
+        24,
+        25,
+        27
+      ],
+      "prefix_set_diff": false,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-7081",
+      "candidate_count": 7,
+      "source3_prefix": [
+        8,
+        23,
+        10
+      ],
+      "SF_prefix": [
+        23,
+        19,
+        15
+      ],
+      "prefix_set_diff": true,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-6212",
+      "candidate_count": 6,
+      "source3_prefix": [
+        7,
+        15,
+        9
+      ],
+      "SF_prefix": [
+        15,
+        5,
+        13
+      ],
+      "prefix_set_diff": true,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-5406",
+      "candidate_count": 1,
+      "source3_prefix": [
+        4
+      ],
+      "SF_prefix": [
+        4
+      ],
+      "prefix_set_diff": false,
+      "eligible": false
+    },
+    {
+      "task": "getmoto__moto-6387",
+      "candidate_count": 5,
+      "source3_prefix": [
+        16,
+        21,
+        15
+      ],
+      "SF_prefix": [
+        21,
+        16,
+        20
+      ],
+      "prefix_set_diff": true,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-5980",
+      "candidate_count": 3,
+      "source3_prefix": [
+        9,
+        11,
+        7
+      ],
+      "SF_prefix": [
+        7,
+        11,
+        9
+      ],
+      "prefix_set_diff": false,
+      "eligible": true
+    },
+    {
+      "task": "python__mypy-15155",
+      "candidate_count": 3,
+      "source3_prefix": [
+        7,
+        10,
+        9
+      ],
+      "SF_prefix": [
+        7,
+        9,
+        10
+      ],
+      "prefix_set_diff": false,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-5516",
+      "candidate_count": 8,
+      "source3_prefix": [
+        9,
+        20,
+        26
+      ],
+      "SF_prefix": [
+        35,
+        20,
+        33
+      ],
+      "prefix_set_diff": true,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-4972",
+      "candidate_count": 6,
+      "source3_prefix": [
+        26,
+        23,
+        29
+      ],
+      "SF_prefix": [
+        29,
+        25,
+        26
+      ],
+      "prefix_set_diff": true,
+      "eligible": true
+    },
+    {
+      "task": "getmoto__moto-5587",
+      "candidate_count": 3,
+      "source3_prefix": [
+        13,
+        10,
+        12
+      ],
+      "SF_prefix": [
+        10,
+        13,
+        12
+      ],
+      "prefix_set_diff": false,
+      "eligible": true
+    },
+    {
+      "task": "pydantic__pydantic-8965",
+      "candidate_count": 2,
+      "source3_prefix": [
+        13,
+        13
+      ],
+      "SF_prefix": [
+        13,
+        13
+      ],
+      "prefix_set_diff": false,
+      "eligible": false
+    },
+    {
+      "task": "dask__dask-8484",
+      "candidate_count": 2,
+      "source3_prefix": [
+        19,
+        18
+      ],
+      "SF_prefix": [
+        19,
+        18
+      ],
+      "prefix_set_diff": false,
+      "eligible": false
+    },
+    {
+      "task": "Project-MONAI__MONAI-4109",
+      "candidate_count": 4,
+      "source3_prefix": [
+        10,
+        8,
+        9
+      ],
+      "SF_prefix": [
+        9,
+        6,
+        10
+      ],
+      "prefix_set_diff": true,
+      "eligible": true
+    }
+  ],
+  "geometry": {
+    "task_count": 18,
+    "single_role_count": 18,
+    "zero_valid_pairs_count": 18,
+    "time_role_exact_equal_count": 18,
+    "shape_channels_exact_equal_count": 18,
+    "all_four_topologies_equal_tasks": [
+      "getmoto__moto-6212",
+      "getmoto__moto-5406",
+      "getmoto__moto-5980",
+      "getmoto__moto-5587",
+      "dask__dask-8484",
+      "Project-MONAI__MONAI-4109"
+    ]
+  },
+  "hash_checks": [
+    {
+      "file": "RQ1_SOURCE3_RELEASE.json",
+      "expected": "f02dc801aa6cf21c5d716c346fd41905914db1fab1fc1092263691cf8ea7c5b6",
+      "actual": "f02dc801aa6cf21c5d716c346fd41905914db1fab1fc1092263691cf8ea7c5b6"
+    },
+    {
+      "file": "PROTOCOL257.json",
+      "expected": "29e47be6bc67e34d5df11dedac26d0342dcc4b4fc5d84d246896ed5722ceed12",
+      "actual": "29e47be6bc67e34d5df11dedac26d0342dcc4b4fc5d84d246896ed5722ceed12"
+    },
+    {
+      "file": "FEATURE_RECEIPT257.json",
+      "expected": "f3f24fadc80c7f9f12d55d2d0380c8f6c4dcf5923641056509da46152cdf2a92",
+      "actual": "f3f24fadc80c7f9f12d55d2d0380c8f6c4dcf5923641056509da46152cdf2a92"
+    },
+    {
+      "file": "MECHANISM_GEOMETRY257.json",
+      "expected": "0863d77dd59b72a3ec2a43189eef13ff5b1b32bc01002fd8803feeb7ba2b1332",
+      "actual": "0863d77dd59b72a3ec2a43189eef13ff5b1b32bc01002fd8803feeb7ba2b1332"
+    },
+    {
+      "file": "RANKING_INTERVENTION_OPPORTUNITIES.json",
+      "expected": "91c00fff76d2b9e1e3e8a29aa757b9ab6009ed8f6c086957139022b75fb643b6",
+      "actual": "91c00fff76d2b9e1e3e8a29aa757b9ab6009ed8f6c086957139022b75fb643b6"
+    },
+    {
+      "file": "INDEPENDENT_RELEASE_VERIFICATION257.json",
+      "expected": "19e439cc26b20ad8839564185c3b2763d7824e3e2de8815887e93ffcc81a1db5",
+      "actual": "19e439cc26b20ad8839564185c3b2763d7824e3e2de8815887e93ffcc81a1db5"
+    }
+  ],
+  "selected_plan_hashes_checked": 6,
+  "upstream_independent_verification": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp257-source3-postreview\\实验\\实验257_source3与强SF推断发布\\INDEPENDENT_RELEASE_VERIFICATION257.json",
+  "prefix3_set_different_tasks": 7,
+  "prefix3_order_only_different_tasks": 5
+}

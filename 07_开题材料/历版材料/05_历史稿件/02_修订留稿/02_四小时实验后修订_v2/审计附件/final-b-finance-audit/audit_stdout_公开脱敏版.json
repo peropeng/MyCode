@@ -1,0 +1,94 @@
+{
+  "direct_reference_occurrences_checked": 202,
+  "unique_referenced_paths": 142,
+  "reference_mismatches": [],
+  "B": {
+    "planned_rows": 18,
+    "expected_2x3x3_keys_exact": true,
+    "paid_trajectory_rows": 5,
+    "model_POSTs": 6,
+    "ledger_B_POSTs": 6,
+    "distinct_ledger_paid_flows": 5,
+    "cost_sum_CNY": "0.21202918",
+    "full_common_natural_groups": 0,
+    "all_18_G_O_independent_unknown": true,
+    "started_slots_fixed_delivery_false": true,
+    "unstarted_slots_fixed_delivery_null": true,
+    "native_calls_sum": 0,
+    "status_counts": {
+      "FINANCIAL_CENSORED_WITH_RAW_ENGINEERING_UNKNOWN_PRESERVED": 1,
+      "OPERATIONAL_CENSORED_OLD_WRITER_ABSENCE_GUARD": 1,
+      "NOT_RUN_FINANCIAL_BOUNDARY": 10,
+      "ENGINEERING_UNKNOWN_NATIVE_SCOPE_INTERFACE": 3,
+      "UNRUN_ENGINEERING_QUALIFICATION": 3
+    }
+  },
+  "D": {
+    "POSTs": 0,
+    "cost_CNY": "0",
+    "new_effective_baselines": 0,
+    "methods": [
+      {
+        "method": "PatchPilot",
+        "whole_method_status": "UNQUALIFIED_UNRUN",
+        "scientific_success": null,
+        "effective_baseline": false
+      },
+      {
+        "method": "AOrchestra",
+        "whole_method_status": "UNQUALIFIED_UNRUN",
+        "scientific_success": null,
+        "effective_baseline": false
+      }
+    ]
+  },
+  "finance": {
+    "ledger_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1003-diagnosis-investigation\\exp132_review\\new_window_2332\\finance\\shared_flash_budget.json",
+    "ledger_sha_before": "7028a495741bcab6843a560dd2214743a88ccaff994dec8996f46ccaa069a154",
+    "ledger_sha_after": "7028a495741bcab6843a560dd2214743a88ccaff994dec8996f46ccaa069a154",
+    "ledger_total_rows": 4870,
+    "new_ordinals_exact_4844_through_4870": true,
+    "new_all_SETTLED": true,
+    "new_unique_logical_call_ids": 27,
+    "new_cost_upper_CNY": "0.45924094",
+    "per_task_calls": {
+      "getmoto__moto-5134": 6,
+      "getmoto__moto-7081": 12,
+      "af_0478": 5,
+      "af_0598": 4
+    },
+    "per_task_cost_CNY": {
+      "getmoto__moto-5134": "0.21202918",
+      "getmoto__moto-7081": "0.24134996",
+      "af_0478": "0.00334456",
+      "af_0598": "0.00251724"
+    },
+    "receipt_rows_all_match": true,
+    "receipt_differences": [],
+    "ledger_spent_CNY": "30.59891152",
+    "baseline_spent_CNY": "30.13967058",
+    "old_spent_plus_new_exact": true,
+    "old_4843_prefix_SHA_computed": "1ee6d81af657f8fe176807b75fac02c7088d01cca5b7060895ddca374ea23f6e",
+    "old_4843_prefix_SHA_expected": "1ee6d81af657f8fe176807b75fac02c7088d01cca5b7060895ddca374ea23f6e",
+    "old_4843_prefix_exact": true,
+    "old_unknown_row_exact": true,
+    "old4843_row_exact": true,
+    "old_unknown_status": "UNKNOWN_FULL_RESERVATION_RETAINED",
+    "old_unknown_body_SHA256": "04a1ea8cc766bbd080730043e4b46861c2d51e97aabbff1c45f59d8cae09154f",
+    "old_unknown_global_reserve_CNY": "0.533734",
+    "current_held_CNY": "0.533734",
+    "old_4842_body_not_in_new_POSTs": true,
+    "old_4843_body_not_in_new_POSTs": true,
+    "available_balance_record_CNY": "〔账户余额已移至完整受保护原件〕",
+    "no_new_balance_GET_this_audit": true
+  },
+  "closure": {
+    "actual_close_UTC": "2026-10-12T15:29:27.533074+00:00",
+    "all18_namespace_proofs_present_SHA_match": true,
+    "all18_proof_records_descendants_stopped_and_own_job_empty": true,
+    "eight_acceptance_closure_proof_SHA_match": true,
+    "stored_all18_parent_STOP": true,
+    "stored_all8_acceptance_parent_STOP": true,
+    "live_process_probe_not_performed": true
+  }
+}

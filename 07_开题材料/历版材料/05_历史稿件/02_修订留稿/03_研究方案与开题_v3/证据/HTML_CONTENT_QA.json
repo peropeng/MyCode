@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-10-12T17:12:54.536Z",
+  "rows": [
+    {
+      "file": "00_确定方案与阅读入口.html",
+      "title": "智能体失败诊断与执行恢复的确定方案",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1735,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "01_开题报告_V3_六章完整稿.html",
+      "title": "基于学习排序的智能体失败诊断与执行恢复方法研究",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 21224,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "02_相关文献与研究空间.html",
+      "title": "智能体失败诊断与执行恢复：相关工作及可检验空间",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 26928,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "03_两层基线确定方案.html",
+      "title": "RQ1与整体实验的基线确定方案",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3431,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "04_数据集与划分确定方案.html",
+      "title": "正式数据集与划分确定方案",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3787,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "05_整体实验框架与待验证事项.html",
+      "title": "整体实验框架与待验证事项",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3301,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "06_总体研究框图与阅读说明.html",
+      "title": "总体研究框图与阅读说明",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 2505,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "07_完整文献索引.html",
+      "title": "V3参考文献编号表",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 8136,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "08_既有结果证据索引.html",
+      "title": "既有结果与数据名称的证据索引",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1272,
+      "missingImages": [],
+      "brokenAnchors": []
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "all_no_horizontal_overflow": true,
+  "all_images_and_anchors_valid": true
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "Root-existing-normal-failure-state-and-patch-output-audit/1",
+  "at_UTC": "2026-10-12T14:15:21.601541+00:00",
+  "scope": "Read original public requests and responses; no new generation, replay application, native execution or private feedback.",
+  "task_id": "getmoto__moto-7081",
+  "trial": "trial2",
+  "condition": "COUNT",
+  "rows": [
+    {
+      "attempt": 2,
+      "finish_reason": "stop",
+      "JSON_decode_valid": true,
+      "raw_response": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\SETTLED_RAW_RESPONSE.json",
+        "sha256": "f64e27be85dc5cd7c7587cfac8f9624c5834006abe55683dd4fdab3f134c913c"
+      },
+      "request_body": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\FIRST_UNPOST_BODY.json",
+        "sha256": "d219d73410458130cfc5f7fe28cf5a765bff8acece3949f47cf491ef0a131c6e"
+      },
+      "rationale_claims_rejected_dict_candidate_is_current": true,
+      "noop_edits": [
+        {
+          "edit_index": 0,
+          "path": "moto/iot/models.py",
+          "old_SHA256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86",
+          "new_SHA256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86"
+        }
+      ],
+      "nonidentical_edit_count": 1,
+      "body_contains_current_incumbent_flag": true,
+      "body_contains_historical_rejected_flag": true,
+      "body_contains_prior_validator_error": false,
+      "current_source_functions_explicit": true,
+      "model_new_native_in_audit": 0
+    },
+    {
+      "attempt": 3,
+      "finish_reason": "stop",
+      "JSON_decode_valid": true,
+      "raw_response": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\SETTLED_RAW_RESPONSE.json",
+        "sha256": "03aa1ef95733a3090dac0a665f5260c965c5b4ae9147fa0cb1b631c0902ef526"
+      },
+      "request_body": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\FIRST_UNPOST_BODY.json",
+        "sha256": "8ea63fa752e0f8ce2cc976cb95fa1dbb0012095a29ce0a8fc676244b950b6f59"
+      },
+      "rationale_claims_rejected_dict_candidate_is_current": true,
+      "noop_edits": [
+        {
+          "edit_index": 0,
+          "path": "moto/iot/models.py",
+          "old_SHA256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86",
+          "new_SHA256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86"
+        }
+      ],
+      "nonidentical_edit_count": 1,
+      "body_contains_current_incumbent_flag": true,
+      "body_contains_historical_rejected_flag": true,
+      "body_contains_prior_validator_error": true,
+      "current_source_functions_explicit": true,
+      "model_new_native_in_audit": 0
+    }
+  ],
+  "established": "Both complete JSON responses contain one identical old/new edit, which the frozen parser rejects for the whole patch. Current and rejected source/feedback are explicitly labelled in the actual request. The model rationale contradicts those current-state labels.",
+  "inference": "Historical rejected feedback and current source are not reliably distinguished by this model under the present large input.",
+  "not_established": [
+    "A different presentation would improve success",
+    "Dropping the no-op edit would pass any test",
+    "The rejection policy caused this model output",
+    "Provider seed gives deterministic output"
+  ],
+  "parser_source": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\SOURCE\\ours_core\\ranked_repair248.py",
+    "sha256": "0f8958a7419f1af5597702f244691554c11bc922c61819671c0e1d6e6b687ad4"
+  },
+  "progress_guard_source": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\SOURCE\\ours_core\\progress_guard240.py",
+    "sha256": "5f5de74dcbd45e7da1382d39b72818373fa0009380bb92620b8785f975dffe6f"
+  }
+}

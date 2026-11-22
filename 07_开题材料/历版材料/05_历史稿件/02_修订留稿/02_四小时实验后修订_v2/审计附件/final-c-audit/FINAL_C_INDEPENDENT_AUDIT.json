@@ -1,0 +1,2065 @@
+{
+  "schema": "Independent-final-C-result-evidence-audit/1",
+  "at_utc": "2026-10-12T15:36:30.679830+00:00",
+  "scope": "Read-only six requested final evidence files plus referenced public requests, public native outcome records, public selected source JSON and parser source. No model, native, experiment, test, new Gold or final acceptance executed. Private test bodies and private outcome details not opened; success uses already-delivered Root aggregate flags, private summary refs hash-only.",
+  "authoritative_inputs": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\PROGRESS_GUARD_EVENTS.json",
+      "sha256": "39d8c3375cd3cf1dece1ee299f9f0b0327c4c05bdde9b988826784d10096c597"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\FIRST_RESPONSE_VARIATION_AUDIT.json",
+      "sha256": "f5f941e16066ef898f4480639f3a67efdefbba18c33e0270bac5914cf198439a"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
+      "sha256": "b5c9cc47eb848969885b911fc64c67183d601c1c4bdb0ee988bd5c5d384510b0"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
+      "sha256": "a7f875561fd70c7077269191573af57c700751229567853e366a586295132c27"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json",
+      "sha256": "98ec1a5913cfca5e363c9e5b1aa626fad947213420c46082270b421857921627"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
+      "sha256": "6f0143d39e9580e81c15ededcf1ebd78d18fd4a3fb56c1189635c4f7aa7dbf1f"
+    }
+  ],
+  "path_sha_checks": [
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/0/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "71afe1e1380fe681f16ede7daaa6ad6b24b64697a46520b3d05f41bde5ceaa35",
+      "actual_sha256": "71afe1e1380fe681f16ede7daaa6ad6b24b64697a46520b3d05f41bde5ceaa35",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/1/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "607ec8f3e90dbe05f7937a000a227ba84fda37ca15822082519c845aa5e22983",
+      "actual_sha256": "607ec8f3e90dbe05f7937a000a227ba84fda37ca15822082519c845aa5e22983",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/2/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "e242345f1eb3ceca98b8aaf48cebc024ee43322e959e999d4ae7e4f8df010c2d",
+      "actual_sha256": "e242345f1eb3ceca98b8aaf48cebc024ee43322e959e999d4ae7e4f8df010c2d",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/3/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\native_public\\ranked_repair178_public_2\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "7c3a4ac93c0f10ef8f0d63b7e343db6af1d092ebff1fa0b7305a1de4d305b675",
+      "actual_sha256": "7c3a4ac93c0f10ef8f0d63b7e343db6af1d092ebff1fa0b7305a1de4d305b675",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/4/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "3448c7d92f84511a76377c8d5b6b805ae2eefec893640a50c960eb5c085a0052",
+      "actual_sha256": "3448c7d92f84511a76377c8d5b6b805ae2eefec893640a50c960eb5c085a0052",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/5/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "f887fd36cdc82be41b3eb3f2d1c3aa26c5503cb7f9b943424c8d8def510af595",
+      "actual_sha256": "f887fd36cdc82be41b3eb3f2d1c3aa26c5503cb7f9b943424c8d8def510af595",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/8/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "c6b083e1b5b38a715a3a4df3b80a48c8ff98e01fb8fdd85d038e4e1d5e40c7f1",
+      "actual_sha256": "c6b083e1b5b38a715a3a4df3b80a48c8ff98e01fb8fdd85d038e4e1d5e40c7f1",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/9/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "a1e2b80f0104659cf45ddf67cf00c3ee0d32fb716c2f62dad7a8cd4c145370bc",
+      "actual_sha256": "a1e2b80f0104659cf45ddf67cf00c3ee0d32fb716c2f62dad7a8cd4c145370bc",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/10/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "6847f9354c941524a3b056bba6ab07bac316cf4ad437fa5e01c70481df00d416",
+      "actual_sha256": "6847f9354c941524a3b056bba6ab07bac316cf4ad437fa5e01c70481df00d416",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/all_events/11/native_ref",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+      "expected_sha256": "b07337b59c484652aee4598f00f6e449eb14ebd5eaa1f1f0852ec0f7a490069b",
+      "actual_sha256": "b07337b59c484652aee4598f00f6e449eb14ebd5eaa1f1f0852ec0f7a490069b",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/0/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "80873af354d725d702f33807cd78af07234aab75cfa07a6daf03d933589df1c0",
+      "actual_sha256": "80873af354d725d702f33807cd78af07234aab75cfa07a6daf03d933589df1c0",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/0/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "c213b0dc5ad25bd137c5f26f5bbe06893fb8dc96d53fd6f9676d0076c768720c",
+      "actual_sha256": "c213b0dc5ad25bd137c5f26f5bbe06893fb8dc96d53fd6f9676d0076c768720c",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/0/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "ea81699ad0e01928f94d4bc647bbecbdb85de38072a07233b18613f45e461843",
+      "actual_sha256": "ea81699ad0e01928f94d4bc647bbecbdb85de38072a07233b18613f45e461843",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/0/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/0/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\SET\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "dcce44eccb35da6c7d8964495cb6c61e50b44857d21eb151ca9796385a2ac9a4",
+      "actual_sha256": "dcce44eccb35da6c7d8964495cb6c61e50b44857d21eb151ca9796385a2ac9a4",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/0/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\SET\\PARENT_TERMINAL249.json",
+      "expected_sha256": "f3c6cee7518f99a4a413dc21f85a77499610defe91fd480273965c598081e4a1",
+      "actual_sha256": "f3c6cee7518f99a4a413dc21f85a77499610defe91fd480273965c598081e4a1",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/1/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "940533323b2ac2c72ac3a38666398f2ce87666875e931198e2c2f853d96a562d",
+      "actual_sha256": "940533323b2ac2c72ac3a38666398f2ce87666875e931198e2c2f853d96a562d",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/1/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "4c32cb804d164f84735cd596be7a30b881c86191c84df2f06279f2251f6219cf",
+      "actual_sha256": "4c32cb804d164f84735cd596be7a30b881c86191c84df2f06279f2251f6219cf",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/1/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "5a8659779af1e4bfbb9e2068e986a3df6162f878f77af095334ff6c28c487cda",
+      "actual_sha256": "5a8659779af1e4bfbb9e2068e986a3df6162f878f77af095334ff6c28c487cda",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/1/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/1/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\COUNT\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "728a6cf0995a8b94c58faad7c82cfc9464018e346c82799d411c473ba8176ede",
+      "actual_sha256": "728a6cf0995a8b94c58faad7c82cfc9464018e346c82799d411c473ba8176ede",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/1/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\COUNT\\PARENT_TERMINAL249.json",
+      "expected_sha256": "880ee3254566ec9a271767d2d8bfad4de52f9efcc15e110e5b427d3da86b6326",
+      "actual_sha256": "880ee3254566ec9a271767d2d8bfad4de52f9efcc15e110e5b427d3da86b6326",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/2/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "5486a7df235e62a86bc3c3af62b10f3bd030796823de8fc1cc01a2c0fe8fe3e6",
+      "actual_sha256": "5486a7df235e62a86bc3c3af62b10f3bd030796823de8fc1cc01a2c0fe8fe3e6",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/2/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "72b45178b387ecf7320de6238874c9bfef379d8669cfa6cc033f2332b0b6c14a",
+      "actual_sha256": "72b45178b387ecf7320de6238874c9bfef379d8669cfa6cc033f2332b0b6c14a",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/2/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "4a9f3f2370edd3313bbaef00d173c3dce55bad71d21a5b64ad7f630f5b32ad96",
+      "actual_sha256": "4a9f3f2370edd3313bbaef00d173c3dce55bad71d21a5b64ad7f630f5b32ad96",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/2/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "2c23ce71fe8eab00aa3334840eac95b7ca1be6437aa78e641247ed1e557c48a0",
+      "actual_sha256": "2c23ce71fe8eab00aa3334840eac95b7ca1be6437aa78e641247ed1e557c48a0",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/2/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\O_ONLY\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "7d59f5a141d2f429e89268a2755952acdd3115fd9c4571bb19790e1a4bd95901",
+      "actual_sha256": "7d59f5a141d2f429e89268a2755952acdd3115fd9c4571bb19790e1a4bd95901",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/2/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\O_ONLY\\PARENT_TERMINAL249.json",
+      "expected_sha256": "51d6ab011cbd3283174a44ebca871eb1e2519b13451ffad4f38c0b1e8c222628",
+      "actual_sha256": "51d6ab011cbd3283174a44ebca871eb1e2519b13451ffad4f38c0b1e8c222628",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/3/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "fa42a8ce07a1093f969414947337c96fca6b430bf92cdc192b0ddc3520e86ab7",
+      "actual_sha256": "fa42a8ce07a1093f969414947337c96fca6b430bf92cdc192b0ddc3520e86ab7",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/3/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "4a7a345f7c608a53e25a5c36b9baeb7d4470eafa9f4eeaa00e1cc0313b4bab69",
+      "actual_sha256": "4a7a345f7c608a53e25a5c36b9baeb7d4470eafa9f4eeaa00e1cc0313b4bab69",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/3/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "e231da061840778419f453066f8ba7a4b76131cd042cdd45098c7e7927021e02",
+      "actual_sha256": "e231da061840778419f453066f8ba7a4b76131cd042cdd45098c7e7927021e02",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/3/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/3/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\SET\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "47b58c021778828e716cea675ee77d7704aaae0dfecc831da7c6c6a1cb9eaacf",
+      "actual_sha256": "47b58c021778828e716cea675ee77d7704aaae0dfecc831da7c6c6a1cb9eaacf",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/3/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\SET\\PARENT_TERMINAL249.json",
+      "expected_sha256": "2ee62594e5d0ad9b8bc4e3e9d8161319fd2e0ca1e8e85c5d68c26498d2ba199b",
+      "actual_sha256": "2ee62594e5d0ad9b8bc4e3e9d8161319fd2e0ca1e8e85c5d68c26498d2ba199b",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/4/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "15be5c01627465f6c7e15e44c153651aedd3d4b361286971b34a35eaf64fcce1",
+      "actual_sha256": "15be5c01627465f6c7e15e44c153651aedd3d4b361286971b34a35eaf64fcce1",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/4/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "a2b5ab87276714f271cd3ff151eaece8a4a1e1e2a3406b52cc7ab8739ea02ce5",
+      "actual_sha256": "a2b5ab87276714f271cd3ff151eaece8a4a1e1e2a3406b52cc7ab8739ea02ce5",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/4/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "bd4b0a6f31d3d619a9d6bdabb75a16336c9f5329f4da70cc0f59b22a5fe05e04",
+      "actual_sha256": "bd4b0a6f31d3d619a9d6bdabb75a16336c9f5329f4da70cc0f59b22a5fe05e04",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/4/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "0069b8478bc973917702425285d40a4a7f73f9fb98c8cad68a938d55544e9176",
+      "actual_sha256": "0069b8478bc973917702425285d40a4a7f73f9fb98c8cad68a938d55544e9176",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/5/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "bf7a0e5ceda5fec691dab0569607157becafbf34439f7fe1b217014904846afe",
+      "actual_sha256": "bf7a0e5ceda5fec691dab0569607157becafbf34439f7fe1b217014904846afe",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/5/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "217efb31e97c6f81eb9b67a9d75eb7cc752dd4c2b4d2243843d8f51c4cca8e88",
+      "actual_sha256": "217efb31e97c6f81eb9b67a9d75eb7cc752dd4c2b4d2243843d8f51c4cca8e88",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/5/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "f7d39cd0b20f3118a0b500f1d2f486fa163c41284902eabf88285772707abc28",
+      "actual_sha256": "f7d39cd0b20f3118a0b500f1d2f486fa163c41284902eabf88285772707abc28",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/5/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/5/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\O_ONLY\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "48a118db85612858b2757e55b81616e44ac2ec4c031c554e34efdf2f8d98c6b5",
+      "actual_sha256": "48a118db85612858b2757e55b81616e44ac2ec4c031c554e34efdf2f8d98c6b5",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/5/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\O_ONLY\\PARENT_TERMINAL249.json",
+      "expected_sha256": "633ede0b6ed614291368905e95662262e12c53c8952b47277c7450b0a98c9e11",
+      "actual_sha256": "633ede0b6ed614291368905e95662262e12c53c8952b47277c7450b0a98c9e11",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/6/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "32d712453a2df8af7e0d8ae75834bafb5d11a02ea38ee9fd3b055afd0076b6d2",
+      "actual_sha256": "32d712453a2df8af7e0d8ae75834bafb5d11a02ea38ee9fd3b055afd0076b6d2",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/6/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "93ca876dd74224435a93ac4aed2eeb9bab7015ffebd19d9104cd921c0a748903",
+      "actual_sha256": "93ca876dd74224435a93ac4aed2eeb9bab7015ffebd19d9104cd921c0a748903",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/6/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "80d8dc802f93f14f70c70b5ab39ecd4906c75f8adbc1316b26c5d30111ec0d7d",
+      "actual_sha256": "80d8dc802f93f14f70c70b5ab39ecd4906c75f8adbc1316b26c5d30111ec0d7d",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/6/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/6/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\SET\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "b91b2425176f009bd700cc6301b9ef4ae496aeeffef091cb98437caa77b9d3e9",
+      "actual_sha256": "b91b2425176f009bd700cc6301b9ef4ae496aeeffef091cb98437caa77b9d3e9",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/6/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\SET\\PARENT_TERMINAL249.json",
+      "expected_sha256": "f47b821ef395e2a83000078dcc912cd1661f54c8451a599828260a837e69c1ae",
+      "actual_sha256": "f47b821ef395e2a83000078dcc912cd1661f54c8451a599828260a837e69c1ae",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/7/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "258cf628aa2d3e5aab356420793aa1b8ba81c172b23520942e2e6b53d99cf866",
+      "actual_sha256": "258cf628aa2d3e5aab356420793aa1b8ba81c172b23520942e2e6b53d99cf866",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/7/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "c632182e9083d50a9f0239b7f4570822c26076035dcce9f682dd0ea8c775c61e",
+      "actual_sha256": "c632182e9083d50a9f0239b7f4570822c26076035dcce9f682dd0ea8c775c61e",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/7/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "dd293c62fdf6c9441071f3a35aac2c2532d7e83f47d45f24b902422666f33e97",
+      "actual_sha256": "dd293c62fdf6c9441071f3a35aac2c2532d7e83f47d45f24b902422666f33e97",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/7/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/7/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\COUNT\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "ba1992719135e6032e447c7f429e2bde2fb3faa7310ca1060834ccb093530973",
+      "actual_sha256": "ba1992719135e6032e447c7f429e2bde2fb3faa7310ca1060834ccb093530973",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/7/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\COUNT\\PARENT_TERMINAL249.json",
+      "expected_sha256": "c7a574b3da5cc520a8dd00e92941cf45d4e912b15a8ee3c3203670878f985cd5",
+      "actual_sha256": "c7a574b3da5cc520a8dd00e92941cf45d4e912b15a8ee3c3203670878f985cd5",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/8/science_T0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+      "expected_sha256": "3570b95b1b74e24d55431cf3f1c346c1eebf49c78a3cfa248875303649e35a28",
+      "actual_sha256": "3570b95b1b74e24d55431cf3f1c346c1eebf49c78a3cfa248875303649e35a28",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/8/public_terminal",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "expected_sha256": "2dc230d624b52f0a53d7b6b9102be0c4464517354b6732653c1e036d127a7cfd",
+      "actual_sha256": "2dc230d624b52f0a53d7b6b9102be0c4464517354b6732653c1e036d127a7cfd",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/8/public_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\Root_owner600\\PARENT_TERMINAL262.json",
+      "expected_sha256": "991a54a5c8845fa4bf4e35214346ca6b12f1a4745d68a0e28313f6506f6eba22",
+      "actual_sha256": "991a54a5c8845fa4bf4e35214346ca6b12f1a4745d68a0e28313f6506f6eba22",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/8/selected_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/8/independent_Root_only_summary",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\O_ONLY\\ROOT_FINAL_ACCEPTANCE.json",
+      "expected_sha256": "41262f349397bd68257d53a03f4890b795799074dfaff4e978c189fa66b55b04",
+      "actual_sha256": "41262f349397bd68257d53a03f4890b795799074dfaff4e978c189fa66b55b04",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_rows/8/independent_real_parent_STOP",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\O_ONLY\\PARENT_TERMINAL249.json",
+      "expected_sha256": "b68c70596a1d2e0102e0e7f4feefacd1cf543314b3df97a09cf83831dc9dea82",
+      "actual_sha256": "b68c70596a1d2e0102e0e7f4feefacd1cf543314b3df97a09cf83831dc9dea82",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/raw_event_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\ALL_PUBLIC_PROGRESS_EVENTS262.json",
+      "expected_sha256": "a72f6df2265d638451f940389725c317a481ccd62a23a8ea05a7383d0835f5cb",
+      "actual_sha256": "a72f6df2265d638451f940389725c317a481ccd62a23a8ea05a7383d0835f5cb",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/final_nine_summary_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\FINAL_NINE_SLOT_SUMMARY262.json",
+      "expected_sha256": "8072e5745451c945bfae2781752324a5c725c0518b152508e23acdccdca2277b",
+      "actual_sha256": "8072e5745451c945bfae2781752324a5c725c0518b152508e23acdccdca2277b",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "PROGRESS_GUARD_EVENTS.json/Root_independent_flags",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_C262_ALL_NINE_PRIVATE_ACCEPTANCE_SUMMARY.json",
+      "expected_sha256": "423e6ce9e7246762b963e5e9f3c027b26f9c165ea0b6370e343af3a4abcfb191",
+      "actual_sha256": "423e6ce9e7246762b963e5e9f3c027b26f9c165ea0b6370e343af3a4abcfb191",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": true
+    },
+    {
+      "reference": "NORMAL_FAILURE_STATE_BINDING_AUDIT.json/rows/0/raw_response",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\SETTLED_RAW_RESPONSE.json",
+      "expected_sha256": "f64e27be85dc5cd7c7587cfac8f9624c5834006abe55683dd4fdab3f134c913c",
+      "actual_sha256": "f64e27be85dc5cd7c7587cfac8f9624c5834006abe55683dd4fdab3f134c913c",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NORMAL_FAILURE_STATE_BINDING_AUDIT.json/rows/0/request_body",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\FIRST_UNPOST_BODY.json",
+      "expected_sha256": "d219d73410458130cfc5f7fe28cf5a765bff8acece3949f47cf491ef0a131c6e",
+      "actual_sha256": "d219d73410458130cfc5f7fe28cf5a765bff8acece3949f47cf491ef0a131c6e",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NORMAL_FAILURE_STATE_BINDING_AUDIT.json/rows/1/raw_response",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\SETTLED_RAW_RESPONSE.json",
+      "expected_sha256": "03aa1ef95733a3090dac0a665f5260c965c5b4ae9147fa0cb1b631c0902ef526",
+      "actual_sha256": "03aa1ef95733a3090dac0a665f5260c965c5b4ae9147fa0cb1b631c0902ef526",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NORMAL_FAILURE_STATE_BINDING_AUDIT.json/rows/1/request_body",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\FIRST_UNPOST_BODY.json",
+      "expected_sha256": "8ea63fa752e0f8ce2cc976cb95fa1dbb0012095a29ce0a8fc676244b950b6f59",
+      "actual_sha256": "8ea63fa752e0f8ce2cc976cb95fa1dbb0012095a29ce0a8fc676244b950b6f59",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NORMAL_FAILURE_STATE_BINDING_AUDIT.json/parser_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\SOURCE\\ours_core\\ranked_repair248.py",
+      "expected_sha256": "0f8958a7419f1af5597702f244691554c11bc922c61819671c0e1d6e6b687ad4",
+      "actual_sha256": "0f8958a7419f1af5597702f244691554c11bc922c61819671c0e1d6e6b687ad4",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NORMAL_FAILURE_STATE_BINDING_AUDIT.json/progress_guard_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\SOURCE\\ours_core\\progress_guard240.py",
+      "expected_sha256": "5f5de74dcbd45e7da1382d39b72818373fa0009380bb92620b8785f975dffe6f",
+      "actual_sha256": "5f5de74dcbd45e7da1382d39b72818373fa0009380bb92620b8785f975dffe6f",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json/saved_public_source_references/0",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "0069b8478bc973917702425285d40a4a7f73f9fb98c8cad68a938d55544e9176",
+      "actual_sha256": "0069b8478bc973917702425285d40a4a7f73f9fb98c8cad68a938d55544e9176",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json/saved_public_source_references/1",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json/saved_public_source_references/2",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\SETTLED_RAW_RESPONSE.json",
+      "expected_sha256": "f64e27be85dc5cd7c7587cfac8f9624c5834006abe55683dd4fdab3f134c913c",
+      "actual_sha256": "f64e27be85dc5cd7c7587cfac8f9624c5834006abe55683dd4fdab3f134c913c",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json/saved_public_source_references/3",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\SETTLED_RAW_RESPONSE.json",
+      "expected_sha256": "03aa1ef95733a3090dac0a665f5260c965c5b4ae9147fa0cb1b631c0902ef526",
+      "actual_sha256": "03aa1ef95733a3090dac0a665f5260c965c5b4ae9147fa0cb1b631c0902ef526",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json/variant_object_preserving/selected_business_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "actual_sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json/variant_dict_and_consumer_repair/selected_business_source",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+      "expected_sha256": "2c23ce71fe8eab00aa3334840eac95b7ca1be6437aa78e641247ed1e557c48a0",
+      "actual_sha256": "2c23ce71fe8eab00aa3334840eac95b7ca1be6437aa78e641247ed1e557c48a0",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "DELIVERY_MANIFEST/PROGRESS_GUARD_EVENTS.json",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\PROGRESS_GUARD_EVENTS.json",
+      "expected_sha256": "39d8c3375cd3cf1dece1ee299f9f0b0327c4c05bdde9b988826784d10096c597",
+      "actual_sha256": "39d8c3375cd3cf1dece1ee299f9f0b0327c4c05bdde9b988826784d10096c597",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "DELIVERY_MANIFEST/FIRST_RESPONSE_VARIATION_AUDIT.json",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\FIRST_RESPONSE_VARIATION_AUDIT.json",
+      "expected_sha256": "f5f941e16066ef898f4480639f3a67efdefbba18c33e0270bac5914cf198439a",
+      "actual_sha256": "f5f941e16066ef898f4480639f3a67efdefbba18c33e0270bac5914cf198439a",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "DELIVERY_MANIFEST/NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
+      "expected_sha256": "b5c9cc47eb848969885b911fc64c67183d601c1c4bdb0ee988bd5c5d384510b0",
+      "actual_sha256": "b5c9cc47eb848969885b911fc64c67183d601c1c4bdb0ee988bd5c5d384510b0",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "DELIVERY_MANIFEST/NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
+      "expected_sha256": "a7f875561fd70c7077269191573af57c700751229567853e366a586295132c27",
+      "actual_sha256": "a7f875561fd70c7077269191573af57c700751229567853e366a586295132c27",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "DELIVERY_MANIFEST/PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json",
+      "expected_sha256": "98ec1a5913cfca5e363c9e5b1aa626fad947213420c46082270b421857921627",
+      "actual_sha256": "98ec1a5913cfca5e363c9e5b1aa626fad947213420c46082270b421857921627",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    },
+    {
+      "reference": "DELIVERY_MANIFEST/SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\结论\\20261012_审阅后四小时执行\\SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
+      "expected_sha256": "6f0143d39e9580e81c15ededcf1ebd78d18fd4a3fb56c1189635c4f7aa7dbf1f",
+      "actual_sha256": "6f0143d39e9580e81c15ededcf1ebd78d18fd4a3fb56c1189635c4f7aa7dbf1f",
+      "matches": true,
+      "metadata_only_hash_no_content_parse": false
+    }
+  ],
+  "path_sha_reference_count": 83,
+  "unique_path_count": 77,
+  "all_path_sha_match": true,
+  "summary": {
+    "native_candidates": 10,
+    "complete_generated_responses": 12,
+    "semantic_rejected_without_native": 2,
+    "ordinary_pass_goal_count_loss": 2,
+    "SET_reject_COUNT_accept": 0,
+    "successes_by_policy": {
+      "SET": 3,
+      "COUNT": 2,
+      "O_ONLY": 3
+    },
+    "runs": 9,
+    "successful_source_groups": {
+      "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef": [
+        "trial1/SET",
+        "trial1/COUNT",
+        "trial2/SET",
+        "trial2/O_ONLY",
+        "trial3/SET",
+        "trial3/COUNT",
+        "trial3/O_ONLY"
+      ],
+      "2628ec6c0cf4cab273bb3f0e32382d2e669f1a822d5980a05ee780e271871401": [
+        "trial1/O_ONLY"
+      ]
+    },
+    "cost_from_existing_summary_CNY": "0.24134996"
+  },
+  "run_table": [
+    {
+      "trial": "trial1",
+      "policy": "SET",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 1,
+      "native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt1",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 1358.9679999999935,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "c213b0dc5ad25bd137c5f26f5bbe06893fb8dc96d53fd6f9676d0076c768720c"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      }
+    },
+    {
+      "trial": "trial1",
+      "policy": "COUNT",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 1,
+      "native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt1",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 1326.5620000000054,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "4c32cb804d164f84735cd596be7a30b881c86191c84df2f06279f2251f6219cf"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      }
+    },
+    {
+      "trial": "trial1",
+      "policy": "O_ONLY",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 2,
+      "native_candidates": 2,
+      "first_public_pass_attempt": 2,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt2",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "2628ec6c0cf4cab273bb3f0e32382d2e669f1a822d5980a05ee780e271871401",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 1280.75,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "72b45178b387ecf7320de6238874c9bfef379d8669cfa6cc033f2332b0b6c14a"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "2c23ce71fe8eab00aa3334840eac95b7ca1be6437aa78e641247ed1e557c48a0"
+      }
+    },
+    {
+      "trial": "trial2",
+      "policy": "SET",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 1,
+      "native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt1",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 797.7660000000033,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "4a7a345f7c608a53e25a5c36b9baeb7d4470eafa9f4eeaa00e1cc0313b4bab69"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      }
+    },
+    {
+      "trial": "trial2",
+      "policy": "COUNT",
+      "success_from_existing_root_summary": false,
+      "fixed30min_success_from_existing_root_summary": false,
+      "final_status": "NORMAL_MODEL_METHOD_FAILURE",
+      "public_terminal_status": "MODEL_SEMANTIC_FAILURE",
+      "public_GO4_PASS": false,
+      "calls": 3,
+      "native_candidates": 1,
+      "first_public_pass_attempt": null,
+      "independent_acceptance_calls": 0,
+      "selected_snapshot": "PARTIAL_START",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "f2064f130ac1b1f732600f8db17cfa4b6a904734ef4af6b87dd76cd367062ee5",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": null,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "a2b5ab87276714f271cd3ff151eaece8a4a1e1e2a3406b52cc7ab8739ea02ce5"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "0069b8478bc973917702425285d40a4a7f73f9fb98c8cad68a938d55544e9176"
+      }
+    },
+    {
+      "trial": "trial2",
+      "policy": "O_ONLY",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 1,
+      "native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt1",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 740.0320000000065,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "217efb31e97c6f81eb9b67a9d75eb7cc752dd4c2b4d2243843d8f51c4cca8e88"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      }
+    },
+    {
+      "trial": "trial3",
+      "policy": "SET",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 1,
+      "native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt1",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 531.2039999999979,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "93ca876dd74224435a93ac4aed2eeb9bab7015ffebd19d9104cd921c0a748903"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      }
+    },
+    {
+      "trial": "trial3",
+      "policy": "COUNT",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 1,
+      "native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt1",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 515.1879999999946,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "c632182e9083d50a9f0239b7f4570822c26076035dcce9f682dd0ea8c775c61e"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      }
+    },
+    {
+      "trial": "trial3",
+      "policy": "O_ONLY",
+      "success_from_existing_root_summary": true,
+      "fixed30min_success_from_existing_root_summary": true,
+      "final_status": "INDEPENDENT_PASS",
+      "public_terminal_status": "COMPLETED",
+      "public_GO4_PASS": true,
+      "calls": 1,
+      "native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "independent_acceptance_calls": 1,
+      "selected_snapshot": "attempt1",
+      "selected_business_file_count": 861,
+      "source_inventory_sha256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "declared_source_inventory_matches": true,
+      "original30min_elapsed_seconds": 477.4219999999914,
+      "public_terminal_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "2dc230d624b52f0a53d7b6b9102be0c4464517354b6732653c1e036d127a7cfd"
+      },
+      "selected_source_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      }
+    }
+  ],
+  "native_event_table": [
+    {
+      "trial": "trial1",
+      "policy": "SET",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "71afe1e1380fe681f16ede7daaa6ad6b24b64697a46520b3d05f41bde5ceaa35"
+      }
+    },
+    {
+      "trial": "trial1",
+      "policy": "COUNT",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "607ec8f3e90dbe05f7937a000a227ba84fda37ca15822082519c845aa5e22983"
+      }
+    },
+    {
+      "trial": "trial1",
+      "policy": "O_ONLY",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 1,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "failed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "failed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": false,
+        "COUNT_TNR": false,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "e242345f1eb3ceca98b8aaf48cebc024ee43322e959e999d4ae7e4f8df010c2d"
+      }
+    },
+    {
+      "trial": "trial1",
+      "policy": "O_ONLY",
+      "attempt": 2,
+      "before_goal_pass_count": 1,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\native_public\\ranked_repair178_public_2\\native_once\\actual_G_O\\run.json",
+        "sha256": "7c3a4ac93c0f10ef8f0d63b7e343db6af1d092ebff1fa0b7305a1de4d305b675"
+      }
+    },
+    {
+      "trial": "trial2",
+      "policy": "SET",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "3448c7d92f84511a76377c8d5b6b805ae2eefec893640a50c960eb5c085a0052"
+      }
+    },
+    {
+      "trial": "trial2",
+      "policy": "COUNT",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 1,
+      "ordinary_all_pass": true,
+      "actual_accepted": false,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "failed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "failed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": false,
+        "COUNT_TNR": false,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "f887fd36cdc82be41b3eb3f2d1c3aa26c5503cb7f9b943424c8d8def510af595"
+      }
+    },
+    {
+      "trial": "trial2",
+      "policy": "O_ONLY",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "c6b083e1b5b38a715a3a4df3b80a48c8ff98e01fb8fdd85d038e4e1d5e40c7f1"
+      }
+    },
+    {
+      "trial": "trial3",
+      "policy": "SET",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "a1e2b80f0104659cf45ddf67cf00c3ee0d32fb716c2f62dad7a8cd4c145370bc"
+      }
+    },
+    {
+      "trial": "trial3",
+      "policy": "COUNT",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "6847f9354c941524a3b056bba6ab07bac316cf4ad437fa5e01c70481df00d416"
+      }
+    },
+    {
+      "trial": "trial3",
+      "policy": "O_ONLY",
+      "attempt": 1,
+      "before_goal_pass_count": 2,
+      "candidate_goal_pass_count": 3,
+      "ordinary_all_pass": true,
+      "actual_accepted": true,
+      "actual_rule_recalculation_matches": true,
+      "public_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed"
+      },
+      "outcome_copy_matches_primary": true,
+      "offline_recomputed": {
+        "PROGRESS_SET": true,
+        "COUNT_TNR": true,
+        "ORDINARY_GUARD": true
+      },
+      "offline_all_match": true,
+      "SET_reject_COUNT_accept": false,
+      "goal_count_nondecreasing_but_SET_reject": false,
+      "native_integrity": {
+        "executed": true,
+        "guard_loaded": true,
+        "business_state_unchanged": true,
+        "frozen_tests_unchanged": true,
+        "exact_test_coverage": true,
+        "completed_guarded_coverage": true,
+        "timeout": false,
+        "status": "completed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "b07337b59c484652aee4598f00f6e449eb14ebd5eaa1f1f0852ec0f7a490069b"
+      }
+    }
+  ],
+  "semantic_output_failures_without_native": [
+    {
+      "trial_id": "trial2",
+      "origin_actual_policy": "COUNT",
+      "attempt": 2,
+      "outcome": "MODEL_SEMANTIC_FAILURE",
+      "parsed": false,
+      "applied": false,
+      "actual_native_calls": 0
+    },
+    {
+      "trial_id": "trial2",
+      "origin_actual_policy": "COUNT",
+      "attempt": 3,
+      "outcome": "MODEL_SEMANTIC_FAILURE",
+      "parsed": false,
+      "applied": false,
+      "actual_native_calls": 0
+    }
+  ],
+  "call_table": [
+    {
+      "trial": "trial1",
+      "policy": "SET",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "d4573e9537e80e142d054fc1d399beef8cca5546cdaf28be81ba214e1ed33017",
+      "canonical_body_sha256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "85c738da353f8df60350f2b681d34a9eccc768fe3de13bee5fd4c1fff289a80d",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "58cfedfb83810a498c6598ead158e9644a41a1824d05797bb408a3993bf43966",
+      "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 869716172,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial1",
+      "policy": "COUNT",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "d4573e9537e80e142d054fc1d399beef8cca5546cdaf28be81ba214e1ed33017",
+      "canonical_body_sha256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "e36a2523910fccbb0b7ab6aed38a9d90cf3fc540a85260bd4320d184ac0b7931",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "5e01cde630d010a0fc1372eed7e5abd36b0289a3e3b2f01dd5e6e9a44c887e7d",
+      "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 869716172,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial1",
+      "policy": "O_ONLY",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "d4573e9537e80e142d054fc1d399beef8cca5546cdaf28be81ba214e1ed33017",
+      "canonical_body_sha256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "a1441852a6b59029737d3af80702373b234901a4bf425c3684ba048f1ac6e760",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "ef2b1d533d7f2610f418fa9bcf92acf3d5e341c5873399e2e5fa780f9203b228",
+      "edits_sha256": "dbb6df1ccc543c00d28f44f8b4b42afe8b01a4f0a1e2fa2500f81c5522f3ecd1",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 869716172,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial1",
+      "policy": "O_ONLY",
+      "call": 2,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\calls\\call002\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "f8591105c24d01545a08cc9012e868ae73c0e1c99e853c9cd0ba5ca45bede3d3",
+      "canonical_body_sha256": "99e5096ff1c54bee235b63cf2c0e3ed24f3b4318b18c834ab64b47ea6f514cc7",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\calls\\call002\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "77d6de6948ac2a23644c2be95f948c48550eb2573878ab52329b176f7c6182d6",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "d132f4b9eee67b1dc0a46937148ec268794c4a1b86200d57318ceb8cbb19a98a",
+      "edits_sha256": "75c49c0ff9e939687e7470517f8fb4db8b7575e01450b6281982700bf681fa22",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 239626192,
+      "prompt_tokens": 106420,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial2",
+      "policy": "SET",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "b42897721cec168351d501dc4150d1d633791bad4dd8c471e9acc2a2b78516df",
+      "canonical_body_sha256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "2ef1c926ee541a30dfc3e45cf485c826764d97d9c7766793d346f59b7bd81d99",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "23148c8eda67d8e4e1d0d7b93fd0ae18ed8a78a60a036ec5102e10f9c52cd580",
+      "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 1277633150,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial2",
+      "policy": "COUNT",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "b42897721cec168351d501dc4150d1d633791bad4dd8c471e9acc2a2b78516df",
+      "canonical_body_sha256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "03a2563e89b28849bdee606a42f7b22294dcfabaf8d9630e76fad7fd60c5f32e",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "d9401ec71ab54679b5445949beee7d11b73677fb681f42d297c8300b1afdc086",
+      "edits_sha256": "dbb6df1ccc543c00d28f44f8b4b42afe8b01a4f0a1e2fa2500f81c5522f3ecd1",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 1277633150,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial2",
+      "policy": "COUNT",
+      "call": 2,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "d219d73410458130cfc5f7fe28cf5a765bff8acece3949f47cf491ef0a131c6e",
+      "canonical_body_sha256": "7f4d8cf3d9853a7d8555785477f06df6583abfaeebffdf3ff4c7323c2c83aa0f",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call002\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "f64e27be85dc5cd7c7587cfac8f9624c5834006abe55683dd4fdab3f134c913c",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "dd2c32ded4e1cc4b76f5c33971b50af9ca4634245a566c280319ad9a9aac316c",
+      "edits_sha256": "eb140a4919b37f050804db41e95ad63356caacefe4aadd957fc0c9b5fcfb559e",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 1317161064,
+      "prompt_tokens": 104252,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial2",
+      "policy": "COUNT",
+      "call": 3,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "8ea63fa752e0f8ce2cc976cb95fa1dbb0012095a29ce0a8fc676244b950b6f59",
+      "canonical_body_sha256": "1ff19fbb6989c8e263a8d22c5ffa19fdca682308604d11214919982970b40c23",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call003\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "03aa1ef95733a3090dac0a665f5260c965c5b4ae9147fa0cb1b631c0902ef526",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "1c0932a23cfe7e056033e4f5f757452a2bbaf80450765e2a088b1a64a5e740ac",
+      "edits_sha256": "eb140a4919b37f050804db41e95ad63356caacefe4aadd957fc0c9b5fcfb559e",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 110345662,
+      "prompt_tokens": 105558,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial2",
+      "policy": "O_ONLY",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "b42897721cec168351d501dc4150d1d633791bad4dd8c471e9acc2a2b78516df",
+      "canonical_body_sha256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "61535ba1cb79b138ec6765e593be2b763ef20b8b63b109c9f8fc60e0cb917c57",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "041efca50710e50ec691442c62fa127be67b2740a02fef87587f43b55e1b8486",
+      "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 1277633150,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial3",
+      "policy": "SET",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "94b54702bd4853789578bf073009a5a15106bb54fcba72c55234404db4d6ff64",
+      "canonical_body_sha256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "fcf9ffc1869b97e687278c92c547c695066bd50704a4ac0ce9c560cee237f7db",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "d7b66fef3fea45d55ed885e65a2cf0a305c8d68f1fd89828a6c64e329339fe10",
+      "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 1154486987,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial3",
+      "policy": "COUNT",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "94b54702bd4853789578bf073009a5a15106bb54fcba72c55234404db4d6ff64",
+      "canonical_body_sha256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "876e303f3fe5ba7f06e722bb105e462a9bfb487dc141be282adb649a108fddbf",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "f52063b2ada8503a38cd0171fe0b4415592f7803f18928f4c771bf21622970ad",
+      "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 1154486987,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    },
+    {
+      "trial": "trial3",
+      "policy": "O_ONLY",
+      "call": 1,
+      "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\calls\\call001\\FIRST_UNPOST_BODY.json",
+      "request_file_sha256": "94b54702bd4853789578bf073009a5a15106bb54fcba72c55234404db4d6ff64",
+      "canonical_body_sha256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+      "body_matches_original_audit": true,
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+      "response_file_sha256": "ed4dd3b8051626980ec1e9f02082eb1501596c9dd54dd7bd79c2600bc3602827",
+      "response_file_matches_original_audit": true,
+      "response_content_sha256": "4361c12ab7044e2bcdc65fa0235ecc14e8e6d2cf6dbe01710f19325771c4c30a",
+      "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+      "JSON_valid": true,
+      "finish_reason": "stop",
+      "returned_model": "deepseek-flash",
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 1154486987,
+      "prompt_tokens": 96211,
+      "same_request_does_not_guarantee_same_response": null
+    }
+  ],
+  "first_response_variation": [
+    {
+      "trial": "trial1",
+      "full_request_objects_equal": true,
+      "unique_body_hashes": 1,
+      "distinct_response_contents": 3,
+      "distinct_edit_lists": 2,
+      "rows": [
+        {
+          "trial": "trial1",
+          "policy": "SET",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "d4573e9537e80e142d054fc1d399beef8cca5546cdaf28be81ba214e1ed33017",
+          "canonical_body_sha256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "85c738da353f8df60350f2b681d34a9eccc768fe3de13bee5fd4c1fff289a80d",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "58cfedfb83810a498c6598ead158e9644a41a1824d05797bb408a3993bf43966",
+          "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 869716172,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        },
+        {
+          "trial": "trial1",
+          "policy": "COUNT",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "d4573e9537e80e142d054fc1d399beef8cca5546cdaf28be81ba214e1ed33017",
+          "canonical_body_sha256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "e36a2523910fccbb0b7ab6aed38a9d90cf3fc540a85260bd4320d184ac0b7931",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "5e01cde630d010a0fc1372eed7e5abd36b0289a3e3b2f01dd5e6e9a44c887e7d",
+          "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 869716172,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        },
+        {
+          "trial": "trial1",
+          "policy": "O_ONLY",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "d4573e9537e80e142d054fc1d399beef8cca5546cdaf28be81ba214e1ed33017",
+          "canonical_body_sha256": "8fce1d57da51842b21da38629ecd6267d806045b1f757646f8ca4a27e9ac3c14",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "a1441852a6b59029737d3af80702373b234901a4bf425c3684ba048f1ac6e760",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "ef2b1d533d7f2610f418fa9bcf92acf3d5e341c5873399e2e5fa780f9203b228",
+          "edits_sha256": "dbb6df1ccc543c00d28f44f8b4b42afe8b01a4f0a1e2fa2500f81c5522f3ecd1",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 869716172,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        }
+      ],
+      "counts_match_source_audit": true
+    },
+    {
+      "trial": "trial2",
+      "full_request_objects_equal": true,
+      "unique_body_hashes": 1,
+      "distinct_response_contents": 3,
+      "distinct_edit_lists": 2,
+      "rows": [
+        {
+          "trial": "trial2",
+          "policy": "SET",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "b42897721cec168351d501dc4150d1d633791bad4dd8c471e9acc2a2b78516df",
+          "canonical_body_sha256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "2ef1c926ee541a30dfc3e45cf485c826764d97d9c7766793d346f59b7bd81d99",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "23148c8eda67d8e4e1d0d7b93fd0ae18ed8a78a60a036ec5102e10f9c52cd580",
+          "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 1277633150,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        },
+        {
+          "trial": "trial2",
+          "policy": "COUNT",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "b42897721cec168351d501dc4150d1d633791bad4dd8c471e9acc2a2b78516df",
+          "canonical_body_sha256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "03a2563e89b28849bdee606a42f7b22294dcfabaf8d9630e76fad7fd60c5f32e",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "d9401ec71ab54679b5445949beee7d11b73677fb681f42d297c8300b1afdc086",
+          "edits_sha256": "dbb6df1ccc543c00d28f44f8b4b42afe8b01a4f0a1e2fa2500f81c5522f3ecd1",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 1277633150,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        },
+        {
+          "trial": "trial2",
+          "policy": "O_ONLY",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "b42897721cec168351d501dc4150d1d633791bad4dd8c471e9acc2a2b78516df",
+          "canonical_body_sha256": "db450eda0d375fb60b30ef9d3e94813327d73772e4554430532476e8d9806c32",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "61535ba1cb79b138ec6765e593be2b763ef20b8b63b109c9f8fc60e0cb917c57",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "041efca50710e50ec691442c62fa127be67b2740a02fef87587f43b55e1b8486",
+          "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 1277633150,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        }
+      ],
+      "counts_match_source_audit": true
+    },
+    {
+      "trial": "trial3",
+      "full_request_objects_equal": true,
+      "unique_body_hashes": 1,
+      "distinct_response_contents": 3,
+      "distinct_edit_lists": 1,
+      "rows": [
+        {
+          "trial": "trial3",
+          "policy": "SET",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "94b54702bd4853789578bf073009a5a15106bb54fcba72c55234404db4d6ff64",
+          "canonical_body_sha256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "fcf9ffc1869b97e687278c92c547c695066bd50704a4ac0ce9c560cee237f7db",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "d7b66fef3fea45d55ed885e65a2cf0a305c8d68f1fd89828a6c64e329339fe10",
+          "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 1154486987,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        },
+        {
+          "trial": "trial3",
+          "policy": "COUNT",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "94b54702bd4853789578bf073009a5a15106bb54fcba72c55234404db4d6ff64",
+          "canonical_body_sha256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "876e303f3fe5ba7f06e722bb105e462a9bfb487dc141be282adb649a108fddbf",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "f52063b2ada8503a38cd0171fe0b4415592f7803f18928f4c771bf21622970ad",
+          "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 1154486987,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        },
+        {
+          "trial": "trial3",
+          "policy": "O_ONLY",
+          "call": 1,
+          "request_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\calls\\call001\\FIRST_UNPOST_BODY.json",
+          "request_file_sha256": "94b54702bd4853789578bf073009a5a15106bb54fcba72c55234404db4d6ff64",
+          "canonical_body_sha256": "4caca2ced96660df04230d3c1258c4c0c01a75fe61117921aa87f3759547fdd4",
+          "body_matches_original_audit": true,
+          "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\calls\\call001\\SETTLED_RAW_RESPONSE.json",
+          "response_file_sha256": "ed4dd3b8051626980ec1e9f02082eb1501596c9dd54dd7bd79c2600bc3602827",
+          "response_file_matches_original_audit": true,
+          "response_content_sha256": "4361c12ab7044e2bcdc65fa0235ecc14e8e6d2cf6dbe01710f19325771c4c30a",
+          "edits_sha256": "c7094aad5da6ff2f9c4df3060705fec2ae0e4fc0476f03fcab066508586628af",
+          "JSON_valid": true,
+          "finish_reason": "stop",
+          "returned_model": "deepseek-flash",
+          "max_tokens": 16384,
+          "temperature": 0.0,
+          "seed": 1154486987,
+          "prompt_tokens": 96211,
+          "same_request_does_not_guarantee_same_response": null
+        }
+      ],
+      "counts_match_source_audit": true
+    }
+  ],
+  "no_op_reconstruction": [
+    {
+      "attempt": 2,
+      "span_checks": [
+        {
+          "index": 0,
+          "path": "moto/iot/models.py",
+          "identical": true,
+          "current_old_span_count": 1,
+          "old_sha256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86",
+          "new_sha256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86"
+        },
+        {
+          "index": 1,
+          "path": "moto/iot/responses.py",
+          "identical": false,
+          "current_old_span_count": 1,
+          "old_sha256": "f54b661586270714abc219a1e2d29dba8799384de4187ead021cafc4bcbef917",
+          "new_sha256": "9a94603db39cd53499f3553a3cc8ff07356418658aece38da8ca8d97bf4f28c3"
+        }
+      ],
+      "all_business_strings_equal_existing_success": true,
+      "changed_paths_vs_existing_success": [],
+      "frozen_recorded_error": "EXISTING_BUSINESS_PATH_AND_NONEMPTY_NONIDENTICAL_SPAN_REQUIRED",
+      "frozen_recorded_outcome": "MODEL_SEMANTIC_FAILURE",
+      "frozen_parsed": false,
+      "frozen_applied": false,
+      "request_contains_current_accepted_incumbent_labels": true,
+      "request_contains_rejected_not_current_labels": true,
+      "request_contains_prior_validator_error": false,
+      "model_rationale": "The current incumbent has a partial repair: `create_thing` now returns `thing_id`, `FakeThing` has `thing_id`, and `describe_thing` in responses dumps the dict. But `IoTBackend.describe_thing` was changed to return a plain dict, which breaks `delete_thing` (`thing.arn`) and `update_thing` (`thing.attributes`). The minimal semantic correction is to restore `describe_thing` to return the `FakeThing` object (so all internal callers work), and instead make the response layer serialize the object via `to_dict(include_default_client_id=True)`, which already includes `thingId` because `FakeThing.to_dict` was updated. This preserves the accepted `create_thing_with_type` PASS (describe_thing response still contains thingId) and fixes delete/update.",
+      "not_a_new_run": true,
+      "no_candidate_written": true
+    },
+    {
+      "attempt": 3,
+      "span_checks": [
+        {
+          "index": 0,
+          "path": "moto/iot/models.py",
+          "identical": true,
+          "current_old_span_count": 1,
+          "old_sha256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86",
+          "new_sha256": "23f25c5265da8c03a32de340794129e9db5874e9d66cbd7b7890947ecc65ef86"
+        },
+        {
+          "index": 1,
+          "path": "moto/iot/responses.py",
+          "identical": false,
+          "current_old_span_count": 1,
+          "old_sha256": "f54b661586270714abc219a1e2d29dba8799384de4187ead021cafc4bcbef917",
+          "new_sha256": "9a94603db39cd53499f3553a3cc8ff07356418658aece38da8ca8d97bf4f28c3"
+        }
+      ],
+      "all_business_strings_equal_existing_success": true,
+      "changed_paths_vs_existing_success": [],
+      "frozen_recorded_error": "EXISTING_BUSINESS_PATH_AND_NONEMPTY_NONIDENTICAL_SPAN_REQUIRED",
+      "frozen_recorded_outcome": "MODEL_SEMANTIC_FAILURE",
+      "frozen_parsed": false,
+      "frozen_applied": false,
+      "request_contains_current_accepted_incumbent_labels": true,
+      "request_contains_rejected_not_current_labels": true,
+      "request_contains_prior_validator_error": true,
+      "model_rationale": "The current incumbent introduced `thing_id` and changed `describe_thing` to return a dict, but `delete_thing` and `update_thing` still treat the result of `describe_thing` as a `FakeThing` object (accessing `.arn`, `.thing_type`, `.attributes`). The current public failure shows `AttributeError: 'dict' object has no attribute 'arn'` in `delete_thing` and `'dict' object has no attribute 'attributes'` in `update_thing`. The minimal semantic correction is to make `describe_thing` return the `FakeThing` object again (as before), and instead have the response layer serialize it via `to_dict()`, which already includes `thingId`. This preserves the accepted `create_thing`/`list_things` behavior (thingId present) while restoring the object interface expected by `delete_thing`, `update_thing`, and other internal callers.",
+      "not_a_new_run": true,
+      "no_candidate_written": true
+    }
+  ],
+  "source_variants": {
+    "changed_paths": [
+      "moto/iot/models.py",
+      "moto/iot/responses.py"
+    ],
+    "all_other_business_paths_identical": true,
+    "ast_equivalence": {
+      "moto/iot/models.py": false,
+      "moto/iot/responses.py": false
+    },
+    "function_source_excerpts": [
+      {
+        "variant": "object_preserving",
+        "path": "moto/iot/models.py",
+        "name": "describe_thing",
+        "start": 807,
+        "end": 811,
+        "source": "    def describe_thing(self, thing_name: str) -> FakeThing:\n        things = [_ for _ in self.things.values() if _.thing_name == thing_name]\n        if len(things) == 0:\n            raise ResourceNotFoundException()\n        return things[0]"
+      },
+      {
+        "variant": "object_preserving",
+        "path": "moto/iot/models.py",
+        "name": "delete_thing",
+        "start": 825,
+        "end": 837,
+        "source": "    def delete_thing(self, thing_name: str) -> None:\n        \"\"\"\n        The ExpectedVersion-parameter is not yet implemented\n        \"\"\"\n\n        # can raise ResourceNotFoundError\n        thing = self.describe_thing(thing_name)\n\n        for k in list(self.principal_things.keys()):\n            if k[1] == thing_name:\n                raise ThingStillAttached(thing_name)\n\n        del self.things[thing.arn]"
+      },
+      {
+        "variant": "object_preserving",
+        "path": "moto/iot/models.py",
+        "name": "update_thing",
+        "start": 855,
+        "end": 899,
+        "source": "    def update_thing(\n        self,\n        thing_name: str,\n        thing_type_name: str,\n        attribute_payload: Optional[Dict[str, Any]],\n        remove_thing_type: bool,\n    ) -> None:\n        \"\"\"\n        The ExpectedVersion-parameter is not yet implemented\n        \"\"\"\n        # if attributes payload = {}, nothing\n        thing = self.describe_thing(thing_name)\n\n        if remove_thing_type and thing_type_name:\n            raise InvalidRequestException()\n\n        # thing_type\n        if thing_type_name:\n            thing_types = self.list_thing_types()\n            filtered_thing_types = [\n                _ for _ in thing_types if _.thing_type_name == thing_type_name\n            ]\n            if len(filtered_thing_types) == 0:\n                raise ResourceNotFoundException()\n            thing_type = filtered_thing_types[0]\n\n            if thing_type.metadata[\"deprecated\"]:\n                raise InvalidRequestException(\n                    msg=f\"Can not update a thing to use deprecated thing type: {thing_type_name}\"\n                )\n\n            thing.thing_type = thing_type\n\n        if remove_thing_type:\n            thing.thing_type = None\n\n        # attribute\n        if attribute_payload is not None and \"attributes\" in attribute_payload:\n            do_merge = attribute_payload.get(\"merge\", False)\n            attributes = attribute_payload[\"attributes\"]\n            if not do_merge:\n                thing.attributes = attributes\n            else:\n                thing.attributes.update(attributes)\n            thing.attributes = {k: v for k, v in thing.attributes.items() if v}"
+      },
+      {
+        "variant": "object_preserving",
+        "path": "moto/iot/responses.py",
+        "name": "describe_thing",
+        "start": 95,
+        "end": 98,
+        "source": "    def describe_thing(self) -> str:\n        thing_name = self._get_param(\"thingName\")\n        thing = self.iot_backend.describe_thing(thing_name=thing_name)\n        return json.dumps(thing.to_dict(include_default_client_id=True))"
+      },
+      {
+        "variant": "object_preserving",
+        "path": "moto/iot/responses.py",
+        "name": "delete_thing",
+        "start": 112,
+        "end": 115,
+        "source": "    def delete_thing(self) -> str:\n        thing_name = self._get_param(\"thingName\")\n        self.iot_backend.delete_thing(thing_name=thing_name)\n        return json.dumps(dict())"
+      },
+      {
+        "variant": "object_preserving",
+        "path": "moto/iot/responses.py",
+        "name": "update_thing",
+        "start": 130,
+        "end": 141,
+        "source": "    def update_thing(self) -> str:\n        thing_name = self._get_param(\"thingName\")\n        thing_type_name = self._get_param(\"thingTypeName\")\n        attribute_payload = self._get_param(\"attributePayload\")\n        remove_thing_type = self._get_param(\"removeThingType\")\n        self.iot_backend.update_thing(\n            thing_name=thing_name,\n            thing_type_name=thing_type_name,\n            attribute_payload=attribute_payload,\n            remove_thing_type=remove_thing_type,\n        )\n        return json.dumps(dict())"
+      },
+      {
+        "variant": "dict_and_consumer_repair",
+        "path": "moto/iot/models.py",
+        "name": "describe_thing",
+        "start": 807,
+        "end": 811,
+        "source": "    def describe_thing(self, thing_name: str) -> Dict[str, Any]:\n        things = [_ for _ in self.things.values() if _.thing_name == thing_name]\n        if len(things) == 0:\n            raise ResourceNotFoundException()\n        return things[0].to_dict(include_default_client_id=True)"
+      },
+      {
+        "variant": "dict_and_consumer_repair",
+        "path": "moto/iot/models.py",
+        "name": "delete_thing",
+        "start": 825,
+        "end": 840,
+        "source": "    def delete_thing(self, thing_name: str) -> None:\n        \"\"\"\n        The ExpectedVersion-parameter is not yet implemented\n        \"\"\"\n\n        # can raise ResourceNotFoundError\n        things = [_ for _ in self.things.values() if _.thing_name == thing_name]\n        if len(things) == 0:\n            raise ResourceNotFoundException()\n        thing = things[0]\n\n        for k in list(self.principal_things.keys()):\n            if k[1] == thing_name:\n                raise ThingStillAttached(thing_name)\n\n        del self.things[thing.arn]"
+      },
+      {
+        "variant": "dict_and_consumer_repair",
+        "path": "moto/iot/models.py",
+        "name": "update_thing",
+        "start": 858,
+        "end": 905,
+        "source": "    def update_thing(\n        self,\n        thing_name: str,\n        thing_type_name: str,\n        attribute_payload: Optional[Dict[str, Any]],\n        remove_thing_type: bool,\n    ) -> None:\n        \"\"\"\n        The ExpectedVersion-parameter is not yet implemented\n        \"\"\"\n        # if attributes payload = {}, nothing\n        things = [_ for _ in self.things.values() if _.thing_name == thing_name]\n        if len(things) == 0:\n            raise ResourceNotFoundException()\n        thing = things[0]\n\n        if remove_thing_type and thing_type_name:\n            raise InvalidRequestException()\n\n        # thing_type\n        if thing_type_name:\n            thing_types = self.list_thing_types()\n            filtered_thing_types = [\n                _ for _ in thing_types if _.thing_type_name == thing_type_name\n            ]\n            if len(filtered_thing_types) == 0:\n                raise ResourceNotFoundException()\n            thing_type = filtered_thing_types[0]\n\n            if thing_type.metadata[\"deprecated\"]:\n                raise InvalidRequestException(\n                    msg=f\"Can not update a thing to use deprecated thing type: {thing_type_name}\"\n                )\n\n            thing.thing_type = thing_type\n\n        if remove_thing_type:\n            thing.thing_type = None\n\n        # attribute\n        if attribute_payload is not None and \"attributes\" in attribute_payload:\n            do_merge = attribute_payload.get(\"merge\", False)\n            attributes = attribute_payload[\"attributes\"]\n            if not do_merge:\n                thing.attributes = attributes\n            else:\n                thing.attributes.update(attributes)\n            thing.attributes = {k: v for k, v in thing.attributes.items() if v}"
+      },
+      {
+        "variant": "dict_and_consumer_repair",
+        "path": "moto/iot/responses.py",
+        "name": "describe_thing",
+        "start": 95,
+        "end": 98,
+        "source": "    def describe_thing(self) -> str:\n        thing_name = self._get_param(\"thingName\")\n        thing = self.iot_backend.describe_thing(thing_name=thing_name)\n        return json.dumps(thing)"
+      },
+      {
+        "variant": "dict_and_consumer_repair",
+        "path": "moto/iot/responses.py",
+        "name": "delete_thing",
+        "start": 112,
+        "end": 115,
+        "source": "    def delete_thing(self) -> str:\n        thing_name = self._get_param(\"thingName\")\n        self.iot_backend.delete_thing(thing_name=thing_name)\n        return json.dumps(dict())"
+      },
+      {
+        "variant": "dict_and_consumer_repair",
+        "path": "moto/iot/responses.py",
+        "name": "update_thing",
+        "start": 130,
+        "end": 141,
+        "source": "    def update_thing(self) -> str:\n        thing_name = self._get_param(\"thingName\")\n        thing_type_name = self._get_param(\"thingTypeName\")\n        attribute_payload = self._get_param(\"attributePayload\")\n        remove_thing_type = self._get_param(\"removeThingType\")\n        self.iot_backend.update_thing(\n            thing_name=thing_name,\n            thing_type_name=thing_type_name,\n            attribute_payload=attribute_payload,\n            remove_thing_type=remove_thing_type,\n        )\n        return json.dumps(dict())"
+      }
+    ]
+  },
+  "interpretation_boundaries": [
+    "This is one previously exposed 2/3 partial-repair source state, with three new trajectories per policy. It is not nine independent issues or original-C0 confirmation.",
+    "Two natural candidate regressions are 2/3→1/3 with ordinary passing. COUNT and SET agree on all ten observed native candidates. Only COUNT actually encountered and rejected one such candidate; offline SET rejection is not an actual SET branch.",
+    "Observed terminal counts SET3,COUNT2,O_ONLY3 do not identify an SET-specific benefit: identical first request bodies yielded differing first patches before any guard decision. Provider seed/temperature do not establish determinism or iid.",
+    "COUNT trial2 is a complete normal method failure: one native regression rejected, then two syntactically valid JSON patches rejected by unchanged semantic validation for an identical old/new edit. They are not native test failures, engineering interruption, or private test failures.",
+    "Removing the no-op in memory yields exactly the same 861 business source strings as an observed successful source; this is source-equivalence evidence and a future implementation hypothesis, never a ninth observed success or permission to rewrite scores.",
+    "Seven successful trajectories preserve FakeThing return and serialize in the response layer. One O_ONLY trajectory instead returns dict and repairs delete/update consumers; the two whole-source variants both have existing final-acceptance PASS flags, but neither universal semantic equivalence nor safety for all callers follows."
+  ],
+  "material_mismatches": [],
+  "earlier_partial_source_identity_crosscheck": {
+    "source_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-v2\\progress-source-audit\\MOTO7081_PARTIAL_STATE_SOURCE_AUDIT.json",
+    "source_sha256": "beb41c134220514d7d2a56bbc7603ca53ae7c576b9dd8abda097cd0f82d65a6a",
+    "earlier_partial_business_digest": "f2064f130ac1b1f732600f8db17cfa4b6a904734ef4af6b87dd76cd367062ee5",
+    "retained_COUNT_trial2_business_digest": "f2064f130ac1b1f732600f8db17cfa4b6a904734ef4af6b87dd76cd367062ee5",
+    "equal": true
+  }
+}

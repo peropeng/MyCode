@@ -1,0 +1,67 @@
+{
+  "schema": "human-two-hour-independent-Astra-review/1",
+  "created_UTC": "2026-10-12T09:28:50.761114+00:00",
+  "human_requested_model": "gpt-6-astra",
+  "human_requested_reasoning": "xhigh",
+  "human_requested_speed": "fast",
+  "host_config_observed_service_tier": "priority",
+  "host_global_config_not_changed": true,
+  "threadId": "01a12f6f-fda6-7d73-9269-95c605df2606",
+  "review_duration_hours": 2,
+  "formal_deliverable_root": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅",
+  "old_root_support_scope": "evidence location/drive inventory only; independent thread decides findings and deletions",
+  "actual_execution_of_proposed_4h_experiments": "authorized after first2h substantive findings and concrete4hplan report",
+  "verified_previous_six_chapters": [
+    "研究背景与国内外研究现状",
+    "研究目标、理论基础与研究意义",
+    "研究内容与方法",
+    "关键问题与拟创新点",
+    "数据来源与实验设计",
+    "研究基础与进度安排"
+  ],
+  "six_chapter_source": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\章节正文\\开题报告_章节正文.md",
+  "previous_title": "基于多关系图排序学习的智能体失败诊断和选择性回滚方法",
+  "previous_title_source": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\开题报告PPT\\开题报告_V11_论文式完整文稿.md",
+  "title_eligibility_still_independent_review_required": true,
+  "important_request_constraints": {
+    "complete_standalone_exploration_summary": true,
+    "all_directions_and_significant_failures": true,
+    "failures_method_vs_deployment_vs_unresolved_or_occasional_require_evidence": true,
+    "literature_no_preassigned_count_or_quality_tier_limit": true,
+    "RQ1_primary_baselines": 3,
+    "RQ1_backup_baselines": 1,
+    "whole_primary_baselines": 3,
+    "whole_backup_baselines": 1,
+    "dataset_list_includes_RQ1_all_splits": true,
+    "retain_resumability_and_future_RQ1_RQ2_module_space": true,
+    "4hplan_not_claimed_done": true,
+    "risk_no_obvious_improvement_full_report_V1": true,
+    "V2_only_after_actual_future_experiment_no_fabricated_results": true,
+    "six_chapter_not_page_outline": true,
+    "no_AI_terms_in_formal_prose": [
+      "冻结",
+      "6臂"
+    ],
+    "first_use_define_terms_and_acronyms_including_OOF": true,
+    "figures_tables_plus_separate_reader_explanation": true,
+    "title_based_on_recognized_domain_method": true,
+    "D_cleanup_only_after_confirmed_exclusion_and_evidence_preserved_actual_delete_authorized": true,
+    "unresolved_failure_not_deletion_reason": true
+  },
+  "initial_drive_free_bytes": {
+    "D": 1960697856,
+    "C": 23953518592,
+    "E": 42747531264
+  },
+  "late_latest_partial_only_source_entry": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-until0900-common\\ROOT_WINDOW_0900_CLOSED_SUMMARY.json",
+  "earlier_full_five_entry": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验244_固定五题恢复比较_完整终态封存",
+  "no_automatic_new_paid_experiments": false,
+  "no_deletions_yet_by_old_root": true,
+  "human_scope_clarification": {
+    "UTC": "2026-10-12T09:31:16.847931+00:00",
+    "exact_text": "改进指的是报告，有结论，你先汇报，后进行实验。",
+    "interpreted_execution_order": "2h independent review and full risk report V1 -> first report findings and4hplan -> actual4hexperiments -> improved reportV2; keepboth",
+    "human_permission_not_new_approval_required_for_reported_following_experiments": true,
+    "actual_execution_of_proposed_4h_experiments": "authorized after the first substantive findings report; continuous ledger/current balance/no recharge/unknown no resend maintained"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "utc": "2026-10-12T09:53:07.693120+00:00",
+  "reviewed_scope": "Exp131 excluded pilots, exact archived expanded feature caches only",
+  "no_deletion_yet": true,
+  "no_model_or_candidate_or_request_or_result_or_checkpoint_deleted": true,
+  "current_AF15_source3_do_not_depend_on_these_caches": "source and manifest review by middle audit; current models, their source inputs and checkpoints retained",
+  "decision_count": 9,
+  "planned_logical_bytes": 1886175018,
+  "drive_free_before_proof": 1845137408,
+  "decisions": [
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_domain_future\\public_features.pt",
+      "kind": "archived_derived_feature_cache",
+      "decision": "delete expanded duplicate only",
+      "reason": "推断不可用domain信息，训练前拒绝；保留公开输入资格与拒绝记录，不作为算法负成绩。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot18_domain_future",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot18_domain_future\\features_archive.zip",
+          "sha256": "140eb3eb5b14138347971c4b85e90c7e0e8cc03e8b778ee2e00542701907ec93",
+          "bytes": 18416473
+        }
+      ],
+      "archive_combined_sha256": "140eb3eb5b14138347971c4b85e90c7e0e8cc03e8b778ee2e00542701907ec93",
+      "member": "public_features.pt",
+      "member_sha256": "5509a0b4c580d55628c8913023ead61931d9e3de9afa4ea304656d14940e301a",
+      "member_bytes": 205556522,
+      "target_byte_identical_to_archive_member": true,
+      "target_git_tracked": false,
+      "target_physical_before": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_domain_future\\public_features.pt",
+        "logical_bytes": 205556522,
+        "compressed_storage_bytes": 205556522,
+        "allocated_bytes_FileStandardInfo": 205557760,
+        "hardlink_count": 1,
+        "file_id": "244a4f12:10000:254171",
+        "attributes": 32,
+        "sha256": "5509a0b4c580d55628c8913023ead61931d9e3de9afa4ea304656d14940e301a"
+      },
+      "restore": "Concatenate retained parts in listed order as ZIP; extract the named member to the exact former target path; verify member_sha256. No model generation, fitting or evaluation is needed."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_task_partition_future_context\\public_features.pt",
+      "kind": "archived_derived_feature_cache",
+      "decision": "delete expanded duplicate only",
+      "reason": "收敛但主AB开发32题21命中，预定门槛未通过，已退出主线。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot18_task_partition_future_context",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot18_task_partition_future_context\\features_archive.zip",
+          "sha256": "21cf460d9178ee70f5c6b67d90f133179bb5062c832162c81e49d966e19cad5d",
+          "bytes": 18416011
+        }
+      ],
+      "archive_combined_sha256": "21cf460d9178ee70f5c6b67d90f133179bb5062c832162c81e49d966e19cad5d",
+      "member": "public_features.pt",
+      "member_sha256": "c3fb4074bfb15a56bb2d1e6b87d086029c382b871dfa419125745b296b60003d",
+      "member_bytes": 205556522,
+      "target_byte_identical_to_archive_member": true,
+      "target_git_tracked": false,
+      "target_physical_before": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_task_partition_future_context\\public_features.pt",
+        "logical_bytes": 205556522,
+        "compressed_storage_bytes": 205556522,
+        "allocated_bytes_FileStandardInfo": 205557760,
+        "hardlink_count": 1,
+        "file_id": "244a4f12:10000:254249",
+        "attributes": 32,
+        "sha256": "c3fb4074bfb15a56bb2d1e6b87d086029c382b871dfa419125745b296b60003d"
+      },
+      "restore": "Concatenate retained parts in listed order as ZIP; extract the named member to the exact former target path; verify member_sha256. No model generation, fitting or evaluation is needed."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot19_partition_past_future\\public_features.pt",
+      "kind": "archived_derived_feature_cache",
+      "decision": "delete expanded duplicate only",
+      "reason": "收敛但主AB开发32题19命中，预定门槛未通过，已退出主线。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot19_partition_past_future",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot19_partition_past_future\\features_archive.zip",
+          "sha256": "90354b3da475729b485930cc7b8925ffe70e8ba361edec58f925533fbd7ecf2c",
+          "bytes": 35979170
+        }
+      ],
+      "archive_combined_sha256": "90354b3da475729b485930cc7b8925ffe70e8ba361edec58f925533fbd7ecf2c",
+      "member": "public_features.pt",
+      "member_sha256": "777dfc002d9ab1aa901a4452d702b3c8ae2d5088ce8ba048a75a04431fc51e2f",
+      "member_bytes": 205556522,
+      "target_byte_identical_to_archive_member": true,
+      "target_git_tracked": false,
+      "target_physical_before": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot19_partition_past_future\\public_features.pt",
+        "logical_bytes": 205556522,
+        "compressed_storage_bytes": 205556522,
+        "allocated_bytes_FileStandardInfo": 205557760,
+        "hardlink_count": 1,
+        "file_id": "244a4f12:10000:25427b",
+        "attributes": 32,
+        "sha256": "777dfc002d9ab1aa901a4452d702b3c8ae2d5088ce8ba048a75a04431fc51e2f"
+      },
+      "restore": "Concatenate retained parts in listed order as ZIP; extract the named member to the exact former target path; verify member_sha256. No model generation, fitting or evaluation is needed."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot20_base_uncertainty_gate\\public_features.pt",
+      "kind": "archived_derived_feature_cache",
+      "decision": "delete expanded duplicate only",
+      "reason": "收敛但主AB开发32题17命中，预定门槛未通过，已退出主线。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot20_base_uncertainty_gate",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot20_base_uncertainty_gate\\features_archive.zip",
+          "sha256": "1019532c3bc82ccf6e064292fc9e139209069a201ac70a949d7cd17cc9e82bca",
+          "bytes": 60138198
+        }
+      ],
+      "archive_combined_sha256": "1019532c3bc82ccf6e064292fc9e139209069a201ac70a949d7cd17cc9e82bca",
+      "member": "public_features.pt",
+      "member_sha256": "4558106c45f49e57a213386529bb63ceeb79b8e48f3f1c54b5d147204337c722",
+      "member_bytes": 205556522,
+      "target_byte_identical_to_archive_member": true,
+      "target_git_tracked": false,
+      "target_physical_before": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot20_base_uncertainty_gate\\public_features.pt",
+        "logical_bytes": 205556522,
+        "compressed_storage_bytes": 205556522,
+        "allocated_bytes_FileStandardInfo": 205557760,
+        "hardlink_count": 1,
+        "file_id": "244a4f12:10000:2542c0",
+        "attributes": 32,
+        "sha256": "4558106c45f49e57a213386529bb63ceeb79b8e48f3f1c54b5d147204337c722"
+      },
+      "restore": "Concatenate retained parts in listed order as ZIP; extract the named member to the exact former target path; verify member_sha256. No model generation, fitting or evaluation is needed."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot21_soft_task_partition\\public_features.pt",
+      "kind": "archived_derived_feature_cache",
+      "decision": "delete expanded duplicate only",
+      "reason": "收敛但主AB开发32题18命中，预定门槛未通过，已退出主线。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition\\features_archive.zip.part00",
+          "sha256": "1cd45e328bf397cace0a265158bc39425ad86ef282bd1de8c5bf152eac1b266e",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition\\features_archive.zip.part01",
+          "sha256": "c7bcba152132aef8926a65f75a74ada10968c4c0b3fad081ef053eb10fca433b",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition\\features_archive.zip.part02",
+          "sha256": "6c1b982ea79badd207d50e0d45de6682b6e6dc4e57f58d77a89df69afc8ccd7e",
+          "bytes": 44136148
+        }
+      ],
+      "archive_combined_sha256": "8594cc4d4fdc80e73af2f3cb27b1fe190a2c7c846059eafe26f2b52a138e6ab0",
+      "member": "public_features.pt",
+      "member_sha256": "c5d3fed1f2454c1abc77573c5f293bdd47b31c613c312ea0d5cd89d273d44634",
+      "member_bytes": 205556522,
+      "target_byte_identical_to_archive_member": true,
+      "target_git_tracked": false,
+      "target_physical_before": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot21_soft_task_partition\\public_features.pt",
+        "logical_bytes": 205556522,
+        "compressed_storage_bytes": 205556522,
+        "allocated_bytes_FileStandardInfo": 205557760,
+        "hardlink_count": 1,
+        "file_id": "244a4f12:10000:2543ab",
+        "attributes": 32,
+        "sha256": "c5d3fed1f2454c1abc77573c5f293bdd47b31c613c312ea0d5cd89d273d44634"
+      },
+      "restore": "Concatenate retained parts in listed order as ZIP; extract the named member to the exact former target path; verify member_sha256. No model generation, fitting or evaluation is needed."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot21_soft_task_partition\\features_archive.zip",
+      "kind": "duplicate_archive_cache",
+      "decision": "delete duplicate ZIP only",
+      "reason": "主线保留的有序分片可逐字节恢复同一ZIP；同时保留展开成员完整哈希核验。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition\\features_archive.zip.part00",
+          "sha256": "1cd45e328bf397cace0a265158bc39425ad86ef282bd1de8c5bf152eac1b266e",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition\\features_archive.zip.part01",
+          "sha256": "c7bcba152132aef8926a65f75a74ada10968c4c0b3fad081ef053eb10fca433b",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot21_soft_task_partition\\features_archive.zip.part02",
+          "sha256": "6c1b982ea79badd207d50e0d45de6682b6e6dc4e57f58d77a89df69afc8ccd7e",
+          "bytes": 44136148
+        }
+      ],
+      "archive_combined_sha256": "8594cc4d4fdc80e73af2f3cb27b1fe190a2c7c846059eafe26f2b52a138e6ab0",
+      "target_byte_identical_to_retained_parts": true,
+      "target_git_tracked": false,
+      "logical_bytes": 178353876,
+      "target_sha256": "8594cc4d4fdc80e73af2f3cb27b1fe190a2c7c846059eafe26f2b52a138e6ab0",
+      "restore": "Concatenate retained parts in listed order; verify archive_combined_sha256."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot5_field_semantics\\field_derived_features.pt",
+      "kind": "archived_derived_feature_cache",
+      "decision": "delete expanded duplicate only",
+      "reason": "字段语义组合AB开发32题20命中，明确STOP_FIELD_SEMANTIC_COMBINATION；非独立确认。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot5_field_semantics",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot5_field_semantics\\field_derived_features.zip.part00",
+          "sha256": "91ce2db02bf4e6b6ebd819470a56063f8fc73e09cc6353e139d96371f4a11fba",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot5_field_semantics\\field_derived_features.zip.part01",
+          "sha256": "cd1f212949aab0418bbb4566ea2b7ac32da6b62257b5f5225909d3ec30a440b7",
+          "bytes": 45589947
+        }
+      ],
+      "archive_combined_sha256": "f930fdf6c6f3898ece53d0e8fa92f3632753b634c76651f64117737a9498609f",
+      "member": "field_derived_features.pt",
+      "member_sha256": "2528039b9b91c13aa186a1b93d7b92ab435467d0519ae2581ab8fa9e980a25e3",
+      "member_bytes": 411096445,
+      "target_byte_identical_to_archive_member": true,
+      "target_git_tracked": false,
+      "target_physical_before": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot5_field_semantics\\field_derived_features.pt",
+        "logical_bytes": 411096445,
+        "compressed_storage_bytes": 411096445,
+        "allocated_bytes_FileStandardInfo": 411099136,
+        "hardlink_count": 1,
+        "file_id": "244a4f12:10000:25176d",
+        "attributes": 32,
+        "sha256": "2528039b9b91c13aa186a1b93d7b92ab435467d0519ae2581ab8fa9e980a25e3"
+      },
+      "restore": "Concatenate retained parts in listed order as ZIP; extract the named member to the exact former target path; verify member_sha256. No model generation, fitting or evaluation is needed."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot5_field_semantics\\field_derived_features.zip",
+      "kind": "duplicate_archive_cache",
+      "decision": "delete duplicate ZIP only",
+      "reason": "主线保留的有序分片可逐字节恢复同一ZIP；同时保留展开成员完整哈希核验。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot5_field_semantics",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot5_field_semantics\\field_derived_features.zip.part00",
+          "sha256": "91ce2db02bf4e6b6ebd819470a56063f8fc73e09cc6353e139d96371f4a11fba",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot5_field_semantics\\field_derived_features.zip.part01",
+          "sha256": "cd1f212949aab0418bbb4566ea2b7ac32da6b62257b5f5225909d3ec30a440b7",
+          "bytes": 45589947
+        }
+      ],
+      "archive_combined_sha256": "f930fdf6c6f3898ece53d0e8fa92f3632753b634c76651f64117737a9498609f",
+      "target_byte_identical_to_retained_parts": true,
+      "target_git_tracked": false,
+      "logical_bytes": 112698811,
+      "target_sha256": "f930fdf6c6f3898ece53d0e8fa92f3632753b634c76651f64117737a9498609f",
+      "restore": "Concatenate retained parts in listed order; verify archive_combined_sha256."
+    },
+    {
+      "target": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction_recovery\\raw_background_products.pt",
+      "kind": "duplicate_derived_cache",
+      "decision": "delete recovery copy, retain canonical expanded file and archive",
+      "reason": "P31主门槛失败已退出主线；恢复目录的派生特征与原目录和已封存ZIP成员三者逐字节一致。",
+      "preserved_evidence_directory": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction_recovery",
+      "canonical_file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction\\raw_background_products.pt",
+      "canonical_sha256": "7079b9d46b028e076a0fc50215cc1c04afd0b5f5be483fa4f0743ada477fe1f9",
+      "retained_archive_parts": [
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction\\shared_public_feature_archive.zip.part001",
+          "sha256": "8cf1b9549ca3586df2607084adff826552a42e5d7d18dfa80db17d53889ce2d6",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction\\shared_public_feature_archive.zip.part002",
+          "sha256": "a9aa33869b307b0c3614b067567a0bb4204f0a61aaf5d7542504e99f8b8b194f",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction\\shared_public_feature_archive.zip.part003",
+          "sha256": "36a8873bce007710df7d294df6d532f218716eb22e0a31b30316527ac947d722",
+          "bytes": 67108864
+        },
+        {
+          "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction\\shared_public_feature_archive.zip.part004",
+          "sha256": "04bc55e5e775ff0d85d72d79b88c382a24e8fc74f8a9e68609f53013c7be51c5",
+          "bytes": 4488674
+        }
+      ],
+      "archive_combined_sha256": "99d639b854cdceaf6092d1b69ef5f49453f2fd62660c3bc9690fbdd45bfd6a30",
+      "member": "raw_background_products.pt",
+      "member_sha256": "7079b9d46b028e076a0fc50215cc1c04afd0b5f5be483fa4f0743ada477fe1f9",
+      "target_physical_before": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction_recovery\\raw_background_products.pt",
+        "logical_bytes": 156243276,
+        "compressed_storage_bytes": 156243276,
+        "allocated_bytes_FileStandardInfo": 156246016,
+        "hardlink_count": 1,
+        "file_id": "244a4f12:10000:254cd1",
+        "attributes": 32,
+        "sha256": "7079b9d46b028e076a0fc50215cc1c04afd0b5f5be483fa4f0743ada477fe1f9"
+      },
+      "target_git_tracked": false,
+      "restore": "Copy canonical_file to the exact former target path and verify canonical_sha256, or reconstruct the retained ZIP and extract member."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-12T11:22:12.473Z",
+  "rows": [
+    {
+      "file": "00_审阅结论与阅读入口.html",
+      "title": "独立审阅结论与阅读入口",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3381,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "01_全部探索总结.html",
+      "title": "全部探索总结：问题、方法、参数、结果与保留判断",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 57290,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "02_正式论文框架与两层基线.html",
+      "title": "正式论文框架与两层基线",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 6926,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "03_后续四小时实验执行计划.html",
+      "title": "后续四小时实验执行计划",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 7987,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "04_开题报告_V1_六章完整稿.html",
+      "title": "基于学习排序的智能体失败诊断与软件任务恢复方法研究",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 28279,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "05_开题报告_逐章与图表解释.html",
+      "title": "六章报告的逐章与图表解释",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 8303,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "06_全部数据来源与划分.html",
+      "title": "数据集清单、划分与信息许可",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 25883,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "07_清理记录.html",
+      "title": "已审阅缓存与暂停副本清理记录",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1194,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "08_文献综述与方法选择依据.html",
+      "title": "文献综述、研究范围与两层基线定稿建议",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 7554,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "09_参考文献.html",
+      "title": "参考文献（稳定编号）",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 6629,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "10_交付验证与证据边界.html",
+      "title": "交付验证与证据边界",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3100,
+      "missingImages": [],
+      "brokenAnchors": []
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "all_no_horizontal_overflow": true,
+  "all_images_and_anchors_valid": true
+}

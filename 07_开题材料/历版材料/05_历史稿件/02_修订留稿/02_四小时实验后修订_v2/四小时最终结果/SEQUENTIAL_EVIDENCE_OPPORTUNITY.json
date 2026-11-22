@@ -1,0 +1,828 @@
+{
+  "schema": "Root-sequential-public-evidence-exposure-opportunity/1",
+  "at_UTC": "2026-10-12T14:12:30.413815+00:00",
+  "source_table_SHA256": "b122fc644542d866217ae7b08d1b9d4f18638dcd4e217b5d9105c154c73d368f",
+  "no_new_model_native_or_Gold": true,
+  "same18_fixed_order": true,
+  "per_attempt_counts": {
+    "1": {
+      "different_sequence_tasks": 10,
+      "different_member_set_tasks": 10
+    },
+    "2": {
+      "different_sequence_tasks": 12,
+      "different_member_set_tasks": 8
+    },
+    "3": {
+      "different_sequence_tasks": 12,
+      "different_member_set_tasks": 7
+    }
+  },
+  "rows": [
+    {
+      "task_id": "dask__dask-9378",
+      "legal_candidate_count": 3,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "dask__dask-9378|sft:112|call:3"
+          ],
+          "SF_evidence": [
+            "dask__dask-9378|sft:112|call:3"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "dask__dask-9378|sft:112|call:3",
+            "dask__dask-9378|sft:112|call:11"
+          ],
+          "SF_evidence": [
+            "dask__dask-9378|sft:112|call:3",
+            "dask__dask-9378|sft:112|call:11"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "dask__dask-9378|sft:112|call:3",
+            "dask__dask-9378|sft:112|call:11",
+            "dask__dask-9378|sft:112|call:7"
+          ],
+          "SF_evidence": [
+            "dask__dask-9378|sft:112|call:3",
+            "dask__dask-9378|sft:112|call:11",
+            "dask__dask-9378|sft:112|call:7"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-5072",
+      "legal_candidate_count": 1,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-5072|sft:341|call:9"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5072|sft:341|call:9"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-5072|sft:341|call:9"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5072|sft:341|call:9"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-5072|sft:341|call:9"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5072|sft:341|call:9"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-5134",
+      "legal_candidate_count": 4,
+      "all_legal_candidates_seen_by_third": false,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-5134|sft:154|call:24"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5134|sft:154|call:26"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-5134|sft:154|call:24",
+            "getmoto__moto-5134|sft:154|call:26"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5134|sft:154|call:26",
+            "getmoto__moto-5134|sft:154|call:24"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-5134|sft:154|call:24",
+            "getmoto__moto-5134|sft:154|call:26",
+            "getmoto__moto-5134|sft:154|call:16"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5134|sft:154|call:26",
+            "getmoto__moto-5134|sft:154|call:24",
+            "getmoto__moto-5134|sft:154|call:20"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-5286",
+      "legal_candidate_count": 2,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-5286|sft:143|call:13"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5286|sft:143|call:14"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-5286|sft:143|call:13",
+            "getmoto__moto-5286|sft:143|call:14"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5286|sft:143|call:14",
+            "getmoto__moto-5286|sft:143|call:13"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-5286|sft:143|call:13",
+            "getmoto__moto-5286|sft:143|call:14"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5286|sft:143|call:14",
+            "getmoto__moto-5286|sft:143|call:13"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-6352",
+      "legal_candidate_count": 1,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-6352|sft:328|call:7"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6352|sft:328|call:7"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-6352|sft:328|call:7"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6352|sft:328|call:7"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-6352|sft:328|call:7"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6352|sft:328|call:7"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "pydantic__pydantic-8567",
+      "legal_candidate_count": 3,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "pydantic__pydantic-8567|sft:177|call:24"
+          ],
+          "SF_evidence": [
+            "pydantic__pydantic-8567|sft:177|call:24"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "pydantic__pydantic-8567|sft:177|call:24",
+            "pydantic__pydantic-8567|sft:177|call:27"
+          ],
+          "SF_evidence": [
+            "pydantic__pydantic-8567|sft:177|call:24",
+            "pydantic__pydantic-8567|sft:177|call:25"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "pydantic__pydantic-8567|sft:177|call:24",
+            "pydantic__pydantic-8567|sft:177|call:27",
+            "pydantic__pydantic-8567|sft:177|call:25"
+          ],
+          "SF_evidence": [
+            "pydantic__pydantic-8567|sft:177|call:24",
+            "pydantic__pydantic-8567|sft:177|call:25",
+            "pydantic__pydantic-8567|sft:177|call:27"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-7081",
+      "legal_candidate_count": 7,
+      "all_legal_candidates_seen_by_third": false,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-7081|RAW:3395|call:9"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-7081|RAW:3395|call:24"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-7081|RAW:3395|call:9",
+            "getmoto__moto-7081|RAW:3395|call:24"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-7081|RAW:3395|call:24",
+            "getmoto__moto-7081|RAW:3395|call:20"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-7081|RAW:3395|call:9",
+            "getmoto__moto-7081|RAW:3395|call:24",
+            "getmoto__moto-7081|RAW:3395|call:11"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-7081|RAW:3395|call:24",
+            "getmoto__moto-7081|RAW:3395|call:20",
+            "getmoto__moto-7081|RAW:3395|call:16"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-6212",
+      "legal_candidate_count": 6,
+      "all_legal_candidates_seen_by_third": false,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-6212|RAW:1738|call:7"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6212|RAW:1738|call:15"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-6212|RAW:1738|call:7",
+            "getmoto__moto-6212|RAW:1738|call:15"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6212|RAW:1738|call:15",
+            "getmoto__moto-6212|RAW:1738|call:5"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-6212|RAW:1738|call:7",
+            "getmoto__moto-6212|RAW:1738|call:15",
+            "getmoto__moto-6212|RAW:1738|call:9"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6212|RAW:1738|call:15",
+            "getmoto__moto-6212|RAW:1738|call:5",
+            "getmoto__moto-6212|RAW:1738|call:13"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-5406",
+      "legal_candidate_count": 1,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-5406|RAW:1532|call:4"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5406|RAW:1532|call:4"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-5406|RAW:1532|call:4"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5406|RAW:1532|call:4"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-5406|RAW:1532|call:4"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5406|RAW:1532|call:4"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-6387",
+      "legal_candidate_count": 5,
+      "all_legal_candidates_seen_by_third": false,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-6387|RAW:1664|call:16"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6387|RAW:1664|call:21"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-6387|RAW:1664|call:16",
+            "getmoto__moto-6387|RAW:1664|call:21"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6387|RAW:1664|call:21",
+            "getmoto__moto-6387|RAW:1664|call:16"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-6387|RAW:1664|call:16",
+            "getmoto__moto-6387|RAW:1664|call:21",
+            "getmoto__moto-6387|RAW:1664|call:15"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-6387|RAW:1664|call:21",
+            "getmoto__moto-6387|RAW:1664|call:16",
+            "getmoto__moto-6387|RAW:1664|call:20"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-5980",
+      "legal_candidate_count": 3,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-5980|RAW:1707|call:9"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5980|RAW:1707|call:7"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-5980|RAW:1707|call:9",
+            "getmoto__moto-5980|RAW:1707|call:11"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5980|RAW:1707|call:7",
+            "getmoto__moto-5980|RAW:1707|call:11"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-5980|RAW:1707|call:9",
+            "getmoto__moto-5980|RAW:1707|call:11",
+            "getmoto__moto-5980|RAW:1707|call:7"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5980|RAW:1707|call:7",
+            "getmoto__moto-5980|RAW:1707|call:11",
+            "getmoto__moto-5980|RAW:1707|call:9"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "python__mypy-15155",
+      "legal_candidate_count": 3,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "python__mypy-15155|RAW:3948|call:16"
+          ],
+          "SF_evidence": [
+            "python__mypy-15155|RAW:3948|call:16"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "python__mypy-15155|RAW:3948|call:16",
+            "python__mypy-15155|RAW:3948|call:19"
+          ],
+          "SF_evidence": [
+            "python__mypy-15155|RAW:3948|call:16",
+            "python__mypy-15155|RAW:3948|call:18"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "python__mypy-15155|RAW:3948|call:16",
+            "python__mypy-15155|RAW:3948|call:19",
+            "python__mypy-15155|RAW:3948|call:18"
+          ],
+          "SF_evidence": [
+            "python__mypy-15155|RAW:3948|call:16",
+            "python__mypy-15155|RAW:3948|call:18",
+            "python__mypy-15155|RAW:3948|call:19"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-5516",
+      "legal_candidate_count": 8,
+      "all_legal_candidates_seen_by_third": false,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-5516|RAW:3806|call:10"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5516|RAW:3806|call:35"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-5516|RAW:3806|call:10",
+            "getmoto__moto-5516|RAW:3806|call:20"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5516|RAW:3806|call:35",
+            "getmoto__moto-5516|RAW:3806|call:20"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-5516|RAW:3806|call:10",
+            "getmoto__moto-5516|RAW:3806|call:20",
+            "getmoto__moto-5516|RAW:3806|call:26"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5516|RAW:3806|call:35",
+            "getmoto__moto-5516|RAW:3806|call:20",
+            "getmoto__moto-5516|RAW:3806|call:33"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-4972",
+      "legal_candidate_count": 6,
+      "all_legal_candidates_seen_by_third": false,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-4972|RAW:3746|call:26"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-4972|RAW:3746|call:28"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-4972|RAW:3746|call:26",
+            "getmoto__moto-4972|RAW:3746|call:23"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-4972|RAW:3746|call:28",
+            "getmoto__moto-4972|RAW:3746|call:25"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-4972|RAW:3746|call:26",
+            "getmoto__moto-4972|RAW:3746|call:23",
+            "getmoto__moto-4972|RAW:3746|call:28"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-4972|RAW:3746|call:28",
+            "getmoto__moto-4972|RAW:3746|call:25",
+            "getmoto__moto-4972|RAW:3746|call:26"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        }
+      ]
+    },
+    {
+      "task_id": "getmoto__moto-5587",
+      "legal_candidate_count": 3,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "getmoto__moto-5587|RAW:3285|call:13"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5587|RAW:3285|call:10"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "getmoto__moto-5587|RAW:3285|call:13",
+            "getmoto__moto-5587|RAW:3285|call:10"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5587|RAW:3285|call:10",
+            "getmoto__moto-5587|RAW:3285|call:13"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "getmoto__moto-5587|RAW:3285|call:13",
+            "getmoto__moto-5587|RAW:3285|call:10",
+            "getmoto__moto-5587|RAW:3285|call:12"
+          ],
+          "SF_evidence": [
+            "getmoto__moto-5587|RAW:3285|call:10",
+            "getmoto__moto-5587|RAW:3285|call:13",
+            "getmoto__moto-5587|RAW:3285|call:12"
+          ],
+          "different_sequence": true,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "pydantic__pydantic-8965",
+      "legal_candidate_count": 2,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "pydantic__pydantic-8965|RAW:4735|call:16"
+          ],
+          "SF_evidence": [
+            "pydantic__pydantic-8965|RAW:4735|call:16"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "pydantic__pydantic-8965|RAW:4735|call:16",
+            "pydantic__pydantic-8965|RAW:4735|call:17"
+          ],
+          "SF_evidence": [
+            "pydantic__pydantic-8965|RAW:4735|call:16",
+            "pydantic__pydantic-8965|RAW:4735|call:17"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "pydantic__pydantic-8965|RAW:4735|call:16",
+            "pydantic__pydantic-8965|RAW:4735|call:17"
+          ],
+          "SF_evidence": [
+            "pydantic__pydantic-8965|RAW:4735|call:16",
+            "pydantic__pydantic-8965|RAW:4735|call:17"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "dask__dask-8484",
+      "legal_candidate_count": 2,
+      "all_legal_candidates_seen_by_third": true,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "dask__dask-8484|RAW:4367|call:19"
+          ],
+          "SF_evidence": [
+            "dask__dask-8484|RAW:4367|call:19"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "dask__dask-8484|RAW:4367|call:19",
+            "dask__dask-8484|RAW:4367|call:18"
+          ],
+          "SF_evidence": [
+            "dask__dask-8484|RAW:4367|call:19",
+            "dask__dask-8484|RAW:4367|call:18"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "dask__dask-8484|RAW:4367|call:19",
+            "dask__dask-8484|RAW:4367|call:18"
+          ],
+          "SF_evidence": [
+            "dask__dask-8484|RAW:4367|call:19",
+            "dask__dask-8484|RAW:4367|call:18"
+          ],
+          "different_sequence": false,
+          "different_member_set": false
+        }
+      ]
+    },
+    {
+      "task_id": "Project-MONAI__MONAI-4109",
+      "legal_candidate_count": 4,
+      "all_legal_candidates_seen_by_third": false,
+      "rounds": [
+        {
+          "attempt": 1,
+          "source3_evidence": [
+            "Project-MONAI__MONAI-4109|RAW:1748|call:10"
+          ],
+          "SF_evidence": [
+            "Project-MONAI__MONAI-4109|RAW:1748|call:9"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 2,
+          "source3_evidence": [
+            "Project-MONAI__MONAI-4109|RAW:1748|call:10",
+            "Project-MONAI__MONAI-4109|RAW:1748|call:8"
+          ],
+          "SF_evidence": [
+            "Project-MONAI__MONAI-4109|RAW:1748|call:9",
+            "Project-MONAI__MONAI-4109|RAW:1748|call:6"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        },
+        {
+          "attempt": 3,
+          "source3_evidence": [
+            "Project-MONAI__MONAI-4109|RAW:1748|call:10",
+            "Project-MONAI__MONAI-4109|RAW:1748|call:8",
+            "Project-MONAI__MONAI-4109|RAW:1748|call:9"
+          ],
+          "SF_evidence": [
+            "Project-MONAI__MONAI-4109|RAW:1748|call:9",
+            "Project-MONAI__MONAI-4109|RAW:1748|call:6",
+            "Project-MONAI__MONAI-4109|RAW:1748|call:10"
+          ],
+          "different_sequence": true,
+          "different_member_set": true
+        }
+      ]
+    }
+  ],
+  "scope": "Public evidence opportunity only. Membership or order differences do not establish diagnosis correctness or recovery effect."
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "Root-four-hour-complete-external-baseline-qualification/1",
+  "at_UTC": "2026-10-12T13:25:16.818390+00:00",
+  "window_T0": "2026-10-12T19:29:05+08:00",
+  "task": "dask__dask-9378",
+  "new_effective_external_baseline_count": 0,
+  "D_actual_model_POST": 0,
+  "D_actual_spent_CNY": "0",
+  "methods": [
+    {
+      "method": "PatchPilot",
+      "publication": "ICML2025; prior formal source review retained",
+      "complete_author_parameters": "12 samples / batch4; original feedback refinement / re-localization / selection retained",
+      "mechanical_repair_seconds": 115.24929380000685,
+      "source_imports": "PASS",
+      "runtime_qualification": "UNKNOWN",
+      "runtime_reason": {
+        "collection_errors": [
+          {
+            "nodeid": "dask/tests/test_base.py",
+            "detail": "dask\\tests\\test_base.py:1512: in <module>\n    @pytest.mark.flaky(reruns=10, reruns_delay=5)\n..\\..\\..\\..\\..\\..\\..\\..\\..\\1002-exp129-expanded-baselines\\scratch\\dask_lane\\envs\\dask38\\lib\\site-packages\\_pytest\\mark\\structures.py:549: in __getattr__\n    warnings.warn(\nE   pytest.PytestUnknownMarkWarning: Unknown pytest.mark.flaky - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html"
+          }
+        ],
+        "guard_denial_reasons": [
+          "FD_REAL_TARGET_UNKNOWN"
+        ],
+        "leafs_collected_before_unknown": 10357
+      },
+      "whole_method_status": "UNQUALIFIED_UNRUN",
+      "scientific_success": null,
+      "effective_baseline": false,
+      "source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验258_PatchPilot完整槽资格\\THIRD_BASELINE_QUALIFICATION258.json",
+        "sha256": "e25bc8e04ad24d855294243cb8f97f4f4a01e1f4baa1050e9ef1492e785a96b8"
+      }
+    },
+    {
+      "method": "AOrchestra",
+      "publication": {
+        "status": "PASS",
+        "method": "AOrchestra",
+        "venue": "ICML 2026",
+        "classification": "CCF A per Root-reviewed project baseline requirement",
+        "publication": "ICML2026 PMLR306:106017-106040",
+        "official_primary_url": "https://proceedings.mlr.press/v306/ruan26e.html",
+        "paper_methodology_url": "https://arxiv.org/html/2602.03786v2"
+      },
+      "source": {
+        "status": "PASS_AUTHOR_CORE_BYTES",
+        "author_pin": "1fccfed44dcb4be05360ddc84373858cb40302c0",
+        "files_exact": 79,
+        "complete_core": [
+          "Main orchestration",
+          "dynamic SWE child",
+          "complete original ACI",
+          "Memory20",
+          "trace summary",
+          "context updates",
+          "Submit"
+        ],
+        "author_parameters": {
+          "max_main_attempts": 10,
+          "max_child_steps": 50,
+          "memory_max_memory": 20,
+          "window_size": 100
+        },
+        "selected_fixed_SWE_implementation_preserved": true,
+        "common_Flash_not_paper_default_model_claim": true,
+        "mechanical_source_closure_original": "FIVE_MINUTE_SOURCE_CLOSURE_EXCEEDED",
+        "original_elapsed_seconds": 336.5358356999932,
+        "this_status_does_not_imply_deployment_qualification": true
+      },
+      "runtime_qualification": {
+        "status": "UNKNOWN_FINAL_STOPPED",
+        "actual_controller_and_product_own_Job_identity": "PASS",
+        "ACI_read_navigation_search_editing": "PASS_R2",
+        "py_compile_actual_product_roots": 6,
+        "plain_generated_dask_compute_public_API": "PASS_R2",
+        "generated_pytest": "UNKNOWN_WINDOWS_NORMALIZED_NUL_PATH_WINERROR87",
+        "trusted_original_G_O": "UNRUN",
+        "R1_native_roots_stopped": 38,
+        "R2_native_roots_stopped": 44,
+        "both_controller_jobs_stopped": true,
+        "old_raw_sources_clocks_receipts_preserved": true
+      },
+      "whole_method_status": "UNQUALIFIED_UNRUN",
+      "scientific_success": null,
+      "effective_baseline": false,
+      "first_complete_body_prepared_not_sent": {
+        "status": "AUTHOR_FIRST_BODY_PREPARED_UNPOSTED",
+        "actual_author_import_modules": 749,
+        "real_first_author_body_import_seconds": 190.51281479999307,
+        "model": "deepseek-flash",
+        "all_roles_bound": [
+          "main",
+          "child",
+          "memory",
+          "trace_summary"
+        ],
+        "complete_common_C0_body_bounds": {
+          "input_bound": 102906,
+          "max_tokens": 8192,
+          "global_reserve": "0.271348",
+          "pilot_reserve": "0.271348",
+          "reservation_version": "parallel_full_body_provider_capacity_peak_2_8_v2",
+          "legacy_body_byte_padding_upper": 102906,
+          "official_input_capacity_tokens": 1048576,
+          "context_enforced_by_provider_no_local_byte_gate": true
+        },
+        "actual_POST": 0,
+        "actual_provider_response_or_usage_verified": false,
+        "live_API_qualification": "UNRUN",
+        "financial_grant_default_closed_for_D": true
+      },
+      "source_record": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验261_AOrchestra完整资格\\THIRD_BASELINE_QUALIFICATION.json",
+        "sha256": "3a3c0589fd78db531aa80d06bc4c338ee9d2dcc1def42f93dceb758d99d815ba"
+      }
+    }
+  ],
+  "existing_valid_external_systems": [
+    "Agentless",
+    "EnAgent"
+  ],
+  "existing_results_preserved_not_relabelled_as_current_window_repetitions": true,
+  "unknown_and_unrun_not_algorithm_zero": true,
+  "single_bounded_repair_routes_closed_no_further_native_or_model_retry": true,
+  "next_group_budget_reallocation_registered": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_RESOURCE_V2_BUDGET_AMENDMENT.json",
+    "sha256": "4eae1671b0540b3ec1f2df61a0bd25f7a8b66511312ba49b11ed75fe2d7d5ff7"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "model": "deepseek-flash",
+  "served_version": "DeepSeek-V4.1-Flash",
+  "context_tokens": "1M",
+  "max_output_tokens": 393216,
+  "display_max_output": "384K",
+  "price_unit": "CNY per 1,000,000 tokens",
+  "peak": {
+    "input_cache_hit": 0.04,
+    "input_cache_miss": 2,
+    "output": 8
+  },
+  "off_peak": {
+    "input_cache_hit": 0.02,
+    "input_cache_miss": 1,
+    "output": 4
+  },
+  "peak_hours_beijing": "Monday–Friday excluding Chinese statutory public holidays, 09:00–12:00 and 14:00–18:00; all other times off-peak",
+  "planned_four_hour_after_review": "19:28以后属于空闲时段；实际调度时间变化应重新计算，但按高峰全未命中预留可作保守上界",
+  "conservative_cost_formula": "sum_i((input_tokens_i * 2 + max_output_tokens_i * 8) / 1e6), cache assumed miss; pending/unknown reservations remain in the same continuous ledger",
+  "actual_billing_formula": "(cache_hit_tokens*p_hit + cache_miss_tokens*p_miss + output_tokens*p_output)/1e6 at actual tariff; not invoice total",
+  "seed": "Current official Chat Completions API request schema contains no seed field. A complete HTML snapshot was fetched; literal word seed count=0. This is no documentation of support, not a proof that every undeclared parameter is rejected.",
+  "default_thinking": "enabled",
+  "reasoning_effort": "default high; none disables; low/high/max supported; compatibility minimal→low, medium/xhigh→high",
+  "temperature": "Has no effect in thinking mode",
+  "top_p": "Thinking effective 0.95–1.0; values below0.95 clipped; non-thinking fixed1.0 and supplied value ignored",
+  "max_tokens": "Input+generated total must fit context; if unset default nonthinking8K, thinking64K, max effort128K. A default maximum must not be treated as a per-task budget.",
+  "sources": [
+    "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+    "https://api-docs.deepseek.com/api/create-chat-completion/"
+  ],
+  "account_access": false,
+  "paid_calls": 0,
+  "new_experimental_calls": 0
+}

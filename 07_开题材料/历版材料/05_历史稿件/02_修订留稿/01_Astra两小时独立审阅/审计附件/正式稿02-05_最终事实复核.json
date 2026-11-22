@@ -1,0 +1,122 @@
+{
+  "reviewed_at_utc": "2026-10-12T11:22:47.415363+00:00",
+  "conclusion": "未发现会改变结论或导致执行错误的实质问题",
+  "scope": "source3与AF15身份、训练与推断；StepFinder强控制；官方TEST实际曝光；SET机制机会；正文及纯推断附件只读复核",
+  "files": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\02_正式论文框架与两层基线.md",
+      "sha256": "7c0c2312753180a51fb392f2572b2aa936425230baf5eab034486cb484b3070f"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\03_后续四小时实验执行计划.md",
+      "sha256": "57843b350ebf8f1950ab4e88aea06d3fd7e5d797108792705a7eca61ec7341aa"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\04_开题报告_V1_六章完整稿.md",
+      "sha256": "4a465c4ffd03e282e2fd1be29da7aa3a67bdd81c39fc34bc9341fab7b3582fca"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\05_开题报告_逐章与图表解释.md",
+      "sha256": "35310c537191587ba4dee243e34a3a165e88825ad1f3e3344f961e80c45bbaa3"
+    }
+  ],
+  "findings": [],
+  "verified": [
+    {
+      "topic": "模型身份",
+      "paragraphs": "02:19-21,59；03:39-45；04:113-123,226,230；05:47-55",
+      "facts": "source3=作者TRAIN内492/122、coding256+math236/64+58、3seed选轮6/6/3；AF15=731记录/716组、3seed×5外折refit；AF自身仅对应held模型OOF。不能互移成绩。",
+      "direct_sources": [
+        "工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/protocol.json",
+        "工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/training/all_models_sealed.json",
+        "工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/predict153.py",
+        "工作区/1012-astra-review-2h/middle/source3_model_data_identity_audit.json",
+        "工作区/1012-astra-review-2h/middle/independent_selected_RQ1_release_audit.json"
+      ]
+    },
+    {
+      "topic": "StepFinder强控制",
+      "paragraphs": "02:31,40；03:39-43；04:123；05:53；审计附件/模型参数与纯推断接口.md",
+      "facts": "Exp158 source三seed按validation选ALG50，选轮23/14/20；使用raw内容和内部LayerNorm；T为padded batch最大长度，固定批次，不将其改成逐样本长度。",
+      "direct_sources": [
+        "工作区/1007-exp158-author-preset-baseline/实验/实验158_StepFinder论文双预设强对照/validation_selection_decisions.json",
+        "工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/sources/stepfinder_model.py:232-244",
+        "工作区/1008-exp191-public-rank-output-interface/实验/实验191_十五题公开排序与约束输出接口资格/ranking_prepare178.py:119"
+      ]
+    },
+    {
+      "topic": "实际TEST曝光",
+      "paragraphs": "02:61；04:228；05:85",
+      "facts": "早期79code/23math全部已逐组核对应实际评分；加Exp135不重叠45code/40math，实际已评分124code/63math。剩余3code长度不在原2-64；agentic600未作本次实际曝光核定。",
+      "direct_sources": [
+        "工作区/1012-astra-review-2h/middle/AgenTracer_TEST曝光分类复核.json",
+        "工作区/1012-astra-review-2h/middle/audit_test_exposure_status.py"
+      ]
+    },
+    {
+      "topic": "SET规则和机会",
+      "paragraphs": "02:71；03:11,78-84；04:91-93,177-179；05:61-67",
+      "facts": "P子集candidate PASS且O全过，接纳后并集，不要求严格改善。18C0目标全FAIL；六题18run的22admission无accepted partial和SET拒而COUNT接纳。旧7081的2→0退步两规则同拒；压力场景为已曝光状态，不能宣称新独立确认。",
+      "direct_sources": [
+        "工作区/1012-exp249-prospective-confirmation/实验/实验249_固定顺序新任务共同确认/method_sources/ours_core/progress_guard240.py:99-153",
+        "工作区/1012-astra-review-2h/middle/current21_goal_opportunity_readonly.json",
+        "工作区/1012-astra-review-2h/middle/existing_candidate_progress_audit.json"
+      ]
+    }
+  ],
+  "limits": "只复核指定重点的事实与执行契约；未运行模型、训练、测试、生成、API或修改正式文稿。",
+  "previous_review_snapshot": {
+    "at_utc": "2026-10-12T10:48:20.2400906Z",
+    "files": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\02_正式论文框架与两层基线.md",
+        "sha256": "7c0c2312753180a51fb392f2572b2aa936425230baf5eab034486cb484b3070f"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\03_后续四小时实验执行计划.md",
+        "sha256": "57843b350ebf8f1950ab4e88aea06d3fd7e5d797108792705a7eca61ec7341aa"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\04_开题报告_V1_六章完整稿.md",
+        "sha256": "4a465c4ffd03e282e2fd1be29da7aa3a67bdd81c39fc34bc9341fab7b3582fca"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\05_开题报告_逐章与图表解释.md",
+        "sha256": "35310c537191587ba4dee243e34a3a165e88825ad1f3e3344f961e80c45bbaa3"
+      }
+    ]
+  },
+  "followup": {
+    "conclusion": "新增两项没有实质错误；当前四文SHA已刷新。",
+    "reviewed_paragraphs": [
+      "04:117（3.2状态动作定义）",
+      "04:173（4.2通道重合）",
+      "05:57（状态对象区分）",
+      "05:77（相同邻接与独立参数）",
+      "03:53,58（机制表与十输入边界）"
+    ],
+    "state_action_definition": {
+      "source": "工作区/1006-exp133-state-action/实验/实验133_状态动作选择性核验/method.py:8-32",
+      "verified_rule": "left必须为decision_context，content以本role thinking:开头、尾部以#开头并包含Past Experience/Tool State/Current Plan至少两种标记；right与其原始step ID相邻、同actor、非decision_context，且content也以本actor thinking:开头。源码将其语义称pre-call decision context到ensuing thinking/output record。与实际仓库C0为不同对象。",
+      "finding": "正文为忠实概括，未误写为代码仓库状态配对或已证实因果依赖。"
+    },
+    "role_and_adjacency": {
+      "independent_evidence": "工作区/1012-astra-review-2h/middle/新增状态动作与角色邻接复核.json",
+      "source_audit": "工作区/1012-astra-review-2h/PUBLIC_ROLE_GEOMETRY_READONLY_AUDIT.json",
+      "public_file_and_receipt_current_sha_match": true,
+      "independent_public_recount": {
+        "records": 10,
+        "all_roles": [
+          "role_0"
+        ],
+        "all_turns_sha_match_receipt": true,
+        "all_receipt_state_action_links_empty": true
+      },
+      "adjacency_source": "实验/实验112_RQ1时序交互依赖完整排序/runner.py:148-167",
+      "channel_parameter_source": "工作区/1007-exp153-global-context/实验/实验153_候选条件全轨迹上下文/sources/owned_exp130_model.py:6-26",
+      "finding": "常量角色使temporal与same_role邻接相同；独立messages/gates及relation权重仍可给出不同变换。正文正确限定十输入及两个通道，没有外推其他形状关系或18题。"
+    },
+    "formal_documents_modified": false,
+    "no_model_or_test_execution": true
+  }
+}

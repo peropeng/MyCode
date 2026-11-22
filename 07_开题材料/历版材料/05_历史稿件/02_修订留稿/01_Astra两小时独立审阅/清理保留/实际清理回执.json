@@ -1,0 +1,79 @@
+{
+  "schema": "independently-reviewed-cleanup/1",
+  "completed_beijing": "2026-10-12T17:53:19.8943677+08:00",
+  "drive_free_before": 1840222208,
+  "drive_free_after": 5116882944,
+  "net_free_increase_bytes": 3276660736,
+  "measurement_note": "Net D-drive change; concurrent document writes may slightly affect the delta",
+  "deleted": [
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_domain_future\\public_features.pt",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.7179390+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot18_task_partition_future_context\\public_features.pt",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.7329442+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot19_partition_past_future\\public_features.pt",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.7441050+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot20_base_uncertainty_gate\\public_features.pt",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.7453878+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot21_soft_task_partition\\public_features.pt",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.7632885+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot21_soft_task_partition\\features_archive.zip",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.7736473+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot5_field_semantics\\field_derived_features.pt",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.7940239+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\scratch\\exp131\\pilot5_field_semantics\\field_derived_features.zip",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.8007741+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\pilot31_background_change_interaction_recovery\\raw_background_products.pt",
+      "kind": "file",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:17.8121691+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp125-plan-risk",
+      "kind": "paused_worktree",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:18.8582439+08:00"
+    },
+    {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\0922-exp126-relation-residual",
+      "kind": "paused_worktree",
+      "no_longer_exists": true,
+      "at_beijing": "2026-10-12T17:53:19.8894958+08:00"
+    }
+  ],
+  "branches_and_commits_retained": true,
+  "raw_model_candidate_test_checkpoint_preserved": true,
+  "continuous_finance_unchanged": true
+}

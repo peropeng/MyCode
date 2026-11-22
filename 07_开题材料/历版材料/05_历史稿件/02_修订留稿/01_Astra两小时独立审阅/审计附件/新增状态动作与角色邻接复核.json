@@ -1,0 +1,110 @@
+{
+  "at_utc": "2026-10-12T11:22:25.032197+00:00",
+  "scope": "Public JSON hash/role recount and source inspection only; no feature/model/native execution",
+  "all_source_sha_match": true,
+  "rows": [
+    {
+      "sample_id": "Project-MONAI__MONAI-2238",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 9,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "dask__dask-9378",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 12,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "getmoto__moto-7081",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 24,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "pydantic__pydantic-8567",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 28,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "getmoto__moto-5072",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 10,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "getmoto__moto-5134",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 27,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "getmoto__moto-5286",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 15,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "getmoto__moto-7317",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 29,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "getmoto__moto-6212",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 16,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    },
+    {
+      "sample_id": "getmoto__moto-6352",
+      "roles": [
+        "role_0"
+      ],
+      "n_steps": 8,
+      "turns_sha_matches_receipt": true,
+      "sha_serialization": "default",
+      "state_action_links_empty": true
+    }
+  ],
+  "all_ten_single_role_0": true,
+  "all_ten_turns_sha_match": true,
+  "source_based_adjacency_identity": "E112 lines148-167 connects temporal adjacent positions and consecutive occurrences of each role; a constant role makes these neighbor sets identical. RelationLayer has separate messages/gates per channel, so this does not imply identical transforms or inactivity."
+}

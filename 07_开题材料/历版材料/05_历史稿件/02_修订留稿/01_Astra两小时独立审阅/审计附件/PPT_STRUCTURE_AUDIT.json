@@ -1,0 +1,86 @@
+[
+  {
+    "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\开题报告PPT\\开题报告_V5_正式版.pptx",
+    "sha256": "79cd86a99ba563e2f3df3cada2639dcee1a61d79e70612e52fc6ded75401171f",
+    "slides": 54,
+    "structure": [
+      {
+        "slide": 1,
+        "text": "基于多关系图建模的智能体 | 细粒度责任排序和执行失败恢复方法研究 | 开题报告 |   ·   | 汇报人：杨亚鹏 |   ·  2026年 | 9 | 月 | Multi-Relational Graph Modeling for Fine-Grained Responsibility Ranking and Agent Execution Failure Recovery"
+      },
+      {
+        "slide": 2,
+        "text": "Background and Related Work | 01. | 背景与现状 | Objectives and Significance | 02. | 目标与意义 | Research Content and Methods | 03. | 内容与方法 | Challenges and Contributions | 04. | 难点与创新 | Experiments and Data | 05. | 实验与数据 | Schedule and References | 06. | 进度与文献"
+      },
+      {
+        "slide": 3,
+        "text": "01 | 背景与现状 | Background and Related Work"
+      },
+      {
+        "slide": 36,
+        "text": "4.3 设计贡献的验证路径 | 两项方法贡献分别对应RQ1排序实验与RQ2恢复实验。各组对照固定其他条件，分别检验整体效 | 果及内部组件的作用。 | 表6  两个研究问题的方法贡献与验证设计 | 研究问题与贡献 | 主要对照 | 检验目标 | RQ1：细粒度责任排序 | 方法 | 同节点输入基线、冻结路径屏蔽、图效用置 | 乱与边端点置换 | 区分整体排序效果与模型对各路 | 径信息的依赖 | RQ2：诊断引导的选择 | 性回滚方法 | 候选次序、单点／等数量／同目标范围，以 | 及检查与基准恢复机制对照 | 联合评价恢复成功率、Harm与成 | 本，分别分析各组件 | 预期贡献将通过分层对照检验。第五章说明正式实验设计，并用一页前期实验结果交代可行性基础。 | 背景与现状 | 目标与意义 | 内容与方法 | 难点与创新 | 实验与数据 | 进度与文献"
+      }
+    ]
+  },
+  {
+    "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\开题报告PPT\\开题报告_V5_修订版.pptx",
+    "sha256": "ce0fd6a786a14495d8a01741bcae89bf1515620d5a1d9f2d70b37e8ee3590f5e",
+    "slides": 54,
+    "structure": [
+      {
+        "slide": 1,
+        "text": "基于多关系图建模的智能体 | 细粒度责任排序和执行失败恢复方法研究 | 开题报告 |   ·   | 汇报人：杨亚鹏 |   ·  2026年 | 9 | 月 | Multi-Relational Graph Modeling for Fine-Grained Responsibility Ranking and Agent Execution Failure Recovery"
+      },
+      {
+        "slide": 2,
+        "text": "01. | 02. | 03. | 04. | 05. | 06. | 背景与现状 | 目标与意义 | 内容与方法 | 难点与创新 | 实验与数据 | 进度与文献 | Background and Related Work | Objectives and Significance | Research Content and Methods | Challenges and Contributions | Experiments and Data | Schedule and References"
+      },
+      {
+        "slide": 3,
+        "text": "01 | 背景与现状 | Background and Related Work"
+      }
+    ]
+  },
+  {
+    "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\开题报告PPT\\开题报告_v15第三章重构与附录版_v16.pptx",
+    "sha256": "55e33728d93fffd5bb6c40c014b4b2e146040ab83a746a66e0930350074b22cd",
+    "slides": 69,
+    "structure": [
+      {
+        "slide": 1,
+        "text": "智能体系统失败诊断与 | 可靠恢复方法研究 | 开题报告 |    | · |    | 汇报人：杨亚鹏 |    | · |   2026 | 年 | 8 | 月 | Research on Failure Diagnosis and Reliable Recovery Methods for Agent Systems"
+      },
+      {
+        "slide": 2,
+        "text": "Background and current situation | 01. | 背景与现状 | Goal and meaning | 02. | 目标与意义 | Contents and methods | 03. | 内容与方法 | Difficulties and Innovations | 04. | 难点与创新 | experimentation and data | 05. | 实验与数据 | Progress and literature | 06. | 进度与文献"
+      },
+      {
+        "slide": 3,
+        "text": "01 | 背景与现状 | Background and current situation"
+      }
+    ]
+  },
+  {
+    "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\开题报告PPT\\开题报告_研究思想递进与正式实验计划版_v11.pptx",
+    "sha256": "a927fd8ebfc8569f91adb5697d7db7a38c0636d15d97e08035cc106556a0d35b",
+    "slides": 72,
+    "structure": [
+      {
+        "slide": 1,
+        "text": "智能体系统失败诊断与 | 可靠恢复方法研究 | 开题报告 |    | · |    | 汇报人： | ________   | · |   2026 | 年 | 8 | 月 | Research on Failure Diagnosis and Reliable Recovery Methods for Agent Systems | 自强、弘毅、求是、拓新"
+      },
+      {
+        "slide": 2,
+        "text": "Background and current situation | 01. | 背景与现状 | Goal and meaning | 02. | 目标与意义 | Contents and methods | 03. | 内容与方法 | Difficulties and Innovations | 04. | 难点与创新 | experimentation and data | 05. | 实验与数据 | Progress and literature | 06. | 进度与文献"
+      },
+      {
+        "slide": 3,
+        "text": "01 | 背景与现状 | Background and current situation"
+      },
+      {
+        "slide": 17,
+        "text": "3.1  | 问题定义与总体方法 | ➢ | 技术路线遵循“轨迹表示—责任排序—输出固化—恢复计划—可撤销执行—任务级评价”的单向证据链。方法章节给出候选实现与接口约束，正式实验将在冻结数据划分后比较候选方案并确定最终配置。 | 第二章 | 失败诊断 | 第三章 | 可靠恢复 | 轨迹标准化 | 步骤序列 | / | 角色 | 调用形状 | / | 摘要 | 局部责任排序 | 局部行为描述 | 任务内成对训练 | 跨步骤交互排序 | 多通道关系传播 | 步骤交互表示 | 折外预测融合 | 未见样本预测 | 完整责任排序 | 诊断条件化计划 | 责任锚点×恢复范围 | 形成计划集合 | 依赖感知范围 | 单点 | / | 等规模 | / | 依赖范围 | 控制干预边界 | 可撤销执行 | 一致检查点重放 | 失败计划恢复原状态 | 双边验收 | 目标恢复 | + | 非目标保持 | 提交或撤销 | 诊断输出： | 覆盖全部步骤的责任排序与 | 折外预测 | 记录。 | 闭环控制： | 验收未通过时恢复一致检查点，并在剩余执行预算内转向下一冻结计划。 | 判定原则： | RQ1 | 输出π后即固化； | RQ2 | 读取π构造候选优先级，恢复执行结果不反向修改责任分数、候选池或候选次序。 | 图 |  5   | 从失败轨迹、完整责任排序到可撤销恢复的技术路线 | 背景与现状 | 目标与意义 | 内容与方法 | 难点与创新 | 实验与数据 | 进度与文献"
+      }
+    ]
+  }
+]

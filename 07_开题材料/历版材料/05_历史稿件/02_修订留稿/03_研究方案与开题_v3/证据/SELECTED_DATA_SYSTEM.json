@@ -1,0 +1,87 @@
+{
+  "schema": "proposal-v3-user-corrected-fixed-data-system/2",
+  "at_utc": "2026-10-12T16:45:06.841873+00:00",
+  "decision": "SELECT_THREE_SOURCES_ANCHORED_IN_USER_IDENTIFIED_ACTUAL_RESULTS",
+  "formal_evaluation_source_count": 3,
+  "supersedes": "WITHDRAWN_TWO_SOURCE_DRAFT.json; two-source plan withdrawn.",
+  "selected": [
+    {
+      "id": "D1",
+      "name": "AFTraj-2K / ZBox008003/AFTraj",
+      "revision": "11191169d3d99298df098eee8d83db425117faba",
+      "role": "RQ1主数据，保留AF120强参考正结果及多域责任排序",
+      "raw_records": 2276,
+      "ranking_population": "731records/716groups",
+      "fixed_subset": "AF120120distinctgroups,notanewdataset",
+      "training_validation_evaluation": "3seeds×5outerfolds;3foldfit+1validationthen4foldrefit,heldfoldonlyevaluation,3heldprobabilityensemble",
+      "positive_anchor": "GLOBAL86/120 vs strengthenedSF82/120 andAA77/120",
+      "status": "ExposeddevelopmentOOFpositivepointgains,notfreshblind"
+    },
+    {
+      "id": "D2",
+      "name": "AgenTracer data-v1.0.0 coding subset",
+      "version": "data-v1.0.0",
+      "release_zip_sha256": "a4615b2defacc5ec181239da299055e240444b44b414bd7db3d1471c9aa5826d",
+      "role": "RQ1已验证coding补充与训练划分稳健性，不替代D1",
+      "raw_coding_author_train_test": [
+        1141,
+        127
+      ],
+      "training_validation": "Eachsplit492fit(256code+236math)/122val(64code+58math),same614pool",
+      "evaluation": "Samecoding363 across3partitions;not3datasets",
+      "positive_anchor": "A179vs150;B184vs156;C186vs159 outof363;7.44–7.99pp;originalHolmpositive",
+      "status": "Fixedexposeddevelopment"
+    },
+    {
+      "id": "D3",
+      "name": "SWE-Gym + fixed OpenHands-SFT-Trajectories linked recovery subset",
+      "role": "RQ2唯一执行恢复来源；两包按issue联接，不能冒充两个独立数据集",
+      "components": [
+        {
+          "name": "SWE-Gym/SWE-Gym",
+          "revision": "bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb",
+          "author_split": "train",
+          "records": 2438,
+          "count_unit": "issues",
+          "official_card": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym/raw/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/README.md"
+        },
+        {
+          "name": "SWE-Gym/OpenHands-SFT-Trajectories",
+          "revision": "4aaa5a4a4b5861f4799d2336908760c190ac3b17",
+          "author_split": "train.success.oss",
+          "records": 491,
+          "count_unit": "successful trajectory records, not verified distinct issues",
+          "official_card": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/raw/4aaa5a4a4b5861f4799d2336908760c190ac3b17/README.md"
+        }
+      ],
+      "counting": "Two upstream packages form one linked recovery population; do not add2438+491, and do not present them as two independent benchmark replications.",
+      "training": "No recovery-model fitting on SWE-Gym or these trajectories in the selected present protocol. Provider model is frozen; RQ1source3 training remains D1. Upstream split called train does not imply project recovery training.",
+      "development": "Current local23issue source pool /21planned /18eligible are project derived scopes; keep known traces and outcomes as exposed development/evaluation assets.",
+      "evaluation": "Same issue+C0+legal public input+backend+budget+acceptance across complete external methods and internal controls; report actual common paired issue sets. Repetitions and partial states do not enlarge issue denominator.",
+      "known_subcohorts": {
+        "old_complete_comparison_issues": 5,
+        "later_fixed_repeat_issues": 6,
+        "later_OURS_runs": 18,
+        "closed_four_hour_sorting_planned_issues": 2,
+        "closed_four_hour_sorting_complete_common_groups": 0,
+        "closed_four_hour_pressure_issues": 1,
+        "closed_four_hour_pressure_trajectories": 9,
+        "closed_four_hour_pressure_successes": 8
+      },
+      "project_test_split": "No separate author recovery test split is selected. Existing qualified issues are an exposed development/evaluation cohort. Any new confirmatory issue set must be prospectively frozen after eligibility and project-exposure audit inside this same linked source; certified capacity currently0.",
+      "test_layers": "Public G and O drive feedback/admission; independent preserved tests are final-only, not an extra dataset. Test isolation within an issue is not issue-level fresh confirmation.",
+      "allowed_claim": "Executable recovery observations in declared software issues/states, budgets and frozen backend; diagnostic accuracy and repair success remain separate. No claim of general execution recovery across web/robotics/other tasks.",
+      "required_followup": [
+        "Freeze issue joins, raw-message prefix boundary, C0business SHA, legal edits, public G/O, isolated final acceptance and exact native environment.",
+        "Retain only prefix information available at C0. Exclude source successful trajectory future edits/final patch and other methods patches from recovery input.",
+        "Complete paired natural/fixed-budget outcomes; keep native unknown and unrun separate from failure.",
+        "Audit unseen issues within this linked source before labeling any new issue cohort confirmation; all states/repeats of an issue stay in one exposure group."
+      ]
+    }
+  ],
+  "confirmation": "Existing validpositive resultsremainmain. Currentlycertifiedfreshindependentconfirmationcapacity0;exposurequalificationisafollow-upandnotareasontodeletethesechosenresults.",
+  "evidence": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1013-proposal-v3\\data\\POSITIVE_RESULT_DATA_PROVENANCE.json",
+    "sha256": "44402db0f686ee66d864a3a338e07d73ffb8d83d6a987cd108c86d6f62e7520c"
+  }
+}

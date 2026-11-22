@@ -1,0 +1,43 @@
+{
+  "schema": "Astra-readonly-PatchPilot258-qualification-review/1",
+  "at_utc": "2026-10-12T12:10:27.305370+00:00",
+  "scope": "Independent reading, source/diff review and hashes only; no model or native execution by reviewer.",
+  "terminal_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp258-patchpilot-postreview\\实验\\实验258_PatchPilot完整槽资格\\THIRD_BASELINE_QUALIFICATION258.json",
+  "terminal_sha256": "e25bc8e04ad24d855294243cb8f97f4f4a01e1f4baa1050e9ef1492e785a96b8",
+  "mechanical_review": {
+    "seconds": 115.24929380000685,
+    "qualification": "PASS",
+    "scope": "AST-extracted original pure file consumers and real saved response parsing; no end-to-end pipeline replay, model execution or native result",
+    "diff_sha256": "e86445b41b98593d4f96a251a09ad4cbb7de5878faa89c025d1f6c7a710f568b",
+    "slot_source_sha256": "505d38a3a53722706d8df7f54822e64bc7022dabaeb3c94605a03061b9a29556"
+  },
+  "actual_native_collection": {
+    "run_sha256_matches": true,
+    "log_sha256_matches": true,
+    "collected": 10357,
+    "collection_errors": [
+      {
+        "nodeid": "dask/tests/test_base.py",
+        "detail": "dask\\tests\\test_base.py:1512: in <module>\n    @pytest.mark.flaky(reruns=10, reruns_delay=5)\n..\\..\\..\\..\\..\\..\\..\\..\\..\\1002-exp129-expanded-baselines\\scratch\\dask_lane\\envs\\dask38\\lib\\site-packages\\_pytest\\mark\\structures.py:549: in __getattr__\n    warnings.warn(\nE   pytest.PytestUnknownMarkWarning: Unknown pytest.mark.flaky - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html"
+      }
+    ],
+    "scope_status": "COLLECTION_UNKNOWN",
+    "exit_code": 1,
+    "timeout": false,
+    "guard_denials_count": 3,
+    "business_unchanged": true,
+    "masked_support_unchanged": true,
+    "guard_loaded": true,
+    "stop_receipt": {
+      "root_stopped": true,
+      "own_Job_empty_before_close": true,
+      "descendants_stopped": true,
+      "all_owned_descendants_terminated": true
+    }
+  },
+  "scientific_run": "UNRUN",
+  "scientific_success": null,
+  "model_POST": 0,
+  "spent_CNY": "0",
+  "interpretation": "Old slot accounting defect mechanically addressed; current full runtime is unqualified, so no algorithmic zero-score or nonzero baseline qualification."
+}

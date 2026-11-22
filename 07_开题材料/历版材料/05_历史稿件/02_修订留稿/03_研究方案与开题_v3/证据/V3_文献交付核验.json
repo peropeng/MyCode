@@ -1,0 +1,40 @@
+{
+  "references": 73,
+  "unique_numbers": 73,
+  "mapping_references": 73,
+  "stable_first_50": true,
+  "excluded": [
+    "L59"
+  ],
+  "rq1_preregistered_main": [
+    "StepFinder",
+    "All-at-Once",
+    "Binary Search"
+  ],
+  "rq1_preregistered_backup": "Step-by-Step",
+  "rq1_backup_active": false,
+  "overall_backup": "SGAgent",
+  "new_experiment_calls": 0,
+  "new_gold_reads": 0,
+  "modified_outside_assigned_directory": false,
+  "files": {
+    "AEGIS_local_model.py": "3b7a5ec9107d7385990c5b503f675d86d846df18a2816e931b0ee5dcc021fd3a",
+    "AEGIS_README_20261013.md": "809a5f535afc88c180e267542185be9ba151523fbcb4975943a9d5d41dc8d44d",
+    "AEGIS_training_tree.json": "c9167cff17a3da11669a4ecbf1a0c8c1c4c5780068dcc52fe6aef16871b5e39c",
+    "AgenTracer_config.py": "0d513986fba71954b83f39554c8111606745d52f999d6814eb635b0a3b4f17ea",
+    "AgenTracer_kodcode.py": "335eb04e1a0568978dadc6b427d7c40bc3bfc3417277e4f02ef962fe18b1094b",
+    "AgenTracer_README_20261013.md": "b1202887726bb227a6bbca43d3c58c363ed531078906fae54ac99f6cbf0779f2",
+    "build_literature_v3.py": "3a75201320db761dfd4a362ff1592bb12e7faeb4e3c3bc9b0fb0256d5ec75c1e",
+    "collect_primary_metadata.py": "b3e874e41246d752c988187a5657a4291f2d4622bfeb52f9da747bcb6f0c70d3",
+    "FAMAS_README_20261013.md": "f538cb27d254110bf89dbc1ed43bf22e89d997e3f440e952b810ac00c72110b5",
+    "RQ1三主一备资格决策.md": "2c5f7d6c6f0ab62f28c4db2f6b5007ca8dbb84421cd1df039710de8bdea047ed",
+    "SGAgent_crossref_20261013.json": "a6968b1d76ae3da8b7b5d2fc7a4d592f31681bcd4ca3ff2869dc3d825f939b70",
+    "全面相关工作_研究空间与学术框图依据.md": "32d7cd31893d7a9df9d36613595d04429b97eeb8c18feee3d79298ea808cbf9d",
+    "参考文献_key到number映射_V3.json": "9d352139e9c5a3752f7757f45f8b173c2cc879bff2e92bc2e5e063929e6a788b",
+    "参考文献_编号表_V3.md": "be096728de9e535763fb6d5779ed62c9c66e2f8b8ef7efc79f7cd63059a0b0a6",
+    "文献与依据表_V3合并.json": "afa03f07e3607529912c8873ca9454e247952169e198192ac6e2c674427d37c2",
+    "新增文献原始元数据.json": "337e8fdaa4236fe1062dacae3dadd07b8db987309244801347dd7586e7e8d255",
+    "新增文献纳排表.json": "b5dbef04d71133337d4e15b9860584007b18226da45934266886320a940bc379",
+    "新增文献纳排表.md": "b74d3a758a108c7b5ff523a41c81e34630ec2b2deed9e0f18bc1f3da657b12a8"
+  }
+}

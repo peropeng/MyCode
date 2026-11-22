@@ -1,0 +1,346 @@
+{
+  "checked_at_beijing": "2026-10-12T18:51:12+08:00",
+  "record_count": 50,
+  "unique_ids": 50,
+  "dataset_count": 10,
+  "new_experiment_generation_calls": 0,
+  "new_training_runs": 0,
+  "new_model_downloads": 0,
+  "new_dataset_downloads": 0,
+  "new_private_account_access": 0,
+  "public_gold_preview": "Two AF safe-card examples and public SyncMind paper case fragments exposed; see exposure_record.json. Not zero Gold exposure.",
+  "source_scope": "Primary paper pages, official proceedings/metadata, selected author source files and local existing manifests; no experiment tests run",
+  "final_primary_files": [
+    "文献与依据表.json",
+    "文献与依据表.md",
+    "参考文献_编号表.md",
+    "参考文献_key到number映射.json",
+    "文献综述与两层基线建议.md",
+    "数据集清单与许可划分.json",
+    "数据集清单与许可划分.md",
+    "DeepSeek价格与概率性官方核验.json",
+    "exposure_record.json",
+    "RQ1备选资格核验_SBS与SDBL.json"
+  ],
+  "files": [
+    {
+      "name": "补充近邻46-49_原文核验.json",
+      "bytes": 7075,
+      "sha256": "20f98dda43214bf451ed65c65dcbb6b072376498d4c6fe8b4066158baeb50ab9"
+    },
+    {
+      "name": "补充文献50_理论依据核验.json",
+      "bytes": 2276,
+      "sha256": "703b2656ab3a8206a7ed672889e56b4512524638890e506230f3d71b0e4121f4"
+    },
+    {
+      "name": "参考文献_编号表.md",
+      "bytes": 17909,
+      "sha256": "aedfa2ac5385d1ce7e9da8104a2df9fc3021713005a326b11d989ba56eb9c031"
+    },
+    {
+      "name": "参考文献_key到number映射.json",
+      "bytes": 60387,
+      "sha256": "11943e67a4983e92671328b35e994032b3973b3044317ddcbbcca9202425e55c"
+    },
+    {
+      "name": "数据集清单与许可划分.json",
+      "bytes": 17721,
+      "sha256": "d1e1739d9b553fb03b8531d0db184dd380614eec94ef725973576668c47475b1"
+    },
+    {
+      "name": "数据集清单与许可划分.md",
+      "bytes": 17269,
+      "sha256": "b298c3c36e1484d1ed94ba6328cc854613bcf15abcf2f4a7cb09d7cfbb298618"
+    },
+    {
+      "name": "文献补充_回滚近邻.json",
+      "bytes": 13809,
+      "sha256": "c5a5613c8e0903358d403dcf443041dbabb1ecfa8ce1a0e63a164f78e2954191"
+    },
+    {
+      "name": "文献与依据表_核定.json",
+      "bytes": 88888,
+      "sha256": "aad161aec299cf1283fe2a12257edea69081e115c203329558d5a14ee4490374"
+    },
+    {
+      "name": "文献与依据表_核定.md",
+      "bytes": 83352,
+      "sha256": "7890974afc0503e75a1540f1ae185dab6272e6e7fbee4f4b07c65927b7144b34"
+    },
+    {
+      "name": "文献与依据表.json",
+      "bytes": 88888,
+      "sha256": "aad161aec299cf1283fe2a12257edea69081e115c203329558d5a14ee4490374"
+    },
+    {
+      "name": "文献与依据表.md",
+      "bytes": 83352,
+      "sha256": "7890974afc0503e75a1540f1ae185dab6272e6e7fbee4f4b07c65927b7144b34"
+    },
+    {
+      "name": "文献综述与两层基线建议.md",
+      "bytes": 21437,
+      "sha256": "1dd3d6cf2c6eec84e4b086b4e459fb26373eb12904c4819300c9519668f1a2f2"
+    },
+    {
+      "name": "正式稿_聚焦文献核对.json",
+      "bytes": 6024,
+      "sha256": "5e299fe4834c73408889fd6b91c13fdb57b1e467fd5a6f3a70ddbc9526ada5cf"
+    },
+    {
+      "name": "正式稿_书目与引用机械核对.json",
+      "bytes": 987,
+      "sha256": "b92c7b1085cdeeec12c6e115b9de9bf37a3567fdc2513ffdf0982b6bda92c335"
+    },
+    {
+      "name": "arxiv_bibliography_live.json",
+      "bytes": 8590,
+      "sha256": "c50236ab9574b6d6a5644c4778df2c7a955cf856040993b5a3f3ed943c8c1aea"
+    },
+    {
+      "name": "bingreeky_AgenTracer_README.md",
+      "bytes": 2619,
+      "sha256": "ce57b13fb422e090ec0e3a646ab93cb47d5d0e837d5f643d36c609d368254c13"
+    },
+    {
+      "name": "bingreeky_AgenTracer.tree.json",
+      "bytes": 269185,
+      "sha256": "00fe97a7446440be5bff1d9059ec19d32a3eadc9cc930695d27cca16667be7a9"
+    },
+    {
+      "name": "bytedance_trae-agent_evaluation_patch_selection_README.md",
+      "bytes": 4105,
+      "sha256": "5918ef176d2b2473d3296247df18b3e1000d4087fdc2da4c62c77f963ae20718"
+    },
+    {
+      "name": "bytedance_trae-agent_evaluation_patch_selection_selector.py",
+      "bytes": 3662,
+      "sha256": "cbfd5a5de48194b819e602a058b6df9b85a5ce3d4f4a3f4188b875241ef1dda6"
+    },
+    {
+      "name": "bytedance_trae-agent_evaluation_patch_selection_trae_selector_selector_agent.py",
+      "bytes": 10606,
+      "sha256": "7cdcd4693d14bff3bbdc24009f16e05c8fefe7efc9ae5c9a15c6e4e89a383073"
+    },
+    {
+      "name": "bytedance_trae-agent.tree.json",
+      "bytes": 32423,
+      "sha256": "db02c1399c1d72d55d1c2d30e856197adfccb85028e2286796fb1eda46357452"
+    },
+    {
+      "name": "dataset_counts_live.json",
+      "bytes": 2605,
+      "sha256": "e0ce66209624230e84acaf5920c575ba3249e6f852f170fbf193d5c7505b6461"
+    },
+    {
+      "name": "dataset_metadata_live.json",
+      "bytes": 4651,
+      "sha256": "82819ff21b6129ecf068a7d3742310478a94dcc8c1791fa45dc66d3707d546eb"
+    },
+    {
+      "name": "deepseek_chat_schema_20261012.html",
+      "bytes": 142968,
+      "sha256": "0f0adff00ce177484dc57dad9801b75abf23ba1b151e7b79de78b17086eb7a6e"
+    },
+    {
+      "name": "deepseek_pricing_20261012.html",
+      "bytes": 24118,
+      "sha256": "9d5bf66a9819fa7686a9f1582c88e329349d9ccf5362b1b0df660b7f6990f9b3"
+    },
+    {
+      "name": "DeepSeek价格与概率性官方核验.json",
+      "bytes": 2073,
+      "sha256": "a4d78b38a73f1c80b0907c61f075406192c032432c3fcdd322b898f5fd952af9"
+    },
+    {
+      "name": "exposure_record.json",
+      "bytes": 1702,
+      "sha256": "8b727b4be35a1cb8c5a3a24d2d5fcd0f7eb37ff12f20eb709191526dd438bbc9"
+    },
+    {
+      "name": "FoundationAgents_AOrchestra_aorchestra_config.py",
+      "bytes": 11912,
+      "sha256": "606cfc2998f6b1f5aa91e87ffefd5d28053a7ecbb170185e007d04f5901590a8"
+    },
+    {
+      "name": "FoundationAgents_AOrchestra_aorchestra_main_agent.py",
+      "bytes": 12643,
+      "sha256": "874eb53697bee2f7399699696208b3fba471c70780ec117094424e705f938454"
+    },
+    {
+      "name": "FoundationAgents_AOrchestra_config_example_benchmarks_aorchestra_swebench.yaml",
+      "bytes": 1165,
+      "sha256": "34f9d2caeb70211a966b8818b64f4e283a0ddad002ab7b652f94b68127e6c78d"
+    },
+    {
+      "name": "FoundationAgents_AOrchestra.tree.json",
+      "bytes": 26535,
+      "sha256": "53908fb05b0671bfd63bedb715fcf7282ca258270962b088148895ecb47be46a"
+    },
+    {
+      "name": "Intelligent-CAT-Lab_Graphectory_graph_analysis_analyzer.py",
+      "bytes": 26728,
+      "sha256": "0f0358db6ebdc8e432295eb28c76a454926cc3e1a90ce0d461b09c345f0d2cdf"
+    },
+    {
+      "name": "Intelligent-CAT-Lab_Graphectory.tree.json",
+      "bytes": 2369412,
+      "sha256": "4f438939366fbf864ecc6aa938e4f01b8a54020cd6a91c043d77ef58d994a312"
+    },
+    {
+      "name": "kfq20_AEGIS_README.md",
+      "bytes": 8636,
+      "sha256": "9ae27cd6e69bd8b3c78f9a083ee90259bb042570b74d7379d03e81e542f3f302"
+    },
+    {
+      "name": "listnet_publication_metadata.json",
+      "bytes": 593,
+      "sha256": "da2023f9f6992444ebc74f6ae6e38eb764b33073487d4c73a90da1417af63401"
+    },
+    {
+      "name": "mingyin1_Agents_Failure_Attribution_Automated_FA_evaluate.py",
+      "bytes": 6030,
+      "sha256": "fd0b9bc42ae343db62ac6e7e13f8839590bc58b250096d202781143d83760315"
+    },
+    {
+      "name": "mingyin1_Agents_Failure_Attribution_Automated_FA_inference.py",
+      "bytes": 10763,
+      "sha256": "3c02c21435e23fd5bce1b1a3253e69bfc833f8cda8aa45cde802703903718d63"
+    },
+    {
+      "name": "mingyin1_Agents_Failure_Attribution_Automated_FA_Lib_utils.py",
+      "bytes": 14774,
+      "sha256": "4bb3d5d206b7d044c47109fadac62c7f02b61f0f69696ea0f6b18d21e5cafcfe"
+    },
+    {
+      "name": "OpenAutoCoder_Agentless_README_swebench.md",
+      "bytes": 18869,
+      "sha256": "f5e8142749e28ba53d8f68416334fb1c04690ca87a189513e5f4d4df54dbd13f"
+    },
+    {
+      "name": "OpenAutoCoder_Agentless.tree.json",
+      "bytes": 10860,
+      "sha256": "a751554ea220b92bbb6efe8652dc7e90e7894d78a807f8cb9e6302fed7b68c6a"
+    },
+    {
+      "name": "OpenHands_SFT_dataset_card.md",
+      "bytes": 399,
+      "sha256": "4224c2a336619c79e72090757c0353cb3eceab953ec601683d4ea16b60696148"
+    },
+    {
+      "name": "publication_metadata_crossref.json",
+      "bytes": 6193,
+      "sha256": "beed42e78337fff7c2d35106d22def8c3c4f38e1321439b2df41390c114c941e"
+    },
+    {
+      "name": "recovery_bibliography_live.json",
+      "bytes": 3641,
+      "sha256": "7963f6880ab115b719449b5fe6fe46e5cf47f494faed3835d8c001dc36b8ddff"
+    },
+    {
+      "name": "RQ1备选资格核验_SBS与SDBL.json",
+      "bytes": 5153,
+      "sha256": "8c424055362100d5285ea0bc1c1485f1d397424265240828b309ed9741c300ac"
+    },
+    {
+      "name": "selective_undo_1992.pdf",
+      "bytes": 846888,
+      "sha256": "26b1ee2ed2eb9890f1028eb7307567a562f21aa312e9a783145d774be97e9487"
+    },
+    {
+      "name": "selective_undo_1992.txt",
+      "bytes": 37612,
+      "sha256": "db71ffce58536cf09a36260a2fd2a4c96306a060209248582cf28f19b5dc5a46"
+    },
+    {
+      "name": "taiyu-zhu_StepFinder_main.py",
+      "bytes": 11630,
+      "sha256": "c93028102d328eb4132e6163dc2c1215322c3c41ce00bd35db9ebfe1827cd35e"
+    },
+    {
+      "name": "taiyu-zhu_StepFinder_model.py",
+      "bytes": 11330,
+      "sha256": "842830e48c773882d0d9b5527e538c093f3c33f96277f749b7f04d3462cafdaf"
+    },
+    {
+      "name": "taiyu-zhu_StepFinder_Q3Emb.py",
+      "bytes": 3057,
+      "sha256": "9c2fde8d2d419579f53fca70b403d5dc3ba926fcb0d9ed298102f89085185291"
+    },
+    {
+      "name": "taiyu-zhu_StepFinder.tree.json",
+      "bytes": 1083816,
+      "sha256": "7b05c0b0ac79fb968cecb04f8e3b673a0728789d946c8e8402a3cfad6f0ff3d3"
+    },
+    {
+      "name": "ucsb-mlsec_PatchPilot_patchpilot_repair_repair.py",
+      "bytes": 107466,
+      "sha256": "85c4866fd5ab4c8e3e6f0622112a3d2c44b87285f5d36313e238be289321c1f4"
+    },
+    {
+      "name": "ucsb-mlsec_PatchPilot_README.md",
+      "bytes": 6490,
+      "sha256": "1401b22f0c19b6238bec91b9cae4f92da17ce88a67cc40c2a3457b841251f53f"
+    },
+    {
+      "name": "ucsb-mlsec_PatchPilot.tree.json",
+      "bytes": 14865,
+      "sha256": "089348c3c731be14c736569db03afb102d77fced318518a9f07a41a3026bba4c"
+    }
+  ],
+  "numbered_bibliography_integrity": {
+    "records": 50,
+    "unique_ids": 50,
+    "references": 50,
+    "bibliography_entry_labels": 50,
+    "datasets": 10,
+    "issues": []
+  },
+  "historical_exposure_corrections": {
+    "WhoWhenPro_text": {
+      "text_total": 6257,
+      "text_exposed": 6257,
+      "source_task_groups": 2599,
+      "primary_development": "E32 scenario C",
+      "subsequent_experiments": [
+        "E34",
+        "E81",
+        "E83",
+        "E90",
+        "E100"
+      ],
+      "same_revision_new_confirmation_qualified": 0,
+      "audit_source": "../early/实验01-130_独立探索综述.md:126,285"
+    },
+    "TraceElephant": {
+      "fixed_records": 220,
+      "task_id_groups": 174,
+      "evaluated": 217,
+      "evaluated_task_groups": 172,
+      "label_screening": 2,
+      "adaptation_development": 1,
+      "exposed_total": 220,
+      "E124_new_runs_remaining": 0,
+      "same_revision_new_confirmation_qualified": 0,
+      "audit_source": "../early/实验01-130_独立探索综述.md:150,286"
+    },
+    "new_raw_gold_reads_in_this_update": 0,
+    "new_version_or_source_confirmation_status": "未核定"
+  },
+  "rq1_baseline_qualification": {
+    "main_methods": [
+      "StepFinder",
+      "All-at-Once",
+      "Binary Search"
+    ],
+    "qualified_backup_count": 0,
+    "pending_candidate": "Step-by-Step, same paper as AA/BS [1]",
+    "excluded_from_current_slots": "SDBL, missing author core [2]",
+    "evidence": "RQ1备选资格核验_SBS与SDBL.json",
+    "new_experiments": 0,
+    "new_generation_calls": 0,
+    "new_gold_reads": 0
+  },
+  "final_formal_focused_review": "正式稿_聚焦文献核对.json；1处机制描述已由主审修正，未见其余未解决实质问题。"
+}

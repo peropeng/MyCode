@@ -1,7 +1,0 @@
-{
-  "at_utc": "2026-11-17T18:29:43.760305+00:00",
-  "balance_CNY": "28.85",
-  "source": "Current DeepSeek GET /user/balance response",
-  "new_model_generation_requests": 0,
-  "rounded_account_snapshot_not_per_call_invoice": true
-}

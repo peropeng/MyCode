@@ -1,0 +1,131 @@
+{
+  "schema": "astra-formal-focused-literature-review-v1",
+  "checked_on": "2026-10-12",
+  "reviewed_files": [
+    {
+      "file": "开题/20261012_Astra两小时独立审阅/04_开题报告_V1_六章完整稿.md",
+      "sha256": "11559b0aad5402e72f254f794f70bdd89a4a54be5629527b927748e126fe762b",
+      "scope": "全文及50条书目；复核主审随后更正AgentRewind句及新增历史比较限制段"
+    },
+    {
+      "file": "开题/20261012_Astra两小时独立审阅/02_正式论文框架与两层基线.md",
+      "sha256": "7c0c2312753180a51fb392f2572b2aa936425230baf5eab034486cb484b3070f",
+      "scope": "全文"
+    },
+    {
+      "file": "开题/20261012_Astra两小时独立审阅/09_参考文献.md",
+      "sha256": "aedfa2ac5385d1ce7e9da8104a2df9fc3021713005a326b11d989ba56eb9c031",
+      "scope": "全部50条标准书目、编号映射与方法资格说明"
+    }
+  ],
+  "result": "发现1处AgentRewind机制对象表述不准确，主审已更正并经只读复核；在本次聚焦范围内未发现其余未解决的实质问题。",
+  "resolved_findings": [
+    {
+      "id": "LIT-01",
+      "file": "04_开题报告_V1_六章完整稿.md",
+      "line": 39,
+      "original": "AgentRewind联合恢复上下文、环境与记忆",
+      "issue": "原文的检查点恢复对象是agent上下文和受控环境；上一尝试总结的rewind memory在恢复之后注入并保留经验，不是与检查点一起恢复成旧记忆。",
+      "primary_source": "https://arxiv.org/html/2608.14380",
+      "source_locations": [
+        "Introduction（恢复context/environment后保留前次尝试摘要）",
+        "AgentRewind Framework，Figure1说明与runtime recovery layer"
+      ],
+      "accepted_revision": "AgentRewind联合恢复上下文与受控环境，并将上一尝试的恢复记忆注入恢复后的上下文",
+      "resolution": "主审修改正式04；本子审仅只读核对该修改，并同步literature综述和两份文献表，不修改正式文件。",
+      "impact": "局部文献机制描述修正，不改变文献编号、资格结论或当前新颖性边界。"
+    }
+  ],
+  "verified_boundaries": [
+    {
+      "reference": 8,
+      "subject": "Graphectory",
+      "formal_claim": "04:37仅概括过程图分析；未借用其6.9–23.5个百分点作为本文成绩，未称其图是因果依赖图。",
+      "source": "https://arxiv.org/html/2512.02393",
+      "result": "未见过度解释"
+    },
+    {
+      "reference": 39,
+      "subject": "RIR",
+      "formal_claim": "04:39的when/where/what概括与原文相符；04:43把更大策略集合的最优值性质与具体近似策略的保证分开。",
+      "source": "https://arxiv.org/html/2609.18304v3",
+      "result": "未将策略类最优值单调性转成本文算法保证"
+    },
+    {
+      "reference": 43,
+      "subject": "DART",
+      "formal_claim": "04:39及43保留控制流、依赖、读写契约和副作用前提；明确不能外推到启发式日志图和有限测试。",
+      "source": "https://arxiv.org/html/2605.23311",
+      "result": "未借用其语义恢复证明"
+    },
+    {
+      "reference": 49,
+      "subject": "选择性撤销",
+      "formal_claim": "04:41明确要求逆操作、冲突判断与重排规则，并否认当前启发式关系/反向差异自动满足前提。",
+      "source": "https://doi.org/10.1145/143457.143527",
+      "primary_text": "https://web.eecs.umich.edu/~aprakash/papers/prakash-knister-cscw92.pdf",
+      "result": "未把一般进展保留当首次，也未继承原语级保证"
+    },
+    {
+      "reference": 50,
+      "subject": "列表式学习排序",
+      "formal_claim": "04:73把当前轨迹内softmax单标签交叉熵归为列表式实现，未声称提出新损失或完整复现ListNet。",
+      "source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2007-40.pdf",
+      "result": "未见理论归类与当前目标错配"
+    }
+  ],
+  "baseline_qualification": {
+    "RQ1": {
+      "main": [
+        "StepFinder [3]",
+        "All-at-Once [1]",
+        "Binary Search [1]"
+      ],
+      "qualified_backup": 0,
+      "pending": "Step-by-Step [1]仅候选；作者核心已核、Exp124未运行/0calls，无完整非零证据；无ground_truth与严格原步号两项适配已披露",
+      "excluded": "SDBL [2]不占名额，仅重建与相关工作参考",
+      "references": "02:27–40；04:238–251；09末尾资格说明"
+    },
+    "overall": {
+      "currently_effective": [
+        "Agentless [9]",
+        "EnAgent [10]"
+      ],
+      "third_main_candidate": "PatchPilot [11]尚未具非零资格",
+      "backup_candidate": "AOrchestra [12]尚未具本地非零资格",
+      "references": "02:42–53；04:255–265；二者设计位置与当前有效名额缺口均已明确",
+      "result": "未把诊断器接本文恢复器算完整外部系统，也未将两个待核方法算已完成有效比较"
+    }
+  },
+  "bibliography_audit": {
+    "numbering_count": 50,
+    "formal04_entries_match_verified_number_map": true,
+    "formal09_entries_match_verified_number_map": true,
+    "duplicate_numbers": [],
+    "unresolved_body_reference_numbers": [],
+    "major_formal_publications_checked_against_saved_primary_metadata": [
+      "StepFinder/KDD2026",
+      "SDBL/AAAI2026",
+      "Agentless/FSE2025",
+      "EnAgent/ICSE2026",
+      "PatchPilot/ICML2025",
+      "AOrchestra/ICML2026",
+      "Graphectory/Proceedings of the ACM on Programming Languages 10(OOPSLA1),2026",
+      "SelectiveUndo/CSCW1992",
+      "ListNet/ICML2007"
+    ],
+    "preprints_not_promoted_to_formal_baselines": [
+      "RIR [39]",
+      "AgentRewind [40]",
+      "DART [43]"
+    ]
+  },
+  "constraints": {
+    "formal_files_modified_by_this_subagent": false,
+    "new_experiments": 0,
+    "new_model_generation_calls": 0,
+    "new_raw_gold_reads": 0,
+    "visual_pdf_layout_review": false,
+    "focus": "只核影响结论的文献/理论/资格/引用，未作润色或额外实验"
+  }
+}

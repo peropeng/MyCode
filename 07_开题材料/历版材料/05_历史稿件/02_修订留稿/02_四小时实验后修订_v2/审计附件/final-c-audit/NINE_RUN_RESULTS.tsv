@@ -1,0 +1,10 @@
+trial	policy	success_from_existing_root_summary	fixed30min_success_from_existing_root_summary	public_terminal_status	calls	native_candidates	first_public_pass_attempt	independent_acceptance_calls	selected_snapshot	source_inventory_sha256
+trial1	SET	True	True	COMPLETED	1	1	1	1	attempt1	03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef
+trial1	COUNT	True	True	COMPLETED	1	1	1	1	attempt1	03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef
+trial1	O_ONLY	True	True	COMPLETED	2	2	2	1	attempt2	2628ec6c0cf4cab273bb3f0e32382d2e669f1a822d5980a05ee780e271871401
+trial2	SET	True	True	COMPLETED	1	1	1	1	attempt1	03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef
+trial2	COUNT	False	False	MODEL_SEMANTIC_FAILURE	3	1		0	PARTIAL_START	f2064f130ac1b1f732600f8db17cfa4b6a904734ef4af6b87dd76cd367062ee5
+trial2	O_ONLY	True	True	COMPLETED	1	1	1	1	attempt1	03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef
+trial3	SET	True	True	COMPLETED	1	1	1	1	attempt1	03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef
+trial3	COUNT	True	True	COMPLETED	1	1	1	1	attempt1	03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef
+trial3	O_ONLY	True	True	COMPLETED	1	1	1	1	attempt1	03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef

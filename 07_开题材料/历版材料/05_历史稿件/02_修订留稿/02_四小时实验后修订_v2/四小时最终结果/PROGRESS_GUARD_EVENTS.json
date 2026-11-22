@@ -1,0 +1,1458 @@
+{
+  "schema": "Root-observed-pressure-and-progress-guard-evidence/1",
+  "task_id": "getmoto__moto-7081",
+  "historically_exposed_development_pressure": true,
+  "original18_C0_denominator_unchanged": true,
+  "independent_new_trajectories": 9,
+  "predeclared_repeats_per_condition": 3,
+  "complete_observed_three_condition_groups": 3,
+  "actual_public_native_candidates": 10,
+  "model_semantic_failures_without_native": 2,
+  "ordinary_pass_goal_loss_candidates": 2,
+  "SET_reject_COUNT_accept_candidates": 0,
+  "count_nondecreasing_identity_swap_candidates": 0,
+  "actual_all_eight_once_independent_PASS": true,
+  "independent_acceptance_calls": 8,
+  "normal_method_failure_count": 1,
+  "policy_success_counts": {
+    "SET": 3,
+    "COUNT": 2,
+    "O_ONLY": 3
+  },
+  "all_passes_within_original30min": true,
+  "ordinary_policy_loss_then_later_success_observed": true,
+  "same_candidate_offline_recalculation_is_not_new_branch_or_causal_effect": true,
+  "no_SET_recovery_advantage_claim": true,
+  "no_SET_unique_benefit_claim": true,
+  "cost_upper_CNY": "0.24134996",
+  "all_events": [
+    {
+      "origin_actual_policy": "SET",
+      "trial_id": "trial1",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "PROGRESS_SET",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "71afe1e1380fe681f16ede7daaa6ad6b24b64697a46520b3d05f41bde5ceaa35"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "COUNT",
+      "trial_id": "trial1",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "COUNT_TNR",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "607ec8f3e90dbe05f7937a000a227ba84fda37ca15822082519c845aa5e22983"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "O_ONLY",
+      "trial_id": "trial1",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "ORDINARY_GUARD",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 2,
+        "current_protected_goal_set": [],
+        "current_incumbent_failed_goal_count": 2
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "failed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "failed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "e242345f1eb3ceca98b8aaf48cebc024ee43322e959e999d4ae7e4f8df010c2d"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": false,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 2,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 1
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": false,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 2,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 1
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 2,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 2
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "O_ONLY",
+      "trial_id": "trial1",
+      "attempt": 2,
+      "actual_admission": {
+        "mode": "ORDINARY_GUARD",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 2,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\native_public\\ranked_repair178_public_2\\native_once\\actual_G_O\\run.json",
+        "sha256": "7c3a4ac93c0f10ef8f0d63b7e343db6af1d092ebff1fa0b7305a1de4d305b675"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 2,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "SET",
+      "trial_id": "trial2",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "PROGRESS_SET",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "3448c7d92f84511a76377c8d5b6b805ae2eefec893640a50c960eb5c085a0052"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "COUNT",
+      "trial_id": "trial2",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "COUNT_TNR",
+        "accepted": false,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 2,
+        "current_protected_goal_set": [],
+        "current_incumbent_failed_goal_count": 1
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "failed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "failed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "f887fd36cdc82be41b3eb3f2d1c3aa26c5503cb7f9b943424c8d8def510af595"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": false,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 2,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 1
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": false,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 2,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 1
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 2,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 2
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "COUNT",
+      "trial_id": "trial2",
+      "attempt": 2,
+      "outcome": "MODEL_SEMANTIC_FAILURE",
+      "parsed": false,
+      "applied": false,
+      "normal_model_semantic_failure": true,
+      "actual_native_calls": 0,
+      "actual_GO_outcomes": null,
+      "no_unobserved_native_outcome_filled_as_failed": true
+    },
+    {
+      "origin_actual_policy": "COUNT",
+      "trial_id": "trial2",
+      "attempt": 3,
+      "outcome": "MODEL_SEMANTIC_FAILURE",
+      "parsed": false,
+      "applied": false,
+      "normal_model_semantic_failure": true,
+      "actual_native_calls": 0,
+      "actual_GO_outcomes": null,
+      "no_unobserved_native_outcome_filled_as_failed": true
+    },
+    {
+      "origin_actual_policy": "O_ONLY",
+      "trial_id": "trial2",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "ORDINARY_GUARD",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "c6b083e1b5b38a715a3a4df3b80a48c8ff98e01fb8fdd85d038e4e1d5e40c7f1"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "SET",
+      "trial_id": "trial3",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "PROGRESS_SET",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "a1e2b80f0104659cf45ddf67cf00c3ee0d32fb716c2f62dad7a8cd4c145370bc"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "COUNT",
+      "trial_id": "trial3",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "COUNT_TNR",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "6847f9354c941524a3b056bba6ab07bac316cf4ad437fa5e01c70481df00d416"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    },
+    {
+      "origin_actual_policy": "O_ONLY",
+      "trial_id": "trial3",
+      "attempt": 1,
+      "actual_admission": {
+        "mode": "ORDINARY_GUARD",
+        "accepted": true,
+        "ordinary_all_PASS": true,
+        "previous_protected_goal_set": [],
+        "candidate_actual_goal_PASS": [
+          "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+          "tests/test_iot/test_iot_things.py::test_delete_thing",
+          "tests/test_iot/test_iot_things.py::test_update_thing"
+        ],
+        "previous_incumbent_failed_goal_count": 1,
+        "candidate_failed_goal_count": 0,
+        "current_protected_goal_set": [],
+        "current_incumbent_failed_goal_count": 0
+      },
+      "actual_GO_outcomes": {
+        "tests/test_iot/test_iot_things.py::test_create_thing_with_type": "passed",
+        "tests/test_iot/test_iot_things.py::test_delete_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_update_thing": "passed",
+        "tests/test_iot/test_iot_things.py::test_list_things_with_next_token": "passed"
+      },
+      "native_ref": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\native_public\\ranked_repair178_public_1\\native_once\\actual_G_O\\run.json",
+        "sha256": "b07337b59c484652aee4598f00f6e449eb14ebd5eaa1f1f0852ec0f7a490069b"
+      },
+      "offline_same_observed_candidate_guard_decisions": {
+        "PROGRESS_SET": {
+          "mode": "PROGRESS_SET",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "COUNT_TNR": {
+          "mode": "COUNT_TNR",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        },
+        "ORDINARY_GUARD": {
+          "mode": "ORDINARY_GUARD",
+          "accepted": true,
+          "ordinary_all_PASS": true,
+          "previous_protected_goal_set": [],
+          "candidate_actual_goal_PASS": [
+            "tests/test_iot/test_iot_things.py::test_create_thing_with_type",
+            "tests/test_iot/test_iot_things.py::test_delete_thing",
+            "tests/test_iot/test_iot_things.py::test_update_thing"
+          ],
+          "previous_incumbent_failed_goal_count": 1,
+          "candidate_failed_goal_count": 0,
+          "current_protected_goal_set": [],
+          "current_incumbent_failed_goal_count": 0
+        }
+      },
+      "offline_only_decision_difference_not_new_generation_or_causal_later_effect": true
+    }
+  ],
+  "final_nine_rows": [
+    {
+      "policy": "SET",
+      "trial_id": "trial1",
+      "core_status": "COMPLETED",
+      "actual_calls": 1,
+      "distinct_settled_ordinals": [
+        4852
+      ],
+      "public_usage_upper_CNY": "0.003543",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 0,
+      "actual_tested_negative_candidate_count": 0,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt1",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101201,
+      "source_inventory_SHA256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "80873af354d725d702f33807cd78af07234aab75cfa07a6daf03d933589df1c0"
+      },
+      "original_T0_monotonic": 218125.625,
+      "fixed_30min_end_monotonic": 219925.625,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "c213b0dc5ad25bd137c5f26f5bbe06893fb8dc96d53fd6f9676d0076c768720c"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "ea81699ad0e01928f94d4bc647bbecbdb85de38072a07233b18613f45e461843"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\SET\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\SET\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "dcce44eccb35da6c7d8964495cb6c61e50b44857d21eb151ca9796385a2ac9a4"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\SET\\PARENT_TERMINAL249.json",
+        "sha256": "f3c6cee7518f99a4a413dc21f85a77499610defe91fd480273965c598081e4a1"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 1358.9679999999935,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "COUNT",
+      "trial_id": "trial1",
+      "core_status": "COMPLETED",
+      "actual_calls": 1,
+      "distinct_settled_ordinals": [
+        4850
+      ],
+      "public_usage_upper_CNY": "0.0971038",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 0,
+      "actual_tested_negative_candidate_count": 0,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt1",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101201,
+      "source_inventory_SHA256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "940533323b2ac2c72ac3a38666398f2ce87666875e931198e2c2f853d96a562d"
+      },
+      "original_T0_monotonic": 218158.031,
+      "fixed_30min_end_monotonic": 219958.031,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "4c32cb804d164f84735cd596be7a30b881c86191c84df2f06279f2251f6219cf"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "5a8659779af1e4bfbb9e2068e986a3df6162f878f77af095334ff6c28c487cda"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\COUNT\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "728a6cf0995a8b94c58faad7c82cfc9464018e346c82799d411c473ba8176ede"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\COUNT\\PARENT_TERMINAL249.json",
+        "sha256": "880ee3254566ec9a271767d2d8bfad4de52f9efcc15e110e5b427d3da86b6326"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 1326.5620000000054,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "O_ONLY",
+      "trial_id": "trial1",
+      "core_status": "COMPLETED",
+      "actual_calls": 2,
+      "distinct_settled_ordinals": [
+        4851,
+        4853
+      ],
+      "public_usage_upper_CNY": "0.06116844",
+      "actual_native_candidates": 2,
+      "first_public_pass_attempt": 2,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 1,
+      "actual_tested_negative_candidate_count": 1,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt2",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101201,
+      "source_inventory_SHA256": "2628ec6c0cf4cab273bb3f0e32382d2e669f1a822d5980a05ee780e271871401",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "5486a7df235e62a86bc3c3af62b10f3bd030796823de8fc1cc01a2c0fe8fe3e6"
+      },
+      "original_T0_monotonic": 218203.843,
+      "fixed_30min_end_monotonic": 220003.843,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "72b45178b387ecf7320de6238874c9bfef379d8669cfa6cc033f2332b0b6c14a"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "4a9f3f2370edd3313bbaef00d173c3dce55bad71d21a5b64ad7f630f5b32ad96"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial1\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "2c23ce71fe8eab00aa3334840eac95b7ca1be6437aa78e641247ed1e557c48a0"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\O_ONLY\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "7d59f5a141d2f429e89268a2755952acdd3115fd9c4571bb19790e1a4bd95901"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial1\\O_ONLY\\PARENT_TERMINAL249.json",
+        "sha256": "51d6ab011cbd3283174a44ebca871eb1e2519b13451ffad4f38c0b1e8c222628"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 1280.75,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "SET",
+      "trial_id": "trial2",
+      "core_status": "COMPLETED",
+      "actual_calls": 1,
+      "distinct_settled_ordinals": [
+        4856
+      ],
+      "public_usage_upper_CNY": "0.003403",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 0,
+      "actual_tested_negative_candidate_count": 0,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt1",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101202,
+      "source_inventory_SHA256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "fa42a8ce07a1093f969414947337c96fca6b430bf92cdc192b0ddc3520e86ab7"
+      },
+      "original_T0_monotonic": 219004.359,
+      "fixed_30min_end_monotonic": 220804.359,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "4a7a345f7c608a53e25a5c36b9baeb7d4470eafa9f4eeaa00e1cc0313b4bab69"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "e231da061840778419f453066f8ba7a4b76131cd042cdd45098c7e7927021e02"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\SET\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\SET\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "47b58c021778828e716cea675ee77d7704aaae0dfecc831da7c6c6a1cb9eaacf"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\SET\\PARENT_TERMINAL249.json",
+        "sha256": "2ee62594e5d0ad9b8bc4e3e9d8161319fd2e0ca1e8e85c5d68c26498d2ba199b"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 797.7660000000033,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "COUNT",
+      "trial_id": "trial2",
+      "core_status": "MODEL_SEMANTIC_FAILURE",
+      "actual_calls": 3,
+      "distinct_settled_ordinals": [
+        4854,
+        4857,
+        4858
+      ],
+      "public_usage_upper_CNY": "0.06189172",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": null,
+      "public_only_final_GO4_PASS": false,
+      "private_independent_status": "NOT_ELIGIBLE_NORMAL_METHOD_FAILURE_PRIVATE0",
+      "normal_model_negative_attempt_count": 3,
+      "actual_tested_negative_candidate_count": 1,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "PARTIAL_START",
+      "status": "NORMAL_MODEL_METHOD_FAILURE",
+      "trial_master_seed": 2026101202,
+      "source_inventory_SHA256": "f2064f130ac1b1f732600f8db17cfa4b6a904734ef4af6b87dd76cd367062ee5",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "15be5c01627465f6c7e15e44c153651aedd3d4b361286971b34a35eaf64fcce1"
+      },
+      "original_T0_monotonic": 219021.156,
+      "fixed_30min_end_monotonic": 220821.156,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "a2b5ab87276714f271cd3ff151eaece8a4a1e1e2a3406b52cc7ab8739ea02ce5"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "bd4b0a6f31d3d619a9d6bdabb75a16336c9f5329f4da70cc0f59b22a5fe05e04"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "0069b8478bc973917702425285d40a4a7f73f9fb98c8cad68a938d55544e9176"
+      },
+      "independent_Root_only_summary": null,
+      "independent_real_parent_STOP": null,
+      "Root_only_summary_flags": null,
+      "end_to_end_natural_success": false,
+      "fixed_budget_success": false,
+      "private_calls": 0,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "O_ONLY",
+      "trial_id": "trial2",
+      "core_status": "COMPLETED",
+      "actual_calls": 1,
+      "distinct_settled_ordinals": [
+        4855
+      ],
+      "public_usage_upper_CNY": "0.003603",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 0,
+      "actual_tested_negative_candidate_count": 0,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt1",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101202,
+      "source_inventory_SHA256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "bf7a0e5ceda5fec691dab0569607157becafbf34439f7fe1b217014904846afe"
+      },
+      "original_T0_monotonic": 219062.093,
+      "fixed_30min_end_monotonic": 220862.093,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "217efb31e97c6f81eb9b67a9d75eb7cc752dd4c2b4d2243843d8f51c4cca8e88"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "f7d39cd0b20f3118a0b500f1d2f486fa163c41284902eabf88285772707abc28"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial2\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\O_ONLY\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "48a118db85612858b2757e55b81616e44ac2ec4c031c554e34efdf2f8d98c6b5"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial2\\O_ONLY\\PARENT_TERMINAL249.json",
+        "sha256": "633ede0b6ed614291368905e95662262e12c53c8952b47277c7450b0a98c9e11"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 740.0320000000065,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "SET",
+      "trial_id": "trial3",
+      "core_status": "COMPLETED",
+      "actual_calls": 1,
+      "distinct_settled_ordinals": [
+        4860
+      ],
+      "public_usage_upper_CNY": "0.003467",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 0,
+      "actual_tested_negative_candidate_count": 0,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt1",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101203,
+      "source_inventory_SHA256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "32d712453a2df8af7e0d8ae75834bafb5d11a02ea38ee9fd3b055afd0076b6d2"
+      },
+      "original_T0_monotonic": 219600.921,
+      "fixed_30min_end_monotonic": 221400.921,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "93ca876dd74224435a93ac4aed2eeb9bab7015ffebd19d9104cd921c0a748903"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "80d8dc802f93f14f70c70b5ab39ecd4906c75f8adbc1316b26c5d30111ec0d7d"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\SET\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\SET\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "b91b2425176f009bd700cc6301b9ef4ae496aeeffef091cb98437caa77b9d3e9"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\SET\\PARENT_TERMINAL249.json",
+        "sha256": "f47b821ef395e2a83000078dcc912cd1661f54c8451a599828260a837e69c1ae"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 531.2039999999979,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "COUNT",
+      "trial_id": "trial3",
+      "core_status": "COMPLETED",
+      "actual_calls": 1,
+      "distinct_settled_ordinals": [
+        4861
+      ],
+      "public_usage_upper_CNY": "0.003291",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 0,
+      "actual_tested_negative_candidate_count": 0,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt1",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101203,
+      "source_inventory_SHA256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "258cf628aa2d3e5aab356420793aa1b8ba81c172b23520942e2e6b53d99cf866"
+      },
+      "original_T0_monotonic": 219616.937,
+      "fixed_30min_end_monotonic": 221416.937,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "c632182e9083d50a9f0239b7f4570822c26076035dcce9f682dd0ea8c775c61e"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "dd293c62fdf6c9441071f3a35aac2c2532d7e83f47d45f24b902422666f33e97"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\COUNT\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\COUNT\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "ba1992719135e6032e447c7f429e2bde2fb3faa7310ca1060834ccb093530973"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\COUNT\\PARENT_TERMINAL249.json",
+        "sha256": "c7a574b3da5cc520a8dd00e92941cf45d4e912b15a8ee3c3203670878f985cd5"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 515.1879999999946,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    },
+    {
+      "policy": "O_ONLY",
+      "trial_id": "trial3",
+      "core_status": "COMPLETED",
+      "actual_calls": 1,
+      "distinct_settled_ordinals": [
+        4859
+      ],
+      "public_usage_upper_CNY": "0.003879",
+      "actual_native_candidates": 1,
+      "first_public_pass_attempt": 1,
+      "public_only_final_GO4_PASS": true,
+      "private_independent_status": "ROOT_ONLY_NOT_READ",
+      "normal_model_negative_attempt_count": 0,
+      "actual_tested_negative_candidate_count": 0,
+      "whole_method_complete": true,
+      "selected_snapshot_id": "attempt1",
+      "status": "INDEPENDENT_PASS",
+      "trial_master_seed": 2026101203,
+      "source_inventory_SHA256": "03c36fcada597028be1c0aa20fa38b06088259d34b2a94d7cd7caa95e1a214ef",
+      "science_T0": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\SCIENCE_T0_TRIAL_PREPARATION_STARTED.json",
+        "sha256": "3570b95b1b74e24d55431cf3f1c346c1eebf49c78a3cfa248875303649e35a28"
+      },
+      "original_T0_monotonic": 219654.703,
+      "fixed_30min_end_monotonic": 221454.703,
+      "public_terminal": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+        "sha256": "2dc230d624b52f0a53d7b6b9102be0c4464517354b6732653c1e036d127a7cfd"
+      },
+      "public_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\Root_owner600\\PARENT_TERMINAL262.json",
+        "sha256": "991a54a5c8845fa4bf4e35214346ca6b12f1a4745d68a0e28313f6506f6eba22"
+      },
+      "selected_source": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\runs\\getmoto__moto-7081\\trial3\\O_ONLY\\SELECTED_BUSINESS_SOURCE.json",
+        "sha256": "7490029974e5d5d7ff2908c09d07817f533bd397c8d7ddbd3079880dad663815"
+      },
+      "independent_Root_only_summary": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\O_ONLY\\ROOT_FINAL_ACCEPTANCE.json",
+        "sha256": "41262f349397bd68257d53a03f4890b795799074dfaff4e978c189fa66b55b04"
+      },
+      "independent_real_parent_STOP": {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp262-progress-pressure-postreview\\实验\\实验262_已有进展保护真实压力场景\\final_private_ROOT\\trial3\\O_ONLY\\PARENT_TERMINAL249.json",
+        "sha256": "b68c70596a1d2e0102e0e7f4feefacd1cf543314b3df97a09cf83831dc9dea82"
+      },
+      "Root_only_summary_flags": {
+        "private_known": true,
+        "private_passed": true,
+        "natural_success": true,
+        "independent_acceptance_known": true,
+        "fixed_resource_success": true,
+        "elapsed_seconds_from_real_trial_T0": 477.4219999999914,
+        "private_native_calls": 1,
+        "no_private_feedback_to_model_or_later_repeat": true
+      },
+      "end_to_end_natural_success": true,
+      "fixed_budget_success": true,
+      "private_calls": 1,
+      "private_failed_not_inferred_from_unrun": true
+    }
+  ],
+  "raw_event_source": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\ALL_PUBLIC_PROGRESS_EVENTS262.json",
+    "sha256": "a72f6df2265d638451f940389725c317a481ccd62a23a8ea05a7383d0835f5cb"
+  },
+  "final_nine_summary_source": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验262_已有进展保护真实压力场景\\FINAL_NINE_SLOT_SUMMARY262.json",
+    "sha256": "8072e5745451c945bfae2781752324a5c725c0518b152508e23acdccdca2277b"
+  },
+  "Root_independent_flags": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-post-review-execution\\ROOT_C262_ALL_NINE_PRIVATE_ACCEPTANCE_SUMMARY.json",
+    "sha256": "423e6ce9e7246762b963e5e9f3c027b26f9c165ea0b6370e343af3a4abcfb191"
+  }
+}

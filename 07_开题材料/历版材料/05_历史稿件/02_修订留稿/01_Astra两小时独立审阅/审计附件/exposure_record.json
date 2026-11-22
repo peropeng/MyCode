@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-12T17:35:02+08:00",
+  "incident_type": "public_dataset_card_automatic_preview",
+  "source_url": "https://huggingface.co/datasets/ZBox008003/AFTraj",
+  "followup_source_operation": "find license returned surrounding dataset page lines; default viewer safe examples were included",
+  "exposed_record_ids": [
+    "math_0060_safe",
+    "math_0061_safe"
+  ],
+  "exposed_fields": [
+    "safe trajectory example task",
+    "gold_answer",
+    "partial safe trajectory"
+  ],
+  "answer_text_preserved": false,
+  "new_unsafe_label_file_read": false,
+  "dataset_download": false,
+  "experiment_generation": false,
+  "required_exclusion": "Exclude identifiable source task groups for these preview IDs, including matching safe/unsafe variants, from any future claimed unexposed confirmation. Other preview rows not present in returned text are not declared known.",
+  "verification_scope": "IDs extracted only from already-returned web text stored in data_sources; no reopening of data or Gold.",
+  "additional_literature_example_exposure": {
+    "source": "https://arxiv.org/html/2502.06994",
+    "scope": "阅读SyncMind原论文的元数据、正文和检索上下文，返回了psf/requests及mlflow软件案例片段",
+    "identifiable_source_features": [
+      "psf/requests测试失配例",
+      "mlflow dev/update_mlflow_versions.py案例"
+    ],
+    "answer_text_preserved": false,
+    "new_dataset_or_raw_label_download": false,
+    "new_experiment_input": false,
+    "required_exclusion": "未来若启用SyncBench未曝光确认，先核定源身份并排除对应论文案例任务组；论文公开案例本来也不宜冒充盲态"
+  }
+}

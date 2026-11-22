@@ -1,0 +1,1095 @@
+{
+  "scope": "Existing public manifests and previously scored aggregate only; no label files",
+  "inventory": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\public_pool_inventory.json",
+    "exists": true,
+    "bytes": 13391,
+    "sha256": "6f220de3f87e072691e0ecf111d3fb6aaa9127fbcdde625298ad6b008daac7b9"
+  },
+  "ledger": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\next_N_confirmation\\exclusion_ledger.json",
+    "exists": true,
+    "bytes": 155689,
+    "sha256": "ec1f8d965ea98342659c36c1d42e5b9f83310111d7eab902e07a0cc8e5c37b56"
+  },
+  "source_counts": {
+    "agentic/test": 600,
+    "agentic/train": 1500,
+    "coding/test": 127,
+    "coding/train": 1141,
+    "math/test": 63,
+    "math/train": 567
+  },
+  "prior_public_exclusion_counts": {
+    "coding/test:public_step_count_outside_2_64": 3,
+    "coding/train:public_step_count_outside_6_32": 202,
+    "math/train:public_step_count_outside_6_32": 226,
+    "coding/test:historically_exposed_or_API_reserved": 79,
+    "coding/train:Exp134_train_or_validation": 320,
+    "math/test:historically_exposed_or_API_reserved": 23,
+    "math/train:intersects_any_author_TEST": 14,
+    "math/train:Exp134_train_or_validation": 324,
+    "math/train:historically_exposed_or_API_reserved": 3
+  },
+  "Exp135_records": [
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Taco_54185_I:000056",
+      "record_id": "coding/test/56",
+      "task_group": "f5a47f00398f7c5f9dbfb1a76ad42e4a71e1d4685c84b5d2f5a3ac8f3e5523dd",
+      "domain": "coding",
+      "raw_steps": 23,
+      "public_record_sha256": "16e1833045f48c3166c80c57f582c13131f7a0c03f88a579f253fa891cfc0a94",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 56
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:b8ceefc9_601:000031",
+      "record_id": "math/test/31",
+      "task_group": "eca5dacbff6227e7a57ca36ff7d732fbc42cf42e25b20342c363e08e57df7db3",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "b076b9c1df80cc6ae89d19370c39ca2e0dcd9b9c7d112a224d4a2a2767a4708b",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 31
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Filter_54449_I:000066",
+      "record_id": "coding/test/66",
+      "task_group": "121ac40fa4e915761110708f3dc8e9be3751db6acd56b43b902b5c9ebdd02bdd",
+      "domain": "coding",
+      "raw_steps": 25,
+      "public_record_sha256": "c43d1ae1c41432c806c7a464a26161a84e3eb17f0d728dca48df9f8e0ac1b3d3",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 66
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Codeforces_00027102_I:000095",
+      "record_id": "coding/test/95",
+      "task_group": "5876ef6a1d5c7842a5c754297704ffd1d1fc33f2deceb7aefc8c536a1f75cd64",
+      "domain": "coding",
+      "raw_steps": 27,
+      "public_record_sha256": "fa7e40c39010ed4e3ef5ac7cb428fcb6c40f49ebee5566ee4c1ee9098c718799",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 95
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_37867_I:000037",
+      "record_id": "coding/test/37",
+      "task_group": "b6ae3e1b4cdfeec3e04a17633e22dfcc6037906fe3d93a32a4375f79d519d1ef",
+      "domain": "coding",
+      "raw_steps": 27,
+      "public_record_sha256": "2c2627390617d3d74207b8651f2be3144fedcc13dc618f47cee094c0962894a6",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 37
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:6587f742_486:000011",
+      "record_id": "math/test/11",
+      "task_group": "dd11b91cb492471303dbbfd6edc7837231c08a3dd51db4d8ccb2cb9c8fe50dde",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "cf76a2798346c7cea68a4e79090ab00bfda1f842b899392fa3369e6d426ed436",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 11
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:79f279b1_1:000018",
+      "record_id": "math/test/18",
+      "task_group": "44e2c8c4f834110dfc2e0051c7e6ae69c4c5b1670f38f9d73ec944d8fbc79510",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "134d8db0902f2e54a601446e442c2b425c477987433d3c16a9645e00a9df4238",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 18
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:fa8b8300_728:000032",
+      "record_id": "math/test/32",
+      "task_group": "8b48da1acd39db588ef48c1f6ce07148c1b6d416ed0a094968bcc875c0414df3",
+      "domain": "math",
+      "raw_steps": 4,
+      "public_record_sha256": "bb58007c01e8907c1abed247c39e1ee5cdf06ef3de0a668e0601eb787624a456",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 32
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:2726b1d6_114:000027",
+      "record_id": "math/test/27",
+      "task_group": "600dc407ead15c8c6f779ef7f61b026d8648ab5393bbb07f63d63bcfc583dca0",
+      "domain": "math",
+      "raw_steps": 4,
+      "public_record_sha256": "c66c52df61e242161c492a87f37dd8267021e80b31a27c8659a2b9beb5154f72",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 27
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:162d0295_758:000012",
+      "record_id": "math/test/12",
+      "task_group": "0fd570434e90fa6a6c3841e39a4b421c2c0738e17bbd3f5722cd7e4bff460f49",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "4fb8c0232e2f8400971fe65a65e04bba6bff2bd871fe398dc87786028b095556",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 12
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:d14bedf9_933:000056",
+      "record_id": "math/test/56",
+      "task_group": "835fbc0191fc90b2f1c1103c447b01ac724beabc2efea712364c34ccf565a81f",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "cbc0b7f1416a0a4317446bd6982dc115cc03d2c8cf7c33115fbcbbed0eb077cd",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 56
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Code_Contests_13449_I:000038",
+      "record_id": "coding/test/38",
+      "task_group": "dd3752563bbb80522b3142d5f45a5a35e3268961d015c987a535ffa28822d109",
+      "domain": "coding",
+      "raw_steps": 2,
+      "public_record_sha256": "38d8eb59cd48d791f3a37bd23f64aa16f35d52357ea6486094682216471477b8",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 38
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:d70b2043_306:000014",
+      "record_id": "math/test/14",
+      "task_group": "e25733a29e0cc5630303dec45f93a18fd9466fc39200b14580602d47dbc6b7b9",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "2caee521e529f4dcab51d18984a8e85a7bd0949784d42303081863fd547bd0df",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 14
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:ad62f0e6_851:000036",
+      "record_id": "math/test/36",
+      "task_group": "3b8385ed7eb3d80b0680f022bf2beb277f439215e39beb86362daa51df5bf336",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "df7295cc90748875224834c260df0e681b1decc54a9ac6a4a2e9a81533f182dc",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 36
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_3550_I:000059",
+      "record_id": "coding/test/59",
+      "task_group": "c99f15bb5380c6ed2bf081f1b44c63a355c89521e4cb7d01a2c6a81476c2e23b",
+      "domain": "coding",
+      "raw_steps": 18,
+      "public_record_sha256": "642707e18e1fc780c370d0fd97f3c6a47cdd418d61a61d30f0dccf07174eef95",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 59
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Apps_6606_I:000105",
+      "record_id": "coding/test/105",
+      "task_group": "3a4b6793280e0ff5f723babb609b905c4124c9bced910631dac25ec5805bd86f",
+      "domain": "coding",
+      "raw_steps": 55,
+      "public_record_sha256": "761106185ddfddcc276929e158529d5674234e72e5e4ca143c6496e6a7159e29",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 105
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:ea999b42_67:000006",
+      "record_id": "math/test/6",
+      "task_group": "f0a527cd174659f0b2d7c00f7a87164b2618fa472858a3b8b0e7d602bbc51b11",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "35c613c3bddcbd6f54bb311675a095337eb0bd39d0343c7b4e3b12820bae45f5",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 6
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:19f1a560_801:000004",
+      "record_id": "math/test/4",
+      "task_group": "211835d7661d0d2e02a13228098b0c76e1b78388bd500e2687df325ece2d3a74",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "9cea7d7b5dc286e8c636e0a46dffce70e8693d7b8202ad40f8e73fec33d74f9b",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 4
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Taco_58903_I:000053",
+      "record_id": "coding/test/53",
+      "task_group": "c677d6582693f69f215e4ad37d0346c27e9eccea41685de838c5a47a9a438249",
+      "domain": "coding",
+      "raw_steps": 39,
+      "public_record_sha256": "a4714d1c4a56753f532f66c2f99d1361d3654eba64a9396557767c584f901c65",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 53
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:714708df_246:000040",
+      "record_id": "math/test/40",
+      "task_group": "47614433fd5de0a23155cabe4400daeffa88ff73050fcf97a5d8f5528b39d86e",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "6607bd06e479a9ff4271f63878db064eb2e90bd6d42801e33bda485eb55e0673",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 40
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Docs: Python310_26954_I:000116",
+      "record_id": "coding/test/116",
+      "task_group": "e07cf08ca5c55f67669c150084b0754186b20e9d00769f71fe775efec11aecfb",
+      "domain": "coding",
+      "raw_steps": 28,
+      "public_record_sha256": "bacdd5537ffb284faba4e106e5b7a5f26569aa3fa7a5c7d2412f028bc71c4486",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 116
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_35399_I:000102",
+      "record_id": "coding/test/102",
+      "task_group": "bdb7dc0db1b087ec2cb5a6ddc4d36c07cc4c939886c24a0c5efc9656a6c7b38e",
+      "domain": "coding",
+      "raw_steps": 25,
+      "public_record_sha256": "9d6a6b939888c9cd867b03af7fd93ba77b6d496fae4eebb4bce7d443cf528f72",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 102
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:d53bcc80_964:000035",
+      "record_id": "math/test/35",
+      "task_group": "6b4ed7d9129ab5527ed4d40f8f5bd5c6f1d7ada5ae72b6dc9dcc24b39e6aa61c",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "6829a08825a29d1f8a4373f0e271945d68911c3d59ae466d98c98fd89f291b26",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 35
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_7390_I:000049",
+      "record_id": "coding/test/49",
+      "task_group": "9573767b7793900ca4bc0f756fc80e4e0033fbf4851c82aa37d2916767d6aca9",
+      "domain": "coding",
+      "raw_steps": 49,
+      "public_record_sha256": "61215c1cb495758bcd3f43dea5cfe61f002b6676b716c86e593d46803ed7068a",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 49
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_34582_I:000000",
+      "record_id": "coding/test/0",
+      "task_group": "52aeafb25d09f1009411cfd64854d9fedc6b16a2659b2ceeeb91f0a122f70522",
+      "domain": "coding",
+      "raw_steps": 23,
+      "public_record_sha256": "d51a53963d06d34cbbd4d637468e89c75eb4ec545ba2a8494738a142835a67d8",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 0
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_15785_I:000021",
+      "record_id": "coding/test/21",
+      "task_group": "5a35b2d33af0cab5104748e8a0c0a3e0e4ad9dbc44dfd0871c2ebead1a999fc8",
+      "domain": "coding",
+      "raw_steps": 24,
+      "public_record_sha256": "9980f19ee22a52a8c2742b550795b50d62f4d5b105cf2f5dab4fd5e062d42c59",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 21
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Package_9114_I:000040",
+      "record_id": "coding/test/40",
+      "task_group": "c88ca70dec17de16fda7f13663746fb998d749639d6d0a9d2cb0beaf5518d032",
+      "domain": "coding",
+      "raw_steps": 22,
+      "public_record_sha256": "d66eae745ffeaf659f774c66bb4c3b557edcaccecdb0d8cfa5d5b6889db7d1ab",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 40
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Apps_16289_I:000086",
+      "record_id": "coding/test/86",
+      "task_group": "82cd18aeb74018dc21fbffb614e24475808268185a286d2df85969a4f88a9bed",
+      "domain": "coding",
+      "raw_steps": 24,
+      "public_record_sha256": "522577c6d525529e93191932a558087aef9aa760ab008f9e730c5fe6498f5640",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 86
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Evol_3011_I:000064",
+      "record_id": "coding/test/64",
+      "task_group": "14fbadafa0e38868e77e964db56394c60fc653cccda54bb4063b16002fe161d0",
+      "domain": "coding",
+      "raw_steps": 41,
+      "public_record_sha256": "0c5f5f9c87e8094a06783013431373ce688e6e3eb4f6dd0aa0a9cd0c67f09f0d",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 64
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Apps_2162_I:000025",
+      "record_id": "coding/test/25",
+      "task_group": "d90b9d93cca7a6ccf13225a4b2fac37bca6a3dc70f17b202923e0bb961a057fa",
+      "domain": "coding",
+      "raw_steps": 28,
+      "public_record_sha256": "8e2d750978f5e35522033dbe1d9d14b6a636c7dd548577fc03b11de67cf4f3b8",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 25
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Data_Structure_34317_I:000015",
+      "record_id": "coding/test/15",
+      "task_group": "5c28cec758ee2071f7c5f6116663a8e77f1d0b10da36613d83756582fc2ea665",
+      "domain": "coding",
+      "raw_steps": 25,
+      "public_record_sha256": "0e2d59e047f353412330fb0993c9d354d4c5e4ec4b8cc2b7d36b5ee744a6afae",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 15
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:fbbba7ba_765:000025",
+      "record_id": "math/test/25",
+      "task_group": "8938e9b61e98847def883c0b0c2361d3006dcba8e0f6847a55a19258bbb3c883",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "08882521128b4d78f1231415a39ce0673dc74ffeaac965c043c49c8c13883fe0",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 25
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:744725f0_319:000044",
+      "record_id": "math/test/44",
+      "task_group": "240268a477123b20c590afccbca3b968347a350ea7cbd0fda384e688e6bce93f",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "50152bffae1e0c477e5a85ef32f5d9e035a59dbe72a63ec2ee66b3c092fca681",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 44
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Filter_10761_I:000030",
+      "record_id": "coding/test/30",
+      "task_group": "52a3bc772ffc6ae3f0d1ada7b0b6dd2a8d7aca9813fbbc2141225108ff3a4e35",
+      "domain": "coding",
+      "raw_steps": 31,
+      "public_record_sha256": "b503a5e32ac169a1cf6458ba815f10e08aa1b01a1e253f20ac27f82f0be28ffc",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 30
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Code_Contests_36587_I:000094",
+      "record_id": "coding/test/94",
+      "task_group": "83b421bc83ad2143bc0d4ee3eccd6b1369e384392f435792d1bd7f237fce1b19",
+      "domain": "coding",
+      "raw_steps": 18,
+      "public_record_sha256": "e05388accd8421d1fa336ede68f6bab10af441d949635cd61bf8d96f2be61178",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 94
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:8358b51f_717:000039",
+      "record_id": "math/test/39",
+      "task_group": "f19d50a2b9cd23c8ae239ba864ecaa3573e693fbdb09e8700525b162d8e3cdb7",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "e5c0b7cf2651de1c47b18c898c9fd475084cf7fde5cf7081a0c2b066c21d324f",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 39
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:c0c8af95_873:000024",
+      "record_id": "math/test/24",
+      "task_group": "a82177c184bc222f4639fec9783ba9b566bd2c24a940a9653938d615e834bd4c",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "c75cebf94a8bb80c75b4d464a0a08cdf6fddc85ce9d5942be4635a19ab213e59",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 24
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_16824_I:000088",
+      "record_id": "coding/test/88",
+      "task_group": "03584ff6c1a4ec415f7cdd1bb21e47b7e8421857c77eb5351c869e730dc2ba22",
+      "domain": "coding",
+      "raw_steps": 19,
+      "public_record_sha256": "9589e252e82c2d9925df6f88592b96aa60b0c372720be0ff0c949baed957f35d",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 88
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_33151_I:000077",
+      "record_id": "coding/test/77",
+      "task_group": "0600ba5baaa67980de0b8ed0b69f4c33a1a1cd4027a8b510434dd7280cde5388",
+      "domain": "coding",
+      "raw_steps": 28,
+      "public_record_sha256": "e0ae8389837f9e210988adae42fcff5e2ce7d9746e4faa529972fe3f25ee9a81",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 77
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Filter_29357_I:000001",
+      "record_id": "coding/test/1",
+      "task_group": "b36a0f0271118b60acef72ce9e4556a863fe0a88579a64eff3900f6ed1ebb163",
+      "domain": "coding",
+      "raw_steps": 43,
+      "public_record_sha256": "13149eaf7ab5312b2f938b82d0d140f277a109937b32c372767e178392bc0bdf",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 1
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:9ddc1675_292:000003",
+      "record_id": "math/test/3",
+      "task_group": "d9e940c4458410b286cf13deabdd8933659e9008bce45f158fe68d16bc3d09c5",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "5cbce9ecc611c9e851b76f59683c242e9f22b46a75e0e6a47933126a6b5754ea",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 3
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:52a49e8a_255:000038",
+      "record_id": "math/test/38",
+      "task_group": "6692a127a7d4c5d1d126d4235485c4d9ad1792acf86cc6b6cc206df69b375730",
+      "domain": "math",
+      "raw_steps": 11,
+      "public_record_sha256": "541cfe73c6a290d5ce9b9c893f6b26c626aeb0d383bb64241db9d5dbdce0d0c4",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 38
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_19915_I:000022",
+      "record_id": "coding/test/22",
+      "task_group": "bc9541c9f48ec605a443ae2791136d5879b73397ad808d64c8125df5e422a5ac",
+      "domain": "coding",
+      "raw_steps": 26,
+      "public_record_sha256": "6e092871ffdfdd5b62a6bbbd4911a05f5dd29d4270dd147b060ab8b1bccbe60c",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 22
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_37675_I:000110",
+      "record_id": "coding/test/110",
+      "task_group": "2a9882bfeb581f9ffaf57c0a938c069062f356601988ec49935d136549b40453",
+      "domain": "coding",
+      "raw_steps": 39,
+      "public_record_sha256": "76e2dbee98a2a8088c3e2c61c240c40f948c22a333cdac3999d1d93376930f8e",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 110
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Taco_19934_I:000070",
+      "record_id": "coding/test/70",
+      "task_group": "b9ef18d4af2b9810e42dce3b8abe2335931d3dc5d7d0977413a26da87db8376d",
+      "domain": "coding",
+      "raw_steps": 25,
+      "public_record_sha256": "94dde98b3341d1df0de7100b93831fa45b5b9c0aab77b8001c48686f4b0759b2",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 70
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:66271ebb_370:000021",
+      "record_id": "math/test/21",
+      "task_group": "ea2acdda0b7add5caec7d3fd58955fbc545b161cd444016e2d3206a6a0a76ba9",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "86e633716034af50b932ca093184e8702d399e0b5d528de3c0b4af46456c8f56",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 21
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:9f4eae1c_883:000045",
+      "record_id": "math/test/45",
+      "task_group": "5a08fb0e46666c799756ef2f4e5409c5dce80dde0b4db3e27ba0288f02cea63f",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "7925beee5940030f1f2b8cde9be5db0c2fb0d96f77eddcd2739f0b0b80d93c7b",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 45
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Prefill_6943_I:000050",
+      "record_id": "coding/test/50",
+      "task_group": "82a117721879ef602dad90c3a43beaf8e4632276bf1342bb786dbf009ec98824",
+      "domain": "coding",
+      "raw_steps": 33,
+      "public_record_sha256": "b074c9ebb9642d4c94946fa855ec434018d09097a824d5f7690f02412e5cf5a8",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 50
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:9b1773e4_35:000049",
+      "record_id": "math/test/49",
+      "task_group": "da44cecba52df859b7a509215bfb6ae7ec3c5fc5e108ada860c777bab775245b",
+      "domain": "math",
+      "raw_steps": 11,
+      "public_record_sha256": "4e138c4378882f470f4296b048b72166e8ce4c276074ad7b258ac6097040be8a",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 49
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Data_Structure_46461_I:000067",
+      "record_id": "coding/test/67",
+      "task_group": "522ec64ed9cd0f695cc90fa1b029ef28867e3d3694a302b9bc9a33e9aa6d569c",
+      "domain": "coding",
+      "raw_steps": 28,
+      "public_record_sha256": "27a1c412d5654fd8d5f6d9f18533e52ed12d4c90ecd89420817d0ec592b2835e",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 67
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:9cf37a34_685:000028",
+      "record_id": "math/test/28",
+      "task_group": "d36b0867759ecda894131493eaa9c94384417305926871f576bc3f4ce8a53e33",
+      "domain": "math",
+      "raw_steps": 4,
+      "public_record_sha256": "27440862df4d0ea52457dc1ebd8f1a6c5f4b79a9368554b8eec11ac15f647031",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 28
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Filter_17660_I:000075",
+      "record_id": "coding/test/75",
+      "task_group": "4e3f04c301e535d6f3e15e399eab4402386dce4c6be114a93256e570914a706d",
+      "domain": "coding",
+      "raw_steps": 39,
+      "public_record_sha256": "a4d209c5532d138cf052e019f5d42690055a424812490466fe29f4b7bde32c80",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 75
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Codeforces_2077_I:000011",
+      "record_id": "coding/test/11",
+      "task_group": "d6136660a8fcc7a08d314caa0b456783fb3bf6b50a0ba76ba844b19b30e32fc1",
+      "domain": "coding",
+      "raw_steps": 24,
+      "public_record_sha256": "ef6e728bc2846e02a5f29d7580805cfd414c84a1bdc06df9945f55d524519f23",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 11
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Package_70_I:000122",
+      "record_id": "coding/test/122",
+      "task_group": "873008a91050d499c9c6f8a13a9970ac6f1c8ad7238197290ba74ea5a9fb322b",
+      "domain": "coding",
+      "raw_steps": 26,
+      "public_record_sha256": "fb9625079aaa73beb64cbedce10dc144f17d31cb22399058216e860e6bec9685",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 122
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_11558_I:000120",
+      "record_id": "coding/test/120",
+      "task_group": "ed45ab5210cb17afdd9ee382c8ba373a1de4a601e6e23d5d9b991c6659614654",
+      "domain": "coding",
+      "raw_steps": 25,
+      "public_record_sha256": "f9c1c3b869c475148c3c11036a640607ecfa12c8dc41ec69ac04b84d67a8fe49",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 120
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:91504980_236:000053",
+      "record_id": "math/test/53",
+      "task_group": "5fc754d6e4a8d1e74b2f1982ef3e78af0f407d4903ea36d242a37f4cb0c92fb1",
+      "domain": "math",
+      "raw_steps": 4,
+      "public_record_sha256": "f352a13ea3ad8bd50a20236f505b069cce4564a8b63ab41d1b64c63d9298432f",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 53
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:12520784_492:000062",
+      "record_id": "math/test/62",
+      "task_group": "d5f22a8358d40b082fd3fd47470b51dfe083c59194a213e01a85f11989962086",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "3490ea87d7604b9237f307a27b81d134f6a12dd1cbc70741fb476d765d360c4f",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 62
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:e6dd1b37_609:000022",
+      "record_id": "math/test/22",
+      "task_group": "c1d5c195de0cee80ddda59f96845bff312ad06411c71f03de35a089e85f5daa8",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "6501e911599879be2cb20e2b678fa4d20ae3c01ba890405a393c89136d039e34",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 22
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_8343_I:000006",
+      "record_id": "coding/test/6",
+      "task_group": "ec33d015848e732eb48204a5b6eed11a1bcc18b9c5c29785c41644dc871a025e",
+      "domain": "coding",
+      "raw_steps": 38,
+      "public_record_sha256": "46f0baeb0c227507ead79f5e52cedf0d84664dc23eabe318f7df4c092aa3d3b0",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 6
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:446ec692_404:000010",
+      "record_id": "math/test/10",
+      "task_group": "7cffe3f3a34fde0349a52d007d010787d34deb2afe967485ba940b69201d9e55",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "fd56d0b28d63cd88837a17bc18ad5ed588ddb231b91151907de51a38b47d4c41",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 10
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_29328_I:000065",
+      "record_id": "coding/test/65",
+      "task_group": "e6cc8d691eb027c8ff9008a4b20729bb40d92dcb572b01273fbc8fd27ce61518",
+      "domain": "coding",
+      "raw_steps": 34,
+      "public_record_sha256": "3125fbebe317644000e39f3ed64050a41382f0947a0bf26d46d8a17d970412ad",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 65
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:84fffc08_887:000051",
+      "record_id": "math/test/51",
+      "task_group": "2ba0710bdb909e877644a7b6a1de9d90ff7b8df7c42fc19ee7e53eb6cf298387",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "411475e10196ad70d8d2f3081ecd42a08d7692b90a0dec79b219a41e6e7a06ea",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 51
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Filter_40804_I:000031",
+      "record_id": "coding/test/31",
+      "task_group": "fef258b752e86a8b198f5981501d1adf337573dd4271a320264c0e3f4a8d4fcc",
+      "domain": "coding",
+      "raw_steps": 21,
+      "public_record_sha256": "6790bfc799bc6415a78df2b077f3981f39d0aee7fcc96bc8550a55f30e0b257b",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 31
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:9209eb9d_720:000005",
+      "record_id": "math/test/5",
+      "task_group": "a779550f6e104a2a6f3595934826225a5845e9029327c85595d7666e556ebdb1",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "fdb070298f6887c889a45ce56ff831b7e95381b6de61a28019b0d7c83f3ff25b",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 5
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:0e86ef47_840:000042",
+      "record_id": "math/test/42",
+      "task_group": "54ae246ffe4035dade5c5993dc985bc4f0005c29141f241c78b148585fa0a4ce",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "63b18f462d59472e8ef878ab4d517bb9a72388415909bc28d52ef8ae46891e79",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 42
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:6cfb0a0a_484:000060",
+      "record_id": "math/test/60",
+      "task_group": "99c863f15a2cdff064629fef6d114a7ec95bbcee368adca32cc18c94a65d8201",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "464ef0c984d47f904b63f3a9e9f9386f8f6adddf942230009aba064646ee8699",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 60
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:bcb32c36_722:000030",
+      "record_id": "math/test/30",
+      "task_group": "b15cf044e919de1b920400908c4b184b9717063fde39b668adc27f00302f2fad",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "5ab6c167e52959fa02a5608b6ae3f53b78ed7d72e5cf4729b96afa9c6fce2022",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 30
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Filter_81966_I:000036",
+      "record_id": "coding/test/36",
+      "task_group": "5ac043d46cb0a07953ef06392a2218a242335a93fdc163b3841f1736307010ff",
+      "domain": "coding",
+      "raw_steps": 2,
+      "public_record_sha256": "5f91bc54e960ee1cdecf7716639cb277f6ae8d67395192bfee86aff4705625cf",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 36
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:aa0dd451_803:000017",
+      "record_id": "math/test/17",
+      "task_group": "66b5241f91fe1001f453d42d5fb242679cb4bab7af8e42dfa86c590c92397a9c",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "560e2e6e5de5552631baf752066c1d376a64e617813acc90df546376a6be80bb",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 17
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_35419_I:000115",
+      "record_id": "coding/test/115",
+      "task_group": "7396118f653d4934f9a0b50e3164c89bb1c4b55ba33b3f73ef0faf043760b737",
+      "domain": "coding",
+      "raw_steps": 36,
+      "public_record_sha256": "157bf54f3fd91541aee16f9a03f8682460b961a6c96a1210bc88c449db9a2ca3",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 115
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Data_Structure_9278_I:000019",
+      "record_id": "coding/test/19",
+      "task_group": "798b10762974ca1633aeea27589028025cad78d1f5a99b7f9b8e31872aa41ffb",
+      "domain": "coding",
+      "raw_steps": 17,
+      "public_record_sha256": "46fe97fbc249c3bcc59442d1183d0d7fbc33e247b119e50cd749d8591f55ecdf",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 19
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:989d7a8c_890:000026",
+      "record_id": "math/test/26",
+      "task_group": "88e879b1c7b1ca56f7fceb6f9da437db74676be5fb4323cf9b1faf874bfd9a29",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "990785bd40b3c28c63b3e837870478c8158100759a33f28045c1c00b56504a37",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 26
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:76494922_625:000019",
+      "record_id": "math/test/19",
+      "task_group": "5d7fdbba16ecc7a5db79408f8edf8caab637b03df8742fac349d4cef0afeec7a",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "5ef7d76f50e5cd6360b4c89dcda49e21dbd183b9ea96b27b3d61d6b1e628336a",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 19
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:2bd9a7e8_639:000000",
+      "record_id": "math/test/0",
+      "task_group": "488d7233297321bd6cb8e6f4ad48cffb46fec838320703ffae07beea47c6bdd6",
+      "domain": "math",
+      "raw_steps": 4,
+      "public_record_sha256": "8d0cc0945b08e26e608bcb4f65f796a57a71f7d967378f4d92459a84d547e1ab",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 0
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:d99d1b00_691:000046",
+      "record_id": "math/test/46",
+      "task_group": "09311067db33825dc07639620e0389837948860ffb9ff6241445e786d2a37417",
+      "domain": "math",
+      "raw_steps": 11,
+      "public_record_sha256": "a9c4278512df7c1d8878fc7f46fdb7780058deb72ab00d670e77449a9a8bdd1f",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 46
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_9277_I:000087",
+      "record_id": "coding/test/87",
+      "task_group": "4574d91a582032db0504838226fe808aa9a6be6f6c8cc279b3524f4526bbae53",
+      "domain": "coding",
+      "raw_steps": 57,
+      "public_record_sha256": "216eda7ea3dec719f8bd61a22d7a6972c5591fbbb23b743834777f131a532729",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 87
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Codeforces_19403_I:000041",
+      "record_id": "coding/test/41",
+      "task_group": "ed829393897d674a0420422d21c03af64a8d33bebc95f2c30aec780d20f3c7ec",
+      "domain": "coding",
+      "raw_steps": 18,
+      "public_record_sha256": "46f277c7b65b65e1d62b82713c905f5655d5ad69dce6d3e1eb7638725347bfb8",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 41
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:583affd2_410:000023",
+      "record_id": "math/test/23",
+      "task_group": "3fb6385db04c0dcdd0fa6f2ecd76e7c9c49efb36b3064d9394f9089c83d21b31",
+      "domain": "math",
+      "raw_steps": 7,
+      "public_record_sha256": "a67c3f309f3abb5444bf6ca32f00ffb3bf8dd3941b3219abb878ad94dcb80ce2",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 23
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_13399_I:000112",
+      "record_id": "coding/test/112",
+      "task_group": "45d889735253d8202e39373d10e563f6c58d5583fd3a006eda85e936b2e2b804",
+      "domain": "coding",
+      "raw_steps": 30,
+      "public_record_sha256": "47bd294df3083b292c9fb679ecf67fbaa90790759a15e9f98112447a0a255145",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 112
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Data_Structure_17807_I:000107",
+      "record_id": "coding/test/107",
+      "task_group": "fce0a8f7f8cc42e33566f4f5a91e53d653c10d1c59568d0410a3ca4ea1196318",
+      "domain": "coding",
+      "raw_steps": 25,
+      "public_record_sha256": "88c3f1712b75918fabf3de0d210a5871d09dcea33366a3286fdff01341f83865",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 107
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:5160a1cd_670:000061",
+      "record_id": "math/test/61",
+      "task_group": "a189075ffd2644cce24fa9e41c0588102e28e18dd1bc3210d7a3c0a845d1d379",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "e123faf6c071f1de4afc00026448ce81f68c76f36a16c11c04651dabb42453c9",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 61
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:math:test:79e5f240_778:000034",
+      "record_id": "math/test/34",
+      "task_group": "bbed4f5fcc23171b068fe8abbd9ae7a8e7bdae33be37787a1ff9c0ebba7d1738",
+      "domain": "math",
+      "raw_steps": 3,
+      "public_record_sha256": "6ca27847d949ead1eda3e3c8cc686b503f32007de9cce32143564ae910c20eb1",
+      "source_member": "agentracer-data-v1.0.0/math/test.jsonl",
+      "source_row": 34
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_1450_I:000121",
+      "record_id": "coding/test/121",
+      "task_group": "972c2ee0d2b6e90ca9350b981e5faa927002ec99edde369b497504b19b9899e9",
+      "domain": "coding",
+      "raw_steps": 38,
+      "public_record_sha256": "7464d55198332a120adad5bec3e79f9f12dbbe4f5f6a852dc1ce8325617dac70",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 121
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Leetcode_20918_I:000099",
+      "record_id": "coding/test/99",
+      "task_group": "d0e3478f99d9ca7ed4bd49528269995e35b44997bf111afd57a5275658d2400a",
+      "domain": "coding",
+      "raw_steps": 35,
+      "public_record_sha256": "332182323000313b781204cf3a5262d5b76c8984556d0e07077e8013177a1ad2",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 99
+    },
+    {
+      "cohort": "test_scope_stress",
+      "sample_id": "AgenTracer:data-v1.0.0:coding:test:Algorithm_5829_I:000093",
+      "record_id": "coding/test/93",
+      "task_group": "0f74b9f283db4788969661a316658f85334005f71d3157fdb44ff59ad7032a6c",
+      "domain": "coding",
+      "raw_steps": 28,
+      "public_record_sha256": "6a614578ab097821a9cdbaa19b68b1dd77365adbcfd89520d3e26c0c5b5f1be0",
+      "source_member": "agentracer-data-v1.0.0/coding/test.jsonl",
+      "source_row": 93
+    }
+  ],
+  "Exp135_scored_aggregate": {
+    "n": 85,
+    "ensemble_hits": {
+      "N": 41,
+      "A": 38,
+      "B": 42,
+      "AB": 38,
+      "StepFinder": 29
+    },
+    "primary_N_vs_SF": {
+      "n_tasks": 85,
+      "ours_hits": 41,
+      "other_hits": 29,
+      "ours_only": 21,
+      "other_only": 9,
+      "both_right": 20,
+      "both_wrong": 35,
+      "difference": 0.1411764705882353,
+      "exact_mcnemar_two_sided_p": 0.04277394525706768,
+      "paired_difference_interval": [
+        -0.018892606975754393,
+        0.35332379250910106
+      ],
+      "interval_confidence": 0.95,
+      "interval_method": "Bonferroni rectangle of exact binomial intervals for discordance rate and conditional direction, projected to paired difference",
+      "assumptions": "Independent task units; no replicate-as-task inflation; inference does not establish broad population representativeness.",
+      "holm_adjusted_p": 0.08554789051413536,
+      "family_tests": 2,
+      "familywise_difference_interval": [
+        -0.04244412637784972,
+        0.3768678554872098
+      ],
+      "point_estimate_leads": true,
+      "statistically_supported_lead": false
+    },
+    "domains_N_SF": {
+      "coding": {
+        "N": {
+          "n": 45,
+          "hits": 11,
+          "exact_step_Top1": 0.24444444444444444,
+          "valid_predictions": 45,
+          "invalid_predictions": 0,
+          "role_accuracy": 0.7333333333333333,
+          "MRR": 0.41078866304356504,
+          "Top3": 0.5111111111111111,
+          "budget_incomplete": 0
+        },
+        "StepFinder": {
+          "n": 45,
+          "hits": 9,
+          "exact_step_Top1": 0.2,
+          "valid_predictions": 45,
+          "invalid_predictions": 0,
+          "role_accuracy": 0.5555555555555556,
+          "MRR": 0.371304488492468,
+          "Top3": 0.4444444444444444,
+          "budget_incomplete": 0
+        }
+      },
+      "math": {
+        "N": {
+          "n": 40,
+          "hits": 30,
+          "exact_step_Top1": 0.75,
+          "valid_predictions": 40,
+          "invalid_predictions": 0,
+          "role_accuracy": 0.775,
+          "MRR": 0.8583333333333334,
+          "Top3": 1.0,
+          "budget_incomplete": 0
+        },
+        "StepFinder": {
+          "n": 40,
+          "hits": 20,
+          "exact_step_Top1": 0.5,
+          "valid_predictions": 40,
+          "invalid_predictions": 0,
+          "role_accuracy": 0.575,
+          "MRR": 0.7416666666666667,
+          "Top3": 1.0,
+          "budget_incomplete": 0
+        }
+      }
+    }
+  },
+  "conclusion": {
+    "coding_TEST_total": 127,
+    "coding_prior_exposed_or_API_reserved": 79,
+    "coding_Exp135_scored": 45,
+    "coding_at_least_covered": 124,
+    "coding_excluded_public_length_outside2_64": 3,
+    "math_TEST_total": 63,
+    "math_prior_exposed_or_API_reserved": 23,
+    "math_Exp135_scored": 40,
+    "math_covered": 63,
+    "agentic_TEST600_exposure_not_determined_here": true,
+    "no_new_official_software_confirmation_pool_qualified": true
+  },
+  "followup_disaggregation": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-astra-review-2h\\middle\\AgenTracer_TEST曝光分类复核.json",
+    "sha256": "fa50bf88ccf52af32968972bce44a72ec1eebf1ab8f06fee74e84d8b64f7cbd3",
+    "summary": {
+      "coding": {
+        "prior_conservative_exclusion_count": 79,
+        "prior_categories": {
+          "SCORED_LABEL_USE_CONFIRMED": 79
+        },
+        "Exp135_actual_scored": 45,
+        "union_actual_scored": 124,
+        "union_duplicate_groups": 0
+      },
+      "math": {
+        "prior_conservative_exclusion_count": 23,
+        "prior_categories": {
+          "SCORED_LABEL_USE_CONFIRMED": 23
+        },
+        "Exp135_actual_scored": 40,
+        "union_actual_scored": 63,
+        "union_duplicate_groups": 0
+      }
+    },
+    "interpretation": "Initial inventory is conservative exclusion coverage; follow-up public group/ID + label-use receipts confirm all102 prior TEST exclusions actually scored."
+  }
+}

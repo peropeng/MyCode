@@ -1,0 +1,111 @@
+{
+  "schema": "Astra-readonly-Exp260-first-paid-prefixes-audit/1",
+  "at_utc": "2026-10-12T12:29:25.828338+00:00",
+  "scope": "Saved HTTP responses, receipts, public terminal metadata and arithmetic only; no model/native/Gold/new requests.",
+  "rows": [
+    {
+      "method": "SOURCE3",
+      "task": "getmoto__moto-5134",
+      "trial": "trial1",
+      "receipt_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SOURCE3\\finance_isolation\\POSTREVIEW260_MOTO5134_TRIAL1_SOURCE3_ROOT_R3\\calls\\1_finance_receipt.json",
+      "receipt_sha256": "82b3ac9ab764a69a1935513109c68a5438c466f2e904df78a5eaf65c6e754660",
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SOURCE3\\finance_isolation\\POSTREVIEW260_MOTO5134_TRIAL1_SOURCE3_ROOT_R3\\calls\\1_response.json",
+      "response_sha256": "7df4187f74c52b22f9578bda2b0d1bf481f9d8f958027a5a3920b1ec84b685ad",
+      "terminal_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SOURCE3\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "terminal_sha256_at_review": "687865dd622c3c40d6fd87f80bdb370698dbfb9285dd710108c82987275c9dcd",
+      "ledger_ordinal": 4844,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 894,
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 125778,
+        "prompt_tokens": 126034,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "total_tokens": 126928
+      },
+      "cache_hit_fraction": 0.002031197930717108,
+      "computed_actual_time_price_upper_CNY": "0.12935912",
+      "receipt_upper_CNY": "0.12935912",
+      "arithmetic_matches": true,
+      "hypothetical_no_input_cache_same_token_usage_CNY": "0.12961",
+      "hypothetical_not_actual_bill": true,
+      "actual_body_hash_matches_receipt": true,
+      "first_response_parses_as_complete_JSON": false,
+      "parse_error": {
+        "message": "Expecting ',' delimiter",
+        "line": 1,
+        "column": 154,
+        "pos": 153
+      },
+      "first_attempt_outcome": "MODEL_SEMANTIC_FAILURE",
+      "first_attempt_application_errors": null,
+      "actual_candidate_native_calls": 0,
+      "raw_terminal_status": "ENGINEERING_UNKNOWN",
+      "raw_terminal_errors": [
+        {
+          "stage": "failure",
+          "status": "ENGINEERING_UNKNOWN",
+          "error": {
+            "type": "FinanceUnknown",
+            "message": "ISOLATED_NAMESPACE_CLOSED_FULL_HOLD_PRESERVED"
+          }
+        }
+      ],
+      "complete_method_observed": false
+    },
+    {
+      "method": "SF_ALG50",
+      "task": "getmoto__moto-5134",
+      "trial": "trial1",
+      "receipt_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SF_ALG50\\finance_isolation\\POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R4\\calls\\1_finance_receipt.json",
+      "receipt_sha256": "eb7f5044e3c2bbf4637809548f2dc4c5db9fef0a1e65dc404ab0f6e9f5253f87",
+      "response_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SF_ALG50\\finance_isolation\\POSTREVIEW260_MOTO5134_TRIAL1_SF_ALG50_ROOT_R4\\calls\\1_response.json",
+      "response_sha256": "3e7938c68bd8eb39d6fdbcdafa3862bad35d49c86408c5101324d1801a19e2a3",
+      "terminal_path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1012-exp260-paired-recovery-postreview\\实验\\实验260_排序与当前反馈共同恢复\\runs\\getmoto__moto-5134\\trial1\\SF_ALG50\\PUBLIC_ONLY_NATURAL_TERMINAL.json",
+      "terminal_sha256_at_review": "580071c6d1ea8f1ab78cd7ae1ef918a48b1258672c0c7757ebf0359d0e8805d8",
+      "ledger_ordinal": 4845,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 693,
+        "prompt_cache_hit_tokens": 106624,
+        "prompt_cache_miss_tokens": 16517,
+        "prompt_tokens": 123141,
+        "prompt_tokens_details": {
+          "cached_tokens": 106624
+        },
+        "total_tokens": 123834
+      },
+      "cache_hit_fraction": 0.8658692068441868,
+      "computed_actual_time_price_upper_CNY": "0.02142148",
+      "receipt_upper_CNY": "0.02142148",
+      "arithmetic_matches": true,
+      "hypothetical_no_input_cache_same_token_usage_CNY": "0.125913",
+      "hypothetical_not_actual_bill": true,
+      "actual_body_hash_matches_receipt": true,
+      "first_response_parses_as_complete_JSON": true,
+      "parse_error": null,
+      "first_attempt_outcome": "APPLICATION_FAILURE",
+      "first_attempt_application_errors": [
+        "ValueError: SEARCH_NOT_UNIQUE_OR_MISSING"
+      ],
+      "actual_candidate_native_calls": 0,
+      "raw_terminal_status": "BUDGET_CENSORED",
+      "raw_terminal_errors": [
+        {
+          "stage": "failure",
+          "status": "BUDGET_CENSORED",
+          "error": {
+            "type": "FinanceGateRejected",
+            "message": "OLD_PROCESS_ABSENCE_UNKNOWN"
+          }
+        }
+      ],
+      "complete_method_observed": false
+    }
+  ],
+  "combined_paid_upper_CNY": "0.15078060",
+  "complete_three_condition_groups_observed": 0,
+  "interpretation": "Two incomplete prefixes, not two complete method failures; costs have sharply different cache-hit conditions. Source3 raw ENGINEERING_UNKNOWN and SF raw BUDGET_CENSORED require specific subsequent Root classification; SF raw cause is OLD_PROCESS_ABSENCE_UNKNOWN, not a proved monetary rejection."
+}

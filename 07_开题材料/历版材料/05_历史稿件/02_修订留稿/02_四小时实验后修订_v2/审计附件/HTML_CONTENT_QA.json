@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-10-12T15:45:13.577Z",
+  "rows": [
+    {
+      "file": "00_V2阅读入口与结论.html",
+      "title": "四小时实验后的开题报告 V2",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 2065,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "01_四小时结果与报告修订.html",
+      "title": "四小时实际结果与开题修订",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 2772,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "02_正式论文框架与两层基线.html",
+      "title": "正式论文框架与两层基线",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 6991,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "04_开题报告_V2_六章完整稿.html",
+      "title": "基于学习排序的智能体失败诊断与软件任务恢复方法研究",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 33671,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "05_开题报告_逐章与图表解释.html",
+      "title": "六章报告的逐章与图表解释",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 12256,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "08_本轮结果证据映射.html",
+      "title": "本轮结果的证据映射",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1389,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "09_参考文献.html",
+      "title": "参考文献（稳定编号）",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 6629,
+      "missingImages": [],
+      "brokenAnchors": []
+    },
+    {
+      "file": "10_交付验证与证据边界.html",
+      "title": "V2交付核验与证据边界",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 2233,
+      "missingImages": [],
+      "brokenAnchors": []
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "all_no_horizontal_overflow": true,
+  "all_images_and_anchors_valid": true
+}

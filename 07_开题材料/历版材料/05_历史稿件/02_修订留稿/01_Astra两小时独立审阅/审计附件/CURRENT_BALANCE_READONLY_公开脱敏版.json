@@ -1,0 +1,19 @@
+{
+  "at_UTC": "2026-10-12T10:33:24.093707+00:00",
+  "status": "GET_SUCCESS",
+  "balance": {
+    "is_available": true,
+    "balance_infos": [
+      {
+        "currency": "CNY",
+        "total_balance": "〔账户余额已移至完整受保护原件〕",
+        "granted_balance": "〔账户余额已移至完整受保护原件〕",
+        "topped_up_balance": "〔账户余额已移至完整受保护原件〕"
+      }
+    ]
+  },
+  "model_POSTs": 0,
+  "ledger_mutations": 0,
+  "old_unknown_hold_CNY": "0.533734",
+  "source": "https://api-docs.deepseek.com/api/get-user-balance"
+}

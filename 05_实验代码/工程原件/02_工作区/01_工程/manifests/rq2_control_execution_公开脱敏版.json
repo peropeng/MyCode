@@ -1,0 +1,125 @@
+{
+  "schema": "rq2.control.execution.v1",
+  "at_utc": "2026-11-17T17:32:23.093859+00:00",
+  "status": "COMPLETE_EIGHT_DEVELOPMENT_FLOWS_AND_INDEPENDENT_ACCEPTANCE",
+  "authorization": "Current user requests additional multi-edit RQ2 Flash controls, completed flows not repeated, API usage reported at every update",
+  "api": {
+    "allowed_sample_ids": [
+      "getmoto__moto-5516",
+      "getmoto__moto-7081",
+      "getmoto__moto-6212"
+    ],
+    "initial_balance_cny": "[账户余额已脱敏]",
+    "max_requests": 128,
+    "max_spend_cny": 12,
+    "balance_floor_cny": 1
+  },
+  "methods": [
+    "SOURCE3",
+    "REVERSE"
+  ],
+  "repeats_initial": 1,
+  "complete_public_history": true,
+  "common_conditions": {
+    "max_attempts": 3,
+    "max_output_per_request": 16384,
+    "temperature": 0,
+    "thinking": "disabled",
+    "flow_wall_seconds": 1800,
+    "public_test_conditions": "same C0, G/O and tool permissions; current target identity protection retained"
+  },
+  "selection": "public multi-edit opportunity and divergent evidence prefixes; outcomes not used for selecting cases",
+  "future_training_authorized": false,
+  "scope": "Exploratory development controls; not independent paper confirmation",
+  "pricing_source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "pricing_cny_per_million_peak": {
+    "cache_hit": ".04",
+    "cache_miss": "2",
+    "output": "8"
+  },
+  "paid_requests_started": true,
+  "active_task_order": [
+    "getmoto__moto-5516",
+    "getmoto__moto-7081",
+    "getmoto__moto-6212"
+  ],
+  "selection_revisions": [
+    {
+      "before_any_new_generation": true,
+      "public_structure_shortlist": [
+        "getmoto__moto-7081",
+        "getmoto__moto-6212",
+        "getmoto__moto-6387"
+      ],
+      "public_structure_backup": "getmoto__moto-5516",
+      "revision": "Prioritize already shortlisted EC2 pressure case where Agentless, EnAgent and old ours all reached normal failed terminal; two previously solved tasks retained as calibration. CloudFront remains backup.",
+      "not_an_independent_evaluation": true,
+      "selection_by_ours_winning": false
+    }
+  ],
+  "new_information_boundary": "TEST_SOURCE_NOT_SHARED: complete public history/current business code/public G/O feedback; no test source tools; current-code anchors use already-public failure prefix only",
+  "frozen_tests": "Original249 inventories restored exactly, including official pinned upstream+test-patch byte recovery; no new tests generated",
+  "support_difference": "5516 standalone reproduce.py missing, omitted identically in both new conditions; original business/frozen inventories exact",
+  "condition_order": {
+    "getmoto__moto-5516": [
+      "SOURCE3",
+      "REVERSE"
+    ],
+    "getmoto__moto-7081": [
+      "REVERSE",
+      "SOURCE3"
+    ],
+    "getmoto__moto-6212": [
+      "SOURCE3",
+      "REVERSE"
+    ]
+  },
+  "code_bindings": {
+    "src\\thesis_recovery\\rq2_control_env.py": "20a57d6f48876023fe2104ebced91aecc1c6124330e6b375e5c6a64acf301b05",
+    "src\\thesis_recovery\\flash_accounting.py": "2ea8f500007715ebffcb3802e212ad07d70527fd7a7b2febda4a54768bddf49d",
+    "tools\\run_rq2_controls.py": "dd76f228cf47d4551da749c04d7b2f05d97efb65df5561ccba68158c7bba0f45",
+    "tools\\rq2_flash_client.py": "ba66da976a262c85ef259e6aa6b6caa45ef9667223d3ec9b58c8b7d41821346c"
+  },
+  "adaptive_module_probe": {
+    "condition": "SOURCE3_NO_ADDITIONAL_CONTEXT_V2",
+    "task": "getmoto__moto-5516",
+    "trigger": "SOURCE3 and reverse both passed public G/O only on attempt3; examine additional current-code package instead of assuming sorting gain",
+    "trigger_uses_private_results": false,
+    "same": "SOURCE3 edits/fullhistory/rawfeedback/source read tools/goal protection/budgets",
+    "removed": "additional_business_context only",
+    "launcher": "tools/run_rq2_context_probe.py",
+    "launcher_sha256": "9c07ad2266f9560eef38977cf16e240e83c3e98763aad9043cab8978eccdeed6",
+    "prePOST_engineering_failure": {
+      "condition": "SOURCE3_NO_ADDITIONAL_CONTEXT",
+      "reason": "Original finish_body requires a feedback/source binding; no HTTP dispatch occurred",
+      "new_requests": 0
+    },
+    "intervention": "After original feedback/source binding, remove additional_business_context and empty only current_business_functions, retaining source identity and Goal summaries"
+  },
+  "adaptive_nonedge_probe": {
+    "condition": "SOURCE3_MATCHED_NONEDGE_CONTEXT",
+    "task": "getmoto__moto-5516",
+    "trigger": "Public SOURCE3 relation package pass3 vs no-extra package no pass3",
+    "trigger_uses_private_results": false,
+    "same": "SOURCE3 edits, public history/tools/feedback/protection and generation budgets",
+    "intervention": "Original relations248.nonedge_context whole legal functions outside relations; lexical selection not exceeding source-text byte budget; residual mismatch disclosed",
+    "launcher": "tools/run_rq2_nonedge_probe.py",
+    "launcher_sha256": "dab59470002678fc2b20a7c4bd047db804d528975fb72e4a18a90119639e3e04"
+  },
+  "completed_result": "verification/rq2_multi_edit_control_audit.json",
+  "completed_new_flows": 8,
+  "generation_usage": {
+    "requests": 16,
+    "unresolved": 0,
+    "input_tokens": 1417691,
+    "output_tokens": 8198,
+    "estimated_cost_CNY_lower": "0.51532780",
+    "estimated_cost_CNY_upper": "1.03065560",
+    "balance_snapshot_CNY": "[账户余额已脱敏]"
+  },
+  "next_work_not_run": [
+    "Targeted traceback/API-name source retrieval vs relation package",
+    "AOrchestra on the three new cases under a unified permission protocol",
+    "Goal-progress comparison on tasks with partial progress and subsequent editing"
+  ]
+}

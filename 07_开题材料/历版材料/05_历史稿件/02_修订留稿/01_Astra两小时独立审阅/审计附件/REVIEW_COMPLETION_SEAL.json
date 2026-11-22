@@ -1,0 +1,58 @@
+{
+  "schema": "two-hour-review-completion-seal/1",
+  "review_start_beijing": "2026-10-12T17:28:01+08:00",
+  "review_end_beijing": "2026-10-12T19:28:11.739392+08:00",
+  "review_seconds": 7210.739392,
+  "files": {
+    "00_审阅结论与阅读入口.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\00_审阅结论与阅读入口.md",
+      "sha256": "27b5ba111b8a00381076fa324e8ddeaf209458e96c78ab62a5acb26248549598",
+      "bytes": 6725
+    },
+    "01_全部探索总结.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\01_全部探索总结.md",
+      "sha256": "ca023f8f414b886ec2ecaba6c9706f984de6da8d43a0ba67939dde9b941e192a",
+      "bytes": 153235
+    },
+    "02_正式论文框架与两层基线.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\02_正式论文框架与两层基线.md",
+      "sha256": "7c0c2312753180a51fb392f2572b2aa936425230baf5eab034486cb484b3070f",
+      "bytes": 10659
+    },
+    "03_后续四小时实验执行计划.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\03_后续四小时实验执行计划.md",
+      "sha256": "57843b350ebf8f1950ab4e88aea06d3fd7e5d797108792705a7eca61ec7341aa",
+      "bytes": 19882
+    },
+    "04_开题报告_V1_六章完整稿.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\04_开题报告_V1_六章完整稿.md",
+      "sha256": "4a465c4ffd03e282e2fd1be29da7aa3a67bdd81c39fc34bc9341fab7b3582fca",
+      "bytes": 73781
+    },
+    "04_开题报告_V1_六章完整稿.pdf": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\04_开题报告_V1_六章完整稿.pdf",
+      "sha256": "49036e6475becbd4521cb8889cddda9d1a9e466241ece7d18ae6686e009e3bf9",
+      "bytes": 2551424
+    },
+    "05_开题报告_逐章与图表解释.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\05_开题报告_逐章与图表解释.md",
+      "sha256": "35310c537191587ba4dee243e34a3a165e88825ad1f3e3344f961e80c45bbaa3",
+      "bytes": 13357
+    },
+    "06_全部数据来源与划分.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\06_全部数据来源与划分.md",
+      "sha256": "efd80e5ce0cd12cb3b9050da3da71e819aa03ef483dbb50864f974c26a50215b",
+      "bytes": 64498
+    },
+    "10_交付验证与证据边界.md": {
+      "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\开题\\20261012_Astra两小时独立审阅\\10_交付验证与证据边界.md",
+      "sha256": "2ad860c647dede3581e1a828f214083fa23d79b4373fe244e6619afa5ba85761",
+      "bytes": 5923
+    }
+  },
+  "handoff_target_thread": "01a1215c-bedf-7a21-8abd-2a045502e153",
+  "requested_coordinator_model": "gpt-6.1-sol",
+  "requested_effort": "high",
+  "speed_configuration_observed": "priority",
+  "actual_subsequent_experiment_results": "not yet produced; report must precede START"
+}

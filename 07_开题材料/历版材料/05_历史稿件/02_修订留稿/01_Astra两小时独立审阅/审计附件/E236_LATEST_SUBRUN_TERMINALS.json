@@ -1,0 +1,150 @@
+[
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\conan-io__conan-14397\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "ENGINEERING_OR_FINANCE_UNKNOWN",
+    "success": null,
+    "calls": 14,
+    "out": 2636,
+    "unknown": {
+      "stage": "PATCHPILOT_RUNTIME_native_execute",
+      "type": "OSError",
+      "message": "[Errno 28] No space left on device"
+    },
+    "budget": null,
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\dask__dask-8484\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "BUDGET_CENSORED",
+    "success": null,
+    "calls": 5,
+    "out": 398,
+    "unknown": null,
+    "budget": {
+      "stage": "LOCAL7B_TRANSPORT",
+      "message": "LOCAL_COMPLETE_CHAT_CONTEXT64K_NO_CLIPPING 85897+500+1"
+    },
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\getmoto__moto-5406\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "ENGINEERING_OR_FINANCE_UNKNOWN",
+    "success": null,
+    "calls": 5,
+    "out": 1470,
+    "unknown": {
+      "stage": "AUTHOR_CONTROLLER_EXIT",
+      "type": "SyntaxError",
+      "message": "unterminated triple-quoted string literal (detected at line 42) (<unknown>, line 16)"
+    },
+    "budget": null,
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\getmoto__moto-5516\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "ENGINEERING_OR_FINANCE_UNKNOWN",
+    "success": null,
+    "calls": 26,
+    "out": 12647,
+    "unknown": {
+      "stage": "AUTHOR_CONTROLLER_EXIT",
+      "type": "FileNotFoundError",
+      "message": "[Errno 2] No such file or directory: 'D:\\\\Code\\\\毕设\\\\graduate-thesis-experiments\\\\工作区\\\\1009-exp236-patchpilot-focused\\\\实验\\\\实验236_PatchPilot集中完整验证\\\\planning_format_v2\\\\runs\\\\getmoto__moto-5516\\\\PATCHPILOT_LOCAL_FOCUS\\\\author\\\\repair\\\\output.jsonl'"
+    },
+    "budget": null,
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\getmoto__moto-6212\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "SELECTED_AWAIT_EXTERNAL_PRIVATE",
+    "success": null,
+    "calls": 57,
+    "out": 11169,
+    "unknown": null,
+    "budget": null,
+    "author_done": true
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\getmoto__moto-6212\\PATCHPILOT_LOCAL_FOCUS\\external_once_private\\result.json",
+    "status": "COMPLETE_EXTERNAL_ONCE_PRIVATE",
+    "success": false,
+    "calls": null,
+    "out": null,
+    "unknown": null,
+    "budget": null,
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\getmoto__moto-6387\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "BUDGET_CENSORED",
+    "success": null,
+    "calls": 1,
+    "out": 482,
+    "unknown": null,
+    "budget": {
+      "stage": "LOCAL7B_TRANSPORT",
+      "message": "LOCAL_COMPLETE_CHAT_CONTEXT64K_NO_CLIPPING 62154+4096+1"
+    },
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\getmoto__moto-7081\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "BUDGET_CENSORED",
+    "success": null,
+    "calls": 46,
+    "out": 11377,
+    "unknown": null,
+    "budget": {
+      "stage": "PATCHPILOT_RUNTIME__owned_git",
+      "message": "DECLARED_NATIVE_ROOT90_END"
+    },
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\Project-MONAI__MONAI-4109\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "SELECTED_AWAIT_EXTERNAL_PRIVATE",
+    "success": null,
+    "calls": 32,
+    "out": 3538,
+    "unknown": null,
+    "budget": null,
+    "author_done": true
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\Project-MONAI__MONAI-4109\\PATCHPILOT_LOCAL_FOCUS\\external_once_private\\result.json",
+    "status": "EXTERNAL_UNKNOWN",
+    "success": null,
+    "calls": null,
+    "out": null,
+    "unknown": null,
+    "budget": null,
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\pydantic__pydantic-8965\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "ENGINEERING_OR_FINANCE_UNKNOWN",
+    "success": null,
+    "calls": 8,
+    "out": 1191,
+    "unknown": {
+      "stage": "AUTHOR_CONTROLLER_EXIT",
+      "type": "FileNotFoundError",
+      "message": "[Errno 2] No such file or directory: 'D:\\\\Code\\\\毕设\\\\graduate-thesis-experiments\\\\工作区\\\\1009-exp236-patchpilot-focused\\\\实验\\\\实验236_PatchPilot集中完整验证\\\\planning_format_v2\\\\runs\\\\pydantic__pydantic-8965\\\\PATCHPILOT_LOCAL_FOCUS\\\\author\\\\repair\\\\output.jsonl'"
+    },
+    "budget": null,
+    "author_done": null
+  },
+  {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-exp236-patchpilot-focused\\实验\\实验236_PatchPilot集中完整验证\\planning_format_v2\\runs\\python__mypy-15155\\PATCHPILOT_LOCAL_FOCUS\\result.json",
+    "status": "BUDGET_CENSORED",
+    "success": null,
+    "calls": 23,
+    "out": 3413,
+    "unknown": null,
+    "budget": {
+      "stage": "LOCAL7B_TRANSPORT",
+      "message": "LOCAL_COMPLETE_CHAT_CONTEXT64K_NO_CLIPPING 105144+500+1"
+    },
+    "author_done": null
+  }
+]

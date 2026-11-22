@@ -1,0 +1,3229 @@
+[
+  {
+    "number": 131,
+    "conclusion": "多轮重复DEV32快速筛选，无一固定主门达到预定25/32；P39/P44等24/32只是探索，资格失败/未运行分开；详见全pilot索引。",
+    "locations": [
+      "实验\\实验131_RQ1快速方法筛选",
+      "工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\evaluation_protocol.json",
+        "sha256": "6bdc85511f2412d6af1de989866e2b2b305173e3eee5d248abc56b1c0ef96813",
+        "bytes": 1200,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\HANDOFF_EXECUTOR.md",
+        "sha256": "f3b46c376cf791acf03b5c24347f62358768b2b08277a1d8ed375dced819cbdf",
+        "bytes": 6525,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\method_protocol.json",
+        "sha256": "c71ca686bb22beac779431a52d85a80d6af29978d76fad04493ff23c14fc0fbe",
+        "bytes": 5506,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\protocol.json",
+        "sha256": "a8cd4eb77fd6a94517a58eb9b5a4cc350ce2c1fe577a33cce40d828f116a06eb",
+        "bytes": 3135,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验131_RQ1快速方法筛选\\README.md",
+        "sha256": "20c599ea2120550c3011bdd642fa80ffb397e430e110c7106c7df108d54cdbb3",
+        "bytes": 3659,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\evaluation_protocol.json",
+        "sha256": "6bdc85511f2412d6af1de989866e2b2b305173e3eee5d248abc56b1c0ef96813",
+        "bytes": 1200,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\HANDOFF_EXECUTOR.md",
+        "sha256": "f3b46c376cf791acf03b5c24347f62358768b2b08277a1d8ed375dced819cbdf",
+        "bytes": 6525,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\method_protocol.json",
+        "sha256": "c71ca686bb22beac779431a52d85a80d6af29978d76fad04493ff23c14fc0fbe",
+        "bytes": 5506,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\protocol.json",
+        "sha256": "a8cd4eb77fd6a94517a58eb9b5a4cc350ce2c1fe577a33cce40d828f116a06eb",
+        "bytes": 3135,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1004-exp131-rq1-fast-pilot\\实验\\实验131_RQ1快速方法筛选\\README.md",
+        "sha256": "20c599ea2120550c3011bdd642fa80ffb397e430e110c7106c7df108d54cdbb3",
+        "bytes": 3659,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 132,
+    "conclusion": "v1接口失败、v2两题小试、v4/v5完整32/严格30负结果、v6接口更正必须分别保留；严格30主M1/M2/M3=1/5/1，AA/SDBL各6；无主方法优势。",
+    "locations": [
+      "实验\\实验132_论文驱动三案归因对比",
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1005-exp132-paper-three\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\common_protocol.json",
+        "sha256": "439f398205b707f924ccbd87262e6acbfd648055793036914340ddac5a19685f",
+        "bytes": 8325,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\common_protocol_draft.json",
+        "sha256": "e9f395240ae166a9f0e9131d6e83c41a617d0586125b1d64c7880eead011361d",
+        "bytes": 8162,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\common_protocol_draft_pre_binding_correction.json",
+        "sha256": "acc3455bef8426137a3fe7f875c11b46d23b10fe329fd409c026f4dfc51d7798",
+        "bytes": 7729,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\README.md",
+        "sha256": "9e4cf5cfb6dc0968052a8ebd00c37afe417a6670a6dbc451b8141781f0d38944",
+        "bytes": 8480,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\result_summary.json",
+        "sha256": "462753ea92588dd082492867bddc9dc71f9dd4761dc3f9415f0113b680f239cf",
+        "bytes": 272875,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\result_summary.txt",
+        "sha256": "9fcd2efbf22fda00570ffb267074406281b5ac8a393464b47bc0b37305e9f0f8",
+        "bytes": 1598,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\result_summary_before_scientific_status_alignment.json",
+        "sha256": "2865db2a6960667fa4225ddf5c4fffcd7aaacd636e9966f0d1c17fd165d75293",
+        "bytes": 271921,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\results\\saved_reporting_receipt.json",
+        "sha256": "2639ed4406e077030d20401d7ee0d36b064d77b05ee6aab13c794bf64fee72fb",
+        "bytes": 393,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验132_论文驱动三案归因对比\\data\\scope_decision.json",
+        "sha256": "4edba94cd2774010759116aa53880c4d92f3c4ec948f3e32d6c8eb77a290c68f",
+        "bytes": 2232,
+        "kind": "existing_primary"
+      },
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1005-exp132-paper-three\\unique_untracked_and_ignored.zip",
+        "HEAD": "eb17befd7f4e4fdb5c750df3145e4ecbd8a912d8",
+        "kind": "archive_inventory",
+        "files_count": 2586
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 133,
+    "conclusion": "选择性复核AB8/32低于A11/32；无条件复核4；首Engineer状态先验16；后状态改判破坏正确首因，不能按±1修标签提分。",
+    "locations": [
+      "工作区\\1006-exp133-state-action\\实验\\实验133_状态动作选择性核验"
+    ],
+    "evidence_refs": [],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 134,
+    "conclusion": "状态动作与四关系模型，source492/val122作者TRAIN且组隔离。后confirmation的预声明主B26/64仅比最强control25多1，可靠门false；次要N33不可事后晋升，正是后135动机。",
+    "locations": [
+      "工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\main_decision_packet.json",
+        "sha256": "7ef9c1eabd265038bd09a50b379a8dffb5d716fa7a59eb90bdfc36442e160142",
+        "bytes": 65576,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\training_protocol.json",
+        "sha256": "795324e54c21227e04feb64dface93a39b9fcddca82a62cccfa752f2865c109b",
+        "bytes": 6750,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\confirmation\\approved_decision.json",
+        "sha256": "616a15a671f6b55a090d3061cf3b76d6ed1096402baf0b79bf9b2f14e1dd03c1",
+        "bytes": 6155,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\confirmation\\main_decision_packet.json",
+        "sha256": "3ff15cbaec51c86ac8597888b85b7a58450d7c8fa84f4268d13a1386e543b585",
+        "bytes": 32032,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp134-event-relation\\实验\\实验134_状态动作表示与关系排序\\confirmation\\protocol.json",
+        "sha256": "6134937b6bad8c17330b8c7b06a45b99d9c99fe36112fe36cf14587f34e7757b",
+        "bytes": 99192,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 135,
+    "conclusion": "冻结纯节点N：官方TEST85（code45/math40）N41/SF29，Holm2 p=.08555；作者TRAIN code256留出N108/SF97，p=.13516；均未可靠胜出。TEST曝光必须入账。",
+    "locations": [
+      "工作区\\1006-exp135-frozen-node\\实验\\实验135_冻结节点模型前瞻确认"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp135-frozen-node\\实验\\实验135_冻结节点模型前瞻确认\\approved_decision.json",
+        "sha256": "c79d4ed01b5d97db6a899e4393188b539d2c7c1ffda5b6d3beb9167c0093ee84",
+        "bytes": 7311,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp135-frozen-node\\实验\\实验135_冻结节点模型前瞻确认\\main_decision_packet.json",
+        "sha256": "d6fb621da2212a284241cd532f2e397c586ada90540e43735d8f0922b9d0d92b",
+        "bytes": 40146,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp135-frozen-node\\实验\\实验135_冻结节点模型前瞻确认\\protocol.json",
+        "sha256": "fa4b0dc2869110856d1d6698c898e08323cc5eb79c412b7eddaabd49f94f4a97",
+        "bytes": 372059,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 136,
+    "conclusion": "原冻结AB在当时未曝光coding363命中176、SF140，但B180；性能方向为正，A+B必要性与协同未成立。",
+    "locations": [
+      "工作区\\1006-exp136-ab-mechanism\\实验\\实验136_AB性能与机制确认"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp136-ab-mechanism\\实验\\实验136_AB性能与机制确认\\approved_decision.json",
+        "sha256": "ade7f8910cb5c2902771ce9d85c0b2bfa38e981626b326206c9d9cd0d9323c7d",
+        "bytes": 9081,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp136-ab-mechanism\\实验\\实验136_AB性能与机制确认\\main_decision_packet.json",
+        "sha256": "9c33f10b85be580188bc85af065b6ccabe7a14be5b50587370596fe1a2ee815c",
+        "bytes": 35585,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp136-ab-mechanism\\实验\\实验136_AB性能与机制确认\\protocol.json",
+        "sha256": "e06bbf4fe016bf82a09ed35b27e296c464672a92fbe86a41d2cc30d23babef70",
+        "bytes": 549047,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 137,
+    "conclusion": "冻结AB在当时未曝光作者TRAIN长度外池：code170 AB72/SF39、math155 AB90/SF48；但code NO_CONTENT74、math节点110/111，域别控制限制机制解释；非官方TEST。",
+    "locations": [
+      "工作区\\1006-exp137-scope-stress\\实验\\实验137_冻结模型范围压力核验"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp137-scope-stress\\实验\\实验137_冻结模型范围压力核验\\approved_decision.json",
+        "sha256": "dae50879d22710c3a1ad02276849142307fa46c6c1d51cbc1691ab23e6f5118c",
+        "bytes": 4021,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp137-scope-stress\\实验\\实验137_冻结模型范围压力核验\\main_decision_packet.json",
+        "sha256": "84f156f1f0bf8eb9a57f66e6f4af56841d5f8a11b78db1e397cbd23e6dec610d",
+        "bytes": 11044,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp137-scope-stress\\实验\\实验137_冻结模型范围压力核验\\protocol.json",
+        "sha256": "afc781dc2dfeb231f7f54666012d2971824aff8338b0418366dde6d9cbc2126d",
+        "bytes": 88225,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 138,
+    "conclusion": "AF731/716组五折开发；AB组等权Top1 81.285%、SF77.235%；120子集AB84/B86/匹配SF75/AA77；全部后续均属已曝光开发。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp138-aftraj-matched\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp138-aftraj-matched\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 917
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 139,
+    "conclusion": "任务FiLM调制未提供足够稳定净增益；保留同条件对照，不晋升更好的控制。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp139-task-conditioned\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp139-task-conditioned\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 661
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 140,
+    "conclusion": "图排序校准委托AA为92/120，但SF同规则94；混合流程收益不能归功本文排序器。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp140-calibrated-deferral\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp140-calibrated-deferral\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 359
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 141,
+    "conclusion": "另一校准版本仍92/120；重复同120不增加独立样本或确认次数。",
+    "locations": [
+      "工作区\\1006-exp141-probability-set\\实验\\实验141_概率水平集与专家委托"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp141-probability-set\\实验\\实验141_概率水平集与专家委托\\approved_decision.json",
+        "sha256": "3b23ff7dcdb544e2a1e69a073661e2b4395de1fa6050d4356a57feb3d147de1b",
+        "bytes": 6273,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp141-probability-set\\实验\\实验141_概率水平集与专家委托\\main_decision_packet.json",
+        "sha256": "2db2c585c7a65279168114cb85dd97b1f6afee8d2dbdb57317a2c2a4ac0d9ff9",
+        "bytes": 43789,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp141-probability-set\\实验\\实验141_概率水平集与专家委托\\protocol.json",
+        "sha256": "b5bf88602496e6a8c6c6b8849eec3f74622e1a873296876c68fc576feae511e3",
+        "bytes": 9099,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp141-probability-set\\实验\\实验141_概率水平集与专家委托\\README.md",
+        "sha256": "d7ab46a288902e542ebdeb2e08e82b765564480dfb8fc16a1cb61d31a35eb99e",
+        "bytes": 4196,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 142,
+    "conclusion": "未曝光单角色agentic1467转移时AB270、SF329，配对p=.00364方向本文更差；角色准确率100%无鉴别性。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp142-agentic-transfer\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp142-agentic-transfer\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 106
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 143,
+    "conclusion": "有向多尺度当轮agentic320好于当轮SF280但低于旧SF329；保留最强历史参照，不能挑低对照。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp143-directed-multiscale\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp143-directed-multiscale\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 451
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 144,
+    "conclusion": "域等权训练开发；未建立可替代原模型的稳定跨域收益，训练人口变化须与模块作用分开。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp144-domain-balanced\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp144-domain-balanced\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 459
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 145,
+    "conclusion": "输入归一化路线未取得足够替代证据；不能以基线受益降低对照强度。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp145-content-normalization\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp145-content-normalization\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 219
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 146,
+    "conclusion": "精确ID绑定状态动作残差；有旧对新错，零总增益并非统一由未激活解释。",
+    "locations": [
+      "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp146-frozen-event-residual\\unique_untracked_and_ignored.zip"
+    ],
+    "evidence_refs": [
+      {
+        "archive_zip": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1009-40g-worktree-recovery\\worktrees\\1006-exp146-frozen-event-residual\\unique_untracked_and_ignored.zip",
+        "HEAD": "d7ef2e6a967dc98ef9d9c114e06279b1fdb190be",
+        "kind": "archive_inventory",
+        "files_count": 737
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 147,
+    "conclusion": "无ID公开请求绑定残差；未确立稳定新增收益，配对资格和监督位置边界需保留。",
+    "locations": [
+      "工作区\\1006-exp147-public-request-residual\\实验\\实验147_无ID公开请求联系残差"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp147-public-request-residual\\实验\\实验147_无ID公开请求联系残差\\approved_decision.json",
+        "sha256": "1f6139a0f82aa31d25f7cb93d4113812a043b64e2ba8baead710c0d30d9721b1",
+        "bytes": 11421,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp147-public-request-residual\\实验\\实验147_无ID公开请求联系残差\\compact_completion_for_root.json",
+        "sha256": "f273b8a8f4c3e09c2891243feabeab9a5bbea5859512faebd0656e883b4618c8",
+        "bytes": 3696,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp147-public-request-residual\\实验\\实验147_无ID公开请求联系残差\\completion_receipt.json",
+        "sha256": "5c8362643d3f82c2d2a732d54afeba4743d91672bb17184debb68d0b779d9f21",
+        "bytes": 1958,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp147-public-request-residual\\实验\\实验147_无ID公开请求联系残差\\main_decision_packet.json",
+        "sha256": "fc3b3c1bcf3f0c643e39945b78d8d5ffe560618bed30018481344dbcb589f9ab",
+        "bytes": 16086,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp147-public-request-residual\\实验\\实验147_无ID公开请求联系残差\\protocol.json",
+        "sha256": "1a54eee57e902da039d03cf1ba03a204055136adc22e83383c8cb99b27a81e82",
+        "bytes": 1087004,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 148,
+    "conclusion": "动态邻域扩展未达到替代标准，出现实际损坏；动态联系非已证因果边。",
+    "locations": [
+      "工作区\\1006-exp148-dynamic-neighbor-readout\\实验\\实验148_冻结主干与动态邻域读出"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp148-dynamic-neighbor-readout\\实验\\实验148_冻结主干与动态邻域读出\\approved_decision.json",
+        "sha256": "4a5777d44b1d899ad225ec66d33848a8bb2db523cd0314966ec266f4d7664832",
+        "bytes": 12544,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp148-dynamic-neighbor-readout\\实验\\实验148_冻结主干与动态邻域读出\\compact_completion_for_root.json",
+        "sha256": "be171cc407089eaede2a42f985c28af3db8e50cc242a2ba4025e240df7d9a69b",
+        "bytes": 12078,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp148-dynamic-neighbor-readout\\实验\\实验148_冻结主干与动态邻域读出\\completion_receipt.json",
+        "sha256": "4c0bcd8c690f39a8403000fadc22b5584e01d5c73e6d73060f6a1543bb44db55",
+        "bytes": 1801,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp148-dynamic-neighbor-readout\\实验\\实验148_冻结主干与动态邻域读出\\main_decision_packet.json",
+        "sha256": "e8cce0aed894a9fd300042ee2ff47d0dab96843846869a50eef9c57afc0f14ce",
+        "bytes": 32280,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp148-dynamic-neighbor-readout\\实验\\实验148_冻结主干与动态邻域读出\\protocol.json",
+        "sha256": "6c96723d7c7c894e3fe2df6019e7fa425c15bf2da527c8daae2199ed607b3df6",
+        "bytes": 1244270,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp148-dynamic-neighbor-readout\\实验\\实验148_冻结主干与动态邻域读出\\README.md",
+        "sha256": "36ba0d468cce8cc2b56ae56293930fe761a29714fb85791172bee9f36193c9c0",
+        "bytes": 3897,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 149,
+    "conclusion": "任务联合编码未取得稳定优越，出现真实旧对新错；编码信息增加本身不等于机制证据。",
+    "locations": [
+      "工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码\\approved_decision.json",
+        "sha256": "0c10ffc3b5e3b2a97562edb51967bf866c6a9b0419bf9dc6b0d92bea3813a049",
+        "bytes": 13061,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码\\compact_completion_for_root.json",
+        "sha256": "911172a1afbef4dce5b2018c366461e1e32a8242f61f2a819a6b6fb5914d224e",
+        "bytes": 14410,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码\\completion_receipt.json",
+        "sha256": "a9b1b5ef0d32a06d2f3c469dfd51ca09c548c245a3156cb4a3b8b28ec0211fe1",
+        "bytes": 2369,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码\\encoding_protocol.json",
+        "sha256": "ff4cd6b5814ab16e197d89b7bb193ef1c4b7602c7f248a0ec58c23f3cdbb3296",
+        "bytes": 14562,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码\\main_decision_packet.json",
+        "sha256": "6f2b5d06d468e1bd2132ad0e7663229902145a5c476e453c52960c7343efd307",
+        "bytes": 36268,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码\\protocol.json",
+        "sha256": "289808eaed1ec32ab414f131b6871f329c2a71fba2339b157677b854753f27d2",
+        "bytes": 1371632,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp149-joint-task-encoding\\实验\\实验149_任务步骤联合编码\\README.md",
+        "sha256": "db26402e759152955709f4fa9d694750ae7c5350ec3ed7549e293386f39b1e3d",
+        "bytes": 4881,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 150,
+    "conclusion": "旧12题预算2本文10/SF10/AA11；预算6单根11、前缀回溯12；候选饱和限制排序恢复增益。",
+    "locations": [
+      "工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\compact_summary.json",
+        "sha256": "fff29f2586fc1ce045eadd59df76174241e7a66f156f3e13710b3a8b442b69d1",
+        "bytes": 5160,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\completion_review.json",
+        "sha256": "5229bf1054fc5dd482dd3437e4ad76cc2d2e8d88f9d339334fd259a3fc6c1148",
+        "bytes": 1091,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\main_decision_packet.json",
+        "sha256": "30d24b9f9f574795df3e63cf2f52da12d55ff7ee8d4338cafcf4997c5aae91c4",
+        "bytes": 366100,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp150-unified-recovery\\实验\\实验150_统一任务排序与恢复\\protocol.json",
+        "sha256": "5d9b470d2156c4110a888e501c0ae533a289bb0752e5b05474215af076fd3d36",
+        "bytes": 210289,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 151,
+    "conclusion": "累积闭包预算6本文10/12，相对单根救1伤2；扩大撤销集合不保证恢复单调。",
+    "locations": [
+      "工作区\\1006-exp151-cumulative-recovery\\实验\\实验151_排序引导的累积闭包恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp151-cumulative-recovery\\实验\\实验151_排序引导的累积闭包恢复\\compact_summary.json",
+        "sha256": "67c42d9b621b918f85f400c360f80f448a9116300ceb2c53609a386cb8ccf97d",
+        "bytes": 5475,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp151-cumulative-recovery\\实验\\实验151_排序引导的累积闭包恢复\\completion_review.json",
+        "sha256": "47d0160de838baaf7af6aca652aecddab80d21b74b0a663c5b44fdf171f7632b",
+        "bytes": 717,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp151-cumulative-recovery\\实验\\实验151_排序引导的累积闭包恢复\\main_decision_packet.json",
+        "sha256": "47d3868c277afc3bebb4dccee24af2afe09d80f5df6de25efb68df532c364ded",
+        "bytes": 442734,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp151-cumulative-recovery\\实验\\实验151_排序引导的累积闭包恢复\\protocol.json",
+        "sha256": "0523e0fab6534ed7b617fe76349d0eb14733fc624121427f0a6a8e5c43bc7131",
+        "bytes": 1210898,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 152,
+    "conclusion": "最初共享测试源进入策略边界违例必须保留；152C修后预算2本文11/SF11/AA12、预算3均12；有真实ADD_OMISSION但不证明排序优越。",
+    "locations": [
+      "工作区\\1006-exp152-feedback-repair\\实验\\实验152_可见反馈双向依赖修复",
+      "工作区\\1007-exp152-clean-rerun\\实验\\实验152C_输入隔离修正重跑"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp152-feedback-repair\\实验\\实验152_可见反馈双向依赖修复\\compact_summary.json",
+        "sha256": "cfaa611f8e8dbc366213699f7f5b1161ba15e328601a305eb2dd30401f11d86a",
+        "bytes": 13171,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp152-feedback-repair\\实验\\实验152_可见反馈双向依赖修复\\completion_review.json",
+        "sha256": "8c1c9acb04cfee3c2c0fa47139f4bd353157c034ff502e79571b8bcb17c7e877",
+        "bytes": 1056,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp152-feedback-repair\\实验\\实验152_可见反馈双向依赖修复\\main_decision_packet.json",
+        "sha256": "88027e3968f2a52fcaf934c81a842f5700ae6f9c07745c6fd6bd500fc6606cea",
+        "bytes": 586119,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1006-exp152-feedback-repair\\实验\\实验152_可见反馈双向依赖修复\\protocol.json",
+        "sha256": "26b9a78114d69a23c8ea131bcb3244003dd314718e9689de9a0cda8fee940253",
+        "bytes": 1544044,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp152-clean-rerun\\实验\\实验152C_输入隔离修正重跑\\compact_summary.json",
+        "sha256": "51be169517a985471cac99d6c63eba83319842a19e0984910433bff9ce9ea8d2",
+        "bytes": 14442,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp152-clean-rerun\\实验\\实验152C_输入隔离修正重跑\\completion_review.json",
+        "sha256": "e2ba7c2a4f361da93424f73eeb5b1f91180bd56cc71aa28ed4b36e06871d0303",
+        "bytes": 1357,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp152-clean-rerun\\实验\\实验152C_输入隔离修正重跑\\main_decision_packet.json",
+        "sha256": "9d388254381562b02cb409785d38f99e70b799592258a9aaf6b7bcf697b8712f",
+        "bytes": 612013,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp152-clean-rerun\\实验\\实验152C_输入隔离修正重跑\\protocol.json",
+        "sha256": "ef82dc93096bb1ed8814ed7c907d2d999d2c5b416f1613803f7227d974f3b152",
+        "bytes": 1973115,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 153,
+    "conclusion": "当前AB_GLOBAL架构；source3在coding363为186/SF148；AF12086/SF82/AA77未显著，AF716略低AB_REF；source3与AF15是两套训练条件。",
+    "locations": [
+      "工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\compact_summary.json",
+        "sha256": "86e7a2394b30f7fcb20794e99b417e5d86c0f5532d34842f87d22593d0143ad2",
+        "bytes": 25606,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\main_decision_packet.json",
+        "sha256": "1f123f9df65046d74a3388108d281c98ee72dd3d18be36966efde8582c781d3c",
+        "bytes": 368810,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\protocol.json",
+        "sha256": "df0d54673756f410443d2325842abffe46efd62e01e05b8d6de29e06d643d5aa",
+        "bytes": 6158977,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp153-global-context\\实验\\实验153_候选条件全轨迹上下文\\README.md",
+        "sha256": "540b8fb83bc595368f00fac5550d66124315442f7bedab042e01b6a3a4ccd607",
+        "bytes": 1640,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 154,
+    "conclusion": "机制强控制；重复时间关系coding同186，GLOBAL没有超过STATIC/LOCAL的独立必要性证据。",
+    "locations": [
+      "工作区\\1007-exp154-mechanism-controls\\实验\\实验154_固定主模型的机制强对照"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp154-mechanism-controls\\实验\\实验154_固定主模型的机制强对照\\compact_summary.json",
+        "sha256": "21b3e3d2725d2645de7c888422814b8484774740d4eb43c8fb90b18254642f27",
+        "bytes": 23454,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp154-mechanism-controls\\实验\\实验154_固定主模型的机制强对照\\main_decision_packet.json",
+        "sha256": "bea5051cdc3e37f4343732da8343c6e8a4a7d83f3f1c5944c67d0a3e566e4d69",
+        "bytes": 32803,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp154-mechanism-controls\\实验\\实验154_固定主模型的机制强对照\\protocol.json",
+        "sha256": "cf269ea12e3583156633fac8e096c06b8c269ff72d3648818c64432752a10e87",
+        "bytes": 4494694,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 155,
+    "conclusion": "六新seed方向皆正，但预定两组3seed均至少5pp门失败，其中一组18/363=4.96pp；不能把原10.47pp当稳定下限。",
+    "locations": [
+      "工作区\\1007-exp155-fixed-replication\\实验\\实验155_固定方法三种子分组复验"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp155-fixed-replication\\实验\\实验155_固定方法三种子分组复验\\compact_summary.json",
+        "sha256": "2e754df7f71d3764b0d5761ad9e8106f3e4a02c645bd4eb9cd3d75b9e80e17ee",
+        "bytes": 65075,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp155-fixed-replication\\实验\\实验155_固定方法三种子分组复验\\main_decision_packet.json",
+        "sha256": "accce68f7d089311ceca442578c82a1ca6dec1769fd4bb8f730e2846f17afa87",
+        "bytes": 1941883,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp155-fixed-replication\\实验\\实验155_固定方法三种子分组复验\\protocol.json",
+        "sha256": "406390730367f493cf9f695649a3380ed87ecde92e4e6181d46bc21b0056c27c",
+        "bytes": 8455605,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 156,
+    "conclusion": "位置角色强对照；math位置规则109/155恰等GLOBAL，不能将math强差解释为语义增益。",
+    "locations": [
+      "工作区\\1007-exp156-position-diagnostics\\实验\\实验156_固定模型位置角色强对照"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp156-position-diagnostics\\实验\\实验156_固定模型位置角色强对照\\compact_summary.json",
+        "sha256": "7e064ec5d74bff3b279c534ac8f33860363e3d2f6b1583c7749113c12d69e0c3",
+        "bytes": 61818,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp156-position-diagnostics\\实验\\实验156_固定模型位置角色强对照\\main_decision_packet.json",
+        "sha256": "42d9633b74e4250796020a811c05a9095a8cebe092fed4c322970e3a61b47f71",
+        "bytes": 9889858,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp156-position-diagnostics\\实验\\实验156_固定模型位置角色强对照\\protocol.json",
+        "sha256": "dca0bd40ae69f015cb020dc85af790f89bd16df4acd6bd89b5dfffec0aa5c342",
+        "bytes": 1407953,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 157,
+    "conclusion": "三新数据划分开发稳健性，coding179/184/186；agentic边界持续；不是新独立目标集。",
+    "locations": [
+      "工作区\\1007-exp157-split-stability\\实验\\实验157_固定模型数据划分敏感性"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp157-split-stability\\实验\\实验157_固定模型数据划分敏感性\\compact_summary.json",
+        "sha256": "b4e62e2f6a340644d797cdb7106c18eb54c4555fed717ffca74f6c6e645e500c",
+        "bytes": 29214,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp157-split-stability\\实验\\实验157_固定模型数据划分敏感性\\main_decision_packet.json",
+        "sha256": "d14688ed11a4233f002bc6cc7e8cd8551e8c205a94d128e1e4944e32c1e4f5b3",
+        "bytes": 22633543,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp157-split-stability\\实验\\实验157_固定模型数据划分敏感性\\protocol.json",
+        "sha256": "bd876a338d64c8f5abb8154bf16b4faff6cea1edb74359cfe2c6539c94444871",
+        "bytes": 11858350,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 158,
+    "conclusion": "StepFinder正式双预设强对照；需报告同条件与更强历史结果，不用弱训练配置制造本文优势。",
+    "locations": [
+      "工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\compact_summary.json",
+        "sha256": "cba33139404b6e7e6f6393c31d48c67c25174541e60c69f248c63908faa610e8",
+        "bytes": 15522,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\main_decision_packet.json",
+        "sha256": "3247fc6257b6a8cf7d5a0db3ad632add832ee47f224ebfddac554f70ce86d3d1",
+        "bytes": 53869344,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\protocol.json",
+        "sha256": "0b98507d6dd82d926cad242580d4c0c6f0d2bb7edcb6c896aa02171d83a2c3dd",
+        "bytes": 3061593,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp158-author-preset-baseline\\实验\\实验158_StepFinder论文双预设强对照\\validation_selection_decisions.json",
+        "sha256": "eadd99ba97cff937c7e13cc5540ec4650e7d0a1f4b5a03bd734cf91b86105816",
+        "bytes": 72649,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 159,
+    "conclusion": "StepFinder强预设跨划分：coding150/156/159，agentic280/274/363；coding正差与agentic负差共同报告。",
+    "locations": [
+      "工作区\\1007-exp159-author-preset-splits\\实验\\实验159_论文强基线跨划分复验"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp159-author-preset-splits\\实验\\实验159_论文强基线跨划分复验\\compact_summary.json",
+        "sha256": "94639aa8b902d3d22a2409f0be09f66e57798f68ffe5818c1ba90f328f187b2a",
+        "bytes": 20963,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp159-author-preset-splits\\实验\\实验159_论文强基线跨划分复验\\main_decision_packet.json",
+        "sha256": "a0ac60da094d8eb4dba5b61b37d5c0e557ebd28a6d1220dd7fd137c812afc450",
+        "bytes": 15390995,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp159-author-preset-splits\\实验\\实验159_论文强基线跨划分复验\\protocol.json",
+        "sha256": "f3f98182eb8998673dec92c777d0ecf01a6fbcca5ad364df4e60d91277a3de92",
+        "bytes": 1867809,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp159-author-preset-splits\\实验\\实验159_论文强基线跨划分复验\\validation_selection_decisions.json",
+        "sha256": "5c515d952a4d21415b67d340f06e85b191f05562129f25a79bc6fabd09be5584",
+        "bytes": 47478,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 160,
+    "conclusion": "既有2155目标的种子/划分两个轴缓存诊断；不产生新预测/样本/显著性，方差与预算解释不能替代新确认。",
+    "locations": [
+      "工作区\\1007-exp160-cached-variation\\实验\\实验160_固定候选方差与预算诊断"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp160-cached-variation\\实验\\实验160_固定候选方差与预算诊断\\compact_summary.json",
+        "sha256": "213cb55e01b8dfcaf3f51b4f6f1cac1c62486a9cfd1accfc2d23e300c45eac07",
+        "bytes": 28603,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp160-cached-variation\\实验\\实验160_固定候选方差与预算诊断\\main_decision_packet.json",
+        "sha256": "ad4c79d3ac6363d46179d741a7f29e4b108c54370917070fc65168ba3115134d",
+        "bytes": 2914699,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp160-cached-variation\\实验\\实验160_固定候选方差与预算诊断\\task_persistence_summary.json",
+        "sha256": "774489092b79a100e68e2bca53bab40deaab1837f45630ac67332f4d3a7fb2c8",
+        "bytes": 18949,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 161,
+    "conclusion": "公共任务词汇近似事后分层；2769文本中无token序列完全同，coding363有338落<.2、25落.2–.5；不能据此断言无语义污染。",
+    "locations": [
+      "工作区\\1007-exp161-task-proximity\\实验\\实验161_公开任务近似与泛化边界"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp161-task-proximity\\实验\\实验161_公开任务近似与泛化边界\\compact_summary.json",
+        "sha256": "653a5810b847099bdc92bec240bbc51460dc42addb4ff3f704b4b91603fceddd",
+        "bytes": 13194,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp161-task-proximity\\实验\\实验161_公开任务近似与泛化边界\\main_decision_packet.json",
+        "sha256": "e373fee70011ff22c4b635be866a885cf64b17dc4a2cae12ad1f226ef3ab27ff",
+        "bytes": 181694,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 162,
+    "conclusion": "显式_attacked_solution.py/attacked标记覆盖审计；coding363为218题出现且首现都早于Gold，无单一标记即Gold；编码实际可见与因果利用仍未知。",
+    "locations": [
+      "工作区\\1007-exp162-marker-scope\\实验\\实验162_显式标记覆盖与成绩边界"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp162-marker-scope\\实验\\实验162_显式标记覆盖与成绩边界\\compact_summary.json",
+        "sha256": "7ecb955d3866f91f077236954fc35fcdde4347586010f46074c9cedd74f21329",
+        "bytes": 13260,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp162-marker-scope\\实验\\实验162_显式标记覆盖与成绩边界\\main_decision_packet.json",
+        "sha256": "cc8626d2292ce0cc9130e7c75285514851150b6cd3be48a3b6f33320f874b036",
+        "bytes": 79207,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 163,
+    "conclusion": "旧12题本文/SF/AA预算6均12；SWE-Search与DoVer完整方法决策各0，不可把其整池恒0当已完成强比较。",
+    "locations": [
+      "工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线\\audited_compact_summary.json",
+        "sha256": "2ec77775ebcf1d80b85c2f65f88be5f72713356e00e77ddcf6d05e1d4745ef8b",
+        "bytes": 5446,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线\\audited_main_decision_packet.json",
+        "sha256": "8d52e2c7a55ba3286dec8cb55b34c538e9d26ec740342c05f02353d8e1b7a85d",
+        "bytes": 5142714,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线\\compact_summary.json",
+        "sha256": "83283120fa417d701e92d13826766f186875558e051ff464844f245717d92340",
+        "bytes": 4288,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线\\exp163_final_scientific_decision_20261007.json",
+        "sha256": "1cb3edd8fd245a08704339bef0b53dab828097f64adb5475f3c6a314a8e551b0",
+        "bytes": 6258,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线\\main_decision_packet.json",
+        "sha256": "e0d681d56e77590bb1c150c03f951060d0003f090232d3ea915e83563087b0ae",
+        "bytes": 2404482,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线\\protocol.json",
+        "sha256": "6f433d6b5a8ad2447870a1e8f5b359721fee0edad52883fe3f8e77fb4dc0ce32",
+        "bytes": 96444,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp163-paper-baselines\\实验\\实验163_2025与2026完整论文恢复基线\\runtime_completion_audit.json",
+        "sha256": "f4a477807c358680350bd2a77fa3b10fd8885eb862a6111796b5b3061a760177",
+        "bytes": 67899,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 164,
+    "conclusion": "更深6前缀本文/SF/AA均6；SWE-Search已知3未知3、DoVer已知5未知1；同旧问题非新盲态。",
+    "locations": [
+      "工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\compact_summary.json",
+        "sha256": "3aa496a06345edeb7627660fb7ada66846ba6dad1acd024d5b9c7f12aaac58d4",
+        "bytes": 7913,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\corrected_compact_summary.json",
+        "sha256": "8d4047b85e482f138eb420308e58319d8bc6d2aae80c2a65cd9813807d139289",
+        "bytes": 8135,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\corrected_main_decision_packet.json",
+        "sha256": "7bfc395790e3e405e4c50a8fd0181593241bf5933bf549151577056c9c7e54cb",
+        "bytes": 267756,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\corrected_runtime_completion_audit.json",
+        "sha256": "02eb35ba186720c5a63338e51b439ba2c870a328c103908cbb4a7858c8252f8b",
+        "bytes": 91066,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\execution_handoff164.json",
+        "sha256": "907bad293222865d117c6dffe2dc0828ed117271460c09468b14650f6b90da8e",
+        "bytes": 3311,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\main_decision_packet.json",
+        "sha256": "b1a9d0296159bdc96b21de74be42f1ec83e3dc9290f5bb16ac53ea771fc631b6",
+        "bytes": 221412,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\protocol.json",
+        "sha256": "3b7ca1ce344da7f940b5bbd2d1068cb92814bb4a613200b3d596d3b75b8595d5",
+        "bytes": 57983,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp164-deeper-prefix\\实验\\实验164_更深失败前缀与论文方法比较\\runtime_completion_audit.json",
+        "sha256": "ff5b8ae6606a5cc0363bee43ddd3e5a7590ff6fd92c2f4611760aebdb9635f76",
+        "bytes": 76377,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 165,
+    "conclusion": "自然原始退化3状态，本文与SF各1成功/2失败，AA2容量未知；外部方法正常失败需与资格未知分开。",
+    "locations": [
+      "工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\compact_summary.json",
+        "sha256": "9dc676b6235df62370ebce30e556204a29c496c815d454ce03edb7f2393bac6d",
+        "bytes": 6474,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\execution_handoff.json",
+        "sha256": "8cf4d161ec5bfcde3c9629fac110e5e04c5effdbcc95ad5e406a655ffca78b83",
+        "bytes": 6758,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\main_decision_packet.json",
+        "sha256": "2df82c6a749db809470c6a50eb62d05fd2bc18d40baebade62964d2d0bcb9282",
+        "bytes": 124409,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\protocol.json",
+        "sha256": "9b25169b056a6f9b2285dad444ec9a231a6ea221b292d1c6c9aed52a657cfa4f",
+        "bytes": 29907,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp165-public-raw-regression\\实验\\实验165_公开原始轨迹自然退化与恢复\\runtime_completion_audit.json",
+        "sha256": "7f0d4b7e20b13fd3d8a2a6ea7a31c5e8b7d1d421af7dce4e60fe86f2ca309fc3",
+        "bytes": 32989,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 166,
+    "conclusion": "四论文目标未完成；本文固定10已知9成功7未知1，Agentless已知7成功0/3容量未知，SG-Agent未获实现资格；不能报告共同10完整胜出。",
+    "locations": [
+      "工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\main_decision_packet.json",
+        "sha256": "14ea12cb310f95daedd937c728ff18de63c4ee4a3bfb602617fcd355ea1f1a1f",
+        "bytes": 9657457,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\target_protocol.json",
+        "sha256": "c50dba0f88b2c7e227cde2c34ce551f51489fe9a2b7f7e1db87b40fb8c2468d7",
+        "bytes": 96217,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 167,
+    "conclusion": "两题single/joint各2成功，joint实际pair尝试0；Agentless两题正常0但只有一题可用patch+repro，未触发联合机制。",
+    "locations": [
+      "工作区\\1007-exp167-feasibility-first\\实验\\实验167_整流程试运行与联合恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp167-feasibility-first\\实验\\实验167_整流程试运行与联合恢复\\pilot_completion_packet.json",
+        "sha256": "cc1a26a4f48fb16bebbfdc322728eb627e7ed2236a9cdf656e95439dc99ed3ae",
+        "bytes": 2507728,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp167-feasibility-first\\实验\\实验167_整流程试运行与联合恢复\\pilot_protocol_and_sha.json",
+        "sha256": "54a2187e97c1d58bdd902b016b6b753b29eaf6be8fc480a29c65d1869bc269d7",
+        "bytes": 30914,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 168,
+    "conclusion": "SWE-Debate人工fixture真实63模型调用后缺pytest、MCTS无Finish；工程NA且未完整完成，不能填模型0或整体基线。",
+    "locations": [
+      "工作区\\1007-exp168-debate-gate\\实验\\实验168_2026论文整流程小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp168-debate-gate\\实验\\实验168_2026论文整流程小试\\full_core_gate.json",
+        "sha256": "a897997ff2ee2180da0aed72ffa2c805262c4062d0281a971e2087d2ebef88a5",
+        "bytes": 100249,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 169,
+    "conclusion": "44自然退化谓词未知、新合格0，joint机制未触发；资格与首4时限门失败，不产生新恢复比较。",
+    "locations": [
+      "工作区\\1007-exp169-qualified-expansion\\实验\\实验169_试运行后真实失败状态扩展"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp169-qualified-expansion\\实验\\实验169_试运行后真实失败状态扩展\\stage_completion_packet.json",
+        "sha256": "d1a9c39b881cc69787a975485d9bbe577b624c9be5fce9c574336581261eeeb6",
+        "bytes": 39223,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 170,
+    "conclusion": "DoVer原完整真实fixture入口缺失，按旧两分钟门退出，model/native0；未运行非0。",
+    "locations": [
+      "工作区\\1007-exp170-dover-gate\\实验\\实验170_DoVer完整入口快速资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp170-dover-gate\\实验\\实验170_DoVer完整入口快速资格\\entrypoint_gate_receipt.json",
+        "sha256": "60d42392d8caad6d753935c132172807715220546e82ae3d48b38d5c278a8eea",
+        "bytes": 4923,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 171,
+    "conclusion": "ReduceFix自有异常复现stdout有标记但合同识别未闭合，模型0、native2；工程NA非方法性能。",
+    "locations": [
+      "工作区\\1007-exp171-reducefix-public-crash\\实验\\实验171_ReduceFix公开异常完整小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp171-reducefix-public-crash\\实验\\实验171_ReduceFix公开异常完整小试\\gate_report.json",
+        "sha256": "264206f086929125b98a315ef1e77a0cae983e26bf3a3e1a129b036948b16059",
+        "bytes": 3147,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 172,
+    "conclusion": "七题single5/joint6/Agentless0，各7已知；有一次同状态native不一致，须解释后再归因，不能直接称pair机制因果胜出。",
+    "locations": [
+      "工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复\\main_completion_packet.json",
+        "sha256": "990b00595cb964db54d49da861667359a00ece039daf9a7b4bc0a83cd4503b57",
+        "bytes": 10566748,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp172-seven-task-joint\\实验\\实验172_七任务完整方法与联合恢复\\pilot_protocol_and_sha.json",
+        "sha256": "3a5a04ca8e115fdc62f273f916758f19dd0c65f83e43e965e89f90dcdf32e48f",
+        "bytes": 92291,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 173,
+    "conclusion": "只有设计/审查材料，未发现实际dispatch与结果；作为未运行登记，不补0。",
+    "locations": [],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1003-diagnosis-investigation\\exp132_review\\new_window_1959\\exp173_not_started_receipt.json",
+        "sha256": "622193f61548a685848576a2a17056bdde75a4b6db3778a424e0540e04b5b9f4",
+        "bytes": 823,
+        "kind": "not_run_design"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1003-diagnosis-investigation\\exp132_review\\new_window_1959\\exp173_sf_joint_control_frozen_design.json",
+        "sha256": "bc254d05057150d1696397d1663acccd0c4540b63a1341c27df1cc7a072cdb22",
+        "bytes": 8725,
+        "kind": "not_run_design"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 174,
+    "conclusion": "Flash Agentless与本文两题各2/2，证明该后端完整流程可行；不证明排序收益，也不是2026第二基线资格。",
+    "locations": [
+      "工作区\\1007-exp174-flash-feasibility\\实验\\实验174_Flash完整恢复可行性小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp174-flash-feasibility\\实验\\实验174_Flash完整恢复可行性小试\\finance_fake_gate174.json",
+        "sha256": "403ba43a1618edc365f045ee83ccfe924b72baa303b1e5418f4af0299e7337ad",
+        "bytes": 2469,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp174-flash-feasibility\\实验\\实验174_Flash完整恢复可行性小试\\first_task_gate.json",
+        "sha256": "4cfd02be7ed8172313d75825e2e12774949e80f8b0cad808465df90f5e07c273",
+        "bytes": 572,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp174-flash-feasibility\\实验\\实验174_Flash完整恢复可行性小试\\pilot_completion_packet.json",
+        "sha256": "a7906ed026a31a3cd90ebe0fb56554b71286eb79a3414eb91ae4101a06599124",
+        "bytes": 2208019,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp174-flash-feasibility\\实验\\实验174_Flash完整恢复可行性小试\\pilot_protocol_and_sha.json",
+        "sha256": "c95a3b724bf5afe13d0b47f74fe9d7072915e6d8429406d3033c8053bcdd62b4",
+        "bytes": 29643,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp174-flash-feasibility\\实验\\实验174_Flash完整恢复可行性小试\\second_task_gate.json",
+        "sha256": "35b584c5e48a79f31bd10dc7c458adbf2be07469356a61434c22c8c2106cf59c",
+        "bytes": 562,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 175,
+    "conclusion": "EnAgent N3首coder持续shell未知而未完成，工程UNKNOWN，不能把初态验收失败记作正常论文方法0。",
+    "locations": [
+      "工作区\\1008-exp175-enagent-feasibility\\实验\\实验175_EnAgent正式论文完整小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp175-enagent-feasibility\\实验\\实验175_EnAgent正式论文完整小试\\gate_seal_receipt.json",
+        "sha256": "161fd3b4a4a9b3fe46ae74878b981869e63d21a8ee167ea51be27279810d2fd6",
+        "bytes": 3808,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp175-enagent-feasibility\\实验\\实验175_EnAgent正式论文完整小试\\HANDOFF.txt",
+        "sha256": "8eb357dda9f9aea59e9afe20a640f07c0963ecaecc2cd3ce41e7e6c25df3311a",
+        "bytes": 5559,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp175-enagent-feasibility\\实验\\实验175_EnAgent正式论文完整小试\\pilot_completion_packet.json",
+        "sha256": "a2baa6567754ac8e65ae43a0fadd7561a339ef614dc2042e2b1143a9d1a55926",
+        "bytes": 54829,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp175-enagent-feasibility\\实验\\实验175_EnAgent正式论文完整小试\\pilot_protocol_and_sha.json",
+        "sha256": "c051aa3014996992ceb3931bf3721e4b3cf9d724e65010cec211a58d4cb6d830",
+        "bytes": 19807,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 176,
+    "conclusion": "六题18计划仅10实际；Agentless2成功/4已知，本文3/3已知、reverse3/3已知，用户中断保留未知；无完整六题优势。",
+    "locations": [
+      "工作区\\1008-exp176-flash-six-task\\实验\\实验176_Flash六任务完整恢复与排序证据控制"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp176-flash-six-task\\实验\\实验176_Flash六任务完整恢复与排序证据控制\\completion_packet176.json",
+        "sha256": "7cfa20967481a95bd994d054fc54063a9d679b73923373af12f77cfe64dd41eb",
+        "bytes": 230436,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp176-flash-six-task\\实验\\实验176_Flash六任务完整恢复与排序证据控制\\experiment_report176.txt",
+        "sha256": "d758f023f0e9b4a747b785a9dc3753410f8815eea86d050aaec3d046630f5389",
+        "bytes": 2414,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp176-flash-six-task\\实验\\实验176_Flash六任务完整恢复与排序证据控制\\pilot_protocol_and_sha.json",
+        "sha256": "b27acd78f592727cf9616d85d78749ac9736c50fc521a328df78e95e66571903",
+        "bytes": 78426,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 177,
+    "conclusion": "FramePilot/ADI真实24POST格式失败且guard/cwd/时限未闭合，整体UNKNOWN；未执行ADI或业务编辑，不记正常0。",
+    "locations": [
+      "工作区\\1008-exp177-framepilot-feasibility\\实验\\实验177_FramePilot_ADI完整恢复可行性"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp177-framepilot-feasibility\\实验\\实验177_FramePilot_ADI完整恢复可行性\\completion.json",
+        "sha256": "17f42130b3809f9bd5e71e6b68507a8d3da1a2e87eae3215b6c21e908068027a",
+        "bytes": 2471,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp177-framepilot-feasibility\\实验\\实验177_FramePilot_ADI完整恢复可行性\\completion_bundle.json",
+        "sha256": "161574ae6bdc6841426d9776e9a8a77a6730550d3cec658e42f7372a884c6146",
+        "bytes": 3588,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp177-framepilot-feasibility\\实验\\实验177_FramePilot_ADI完整恢复可行性\\completion_original_run.json",
+        "sha256": "d8bad267e3c5a791ce4e0df387f6f691d3fa818d8960e74b566d0fec03ee3865",
+        "bytes": 76407,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp177-framepilot-feasibility\\实验\\实验177_FramePilot_ADI完整恢复可行性\\HANDOFF.txt",
+        "sha256": "28e65affc7575a78b898e1ef9f1d5717e7915022faabc09e02ab72f47855d112",
+        "bytes": 1705,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 178,
+    "conclusion": "公平输出预算/诊断引导语义恢复小试；4流程容量门未通过，不能扩大为已具共同完整竞争资格。",
+    "locations": [
+      "工作区\\1008-exp178-fair-ranking-recovery\\实验\\实验178_公平输出预算与诊断引导语义恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp178-fair-ranking-recovery\\实验\\实验178_公平输出预算与诊断引导语义恢复\\capacity_gate178.json",
+        "sha256": "0888254da985136837db9374868bf068b6b2808e1873678173254130b5f69102",
+        "bytes": 1477,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp178-fair-ranking-recovery\\实验\\实验178_公平输出预算与诊断引导语义恢复\\protocol178.json",
+        "sha256": "bedae66826edcc00884909182aa822abdc280af82e78276858b5e942581b7d0a",
+        "bytes": 169785,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 179,
+    "conclusion": "USE-agent依赖与完整工具/guard门未闭合，模型/native0；不代表论文算法失败。",
+    "locations": [
+      "工作区\\1008-exp179-useagent-feasibility\\实验\\实验179_USEagent完整恢复小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp179-useagent-feasibility\\实验\\实验179_USEagent完整恢复小试\\completion.json",
+        "sha256": "07c8cb28dd5cd2846bbd5b6753fe74008a05e6755a7a0fb46824456f53149b66",
+        "bytes": 2368,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp179-useagent-feasibility\\实验\\实验179_USEagent完整恢复小试\\completion_bundle.json",
+        "sha256": "42c67ab828779e844ad430e2246bb6cf96b015fd08ff041d31d42096092065b5",
+        "bytes": 3236,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp179-useagent-feasibility\\实验\\实验179_USEagent完整恢复小试\\HANDOFF.txt",
+        "sha256": "5e29f646557319f8c22afed177c03c72f1ee3a6e717e480d96843e678bed3c72",
+        "bytes": 1603,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 180,
+    "conclusion": "ExpeRepair作者v1明确轻量variant，semantic memory helper未调用；不能自行补齐死代码后冒充完整双记忆论文。",
+    "locations": [
+      "工作区\\1008-exp180-experepair-core-gate\\实验\\实验180_ExpeRepair完整方法资格门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp180-experepair-core-gate\\实验\\实验180_ExpeRepair完整方法资格门\\completion.json",
+        "sha256": "595cfd0216d553f1d93d2fdb1d583a6a4d29114be2c28e156a088cd581663d25",
+        "bytes": 1974,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp180-experepair-core-gate\\实验\\实验180_ExpeRepair完整方法资格门\\completion_bundle.json",
+        "sha256": "7b62f55196a01ba6739605ac46a62ac9c80e42ef004f02804ccb8b1a4c96a9c9",
+        "bytes": 3404,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp180-experepair-core-gate\\实验\\实验180_ExpeRepair完整方法资格门\\HANDOFF.txt",
+        "sha256": "5d89d9b29c6bf3c6d6261d86199f369ddbdf07aef3b379c2ce792ac1ae996ca5",
+        "bytes": 2696,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 181,
+    "conclusion": "一题完整G成功/Agentless正常失败；两者都须正数的旧资格门未过只是管理标准，不可删除正常负例；没有G-vs-reverse/random。",
+    "locations": [
+      "工作区\\1008-exp181-complete-output-capacity\\实验\\实验181_完整输出与公开反馈投影容量"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp181-complete-output-capacity\\实验\\实验181_完整输出与公开反馈投影容量\\capacity_gate181.json",
+        "sha256": "1b0ae0e3ebabe520cee1fdbceb2cdcb9222b01c6c62cae95b4de1e2c02200abf",
+        "bytes": 806,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp181-complete-output-capacity\\实验\\实验181_完整输出与公开反馈投影容量\\completion_packet181.json",
+        "sha256": "728f426a3a5edec8c3c4216a597a0144946cd14fbeec9ef1578b2d9364a36c59",
+        "bytes": 3455,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp181-complete-output-capacity\\实验\\实验181_完整输出与公开反馈投影容量\\protocol181.json",
+        "sha256": "9dd1eef5a39fc8e2ee592ab827f27a5fbab6073d654fbef72dfd400a2df3dfc0",
+        "bytes": 171139,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 182,
+    "conclusion": "Lingxi v1.5存在，版本/知识资产与题目disjoint未闭合；不能称无版本或直接把历史knowledge判Gold。",
+    "locations": [
+      "工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\1f2e5dc4_README.md",
+        "sha256": "7abe9aac44842e2ac5696cde4e6e0c23b6b94c40a51d8c0b19db5cadfaa2c802",
+        "bytes": 11098,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\9a79aad2_README.md",
+        "sha256": "da2f560726f6e70791af5f88899b063eb9b3b6bc591090a0f2253e139c5d2352",
+        "bytes": 30477,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\completion.json",
+        "sha256": "6547891c7927faf8b78d1a35723ca9bbf1570867cf86409913250446ee4c4982",
+        "bytes": 2201,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\completion_bundle.json",
+        "sha256": "565cc3c2647abdf945db05b188279cc18c9b1583940a8865d3884fd41371fc92",
+        "bytes": 3644,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\HANDOFF.txt",
+        "sha256": "11f614402fe965b4d2d3db185bd0ff1f499eb5c468a856c48122263a110711f8",
+        "bytes": 1904,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\knowledge_asset_gate.json",
+        "sha256": "717cd7590b51783a97c015f6466e39f47c4a8250dc5451c7494898bb4e644628",
+        "bytes": 13279,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\native_public_scope_gate.json",
+        "sha256": "7d14860d22914f33f04e33b4dec77f289046230623d08b2b13f6ae098e81265c",
+        "bytes": 7266,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\readme_history_metadata.json",
+        "sha256": "9a9842aeb3b5e58b6d02d66e46e8e8bcc49b63a88941496564692d86dab2feac",
+        "bytes": 1861,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\version_gate.json",
+        "sha256": "4a99c9d4c7725d4995029e167580917cf7636b9f6cff08d8b1d1587344c7fffc",
+        "bytes": 7753,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp182-lingxi-v15-gate\\实验\\实验182_Lingxi论文版本与知识资产资格\\zenodo_replication_README.md",
+        "sha256": "014801fe1ac70f6dd593e4b11a1de989614474da8051cea523ca7ce2a863d8dd",
+        "bytes": 33376,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 183,
+    "conclusion": "12题48流程仅9结果，7已知5成功2失败、2未知39未运行；7081 G/reverse各成功random败，5286三顺序首证据同，无整体排序优势。",
+    "locations": [
+      "工作区\\1008-exp183-fixed12-complete-main\\实验\\实验183_固定十二题完整恢复与排序对照"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp183-fixed12-complete-main\\实验\\实验183_固定十二题完整恢复与排序对照\\completion_packet183.json",
+        "sha256": "e7a9b79b62a48acb4f9a252c0b283fb37bf60c78fc3737b52b707a266af53ad4",
+        "bytes": 11891,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp183-fixed12-complete-main\\实验\\实验183_固定十二题完整恢复与排序对照\\protocol183.json",
+        "sha256": "efdf11c5e1fb458e1ef8ba28a42c022cb60e790a140ff084507dd878eba39ede",
+        "bytes": 174930,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 184,
+    "conclusion": "ReCreate完整fake/native接线未在20min闭合，模型/native0；仅源草稿，不是READY或性能0。",
+    "locations": [
+      "工作区\\1008-exp184-recreate-native-core-gate\\实验\\实验184_ReCreate完整演化与原生公开反馈资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp184-recreate-native-core-gate\\实验\\实验184_ReCreate完整演化与原生公开反馈资格\\advisory_gate_SHA_reverification.json",
+        "sha256": "8d0ab18b7631e7b0098401b5c021cf016b22a825f364e40f6f5ce69aac3abcb3",
+        "bytes": 5277,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp184-recreate-native-core-gate\\实验\\实验184_ReCreate完整演化与原生公开反馈资格\\completion.json",
+        "sha256": "d31c7b31af361131bbe2ba2bda6a8654ef85ca2e31277b18c81199ab7501c5d3",
+        "bytes": 1750,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp184-recreate-native-core-gate\\实验\\实验184_ReCreate完整演化与原生公开反馈资格\\completion_bundle.json",
+        "sha256": "5ddb98ac360a01d352de895965c32bf98dcf5b4e4211d6e8d89640743ef3dd6f",
+        "bytes": 3115,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp184-recreate-native-core-gate\\实验\\实验184_ReCreate完整演化与原生公开反馈资格\\HANDOFF.txt",
+        "sha256": "460f34f8c6cadd8febfc8e5981b7cac72c96cc36fbb26991499b42c619fbfe04",
+        "bytes": 1987,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 185,
+    "conclusion": "无损反馈/9初请求容量纯门通过，其余39及动态未来上下文未知；不构成完整控制器效果。",
+    "locations": [
+      "工作区\\1008-exp185-lossless-feedback-local-readiness\\实验\\实验185_公开反馈无损去重与本地完整上下文资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp185-lossless-feedback-local-readiness\\实验\\实验185_公开反馈无损去重与本地完整上下文资格\\actual_context_gate185.json",
+        "sha256": "47ef45af26d6d67e867c6990236cc856c6b4b7a118202f0b574eb5861d567f6d",
+        "bytes": 14071,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp185-lossless-feedback-local-readiness\\实验\\实验185_公开反馈无损去重与本地完整上下文资格\\completion_packet185.json",
+        "sha256": "66071838147a90b5a4534d77b1add3e6756f6a6ebd0dc469311ddf6af67b6d17",
+        "bytes": 6588,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp185-lossless-feedback-local-readiness\\实验\\实验185_公开反馈无损去重与本地完整上下文资格\\HANDOFF185.txt",
+        "sha256": "df22cd9278346a240683706663cac3abd31965704d078327037fe274a1defe0c",
+        "bytes": 788,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 186,
+    "conclusion": "CodeStruct原循环自有literal六步机械成功；真实Qwen工具调用/历史恢复未知，不占竞争论文基线。",
+    "locations": [
+      "工作区\\1008-exp186-codestruct-whole-native-gate\\实验\\实验186_CodeStruct完整SWEagent与原生工具资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp186-codestruct-whole-native-gate\\实验\\实验186_CodeStruct完整SWEagent与原生工具资格\\completion_bundle.json",
+        "sha256": "a5d5013a2dd4061879cde4f4dd4bd0eef9054576fb986ffb8bd8ff0b524b2370",
+        "bytes": 674,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp186-codestruct-whole-native-gate\\实验\\实验186_CodeStruct完整SWEagent与原生工具资格\\gate_closed.json",
+        "sha256": "24dbc5fe688ca14de5e9d58ba641db52c88fd135456f23e413f0ae49bbeb7dec",
+        "bytes": 493,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp186-codestruct-whole-native-gate\\实验\\实验186_CodeStruct完整SWEagent与原生工具资格\\gate_failure.json",
+        "sha256": "d648bd40e1ff234528447f17c61d5394969ad9c4d0ef642c39219a46d581fd90",
+        "bytes": 1020,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp186-codestruct-whole-native-gate\\实验\\实验186_CodeStruct完整SWEagent与原生工具资格\\HANDOFF.txt",
+        "sha256": "18c0eb717df729e23393480325b97decae240b880ceee366cc752bbe4e76d33c",
+        "bytes": 1665,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 187,
+    "conclusion": "本地两题Agentless0/2、G0/2为已知生成负结果，但G一core不全；35真实响应，无可用非零资格，不外推后端普遍无能力。",
+    "locations": [
+      "工作区\\1008-exp187-local-whole-issue-query-capacity\\实验\\实验187_本地完整恢复与作者Issue检索小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp187-local-whole-issue-query-capacity\\实验\\实验187_本地完整恢复与作者Issue检索小试\\completion_packet187.json",
+        "sha256": "589d4e553b278bda06814a56a10bb41e9ad3f9c1dac45aef594f47eb4c8db5cc",
+        "bytes": 3189749,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp187-local-whole-issue-query-capacity\\实验\\实验187_本地完整恢复与作者Issue检索小试\\HANDOFF187.txt",
+        "sha256": "c9f74fef496a274bef46aca7780f639334bc201bd919f5c984712135579505cc",
+        "bytes": 1161,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp187-local-whole-issue-query-capacity\\实验\\实验187_本地完整恢复与作者Issue检索小试\\prepaid_gate187.json",
+        "sha256": "3177f33caca547468b152cc77b858992de524bacd635b709414cf84a22927edb",
+        "bytes": 366301,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp187-local-whole-issue-query-capacity\\实验\\实验187_本地完整恢复与作者Issue检索小试\\protocol187.json",
+        "sha256": "4bced89b95da778c544425350a63d4f2b990744f5c08a9b50ebc83989487695c",
+        "bytes": 176401,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 188,
+    "conclusion": "CodeStruct一题真实3call无tool_calls为正常失败，第二题private-name门未POST且未完成最终验收为未知；不得写0/2。",
+    "locations": [
+      "工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试\\completion_bundle.json",
+        "sha256": "55ec86aa05dad51c78b35c19372ab00985628eeddae4f0d400cf915e682df669",
+        "bytes": 2635,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试\\gate_closed.json",
+        "sha256": "2fe2826f823ac028aeb4dafa0d183b09f9005c742b83eb9d8b088a1b74d7fc59",
+        "bytes": 255,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试\\HANDOFF.txt",
+        "sha256": "f09d5af11321ffd4e1f218a81ece53d2f570e9f1ce3280d9775312fbe016bb60",
+        "bytes": 2846,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试\\protocol188.json",
+        "sha256": "9a211e320a4042816764e526c6894a9055e858e88bce5b9cbbd6a00092249d5f",
+        "bytes": 7602,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试\\protocol_before_repair_no_model188.json",
+        "sha256": "73accef1284916b3ba528d04bd933d4a2f81fc9058065660bf700d8bb2a04b3a",
+        "bytes": 7291,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试\\protocol_runtime_source_match188.json",
+        "sha256": "d2b73c3d9a38b67a795731b22b81574580ee1931bef4b109d51815b07c074f58",
+        "bytes": 4233,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp188-codestruct-local-actual-pilot\\实验\\实验188_CodeStruct完整本地恢复实际小试\\second_flow_gate_defect188.json",
+        "sha256": "1122195fd756a337b5ffe818c3fe033753c7ae9b3fa46a48675e8816014e06cd",
+        "bytes": 967,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 189,
+    "conclusion": "23历史issue/42cuts资格：READY4、noRegression21、保留不足3、UNKNOWN11、提前已有READY而未运行3；只新增3历史问题，不是新盲。",
+    "locations": [
+      "工作区\\1008-exp189-public-prefix-state-expansion\\实验\\实验189_现有公开前缀与真实失败状态扩展"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp189-public-prefix-state-expansion\\实验\\实验189_现有公开前缀与真实失败状态扩展\\completion_packet189.json",
+        "sha256": "0a00e1e54166a0dec92fbe7ab81ce5926ba4448d0d1d53a0ddfc4458d5494633",
+        "bytes": 35227,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp189-public-prefix-state-expansion\\实验\\实验189_现有公开前缀与真实失败状态扩展\\completion_packet189.raw_runtime.json",
+        "sha256": "0dd70fb2911edb6a54b5b3ee61e5b8e8fcca2c341080ff8f22b7e5812e89e070",
+        "bytes": 1257140,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp189-public-prefix-state-expansion\\实验\\实验189_现有公开前缀与真实失败状态扩展\\HANDOFF189.txt",
+        "sha256": "6077256234ab2ec6da697b5decdb843491c19ab24f63a472ce8c6eb5888d7b6f",
+        "bytes": 1395,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp189-public-prefix-state-expansion\\实验\\实验189_现有公开前缀与真实失败状态扩展\\protocol189.json",
+        "sha256": "58ce51cfbcbc27bbbbf64fbbf8dd83ac5444c550657b363e1ce116bccda0e1ee",
+        "bytes": 8930,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 190,
+    "conclusion": "BOAD源import通过但自有native缺pytest；工程未完成、model0，不能算论文方法0。",
+    "locations": [
+      "工作区\\1008-exp190-boad-whole-native-core-gate\\实验\\实验190_BOAD完整搜索层级与原生公开资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp190-boad-whole-native-core-gate\\实验\\实验190_BOAD完整搜索层级与原生公开资格\\completion_bundle.json",
+        "sha256": "dc2bfc14e3f8b1fef7c362c457e62966a1dc2f6993f8429c8be18121d79c586f",
+        "bytes": 537,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp190-boad-whole-native-core-gate\\实验\\实验190_BOAD完整搜索层级与原生公开资格\\gate_closed.json",
+        "sha256": "a747b1a68fbcc2e6406dd706a75be74c96a8ebacc75754585b17c771c83dcc4d",
+        "bytes": 160,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp190-boad-whole-native-core-gate\\实验\\实验190_BOAD完整搜索层级与原生公开资格\\HANDOFF.txt",
+        "sha256": "cf22b19b4d02b09a96582d4b1174f34475be2673394a5d3dabe9f6db2b5abb2c",
+        "bytes": 2980,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 191,
+    "conclusion": "15题G输入和135初body容量通过，新3题有真实AF15推断；一合成schema响应，只是接口门，不证明历史恢复。",
+    "locations": [
+      "工作区\\1008-exp191-public-rank-output-interface\\实验\\实验191_十五题公开排序与约束输出接口资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp191-public-rank-output-interface\\实验\\实验191_十五题公开排序与约束输出接口资格\\completion_packet191.json",
+        "sha256": "970754a3686a0d89c2c27675bebad442b5b41824b471e0941071b85e674e2088",
+        "bytes": 6685,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp191-public-rank-output-interface\\实验\\实验191_十五题公开排序与约束输出接口资格\\HANDOFF191.txt",
+        "sha256": "4b1b665c0b01b9cd041e286a80dbed05127fda135a27ed1fc6280f30b71e7daa",
+        "bytes": 1435,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp191-public-rank-output-interface\\实验\\实验191_十五题公开排序与约束输出接口资格\\synthetic_private_body_gate191.json",
+        "sha256": "9c81467f09152fb689a1bc15791d31aadde8c0381066cec49e487301d9c91125",
+        "bytes": 782,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 192,
+    "conclusion": "两题六流程18响应原报告多schema不符，后查response_format.schema错误嵌套；意图方法实现资格失败，不能否定正确wire模型。",
+    "locations": [
+      "工作区\\1008-exp192-new2-constrained-semantic-pilot\\实验\\实验192_新增两题同排序预算约束语义恢复小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp192-new2-constrained-semantic-pilot\\实验\\实验192_新增两题同排序预算约束语义恢复小试\\completion_packet192.json",
+        "sha256": "c847335741006edf6fa6a7406c5860a94fa61fdb011002921488f7564dd8ec7b",
+        "bytes": 11746,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp192-new2-constrained-semantic-pilot\\实验\\实验192_新增两题同排序预算约束语义恢复小试\\completion_packet192.raw_runtime.json",
+        "sha256": "c2bdf87b09d018304737d8c002d35ed82668e79c46fc6f5601cd9302fdcd924a",
+        "bytes": 5123,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp192-new2-constrained-semantic-pilot\\实验\\实验192_新增两题同排序预算约束语义恢复小试\\executable_source_seal192.json",
+        "sha256": "a2ec9b7e086c6cf684a2beb003ddc4592a329ef3e29fb4b388d26b9745819b4b",
+        "bytes": 3928,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp192-new2-constrained-semantic-pilot\\实验\\实验192_新增两题同排序预算约束语义恢复小试\\HANDOFF192.txt",
+        "sha256": "10f796a8e968777ee2d73455e14c79e0cd9c9a18741e213e70b75bbfd4b4e4e7",
+        "bytes": 3498,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp192-new2-constrained-semantic-pilot\\实验\\实验192_新增两题同排序预算约束语义恢复小试\\historical_prepaid_gate192.json",
+        "sha256": "69037942e09cbbbc577ec828665e62efe97df8834b25a3d0f14c9b8a80b6285b",
+        "bytes": 324,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 193,
+    "conclusion": "TestPrune与INTENTFIX静态资格不足：前者需完整actor组合，后者公开实现不支持共同Python仓库控制；不是世界无可用方法。",
+    "locations": [
+      "工作区\\1008-exp193-new2026-public-whole-source\\实验\\实验193_新2026整体方法公开源码与共同域资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp193-new2026-public-whole-source\\实验\\实验193_新2026整体方法公开源码与共同域资格\\candidate_gate193.json",
+        "sha256": "9a711be0bab19c19c2ef45d8874e9d5bddea8f3de01f62b8ffd0d1a5fa40035c",
+        "bytes": 7406,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp193-new2026-public-whole-source\\实验\\实验193_新2026整体方法公开源码与共同域资格\\completion_bundle193.json",
+        "sha256": "240a2a4f52f41cbf9e4f7fdaa3b9f743fbaccf5c05f758eba3a70db0a83a01b2",
+        "bytes": 1135,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp193-new2026-public-whole-source\\实验\\实验193_新2026整体方法公开源码与共同域资格\\gate_closed193.json",
+        "sha256": "6c2e248a0fbc517ad4ed3587bc07befec275a8790922d7288da08709c84cd39e",
+        "bytes": 683,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp193-new2026-public-whole-source\\实验\\实验193_新2026整体方法公开源码与共同域资格\\HANDOFF193.txt",
+        "sha256": "a333ebd863cea2a90047eac6a720512399002ef4911a9612895ff7169a3bcd8e",
+        "bytes": 4126,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp193-new2026-public-whole-source\\实验\\实验193_新2026整体方法公开源码与共同域资格\\report_validation_repair193.json",
+        "sha256": "af115f5c4a12cb2fa7aacd9804889b10e00ad7fb2fb8c8ae92e4cb1b210fbe7b",
+        "bytes": 609,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 194,
+    "conclusion": "正确response_format.json_schema.schema一合成响应通过；不修改192原成绩，也不证明历史能力。",
+    "locations": [
+      "工作区\\1008-exp194-correct-schema-wire-synthetic\\实验\\实验194_正确运行时约束字段单次合成接口门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp194-correct-schema-wire-synthetic\\实验\\实验194_正确运行时约束字段单次合成接口门\\completion_packet194.json",
+        "sha256": "1479c2e1976715bea94ee43443252eabed368b4f76331f626fabec212ed3e9ef",
+        "bytes": 7856,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp194-correct-schema-wire-synthetic\\实验\\实验194_正确运行时约束字段单次合成接口门\\HANDOFF194.txt",
+        "sha256": "d88069085ed5b991c64c3981668663998af4db5fe3a29e7a9b102fcf98287c73",
+        "bytes": 1848,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp194-correct-schema-wire-synthetic\\实验\\实验194_正确运行时约束字段单次合成接口门\\synthetic_private_source_gate194.json",
+        "sha256": "4c20c3332b9f3bf64930fb9a9ca39425a6de6389dbc53fc6b2ec51214ab0d4ab",
+        "bytes": 655,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 195,
+    "conclusion": "AOrchestra公开完整SWE变体存在；旧动态四元组强门T不满足，不能因此否定作者fixed-ACI版本。",
+    "locations": [
+      "工作区\\1008-exp195-aorchestra-source-whole-gate\\实验\\实验195_AOrchestra正式整体方法源码与公共域资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp195-aorchestra-source-whole-gate\\实验\\实验195_AOrchestra正式整体方法源码与公共域资格\\candidate_gate195.json",
+        "sha256": "19c254c336c4e580127c73d178de00aad90b855e101abe57ae766950e250a66a",
+        "bytes": 3588,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp195-aorchestra-source-whole-gate\\实验\\实验195_AOrchestra正式整体方法源码与公共域资格\\completion_bundle195.json",
+        "sha256": "1d906d60e31970fe2982b7b6be5f45c5cf4ec280e98dedbf795199d7c04b0202",
+        "bytes": 1067,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp195-aorchestra-source-whole-gate\\实验\\实验195_AOrchestra正式整体方法源码与公共域资格\\gate_closed195.json",
+        "sha256": "6c10424433a2ec549224ec69a347f573282543dc4abbb2a3bc93c39ef770d9d0",
+        "bytes": 691,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp195-aorchestra-source-whole-gate\\实验\\实验195_AOrchestra正式整体方法源码与公共域资格\\HANDOFF195.txt",
+        "sha256": "dda994914f16192fed35f94444c60b61726dc70cecc3bbb84ec473da8f2b3bd3",
+        "bytes": 8079,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 196,
+    "conclusion": "正确wire下5980完整首body超容量，三流程未生成/null；缺少精确token值，保留unknown，不填0/1。",
+    "locations": [
+      "工作区\\1008-exp196-remaining-new5980-correct-wire-capacity\\实验\\实验196_剩余新增历史题正确约束接口完整容量小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp196-remaining-new5980-correct-wire-capacity\\实验\\实验196_剩余新增历史题正确约束接口完整容量小试\\completion_packet196.json",
+        "sha256": "fd376de38791a9ad1370971d845f5901b851881c7dbe48d4b72dfcf51f85297c",
+        "bytes": 4776,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp196-remaining-new5980-correct-wire-capacity\\实验\\实验196_剩余新增历史题正确约束接口完整容量小试\\completion_packet196.raw_runtime.json",
+        "sha256": "8365fd4e20c458c5effaaa3a234cbc622695385bc0744006dbea17b30a3b4baf",
+        "bytes": 2074,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp196-remaining-new5980-correct-wire-capacity\\实验\\实验196_剩余新增历史题正确约束接口完整容量小试\\executable_source_seal196.json",
+        "sha256": "054c8d8a0b33dd5d8aec4c03cc68d6b2c629110f491ad9ba741f44cfa34b10bc",
+        "bytes": 2368,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp196-remaining-new5980-correct-wire-capacity\\实验\\实验196_剩余新增历史题正确约束接口完整容量小试\\HANDOFF196.md",
+        "sha256": "999d80d4467c66554fa57f317b64744e3ef15f6d2e454a882d61958b95d2aece",
+        "bytes": 3387,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 197,
+    "conclusion": "AOrchestra作者fixed-ACI/SWE原core在合成fake流程运行，但native身份/时限门未闭合；未知非论文性能。",
+    "locations": [
+      "工作区\\1008-exp197-aorchestra-author-swe-native-gate\\实验\\实验197_AOrchestra作者SWE固定ACI完整原生机械门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp197-aorchestra-author-swe-native-gate\\实验\\实验197_AOrchestra作者SWE固定ACI完整原生机械门\\completion_bundle197.json",
+        "sha256": "4396c1d3b8605383588d931244e454d0e7b2ae114fda3a7fb1ec2228ee7f399c",
+        "bytes": 1130,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp197-aorchestra-author-swe-native-gate\\实验\\实验197_AOrchestra作者SWE固定ACI完整原生机械门\\gate_closed197.json",
+        "sha256": "308f676311ac6c81c25510782ad1049ebfa08b0714ba534065ac5109be68497d",
+        "bytes": 832,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp197-aorchestra-author-swe-native-gate\\实验\\实验197_AOrchestra作者SWE固定ACI完整原生机械门\\HANDOFF197.txt",
+        "sha256": "5c0a066a25746d1f0f02d01e6a34f27d7ef7de3bd4c8c98244f46495078113c7",
+        "bytes": 7293,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 198,
+    "conclusion": "自有解释器/guard三native资格，人工controlled correct不是模型或历史恢复；边界仅作用于固定Python入口。",
+    "locations": [
+      "工作区\\1008-exp198-native-self-identity-resource\\实验\\实验198_自有合成原生解释器启动身份与守卫资源门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp198-native-self-identity-resource\\实验\\实验198_自有合成原生解释器启动身份与守卫资源门\\HANDOFF198.txt",
+        "sha256": "d9c3dbd4e856bf0f5bd4557f6d470672bb67025a1b67b13fb0b861154e83491d",
+        "bytes": 4274,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp198-native-self-identity-resource\\实验\\实验198_自有合成原生解释器启动身份与守卫资源门\\wrapper_source_seal198.json",
+        "sha256": "e4156d80f2ff5ab3f6a7f30e228772ebab7ccac93dbef010e0d0446b2c8d648a",
+        "bytes": 749,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 199,
+    "conclusion": "两历史题六流程正确schema18响应全部合规，但14可解析补丁全无唯一old span，6正常MODEL_SEMANTIC_FAILURE；格式成功不等于语义可执行。",
+    "locations": [
+      "工作区\\1008-exp199-two-moto-qualified-bootstrap\\实验\\实验199_两题正确接口与已验证启动路径完整恢复小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp199-two-moto-qualified-bootstrap\\实验\\实验199_两题正确接口与已验证启动路径完整恢复小试\\before_native_source_seal199.json",
+        "sha256": "bf2e4fddb0a322ce8353728c90e317c60c695015254925b7dfe112a82bcd713a",
+        "bytes": 2969,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp199-two-moto-qualified-bootstrap\\实验\\实验199_两题正确接口与已验证启动路径完整恢复小试\\completion_packet199.json",
+        "sha256": "3494369f48c7c72a11215713be29c0d4467abaad64f6dda93f6a0c232e2ddb23",
+        "bytes": 6063,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp199-two-moto-qualified-bootstrap\\实验\\实验199_两题正确接口与已验证启动路径完整恢复小试\\executable_source_seal199.json",
+        "sha256": "cdadd9211df19f518a69cfcc5c27232cfbb50847770917fc212bded572358e4d",
+        "bytes": 3106,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp199-two-moto-qualified-bootstrap\\实验\\实验199_两题正确接口与已验证启动路径完整恢复小试\\HANDOFF199.md",
+        "sha256": "e97fc14e2fbe6a3a4c0971e67c8b6396957f9653adf370bbf2ad1cb4b31a10dc",
+        "bytes": 4267,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp199-two-moto-qualified-bootstrap\\实验\\实验199_两题正确接口与已验证启动路径完整恢复小试\\historical_prepaid_gate199.json",
+        "sha256": "db50e50f3025c1980851b1117a9122ce738401bf93351756047cecbd15bf7e1a",
+        "bytes": 324,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 200,
+    "conclusion": "TestPrune＋Agentless明确完整source graph候选；pin与论文exact actor不完全可证，静态资格不等于真实效果。",
+    "locations": [
+      "工作区\\1008-exp200-testprune-whole-public-assembly\\实验\\实验200_TestPrune作者完整组合与公开域适配源码资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp200-testprune-whole-public-assembly\\实验\\实验200_TestPrune作者完整组合与公开域适配源码资格\\candidate_gate200.json",
+        "sha256": "bed157e9bd32c6527778d82aff109e3c84a8bc0092703abca9a5be73a45475cb",
+        "bytes": 3115,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp200-testprune-whole-public-assembly\\实验\\实验200_TestPrune作者完整组合与公开域适配源码资格\\completion_bundle200.json",
+        "sha256": "d7511122bd582968141a15a456a5e0b221485f22e06dd075d79bdfc3d7e72cde",
+        "bytes": 1072,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp200-testprune-whole-public-assembly\\实验\\实验200_TestPrune作者完整组合与公开域适配源码资格\\gate_closed200.json",
+        "sha256": "6b5a1a0419c72c33b8d85600ce2349688b6eca3766305f3ff48835b751ea68a0",
+        "bytes": 716,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp200-testprune-whole-public-assembly\\实验\\实验200_TestPrune作者完整组合与公开域适配源码资格\\HANDOFF200.txt",
+        "sha256": "b1a869ba24f140625c6359e484a42c15a41c93c9b60cd756e49b6676183ff0e8",
+        "bytes": 7762,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp200-testprune-whole-public-assembly\\实验\\实验200_TestPrune作者完整组合与公开域适配源码资格\\next_native_protocol_proposal200.json",
+        "sha256": "4137d8a9695e6b0b5637cfb807a3bb4ee46b6f2f8e88c1097038e81f01f69176",
+        "bytes": 7966,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp200-testprune-whole-public-assembly\\实验\\实验200_TestPrune作者完整组合与公开域适配源码资格\\substantive_decision200.json",
+        "sha256": "ed067ce616422a5d17061fa8fcf8ead80938b5e35a9a545059f582309b90baad",
+        "bytes": 1115,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 201,
+    "conclusion": "Agentless原stdout复现标记与TestPrune退出码层合同门6自有场景通过；仅接线，非历史恢复。",
+    "locations": [
+      "工作区\\1008-exp201-native-reproduction-contract\\实验\\实验201_原复现标记到真实退出码的公开原生合同门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp201-native-reproduction-contract\\实验\\实验201_原复现标记到真实退出码的公开原生合同门\\HANDOFF201.md",
+        "sha256": "f8fc326bbe45fc5a45ffe1f2b46cd6ada0a119490075ca26c7c51ad25976e6a7",
+        "bytes": 4670,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp201-native-reproduction-contract\\实验\\实验201_原复现标记到真实退出码的公开原生合同门\\source_seal201.json",
+        "sha256": "8bb19405b88cbf24cba1f669dcdf9f3e934bb5bb71d466fb55f420a78317e6d4",
+        "bytes": 1048,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 202,
+    "conclusion": "TestPrune+Agentless完整fake机械链在Unix后处理等未闭合；最小测试/core部分确实运行，但整体UNKNOWN。",
+    "locations": [
+      "工作区\\1008-exp202-testprune-whole-native-fake\\实验\\实验202_TestPrune完整组合公开原生机械资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp202-testprune-whole-native-fake\\实验\\实验202_TestPrune完整组合公开原生机械资格\\gate_closed202.json",
+        "sha256": "0f654156fa65dba4748f871d7198599f52c9173840f0b4072926e10768abed92",
+        "bytes": 392,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp202-testprune-whole-native-fake\\实验\\实验202_TestPrune完整组合公开原生机械资格\\HANDOFF202.txt",
+        "sha256": "ef12a14044ae8526afc68155bd38bb2d8f05e5cd9cf29301a097fab61c81f466",
+        "bytes": 5436,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 203,
+    "conclusion": "AST/token单原子逆改原型首native截止错过，算法和native全0；代码断言不能当已验收。",
+    "locations": [
+      "工作区\\1008-exp203-ast-atomic-inverse-prototype\\实验\\实验203_公开AST原子逆变换保留独立改动原生原型"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp203-ast-atomic-inverse-prototype\\实验\\实验203_公开AST原子逆变换保留独立改动原生原型\\HANDOFF203.md",
+        "sha256": "920c0fe07db31cf7a28eeca7a6b1642dad633c6e9515b1aef471bb8c7bec94fa",
+        "bytes": 2751,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 204,
+    "conclusion": "AIR自有安全事故fake完整机制链，原DSL/检测/修复/学习实跑；不等于15软件功能恢复共同域资格。",
+    "locations": [
+      "工作区\\1008-exp204-air-whole-codeagent-native\\实验\\实验204_AIR完整代码代理事件恢复原生机械门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp204-air-whole-codeagent-native\\实验\\实验204_AIR完整代码代理事件恢复原生机械门\\gate_closed204.json",
+        "sha256": "098416b0b4291c80d50e353088abf17bd57ef4330a15aed811d2d8824fc2fb13",
+        "bytes": 593,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp204-air-whole-codeagent-native\\实验\\实验204_AIR完整代码代理事件恢复原生机械门\\HANDOFF204.txt",
+        "sha256": "a419d845b304a8e5992ebc97e77e414de5468fb5b888bf6a1d52b94ff25232bc",
+        "bytes": 7863,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp204-air-whole-codeagent-native\\实验\\实验204_AIR完整代码代理事件恢复原生机械门\\source_candidate_gate.json",
+        "sha256": "d4f588a7e85777cda744977dd7864fe25089594e2573eaa9533aeead854af082",
+        "bytes": 5496,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp204-air-whole-codeagent-native\\实验\\实验204_AIR完整代码代理事件恢复原生机械门\\source_HANDOFF.txt",
+        "sha256": "1c9c9a9172063f20ba482c8f8f301e9f6316e107261adcfceaf9d9391ff06799",
+        "bytes": 1051,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 205,
+    "conclusion": "203原封存算法在自有单例接口名部分逆改成功，保留后来keeper5*x；只证明这个结构化场景，非自然任务/通用语义独立。",
+    "locations": [
+      "工作区\\1008-exp205-immutable-atomic-native-acceptance\\实验\\实验205_已封存原子逆改源码单次原生验收"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp205-immutable-atomic-native-acceptance\\实验\\实验205_已封存原子逆改源码单次原生验收\\HANDOFF205.md",
+        "sha256": "8b93586a0cccf4f6b9da1acf25600c04dadd48ddf76e14a108464ec76ea8410b",
+        "bytes": 3476,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp205-immutable-atomic-native-acceptance\\实验\\实验205_已封存原子逆改源码单次原生验收\\selected_private_aggregate203.json",
+        "sha256": "4fdf3f8e53d0fdc50acac2665e63213e70b15738689ec88ad5f0b8c38d198408",
+        "bytes": 112,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp205-immutable-atomic-native-acceptance\\实验\\实验205_已封存原子逆改源码单次原生验收\\wrapper_source_seal203.json",
+        "sha256": "39f8751e60f24fc65b9a503aff684c7fdee2ff29f6c288a69afb3e121b1c3919",
+        "bytes": 931,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 206,
+    "conclusion": "v1固定15题43真实编辑得到0合法候选，主要class host/配对技术域拒绝；候选覆盖不足非恢复0，private节点元数据误输出需保留。",
+    "locations": [
+      "工作区\\1008-exp206-atom-frozen15-source-applicability\\实验\\实验206_原子恢复对冻结十五题的公开源适用性门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp206-atom-frozen15-source-applicability\\实验\\实验206_原子恢复对冻结十五题的公开源适用性门\\HANDOFF206.md",
+        "sha256": "a3ec2d07e9e373ab348566d15a1e10a81f6b889b7cedc3a2cf0aa6cf82fb9ebc",
+        "bytes": 4053,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp206-atom-frozen15-source-applicability\\实验\\实验206_原子恢复对冻结十五题的公开源适用性门\\protocol_deviation206.json",
+        "sha256": "c2c7a93b5175c12b2ba706904b0236ded2b8f83c805b5de0789be9d65c8915f8",
+        "bytes": 507,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 207,
+    "conclusion": "AIR自有实际pilot在传输前失败，POST0，已有public failure但最终未知；不能将无模型调用写正常负例。",
+    "locations": [
+      "工作区\\1008-exp207-air-real-local-owned-pilot\\实验\\实验207_AIR真实本地模型完整自有事件小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp207-air-real-local-owned-pilot\\实验\\实验207_AIR真实本地模型完整自有事件小试\\canary_gate207.json",
+        "sha256": "d4620fbc6606942fe5e2f5131df0d781b6b4a9120977291074fa8b567135e306",
+        "bytes": 4332,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp207-air-real-local-owned-pilot\\实验\\实验207_AIR真实本地模型完整自有事件小试\\gate_closed207.json",
+        "sha256": "43aa28ffb8cc4ecab6b5b0eb92ea5fa1a6e2ce2c0887dd4585727d99be511278",
+        "bytes": 562,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp207-air-real-local-owned-pilot\\实验\\实验207_AIR真实本地模型完整自有事件小试\\HANDOFF204.txt",
+        "sha256": "a419d845b304a8e5992ebc97e77e414de5468fb5b888bf6a1d52b94ff25232bc",
+        "bytes": 7863,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp207-air-real-local-owned-pilot\\实验\\实验207_AIR真实本地模型完整自有事件小试\\HANDOFF207.txt",
+        "sha256": "c7cd18ae1cd7e9ec9e9d234e75a4641e281cff85ed91a1bb58224fff54881084",
+        "bytes": 6380,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp207-air-real-local-owned-pilot\\实验\\实验207_AIR真实本地模型完整自有事件小试\\pre_model_gate207.json",
+        "sha256": "3fedbb8b8f0888a8b66b416faf3c6a56a62ee9a3196bac6b06b6bfa2ebaa06b3",
+        "bytes": 1640,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 208,
+    "conclusion": "范围内源码逆改候选覆盖7/15、11候选；只是source资格，不构成15题效果，保留未支持8题。",
+    "locations": [
+      "工作区\\1008-exp208-scope-local-atom-v2\\实验\\实验208_局部结构原子逆改全十五题源码与自有原生门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp208-scope-local-atom-v2\\实验\\实验208_局部结构原子逆改全十五题源码与自有原生门\\HANDOFF208.md",
+        "sha256": "d0803af96e2613431ac52b78cc80756599cffb59c51de5861ff47179d944a12b",
+        "bytes": 5903,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp208-scope-local-atom-v2\\实验\\实验208_局部结构原子逆改全十五题源码与自有原生门\\owned_private_aggregate208.json",
+        "sha256": "0760b73a160fdc7e0ca86cf6ef8f8ccf2d465caafcff86016df2c074c839fc9c",
+        "bytes": 162,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp208-scope-local-atom-v2\\实验\\实验208_局部结构原子逆改全十五题源码与自有原生门\\runtime_source_seal208.json",
+        "sha256": "d07e0aa16686fbae0652ebf07eefe969c2e5f12c5f372671618224ab80020d7a",
+        "bytes": 937,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 209,
+    "conclusion": "AIR同步/SDK正确wire两neutral probe真实完成；支持资源输运，不自动证明工具调用/历史事故完整链。",
+    "locations": [
+      "工作区\\1008-exp209-model-shared-lock-native-resource\\实验\\实验209_本地模型共享锁守卫与真实SDK接口资源门"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp209-model-shared-lock-native-resource\\实验\\实验209_本地模型共享锁守卫与真实SDK接口资源门\\gate_closed209.json",
+        "sha256": "76a6c66b7d38dc7ed9dda61f8460889014d5d8311f1bf0e827d53d304e91f8b0",
+        "bytes": 421,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp209-model-shared-lock-native-resource\\实验\\实验209_本地模型共享锁守卫与真实SDK接口资源门\\HANDOFF209.txt",
+        "sha256": "c362e8caf3d3b29d6216aee0a5218eb6a398e598fab8de9e01bba06ea5831adf",
+        "bytes": 5988,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp209-model-shared-lock-native-resource\\实验\\实验209_本地模型共享锁守卫与真实SDK接口资源门\\native_guard_gate209.json",
+        "sha256": "1c8b5390afe0b303c63212fb3a5c90b907dec777c2a2dbd69cd4acfb59d8f320",
+        "bytes": 4377,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp209-model-shared-lock-native-resource\\实验\\实验209_本地模型共享锁守卫与真实SDK接口资源门\\pre_model_gate209.json",
+        "sha256": "c01191ca013d05b7a30ca7434c72c9c87d527e7a3e15271e264e0ede57ab9629",
+        "bytes": 1516,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 210,
+    "conclusion": "七题21流程在首native前清单门错过，全部NOTRUN；源码修正完成比门晚0.811s不能倒填PASS。",
+    "locations": [
+      "工作区\\1008-exp210-frozen15-atomic-native-comparison\\实验\\实验210_十五题掩码七题原子恢复同池原生比较"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp210-frozen15-atomic-native-comparison\\实验\\实验210_十五题掩码七题原子恢复同池原生比较\\completion_packet210.json",
+        "sha256": "58672483732767d210f89e1d8359a2374fbcf8ef28d33e0a5815e27e9701e692",
+        "bytes": 15244,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp210-frozen15-atomic-native-comparison\\实验\\实验210_十五题掩码七题原子恢复同池原生比较\\HANDOFF210.md",
+        "sha256": "09e57aa76a48cf6aae970d9a884e844d57f7f972d715e08486884ec0c8da8c9c",
+        "bytes": 3852,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp210-frozen15-atomic-native-comparison\\实验\\实验210_十五题掩码七题原子恢复同池原生比较\\runtime_source_seal210.json",
+        "sha256": "324efe6f916815b95ce950aff8c2e05a22fc52fff070e0884e22812572cce641",
+        "bytes": 752,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 211,
+    "conclusion": "AIR公开历史fake功能链完成但精确same-edit证明晚，5406真实环境未接通；历史模型/native0，未知不记0。",
+    "locations": [
+      "工作区\\1008-exp211-air-public-history-whole-pilot\\实验\\实验211_AIR公开历史完整功能恢复单题资格"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp211-air-public-history-whole-pilot\\实验\\实验211_AIR公开历史完整功能恢复单题资格\\actual_gate211.json",
+        "sha256": "ea40e6fe382bbc5e45fffdd1af47c5a08d825b5be3a8263ac466cbbcbeabcd81",
+        "bytes": 1042,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp211-air-public-history-whole-pilot\\实验\\实验211_AIR公开历史完整功能恢复单题资格\\gate_closed211.json",
+        "sha256": "68cb0339c001d50372d028b39cd1ccc291b31c876eccd624c8dab9a724b1e9a6",
+        "bytes": 335,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp211-air-public-history-whole-pilot\\实验\\实验211_AIR公开历史完整功能恢复单题资格\\HANDOFF211.txt",
+        "sha256": "927f5735722a55b2002ec74e5164bad346fa662fc4eab57bd81cfe0a28f85583",
+        "bytes": 7236,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 212,
+    "conclusion": "moto5134 sole原子正常0/1，原子外保留/ordinary通过，fallback私验PASS只是原状态保留；singleton无排序实验意义。",
+    "locations": [
+      "工作区\\1008-exp212-immutable-single-native-acceptance\\实验\\实验212_未执行原子恢复实现单题原生验收"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp212-immutable-single-native-acceptance\\实验\\实验212_未执行原子恢复实现单题原生验收\\frozen_protocol212.json",
+        "sha256": "a3b15d5a7b65056b344ef1f5543d6a4310f275e38a056bd9652fdf7ff40560d5",
+        "bytes": 6363,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp212-immutable-single-native-acceptance\\实验\\实验212_未执行原子恢复实现单题原生验收\\HANDOFF212.md",
+        "sha256": "61be927d39b4de65ebc2f383984940b004cca6feb2d944f8041ac32181495fcd",
+        "bytes": 4258,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp212-immutable-single-native-acceptance\\实验\\实验212_未执行原子恢复实现单题原生验收\\runtime_source_seal210.json",
+        "sha256": "324efe6f916815b95ce950aff8c2e05a22fc52fff070e0884e22812572cce641",
+        "bytes": 752,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 213,
+    "conclusion": "7支持题11共同候选，B1本文2/7、逆3、随机2，B2均3；5题singleton，候选oracle3/7。",
+    "locations": [
+      "实验\\实验213_最小保留性修复历史原生可行性",
+      "工作区\\1008-exp213-minimal-preservation-native\\实验\\实验213_最小保留性修复历史原生可行性"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验213_最小保留性修复历史原生可行性\\completion_packet213.json",
+        "sha256": "dd13284052fe7471e1e2e1d80459394db909e9aefd7f69b5e39cd1a2d9f52dd8",
+        "bytes": 6296,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验213_最小保留性修复历史原生可行性\\HANDOFF213.md",
+        "sha256": "14904c156f5f5349e4c26ec775739233158e6821be69d32b195f2a205a6179b2",
+        "bytes": 5722,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验213_最小保留性修复历史原生可行性\\parent_frozen_protocol.json",
+        "sha256": "95877576bc658b4001f665e1af9c2b6e961f165207e1cc8921f9e38b4d644d13",
+        "bytes": 6973,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验213_最小保留性修复历史原生可行性\\pilot2_gate213.json",
+        "sha256": "96ed1ca953dd2e528e8dfcd31fee267b0e74f55a7b962edb719fd6717bd6017c",
+        "bytes": 585,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验213_最小保留性修复历史原生可行性\\protocol213.json",
+        "sha256": "d4a6d0cc7aa4c6f298cb7082f2574b10eccd022f966da52f52ee2fffdd0712c1",
+        "bytes": 6858,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验213_最小保留性修复历史原生可行性\\runtime_source_seal210.json",
+        "sha256": "324efe6f916815b95ce950aff8c2e05a22fc52fff070e0884e22812572cce641",
+        "bytes": 752,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp213-minimal-preservation-native\\实验\\实验213_最小保留性修复历史原生可行性\\completion_packet213.json",
+        "sha256": "dd13284052fe7471e1e2e1d80459394db909e9aefd7f69b5e39cd1a2d9f52dd8",
+        "bytes": 6296,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp213-minimal-preservation-native\\实验\\实验213_最小保留性修复历史原生可行性\\HANDOFF213.md",
+        "sha256": "14904c156f5f5349e4c26ec775739233158e6821be69d32b195f2a205a6179b2",
+        "bytes": 5722,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp213-minimal-preservation-native\\实验\\实验213_最小保留性修复历史原生可行性\\parent_frozen_protocol.json",
+        "sha256": "95877576bc658b4001f665e1af9c2b6e961f165207e1cc8921f9e38b4d644d13",
+        "bytes": 6973,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp213-minimal-preservation-native\\实验\\实验213_最小保留性修复历史原生可行性\\pilot2_gate213.json",
+        "sha256": "96ed1ca953dd2e528e8dfcd31fee267b0e74f55a7b962edb719fd6717bd6017c",
+        "bytes": 585,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp213-minimal-preservation-native\\实验\\实验213_最小保留性修复历史原生可行性\\protocol213.json",
+        "sha256": "d4a6d0cc7aa4c6f298cb7082f2574b10eccd022f966da52f52ee2fffdd0712c1",
+        "bytes": 6858,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp213-minimal-preservation-native\\实验\\实验213_最小保留性修复历史原生可行性\\runtime_source_seal210.json",
+        "sha256": "324efe6f916815b95ce950aff8c2e05a22fc52fff070e0884e22812572cce641",
+        "bytes": 752,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 214,
+    "conclusion": "回到旧34受控语法故障，范围+排序旧候选开发；不能与自然恢复混写。",
+    "locations": [
+      "实验\\实验214_旧AB收益与预算风险前沿",
+      "工作区\\1008-exp214-legacy-ab-budget-frontier\\实验\\实验214_旧AB收益与预算风险前沿"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验214_旧AB收益与预算风险前沿\\protocol.json",
+        "sha256": "dba7c8b7facb560b1b129256794fdfbf7b98803a9ccb7a0bb6747d7e5a124d16",
+        "bytes": 1841,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验214_旧AB收益与预算风险前沿\\README.txt",
+        "sha256": "0fce1cf55e52b077d760a91335921a6caad4d2e60a3eb70d14eba69ae910f353",
+        "bytes": 5149,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验214_旧AB收益与预算风险前沿\\results\\completion.json",
+        "sha256": "79372240a1ed4e8dbd650d317446fc6ad0e6ab50ce2fa4c812043fea832e6017",
+        "bytes": 10458,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp214-legacy-ab-budget-frontier\\实验\\实验214_旧AB收益与预算风险前沿\\protocol.json",
+        "sha256": "75dad9b78161a08981c2c24779a07755af7d08b59ef5e743d096ff828ea726c2",
+        "bytes": 1822,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp214-legacy-ab-budget-frontier\\实验\\实验214_旧AB收益与预算风险前沿\\README.txt",
+        "sha256": "c34621359f55c78d71be61865d0f23000a1a48ef6da3cc8acb8ca6149babedb9",
+        "bytes": 5101,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp214-legacy-ab-budget-frontier\\实验\\实验214_旧AB收益与预算风险前沿\\results\\completion.json",
+        "sha256": "79372240a1ed4e8dbd650d317446fc6ad0e6ab50ce2fa4c812043fea832e6017",
+        "bytes": 10458,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 215,
+    "conclusion": "ToolMaze原MCP局部重规划P0/P2均0/2；完整工具环境存在但模型路线未见收益。",
+    "locations": [
+      "实验\\实验215_ToolMaze本地重新规划小试",
+      "工作区\\1008-exp215-toolmaze-local-replan\\实验\\实验215_ToolMaze本地重新规划小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验215_ToolMaze本地重新规划小试\\HANDOFF.txt",
+        "sha256": "8c0ec1ba216461bf082486bee99f5cc43438bd3590f95bd4d67bf4c72891210f",
+        "bytes": 2427,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验215_ToolMaze本地重新规划小试\\protocol.json",
+        "sha256": "281b1a2c9bea7531a98dc21c9f8022bb44be109381074d5952d7b77c6362aa69",
+        "bytes": 5407,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验215_ToolMaze本地重新规划小试\\README.md",
+        "sha256": "70382cbc3001f6ed8ea4c82ccfdde82ed5129c9d185f41287ad296a25704abdb",
+        "bytes": 4307,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验215_ToolMaze本地重新规划小试\\results\\report.json",
+        "sha256": "03525a9eb4281d5ab59db114cb88298ab263afa5bd05f919d3e323b01f0333fd",
+        "bytes": 11320,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验215_ToolMaze本地重新规划小试\\results\\summary.json",
+        "sha256": "0342385147f62f3714e4e2b83b424359b4f2f6e33d77a7b047a9181c94c9f336",
+        "bytes": 15916,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp215-toolmaze-local-replan\\实验\\实验215_ToolMaze本地重新规划小试\\HANDOFF.txt",
+        "sha256": "8c0ec1ba216461bf082486bee99f5cc43438bd3590f95bd4d67bf4c72891210f",
+        "bytes": 2427,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp215-toolmaze-local-replan\\实验\\实验215_ToolMaze本地重新规划小试\\protocol.json",
+        "sha256": "281b1a2c9bea7531a98dc21c9f8022bb44be109381074d5952d7b77c6362aa69",
+        "bytes": 5407,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp215-toolmaze-local-replan\\实验\\实验215_ToolMaze本地重新规划小试\\README.md",
+        "sha256": "70382cbc3001f6ed8ea4c82ccfdde82ed5129c9d185f41287ad296a25704abdb",
+        "bytes": 4307,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp215-toolmaze-local-replan\\实验\\实验215_ToolMaze本地重新规划小试\\results\\report.json",
+        "sha256": "03525a9eb4281d5ab59db114cb88298ab263afa5bd05f919d3e323b01f0333fd",
+        "bytes": 11320,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp215-toolmaze-local-replan\\实验\\实验215_ToolMaze本地重新规划小试\\results\\summary.json",
+        "sha256": "0342385147f62f3714e4e2b83b424359b4f2f6e33d77a7b047a9181c94c9f336",
+        "bytes": 15916,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 216,
+    "conclusion": "34受控故障SCOPE_SAFE开发；支持范围预算策略比较，不是外部完整系统确认。",
+    "locations": [
+      "实验\\实验216_范围一致效用选择开发验证",
+      "工作区\\1008-exp216-scope-aligned-utility\\实验\\实验216_范围一致效用选择开发验证"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验216_范围一致效用选择开发验证\\frozen_protocol.json",
+        "sha256": "42ba74e7a3e70496e3aaf07965ce47c18bbcacb6a61adc7301baad4082ae6b0a",
+        "bytes": 7524,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验216_范围一致效用选择开发验证\\README.txt",
+        "sha256": "4d283ca5bd6bf474ec672b2935f6d615b91bbe819fa1e962d971c3277f84cd48",
+        "bytes": 6628,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验216_范围一致效用选择开发验证\\results\\summary_compact.json",
+        "sha256": "6baa6f0dd3fbdee63563554da6a3a294f5d9baa7dbb590711d543ae3b7552ccb",
+        "bytes": 11261,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp216-scope-aligned-utility\\实验\\实验216_范围一致效用选择开发验证\\frozen_protocol.json",
+        "sha256": "5591aab26805f65322e37a1f7b138de52a2a2e9fd600d1901957f4de6852f784",
+        "bytes": 7497,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp216-scope-aligned-utility\\实验\\实验216_范围一致效用选择开发验证\\README.txt",
+        "sha256": "9a695a376eb52d22179d27990ee19b9938e1bd5e98258bede23a2468d07fa602",
+        "bytes": 6543,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp216-scope-aligned-utility\\实验\\实验216_范围一致效用选择开发验证\\results\\summary_compact.json",
+        "sha256": "6baa6f0dd3fbdee63563554da6a3a294f5d9baa7dbb590711d543ae3b7552ccb",
+        "bytes": 11261,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 217,
+    "conclusion": "ToolMaze错误schema wire下旧Judge P0各1/2、P2各2/2；217b正确wire仅新P0两次PASS，C3无final且重复邮件，Judge与完整事务分开。",
+    "locations": [
+      "实验\\实验217_ToolMaze共享结构化输出小试",
+      "工作区\\1008-exp217-toolmaze-structured-pilot\\实验\\实验217_ToolMaze共享结构化输出小试"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验217_ToolMaze共享结构化输出小试\\HANDOFF.txt",
+        "sha256": "5c76cc560e7cf490041c4782204c938b8b8d671c297dae965d634c662274b1ea",
+        "bytes": 2509,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验217_ToolMaze共享结构化输出小试\\protocol.json",
+        "sha256": "85c1281520156b3b538c05f032e5e27ebe42012093c611be9d056f8c4a767e57",
+        "bytes": 4732,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验217_ToolMaze共享结构化输出小试\\README.md",
+        "sha256": "1d460d6582da0d0fa245fdd0deccca634714ad495e7f5af70f17c3f69840e2bf",
+        "bytes": 4612,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验217_ToolMaze共享结构化输出小试\\results\\report.json",
+        "sha256": "56c47511a3c492999d14158e3b0efde33a757a8cbc320380420a08b25470959e",
+        "bytes": 10890,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验217_ToolMaze共享结构化输出小试\\results\\summary.json",
+        "sha256": "f713efee37f3c65fe59ee21598bef4cb4e426c5859ba270aa97e8f151047f94a",
+        "bytes": 6044,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp217-toolmaze-structured-pilot\\实验\\实验217_ToolMaze共享结构化输出小试\\HANDOFF.txt",
+        "sha256": "5c76cc560e7cf490041c4782204c938b8b8d671c297dae965d634c662274b1ea",
+        "bytes": 2509,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp217-toolmaze-structured-pilot\\实验\\实验217_ToolMaze共享结构化输出小试\\protocol.json",
+        "sha256": "85c1281520156b3b538c05f032e5e27ebe42012093c611be9d056f8c4a767e57",
+        "bytes": 4732,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp217-toolmaze-structured-pilot\\实验\\实验217_ToolMaze共享结构化输出小试\\README.md",
+        "sha256": "1d460d6582da0d0fa245fdd0deccca634714ad495e7f5af70f17c3f69840e2bf",
+        "bytes": 4612,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp217-toolmaze-structured-pilot\\实验\\实验217_ToolMaze共享结构化输出小试\\results\\report.json",
+        "sha256": "56c47511a3c492999d14158e3b0efde33a757a8cbc320380420a08b25470959e",
+        "bytes": 10890,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp217-toolmaze-structured-pilot\\实验\\实验217_ToolMaze共享结构化输出小试\\results\\summary.json",
+        "sha256": "f713efee37f3c65fe59ee21598bef4cb4e426c5859ba270aa97e8f151047f94a",
+        "bytes": 6044,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 218,
+    "conclusion": "原docstring“=======”冲突误判；218b修后7题B3原子3、三方5、whole6；三方新增成功均B=C，未证明保留后续差异必要性。",
+    "locations": [
+      "实验\\实验218_三方逆向合并保留性恢复",
+      "工作区\\1008-exp218-threeway-preservation\\实验\\实验218_三方逆向合并保留性恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验218_三方逆向合并保留性恢复\\completion_packet218.json",
+        "sha256": "4bc3a6a8803e89d5bf1ea4c0b62a533df075d2196333ed2232957c8f95093997",
+        "bytes": 5474,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验218_三方逆向合并保留性恢复\\pilot2_gate218.json",
+        "sha256": "0c7cd08ceb8640e956de100bf6a347d2c469286688b5f93cd164d4bfec643342",
+        "bytes": 311,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验218_三方逆向合并保留性恢复\\protocol213.json",
+        "sha256": "d4a6d0cc7aa4c6f298cb7082f2574b10eccd022f966da52f52ee2fffdd0712c1",
+        "bytes": 6858,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验218_三方逆向合并保留性恢复\\root_frozen_protocol218.json",
+        "sha256": "1c7d077ecd15e899c48b075e2c215523d64e01f17fbd9a005f41d72467fa3d3a",
+        "bytes": 3553,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验218_三方逆向合并保留性恢复\\runtime_source_seal210.json",
+        "sha256": "324efe6f916815b95ce950aff8c2e05a22fc52fff070e0884e22812572cce641",
+        "bytes": 752,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp218-threeway-preservation\\实验\\实验218_三方逆向合并保留性恢复\\completion_packet218.json",
+        "sha256": "4bc3a6a8803e89d5bf1ea4c0b62a533df075d2196333ed2232957c8f95093997",
+        "bytes": 5474,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp218-threeway-preservation\\实验\\实验218_三方逆向合并保留性恢复\\CONTEXT_ROOT_REPORT218.txt",
+        "sha256": "70619a01dd3eb0813d2164e143824ba08bbcd7c4c24a61ad61ea32c2815bec5b",
+        "bytes": 503,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp218-threeway-preservation\\实验\\实验218_三方逆向合并保留性恢复\\pilot2_gate218.json",
+        "sha256": "0c7cd08ceb8640e956de100bf6a347d2c469286688b5f93cd164d4bfec643342",
+        "bytes": 311,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp218-threeway-preservation\\实验\\实验218_三方逆向合并保留性恢复\\protocol213.json",
+        "sha256": "d4a6d0cc7aa4c6f298cb7082f2574b10eccd022f966da52f52ee2fffdd0712c1",
+        "bytes": 6858,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp218-threeway-preservation\\实验\\实验218_三方逆向合并保留性恢复\\root_frozen_protocol218.json",
+        "sha256": "1c7d077ecd15e899c48b075e2c215523d64e01f17fbd9a005f41d72467fa3d3a",
+        "bytes": 3553,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp218-threeway-preservation\\实验\\实验218_三方逆向合并保留性恢复\\runtime_source_seal210.json",
+        "sha256": "324efe6f916815b95ce950aff8c2e05a22fc52fff070e0884e22812572cce641",
+        "bytes": 752,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 219,
+    "conclusion": "ToolMaze同初態4题continue2/local3，仅一胜且无final、重复8次仍在；小固定一轮不能称可靠胜出。",
+    "locations": [
+      "实验\\实验219_ToolMaze同失败状态配对恢复",
+      "工作区\\1008-exp219-toolmaze-paired-failure\\实验\\实验219_ToolMaze同失败状态配对恢复"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验219_ToolMaze同失败状态配对恢复\\HANDOFF.md",
+        "sha256": "5654b91035e4bb09964b79cf0fadd845b3109ae63b32fe5c882ccdad71503523",
+        "bytes": 2742,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验219_ToolMaze同失败状态配对恢复\\protocol.json",
+        "sha256": "2eb51dede015239ce4a6ec58036950ba90657b187c35ec8ec66c5aeb2d6de59b",
+        "bytes": 3511,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验219_ToolMaze同失败状态配对恢复\\README.md",
+        "sha256": "8d9c44397170cd7f168add23ac17c03a1ce088968b8b1d1411507ff311917372",
+        "bytes": 7827,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验219_ToolMaze同失败状态配对恢复\\results\\report.json",
+        "sha256": "621ceb2f57885d0132d1177367050bbda9bcf7a11a486706ebeb738ad86d1d67",
+        "bytes": 2457,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp219-toolmaze-paired-failure\\实验\\实验219_ToolMaze同失败状态配对恢复\\HANDOFF.md",
+        "sha256": "5654b91035e4bb09964b79cf0fadd845b3109ae63b32fe5c882ccdad71503523",
+        "bytes": 2742,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp219-toolmaze-paired-failure\\实验\\实验219_ToolMaze同失败状态配对恢复\\protocol.json",
+        "sha256": "2eb51dede015239ce4a6ec58036950ba90657b187c35ec8ec66c5aeb2d6de59b",
+        "bytes": 3511,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp219-toolmaze-paired-failure\\实验\\实验219_ToolMaze同失败状态配对恢复\\README.md",
+        "sha256": "8d9c44397170cd7f168add23ac17c03a1ce088968b8b1d1411507ff311917372",
+        "bytes": 7827,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp219-toolmaze-paired-failure\\实验\\实验219_ToolMaze同失败状态配对恢复\\results\\report.json",
+        "sha256": "621ceb2f57885d0132d1177367050bbda9bcf7a11a486706ebeb738ad86d1d67",
+        "bytes": 2457,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 220,
+    "conclusion": "旧34受控窗口范围/预算组合与oracle开发，非新自然恢复或外部系统比较。",
+    "locations": [
+      "实验\\实验220_效用机制控制与弃权分解",
+      "工作区\\1008-exp220-utility-mechanism-controls\\实验\\实验220_效用机制控制与弃权分解"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验220_效用机制控制与弃权分解\\frozen_protocol.json",
+        "sha256": "831eab531104d44af1a5db78520ca3da2991062a0bb511816f42ddc14cdcc73a",
+        "bytes": 3629,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验220_效用机制控制与弃权分解\\protocol_original_root_naming.json",
+        "sha256": "11cc00dbe53c72c58a600ecb3c646bc1eb8dcebf2f982a52e7e54eacd152fac8",
+        "bytes": 3113,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验220_效用机制控制与弃权分解\\README.txt",
+        "sha256": "b1cf3b42c0ba2a8a60d0999df17202d645a18f4f12928b00a946677d474a7b2b",
+        "bytes": 7125,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验220_效用机制控制与弃权分解\\results\\summary_compact.json",
+        "sha256": "e3874b663604f6f50e3698fb8a5edb80bfe4c5e2ecba531ece44238217ab0313",
+        "bytes": 33764,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp220-utility-mechanism-controls\\实验\\实验220_效用机制控制与弃权分解\\frozen_protocol.json",
+        "sha256": "887c3e59f5fdb512286d37b198fd89ef8910cb06e1cc91335b2233d0d56cf754",
+        "bytes": 3606,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp220-utility-mechanism-controls\\实验\\实验220_效用机制控制与弃权分解\\protocol_original_root_naming.json",
+        "sha256": "cea50ed0a7409f6ef488f7cb1dea13fb0daf91124dc60e60c59f680c5e4fc7af",
+        "bytes": 3091,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp220-utility-mechanism-controls\\实验\\实验220_效用机制控制与弃权分解\\README.txt",
+        "sha256": "9d0e9087851998ff821829bee034ac4418281d8e8c52c6f21d19921f29cbe9db",
+        "bytes": 7036,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp220-utility-mechanism-controls\\实验\\实验220_效用机制控制与弃权分解\\results\\summary_compact.json",
+        "sha256": "e3874b663604f6f50e3698fb8a5edb80bfe4c5e2ecba531ece44238217ab0313",
+        "bytes": 33764,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 221,
+    "conclusion": "旧34决策归因显示范围/弃权贡献，责任分数不能代替实际候选选择差异；保留oracle23上界。",
+    "locations": [
+      "实验\\实验221_成功风险组件消融",
+      "工作区\\1008-exp221-success-risk-ablation\\实验\\实验221_成功风险组件消融"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验221_成功风险组件消融\\frozen_protocol.json",
+        "sha256": "69bd26526ecf97ed983ed0ee5903bcb08dbff4e0af65760156ba43a2ce81d5b0",
+        "bytes": 2906,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验221_成功风险组件消融\\README.txt",
+        "sha256": "4ff67872e2d3dc625f5f53b2f4ffbf2d3ab00083e852f8a0c2f6b0e0fef8c834",
+        "bytes": 7731,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验221_成功风险组件消融\\results\\decision_attribution.json",
+        "sha256": "e5b6891ae5aad53f473e7a468202597dd6127c86754d1ddd474c308840067384",
+        "bytes": 8191,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验221_成功风险组件消融\\results\\summary_compact.json",
+        "sha256": "044ad437fada4fa358be4893312f1e61576da6388b4c5b246ed3c7b82c48d564",
+        "bytes": 214337,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp221-success-risk-ablation\\实验\\实验221_成功风险组件消融\\frozen_protocol.json",
+        "sha256": "69bd26526ecf97ed983ed0ee5903bcb08dbff4e0af65760156ba43a2ce81d5b0",
+        "bytes": 2906,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp221-success-risk-ablation\\实验\\实验221_成功风险组件消融\\README.txt",
+        "sha256": "4ff67872e2d3dc625f5f53b2f4ffbf2d3ab00083e852f8a0c2f6b0e0fef8c834",
+        "bytes": 7731,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp221-success-risk-ablation\\实验\\实验221_成功风险组件消融\\results\\decision_attribution.json",
+        "sha256": "e5b6891ae5aad53f473e7a468202597dd6127c86754d1ddd474c308840067384",
+        "bytes": 8191,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp221-success-risk-ablation\\实验\\实验221_成功风险组件消融\\results\\summary_compact.json",
+        "sha256": "044ad437fada4fa358be4893312f1e61576da6388b4c5b246ed3c7b82c48d564",
+        "bytes": 214337,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 222,
+    "conclusion": "剩余8题4moto已知/4工程未知，B3三方3/4、wholeG4/4、逆3/4、random4/4；不可合并218不同政策成15完整结果。",
+    "locations": [
+      "实验\\实验222_剩余八题动作逆向原生扩验",
+      "工作区\\1008-exp222-eight-action-scope-native\\实验\\实验222_剩余八题动作逆向原生扩验"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验222_剩余八题动作逆向原生扩验\\completion_packet222.json",
+        "sha256": "9e48b40a031a090b44cae06aac2138f6e7175961036746b25fed22cb8107ffe7",
+        "bytes": 5128,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验222_剩余八题动作逆向原生扩验\\HANDOFF222.md",
+        "sha256": "e3fde8072a913d3fc56656a8c791373ffa1fa1e233a5acb2262dbe3825004bc2",
+        "bytes": 4997,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验222_剩余八题动作逆向原生扩验\\pilot2_gate222.json",
+        "sha256": "b49920c7abfd8613dd884d9f7947aaf6873eb21918f3bbe23e2c2fe758d5feb9",
+        "bytes": 386170,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验222_剩余八题动作逆向原生扩验\\root_frozen_protocol222.json",
+        "sha256": "7b3434f9667cf34a4edef21d511b36939ebd1c2a20183014175cef945640b48d",
+        "bytes": 5117,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp222-eight-action-scope-native\\实验\\实验222_剩余八题动作逆向原生扩验\\completion_packet222.json",
+        "sha256": "9e48b40a031a090b44cae06aac2138f6e7175961036746b25fed22cb8107ffe7",
+        "bytes": 5128,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp222-eight-action-scope-native\\实验\\实验222_剩余八题动作逆向原生扩验\\HANDOFF222.md",
+        "sha256": "e3fde8072a913d3fc56656a8c791373ffa1fa1e233a5acb2262dbe3825004bc2",
+        "bytes": 4997,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp222-eight-action-scope-native\\实验\\实验222_剩余八题动作逆向原生扩验\\pilot2_gate222.json",
+        "sha256": "b49920c7abfd8613dd884d9f7947aaf6873eb21918f3bbe23e2c2fe758d5feb9",
+        "bytes": 386170,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp222-eight-action-scope-native\\实验\\实验222_剩余八题动作逆向原生扩验\\root_frozen_protocol222.json",
+        "sha256": "7b3434f9667cf34a4edef21d511b36939ebd1c2a20183014175cef945640b48d",
+        "bytes": 5117,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  },
+  {
+    "number": 223,
+    "conclusion": "旧34公开MAX_SCOPE与SAFE_SCOPE_MAX均21/34，仅mypy11567恢复差；优势未成立，效用差部分由弃权/避险贡献。",
+    "locations": [
+      "实验\\实验223_公开最大范围规则公平控制",
+      "工作区\\1008-exp223-public-scope-rules\\实验\\实验223_公开最大范围规则公平控制"
+    ],
+    "evidence_refs": [
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验223_公开最大范围规则公平控制\\frozen_protocol.json",
+        "sha256": "bf0ad5bce71355ef363f9df1a77ba10640ad1a90f5f5d089ee577f4da894877f",
+        "bytes": 2966,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验223_公开最大范围规则公平控制\\README.txt",
+        "sha256": "85c906cbd333a84142d4b0a853c17417420de8299052d0a6dc77e92712473e5e",
+        "bytes": 5748,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验223_公开最大范围规则公平控制\\results\\decision_attribution.json",
+        "sha256": "f6f5f4fb784267f3bd68339424ac57b9923d1e17911e975f2f683dfab7646a23",
+        "bytes": 3318,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验223_公开最大范围规则公平控制\\results\\summary_compact.json",
+        "sha256": "443578ac944a9a3634650b83136c8399e2343c50f9fcac631b3e9e90d2c764e8",
+        "bytes": 73701,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp223-public-scope-rules\\实验\\实验223_公开最大范围规则公平控制\\frozen_protocol.json",
+        "sha256": "bf0ad5bce71355ef363f9df1a77ba10640ad1a90f5f5d089ee577f4da894877f",
+        "bytes": 2966,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp223-public-scope-rules\\实验\\实验223_公开最大范围规则公平控制\\README.txt",
+        "sha256": "85c906cbd333a84142d4b0a853c17417420de8299052d0a6dc77e92712473e5e",
+        "bytes": 5748,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp223-public-scope-rules\\实验\\实验223_公开最大范围规则公平控制\\results\\decision_attribution.json",
+        "sha256": "f6f5f4fb784267f3bd68339424ac57b9923d1e17911e975f2f683dfab7646a23",
+        "bytes": 3318,
+        "kind": "existing_primary"
+      },
+      {
+        "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1008-exp223-public-scope-rules\\实验\\实验223_公开最大范围规则公平控制\\results\\summary_compact.json",
+        "sha256": "443578ac944a9a3634650b83136c8399e2343c50f9fcac631b3e9e90d2c764e8",
+        "bytes": 73701,
+        "kind": "existing_primary"
+      }
+    ],
+    "review_scope": "scientific primary reports, fixed protocol, selected decisive code and existing outcomes; no fresh model/native/Gold execution"
+  }
+]

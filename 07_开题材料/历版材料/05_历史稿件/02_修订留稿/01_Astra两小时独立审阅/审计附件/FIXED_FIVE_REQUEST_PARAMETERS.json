@@ -1,0 +1,284 @@
+{
+  "scope": "request parameters only from244 evidence and11 original OURS requests; no prompts/answers copied",
+  "files_considered": 11,
+  "request_bodies_found": 11,
+  "groups": [
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 1975671100,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 1578011703,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 71738057,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 1888585285,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 5157796,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 648486859,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 1134474250,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 283337275,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 1120771772,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 37056550,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    },
+    {
+      "parameters": {
+        "max_tokens": 16384,
+        "model": "deepseek-flash",
+        "seed": 65002098,
+        "temperature": 0.0,
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "rows": [
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\0\\f\\llm\\001_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 1975671100
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\1\\f\\llm\\001_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 1578011703
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\1\\f\\llm\\002_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 71738057
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\1\\f\\llm\\003_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 1888585285
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\2\\f\\llm\\001_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 5157796
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\3\\f\\llm\\001_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 648486859
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\3\\f\\llm\\002_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 1134474250
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\3\\f\\llm\\003_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 283337275
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\4\\f\\llm\\001_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 1120771772
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\4\\f\\llm\\002_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 37056550
+      }
+    },
+    {
+      "file": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1011-our19\\r\\4\\f\\llm\\003_request.json",
+      "trail": ".body",
+      "parameters": {
+        "model": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 16384,
+        "thinking": {
+          "type": "disabled"
+        },
+        "seed": 65002098
+      }
+    }
+  ]
+}

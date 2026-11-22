@@ -1,7 +1,7 @@
 {
-  "schema": "historical-proposal-links/1",
-  "working_relative_references": 2485,
-  "references_needing_archive_or_original_workspace": 3311,
+  "schema": "historical-proposal-links/2",
+  "working_relative_references": 2513,
+  "references_needing_archive_or_original_workspace": 3283,
   "rewritten_historical_source_files": 0,
   "items": [
     {
@@ -1013,70 +1013,6 @@
       "location_note": "超出开题目录，需按工程或历史档案入口查找"
     },
     {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/06_全部数据来源与划分.md",
-      "label": "131–223逐实验审阅索引",
-      "original_target": "审计附件/逐实验131-223审阅索引.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验131-223审阅索引.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/10_交付验证与证据边界.md",
-      "label": "固定五题",
-      "original_target": "审计附件/FIXED_FIVE_INDEPENDENT_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/FIXED_FIVE_INDEPENDENT_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/10_交付验证与证据边界.md",
-      "label": "source3",
-      "original_target": "审计附件/source3_model_data_identity_audit.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/source3_model_data_identity_audit.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/10_交付验证与证据边界.md",
-      "label": "AF15",
-      "original_target": "审计附件/independent_selected_RQ1_release_audit.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/independent_selected_RQ1_release_audit.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/10_交付验证与证据边界.md",
-      "label": "TEST曝光",
-      "original_target": "审计附件/AgenTracer_TEST曝光分类复核.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/AgenTracer_TEST曝光分类复核.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/10_交付验证与证据边界.md",
-      "label": "保护机制",
-      "original_target": "审计附件/existing_candidate_progress_audit.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/existing_candidate_progress_audit.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/10_交付验证与证据边界.md",
-      "label": "关系输入",
-      "original_target": "审计附件/PUBLIC_ROLE_GEOMETRY_READONLY_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PUBLIC_ROLE_GEOMETRY_READONLY_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/10_交付验证与证据边界.md",
-      "label": "PatchPilot中断",
-      "original_target": "审计附件/PATCHPILOT243_MISSING_SLOT_INDEPENDENT_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PATCHPILOT243_MISSING_SLOT_INDEPENDENT_AUDIT.json"
-    },
-    {
       "public_source": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/六章V1只读复核.md",
       "label": "实验123完整条件与指标",
       "original_target": "D:/Code/毕设/graduate-thesis-experiments/实验/实验123_责任排序与恢复选择风险补充/README.md",
@@ -1182,107 +1118,12 @@
     },
     {
       "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "RQ1_SOURCE3_RELEASE.json",
-      "original_target": "四小时最终结果/RQ1_SOURCE3_RELEASE.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/RQ1_SOURCE3_RELEASE.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "排序机会表",
-      "original_target": "四小时最终结果/RANKING_INTERVENTION_OPPORTUNITIES.tsv",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/RANKING_INTERVENTION_OPPORTUNITIES.tsv"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "顺序机会",
-      "original_target": "四小时最终结果/SEQUENTIAL_EVIDENCE_OPPORTUNITY.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SEQUENTIAL_EVIDENCE_OPPORTUNITY.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "共同恢复矩阵",
-      "original_target": "四小时最终结果/PAIRED_RECOVERY_MATRIX.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PAIRED_RECOVERY_MATRIX.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "保护事件",
-      "original_target": "四小时最终结果/PROGRESS_GUARD_EVENTS.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PROGRESS_GUARD_EVENTS.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "首响应差异",
-      "original_target": "四小时最终结果/FIRST_RESPONSE_VARIATION_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FIRST_RESPONSE_VARIATION_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "失败状态绑定",
-      "original_target": "四小时最终结果/NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NORMAL_FAILURE_STATE_BINDING_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "离线源码审计",
-      "original_target": "四小时最终结果/NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "源码变体",
-      "original_target": "四小时最终结果/SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "请求与终态",
-      "original_target": "四小时最终结果/PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "资格表",
-      "original_target": "四小时最终结果/THIRD_BASELINE_QUALIFICATION.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/THIRD_BASELINE_QUALIFICATION.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "逐前缀审计",
-      "original_target": "四小时最终结果/SBS_ACTUAL_PREFIX_AUDIT.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SBS_ACTUAL_PREFIX_AUDIT.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
       "label": "费用与继续记录",
       "original_target": "四小时最终结果/FINANCE_AND_RESUME_RECEIPT.json",
       "status": "完整开题附件",
       "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FINANCE_AND_RESUME_RECEIPT.json"
+      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FINANCE_AND_RESUME_RECEIPT.json",
+      "public_redacted_view": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FINANCE_AND_RESUME_RECEIPT_公开脱敏版.json"
     },
     {
       "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
@@ -1290,15 +1131,8 @@
       "original_target": "四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL.json",
       "status": "完整开题附件",
       "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/08_本轮结果证据映射.md",
-      "label": "方法假设",
-      "original_target": "四小时最终结果/NEXT_METHOD_HYPOTHESES_NOT_EXECUTED.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NEXT_METHOD_HYPOTHESES_NOT_EXECUTED.json"
+      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL.json",
+      "public_redacted_view": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL_公开脱敏版.json"
     },
     {
       "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/10_交付验证与证据边界.md",
@@ -1427,62 +1261,6 @@
       "status": "历史引用失效",
       "source_exists": false,
       "location_note": "源目录中也不存在，未虚构补齐"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/04_数据集与划分确定方案.md",
-      "label": "正结果数据来源证据",
-      "original_target": "证据/POSITIVE_RESULT_DATA_PROVENANCE.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/POSITIVE_RESULT_DATA_PROVENANCE.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/08_既有结果证据索引.md",
-      "label": "原始数据、模型与统计对象",
-      "original_target": "证据/POSITIVE_RESULT_DATA_PROVENANCE.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/POSITIVE_RESULT_DATA_PROVENANCE.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/08_既有结果证据索引.md",
-      "label": "同一证据文件中的三划分记录",
-      "original_target": "证据/POSITIVE_RESULT_DATA_PROVENANCE.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/POSITIVE_RESULT_DATA_PROVENANCE.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/08_既有结果证据索引.md",
-      "label": "结构化记录",
-      "original_target": "证据/历史七状态与SGAgent_只读核对.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/历史七状态与SGAgent_只读核对.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/08_既有结果证据索引.md",
-      "label": "正式数据系统记录",
-      "original_target": "证据/SELECTED_DATA_SYSTEM.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/SELECTED_DATA_SYSTEM.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/08_既有结果证据索引.md",
-      "label": "合并依据表",
-      "original_target": "证据/文献与依据表_V3合并.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/文献与依据表_V3合并.json"
-    },
-    {
-      "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/08_既有结果证据索引.md",
-      "label": "编号对应",
-      "original_target": "证据/正文与完整文献索引编号对应.json",
-      "status": "完整开题附件",
-      "source_exists": true,
-      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/正文与完整文献索引编号对应.json"
     },
     {
       "public_source": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/历史七状态正结果与SGAgent核对.md",

@@ -2,10 +2,10 @@
   "schema": "proposal-direct-browser-expansion/1",
   "source_files_scanned": 1573,
   "counts": {
-    "仓库展开": 1417,
-    "附件保留": 156
+    "仓库展开": 1524,
+    "附件保留": 49
   },
-  "all_opened_copies_keep_original_bytes": true,
+  "all_opened_copies_keep_original_bytes": "原字节展开副本保持一致；另标公开脱敏副本7份不作为原字节副本",
   "source_files_modified": 0,
   "API_requests": 0,
   "complete_original_archive": "proposal-history-complete.tar.gz.enc",
@@ -1732,210 +1732,298 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/AgenTracer_TEST曝光分类复核.json",
       "size": 334184,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/AgenTracer_TEST曝光分类复核.json",
+      "sha256": "fa50bf88ccf52af32968972bce44a72ec1eebf1ab8f06fee74e84d8b64f7cbd3",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/AgenTracer官方TEST历史曝光审计.json",
       "size": 47845,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/AgenTracer官方TEST历史曝光审计.json",
+      "sha256": "b79aeeba568291d35509e9071eeaad7e9e49c0193a4a06938aa802be124fa214",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/current21_goal_opportunity_readonly.json",
       "size": 44844,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/current21_goal_opportunity_readonly.json",
+      "sha256": "825422fce8a852e151e1c6a1e0d9e803b7d15cd65e07f9cd6f582d2bedc71036",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/CURRENT_BALANCE_READONLY.json",
       "size": 466,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "含账户余额原值；完整原件保留附件，另提供公开脱敏副本",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "source_sha256": "c848d1085e0496886a4ceb95ed9d3c5e6d096901ac4fba53246e2d96167375f9",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/CURRENT_BALANCE_READONLY_公开脱敏版.json",
+        "sha256": "aeab10776b592e0f1617c53a858a7abbe16b9ed6323c1060d4bd057732842935",
+        "size": 581,
+        "redacted_fields": [
+          ".balance.balance_infos[].granted_balance",
+          ".balance.balance_infos[].topped_up_balance",
+          ".balance.balance_infos[].total_balance"
+        ],
+        "redaction": "仅替换账户余额字段，不改研究配置、指标或其他内容",
+        "original_bytes_unchanged": false
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/DeepSeek价格与概率性官方核验.json",
       "size": 2073,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/DeepSeek价格与概率性官方核验.json",
+      "sha256": "a4d78b38a73f1c80b0907c61f075406192c032432c3fcdd322b898f5fd952af9",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/DELIVERABLE_CONTENT_QA.json",
       "size": 1474,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/DELIVERABLE_CONTENT_QA.json",
+      "sha256": "ea6ec040b7305ace9479abe859d88ea93afc54f7ef97e6259e6c6a14144705c8",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/E236_LATEST_SUBRUN_TERMINALS.json",
       "size": 6650,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/E236_LATEST_SUBRUN_TERMINALS.json",
+      "sha256": "925ff58ca86365548066d63005b11675cc8866210339556c396292089815d372",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/existing_candidate_progress_audit.json",
       "size": 432990,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/existing_candidate_progress_audit.json",
+      "sha256": "9669a8d33b5c73553c2eaab3f33fd368d73d2321e58f53b2259c0f824be796b3",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/exposure_record.json",
       "size": 1702,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/exposure_record.json",
+      "sha256": "8b727b4be35a1cb8c5a3a24d2d5fcd0f7eb37ff12f20eb709191526dd438bbc9",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/FINAL_QA_RECEIPT.json",
       "size": 12257,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/FINAL_QA_RECEIPT.json",
+      "sha256": "83d48bd0c4cf24ad6d674bb9806ea1e5f6ce97325d8900e811b784c32f4cb2d1",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/FIXED_FIVE_INDEPENDENT_AUDIT.json",
       "size": 73004,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/FIXED_FIVE_INDEPENDENT_AUDIT.json",
+      "sha256": "3094d679b1d98c098c457ae6bd97f1e4bc980da8327bbda5a2799305883010ab",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/FIXED_FIVE_REQUEST_PARAMETERS.json",
       "size": 7152,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/FIXED_FIVE_REQUEST_PARAMETERS.json",
+      "sha256": "88dac69ed76cc781c9b8273769e53423d04982069d1ce66af510e17daf03a90a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/HTML_CONTENT_QA.json",
       "size": 2954,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/HTML_CONTENT_QA.json",
+      "sha256": "b72a0221dc60b225599626349e7ca60c5020ae1877bbc4de4dbfac07097f3d05",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/independent_selected_RQ1_release_audit.json",
       "size": 85477,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/independent_selected_RQ1_release_audit.json",
+      "sha256": "327d87d160f0ab3c8c2b57d207a14d1b7487341aea6a514f1a6e6c1b92c8fcb7",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/LATE239_241_STATUS_EXTRACTION.json",
       "size": 22777,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/LATE239_241_STATUS_EXTRACTION.json",
+      "sha256": "90798470d6335173497ea1e3b916f934fde83242d3a11bf2b3c3292420b55e2a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/late_directory_inventory.json",
       "size": 339883,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/late_directory_inventory.json",
+      "sha256": "90fcd131a6e45695ca85e618a9a2790eda1efa1911e938da820b530cab5a323a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PATCHPILOT243_MISSING_SLOT_INDEPENDENT_AUDIT.json",
       "size": 5244,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PATCHPILOT243_MISSING_SLOT_INDEPENDENT_AUDIT.json",
+      "sha256": "415da6de7c6bf74eb7a880c373532575b9bc622cb9191add983a5791622136d1",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PDF_CONTENT_QA.json",
       "size": 771,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PDF_CONTENT_QA.json",
+      "sha256": "dab14f05c275522663281dbc741ebed8e45420ec4332d9eb8e017fe86f8de9c1",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PDF_OUTLINE_AND_PAGES.json",
       "size": 2762,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PDF_OUTLINE_AND_PAGES.json",
+      "sha256": "183af7f0626e5152b69abf5369eae912342dc02c0fb2bb674da9d61bbc61ef5a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PPT_STRUCTURE_AUDIT.json",
       "size": 6862,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PPT_STRUCTURE_AUDIT.json",
+      "sha256": "8086762078df60368a5f59b0c311a29ed958d53b98bc5de055c66bc9d1ea1ad9",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PUBLIC_ROLE_GEOMETRY_READONLY_AUDIT.json",
       "size": 6655,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/PUBLIC_ROLE_GEOMETRY_READONLY_AUDIT.json",
+      "sha256": "7784ee87eaa516d7e2244b7697c9ed5f536c18b0fdc2fa8506a8090d937ced06",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/REVIEW_COMPLETION_SEAL.json",
       "size": 3274,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/REVIEW_COMPLETION_SEAL.json",
+      "sha256": "5282b7fbf2c2155c4876a98315a5eb90715446bffefb1f5dd5b69d300ef2979a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/REVIEW_STATUS.json",
       "size": 1652,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/REVIEW_STATUS.json",
+      "sha256": "4950ee02bcf52ca0e15cdeb1b8840ad8b2f3989c6b8d601026b225670a0e1367",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/RQ1备选资格核验_SBS与SDBL.json",
       "size": 5153,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/RQ1备选资格核验_SBS与SDBL.json",
+      "sha256": "8c424055362100d5285ea0bc1c1485f1d397424265240828b309ed9741c300ac",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/source3_model_data_identity_audit.json",
       "size": 49993,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/source3_model_data_identity_audit.json",
+      "sha256": "058b6377fa2972af751cf3dd04ba62b17550f871451456759b5cdf0f755b3484",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/USER_REVIEW_REQUEST.json",
       "size": 3822,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/USER_REVIEW_REQUEST.json",
+      "sha256": "ce4ddbba872876ece5f9b46a699f839f3ddba8eb20d6d65ee12a30c201829374",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/六章V1只读复核.md",
@@ -1951,58 +2039,87 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/历史探索数据清单_01-130_核对.json",
       "size": 515,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/历史探索数据清单_01-130_核对.json",
+      "sha256": "d14fc19a7d790ae1b5c7614ec04da052a3bd42110a2b0c952ebdf57de56df17f",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/参考文献_key到number映射.json",
       "size": 60387,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/参考文献_key到number映射.json",
+      "sha256": "11943e67a4983e92671328b35e994032b3973b3044317ddcbbcca9202425e55c",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/后期逐实验索引_224-256.json",
       "size": 1278652,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "含账户余额原值；完整原件保留附件，另提供公开脱敏副本",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "source_sha256": "5120966e8428b9568c1f0ae990feb29e69fa3c07d5b8c5d3c42c032e0623b76c",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/后期逐实验索引_224-256_公开脱敏版.json",
+        "sha256": "0c94b6f8f55e031b18fb05fd6ac4c0d9de99fca31795e265beb1e6a622d710b2",
+        "size": 1260063,
+        "redacted_fields": [
+          ".records[].directories[].configuration_values.FALSE_SOURCE_PROTOCOL243.json.finance.last_balance_CNY"
+        ],
+        "redaction": "仅替换账户余额字段，不改研究配置、指标或其他内容",
+        "original_bytes_unchanged": false
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/后期逐实验索引_224-256.tsv",
       "size": 16953,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/后期逐实验索引_224-256.tsv",
+      "sha256": "bae0c6dd63af80c5b82f049a661cd2397453b58bafcb5da0a81834fd08dfad44",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/实验131全pilot审阅索引.json",
       "size": 481210,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/实验131全pilot审阅索引.json",
+      "sha256": "c5ad878b573ffd5692c38dfa9b8f2cb7143453bb130ef15bea26a684b590ec60",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/数据集清单与许可划分.json",
       "size": 17721,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/数据集清单与许可划分.json",
+      "sha256": "d1e1739d9b553fb03b8531d0db184dd380614eec94ef725973576668c47475b1",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/文献与依据表.json",
       "size": 88888,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/文献与依据表.json",
+      "sha256": "aad161aec299cf1283fe2a12257edea69081e115c203329558d5a14ee4490374",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/文献与依据表.md",
@@ -2018,18 +2135,24 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/新增状态动作与角色邻接复核.json",
       "size": 3052,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/新增状态动作与角色邻接复核.json",
+      "sha256": "04d66d5e45fa1be411b64ecd7cd9287a0dd084a0ecd74d12185462b951e86439",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/模型参数与最小推断资产引用.json",
       "size": 31695,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/模型参数与最小推断资产引用.json",
+      "sha256": "3e30db83b717952bc9c589cb0e9e6ab1b496d17d8647d3d3bdc8af98edfaada5",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/模型参数与纯推断接口.md",
@@ -2045,34 +2168,46 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/正式稿02-05_最终事实复核.json",
       "size": 7798,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/正式稿02-05_最终事实复核.json",
+      "sha256": "61cc596db7f9d30df5d5e2f6fa22acab695fbc40892126fc06fc732f08e6d215",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/正式稿_聚焦文献核对.json",
       "size": 6024,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/正式稿_聚焦文献核对.json",
+      "sha256": "5e299fe4834c73408889fd6b91c13fdb57b1e467fd5a6f3a70ddbc9526ada5cf",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/独立原始记录复算.json",
       "size": 78100,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/独立原始记录复算.json",
+      "sha256": "feeae883d0aa8952a0bafa8ed4b12263a89a4fd54ad38f6d7eb50f2b5c732afb",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验131-223审阅索引.json",
       "size": 182456,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验131-223审阅索引.json",
+      "sha256": "47c2eb764d2f9d209cd581b5bca5ea6ed144806e4da65ee7b19cad684443ff59",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验131-223科学结论.txt",
@@ -2089,23 +2224,48 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验审计索引_01-130.json",
       "size": 19276338,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
-      "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "reason": "含账户余额原值；完整原件保留附件，另提供公开脱敏副本",
+      "findings": [
+        "需核定的手机号码",
+        "需核定的电子邮件"
+      ],
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "source_sha256": "65492c962b2c9f0eb49d8c429bb537c5c97a4de28066eda1be07f9d5789bb991",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验审计索引_01-130_公开脱敏版.json",
+        "sha256": "21f402c5fa3004e9a807e5cc615bfcfc29be2cd413381248023e6fcbaa8ac850",
+        "size": 19010465,
+        "redacted_fields": [
+          ".entries[].result_facts[].facts.historical_balance_cny",
+          ".entries[].result_facts[].facts.historical_initial_balance_cny",
+          ".entries[].result_facts[].facts.independent_cost.maximum_observed_balance_cny",
+          ".entries[].result_facts[].facts.independent_cost.minimum_initial_balance_minus_prior_cost_and_active_reservation_cny",
+          ".entries[].result_facts[].facts.independent_cost.minimum_observed_balance_cny",
+          ".entries[].result_facts[].facts.initial_verified_balance_cny",
+          ".entries[].result_facts[].facts.last_observed_balance_cny",
+          ".entries[].result_facts[].facts.latest_observed_balance_cny",
+          ".entries[].result_facts[].facts.minimum_observed_balance_cny"
+        ],
+        "redaction": "仅替换账户余额字段，不改研究配置、指标或其他内容",
+        "original_bytes_unchanged": false
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验审计索引_01-130.tsv",
       "size": 60706,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/审计附件/逐实验审计索引_01-130.tsv",
+      "sha256": "a76d37bdfa825392110cc35f4e1d14ab2c4411adfc134e2978b9f8e1ce50a3c4",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp125-plan-risk/commondir",
       "size": 6,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2113,7 +2273,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp125-plan-risk/gitdir",
       "size": 80,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2121,7 +2281,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp125-plan-risk/HEAD",
       "size": 42,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2129,7 +2289,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp125-plan-risk/index",
       "size": 729042,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2137,7 +2297,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp125-plan-risk/logs/HEAD",
       "size": 279,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2145,7 +2305,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp125-plan-risk/ORIG_HEAD",
       "size": 41,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2153,7 +2313,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp126-relation-residual/commondir",
       "size": 6,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2161,7 +2321,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp126-relation-residual/gitdir",
       "size": 88,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2169,7 +2329,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp126-relation-residual/HEAD",
       "size": 50,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2177,7 +2337,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp126-relation-residual/index",
       "size": 729042,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2185,7 +2345,7 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp126-relation-residual/logs/HEAD",
       "size": 279,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
@@ -2193,25 +2353,31 @@
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/Git登记_0922-exp126-relation-residual/ORIG_HEAD",
       "size": 41,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "旧工作树Git登记、二进制索引或身份日志，含本机管理信息",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/删除前最终核验清单.json",
       "size": 6384,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/删除前最终核验清单.json",
+      "sha256": "b8124edfb75dcfaeb1922073b7296890bce7db3e89e51b91bc55c4f2305f3ec3",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/实际清理回执.json",
       "size": 3714,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/实际清理回执.json",
+      "sha256": "4334319e5a23b453b7bdc88893a3e5509db4d3f4b0af2772e577c35a6d768727",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/实验125暂停记录.md",
@@ -2238,26 +2404,35 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/暂停工作树删除前完整文件清单.json",
       "size": 3380158,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/暂停工作树删除前完整文件清单.json",
+      "sha256": "91b50d65f8dcf172028968e3c538bce2f81c661ead178d179d7cef18aa8c5a9b",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/暂停工作树物理大小.json",
       "size": 805,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/暂停工作树物理大小.json",
+      "sha256": "ebf103b9b99303bbf367b32bbf75683a4091adc90a8fe7b8b8850740657069ad",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/派生缓存逐文件恢复证明.json",
       "size": 20548,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅"
+      "group": "05_历史稿件/02_修订留稿/01_Astra两小时独立审阅",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/01_Astra两小时独立审阅/清理保留/派生缓存逐文件恢复证明.json",
+      "sha256": "3a20e69b190e63cde1a0ab71e9b49e5205348dac0d48d21e0c4f603293e62fb1",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/00_V2阅读入口与结论.md",
@@ -2460,26 +2635,43 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/DELIVERY_MANIFEST.json",
       "size": 4997,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/DELIVERY_MANIFEST.json",
+      "sha256": "e6aab1f64881d290216ffeb37261a0bd71201658092f4db79b6a1a23ffd620bd",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FINANCE_AND_RESUME_RECEIPT.json",
       "size": 30127,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "含账户余额原值；完整原件保留附件，另提供公开脱敏副本",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "source_sha256": "91d98a593078eb25736ba8149dd2572f7f97e7018efd493e30c4ac0340de41af",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FINANCE_AND_RESUME_RECEIPT_公开脱敏版.json",
+        "sha256": "12dda8e1acfd198c5d0c0b0b95066f92b58b65c5de7ce57ed36e9908637463f8",
+        "size": 29602,
+        "redacted_fields": [
+          ".available_balance_GET_CNY"
+        ],
+        "redaction": "仅替换账户余额字段，不改研究配置、指标或其他内容",
+        "original_bytes_unchanged": false
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FIRST_RESPONSE_VARIATION_AUDIT.json",
       "size": 4853,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FIRST_RESPONSE_VARIATION_AUDIT.json",
+      "sha256": "f5f941e16066ef898f4480639f3a67efdefbba18c33e0270bac5914cf198439a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md",
@@ -2495,186 +2687,279 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NEXT_METHOD_HYPOTHESES_NOT_EXECUTED.json",
       "size": 5762,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NEXT_METHOD_HYPOTHESES_NOT_EXECUTED.json",
+      "sha256": "0d35391a5db3285fe0f48e8590c2c8bedd26f7f44213a411d36e1dbf21117e8b",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
       "size": 3383,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NOOP_VALIDATION_OFFLINE_SOURCE_AUDIT.json",
+      "sha256": "a7f875561fd70c7077269191573af57c700751229567853e366a586295132c27",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
       "size": 4621,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NORMAL_FAILURE_STATE_BINDING_AUDIT.json",
+      "sha256": "b5c9cc47eb848969885b911fc64c67183d601c1c4bdb0ee988bd5c5d384510b0",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PAIRED_RECOVERY_MATRIX.json",
       "size": 43027,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PAIRED_RECOVERY_MATRIX.json",
+      "sha256": "4971802ff1dc9879d7fa2e474a4a79aa8747e1ba053374de6b18d351b464a655",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json",
       "size": 7273,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PRESSURE_REQUEST_AND_FINAL_SOURCE_AUDIT.json",
+      "sha256": "98ec1a5913cfca5e363c9e5b1aa626fad947213420c46082270b421857921627",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PROGRESS_GUARD_EVENTS.json",
       "size": 74939,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/PROGRESS_GUARD_EVENTS.json",
+      "sha256": "39d8c3375cd3cf1dece1ee299f9f0b0327c4c05bdde9b988826784d10096c597",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/RANKING_INTERVENTION_OPPORTUNITIES.tsv",
       "size": 29953,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/RANKING_INTERVENTION_OPPORTUNITIES.tsv",
+      "sha256": "b122fc644542d866217ae7b08d1b9d4f18638dcd4e217b5d9105c154c73d368f",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL.json",
       "size": 9785,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "含账户余额原值；完整原件保留附件，另提供公开脱敏副本",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "source_sha256": "999d49e01293eb2e474c0530e4bffa282a5d68023bdb1be11dd1739839a3f2c3",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/ROOT_WINDOW_CLOSED_ACTUAL_公开脱敏版.json",
+        "sha256": "dce90f6d0ddc342c7a447a4395b73aaa2bcb0511652714d8c9bd9ba21c2986bb",
+        "size": 9829,
+        "redacted_fields": [
+          ".available_balance_GET_CNY"
+        ],
+        "redaction": "仅替换账户余额字段，不改研究配置、指标或其他内容",
+        "original_bytes_unchanged": false
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/RQ1_SOURCE3_RELEASE.json",
       "size": 969879,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/RQ1_SOURCE3_RELEASE.json",
+      "sha256": "f02dc801aa6cf21c5d716c346fd41905914db1fab1fc1092263691cf8ea7c5b6",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SBS_ACTUAL_PREFIX_AUDIT.json",
       "size": 4027,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SBS_ACTUAL_PREFIX_AUDIT.json",
+      "sha256": "9a140fe50aea07cd98a00b701ea8283a6db5035913b4c843cdc2150cf2bade3f",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SEQUENTIAL_EVIDENCE_OPPORTUNITY.json",
       "size": 25425,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SEQUENTIAL_EVIDENCE_OPPORTUNITY.json",
+      "sha256": "e1ca45acf65319814449b01468e38ab7436c9b5c616f17498bbe051b9fef80a0",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
       "size": 2081,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/SUCCESSFUL_SOURCE_VARIANTS_AUDIT.json",
+      "sha256": "6f0143d39e9580e81c15ededcf1ebd78d18fd4a3fb56c1189635c4f7aa7dbf1f",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/THIRD_BASELINE_QUALIFICATION.json",
       "size": 5929,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/THIRD_BASELINE_QUALIFICATION.json",
+      "sha256": "31b943b437ae0bb85c30491dc089b14dea7810a0cb02314052e9d74cc12821c0",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_PARTIAL262_READONLY_AUDIT.json",
       "size": 2604,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_PARTIAL262_READONLY_AUDIT.json",
+      "sha256": "d1694a45819b754914e95576dc69106520e889103b2bf13bffb6cb9b7ec7cd3d",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_PATCHPILOT258_READONLY_REVIEW.json",
       "size": 2383,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_PATCHPILOT258_READONLY_REVIEW.json",
+      "sha256": "67418f65438e1d18ad77ad44854d20de0f585cf1423f81b8479a53725cdb81ae",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_PREFIX260_READONLY_AUDIT.json",
       "size": 6042,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_PREFIX260_READONLY_AUDIT.json",
+      "sha256": "82d10c2922ff85200f4bc4eddce3ce1d5275bc69bdb5140ae3b57747094f723b",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_RELEASE257_READONLY_AUDIT.json",
       "size": 7804,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/ASTRA_RELEASE257_READONLY_AUDIT.json",
+      "sha256": "55ed44637f643b253384c41c713746b9627d6d4f13c3d72a711fe88ac799ce8a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_results.json",
       "size": 33171,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "含账户余额原值；完整原件保留附件，另提供公开脱敏副本",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "source_sha256": "1ed98701be23dbda66aea26d5b3e0e7e002a137bafc0c223ba16cec44b8264dc",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_results_公开脱敏版.json",
+        "sha256": "74123c8fbdb351603252814247ff04f2257a1d5cf226f3943869645f6b758888",
+        "size": 32499,
+        "redacted_fields": [
+          ".finance.available_balance_record_CNY"
+        ],
+        "redaction": "仅替换账户余额字段，不改研究配置、指标或其他内容",
+        "original_bytes_unchanged": false
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_stdout.json",
       "size": 3575,
       "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "reason": "含账户余额原值；完整原件保留附件，另提供公开脱敏副本",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "source_sha256": "0b193aa4a70eec3bf56d80841f7cb59a550d97465738801a8249079a7b16b93a",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/audit_stdout_公开脱敏版.json",
+        "sha256": "1802f1fcab66d47b096bfaf027bbe92951c32d1df216f90cd74e01dd67d3882f",
+        "size": 3525,
+        "redacted_fields": [
+          ".finance.available_balance_record_CNY"
+        ],
+        "redaction": "仅替换账户余额字段，不改研究配置、指标或其他内容",
+        "original_bytes_unchanged": false
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/B_18_slots_normalized.json",
       "size": 7106,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/B_18_slots_normalized.json",
+      "sha256": "63a6102ed0ca3bbd41b8ae56abe4a4dabfee13f7598fd3dad642dcc17366319f",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/closure_proofs_readonly.json",
       "size": 41406,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/closure_proofs_readonly.json",
+      "sha256": "4b3e072ea26ff62b693813c85cfac4c7822487f75ec1dfada9f53acfd44d0ed2",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/DELIVERY_CHECK.json",
       "size": 1091,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/DELIVERY_CHECK.json",
+      "sha256": "fa5f08fca08dcc7af16d17b039e64161a172549632accd117a3c502193bf2e04",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/direct_reference_checks.json",
       "size": 108785,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/direct_reference_checks.json",
+      "sha256": "5877453effb8f51a42bc98e065a6a41d06ab67d13f1a88554cc69726d2469079",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-b-finance-audit/最终B_D_SBS与费用审计.md",
@@ -2701,82 +2986,112 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-c-audit/FINAL_C_INDEPENDENT_AUDIT.json",
       "size": 132405,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-c-audit/FINAL_C_INDEPENDENT_AUDIT.json",
+      "sha256": "48f454741aa9d55c6e2742b3c626c88955a65a9cbc5b6279f95115b2092eb9c5",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-c-audit/NINE_RUN_RESULTS.tsv",
       "size": 1299,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-c-audit/NINE_RUN_RESULTS.tsv",
+      "sha256": "f4659fe0b10e30271b543e7ac87c02c773fc1b5f189320eecfebdcb9a42a71df",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-c-audit/TEN_CANDIDATE_EVENTS.tsv",
       "size": 488,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/final-c-audit/TEN_CANDIDATE_EVENTS.tsv",
+      "sha256": "9e80cee05fac5d4774223a965368525b016232a5cf9e9e1687a46ebeabfce70b",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/HTML_CONTENT_QA.json",
       "size": 2168,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/HTML_CONTENT_QA.json",
+      "sha256": "1a7fcf45eb385bea1210dbd1b6dc2186041f381b70fc50f4fdbee0aa137a73ee",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/PDF_CONTENT_QA.json",
       "size": 998,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/PDF_CONTENT_QA.json",
+      "sha256": "ecfd6fb82ed5609102a89807b2594aadaf27cb40af280ac8310bbcf01a1ceaa8",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_AUTHORING_RECEIPT.json",
       "size": 383,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_AUTHORING_RECEIPT.json",
+      "sha256": "da789d3163d754db207a9c706026e1f04846bd0822f2cb51fce26c16deec39e8",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_CONTENT_QA.json",
       "size": 1727,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_CONTENT_QA.json",
+      "sha256": "dca740e8fee963403526333539ac4e3be521063bc2638876e4c50102b8278c8e",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_PREPARATION_RECEIPT.json",
       "size": 1697,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_PREPARATION_RECEIPT.json",
+      "sha256": "8c99c3866ee2744ec7d7c9610302e22c2833ab20e579e28a224400cd6d459e0a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_VISUAL_QA.json",
       "size": 1260,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/V2_VISUAL_QA.json",
+      "sha256": "f96dc94f02e0289af01a7b09e23bba9e90132f385ff8a81a832f6cb9d5ace88d",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/部分修复状态来源/MOTO7081_PARTIAL_STATE_SOURCE_AUDIT.json",
       "size": 604477,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2"
+      "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/部分修复状态来源/MOTO7081_PARTIAL_STATE_SOURCE_AUDIT.json",
+      "sha256": "beb41c134220514d7d2a56bbc7603ca53ae7c576b9dd8abda097cd0f82d65a6a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/审计附件/部分修复状态来源/来源说明.txt",
@@ -2990,74 +3305,101 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/HTML_CONTENT_QA.json",
       "size": 2481,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/HTML_CONTENT_QA.json",
+      "sha256": "e091733c8209f60504c3f5c6ca1a976545f1a23af872cf9fa7a68a42cc1752e5",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/PDF_OUTLINE_AND_PAGES.json",
       "size": 2447,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/PDF_OUTLINE_AND_PAGES.json",
+      "sha256": "7936d76637ab3eaa3852b66993da94a5ca82643e62f66656550cfd0b1169fbe9",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/POSITIVE_RESULT_DATA_PROVENANCE.json",
       "size": 27025,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/POSITIVE_RESULT_DATA_PROVENANCE.json",
+      "sha256": "44402db0f686ee66d864a3a338e07d73ffb8d83d6a987cd108c86d6f62e7520c",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/SELECTED_DATA_SYSTEM.json",
       "size": 5904,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/SELECTED_DATA_SYSTEM.json",
+      "sha256": "16fefcf99d6f9d655d88b0ca37efbedb53a7148259713f363d9743ad4960c984",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_CONTENT_QA.json",
       "size": 16933,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_CONTENT_QA.json",
+      "sha256": "8603a727813c570e9019078a961dccfb2b2f5602e37d2720ecbef08f4218e0ce",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_TABLE_STYLE_QA.json",
       "size": 4750,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_TABLE_STYLE_QA.json",
+      "sha256": "c42b922ee348bdf3c5f62fd440745ed95963d523a8583d707ff714a99be3ebf2",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_交付核验.json",
       "size": 669,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_交付核验.json",
+      "sha256": "fe22abea9a518ddc7a14de0c93b9e3162b720a0451f9d3ef950a42a245f806fb",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_文献交付核验.json",
       "size": 2364,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/V3_文献交付核验.json",
+      "sha256": "e6e72c71d41b6943b312d11a5153cde02380a0b1c17102dddf714febc58201ec",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/历史七状态与SGAgent_只读核对.json",
       "size": 15178,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/历史七状态与SGAgent_只读核对.json",
+      "sha256": "5d4624c0f1bf491e04a4741681e12f377e4d7845494ebc0ceffa3bae50e1cbc4",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/历史七状态正结果与SGAgent核对.md",
@@ -3073,18 +3415,24 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/文献与依据表_V3合并.json",
       "size": 119289,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/文献与依据表_V3合并.json",
+      "sha256": "afa03f07e3607529912c8873ca9454e247952169e198192ac6e2c674427d37c2",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/新增文献纳排表.json",
       "size": 28248,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/新增文献纳排表.json",
+      "sha256": "b5dbef04d71133337d4e15b9860584007b18226da45934266886320a940bc379",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/新增文献纳排表.md",
@@ -3100,10 +3448,13 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/正文与完整文献索引编号对应.json",
       "size": 761,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3"
+      "group": "05_历史稿件/02_修订留稿/03_研究方案与开题_v3",
+      "destination": "历版材料/05_历史稿件/02_修订留稿/03_研究方案与开题_v3/证据/正文与完整文献索引编号对应.json",
+      "sha256": "55cea0c60d79c7f93c7b6bc27276feec7d83d42c4d59cc7009b3dddcf083b0fe",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/04_导师开题稿_v4/00_阅读目录.md",
@@ -10781,10 +11132,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/01_学术汇报版_v1/开题报告_学术汇报版.pptx.inspect.ndjson",
       "size": 446290,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/01_学术汇报版_v1/开题报告_学术汇报版.pptx.inspect.ndjson",
+      "sha256": "46c1b7ba2459a8512726a08d9f5b07047b48c96dd32c49d41d77092f59e13552",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/02_学术汇报版_v2/开题报告_学术汇报版_v2.pptx",
@@ -10800,10 +11154,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/02_学术汇报版_v2/开题报告_学术汇报版_v2.pptx.inspect.ndjson",
       "size": 428091,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/02_学术汇报版_v2/开题报告_学术汇报版_v2.pptx.inspect.ndjson",
+      "sha256": "8d562556dfe7a82aec0c0a5bfbba54d326d7e9ce1a575dbea315e01a6ae66895",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/03_学术汇报版_v3/开题报告_学术汇报版_v3.pptx",
@@ -10819,10 +11176,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/03_学术汇报版_v3/开题报告_学术汇报版_v3.pptx.inspect.ndjson",
       "size": 346615,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/03_学术汇报版_v3/开题报告_学术汇报版_v3.pptx.inspect.ndjson",
+      "sha256": "e924c2202f48e54619e64120e4677247760a211101353184cc8099b0a8e5c56a",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/04_学术汇报版_v4/开题报告_学术汇报版_v4.pptx",
@@ -10838,10 +11198,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/04_学术汇报版_v4/开题报告_学术汇报版_v4.pptx.inspect.ndjson",
       "size": 346615,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/04_学术汇报版_v4/开题报告_学术汇报版_v4.pptx.inspect.ndjson",
+      "sha256": "8cdea79725c02901f9d04547475a86f62abf396f39d8d432e1d883944f037da2",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/05_学术汇报版_v5/开题报告_学术汇报版_v5.pptx",
@@ -10857,10 +11220,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/05_学术汇报版_v5/开题报告_学术汇报版_v5.pptx.inspect.ndjson",
       "size": 358500,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/05_学术汇报版_v5/开题报告_学术汇报版_v5.pptx.inspect.ndjson",
+      "sha256": "62804eee346f2e9ca4347c271405a0b27b0e4bd8055b0fff6f9bd40c6cfefae7",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/06_学术汇报版_v6/开题报告_学术汇报版_v6.pptx",
@@ -10876,10 +11242,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/06_学术汇报版_v6/开题报告_学术汇报版_v6.pptx.inspect.ndjson",
       "size": 390430,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/06_学术汇报版_v6/开题报告_学术汇报版_v6.pptx.inspect.ndjson",
+      "sha256": "875f13a88975e3b550088e7b97b288f16a5b0022a604a94490848b38fb3c98f3",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/07_实验设计强化版_v7/开题报告_实验设计强化版_v7.pptx",
@@ -10895,10 +11264,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/07_实验设计强化版_v7/开题报告_实验设计强化版_v7.pptx.inspect.ndjson",
       "size": 503860,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/07_实验设计强化版_v7/开题报告_实验设计强化版_v7.pptx.inspect.ndjson",
+      "sha256": "7aec0ca9acf8244d56477e02cab969586bd99e6900f5f8813f96ec8199a284b2",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/08_实验规范强化版_v8/开题报告_实验规范强化版_v8.pptx",
@@ -10914,10 +11286,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/08_实验规范强化版_v8/开题报告_实验规范强化版_v8.pptx.inspect.ndjson",
       "size": 508485,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/08_实验规范强化版_v8/开题报告_实验规范强化版_v8.pptx.inspect.ndjson",
+      "sha256": "4ae363ec75c0afaaefa30f02645d105598a3e4f428da2f060a36c3d16352adc6",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/09_全稿学术规范版_v9/开题报告_全稿学术规范版_v9.pptx",
@@ -10933,10 +11308,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/09_全稿学术规范版_v9/开题报告_全稿学术规范版_v9.pptx.inspect.ndjson",
       "size": 427217,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/09_全稿学术规范版_v9/开题报告_全稿学术规范版_v9.pptx.inspect.ndjson",
+      "sha256": "92ee79bd4552f77d6cc26a3bcfe5a28153419816f9acfe234a6cf92a643a3c91",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/10_输出递进全稿版_v10/rendered-v10-final/montage-01-24.png",
@@ -15770,10 +16148,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/10_输出递进全稿版_v10/开题报告_输出递进全稿版_v10.pptx.inspect.ndjson",
       "size": 427922,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/10_输出递进全稿版_v10/开题报告_输出递进全稿版_v10.pptx.inspect.ndjson",
+      "sha256": "8dd54ae874a918ffefb451279364c1dce7071914637d9bab9d167e5c504cddb0",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/11_研究思想递进与正式实验计划版_v11/开题报告_研究思想递进与正式实验计划版_v11.pptx",
@@ -15789,10 +16170,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/11_研究思想递进与正式实验计划版_v11/开题报告_研究思想递进与正式实验计划版_v11.pptx.inspect.ndjson",
       "size": 438188,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/11_研究思想递进与正式实验计划版_v11/开题报告_研究思想递进与正式实验计划版_v11.pptx.inspect.ndjson",
+      "sha256": "f7295837a075ae025720e6529a671400ffdc252b8ac1b824994e02a854ba3c10",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/12_专业综述与串行端到端实验版_v12/开题报告_专业综述与串行端到端实验版_v12.pptx",
@@ -15808,10 +16192,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/12_专业综述与串行端到端实验版_v12/开题报告_专业综述与串行端到端实验版_v12.pptx.inspect.ndjson",
       "size": 455285,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/12_专业综述与串行端到端实验版_v12/开题报告_专业综述与串行端到端实验版_v12.pptx.inspect.ndjson",
+      "sha256": "14d515f432a3e6f3f405ae755f67055c9a2d544ca10727dfa815514d77ceffbf",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/13_上下文与方法论证补全版_v13/PPT_v13_逐页修订与验收清单.txt",
@@ -15849,10 +16236,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/13_上下文与方法论证补全版_v13/开题报告_上下文与方法论证补全版_v13.pptx.inspect.ndjson",
       "size": 465371,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/13_上下文与方法论证补全版_v13/开题报告_上下文与方法论证补全版_v13.pptx.inspect.ndjson",
+      "sha256": "62eba45618da7fab920039b82f30925cb109c044f117c98ce56ae75bbfeaddb0",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/14_实验合同校准与正式桥接设计版_v14/PPT_v14_实验合同校准与选择性采纳清单.txt",
@@ -15879,10 +16269,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/14_实验合同校准与正式桥接设计版_v14/开题报告_实验合同校准与正式桥接设计版_v14.pptx.inspect.ndjson",
       "size": 436617,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/14_实验合同校准与正式桥接设计版_v14/开题报告_实验合同校准与正式桥接设计版_v14.pptx.inspect.ndjson",
+      "sha256": "384ca95795c6da08d0b202decaf42e1560350efd0fa8e708321531f08ce5a5f0",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/15_审定意见落实版_v15/开题报告_v13审定意见落实版_v15.pptx",
@@ -15898,10 +16291,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/15_审定意见落实版_v15/开题报告_v13审定意见落实版_v15.pptx.inspect.ndjson",
       "size": 459928,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/15_审定意见落实版_v15/开题报告_v13审定意见落实版_v15.pptx.inspect.ndjson",
+      "sha256": "fc81eee80d208417de4c2811725c58d03fc5d01d0a3be503bacb0638e4dcc9db",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/16_第三章重构与附录版_v16/开题报告_v15第三章重构与附录版_v16.pptx",
@@ -15917,10 +16313,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/16_第三章重构与附录版_v16/开题报告_v15第三章重构与附录版_v16.pptx.inspect.ndjson",
       "size": 394350,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革"
+      "group": "05_历史稿件/03_早期方案/04_学术汇报PPT沿革",
+      "destination": "历版材料/05_历史稿件/03_早期方案/04_学术汇报PPT沿革/16_第三章重构与附录版_v16/开题报告_v15第三章重构与附录版_v16.pptx.inspect.ndjson",
+      "sha256": "f80e10403a99ce312eaf912a068fe11ef95cf24d27f7b0ad843383264bd95d72",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/01_全稿重审_v0/开题报告_V0_全稿修改意见.md",
@@ -15947,10 +16346,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/01_全稿重审_v0/开题报告_V0_全稿重审版.pptx.inspect.ndjson",
       "size": 386816,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT"
+      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT",
+      "destination": "历版材料/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/01_全稿重审_v0/开题报告_V0_全稿重审版.pptx.inspect.ndjson",
+      "sha256": "a8846f0ffab05e82b3ff9bbcef45a70a04eb6742e1f3b4e88fb82e19a365e2a1",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/02_引用与全文讲稿_v1/开题报告_V1_引用与全文讲稿版.pptx",
@@ -15966,10 +16368,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/02_引用与全文讲稿_v1/开题报告_V1_引用与全文讲稿版.pptx.inspect.ndjson",
       "size": 373021,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT"
+      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT",
+      "destination": "历版材料/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/02_引用与全文讲稿_v1/开题报告_V1_引用与全文讲稿版.pptx.inspect.ndjson",
+      "sha256": "f1b962fe31dfc1085d82926c6eefcf8dd58654e06742b0fe6c8d871f03d6ae39",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/03_页面兼容修复_v2/开题报告_V2_第40_41页兼容修复副本.pptx",
@@ -15985,10 +16390,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/03_页面兼容修复_v2/开题报告_V2_第40_41页兼容修复副本.pptx.inspect.ndjson",
       "size": 373672,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT"
+      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT",
+      "destination": "历版材料/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/03_页面兼容修复_v2/开题报告_V2_第40_41页兼容修复副本.pptx.inspect.ndjson",
+      "sha256": "ae17e4baabfc47ad6b7fc52a67c205fb998c64489b0c887e13b401a91a1bfd25",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/04_公式兼容修复_v3/开题报告_V3_第40_41页公式兼容修复副本.pptx",
@@ -16004,10 +16412,13 @@
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/04_公式兼容修复_v3/开题报告_V3_第40_41页公式兼容修复副本.pptx.inspect.ndjson",
       "size": 373662,
-      "status": "附件保留",
-      "reason": "机器配置或过程记录，完整原件保留供核对",
+      "status": "仓库展开",
+      "reason": "小型研究记录已核对，无凭据、账户余额或需隔离个人字段",
       "findings": [],
-      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT"
+      "group": "05_历史稿件/03_早期方案/05_全稿重审与新题目PPT",
+      "destination": "历版材料/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/04_公式兼容修复_v3/开题报告_V3_第40_41页公式兼容修复副本.pptx.inspect.ndjson",
+      "sha256": "97c48003d74ee0f594beb5e179ae71e3b3dc6ffbe14b2d3010f4015406d53564",
+      "original_bytes_unchanged": true
     },
     {
       "source": "03_开题/05_历史稿件/03_早期方案/05_全稿重审与新题目PPT/05_新题目正式版_v4/V4_全文提取_含公式图表与备注.md",
@@ -16852,5 +17263,17 @@
       "sha256": "8997d2a6be5cb3f3f33f404b40939bd4fb2ce3467b019d2d8ccc513eea54903d",
       "original_bytes_unchanged": true
     }
-  ]
+  ],
+  "public_derivative_count": 7,
+  "direct_public_views": 1531,
+  "metadata_review": {
+    "reviewed": 126,
+    "format_alone_not_exclusion": true,
+    "decisions": {
+      "原字节展开": 107,
+      "原件附件及公开脱敏副本": 7,
+      "附件保留": 12
+    },
+    "original_source_values_not_recorded_in_review": true
+  }
 }

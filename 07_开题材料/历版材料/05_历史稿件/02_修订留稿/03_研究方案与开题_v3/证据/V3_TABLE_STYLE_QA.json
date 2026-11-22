@@ -1,0 +1,238 @@
+[
+  {
+    "file": "00_确定方案与阅读入口.html",
+    "tables": [
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      }
+    ],
+    "figureCaptions": 0
+  },
+  {
+    "file": "01_开题报告_V3_六章完整稿.html",
+    "tables": [
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      }
+    ],
+    "figureCaptions": 3
+  },
+  {
+    "file": "02_相关文献与研究空间.html",
+    "tables": [
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      }
+    ],
+    "figureCaptions": 0
+  },
+  {
+    "file": "03_两层基线确定方案.html",
+    "tables": [
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      }
+    ],
+    "figureCaptions": 0
+  },
+  {
+    "file": "04_数据集与划分确定方案.html",
+    "tables": [
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      }
+    ],
+    "figureCaptions": 0
+  },
+  {
+    "file": "05_整体实验框架与待验证事项.html",
+    "tables": [
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      }
+    ],
+    "figureCaptions": 0
+  },
+  {
+    "file": "06_总体研究框图与阅读说明.html",
+    "tables": [],
+    "figureCaptions": 1
+  },
+  {
+    "file": "07_完整文献索引.html",
+    "tables": [],
+    "figureCaptions": 0
+  },
+  {
+    "file": "08_既有结果证据索引.html",
+    "tables": [
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      },
+      {
+        "caption": true,
+        "top": "solid",
+        "bottom": "solid",
+        "header": "solid",
+        "black": true,
+        "cells": true
+      }
+    ],
+    "figureCaptions": 0
+  }
+]

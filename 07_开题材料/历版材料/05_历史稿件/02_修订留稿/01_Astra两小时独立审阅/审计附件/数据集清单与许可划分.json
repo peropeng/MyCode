@@ -1,0 +1,277 @@
+{
+  "schema": "astra-dataset-selection-plan-v1",
+  "checked_on": "2026-10-12",
+  "status": "文献子审计建议，最终选择由独立主审与实验资格共同确认；已选设计不等于已获得运行资格",
+  "metadata_only_new_reads": false,
+  "preview_exposure_record": "exposure_record.json",
+  "datasets": [
+    {
+      "id": "D01",
+      "name": "AFTraj-2K / ZBox008003/AFTraj",
+      "selection": "已选：RQ1历史训练、开发及分组外折比较；不是新的未曝光确认集",
+      "source": "https://huggingface.co/datasets/ZBox008003/AFTraj",
+      "paper": "L28",
+      "revision": "11191169d3d99298df098eee8d83db425117faba",
+      "official_scale": {
+        "total": 2276,
+        "safe": 1162,
+        "unsafe": 1114,
+        "unsafe_injected": 728,
+        "unsafe_diagnosed": 386,
+        "official_test_safe": 169,
+        "official_test_unsafe": 163
+      },
+      "local_scale": {
+        "historical_development_trajectories": 731,
+        "task_groups": 716,
+        "steps": 7366,
+        "historical_reserved_records": 180,
+        "historical_reserved_groups": 168
+      },
+      "labels": "unsafe_source、mistake_step、mistake_agent、mistake_reason；gold_answer是任务答案，不能出现在无答案输入。",
+      "license": "CC-BY-4.0（官方卡及API均确认）",
+      "split": "主比较只使用固定unsafe开发分区、按源任务组划分外折并在内层验证选轮；safe如纳入在线误报评价需另定义任务。",
+      "overlap": "180条及163条官方unsafe test已经被历史评分，不能再声称全新盲测；同源safe/unsafe、注错变体和同问题跨数据集必须同组。此次卡片预览math_0060_safe、math_0061_safe源任务组加入曝光账。",
+      "use_questions": "RQ1是否比时序/整体/二分策略更准确；关系和内容消融；不以此数据证明真实软件恢复。",
+      "missing_validation": "主模型权重→折分配→预测逐条来源锁；当前统一版本与历史AB/SF训练条件核对。"
+    },
+    {
+      "id": "D02",
+      "name": "AgenTracer / TracerTraj 扩展公开包 data-v1.0.0",
+      "selection": "已选：RQ1软件coding主范围；拟选source3部署训练coding256+math236、验证64+58，历史证据与独立确认资格分开",
+      "source": "https://github.com/bingreeky/AgenTracer/releases/tag/data-v1.0.0",
+      "paper": "L06",
+      "revision": "data-v1.0.0 (released 2026-08-27)",
+      "archive_sha256": "a4615b2defacc5ec181239da299055e240444b44b414bd7db3d1471c9aa5826d",
+      "official_scale": {
+        "release_records": 3998,
+        "agentic_train": 1500,
+        "agentic_test": 600,
+        "coding_train": 1141,
+        "coding_test": 127,
+        "math_train": 567,
+        "math_test": 63
+      },
+      "scale_evidence": "本地固定发布包public_split_manifest计数；作者README确认扩展包与论文2.5K不同。未重新读取原始标签。",
+      "local_scale": {
+        "Exp134_training_groups": 492,
+        "Exp134_validation_groups": 122,
+        "coding_train": 256,
+        "coding_validation": 64,
+        "math_train": 236,
+        "math_validation": 58,
+        "coding_qualified_train_pool": 939,
+        "math_qualified_train_pool": 294,
+        "former_coding_holdout": 363,
+        "former_agentic_holdout": 1467
+      },
+      "labels": "原生history带原步骤ID；错误步骤/责任主体字段仅在授权监督/封存后评分通道读取。",
+      "license": "作者发布许可需在正式再分发前明确；本次未发现数据release附属单独许可证明，不能继承MetaGPT第三方目录许可。",
+      "split": "Exp134按全包归一化问题文本及domain+question_ID连通分量分组，排除跨作者test组；公开资格6–32步、保留原步骤映射。coding363为作者TRAIN内项目留出，非官方TEST；既有1467agentic亦已曝光。 官方TEST在Exp134前已曝光coding79/math23，Exp135另评coding45/math40，累计coding124/127、math63/63；余3条coding超出既定2–64步范围，不能直接补作新确认。",
+      "overlap": "同question_ID、文本相同、多注错版本不得跨训练/验证/确认；需与AF、Who&When、WhoWhenPro源任务身份再去重。",
+      "use_questions": "RQ1同数据监督训练、coding与math适用范围、agentic迁移失败边界。",
+      "missing_validation": "最终统一权重是否采用此训练版本；数据许可与选模历史；不把未曝光状态重新赋给已评分任务。 官方TEST coding/math没有现成合格新确认空位；需另行核定来源、任务组与曝光账。",
+      "official_test_historical_exposure": {
+        "Exp134_previous_exposure_coding": 79,
+        "Exp134_previous_exposure_math": 23,
+        "Exp135_additional_evaluated_coding": 45,
+        "Exp135_additional_evaluated_math": 40,
+        "coding_exposed_total": 124,
+        "coding_official_total": 127,
+        "math_exposed_total": 63,
+        "math_official_total": 63,
+        "coding_remaining": 3,
+        "coding_remaining_qualification": "剩余3条coding不在既定2–64步长度范围，不能作为现成新确认",
+        "conclusion": "官方TEST coding/math当前无已核定可直接使用的新确认空位",
+        "evidence_scope": "主审对Exp134 public_pool_inventory和Exp135补充评价的独立核验；历史曝光不因作者分区名为TEST而重置"
+      }
+    },
+    {
+      "id": "D03",
+      "name": "Who&When Pro text / Leoxx/whowhen_pro",
+      "selection": "已曝光开发与辅助跨框架研究资产：同版本text6257条/2599组已在E32场景C全部用于开发，不是新确认候选池",
+      "source": "https://huggingface.co/datasets/Leoxx/whowhen_pro",
+      "paper": "L29",
+      "revision": "0bd196c8a040841c4ae167ab33cc8151de246f1f",
+      "official_scale": {
+        "paper_total": 12326,
+        "release_total": 10784,
+        "text": 6257,
+        "image": 3107,
+        "image_gui": 504,
+        "video": 916
+      },
+      "labels": "agent、step、error mode为控制注错标签；task内可能含reference answer，模型公共投影必须移除。",
+      "license": "CC-BY-4.0",
+      "split": "text/image/image_gui/video是模态，不是train/test。同版本text6257条已全部用于E32场景C开发，E34/E81/E83/E90/E100亦有后续消费；重新分组或换页名不能恢复盲态。新版本或全新来源是否存在独立池尚未核定",
+      "overlap": "当前text全部历史曝光，未来新来源需排除这些任务组及AF/Tracer/WhoWhen同题组。GUI一基步号与其他框架编号按作者renderer保存一对一映射；单智能体轨迹不能混入多agent责任主体分母",
+      "use_questions": "已有开发证据中的步骤定位、框架/任务域差异与成本；可作事后辅助分析，不作新的独立确认，也不混入整体恢复率",
+      "missing_validation": "同版本text不再等待现成新确认资格，独立确认来源保持未核定。未来新版本/全新源先做身份与曝光审计、输入投影、原步号映射和许可核定，再决定是否形成确认池；不新增Gold读取",
+      "historical_exposure": {
+        "text_total": 6257,
+        "text_exposed": 6257,
+        "source_task_groups": 2599,
+        "primary_development": "E32 scenario C",
+        "subsequent_experiments": [
+          "E34",
+          "E81",
+          "E83",
+          "E90",
+          "E100"
+        ],
+        "same_revision_new_confirmation_qualified": 0,
+        "audit_source": "../early/实验01-130_独立探索综述.md:126,285"
+      }
+    },
+    {
+      "id": "D04",
+      "name": "TraceElephant",
+      "selection": "已曝光开发与辅助观测性研究资产：固定220条全部已用（217评价、2标签筛查、1适配），不是新确认候选池",
+      "source": "https://huggingface.co/datasets/TraceElephant/TraceElephant",
+      "paper": "L04",
+      "revision": "a78a57cdcdf74a080b1bec0f56f85228d86acbac",
+      "official_scale": {
+        "executions": 380,
+        "annotated_failures": 220,
+        "frameworks": 3
+      },
+      "labels": "专家多轮责任组件与最早不可避免失败步骤；完整输入、输出、工具反馈、配置。",
+      "license": "CC-BY-4.0",
+      "split": "固定revision的220条、174个task_id组全部历史曝光：E84评价217条/172组，另2条标签筛查、1条适配开发；E124已确认无全新run。后续full与output-only对照只能作为已曝光资产上的辅助观测性研究",
+      "overlap": "包含SWE-bench Verified和GAIA来源；同issue不同框架执行仍需同组。论文380执行总规模不能减去220故障轨迹后推断出160条可直接用的新确认或完整safe对照",
+      "use_questions": "在既有开发资产上分析观测缺失如何影响定位，以及归责语义与执行干预的差异；不能把固定220改称独立确认",
+      "missing_validation": "已有数据不等于环境重执行合格；E22/E23/E27曾处理44软件轨迹但未闭合真实重放。当前固定220无未曝光确认空位，新版本或全新来源独立池仍未核定；不新增Gold读取",
+      "historical_exposure": {
+        "fixed_records": 220,
+        "task_id_groups": 174,
+        "evaluated": 217,
+        "evaluated_task_groups": 172,
+        "label_screening": 2,
+        "adaptation_development": 1,
+        "exposed_total": 220,
+        "E124_new_runs_remaining": 0,
+        "same_revision_new_confirmation_qualified": 0,
+        "audit_source": "../early/实验01-130_独立探索综述.md:150,286"
+      }
+    },
+    {
+      "id": "D05",
+      "name": "Who&When 原始发布",
+      "selection": "选定为文献复现和RQ1历史/跨基准辅助比较；未审曝光前不称新确认",
+      "source": "https://github.com/mingyin1/Agents_Failure_Attribution/tree/b2bae5c5b06d681d04ea5e9b63b7a30525c04925/Who%26When",
+      "paper": "L01",
+      "revision": "b2bae5c5b06d681d04ea5e9b63b7a30525c04925",
+      "official_scale": {
+        "current_json_files": 184,
+        "algorithm_generated": 126,
+        "hand_crafted": 58,
+        "paper_systems": 127
+      },
+      "labels": "任务答案、责任角色、mistake_step和原因；输入必须去掉答案及归因Gold。",
+      "license": "作者仓库MIT；仍保留各上游任务许可",
+      "split": "作者当前184文件不等于127系统；SDBL论文使用54 HC与126 AG共180，需要按各方法版本名单披露。",
+      "overlap": "本项目较早探索已使用该数据；与后续基准共享源题需去重。",
+      "use_questions": "AA/BS代码复现、不同模型下的策略比较；不把反复开发成绩当未见胜出。",
+      "missing_validation": "当前版本文件名单与旧各论文子集对齐；历史曝光账完整。"
+    },
+    {
+      "id": "D06",
+      "name": "SWE-Gym 任务与执行环境",
+      "selection": "已选：整体软件恢复主要任务/环境来源",
+      "source": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym",
+      "paper": "L30",
+      "revision": "bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb",
+      "official_scale": {
+        "train_issues": 2438
+      },
+      "labels": "issue描述、repo/base_commit、测试补丁和验收标签；base输入与评测Gold分通道。",
+      "license": "数据卡MIT；被测仓库各自许可保留",
+      "split": "按issue分训练/开发/确认；部署资格仅看事先固定公共规则，不按本文胜负选择；当前23来源issue、21计划、18资格和共同五/六题是项目派生范围。",
+      "overlap": "同issue多个退化state/多次运行只增加状态或重复，不增加独立issue；与SWE-bench来源重叠按repo+issue+commit核对。",
+      "use_questions": "整体完整系统恢复成功率、固定预算交付、自然终态、有效编辑保护、效果—成本。",
+      "missing_validation": "每个C0原始SHA、公开任务/测试、可见guard与独立终验、未变运行环境、资格和排除明细。"
+    },
+    {
+      "id": "D07",
+      "name": "OpenHands-SFT-Trajectories",
+      "selection": "已选：从公开成功软件轨迹构建可恢复退化状态的来源；与D06联接",
+      "source": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories",
+      "paper": "L30",
+      "revision": "4aaa5a4a4b5861f4799d2336908760c190ac3b17",
+      "official_scale": {
+        "train_success_oss_trajectories": 491
+      },
+      "labels": "仅公开成功轨迹消息，终局成功不自动定位每一步根因；中间编辑/工具动作需要重放和测试。",
+      "license": "MIT（作者卡）",
+      "split": "先按issue抽取自然编辑序列中可证退化C0，再独立资格验证；历史34任务/8repo、11moto轨迹/3状态属于旧阶段，不与最新23issue池自动等同。",
+      "overlap": "491是轨迹数，不能直接当独立恢复题数；同issue与D06联接后统一分组。",
+      "use_questions": "恢复已有功能进展、选择性回退相对重试/完整外部修复器的价值。",
+      "missing_validation": "终局成功轨迹的未来编辑和最终patch不得泄露给C0恢复器；确保复现时没有oracle补丁或历史强对手patch进入公共输入。"
+    },
+    {
+      "id": "D08",
+      "name": "SWE-bench / Lite / Verified",
+      "selection": "文献标准与未来整体跨基准扩展候选；当前未选定为4h新增完整数据队列",
+      "source": "https://www.swebench.com/",
+      "paper": "L31",
+      "revisions": {
+        "original": "e48e2bd1e9fecd5bbd641e9414ac59da9f2e69f6",
+        "lite": "6ec7bb89b9342f664a54a6e0a6ea6501d3437cc2",
+        "verified": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a"
+      },
+      "official_scale": {
+        "original_test": 2294,
+        "original_repos": 12,
+        "lite_test": 300,
+        "lite_dev": 23,
+        "verified_test": 500
+      },
+      "labels": "F2P、P2P、patch/test_patch均属于评价通道；issue和base_commit仓库是公共输入。",
+      "license": "本次HF旧namespace元数据license为空；不能仅凭harness的MIT推定整个数据和所有仓库许可，实施前核各资产声明。",
+      "split": "Lite与Verified是原始benchmark子集，不作为彼此独立test；不混为三份独立证据。",
+      "overlap": "需与SWE-Gym任务、Graphectory/TraceElephant的软件轨迹按issue排重。",
+      "use_questions": "后续完整系统的跨benchmark扩展；当前主要是标准化验收参照。",
+      "missing_validation": "空间、镜像、源码许可、未曝光任务资格及运行小试；4h内不为凑分母大量下载。"
+    },
+    {
+      "id": "D09",
+      "name": "Aegis-Bench / 9533注错轨迹",
+      "selection": "未选：相关研究与未来受控错误类型扩展候选",
+      "source": "https://github.com/kfq20/AEGIS",
+      "paper": "L05",
+      "official_scale": {
+        "paper_trajectories": 9533
+      },
+      "labels": "成功种子及注错模式、责任主体；不能默认等同自然步骤因果标签。",
+      "license": "代码MIT；具体数据版本/下载许可未独立核实",
+      "split": "未来若启用按成功种子/源任务组划分，不能按注错变体随机划分。",
+      "overlap": "与WhoWhenPro/MAST同框架或同题不等于独立；身份去重后再定。",
+      "use_questions": "多错误类型与责任主体扩展；不是当前已完成数据。",
+      "missing_validation": "数据release和模型输入契约、尺度许可、本地真实可行性。"
+    },
+    {
+      "id": "D10",
+      "name": "SyncBench / SyncMind",
+      "selection": "未选为当前四小时执行来源；未来软件失配恢复跨基准候选，尚无本机或未曝光确认资格",
+      "source": "https://github.com/xhguo7/SyncMind",
+      "paper": "L46",
+      "revision": "原文及作者README已核；数据commit尚未固定",
+      "official_scale": {
+        "paper_raw_instances": 24332,
+        "paper_filtered_instances": 8461,
+        "paper_evaluation_instances": 300,
+        "caller_evaluation": 150,
+        "callee_evaluation": 150,
+        "repositories": 21
+      },
+      "scale_evidence": "SyncMind原文§3.1–3.2与TableB2；这些是论文构建规模，不是本次下载/资格计数",
+      "labels": "代码版本失配位置、执行测试与解析一致性；其失败位置语义不同于智能体日志责任步骤",
+      "license": "本次未取得具体数据revision与独立许可证明；不得由OpenHands代码许可推定整个数据许可",
+      "split": "未来按repo与源提交/函数/测试身份归组；Caller/Callee共享源状态者同组。300评价子集属于原始池，不能当另一份独立样本",
+      "overlap": "与SWE-Gym/SWE-bench及论文公开案例按任务身份排重；本次读到SyncMind论文psf/requests和mlflow案例，未来确认需排除可辨对应源任务组",
+      "use_questions": "定位到软件恢复的迁移、依赖复杂度和资源预算敏感性",
+      "missing_validation": "数据许可、固定版本、身份与曝光账、输入投影、环境可重建和共同协议均未完成；本次未下载数据、镜像或执行恢复"
+    }
+  ],
+  "metadata_access_note": "本次主动数据检查仅元数据；公开卡片自动预览展示两个AF safe答案，另读到原论文中的SyncMind案例片段，详见exposure_record.json；不宣称全部读取零Gold。"
+}

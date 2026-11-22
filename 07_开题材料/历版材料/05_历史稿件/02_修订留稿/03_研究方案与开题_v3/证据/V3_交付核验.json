@@ -1,0 +1,21 @@
+{
+  "reviewed_utc": "2026-10-12T17:13:01.070223+00:00",
+  "main_pdf_pages": 17,
+  "diagram_pdf_pages": 1,
+  "all_main_pages_visually_reviewed": true,
+  "three_main_figures": true,
+  "black_three_line_tables": true,
+  "numbered_tables": 23,
+  "main_reference_count": 44,
+  "literature_records": 73,
+  "withdrawn_excluded_records": 1,
+  "v1_unchanged": {
+    "04_开题报告_V1_六章完整稿.md": true,
+    "04_开题报告_V1_六章完整稿.pdf": true,
+    "03_后续四小时实验执行计划.md": true,
+    "V1_完整交付包.zip": true,
+    "DELIVERY_MANIFEST.json": true
+  },
+  "v2_archive_unchanged": true,
+  "new_experiments_run": false
+}

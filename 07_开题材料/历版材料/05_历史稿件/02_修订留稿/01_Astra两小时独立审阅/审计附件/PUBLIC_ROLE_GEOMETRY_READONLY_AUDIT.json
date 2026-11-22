@@ -1,0 +1,152 @@
+{
+  "schema": "readonly-public-role-geometry-audit/1",
+  "at_utc": "2026-10-12T11:15:55.469239+00:00",
+  "scope": "Existing public JSON and source definitions only; no feature construction, tensor loading, model creation/forward, training, API, native execution or new labels",
+  "public_inputs": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\data\\public_inputs.jsonl",
+    "sha256": "0afbd4851ccd76c398f51813dfeb255bc8c39b9dafa1a4fca738e5c73edde02d"
+  },
+  "saved_feature_receipt": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\工作区\\1007-exp166-four-paper-baselines\\实验\\实验166_四项正式论文基线快速整体验证\\features\\receipt.json",
+    "sha256": "e50758e739bb79ba9b5b4dd92f90a83c27a919e928bd58082e7fa56d09e6fca4"
+  },
+  "adjacency_source": {
+    "path": "D:\\Code\\毕设\\graduate-thesis-experiments\\实验\\实验112_RQ1时序交互依赖完整排序\\runner.py",
+    "sha256": "ab02c95823bdd6baaa5d3cf7c7d467fbcfaa8743788a91820b4de55be87dc9df",
+    "lines": "148-167"
+  },
+  "rows": [
+    {
+      "sample_id": "Project-MONAI__MONAI-2238",
+      "n_steps": 9,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "1c5bc3631302736bb907b620239ce6202fec90c804d8032b1ad43eb79207472e",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 16
+    },
+    {
+      "sample_id": "dask__dask-9378",
+      "n_steps": 12,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "744658bdbfa36f5d841570c049c2eb997e7373fe16e87c96b32b7f13a04038ab",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 22
+    },
+    {
+      "sample_id": "getmoto__moto-7081",
+      "n_steps": 24,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "c1a7e5d8b3c74218d1443a3b46f7c4f8e4bddf197945352e034eb2604e0d7919",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 46
+    },
+    {
+      "sample_id": "pydantic__pydantic-8567",
+      "n_steps": 28,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "95ee5a59cd0d9dfda6b1d19b02e967bf4ba831dcfd6177097c98274f041a947e",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 54
+    },
+    {
+      "sample_id": "getmoto__moto-5072",
+      "n_steps": 10,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "bcdd3f59be1ce65ee26b10a6d743043a85799653dadc548506970ac8892934ae",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 18
+    },
+    {
+      "sample_id": "getmoto__moto-5134",
+      "n_steps": 27,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "a389c67624bbddabf5d728b0fb67f9bcf50b12f0139443aa10248db557e9b86f",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 52
+    },
+    {
+      "sample_id": "getmoto__moto-5286",
+      "n_steps": 15,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "9856b04cb53ace1723aecfeb4a4f5cdf84f0b5f4c3ddcb5d33b48832f2c6897f",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 28
+    },
+    {
+      "sample_id": "getmoto__moto-7317",
+      "n_steps": 29,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "0c5088290f02bdffdf3a63dac17e4ad52fc50def38244cc91b591b88f84f5918",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 56
+    },
+    {
+      "sample_id": "getmoto__moto-6212",
+      "n_steps": 16,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "1c240812adf28232ead3bdaab7d71587e24758ec4b38bb8dc6810125a4b8cbf6",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 30
+    },
+    {
+      "sample_id": "getmoto__moto-6352",
+      "n_steps": 8,
+      "unique_roles": [
+        "role_0"
+      ],
+      "role_count": 1,
+      "public_turns_sha256": "41a69f3a3fa733b3b245e7c2ae0df045828c571ba02b1b3c4c34f0945550ffcc",
+      "matches_saved_inference_input_receipt": true,
+      "gold_or_reference_patch_included": false,
+      "temporal_and_same_role_adjacency_identical_by_definition": true,
+      "each_directed_edge_count_by_definition": 14
+    }
+  ],
+  "all_input_receipt_hashes_match": true,
+  "conclusion": "All ten public inputs contain only role_0, including the current six repeated-recovery issues. The source defines temporal edges between adjacent positions, and same_role edges between successive positions of each role, so these two adjacency channels are identical on these ten inputs. Separate channel parameters can still compute different transforms; this is an input-information redundancy finding, not evidence that graph parameters are inactive or useless. The other two shape channels and the remaining current eligible inputs have not been evaluated in this audit."
+}
