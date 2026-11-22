@@ -1,0 +1,144 @@
+{
+  "checked_at_utc": "2026-11-22T16:02:16.688865+00:00",
+  "public_repository": "https://github.com/peropeng/MyCode",
+  "release_url": "https://github.com/peropeng/MyCode/releases/tag/research-materials-v1",
+  "published": true,
+  "assets": [
+    {
+      "name": "current-code.tar.gz",
+      "size": 27709058,
+      "digest": "sha256:29f8ccf9f48462c19af14a56cc6802002d568c818a8fe22cae2e9a7b2955b5ef",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/current-code.tar.gz",
+      "state": "uploaded"
+    },
+    {
+      "name": "current-inputs-full.tar.enc",
+      "size": 33792216,
+      "digest": "sha256:5f2e90cd68ccb27d97aa529070a50f6b8eb2977d20a2ac648318e403fba43034",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/current-inputs-full.tar.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment244-original.tar.gz.enc",
+      "size": 22434883,
+      "digest": "sha256:f1afe91d04c877df385e2066445ba5df9ce7c391dd50b1b4c15e997fe259e590",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/experiment244-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment257-original.tar.gz.enc",
+      "size": 715766,
+      "digest": "sha256:8fdfb14692d2e2fa4d11b5735bd64f51dac3d3162d30e2ff76b2c90fab8a7c64",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/experiment257-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment260-original.tar.gz.enc",
+      "size": 123662110,
+      "digest": "sha256:d18534538620296204e0157ecff8cb8dd780e921f9f89863e56f4975c442b6b9",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/experiment260-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment261-original.tar.gz.enc",
+      "size": 278609761,
+      "digest": "sha256:97a431640df87bf5d16f92f74893f192d94cec9d46079e781a910dee4efd2712",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/experiment261-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment262-original.tar.gz.enc",
+      "size": 79792199,
+      "digest": "sha256:4092b8c80044cc80afda6b1ffcb3e68bf17487d8c73321b4305a0f8ac545f7b8",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/experiment262-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "proposal-history-complete.tar.gz.enc",
+      "size": 423425563,
+      "digest": "sha256:ffbb07c40d07e84b8dd6c868dd35d0a86c92546ef391ee418cc3ca463b6cde43",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/proposal-history-complete.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "reference-library-original.tar.gz.enc",
+      "size": 33535210,
+      "digest": "sha256:fc3d78cf188ed3d2465623a33c2af941ff0befab256ff6567023eb3daed623e4",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/reference-library-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "retained-feasibility-experiments-original.tar.gz.enc",
+      "size": 341404999,
+      "digest": "sha256:f80d604b90b2ec9882151d21079dd49c08acece8bfcddd7c7209ae0be5d13f1e",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/retained-feasibility-experiments-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "rq1-ranking-development-records-original.tar.gz.enc",
+      "size": 167037824,
+      "digest": "sha256:1bde5a07622c3771d28ee841c6d8a9b80538371445398385a9acd14964580f24",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/rq1-ranking-development-records-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "rq1-supplementary-original-records.tar.gz.enc",
+      "size": 1904771,
+      "digest": "sha256:54a7a66fc3bc54246b446472b656550fbe59d1775fd6feea1197327adcaa9528",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/rq1-supplementary-original-records.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "rq1-training-inputs-restored.tar.gz.enc",
+      "size": 6951311,
+      "digest": "sha256:8bb1b5eae82bf0775f1ee066cf010d54bd3615c70632dfe11858e1217d14397b",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/rq1-training-inputs-restored.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "rq2-experiment129-original.tar.gz.enc",
+      "size": 42160347,
+      "digest": "sha256:092e834ec73c793c90fc86e894939edee566f9e8d47bb4d4cb3e05c9b596e5d7",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/rq2-experiment129-original.tar.gz.enc",
+      "state": "uploaded"
+    },
+    {
+      "name": "rq2-multi-edit-complete.tar.gz.enc",
+      "size": 206619765,
+      "digest": "sha256:6ebfb0dc4bd6c139f01aec36ebb0a77cdd45bb709e7138d0a29a6af900c04896",
+      "browser_download_url": "https://github.com/peropeng/MyCode/releases/download/research-materials-v1/rq2-multi-edit-complete.tar.gz.enc",
+      "state": "uploaded"
+    }
+  ],
+  "all_remote_sizes_and_digests_match": true,
+  "anonymous_code_download_verified": true,
+  "private_key_backup_verified": true,
+  "private_source_repository_kept_private": true,
+  "original_repository_history_copied_to_public": false,
+  "proposal_original_files": 1573,
+  "proposal_original_bytes": 496999982,
+  "all_proposal_original_files_byte_verified": true,
+  "reference_collection_files": 14,
+  "protected_archives_roundtrip_verified": 14,
+  "public_core_files": 255,
+  "private_Git_objects_materialized": 92,
+  "ranking_models_replayed": 3,
+  "ranking_tasks_replayed": 18,
+  "rankings_checked": 54,
+  "ranking_orders_all_match": true,
+  "maximum_probability_error": 0.0,
+  "restore_contract_tests_passed": 7,
+  "new_training_steps": 0,
+  "new_model_API_requests": 0,
+  "new_model_input_tokens": 0,
+  "new_model_output_tokens": 0,
+  "new_API_cost": 0,
+  "Gold_reads": 0,
+  "limits": [
+    "Existing feasibility results are not final scientific conclusions",
+    "Windows native runtime documented; Linux native recovery not qualified",
+    "Old missing archive entries remain missing",
+    "Completed historical RQ2 cases require no rerun; new host needs qualified runtime views",
+    "Historical frozen prompts remain unchanged; new maintenance code uses Chinese comments"
+  ]
+}
