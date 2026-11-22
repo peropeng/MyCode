@@ -12,4 +12,4 @@ RQ2尚未冻结最终组合，见[探索方案](故障恢复/探索方案.md)。
 
 整体方法基线是Agentless、EnAgent、AOrchestra，原作者代码、许可来源与适配关系留在相应档案。排序器接同一个恢复器的条件只用于机制分析，不替代整体方法基线。新API配置由研究者填写，不能执行原封存调度或继承旧预算。
 
-代码原件包包含src、tools、tests、manifests、reproduction及核对回执。恢复接口、数据源目录和中文导读属于本次整理；旧英文Prompt/注释是结果身份的一部分，单独封存。修改后的中文Prompt应建立新配置和新结果，不覆盖冻结实现。
+完整[代码原件包](https://github.com/peropeng/MyCode/releases/download/research-materials-v1/current-code.tar.gz)包含src、tools、tests、manifests、reproduction及核对回执，可公开下载后直接阅读。恢复接口、数据源目录和中文导读属于本次整理；旧英文Prompt/注释是结果身份的一部分，单独封存。修改后的中文Prompt应建立新配置和新结果，不覆盖冻结实现。
