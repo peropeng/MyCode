@@ -1,6 +1,6 @@
 """下载和校验研究原件；不运行训练、生成请求或测试集评价。"""
 from pathlib import Path, PurePosixPath
-import argparse, base64, hashlib, json, os, shutil, struct, tarfile, urllib.request
+import argparse, base64, hashlib, json, os, shutil, struct, tarfile, tempfile, urllib.request
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -63,7 +63,13 @@ def extract(archive,base,prefix=''):
                     for data in iter(lambda:stream.read(1024*1024),b''):h.update(data)
                     if digest(target)!=h.hexdigest():raise RuntimeError('同名原件不同，不覆盖：'+name)
                 else:
-                    with target.open('xb') as f:shutil.copyfileobj(stream,f)
+                    temporary=None
+                    try:
+                        with tempfile.NamedTemporaryFile(dir=target.parent,prefix='.恢复-',delete=False) as f:
+                            temporary=Path(f.name);shutil.copyfileobj(stream,f);f.flush();os.fsync(f.fileno())
+                        os.link(temporary,target)
+                    finally:
+                        if temporary is not None:temporary.unlink(missing_ok=True)
             count+=1
     return count
 

@@ -1,6 +1,7 @@
 """用合成文件验证恢复边界，不访问网络、数据集或真实密钥。"""
 from pathlib import Path
 import base64, importlib.util, io, json, os, tarfile, tempfile, unittest
+from unittest import mock
 
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -51,5 +52,29 @@ class RestoreTests(unittest.TestCase):
         target=self.base/'target';target.mkdir();(target/'file.txt').write_bytes(b'old')
         with self.assertRaises(RuntimeError):restore.extract(archive,target)
         self.assertEqual((target/'file.txt').read_bytes(),b'old')
+
+    def test_interrupted_member_write_leaves_no_partial_final_file(self):
+        archive=self.base/'fixture.tar'
+        with tarfile.open(archive,'w') as f:
+            info=tarfile.TarInfo('file.txt');info.size=3;f.addfile(info,io.BytesIO(b'new'))
+        target=self.base/'target'
+        def interrupt(source,out):
+            out.write(b'n');raise OSError('合成磁盘写入失败')
+        with mock.patch.object(restore.shutil,'copyfileobj',side_effect=interrupt):
+            with self.assertRaises(OSError):restore.extract(archive,target)
+        self.assertFalse((target/'file.txt').exists())
+        restore.extract(archive,target)
+        self.assertEqual((target/'file.txt').read_bytes(),b'new')
+
+    def test_case_relocation_keeps_historical_text_and_resets_observation(self):
+        relocate=load('relocate_fixture',ROOT/'05_实验代码/故障恢复/relocate_case.py')
+        original={'business_root':'D:/Code/毕设/02_工作区/data',
+                  'ref':{'task_path':'D:/Code/毕设/02_工作区/task','mapping':[{'text':'原始D:/Code/毕设/历史文本'}]},
+                  'initial_validation':'D:/Code/毕设/旧观察.json','python':'old-python'}
+        result=relocate.build_view(original,self.base/'project',self.base/'python')
+        self.assertEqual(result['ref']['mapping'],original['ref']['mapping'])
+        self.assertNotIn('initial_validation',result)
+        self.assertIn('initial_validation',original)
+        self.assertEqual(Path(result['business_root']),self.base/'project/02_工作区/data')
 
 if __name__=='__main__':unittest.main()
