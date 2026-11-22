@@ -29,5 +29,15 @@
   "model_API_cost": 0,
   "Gold_reads": 0,
   "historical_broken_or_workspace_references_preserved_and_indexed": true,
-  "frozen_prompts_unchanged": true
+  "frozen_prompts_unchanged": true,
+  "remote_main_tree_matches_local": true,
+  "remote_file_count": 3039,
+  "anonymous_source_and_old_material_downloads_verified": [
+    "05_实验代码/工程原件/02_工作区/01_工程/src/thesis_recovery/rq1_study.py",
+    "07_开题材料/历版材料/05_历史稿件/01_已交付版本/01_40页版_v0.1/00_本轮修改要求.md",
+    "07_开题材料/各版开题导航.md",
+    "05_实验代码/基线参考/集成方法_EnAgent/README.md"
+  ],
+  "anonymous_historical_PPT_access_verified": true,
+  "complete_original_release_assets_retained": 15
 }
