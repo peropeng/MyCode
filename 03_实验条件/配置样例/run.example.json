@@ -1,0 +1,11 @@
+{
+  "research_question": "",
+  "condition": "",
+  "dataset_revision": "",
+  "seed": null,
+  "checkpoint": "",
+  "resume_cursor": "",
+  "input_manifest": "",
+  "output_directory": "",
+  "authorization_note": ""
+}

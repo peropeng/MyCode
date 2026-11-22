@@ -1,0 +1,9 @@
+{
+  "base_url": "",
+  "model": "",
+  "api_key_environment_variable": "",
+  "request_timeout_seconds": null,
+  "maximum_requests": null,
+  "maximum_spend": null,
+  "currency": ""
+}

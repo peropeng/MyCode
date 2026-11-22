@@ -1,0 +1,726 @@
+{
+  "schema": "public-repository.dataset-paper-sources/1",
+  "verified_at_utc": "2026-11-22T15:46:05.690785+00:00",
+  "datasets_and_model": [
+    {
+      "id": "AgenTracer",
+      "scope": "RQ1实际训练与开发来源",
+      "source_url": "https://github.com/bingreeky/AgenTracer",
+      "revision": "data-v1.0.0",
+      "license": "NOT_EXPLICITLY_DECLARED",
+      "downloads": [
+        {
+          "filename": "agentracer-data-v1.0.0.zip",
+          "url": "https://github.com/bingreeky/AgenTracer/releases/download/data-v1.0.0/agentracer-data-v1.0.0.zip",
+          "size": 23997287,
+          "sha256": "a4615b2defacc5ec181239da299055e240444b44b414bd7db3d1471c9aa5826d"
+        }
+      ],
+      "expected_bytes": [
+        23997287
+      ],
+      "local_evidence": "02_工作区/01_工程/manifests/research_data.json:public_training_source",
+      "public_redistribution": "DO_NOT_ASSUME_PERMISSION; use upstream download and retain private original backup",
+      "source_byte_match": "Existing research manifest binds ZIP identity; HEAD only in current audit",
+      "name": "AgenTracer",
+      "description": "RQ1实际训练与开发来源",
+      "version": "data-v1.0.0",
+      "permission_note": "DO_NOT_ASSUME_PERMISSION; use upstream download and retain private original backup",
+      "download_urls": [
+        "https://github.com/bingreeky/AgenTracer/releases/download/data-v1.0.0/agentracer-data-v1.0.0.zip"
+      ]
+    },
+    {
+      "id": "AFTraj",
+      "scope": "RQ1固定120题与旧外折开发",
+      "source_url": "https://huggingface.co/datasets/ZBox008003/AFTraj",
+      "revision": "b7cb236e348bb4ac10059dce4da91a05ee8cc8f7",
+      "license": "CC-BY-4.0 dataset; MIT companion code",
+      "downloads": [
+        {
+          "filename": "aftraj_safe.parquet",
+          "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_safe.parquet",
+          "size": 1393120,
+          "sha256": "cd16e0de24fa9f70f9832c7fee86ed2370d4d42deb8bdb6b97939c323aa8daa3"
+        },
+        {
+          "filename": "aftraj_unsafe.parquet",
+          "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_unsafe.parquet",
+          "size": 1252325,
+          "sha256": "f19d407898ebf32b32a2e99600f49f53a358ac2831fe437da3dc2a9fe25f8f41"
+        },
+        {
+          "filename": "splits_test.json",
+          "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/splits_test.json",
+          "size": 10940,
+          "sha256": "b0ac15a34ed051d571d76d537751a015d39a79408af0795723009182b9e76b8e"
+        }
+      ],
+      "expected_bytes": [
+        1393120,
+        1252325,
+        10940
+      ],
+      "original_sha256": [
+        "cd16e0de24fa9f70f9832c7fee86ed2370d4d42deb8bdb6b97939c323aa8daa3",
+        "f19d407898ebf32b32a2e99600f49f53a358ac2831fe437da3dc2a9fe25f8f41",
+        "b0ac15a34ed051d571d76d537751a015d39a79408af0795723009182b9e76b8e"
+      ],
+      "byte_match_verification": [
+        "Official HF LFS SHA equals original124 asset_gate",
+        "Official HF LFS SHA equals original124 asset_gate",
+        "Current GET bytes SHA equals original124 asset_gate"
+      ],
+      "local_evidence": "02_工作区/01_工程/.rebuild/paper-inputs/retained-experiments/rq1/experiment124/实验/实验124_责任排序强基线与外部迁移/results/asset_gate.json",
+      "warning": "Current main e41640dae96078415c3b57d6d954a0c07aea5b4e changes safe parquet to967640bytes; never substitute current main",
+      "name": "AFTraj",
+      "description": "RQ1固定120题与旧外折开发",
+      "version": "b7cb236e348bb4ac10059dce4da91a05ee8cc8f7",
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。",
+      "download_urls": [
+        "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_safe.parquet",
+        "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_unsafe.parquet",
+        "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/splits_test.json"
+      ]
+    },
+    {
+      "id": "Who&When",
+      "scope": "文献方法和历史数据来源；不等于AFTraj120题",
+      "source_url": "https://github.com/mingyin1/Agents_Failure_Attribution",
+      "revision": "b2bae5c5b06d681d04ea5e9b63b7a30525c04925",
+      "revision_role": "New upstream metadata snapshot, not verified original experiment version",
+      "license": "MIT",
+      "downloads": [
+        {
+          "filename": "b2bae5c5b06d681d04ea5e9b63b7a30525c04925",
+          "url": "https://codeload.github.com/mingyin1/Agents_Failure_Attribution/tar.gz/b2bae5c5b06d681d04ea5e9b63b7a30525c04925"
+        }
+      ],
+      "data_directories": [
+        "Who&When/Algorithm-Generated",
+        "Who&When/Hand-Crafted"
+      ],
+      "name": "Who&When",
+      "description": "文献方法和历史数据来源；不等于AFTraj120题",
+      "version": "b2bae5c5b06d681d04ea5e9b63b7a30525c04925",
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。",
+      "download_urls": [
+        "https://codeload.github.com/mingyin1/Agents_Failure_Attribution/tar.gz/b2bae5c5b06d681d04ea5e9b63b7a30525c04925"
+      ]
+    },
+    {
+      "id": "Who&When Pro text",
+      "scope": "历史使用与132外部资格检查；2670多智能体文本轨迹已有曝光",
+      "source_url": "https://huggingface.co/datasets/Leoxx/whowhen_pro",
+      "revision": "0bd196c8a040841c4ae167ab33cc8151de246f1f",
+      "license": "CC-BY-4.0",
+      "downloads": [
+        {
+          "filename": "text.jsonl",
+          "url": "https://huggingface.co/datasets/Leoxx/whowhen_pro/resolve/0bd196c8a040841c4ae167ab33cc8151de246f1f/data/text.jsonl",
+          "size": 75566568
+        }
+      ],
+      "expected_bytes": [
+        75566568
+      ],
+      "local_evidence": "132 metadata/text_asset_download.json and README data-scope decision",
+      "do_not_claim": "Unseen external evaluation",
+      "name": "Who&When Pro text",
+      "description": "历史使用与132外部资格检查；2670多智能体文本轨迹已有曝光",
+      "version": "0bd196c8a040841c4ae167ab33cc8151de246f1f",
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。",
+      "download_urls": [
+        "https://huggingface.co/datasets/Leoxx/whowhen_pro/resolve/0bd196c8a040841c4ae167ab33cc8151de246f1f/data/text.jsonl"
+      ]
+    },
+    {
+      "id": "TraceElephant",
+      "scope": "84历史外部步骤定位探索；全220run历史曝光",
+      "source_url": "https://huggingface.co/datasets/TraceElephant/TraceElephant",
+      "revision": "a78a57cdcdf74a080b1bec0f56f85228d86acbac",
+      "license": "CC-BY-4.0",
+      "downloads": [
+        {
+          "filename": "data.zip",
+          "url": "https://huggingface.co/datasets/TraceElephant/TraceElephant/resolve/a78a57cdcdf74a080b1bec0f56f85228d86acbac/data.zip",
+          "size": 596610649
+        }
+      ],
+      "expected_bytes": [
+        596610649
+      ],
+      "original_download_scope": "HTTP Range metadata/step records only, not screenshots/full ZIP",
+      "local_evidence": "01_实验/历史结论与经验/实验/实验84_TraceElephant选择门_零样本步骤外测/README.md",
+      "name": "TraceElephant",
+      "description": "84历史外部步骤定位探索；全220run历史曝光",
+      "version": "a78a57cdcdf74a080b1bec0f56f85228d86acbac",
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。",
+      "download_urls": [
+        "https://huggingface.co/datasets/TraceElephant/TraceElephant/resolve/a78a57cdcdf74a080b1bec0f56f85228d86acbac/data.zip"
+      ]
+    },
+    {
+      "id": "SWE-Gym task instances",
+      "scope": "RQ2任务、基准源码提交、官方测试补丁元数据",
+      "source_url": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym",
+      "revision": "bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb",
+      "license": "MIT",
+      "downloads": [
+        {
+          "filename": "train-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym/resolve/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/data/train-00000-of-00001.parquet",
+          "size": 43644473
+        }
+      ],
+      "expected_bytes": [
+        43644473
+      ],
+      "original_version_equivalence": "NOT_VERIFIED; official current pinned artifact is not a substitute for original sealed task/patch inventory",
+      "local_evidence": "reproduction/current_inputs/*_qualify.py consumes historical swegym.parquet",
+      "name": "SWE-Gym task instances",
+      "description": "RQ2任务、基准源码提交、官方测试补丁元数据",
+      "version": "bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb",
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。",
+      "download_urls": [
+        "https://huggingface.co/datasets/SWE-Gym/SWE-Gym/resolve/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/data/train-00000-of-00001.parquet"
+      ]
+    },
+    {
+      "id": "SWE-Gym OpenHands SFT trajectories",
+      "scope": "RQ2公共完整历史来源；原冻结source_codec绑定官方SFT序列化器",
+      "source_url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories",
+      "revision": "4aaa5a4a4b5861f4799d2336908760c190ac3b17",
+      "license": "MIT",
+      "downloads": [
+        {
+          "filename": "train.success.oss-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet",
+          "size": 10379409
+        }
+      ],
+      "expected_bytes": [
+        10379409
+      ],
+      "original_version_equivalence": "Original raw parquet byte equality not compared in this audit; retain sealed selected public packs",
+      "serializer_repository": "https://github.com/SWE-Gym/OpenHands",
+      "serializer_revision": "e644a2ca45c3623b27a7e6c169e3d479f0a87fbc",
+      "published_success_trajectory_count": 491,
+      "name": "SWE-Gym OpenHands SFT trajectories",
+      "description": "RQ2公共完整历史来源；原冻结source_codec绑定官方SFT序列化器",
+      "version": "4aaa5a4a4b5861f4799d2336908760c190ac3b17",
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。",
+      "download_urls": [
+        "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet"
+      ]
+    },
+    {
+      "id": "SWE-Gym OpenHands Sampled trajectories",
+      "scope": "归属待核对；本次未证实为当前实验实际消费分片",
+      "source_url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories",
+      "revision": "baf3a4e4bff514d48ddc08a93a2ade5c126212c7",
+      "license": "NOT_DECLARED_IN_CURRENT_DATA_CARD",
+      "downloads": [
+        {
+          "filename": "train.raw-00000-of-00003.parquet",
+          "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00000-of-00003.parquet"
+        },
+        {
+          "filename": "train.raw-00001-of-00003.parquet",
+          "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00001-of-00003.parquet"
+        },
+        {
+          "filename": "train.raw-00002-of-00003.parquet",
+          "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00002-of-00003.parquet"
+        }
+      ],
+      "public_redistribution": "Do not inherit MIT from separate SFT card; link upstream only until permissions clarified",
+      "name": "SWE-Gym OpenHands Sampled trajectories",
+      "description": "归属待核对；本次未证实为当前实验实际消费分片",
+      "version": "baf3a4e4bff514d48ddc08a93a2ade5c126212c7",
+      "permission_note": "Do not inherit MIT from separate SFT card; link upstream only until permissions clarified",
+      "download_urls": [
+        "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00000-of-00003.parquet",
+        "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00001-of-00003.parquet",
+        "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00002-of-00003.parquet"
+      ]
+    },
+    {
+      "id": "Qwen3-Embedding-0.6B",
+      "type": "frozen_text_encoder_model",
+      "scope": "RQ1冻结编码器与特征恢复",
+      "source_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "license": "Apache-2.0",
+      "downloads": [
+        {
+          "filename": "config.json",
+          "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/config.json",
+          "sha256": "b5bf1f51fc45be473a54718cef92448d90a1be001bf9b9a44b8c7f10a19feaa9",
+          "size": 727
+        },
+        {
+          "filename": "merges.txt",
+          "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/merges.txt",
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "size": 1671853
+        },
+        {
+          "filename": "model.safetensors",
+          "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/model.safetensors",
+          "sha256": "0437e45c94563b09e13cb7a64478fc406947a93cb34a7e05870fc8dcd48e23fd",
+          "size": 1191586416
+        },
+        {
+          "filename": "tokenizer.json",
+          "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer.json",
+          "sha256": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a",
+          "size": 11423705
+        },
+        {
+          "filename": "tokenizer_config.json",
+          "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer_config.json",
+          "sha256": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0",
+          "size": 9706
+        },
+        {
+          "filename": "vocab.json",
+          "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size": 2776833
+        }
+      ],
+      "weight_bytes": 1191586416,
+      "local_evidence": "02_工作区/01_工程/manifests/external_models.json",
+      "name": "Qwen3-Embedding-0.6B",
+      "description": "RQ1冻结编码器与特征恢复",
+      "version": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。",
+      "download_urls": [
+        "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/config.json",
+        "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/merges.txt",
+        "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/model.safetensors",
+        "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer.json",
+        "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer_config.json",
+        "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/vocab.json"
+      ]
+    }
+  ],
+  "download_checks": [
+    {
+      "url": "https://github.com/bingreeky/AgenTracer/releases/download/data-v1.0.0/agentracer-data-v1.0.0.zip",
+      "http_status": 200,
+      "content_length": "23997287",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_safe.parquet",
+      "http_status": 200,
+      "content_length": "1393120",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_unsafe.parquet",
+      "http_status": 200,
+      "content_length": "1252325",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/splits_test.json",
+      "http_status": 200,
+      "content_length": "10940",
+      "body_read": false
+    },
+    {
+      "url": "https://codeload.github.com/mingyin1/Agents_Failure_Attribution/tar.gz/b2bae5c5b06d681d04ea5e9b63b7a30525c04925",
+      "http_status": 200,
+      "content_length": null,
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/Leoxx/whowhen_pro/resolve/0bd196c8a040841c4ae167ab33cc8151de246f1f/data/text.jsonl",
+      "http_status": 200,
+      "content_length": "75566568",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/TraceElephant/TraceElephant/resolve/a78a57cdcdf74a080b1bec0f56f85228d86acbac/data.zip",
+      "http_status": 200,
+      "content_length": "596610649",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym/resolve/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/data/train-00000-of-00001.parquet",
+      "http_status": 200,
+      "content_length": "43644473",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet",
+      "http_status": 200,
+      "content_length": "10379409",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00000-of-00003.parquet",
+      "http_status": 200,
+      "content_length": "70817777",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00001-of-00003.parquet",
+      "http_status": 200,
+      "content_length": "78471672",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00002-of-00003.parquet",
+      "http_status": 200,
+      "content_length": "151806160",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/config.json",
+      "http_status": 200,
+      "content_length": "727",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/merges.txt",
+      "http_status": 200,
+      "content_length": "1671853",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/model.safetensors",
+      "http_status": 200,
+      "content_length": "1191586416",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer.json",
+      "http_status": 200,
+      "content_length": "11423705",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer_config.json",
+      "http_status": 200,
+      "content_length": "9706",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/vocab.json",
+      "http_status": 200,
+      "content_length": "2776833",
+      "body_read": false
+    }
+  ],
+  "papers": [
+    {
+      "reference_number": 1,
+      "original_bibliography": "[1] Shaokun Zhang, Ming Yin, Jieyu Zhang, et al. Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems[C]//Proceedings of the 42nd International Conference on Machine Learning (ICML), PMLR 267: 76583–76599, 2025. [原文](https://proceedings.mlr.press/v267/zhang25cq.html)。",
+      "source_urls": [
+        "https://proceedings.mlr.press/v267/zhang25cq.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.mlr.press/v267/zhang25cq.html"
+    },
+    {
+      "reference_number": 2,
+      "original_bibliography": "[2] Shuyang Liu, Yang Chen, Rahul Krishna, et al. Process-Centric Analysis of Agentic Software Systems[J]. Proceedings of the ACM on Programming Languages, 10(OOPSLA1): 1961–1988, Article 163, 2026. [原文](https://doi.org/10.1145/3798271)。",
+      "source_urls": [
+        "https://doi.org/10.1145/3798271"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1145/3798271"
+    },
+    {
+      "reference_number": 3,
+      "original_bibliography": "[3] Mengzhuo Chen, Junjie Wang, Fangwen Mu, et al. Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems[C]//Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers): 19888–19905, 2026. [论文](https://aclanthology.org/2026.acl-long.912/)。",
+      "source_urls": [
+        "https://aclanthology.org/2026.acl-long.912/"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://aclanthology.org/2026.acl-long.912/"
+    },
+    {
+      "reference_number": 4,
+      "original_bibliography": "[4] 董益宏, 姜雪, 钱家如, 等. 基于大语言模型智能体的代码生成综述[J]. 软件学报, 2026, 37(8): 3089–3115. DOI: 10.13328/j.cnki.jos.007593. [论文](https://jos.org.cn/jos/article/abstract/7593)。",
+      "source_urls": [
+        "https://jos.org.cn/jos/article/abstract/7593"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://jos.org.cn/jos/article/abstract/7593"
+    },
+    {
+      "reference_number": 5,
+      "original_bibliography": "[5] Islem Bouzenia, Premkumar Devanbu, Michael Pradel. RepairAgent: An Autonomous, LLM-Based Agent for Program Repair[C]//Proceedings of the IEEE/ACM 47th International Conference on Software Engineering (ICSE): 2188–2200, 2025. [原文](https://doi.org/10.1109/ICSE55347.2025.00157)。",
+      "source_urls": [
+        "https://doi.org/10.1109/ICSE55347.2025.00157"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1109/ICSE55347.2025.00157"
+    },
+    {
+      "reference_number": 6,
+      "original_bibliography": "[6] Taiyu Zhu, Yifan Wu, Weilin Jin, et al. StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems[C]//Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2: 6946–6957, 2026. [原文](https://doi.org/10.1145/3770855.3817991)。",
+      "source_urls": [
+        "https://doi.org/10.1145/3770855.3817991"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1145/3770855.3817991"
+    },
+    {
+      "reference_number": 7,
+      "original_bibliography": "[7] Zehao Wang, Lanjun Wang, Shilong Jin, et al. DCFA: Dual-view Causal-inspired Attribution for Failure Reasoning in LLM-based Multi-agent Systems[C]//Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing. 2026: 42999–43025. [原文](https://aclanthology.org/2026.emnlp-main.1887/)。",
+      "source_urls": [
+        "https://aclanthology.org/2026.emnlp-main.1887/"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://aclanthology.org/2026.emnlp-main.1887/"
+    },
+    {
+      "reference_number": 8,
+      "original_bibliography": "[8] Shunyu Yao, Jeffrey Zhao, Dian Yu, et al. ReAct: Synergizing Reasoning and Acting in Language Models[C]//International Conference on Learning Representations, 2023. [论文](https://openreview.net/pdf?id=WE_vluYUL-X)。",
+      "source_urls": [
+        "https://openreview.net/pdf?id=WE_vluYUL-X"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://openreview.net/pdf?id=WE_vluYUL-X"
+    },
+    {
+      "reference_number": 9,
+      "original_bibliography": "[9] Noah Shinn, Federico Cassano, Ashwin Gopinath, et al. Reflexion: Language Agents with Verbal Reinforcement Learning[C]//Advances in Neural Information Processing Systems 36, 2023. [论文](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html)。",
+      "source_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html"
+    },
+    {
+      "reference_number": 10,
+      "original_bibliography": "[10] Zhibin Gou, Zhihong Shao, Yeyun Gong, et al. CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing[C]//International Conference on Learning Representations, 2024. [论文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html)。",
+      "source_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html"
+    },
+    {
+      "reference_number": 11,
+      "original_bibliography": "[11] Chunqiu Steven Xia, Yinlin Deng, Soren Dunn, et al. Demystifying LLM-Based Software Engineering Agents[J]. Proceedings of the ACM on Software Engineering, 2(FSE): 801–824, 2025. [原文](https://doi.org/10.1145/3715754)。",
+      "source_urls": [
+        "https://doi.org/10.1145/3715754"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1145/3715754"
+    },
+    {
+      "reference_number": 12,
+      "original_bibliography": "[12] Zhao Tian, Pengfei Gao, Junjie Chen, et al. Agent-Based Ensemble Reasoning for Repository-Level Issue Resolution[C]//Proceedings of the IEEE/ACM 48th International Conference on Software Engineering (ICSE): 1406–1418, 2026. [原文](https://doi.org/10.1145/3744916.3787761)。",
+      "source_urls": [
+        "https://doi.org/10.1145/3744916.3787761"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1145/3744916.3787761"
+    },
+    {
+      "reference_number": 13,
+      "original_bibliography": "[13] Xuehang Guo, Xingyao Wang, Yangyi Chen, et al. SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering[C]//Proceedings of the 42nd International Conference on Machine Learning (ICML), PMLR 267: 20993–21066, 2025. [原文](https://proceedings.mlr.press/v267/guo25l.html)。",
+      "source_urls": [
+        "https://proceedings.mlr.press/v267/guo25l.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.mlr.press/v267/guo25l.html"
+    },
+    {
+      "reference_number": 14,
+      "original_bibliography": "[14] Ming Ma, Jue Zhang, Fangkai Yang, et al. DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems[C]//International Conference on Learning Representations (ICLR), 2026. [原文](https://proceedings.iclr.cc/paper_files/paper/2026/hash/2f5fdce256ff0d7fb774da76e5e63209-Abstract-Conference.html)。",
+      "source_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2f5fdce256ff0d7fb774da76e5e63209-Abstract-Conference.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/2f5fdce256ff0d7fb774da76e5e63209-Abstract-Conference.html"
+    },
+    {
+      "reference_number": 15,
+      "original_bibliography": "[15] Jiazheng Li, Emine Yilmaz, Bei Chen, Thu Le. Towards Self-Improving Error Diagnosis in Multi-Agent Systems[C]//Findings of the Association for Computational Linguistics: ACL 2026: 2063–2077, 2026. DOI: 10.18653/v1/2026.findings-acl.98. [论文](https://aclanthology.org/2026.findings-acl.98/)。",
+      "source_urls": [
+        "https://aclanthology.org/2026.findings-acl.98/"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://aclanthology.org/2026.findings-acl.98/"
+    },
+    {
+      "reference_number": 16,
+      "original_bibliography": "[16] Yanzhao Zhang, Mingxin Li, Dingkun Long, et al. Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models[EB/OL]. arXiv:2506.05176, 2025. DOI: 10.48550/arXiv.2506.05176. [论文](https://arxiv.org/abs/2506.05176)。",
+      "source_urls": [
+        "https://arxiv.org/abs/2506.05176"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://arxiv.org/abs/2506.05176"
+    },
+    {
+      "reference_number": 17,
+      "original_bibliography": "[17] Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, et al. Modeling Relational Data with Graph Convolutional Networks[C]//The Semantic Web (ESWC), Lecture Notes in Computer Science: 593–607, 2018. [原文](https://doi.org/10.1007/978-3-319-93417-4_38)。",
+      "source_urls": [
+        "https://doi.org/10.1007/978-3-319-93417-4_38"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1007/978-3-319-93417-4_38"
+    },
+    {
+      "reference_number": 18,
+      "original_bibliography": "[18] Ashish Vaswani, Noam Shazeer, Niki Parmar, et al. Attention Is All You Need[C]//Advances in Neural Information Processing Systems 30. 2017. [原文](https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)。",
+      "source_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+    },
+    {
+      "reference_number": 19,
+      "original_bibliography": "[19] Tie-Yan Liu. Learning to Rank for Information Retrieval[J]. Foundations and Trends in Information Retrieval, 3(3): 225–331, 2009. [原文](https://doi.org/10.1561/1500000016)。",
+      "source_urls": [
+        "https://doi.org/10.1561/1500000016"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1561/1500000016"
+    },
+    {
+      "reference_number": 20,
+      "original_bibliography": "[20] Sebastian Bruch, Xuanhui Wang, Michael Bendersky, Marc Najork. An Analysis of the Softmax Cross Entropy Loss for Learning-to-Rank with Binary Relevance[C]//Proceedings of the 2019 ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR). 2019: 75–78. DOI: 10.1145/3341981.3344221. [原文](https://research.google/pubs/an-analysis-of-the-softmax-cross-entropy-loss-for-learning-to-rank-with-binary-relevance/)。",
+      "source_urls": [
+        "https://research.google/pubs/an-analysis-of-the-softmax-cross-entropy-loss-for-learning-to-rank-with-binary-relevance/"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://research.google/pubs/an-analysis-of-the-softmax-cross-entropy-loss-for-learning-to-rank-with-binary-relevance/"
+    },
+    {
+      "reference_number": 21,
+      "original_bibliography": "[21] Yuntong Zhang, Haifeng Ruan, Zhiyu Fan, Abhik Roychoudhury. AutoCodeRover: Autonomous Program Improvement[C]//Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis: 1592–1604, 2024. DOI: 10.1145/3650212.3680384. [论文](https://doi.org/10.1145/3650212.3680384)。",
+      "source_urls": [
+        "https://doi.org/10.1145/3650212.3680384"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.1145/3650212.3680384"
+    },
+    {
+      "reference_number": 22,
+      "original_bibliography": "[22] 香佳宏, 徐霄阳, 孔繁初, 等. 大模型在软件缺陷检测与修复的应用发展综述[J]. 软件学报, 2025, 36(4): 1489–1529. DOI: 10.13328/j.cnki.jos.007268. [原文](https://www.jos.org.cn/html/2025/4/7268.htm)。",
+      "source_urls": [
+        "https://www.jos.org.cn/html/2025/4/7268.htm"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://www.jos.org.cn/html/2025/4/7268.htm"
+    },
+    {
+      "reference_number": 23,
+      "original_bibliography": "[23] MÜNDLER N, MÜLLER M N, HE J, et al. SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents[C]//Advances in Neural Information Processing Systems 37. 2024: 81857–81887. DOI: 10.52202/079017-2601.",
+      "source_urls": [],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://doi.org/10.52202/079017-2601"
+    },
+    {
+      "reference_number": 24,
+      "original_bibliography": "[24] Boxuan Zhang, Jianing Zhu, Zeru Shi, Dongfang Liu, Ruixiang Tang. AgentForesight: Online Auditing for Early Failure Prediction in Multi-Agent Systems[EB/OL]. arXiv:2605.08715, 2026. DOI: 10.48550/arXiv.2605.08715. [论文](https://arxiv.org/abs/2605.08715)。",
+      "source_urls": [
+        "https://arxiv.org/abs/2605.08715"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://arxiv.org/abs/2605.08715"
+    },
+    {
+      "reference_number": 25,
+      "original_bibliography": "[25] Guibin Zhang, Junhao Wang, Junjie Chen, et al. AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?[C]//International Conference on Learning Representations (ICLR), 2026. [原文](https://proceedings.iclr.cc/paper_files/paper/2026/hash/134ed7a477770f227f12450ef0cbb8f4-Abstract-Conference.html)。",
+      "source_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/134ed7a477770f227f12450ef0cbb8f4-Abstract-Conference.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/134ed7a477770f227f12450ef0cbb8f4-Abstract-Conference.html"
+    },
+    {
+      "reference_number": 26,
+      "original_bibliography": "[26] Jiayi Pan, Xingyao Wang, Graham Neubig, et al. Training Software Engineering Agents and Verifiers with SWE-Gym[C]//Proceedings of the 42nd International Conference on Machine Learning (ICML), PMLR 267: 47717–47737, 2025. [原文](https://proceedings.mlr.press/v267/pan25g.html)。",
+      "source_urls": [
+        "https://proceedings.mlr.press/v267/pan25g.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.mlr.press/v267/pan25g.html"
+    },
+    {
+      "reference_number": 27,
+      "original_bibliography": "[27] Carlos E. Jimenez, John Yang, Alexander Wettig, et al. SWE-bench: Can Language Models Resolve Real-world GitHub Issues?[C]//International Conference on Learning Representations (ICLR), 2024. [原文](https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html)。",
+      "source_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html"
+    },
+    {
+      "reference_number": 28,
+      "original_bibliography": "[28] John Yang, Carlos E. Jimenez, Alexander Wettig, et al. SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering[C]//Advances in Neural Information Processing Systems 37, 2024. [论文](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html)。",
+      "source_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html"
+    },
+    {
+      "reference_number": 29,
+      "original_bibliography": "[29] Xingyao Wang, Boxuan Li, Yufan Song, et al. OpenHands: An Open Platform for AI Software Developers as Generalist Agents[C]//International Conference on Learning Representations (ICLR), 2025. [原文](https://proceedings.iclr.cc/paper_files/paper/2025/hash/a4b6ad6b48850c0c331d1259fc66a69c-Abstract-Conference.html)。",
+      "source_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a4b6ad6b48850c0c331d1259fc66a69c-Abstract-Conference.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a4b6ad6b48850c0c331d1259fc66a69c-Abstract-Conference.html"
+    },
+    {
+      "reference_number": 30,
+      "original_bibliography": "[30] Jianhao Ruan, Zhihao Xu, Yiran Peng, et al. AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration[C]//Proceedings of the 43rd International Conference on Machine Learning (ICML), PMLR 306: 106017–106040, 2026. [原文](https://proceedings.mlr.press/v306/ruan26e.html)。",
+      "source_urls": [
+        "https://proceedings.mlr.press/v306/ruan26e.html"
+      ],
+      "source": "03_开题/01_当前材料_v1.0/参考文献.md",
+      "publication_metadata_changed": false,
+      "source_url": "https://proceedings.mlr.press/v306/ruan26e.html"
+    }
+  ],
+  "label_access": "No dataset label values parsed/evaluated. Only AFTraj splits raw bytes hashed in memory; no stored raw data.",
+  "new_training": 0,
+  "new_model_generation_requests": 0,
+  "new_gold_evaluation": 0,
+  "human_report": "数据与论文来源核对.md",
+  "copyright_policy": "Record bibliographies and official/author links. Do not automatically rehost local PDFs or datasets with unclear redistribution permission.",
+  "scope_limit": "Catalog reconciles specified current manifests and historical README sources; Sampled trajectory direct use remains unknown; original task/source snapshots retain their prior gap status."
+}
