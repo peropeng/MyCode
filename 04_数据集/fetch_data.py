@@ -1,4 +1,4 @@
-"""按固定来源下载研究资源，不解析数据、训练或读取评价标签。"""
+"""按固定来源下载当前三个数据集，不解析数据、训练或读取评价标签。"""
 from pathlib import Path
 import argparse, hashlib, json, shutil, urllib.request
 
@@ -9,7 +9,7 @@ def main():
     parser.add_argument('--name',help='来源清单中的资源名称；省略时只列名称')
     parser.add_argument('--filename',help='只下载所选资源的一个文件')
     args=parser.parse_args()
-    rows=json.loads((ROOT/'04_数据集/来源与下载.json').read_text(encoding='utf-8'))['datasets_and_model']
+    rows=json.loads((ROOT/'04_数据集/来源与下载.json').read_text(encoding='utf-8'))['datasets']
     if not args.name:
         print('\n'.join(r['name'] for r in rows));return
     row=next((r for r in rows if r['name']==args.name),None)

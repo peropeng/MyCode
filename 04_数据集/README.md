@@ -1,19 +1,31 @@
-# 数据来源与实际下载
+# 当前研究数据集
 
-只登记实际使用或纳入来源审查的资源；归属未确认的条目保留状态，不自动加入实验。固定版本、许可与校验记录见[机器清单](来源与下载.json)。获取数据不等于获准读取留出标签。
+按当前开题[表5-1 数据来源及用途](../07_开题材料/当前材料/开题报告_评议修订稿_v1.0.md)，当前使用以下三个数据集。
 
-| 资源 | 来源 | 固定版本 | 实际下载 |
+| 数据集 | 用途 | 官方来源 | 实际下载 |
 | --- | --- | --- | --- |
-| AgenTracer | [官方来源](https://github.com/bingreeky/AgenTracer) | data-v1.0.0 | [agentracer-data-v1.0.0.zip](https://github.com/bingreeky/AgenTracer/releases/download/data-v1.0.0/agentracer-data-v1.0.0.zip) |
-| AFTraj | [官方来源](https://huggingface.co/datasets/ZBox008003/AFTraj) | 固定修订（见下载清单） | [aftraj_safe.parquet](https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_safe.parquet)、[aftraj_unsafe.parquet](https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_unsafe.parquet)、[splits_test.json](https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/splits_test.json) |
-| Who&When | [官方来源](https://github.com/mingyin1/Agents_Failure_Attribution) | 固定修订（见下载清单） | [固定修订（见下载清单）](https://codeload.github.com/mingyin1/Agents_Failure_Attribution/tar.gz/b2bae5c5b06d681d04ea5e9b63b7a30525c04925) |
-| Who&When Pro text | [官方来源](https://huggingface.co/datasets/Leoxx/whowhen_pro) | 固定修订（见下载清单） | [text.jsonl](https://huggingface.co/datasets/Leoxx/whowhen_pro/resolve/0bd196c8a040841c4ae167ab33cc8151de246f1f/data/text.jsonl) |
-| TraceElephant | [官方来源](https://huggingface.co/datasets/TraceElephant/TraceElephant) | 固定修订（见下载清单） | [data.zip](https://huggingface.co/datasets/TraceElephant/TraceElephant/resolve/a78a57cdcdf74a080b1bec0f56f85228d86acbac/data.zip) |
-| SWE-Gym task instances | [官方来源](https://huggingface.co/datasets/SWE-Gym/SWE-Gym) | 固定修订（见下载清单） | [train-00000-of-00001.parquet](https://huggingface.co/datasets/SWE-Gym/SWE-Gym/resolve/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/data/train-00000-of-00001.parquet) |
-| SWE-Gym OpenHands SFT trajectories | [官方来源](https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories) | 固定修订（见下载清单） | [train.success.oss-00000-of-00001.parquet](https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet) |
-| SWE-Gym OpenHands Sampled trajectories | [官方来源](https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories) | 固定修订（见下载清单） | [train.raw-00000-of-00003.parquet](https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00000-of-00003.parquet)、[train.raw-00001-of-00003.parquet](https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00001-of-00003.parquet)、[train.raw-00002-of-00003.parquet](https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00002-of-00003.parquet) |
-| Qwen3-Embedding-0.6B | [官方来源](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | 固定修订（见下载清单） | [config.json](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/config.json)、[merges.txt](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/merges.txt)、[model.safetensors](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/model.safetensors)、[tokenizer.json](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer.json)、[tokenizer_config.json](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/tokenizer_config.json)、[vocab.json](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/resolve/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/vocab.json) |
+| AgenTracer | 根因排序模型学习，以及代码与数学任务比较。 | [官方来源](https://github.com/bingreeky/AgenTracer) | [agentracer-data-v1.0.0.zip](https://github.com/bingreeky/AgenTracer/releases/download/data-v1.0.0/agentracer-data-v1.0.0.zip) |
+| AFTraj | 不同记录形式下的根因排序评价。 | [官方来源](https://huggingface.co/datasets/ZBox008003/AFTraj) | [aftraj_safe.parquet](https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_safe.parquet)、[aftraj_unsafe.parquet](https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_unsafe.parquet)、[splits_test.json](https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/splits_test.json) |
+| SWE-Gym | 构造共同故障状态，评价软件任务恢复。 | [官方来源](https://huggingface.co/datasets/SWE-Gym/SWE-Gym) | [任务数据](https://huggingface.co/datasets/SWE-Gym/SWE-Gym/resolve/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/data/train-00000-of-00001.parquet)、[配套公共执行轨迹](https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet) |
 
-AFTraj固定旧实验对应版本，不能替换为变化后的main。AgenTracer未发现明确再分发许可，SWE-Gym Sampled许可与实际使用归属有待确认：使用官方链接获取，不将未知许可数据明文重新托管。本机选定输入原字节在受保护档案中保留，不能用当前上游重新下载冒充旧原件。
+## 版本与获取
 
-运行`python 04_数据集/fetch_data.py`仅列资源；显式指定`--name`才下载，不解析轨迹或标签。
+AgenTracer使用`data-v1.0.0`。AFTraj及SWE-Gym各文件使用锁定版本，具体版本、下载地址、许可和已有核对记录见[来源与下载清单](来源与下载.json)。SWE-Gym的任务数据与配套公共执行轨迹统一归入SWE-Gym。
+
+下载上游文件后，仍需按实验清单核对选定输入与封存原件的对应关系。AgenTracer采用官方来源获取，未确认的再分发许可不作扩展。
+
+以下命令只列出这三个数据集，不下载或解析数据：
+
+```powershell
+python 04_数据集/fetch_data.py
+```
+
+显式指定名称后下载到忽略的本地目录，可用`--filename`选择所需文件：
+
+```powershell
+python 04_数据集/fetch_data.py --name AgenTracer
+python 04_数据集/fetch_data.py --name AFTraj --filename aftraj_safe.parquet
+python 04_数据集/fetch_data.py --name SWE-Gym --filename train-00000-of-00001.parquet
+```
+
+下载器不读取轨迹或评价标签。编码器模型作为[实验条件依赖](../03_实验条件/编码模型来源.json)单独登记。
