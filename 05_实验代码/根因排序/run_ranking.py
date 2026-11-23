@@ -10,7 +10,7 @@ def main():
     args=parser.parse_args()
     engine=ROOT/'05_实验代码/工程原件/02_工作区/01_工程'
     if not (engine/'assets/current/features257.pt').is_file():
-        engine=ROOT/'本地恢复/原始项目/02_工作区/01_工程'
+        engine=ROOT/'工作区/恢复/原始项目/02_工作区/01_工程'
     if not engine.is_dir():parser.error('缺少工程源码；可运行03_实验条件/restore.py --code恢复完整原件')
     subprocess.run([str(Path(args.python).resolve()),'-m','thesis_recovery','verify-ranking'],cwd=engine,check=True,
                    env=__import__('os').environ|{'PYTHONPATH':str(engine/'src')})

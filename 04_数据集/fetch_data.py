@@ -16,7 +16,7 @@ def main():
     if row is None:parser.error('资源不存在，请先列出名称')
     files=[v for v in row['downloads'] if not args.filename or v['filename']==args.filename]
     if not files:parser.error('文件名不存在')
-    folder=ROOT/'本地恢复/数据'/args.name.replace('/','_');folder.mkdir(parents=True,exist_ok=True)
+    folder=ROOT/'工作区/数据'/args.name.replace('/','_');folder.mkdir(parents=True,exist_ok=True)
     for item in files:
         if Path(item['filename']).name!=item['filename']:raise ValueError('下载文件名不安全')
         target=folder/item['filename'];temporary=target.with_suffix(target.suffix+'.download')

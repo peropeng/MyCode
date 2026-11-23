@@ -1,49 +1,57 @@
 # 实验条件与换机恢复
 
-公开入口不依赖原主机盘符、个人Python环境或私有Git提交。默认恢复到本仓库忽略目录`本地恢复/原始项目`，保留冻结实现所需的原内部相对布局。下载代码包后，旧清单中92个不同Git内容对象已带实体，不需要从旧私有历史执行git show。封存的旧REPRODUCING说明保留当时状态，当前下载与恢复步骤以本页为准。
+日常代码与研究材料从MyCode获取，不再使用旧私有仓库。运行文件统一放在Git忽略的`工作区/`，完整旧布局恢复到`工作区/恢复/原始项目`。原主机的四类旧目录原位保留，具体位置见[文件位置与同步范围](../文件位置与同步范围.md)。冻结说明中的旧路径和仓库标识只用于来源追溯，当前步骤以本页为准。
 
-## 代码环境
+## 浏览与排序回放
 
-查阅实现可直接进入[仓库内的源码导航](../05_实验代码/工程原件/README.md)，不用先执行恢复命令。以下步骤用于运行原版本，补齐模型、依赖和未展开的大型清单；浏览副本与附件原件的对应关系见源码目录中的机器清单。
-
-使用Python 3.12和uv，源码、3个已有排序模型和回放特征已直接在仓库中。可直接进入：
+源码可以从[工程导航](../05_实验代码/工程原件/README.md)直接浏览，无需解密。已有三个本方法模型、三个StepFinder模型均保留；其中三个小型本方法回放模型及特征已随Git提供，其余在内容附件内。运行时使用工作区内的完整旧布局，先恢复代码包，再复核已有输出：
 
 ```powershell
-cd 05_实验代码/工程原件/02_工作区/01_工程
+python 03_实验条件/restore.py --code
+cd 工作区/恢复/原始项目/02_工作区/01_工程
 uv sync --frozen --extra embedding --extra recovery
 uv run python tools/fetch_external.py --core
 uv run python -m thesis_recovery verify-ranking
 ```
 
-回放只核对原模型输出，不构成新科学实验；本方法3份小型回放模型与特征可随Git获取，完整副本也在代码附件中。6份本方法/StepFinder现有模型都已保留，StepFinder相关模型在当前依赖内容包内。下载Qwen大型编码器仅在确实需要从原轨迹重建特征时进行，固定来源见[编码模型来源](编码模型来源.json)；现有缓存为同冻结编码器重建版本，不能称丢失原缓存。需要完整旧布局及所有机器清单时，仍可运行`restore.py --code`恢复到`本地恢复/原始项目`。
+回放不训练、不发模型请求，不构成新科学实验。原训练特征缓存仍有缺口，当前特征是冻结编码器的重建件。只有需要从轨迹重建特征时才下载[Qwen编码模型](编码模型来源.json)。
 
-## 完整档案
+## 完整原件与本机凭据
 
-恢复工具的解密依赖与训练环境分开，建议单独建立环境：
+从仓库根目录执行，恢复工具使用Python 3.12：
 
 ```powershell
-uv venv 本地恢复/恢复环境 --python 3.12
-uv pip install --python 本地恢复/恢复环境/Scripts/python.exe -r 03_实验条件/requirements.txt
-gh release download rq1-rq2-research-inputs-v1 --repo peropeng/graduate-thesis --pattern mycode-recovery-key.json --dir 本地配置
-本地恢复/恢复环境/Scripts/python.exe 03_实验条件/restore.py --history --key-file 本地配置/mycode-recovery-key.json
+uv venv 工作区/恢复/恢复环境 --python 3.12
+uv pip install --python 工作区/恢复/恢复环境/Scripts/python.exe -r 03_实验条件/requirements.txt
+工作区/恢复/恢复环境/Scripts/python.exe 03_实验条件/restore.py --code
 ```
 
-密钥通过原私有仓库的既有访问权限取得，不能提交或贴入公开Issue；也可由研究者通过合适渠道提供密钥文件。`--history`不列名称会恢复全部已列受保护附件，可追加明确附件名仅取所需组。代码包和加密包下载、解密后分别校验，已有不同字节的同名文件会停止，不覆盖。`current-inputs-full.tar`按原格式保存在工程`.restore-cache`，由原对象配方解压内容，不直接当目录树展开。
-
-当前依赖及原生环境还需显式恢复：
+代码包含旧清单所需92份Git内容原件，不需要访问旧私有历史。受保护档案需要研究者单独保存的`mycode-recovery-key.json`；把现存密钥复制到`工作区/私有配置/`，或用`--key-file`指定外部文件。密钥没有在线私库获取步骤，不能从公开Git重建，换机时需随离线备份单独转移。原主机的旧密钥副本仍在原临时材料目录，未删除。
 
 ```powershell
-cd 本地恢复/原始项目/02_工作区/01_工程
-uv run python tools/restore_current_method.py
+工作区/恢复/恢复环境/Scripts/python.exe 03_实验条件/restore.py --history current-inputs-full.tar
+```
+
+不列附件名称的`--history`会恢复[清单](../06_实验记录/恢复清单.json)中全部受保护原件；可只列所需附件名。所有附件来自MyCode Release，下载与解密分别校验。同名文件字节不同时停止，不覆盖。`current-inputs-full.tar`是内容对象包，按原配方留在工程`.restore-cache`，不能直接按源码树展开。
+
+## 当前依赖与原生环境
+
+先检查代码原件和本地内容包完整，再显式准备依赖：
+
+```powershell
+python 03_实验条件/prepare_dependencies.py
+python 03_实验条件/prepare_dependencies.py --prepare
+cd 工作区/恢复/原始项目/02_工作区/01_工程
+uv sync --frozen --extra embedding --extra recovery
 uv run python tools/rebuild_native_environment.py
 ```
 
-此native迁移链明确支持Windows x64、Python 3.11.15和锁定依赖，负责独立测试与Windows进程清理。没有验证Linux上的同等native行为，不承诺换操作系统即能直接启动全部实验。系统、Python、包锁、上游版本与运行差异须写入新回执。
+第一步只读检查。第二步复用冻结恢复配方并从固定公共来源准备依赖；本地原件或内容包缺失/变化时停止，不向旧私库或旧Git提交回退。不直接运行冻结`restore_current_method.py`作为当前恢复入口。环境重建支持Windows x64、Python 3.11.15和锁定依赖；Linux完整原生行为尚未验证。系统与包锁变化应单独记录，不能宣称现有结果可无条件迁移。
 
-## API与新实验
+## API配置与后续实验
 
-复制`配置样例/api.example.json`和`run.example.json`到忽略的`本地配置`，由研究者填写。地址、模型、密钥环境变量、预算与超时均未预设。历史档案中deepseek-flash等名称只是已执行条件，不自动成为新实验配置。公开入口不会读取历史授权或自动续发模型请求。
+把`配置样例/api.example.json`及`run.example.json`复制到`工作区/私有配置/`后由研究者填写。地址、模型、密钥变量、预算和超时保持空模板；历史deepseek-flash等名称不自动成为新配置。配置不进入Git，归档和实验输出均放工作区。
 
-已经终态的流程不重跑。真正续跑之前核对输入、代码、Prompt、参数、消息状态、当前源码、Checkpoint、游标、已结算响应、未决请求及累计时间/费用。条件变化另立记录，不拼接成绩。旧消息中的本机绝对路径是原件来源，不是当前配置。最新RQ2八流程已全部终态，恢复后用于查阅，旧case不能在新主机直接运行，也不应自动再次生成。
+已经终态的流程只查阅或回放，不重跑。续跑前必须核对协议、输入、代码、Prompt、参数、请求发送状态、公开反馈、源码、Checkpoint、游标及累计资源；条件变化另建记录，不拼接成绩。
 
-准备后续新条件时，先恢复必要数据、当前依赖和native环境，再用`05_实验代码/故障恢复/relocate_case.py --task <原任务ID> --python <native解释器> --output 本地恢复/新条件/case.json`建立独立的路径重定位视图。该工具只修改明确的路径字段，保留公共历史及原件字节，不读取API配置、不执行测试；环境与公开C0须重新核定。随后使用新trial保存新结果，不能覆盖原八流程。历史未完成流程若无法完整重建状态，标为待核定，不用这个新视图冒充科学续跑。
+准备新条件时，可用`05_实验代码/故障恢复/relocate_case.py --task <原任务ID> --python <native解释器> --output 工作区/恢复/新条件/case.json`建立独立路径视图。工具不读取API配置、不执行测试，公共历史及原件字节保持；新环境与C0仍须核定。不能把新视图冒充旧流程的科学续跑。

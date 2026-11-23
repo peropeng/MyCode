@@ -1,0 +1,28 @@
+实验240：消费者闭合与公开状态保护，同生成器前瞻消融
+
+目的与冻结
+主方法固定为BOTH，不能根据小试赢家换主方法。五臂BASE/CLOSURE/GUARD/BOTH/NONEDGE_CONTEXT共享deepseek-flash、完整224 V2 publicpack、相同当前失败C0、同合法业务读取权限、相同G历史排序、三轮累积编辑、每请求16384输出、整个方法64调用/65536输出/900秒（含一次选择后的独立private），seed推导不含arm/method。读完整错误的reader不加阶段轮次上限，只受整个方法预算。
+小试任务按原23自然顺序2238→5093；第一题五臂BASE/CLOSURE/GUARD/BOTH/NONEDGE_CONTEXT，第二题按相同循环左移一位CLOSURE/GUARD/BOTH/NONEDGE_CONTEXT/BASE。这些题历史曝光且旧本文成功，只有运行资格与探索价值，不证明提升空间。不能拼旧Main21成绩。后续若排本窗两MONAI应叫新的21题确认集，从原23自然序的Dask9378/moto5072开始；旧Main21排的是旧Dask/moto校准，构成不同。
+本窗BASE沿用旧ranked_repair178的三轮累积修复核心，但不是旧224部署成绩的逐字复用：运输采用本窗五臂共同的whole-flow 64 calls/65536输出，不保留旧6轮reader阶段上限；实际seed去除arm/method字段，以保证五臂同生成器尝试种子。response_format=json_object与optional tools/auto保留。完整公开pack和实际状态SHA同样给全部五臂；这些共同运输变化不能归为CLOSURE/GUARD收益，不拼旧BASE成绩。
+
+关系定义
+relations240.py只从实际公开编辑前后像变化行相交的AST class/function/attribute provider取anchor，再找当前业务源码中同类self/cls属性读取、可匹配调用或import consumer。qualified类方法没有receiver类型时不把全库obj.forward都连到改变的类。self/cls同类属性是静态support线索，函数/import是static_possible_symbol_reference；所有边均非因果。provider/consumer含path、line/end、整源SHA，历史before-image中消失的provider明确历史化。MONAI5093第一轮只能观察到import类关系；第三轮公开证据展开后才出现历史ContrastiveLoss.batch_size provider→实际当前消费者，不能谎报第一轮就捕获故障。
+闭合附加源码按固定顺序选择完整消费者函数跨度，64KiB序列化context预算，不裁跨度/完整错误。所有未附业务源码仍可用同reader读取。没有关系则不制造边、按BASE流程回退；语法不解析的源列为parse_failure，不把猜测当成功解析。
+NONEDGE_CONTEXT提供合法业务完整函数，排除变化文件与关系endpoint涵盖的函数，路径/起止行字典序贪心，不超过CLOSURE同轮实际源码UTF8字节量，无截断、填充或伪造。完整记录实际bytes差额。两首请求源码量：2238闭合1866 bytes，对照1846（差20）；5093闭合41，对照34（差7）。边元数据字节并非完全匹配，报告明确该剩余输入长度混杂；本对照控制额外源码量，不能声称全部prompt token完全等量。
+
+公开保护与状态一致性
+GUARD/BOTH只保护旧manifest冻结public_regression_tests且初态本轮真实native通过的ordinary。2238：tests/test_copy_itemsd.py::TestCopyItemsd::test_tensor_values；5093：tests/test_repeat_channel.py::TestRepeatChannel::test_shape_0。它们不是private节点，也不自动证明独立后续正确编辑。
+每次实际patch前保存incumbent。全臂相同目标+ordinary真实测试后，GUARD/BOTH若ordinary非passed，恢复incumbent，拒绝候选不入最终选择。完整失败反馈保留并标historical_rejected_attempt，带拒绝candidate SHA与恢复incumbent SHA，下一请求当前源码、diff及所有业务SHA从实际restore后状态读取。BASE/CLOSURE保留原累积策略。机制效果来自实际反馈条件干预，不能把源哈希不同本身当恢复成功。
+H2独立正确后续修改资格当前false；本任务不宣称已检验独立correct later edit保持。moto5439仅作为后续辅助公开重建机制观察，无已有G/private不造映射，不称hidden/private，不占整体主比较名额。
+
+资格证据与边界
+prepare240.py已实际执行2238与5093共同C0：每题1public native，原目标FAIL、ordinaryPASS，guard/覆盖/业务与冻结测试不变、Job已结束；0模型、0private、0Gold。机械初版把整编辑文件所有provider当anchor而范围过宽，2238实际C0已验证但闭合请求触上下文门，未POST。原partial保存在mechanical240_initial_partial；在一次机械修复窗口内按真实变化行收窄，完成两题资格。随后只读捕获最终关系范围，复用同SHA的真实C0证书，没有再次运行科学终态。
+verify_guard240.py是自有纯fixture，验证拒绝restore/下一输入反馈一致、缺属性历史provider、无类型绑定的其他forward不连边，以及nonedge字节保守匹配；不能计科学任务或方法恢复。audit_relation_scope240.py只读原公开源核各轮边。
+真实财政入口使用ScopedIO完整继承LegacyIO，再由root make_transport只安装一次bounded atomic retry；readonly_validate调用实际factory和validate但不POST/写共享账。root resume_transport.py和continuous_core_v2.py必须SHA封存，旧973账和unknown保护持续。root初始phase ConsumerStatePilot24020261010共1元，真实请求全body峰值预留，不降16384上限绕财政。首请求保守预留约0.34–0.37元；实际结算后下一臂是否能预留由连续财政门决定，不把计划10流程当已跑。
+
+运行
+先freeze240.py生成READY及false root_release240.json，root读协议/代码/真实资格和财政SHA后只写release。付费之前和每次请求核seal/精确task+arm+phase/授权。queue240.py按冻结自然题与arm顺序启动supervise240.py；每臂真实worker出生即放入具名kill-on-close Windows Job，整臂900秒和北京时间12:00硬停，选择后一次private立即自动运行，不反馈给模型。监督器确认Job空与全部子孙STOP后写结果附加STOP证书。工程、context、账户/phase截断、未运行均null单列；不盲目POST重试或续旧时钟。
+CLI：现有0922-exp124-ranking-baselines/.venv/Scripts/python.exe -X utf8 -B queue240.py（需要root_release240.json true）。输出在runs/<task>/<arm>/recovery；监督在supervision/<task>/<arm>，真实request/response/usage财证、补丁、测试和选中状态完整保存。
+
+科研验收
+需要真实模型补丁、公共native、最终选择、一次独立private以及完整STOP形成可比较结果。自测、财政validate、边数量或calls不是效果。首两题打平/全部成功属于饱和运行资格，不支持创新；BOTH输给BASE/NONEDGE/强正式外部方法时保留负例。整体正式外部2026 EnAgent与2025 Agentless/PatchPilot资格和比较由root主线单独维护，五臂不是五个独立问题或五项外部论文。

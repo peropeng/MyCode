@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-09-19",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Citation and publication evidence for the advisor-response literature document. Counts are historical query results, not live values.",
+  "citation_records": [
+    {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "database": "Semantic Scholar",
+      "query_key": "arXiv:2210.03629",
+      "paperId": "99832586d55f540f603637e458a292406a0ed75d",
+      "citationCount": 11351,
+      "database_year": 2022,
+      "publication": "ICLR 2023",
+      "publication_url": "https://openreview.net/forum?id=WE_vluYUL-X",
+      "query_url": "https://api.semanticscholar.org/graph/v1/paper/arXiv:2210.03629?fields=title,year,venue,citationCount,externalIds,url",
+      "note": "Database year reflects the preprint. The mismatched OpenAlex title record was excluded."
+    },
+    {
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "database": "Semantic Scholar",
+      "query_keys": ["arXiv:2303.11366", "DOI:10.52202/075280-0377"],
+      "paperId": "0671fd553dd670a4e820553a974bc48040ba0819",
+      "citationCount": 5319,
+      "publication": "NeurIPS 2023",
+      "publication_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html",
+      "query_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.52202/075280-0377?fields=title,year,venue,citationCount,externalIds,url",
+      "note": "Both exact identifiers returned the same paperId and count; counts were not added."
+    },
+    {
+      "title": "Modeling Relational Data with Graph Convolutional Networks",
+      "database": "OpenAlex",
+      "query_key": "https://doi.org/10.1007/978-3-319-93417-4_38",
+      "id": "https://openalex.org/W2604314403",
+      "cited_by_count": 5266,
+      "updated_date": "2026-09-19T00:03:45.406941",
+      "publication": "ESWC 2018",
+      "query_url": "https://api.openalex.org/works/https://doi.org/10.1007/978-3-319-93417-4_38",
+      "note": "Formal publication record only; separate arXiv record was not added. ESWC is CCF C in the checked directory."
+    }
+  ],
+  "ccf_directory": {
+    "edition": 7,
+    "release_date": "2026-03-31",
+    "official_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+    "pdf_access": "CCF-authored final PDF, read through a mirror because direct access encountered a verification page",
+    "mirror_repository": "https://github.com/LovenSar/CCF_RANK",
+    "mirror_commit": "55ca5eae67c26d518c6a8b71ee5827a053086f20",
+    "pdf_filename": "第七版中国计算机学会推荐国际学术会议和期刊目录（正式版）-CCF-ABC.pdf",
+    "checked_pdf_pages": {
+      "TDSC_A": 17,
+      "OOPSLA_A": 27,
+      "TODS_A": 32,
+      "SIGMOD_VLDB_A": 35,
+      "ESWC_C": 37,
+      "Artificial_Intelligence_A": 51,
+      "AAAI_NeurIPS_ACL_ICML_ICLR_A": 57,
+      "EMNLP_B": 58
+    }
+  }
+}

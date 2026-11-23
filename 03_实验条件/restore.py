@@ -4,6 +4,12 @@ import argparse, base64, hashlib, json, os, shutil, struct, tarfile, tempfile, u
 
 ROOT=Path(__file__).resolve().parents[1]
 
+
+def local_key(explicit=None):
+    """只使用研究者明确传入或本机已保存的凭据，不访问在线密钥来源。"""
+    path=explicit if explicit is not None else ROOT/'工作区/私有配置/mycode-recovery-key.json'
+    return path if path.is_file() else None
+
 def digest(path):
     with Path(path).open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 
@@ -46,6 +52,17 @@ def unseal(source,target,keyfile):
             out.write(data)
     temporary.replace(target)
 
+
+def publish_copy(source,target):
+    """完整写入后才发布原件路径；中断不留下同名残缺缓存。"""
+    temporary=None
+    try:
+        with source.open('rb') as stream,tempfile.NamedTemporaryFile(dir=target.parent,prefix='.恢复-',delete=False) as out:
+            temporary=Path(out.name);shutil.copyfileobj(stream,out);out.flush();os.fsync(out.fileno())
+        os.link(temporary,target)
+    finally:
+        if temporary is not None:temporary.unlink(missing_ok=True)
+
 def extract(archive,base,prefix=''):
     count=0
     with tarfile.open(archive,'r:*') as src:
@@ -77,31 +94,32 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--code',action='store_true',help='恢复公开代码原件与现有回放模型')
     parser.add_argument('--history',nargs='*',help='指定原件附件名；不列名称时恢复全部受保护附件')
-    parser.add_argument('--key-file',type=Path,help='本机解密密钥，不是API Key')
+    parser.add_argument('--key-file',type=Path,help='本机解密密钥；省略时使用工作区/私有配置/mycode-recovery-key.json现存文件')
     parser.add_argument('--archive-file',type=Path,help='离线使用已下载的代码附件')
     args=parser.parse_args()
     catalog=json.loads((ROOT/'06_实验记录/恢复清单.json').read_text(encoding='utf-8'))
-    cache=ROOT/'本地恢复/下载';work=ROOT/'本地恢复';engine=work/'原始项目/02_工作区/01_工程'
+    work=ROOT/'工作区/恢复';cache=work/'下载';engine=work/'原始项目/02_工作区/01_工程'
     if args.code:
         row=catalog['public_code'];path=args.archive_file or download(row['url'],cache/'current-code.tar.gz',row['sha256'])
         if digest(path)!=row['sha256']:raise RuntimeError('代码附件校验失败')
         print(json.dumps({'restored_files':extract(path,work),'new_experiments':0},ensure_ascii=False))
     if args.history is not None:
-        if not args.key_file:parser.error('完整原件需--key-file，密钥不能提交到公开仓库')
+        keyfile=local_key(args.key_file)
+        if keyfile is None:parser.error('缺少本机解密凭据；用--key-file指定，或先导入工作区/私有配置/mycode-recovery-key.json，密钥不能提交到公开仓库')
         if not engine.is_dir():parser.error('先使用--code恢复代码原件')
         names=args.history or [r['name'] for r in catalog['protected_archives']]
         for name in names:
             row=next((r for r in catalog['protected_archives'] if r['name']==name),None)
             if row is None:parser.error('未知附件名称：'+name)
             encrypted=download(row['url'],cache/(name+'.enc'),row['encrypted_sha256'])
-            raw=cache/name;unseal(encrypted,raw,args.key_file)
+            raw=cache/name;unseal(encrypted,raw,keyfile)
             if digest(raw)!=row['sha256']:raise RuntimeError('解密后的原件不匹配')
             parent=work/'原始项目' if row.get('restore_location','').startswith('project-') else engine
             base=safe(parent,row['restore_to']);base.mkdir(parents=True,exist_ok=True)
             if name=='current-inputs-full.tar':
                 target=base/name
                 if target.exists() and digest(target)!=row['sha256']:raise RuntimeError('已有资源包不同')
-                if not target.exists():shutil.copyfile(raw,target)
+                if not target.exists():publish_copy(raw,target)
             else:extract(raw,base,row['strip_prefix'])
             print(json.dumps({'restored_archive':name,'new_experiments':0},ensure_ascii=False))
     if not args.code and args.history is None:

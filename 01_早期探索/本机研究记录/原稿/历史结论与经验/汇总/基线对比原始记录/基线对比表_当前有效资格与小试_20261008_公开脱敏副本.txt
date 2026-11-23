@@ -1,0 +1,44 @@
+当前研究结论与基线资格（北京时间2026-10-08 09:14核验，原始证据不覆盖）
+
+当前没有完成2025与2026两项正式CCF A整体恢复方法在同一历史队列上的有效比较，也没有证明G排序提升最终恢复率。正式出版、原核心源码、本机接口、完整实际运行、非零表现分别验收；源码和自有合成门不占竞争基线名额。
+
+1. 已有实际比较
+Agentless（FSE2025 A）与本文语义修复在Exp174 Flash两题均2/2，是开发小样本的非零可行性。Exp181挑战7081完整Agentless失败、本文第3次修复成功；这是单题描述，不能代替独立主比较。
+Exp183计划12题48流程，实际9流程：7个已知终态中5恢复、2未恢复；另2 UNKNOWN、39未运行。5286的G/reverse/random均成功，单合法编辑不构成排序干预；7081 G与reverse最终均成功且首次真恢复预算相同，random与Agentless失败。此部分没有G相对reverse的额外收益，原method路径也残留差异，严格排序因果资格未闭合。
+Exp187更换现有本地7B后Agentless0/2、G0/2；G的7081格式阶段未完成。Exp188 CodeStruct：0/1已知，1输入边界UNKNOWN，不报0/2。
+Exp192的18响应使用错误的schema输运字段，6终态失败不能解释为强制schema后的模型负例；原记录保留。Exp194新正确输运合成探针通过。Exp199使用正确schema后，两历史题各G/reverse/random共6流程，18响应全部shape合法，14提交0合法候选，6终态失败；不获扩量资格，不改输出或重跑种子。
+
+2. 最新真实任务与新算法
+Exp189已资格化原12加新3，共15 distinct历史issue，blind新增0。23历史issue42截点保留全部mask：21已知无回归、3保留不足、11 UNKNOWN、4 READY、3因更早READY未运行。READY新增独立历史仅5406/6387/5980；6212是已有题的另截点，不增加N。
+Exp191固定15题G/source准备通过，新增3真实G推理15batch/45outputs、Qwen encoding47batch，135初态完整请求fit65K；没有历史恢复成绩。
+Exp205新确定性AST/token单原子逆改在自有合成中保留5*x独立改动并恢复接口，4 native、1候选；不算历史恢复。
+Exp206逐项核43原编辑A-B字节证书并对15题生成v1：所有案例技术域UNKNOWN，0候选。37编辑被全file继承类限制拒绝，1定义插删、5多语句/插删拒绝；不是15题恢复率0。AST55+源结构解析129、tokenize55、历史native/model0。发现3样例曾通过节点名元数据暴露，未用于输入/选题，严格blind资格false，已单列偏离。
+Exp208新scope-local v2已冻结并执行：祖先结构约束与局部唯一AST anchors，多语句block/唯一插删，先全15源码及自有native验收；历史main未授权。无模型、排名重算、下载或费用。
+
+3. 正式2026整体方法状态
+AIR（ICML2026 A，PMLR306 xiao26n）22原核心源码完整；Exp204原SDK/DSL/检测/修复/规则学习/预阻断在自有security事件的fake模型、真实native链通过，17 Job根/9 fake。3根关闭前Job非空观察保留；已知34PID停止。历史功能回归适配、真实完整模型与竞争非零仍UNKNOWN。
+Exp207真实本地小试在共享锁文件打开时被守卫拦截，HTTP/tokenizer/model实际0；原Detector吞工程异常产生NO_RISK，最初正常负例标签已更正为UNKNOWN。1次private提前消耗，仅记录实际世界未恢复，不算模型成绩；全部9Job在实际ActiveProcesses0后关闭、18PID停止，不重跑。
+Exp209独立资源门已冻结：同guarded native controller真实共享byte0文件锁与精确可信输运权限，再最多2次中性真实接口探针；不重跑207事故/private。另核AIR公开历史入口与功能域契约，不把pytest失败替代原意图+影响判定。
+EnAgent175、FramePilot177、USE-agent179、Lingxi182、ReCreate184、BOAD190、AOrchestra197均未闭合完整本机通路，工程UNKNOWN或asset scope未闭合；保留源码/失败/费用，不填方法0或重新延修复窗。
+ExpeRepair180、SE-Agent源门缺完整活跃核心；TestPrune202真实native后处理Unixshell部署未闭合，完整方法UNKNOWN/0真实模型。INTENTFIX与TraceCoder函数任务范围不能直接占共同repository整体名额。AgenticRubrics未定位完整原作者编排。CodeStruct188已知1题正常负例及1 UNKNOWN；完整竞争资格未满足。
+原各候选完整出版/源码/协议负结果见baseline_table_prior_root_0914.txt与对应root_acceptance；未删除失败记录，最新预印本和模块控制均不充正式A名额。
+
+4. RQ1单列
+StepFinder（KDD2026 A）：原120题G86 vs82，未显著。Who&When All-at-Once（ICML2025 A）：同120题86 vs77，未显著。
+coding363三匹配划分G179/184/186 vsStepFinder150/156/159，差7.99/7.71/7.44百分点；三划分不是1089独立任务，不能拿RQ1分数替代整体恢复。
+
+5. 资源与账本
+连续Flash窗口账本171个SETTLED请求，usage峰值费用上界2.94735876元、held0，无费用未知。账户记录[账户数值已隐去]元为旧读值，未实时对账，不冒充精确发票。5元总额/1.02元余额floor/full1M预留不重置，余量不足再发Flash。
+已核实本地科学/接口调用分列：187 35、188 3、191合成1、192 18、194合成1、199 18，共76个响应（并非76独立任务）；资源启动和64K切换探针另列，不与历史成绩拼接。209尚待真实回执。
+09:57后不新模型/native，10:00停止本窗口owned jobs及现有18331本地模型，核实后暂停heartbeat。截止与源码门通过都不等于科研目标达成。
+
+09:55最终实验验收补记（截止尚未到，不提前暂停监督）：
+Exp208最终198封存文件SHA全核通过。源域7/15可构造11候选，自有4native通过；还不证明历史效果。
+Exp209最终110文件SHA通过，2真实接口共48out。原aggregate false保留；逐个01_response/02_response均有usage与idle=TRUE，泛*_response通配还匹配无该字段的raw_response，root独立去重证明正确，不回写原字段。
+Exp210原启动清单修正完成比首次启动门晚0.811秒，925封存SHA通过，21流程全部NOTRUN/native0/成绩null。此首次启动门被当成硬门，导致队列未运行；未来方案须将启动里程碑与实验硬截止分开，避免同类行政时序使已修正实现失去实际验收。
+Exp211原公开history完整机制在自有功能事故fake链内观测到恢复/学习/预阻断，12 fake、9 own native；精确预阻断证明晚于首门，5406运行时/public视图未部署，真实模型/历史native/private均0，成绩UNKNOWN。188封存SHA全部root通过，不当论文0分。
+Exp212逐字复用210的11个未执行helper，仅新的单题原生验收5134：initial公开目标FAIL/ordinaryPASS，唯一候选公开目标仍FAIL，选C0后一次privatePASS。因此最终已知未恢复，0/1；不是private-only成功。3实际native、9.75秒，所有实际Python生日/指定Job/guard/节点coverage/选中SHA与私验前后不可变、停止凭证均核过；4818封存SHA无误，无算法改写或重试，费用0。其他14题未跑/未知，原21主流程NOTRUN不改写。
+全窗口已记录171 Flash SETTLED与80本地生成响应（76既有科学/接口+2资源+2中性209），分命名空间核账；接口和自有fake不拼到历史成功率。最新3次历史native、1候选验证，新增训练/NN排序/编码/模型生成/付费均0；新blind0。
+截至封包，正式2026完整整体基线的本机非零资格、两篇整体方法共同队列比较、G排序额外最终恢复率收益均未实现。保留早期Flash两题2/2打平和全部负结果/工程未知，不把截止称科研成功。
+
+实际停止已确认：UTC2026-10-08 02:00:00.788848（北京时间10:00:00.788848）guardian终止本地server；root02:00:42核server62060、guardian54740、launcher61540及末轮211/212共25已知PID均不存在。3个212 Job和9个211 Job已在ActiveProcesses0且PID列表空后关闭。原财务171结算、held0和SHA不变。native automation已更新PAUSED并由automation.toml核验；两执行chat已收到本窗口执行授权结束通知。文件包含完整/partial/真实负例和工程UNKNOWN，科研目标未达成。

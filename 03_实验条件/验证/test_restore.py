@@ -66,6 +66,17 @@ class RestoreTests(unittest.TestCase):
         restore.extract(archive,target)
         self.assertEqual((target/'file.txt').read_bytes(),b'new')
 
+    def test_interrupted_cache_copy_can_be_retried_without_partial_final(self):
+        source=self.base/'source.tar';source.write_bytes(b'synthetic input')
+        target=self.base/'target.tar'
+        def interrupt(inp,out):
+            out.write(b's');raise OSError('合成复制中断')
+        with mock.patch.object(restore.shutil,'copyfileobj',side_effect=interrupt):
+            with self.assertRaises(OSError):restore.publish_copy(source,target)
+        self.assertFalse(target.exists())
+        restore.publish_copy(source,target)
+        self.assertEqual(target.read_bytes(),source.read_bytes())
+
     def test_case_relocation_keeps_historical_text_and_resets_observation(self):
         relocate=load('relocate_fixture',ROOT/'05_实验代码/故障恢复/relocate_case.py')
         original={'business_root':'D:/Code/毕设/02_工作区/data',

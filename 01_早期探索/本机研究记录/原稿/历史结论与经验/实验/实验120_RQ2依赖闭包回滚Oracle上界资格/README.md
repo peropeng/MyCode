@@ -1,0 +1,25 @@
+# Exp120 — RQ2 B′ dependency-aware transactional rollback/replay
+
+Exp120 is the one-time, pre-registered replacement experiment for RQ2 module B. It is a GO-carrying asset-ceiling gate for that replacement B′, not a third module, a module sweep, or a chapter-GO claim by itself. The RQ2 story is safe recovery under stateful tool side effects and limited verified replay: A is diagnosis-guided recovery scope selection using the frozen complete Exp108/RQ1 ranking over executable singleton rollback/replay candidates; B′ is dependency-aware transactional rollback/replay using visible same-target forward slices; A+B′ uses the same complete ranking on those slices.
+
+## Frozen candidate construction
+
+Each task retains eight anchors and eight plans. An eligible anchor is a successful `str_replace_editor` state-delta editor with `state_changing=true` and `omit_call_delta=true`. Its plan is the anchor plus the forward transitive suffix of eligible descendants whose canonical visible target is the same and whose `call_index` is strictly larger. No ancestor, bidirectional/connected edge, cross-target hand edge, task/repository identity, candidate identity, Gold, held field, fault, outcome, or manual exception is allowed. This is explicitly a conservative visible same-target state-lineage proxy, not a causal dependency claim.
+
+The extent-matched control keeps each anchor’s B′ omission-count multiset and forward chronology, but chooses from globally eligible later visible nodes without target identity. It is one control only and must have auditable nonidentity support. Original singleton omissions remain the deletion/baseline pool, with the same eight anchors, two-plan replay budget, fault, reference digest, and probe contract.
+
+The visible preflight must expose 34 tasks/272 candidates and the frozen diagnostic of 27 tasks with 49 forward anchors. These are visible-input diagnostics, never held-outcome selection criteria.
+
+## Conditions and one-time execution
+
+The only registered conditions are: no recovery; native-prefix-2, fixed-last-prefix-2, and uniform-replay fair singleton baselines; B′ standalone; B′ singleton deletion; extent-matched control; A standalone; A+B′; A fixed anonymous deletion; A rank-multiset-preserving nonidentity shuffle; original singleton Oracle; and dependency-closed-slice Oracle. Parent Exp116 rules are reused for fair routes; `native_prefix2` is not renamed `retry_top1`, and A is never reconstructed as top-1 plus positional tail. A/A+B′ use the accepted complete global rankings from Exp113J field `rankings` at `实验/实验113J_RQ2资产门逐臂新克隆隔离纠正/results/asset_alignment_gate_fresh_clone_isolation.json` (SHA-256 `996b5685a72b19c22a617b762c028bb95e12b7e86989075e17c8dd70afe57494`). Exp120 checks exact 34-task coverage, complete 0..7 permutations, and first-position agreement with the Exp114 visible predicted position; it consumes no Exp113J execution outcome, diagnostic, Gold, held, or old formal metric.
+
+Formal execution is authorized only by the primary thread. The immutable attempt claim is durably written before any held unseal or replay. It must be one invocation that freezes all decisions before a single held unseal and then jointly executes the ceiling, B′, A+B′, and controls. Output, audit, report, and completed terminal are staged and batch-published with rollback; the terminal records output/audit/report SHA-256 values. Failure writes a failed terminal without overwriting the claim and leaves no partial formal trio. This worktree currently has `authorization=false`; formal paths must remain absent and no formal run is permitted. No old Exp118C/119C formal metric is read or used to rejudge this experiment.
+
+## Qualification gates
+
+B′ and A+B′ each need at least 10% relative improvement over the strongest fair singleton baseline, a 5,000-replicate task-group paired bootstrap CI lower bound strictly above zero, and positive relative improvement for all three seeds. The ceiling explanation separately reports the discrete 15% required count, new Oracle recoverable count, wins/losses/ties, and CI feasibility; it does not hard-code earlier experiment counts. Oracle is an upper bound, not a method GO result.
+
+All execution audits are conjunctive: fresh clone per candidate; cleanup checked after `TemporaryDirectory` exits; same final-checkpoint fault, reference digest, and probe; freeze-before-unseal; real Exp116E hardened observed TNR/provenance; 8/8 pool shape; nondegenerate extent-control support; Oracle at least method; B′ strictly above its singleton deletion and extent control; A+B′ strictly above B′, A deletion, and A shuffle; and harm count/rate no worse than the strongest fair baseline, with A+B′ no worse than B′. Any missing gate preserves real positive signals and limitations but cannot yield RQ2 chapter GO.
+
+The implementation intentionally adds no model, CRC, DP, capacity objective, risk gate, or extra closure variant. Budget/threshold/window values are experimental controls, not research-title claims or innovations.

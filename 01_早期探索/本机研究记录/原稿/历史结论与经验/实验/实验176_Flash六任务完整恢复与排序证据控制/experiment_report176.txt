@@ -1,0 +1,28 @@
+Exp176 六任务完整恢复与排序证据控制（用户中断封存）
+
+按用户最新优先级纠正停止Agentless重复队列。本轮计划18条，保留全部已完成、部分和未运行状态；不以部分样本宣称六任务比较完成，不拼接旧结果。
+下列成功必须有完整核心、合法业务改动、有效公开验证和一次有效私有保护验证。模型正常输出或预算失败为已知流程失败，单独列出核心未完成；用户中断、工程与未运行保持UNKNOWN。
+
+方法 | 已记录成功数（计划6未完成） | 已知流程结果 | 核心完整 | 模型/预算失败 | UNKNOWN | 请求 | 费用上界元 | public/private native
+AGENTLESS_FSE2025_3P2T_FLASH | 2/6 | 4 | 2 | 2 | 2 | 32 | 0.23695672 | 13/4
+G153_MINIMAL_REPAIR_FLASH | 3/6 | 3 | 3 | 0 | 3 | 4 | 0.09595592 | 4/4
+REVERSE_TIME_MINIMAL_REPAIR_FLASH | 3/6 | 3 | 3 | 0 | 3 | 3 | 0.06370160 | 3/3
+
+任务 | Agentless | G | reverse-time
+Project-MONAI__MONAI-2238 | 失败(MODEL_SEMANTIC_FAILURE) | 成功 | 成功
+dask__dask-9378 | 成功 | 成功 | 成功
+getmoto__moto-7081 | 失败(MODEL_SEMANTIC_FAILURE) | 成功 | 成功
+getmoto__moto-5072 | 成功 | UNKNOWN(USER_INTERRUPTED_PARTIAL) | UNKNOWN(NOT_RUN_USER_INTERRUPTED)
+getmoto__moto-5134 | UNKNOWN(NOT_RUN_USER_INTERRUPTED) | UNKNOWN(NOT_RUN_USER_INTERRUPTED) | UNKNOWN(NOT_RUN_USER_INTERRUPTED)
+getmoto__moto-6212 | UNKNOWN(NOT_RUN_USER_INTERRUPTED) | UNKNOWN(NOT_RUN_USER_INTERRUPTED) | UNKNOWN(NOT_RUN_USER_INTERRUPTED)
+
+G vs Agentless: 救回2，损坏0；已知配对3/6；双核心完整配对1/6；exact McNemar p=None，Holm2 p=None。
+
+G vs reverse-time: 救回0，损坏0；已知配对3/6；双核心完整配对3/6；exact McNemar p=None，Holm2 p=None。
+
+本阶段39次已结算请求，费用上界0.39661424元；共享窗口累计0.55017528元，在途预留0.000000元。费用为usage峰值估算，invoice未知。
+所有模型正常负结果和生成测试无效记录均保留；未将UNKNOWN填零。
+G与reverse首次实际编辑证据相同的任务数：1/6。
+本样本是已曝光的开发任务，N=6不足以宣称总体优势。排序下游收益需结合G相对reverse的救回/损坏与实际证据差异判断。
+Agentless为本轮唯一外部整体论文方法；reverse是机制控制。第二个已正式发表的2026整体基线仍有缺口。
+交付审计错误：[]

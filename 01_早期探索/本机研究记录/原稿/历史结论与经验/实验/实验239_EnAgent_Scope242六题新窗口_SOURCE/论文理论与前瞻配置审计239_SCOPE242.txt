@@ -1,0 +1,67 @@
+EnAgent 新六题窗口：论文机制、作者实现与预算审计
+2026-10-10，SOURCE-only；当前 native / model POST / private / shared finance write 均 0。
+
+结论与一次前瞻选择
+
+选择 N=3、coder max_steps=200、selector每票max_turn=30、最多3票、tester原一次排除调用，并保留原生成工具、回归排除、全部失败保留、规范化去重、静态阅读、动态测试、投票及作者fallback。N=3和selector30来自正式论文主比较与方法章节；coder200来自当前作者YAML默认，正式论文未明确coder轮数，不把它冒称为论文实验精确值。模型按人类授权使用Flash，无法继承原论文在Claude/Gemini/GPT或SWE-bench上的经验成绩。
+
+当前共同64calls / 65536output / 900seconds不是充分预算证明。仅三票各30轮已需最多90calls；算上三coder各200轮与tester一次，整核心模型调用上界为691。在两票一致早停的最坏情况仍可需600+1+60=661calls。65536output也无法覆盖691次各4096的2,830,336token上界；900秒同样不保证本机原生执行、拷贝和串行队列完成。这里上界是容量分析，不是目标消费量。不能为了把总数塞进64而继续改为N2/24/6或删除selector、tester与pruning，并把失败归为对手弱。
+
+新目录已固定这一次内部忠实配置；共同上限仍只记为待Root确认的临时约束，scientific授权false。Root需冻结同六题和共同预算。如果保留64/65536/900，只能公开称“完整机制在共同外部预算下的适配比较”，预算用尽保留partial/UNKNOWN，不称复现原论文充分资源配置，不把截停的票默认为正常模型失败。不以预算承受不了为由换掉已胜出的强对手。增加共同预算、财政预约及新截止时间均不由本Agent决定。
+
+来源与版本
+
+精确论文：Zhao Tian、Pengfei Gao、Junjie Chen、Chao Peng，Agent-Based Ensemble Reasoning for Repository-Level Issue Resolution，ICSE 2026，DOI10.1145/3744916.3787761，正式13页1406–1418。本轮06:39:21Z再次直接读取Crossref publisher登记：ACM proceedings-article、正式主论文集、published-online2026-09-11、print2026-04-12；选定字段与本地全文SHA已保存PRIMARY_SOURCE_EVIDENCE239_SCOPE242.json。本轮重新读完现有论文全文的方法、实验、分析、威胁与结论。ACM网页本次403，不能称本次直接访问出版社全文成功；本地作者保存稿含精确ICSE页脚和DOI。ICSE官方Research Track页面确证题名与作者。
+
+https://dl.acm.org/doi/10.1145/3744916.3787761
+https://api.crossref.org/works/10.1145/3744916.3787761
+https://conf.researchr.org/details/icse-2026/icse-2026-research-track/233/Agent-Based-Ensemble-Reasoning-for-Repository-Level-Issue-Resolution
+本地全文：D:/Code/毕设/graduate-thesis-experiments/工作区/1003-diagnosis-investigation/exp132_review/review_2245/source_review/software/EnAgent_paper.txt
+
+作者官方实现：https://github.com/bytedance/trae-agent
+本轮 gh api 实测 main=e839e559ac61bdd0e057c375dd1dee391fee797d，commit时间2026-02-05T11:21:00Z，和本机冻结pin一致。未fetch、未改作者代码。对应源码固定链接：
+https://github.com/bytedance/trae-agent/blob/e839e559ac61bdd0e057c375dd1dee391fee797d/evaluation/patch_selection/trae_selector/selector_agent.py
+https://github.com/bytedance/trae-agent/blob/e839e559ac61bdd0e057c375dd1dee391fee797d/evaluation/patch_selection/trae_selector/selector_evaluation.py
+https://github.com/bytedance/trae-agent/blob/e839e559ac61bdd0e057c375dd1dee391fee797d/trae_config.yaml.example
+
+论文、源码默认与旧窗口配置必须分别说清
+
+论文§5.1主比较N=3，§5.2敏感性N=1..10，§5.4空间分析N=10；不能把10冒称全部主实验默认。§6.1的78.80%为另一个N16、四强模型混合的部署配置，不能用于Flash六题承诺。§3.4明确selector上限30轮，§4.4使用Claude3.7作为ensemble阶段base model，temperature .2，max_tokens4096。coder高温采样只描述方向，没有在这些章节给出.7的精确值。
+
+当前官方CLI selector.py默认num_candidate=10、max_turn=50；SelectorAgent类默认50；README示例max_turn200。它们是工具默认/使用示例，不覆盖论文30。作者trae_config.yaml.example的coder max_steps200、temperature.5、max_tokens4096。当前adapter的.7coder属于明示适配；tester0来自作者Agentless select_regression_tests.py的temperature0 / num_samples1，本机tester caps4096比该辅助脚本1024更宽；selector.2/4096保留论文设置。模型统一换为Flash是共同实验条件，不是原作者模型复现。
+
+旧ToolV3/SourceIOV4 N2配置为每coder24、最多2票各6轮、tester一次，最多61calls；selector可用轮数为论文的五分之一，ensemble规模也小于主比较。旧原N3/12/8同样不是作者默认。旧结果保留各自原预算、模型与部署名，不拼到新窗口主分母。SourceIOV4的两题完整成功仍是强对手真实证据，本轮不重跑它们、不改旧钟。进一步逐原result核验：两题各生成2个非空patch，两个coder均24步到配置上限且未task_done，但作者接线保留实际patch；去重后各只剩1个候选，tester均排除了唯一ordinary节点，retained_public_regressions=[]。最终public goal+ordinary与private仍全部通过。因此非零功能结果有效，但这两题无法提供困难候选选择、多数推理或回归剪枝增益的因果证据，也不能把执行loop完整等同于coder已主动完成任务。
+
+主张→核心/假设→配置/预算→真实验收
+
+1. 多候选提高覆盖可能性。
+核心是从同一合法初始状态独立多次生成并探索不同轨迹；要求候选存在、质量和错误相关性允许多样性产生收益。N增加本身不保证更高最终成功。作为解释性推导，若正确性独立同分布且单次正确概率p，池内至少一个正确的概率为1-(1-p)^N；这是本审计的条件推导，不是论文给出的成功定理。Flash同提示同环境很可能相关，不能无证据假设独立。新配置N3保留3次生成，记录实际每coder终止、非空candidate、patch SHA、duplicate数量和自然失败，不能按胜负挑候选或重seed。
+
+2. Pruning降低选择难度。
+核心是回归排除/执行、全部失败时保留整个集合，以及unidiff规范化去重；假设回归测试代表应保留行为、规范化不会把有意义差异错误合并。作者承认程序等价不可判定，论文提供经验效果而非语义等价保证。当前任务只有共同冻结的ordinary节点及公开失败，是原论文“发现原仓全部可执行测试”的任务约束适配，不能继承其回归FN等数值。新配置完整保留tester和每候选公测；记录具体retained/excluded节点、各native结果、全失败fallback、规范化SHA。UNKNOWN不作FAIL。
+
+3. Selector通过仓库理解优于单次judge。
+核心是原有长期消息、文件工具、相关源码静态阅读及自造测试动态反馈，而不是只返回某candidate ID。论文将其作用归因于程序理解，需充分工具轮数和真实可用环境。当前legal SourceIOV4 transport不可归为本文恢复创新；Scope保护不能误挡正常业务访问。新配置每票30轮；验收记录tool调用、实际合法source读取、生成测试/执行、原始选择报告、预算截停与本机ABI，不用“有loop代码”替代实际机制轨迹。
+
+4. 多数投票增强一致性。
+核心为N票的多数和早停；作者源码在max(Counter)>N/2时停止。投票减少错误的经典条件需各票正确概率超过随机水平且错误不过度相关；论文并未证明当前Flash共享提示满足这些条件。N2只有两票，一旦各投不同不产生多数；两fallback同为0也不代表两次模型判断认可0。新配置最多3票且保留作者多数早停。逐票区分explicit合法Status/Result、格式无效后默认first-candidate fallback、预算/工程停止。纯fallback输出可按作者路径保留，但不可宣称实际观察到多数推理收益。
+
+5. 作者fallback与人为低预算不能混同。
+SelectorAgent.run源头初始化final_id为candidate_list[0]，只有合法Status/Result匹配才更新；超max_turn后直接返回已有值。因此first-candidate fallback是作者机制，不能删掉“修成强制有效票”。旧两成功在本地each6turn配置下两票均fallback/0显式parsed vote：观察到低上限内未显式投票；不能证明低预算唯一造成0票，因为没有公平对照的30轮结果。也不能把0票说成多数投票有效。新30轮前瞻一次冻结，原始fallback如实保留，不根据本轮胜负再改轮数。
+
+6. 论文与源码存在需披露差异。
+论文§3.4说最高票平局随机选；当前官方selector_evaluation.py取most_common_ids[0]，本机controller同样取first最高频。以固定作者源码为实现依据，披露这点，不私自随机化求有利结果。论文描述parallel generation/selection，当前controller串行生成并在本机resource guardian下串行native；因此不能继承论文时间开销，也不能把共享队列挤压造成的900秒截停记为正常失败。论文主比较让ensemble baselines共享既有candidate pool，效率主要针对pruning/selection，不等同本轮各完整整体方法从失败状态自行生成的总时间。
+
+新六题与共同验收
+
+拟顺序固定为Moto5406、Moto6387、Moto5980、Mypy15155、Moto5516、Conan14397；新Root global范围尚未冻结。SIX_TASK_SOURCE_DECLARATIONS记录既有合法公共pack及declared节点，不继承旧scope机械资格。新scope实际C0/ABI/Scope/native/first-body全部null。须先在新scope核共同原始失败状态、ordinary可执行、完整source可读、方法工具可用，再逐具体grant执行。
+
+每次科学结果必须先选定唯一patch并封SHA，再完整共同public goal+ordinary及一次private验收。正常模型负例、empty pool、预算partial、部署UNKNOWN、未运行分别记录；预算停止不填0。所有方法拥有共同数据、信息、计费连续账、calls/output/time边界和同一终态验收。内部角色预算是方法结构，不伪装共同预算。费用未知先按Root规则保留held，不重置旧973+后续账，不自动充值。
+
+完整首个body准备
+
+SOURCE_ONLY_FIRST_BODY_SCOPE242_MOTO5406.json含完整system/user/messages、8个tool schema、auto tool choice、Flash参数及固定新scope seed，89547 canonical bytes，SHA96571711fe20a40a271a363dfdb2a3a83be6a14b6f4b8c6117e50dff9c4ed5f1。system prompt从作者AST字面量解析，issue由合法共同public publisher拼装；旧5406机械body的messages与该纯source重建精确相等，仅利用既有工具schema/公共输入，没有复用generated candidate或模型response。
+
+它是SOURCE-derived完整blueprint，不是当前actual first body。新Root pack冻结后必须重新绑定并通过新mechanical capture验证精确相等；当前不创建Env、不导入actor运行、不做finance factory、不POST。新finance_config明确unbound/disabled，不含旧phase/ledger授权；deadline与global registry都pending/null，旧12点CLOSED时钟与grant无法复用。source69只更改method身份、新scope seed标识和不可执行财政template；核心生成/pruning/selection/guard源码字节不改。
+
+等待Root新的global六题、共同预算、期限及具体mechanical/science/finance授权。没有在本轮科学运行，也没有声称本文超过任何强基线。

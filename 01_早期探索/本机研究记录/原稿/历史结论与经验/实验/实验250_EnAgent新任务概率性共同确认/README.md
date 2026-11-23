@@ -1,0 +1,17 @@
+本实验源码已准备首个当前资格通过任务moto-5072的trial1；所有执行grant仍为false。对应一次完整运行入口和精确SHA在`deployments/getmoto__moto-5072/trial1/FIRST_PILOT_SOURCE_COMMANDS.json`。实际API、产品native、独立终验与账本新增均为0；SOURCE_QA250是模拟控制检查，不是科研结果。
+
+真实执行部署位于独立Git工作树`工作区/1012-exp250-enagent-confirmation`，分支`exp/1012-exp250-enagent-confirmation`。Codex App的create_worktree因聊天cwd不在Git顶层返回Not a git repository，attach_worktree随后返回not a managed worktree；因此它是Git正式登记的独立工作树，并未被冒称App managed附件。原`1012-exp250-enagent-confirmation-SOURCE`全部源码、旧sealed部署及修正历史保留，未覆盖旧实验结果。
+
+完整方法保留3个独立coder、每个最多200步、作者tester、真实公开测试剪枝、规范化去重，以及最多3次selector投票/每次30轮。角色温度为0.5/0/0.2，输出每次4096。内部模型调用上界691，2048调用、24小时、native16384及OS65536仅为运行保护，触及时记删失；没有裁掉论文核心或把较短配置称作论文默认。模型统一Flash、Windows串行控制与局部公开G/O是明确部署适配；作者源码首个最高票tie与论文随机tie也分别披露。
+
+三方共享Root249的public-only资源接口、原始公开prefix/pack和当前C0 supplement。public_environment250在legacy构造前替换resources/export_input/verify，仅读公开contract/ref/原始public_inputs；不读旧task_manifest或hidden节点元数据。actor的hidden列表不可用，不能解释为最终验收要求为空。actor只冻结不可变业务选择，完整核心结束且所有自有进程停止后由Root按原独立验收标准另行一次终验。
+
+原T0在GENESIS前瞻保存为真实forward supervisor的`EXP239_LEASE_STARTED_MONOTONIC`，包含worker初始化、环境和clone准备。首API dispatch的actual_POST_T0及prePOST准备秒单列；wire不得改env.started或重置原T0。固定30分钟/128调用/131072输出端点与同轨迹自然终态分开记录；端点observer只记状态，不停止完整轨迹。09:00是用户最低持续工作与Root复核端点，不是自动算法科学截止。
+
+每题trial1/2/3用不同部署目录和前瞻客户端调度身份。重复不读取旧方法输出、候选或检查点，只有同一trial换安全lease续跑才复用本trial精确已SETTLED响应。客户端seed不保证DeepSeek服务端确定性；复制响应不是独立重复。三次均须报告，正常负结果不因目标胜出而隐藏，资金不足与工程未知保持删失/未完成。
+
+检查点保存完整typed消息/阶段/内部步数/cursor、已结算响应、工具状态与结果、editor undo、bash cwd、候选/votes、内容寻址clone和累计调用/token/native/原T0。原子blob与pointer保护字节恢复；已结算body精确相同才可缓存推进；MODEL_INTENT/TOOL_INTENT未知不得自动重POST或重做工具。新首完整body为`1eacfdff0fbc258998a63ac1a5e4167bcd8fbf7290e9e39a8e415d9948922296`，完整峰预留0.373428元；未裁body。原始金融bounds函数的纯检查确认input upper170330/output4096。
+
+实际执行由Root把单任务单trial、协议/源码seal、连续财务、共同native资格与外部终验源码审查绑定在`root_grant239.json`；权限必须分别明确。已有完整首body与公共资格不自动授权POST。Dask仍保留原计划槽，本方法没有把待资格的Dask改判失败，也未按模型胜负换题。其余重复与任务先完成完整方法可行性、实际有效非零和财政审查后按预定方案放行，不自动扩队列。
+
+必要纯检查已通过：原始金融bounds与完整body一致；typed状态与内部步骤roundtrip；原子blob/pointer恢复；已SETTLED及工具响应待处理的缓存不POST/不双计；不同body、未知模型/工具intent拒绝；actualPOST不重置原T0；准备独自超过1800秒即记录固定端点且自然轨迹继续。这些结果不能替代本题真实完整运行和独立终验。

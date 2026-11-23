@@ -1,0 +1,29 @@
+Exp132 三种固定论文方案：N6探索性比较
+
+实际新请求：146；token高峰价格上界：1.03762176 CNY；发票扣费未核验。
+开发为2个任务×3次独立生成；盲测4个任务各一次。重复未当成额外任务。
+
+盲测严格步骤命中 / 4：
+M1/A_expectation: 0/4，完成但无效 4。
+M1/B_dependency_propagation: 0/4，完成但无效 4。
+M1/PRIMARY_AB_expectation_propagation: 0/4，完成但无效 4。
+M1/AB_no_propagation_explanation: 0/4，完成但无效 4。
+M2/A_AIG_reader: 0/4，完成但无效 4。
+M2/B_A2P_full_trace: 0/4，完成但无效 4。
+M2/A_plus_direct_prediction: 0/4，完成但无效 4。
+M2/PRIMARY_AB_AIG_grounded_A2P: 0/4，完成但无效 4。
+M3/A_FROZEN: 1/4，完成但无效 0。
+M3/TOP3_FIXED_VERIFY: 0/4，完成但无效 4。
+M3/A_NEXT_RANK_EQUAL_BUDGET_VERIFY: 0/4，完成但无效 4。
+M3/PRIMARY_RELATION_GUIDED_VERIFY: 0/4，完成但无效 4。
+AA: 2/4，完成但无效 0。
+Binary: 3/4，完成但无效 0。
+SDBL: 1/4，完成但无效 0。
+StepFinder: 1/4，完成但无效 0。
+
+全部12项主方案对基线及9项组件比较已保存；N4不足以确认稳定超越。
+固定调度与完整队列封存完成，主方案有效机制是否跑通见逐阶段失效收据。
+完成但格式/证据不合规的流水线按漏失计入分母，不能据0分否定完整论文。
+
+科学状态：IMPLEMENTATION_VALIDITY_FAILED_NO_SUPPORTED_SUPERIORITY。
+固定160条条件预测记录齐全，其中110条typed-invalid；三主方案在开发及盲测均未形成有效完整输出。

@@ -2,10 +2,10 @@
   "schema": "proposal-direct-browser-expansion/1",
   "source_files_scanned": 1573,
   "counts": {
-    "仓库展开": 1524,
-    "附件保留": 49
+    "仓库展开": 1523,
+    "附件保留": 50
   },
-  "all_opened_copies_keep_original_bytes": "原字节展开副本保持一致；另标公开脱敏副本7份不作为原字节副本",
+  "all_opened_copies_keep_original_bytes": "原字节展开副本保持一致；另标8份公开脱敏副本不作为原字节副本",
   "source_files_modified": 0,
   "API_requests": 0,
   "complete_original_archive": "proposal-history-complete.tar.gz.enc",
@@ -2676,13 +2676,22 @@
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md",
       "size": 12814,
-      "status": "仓库展开",
-      "reason": "可公开研究稿件、演示、图表或修订说明",
+      "status": "附件保留",
+      "reason": "含实际账户余额；完整原件继续附件，另提供明确标记的公开脱敏Markdown",
       "findings": [],
       "group": "05_历史稿件/02_修订留稿/02_四小时实验后修订_v2",
-      "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md",
-      "sha256": "b75a5a87eb10dac591cdf4fea4a214cbbf327a30c225ff59787b6ee6025116c8",
-      "original_bytes_unchanged": true
+      "source_sha256": "b75a5a87eb10dac591cdf4fea4a214cbbf327a30c225ff59787b6ee6025116c8",
+      "public_derivative": {
+        "destination": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS_公开脱敏.md",
+        "sha256": "c48153a81bb6823d47808352b63dd6a8351a21c18e24b0b07a37a9d05da17937",
+        "size": 13055,
+        "redacted_fields": [
+          "资金与关闭状态段.余额GET实际值"
+        ],
+        "redaction": "仅移除实际账户余额；实验成本、请求数及指标保持原值",
+        "original_bytes_unchanged": false,
+        "all_other_experiment_cost_values_preserved": true
+      }
     },
     {
       "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/NEXT_METHOD_HYPOTHESES_NOT_EXECUTED.json",
@@ -17264,7 +17273,7 @@
       "original_bytes_unchanged": true
     }
   ],
-  "public_derivative_count": 7,
+  "public_derivative_count": 8,
   "direct_public_views": 1531,
   "metadata_review": {
     "reviewed": 126,

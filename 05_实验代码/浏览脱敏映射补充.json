@@ -1,0 +1,17 @@
+{
+  "schema": "public-browser-redaction-supplement/1",
+  "original_target_filename": "FOUR_HOUR_FINDINGS.md",
+  "original_target_source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md",
+  "original_target_sha256": "b75a5a87eb10dac591cdf4fea4a214cbbf327a30c225ff59787b6ee6025116c8",
+  "original_target_archive": "proposal-history-complete.tar.gz.enc",
+  "original_target_archive_member": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md",
+  "public_browser_file": "../07_开题材料/历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS_公开脱敏.md",
+  "public_browser_sha256": "c48153a81bb6823d47808352b63dd6a8351a21c18e24b0b07a37a9d05da17937",
+  "frozen_reference_source": "工程原件/02_工作区/01_工程/reproduction/current_inputs/57843b350ebf8f1950ab4e88aea06d3fd7e5d797108792705a7eca61ec7341aa_03_后续四小时实验执行计划.md",
+  "frozen_reference_source_sha256": "57843b350ebf8f1950ab4e88aea06d3fd7e5d797108792705a7eca61ec7341aa",
+  "frozen_reference_file_modified": false,
+  "original_balance_values_in_this_mapping": false,
+  "redacted_field_names": [
+    "资金与关闭状态段.余额GET实际值"
+  ]
+}

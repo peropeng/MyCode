@@ -1,7 +1,7 @@
 {
   "schema": "historical-proposal-links/2",
-  "working_relative_references": 2513,
-  "references_needing_archive_or_original_workspace": 3283,
+  "working_relative_references": 2512,
+  "references_needing_archive_or_original_workspace": 3284,
   "rewritten_historical_source_files": 0,
   "items": [
     {
@@ -1099,6 +1099,15 @@
       "status": "历史引用失效",
       "source_exists": false,
       "location_note": "源目录中也不存在，未虚构补齐"
+    },
+    {
+      "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/00_V2阅读入口与结论.md",
+      "label": "四小时执行结论",
+      "original_target": "四小时最终结果/FOUR_HOUR_FINDINGS.md",
+      "status": "完整开题附件",
+      "source_exists": true,
+      "location_note": "附件成员：03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md",
+      "public_redacted_view": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS_公开脱敏.md"
     },
     {
       "public_source": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/00_V2阅读入口与结论.md",

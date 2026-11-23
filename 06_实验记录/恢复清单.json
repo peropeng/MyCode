@@ -151,8 +151,12 @@
       "files": 14
     }
   ],
-  "key_private_repository": "peropeng/graduate-thesis",
-  "key_release": "rq1-rq2-research-inputs-v1",
-  "key_asset": "mycode-recovery-key.json",
-  "API_configuration_required_before_new_generation": true
+  "API_configuration_required_before_new_generation": true,
+  "key_management": {
+    "source": "researcher-held local or offline credentials",
+    "default_local_path": "工作区/私有配置/mycode-recovery-key.json",
+    "online_private_repository_required": false,
+    "public_repository_contains_key": false,
+    "portable_copy_required": true
+  }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "proposal-public-redaction-proof/1",
-  "redacted_files": 7,
+  "redacted_files": 8,
   "source_and_public_identity_separate": true,
   "original_balance_values_stored_in_this_proof": false,
   "embedded_raw_balance_text_candidates": 0,
@@ -100,6 +100,22 @@
       "public_replacement": "〔账户余额已移至完整受保护原件〕",
       "all_other_JSON_values_preserved": true,
       "original_source_bytes_unchanged": true
+    },
+    {
+      "source": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md",
+      "source_sha256": "b75a5a87eb10dac591cdf4fea4a214cbbf327a30c225ff59787b6ee6025116c8",
+      "public_file": "历版材料/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS_公开脱敏.md",
+      "public_sha256": "c48153a81bb6823d47808352b63dd6a8351a21c18e24b0b07a37a9d05da17937",
+      "redacted_field_names": [
+        "资金与关闭状态段.余额GET实际值"
+      ],
+      "public_replacement": "余额GET原值已移至完整受保护原件",
+      "all_other_experiment_cost_values_preserved": true,
+      "all_other_manuscript_content_preserved": true,
+      "public_view_notice_added": true,
+      "original_source_bytes_unchanged": true,
+      "original_archive": "proposal-history-complete.tar.gz.enc",
+      "original_archive_member": "03_开题/05_历史稿件/02_修订留稿/02_四小时实验后修订_v2/四小时最终结果/FOUR_HOUR_FINDINGS.md"
     }
   ]
 }

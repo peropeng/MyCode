@@ -1,0 +1,9 @@
+# 限定P0信息资格执行源
+
+本目录对应独立新合同，只使用已封存的公开731-record source/pointer及固定split，保留全部244个P0候选。先一次验证8个固定人工输入，再对严格纯数据Python准入pair运行完整原solution及完整原test；不调用未调用的test函数，不补import或修复source。
+
+精确AST、全部identifier、直接Call方法和fresh安全builtin字典分别约束静态准入及实际guest namespace。固定复用N3本次自有serialized module，原byte/SHA、CPython/Wasmtime、engine config和独立actual review在freeze绑定；每个pair创建fresh Store、instance和namespace。底层Windows Job直接复用N3原字节。
+
+只有前瞻及完整源码审查PASS、冻结后，授权一次600s信息资格。每个真实pair的合法资源拒绝保留后继续下一个固定候选；未知native/Job/transport故障或总预算耗尽保留部分证据并STOP。无改语法、资源搜索、选择样本、自动重试或训练。
+
+A为给定测试局部观察，B为record内部严格更晚的完整solution UTF8字节相等关系及其较晚A。给定测试不是任务真值，版本关系不是唯一来源、因果或责任归因；本阶段没有A+B准确率、Gold、模型、optimizer、新基线或RQ2执行。

@@ -1,0 +1,42 @@
+当前有效论文基线与可行性结果（2026-10-08）
+
+用户最新口径：论文基线必须已正式出版、CCF A。整体保持2025与2026各一个完整论文方法；最新未出版论文只参考设计。模型只用DeepSeek Flash或现有本地。先完整非零小试，再冻结扩量；本窗口总5元，各阶段共同累计，不因换方法重置。
+
+整体比较：
+方法                       正式出版/级别                       当前真实结果                 判断
+本文 G153最小语义修复       本文候选方法                        Flash两历史任务 2/2          完整管线可行，当前成功率与Agentless并列
+Agentless                  FSE2025，CCF A，2025-06-19在线       同两任务 2/2                 有完整非零实测，可继续作整体竞争对手
+EnAgent                    ICSE2026，CCF A，2026-09-11在线      完整方法UNKNOWN              首coder原生接口失败，一次短修复未通，当前入口退出；不作0/1成绩
+
+Agentless正式题名：Demystifying LLM-Based Software Engineering Agents；PACMSE2(FSE)，801–824，DOI10.1145/3715754。论文preprint起始于2024，与正式出版年份2025分记。
+EnAgent正式题名：Agent-Based Ensemble Reasoning for Repository-Level Issue Resolution；ICSE2026主会研究长文，1406–1418，DOI10.1145/3744916.3787761。正式print/volume日期2026-04-12，online确认日期2026-09-11；会议展示和预印本链接不替代出版记录。
+CCF官方当前软件工程/系统软件/程序设计语言目录列ICSE、FSE为A类。
+
+RQ1已有独立结果（历史开发数据，当前不重跑）：
+StepFinder，KDD2026，CCF A：固定120题本文86/120、StepFinder82/120，+3.33个百分点，未显著。
+Who&When All-at-Once，ICML2025，CCF A：同固定120题本文86/120、AA77/120，+7.50个百分点，未显著。
+coding363的A/B/C三划分：本文179/184/186，匹配StepFinder150/156/159；同363题重复划分，不合计1089个独立任务，不冒称全局盲测或整体恢复优势。
+
+本轮两题小试已经完成（Exp174）：
+固定MONAI2238和dask9378，四个完整流程，同初始失败业务状态SHA，真实合法业务修复、公开功能/ordinary回归及选中之后一次private保护验收全通过。
+Agentless保留完整定位、实质dense/LLM文件combine、3独立patch、2原始复现测试生成/真实执行、普通回归选择、候选验证和规范化选择；没有接本文回滚根池。dask未产生验证成功的原始复现测试，按原方法无verified-repro fallback继续，正常结果保留。
+本文两题各一次生成修复成功；这只证明新管线能实际运行，尚不证明责任排序带来下游恢复增益。
+22次Flash真实调用，5631输出token；15次公开原生过程＋4次最终private验收＝19次原生过程。费用为官方峰值usage保守上界0.14244520元，非精确账单；无未结算预留。新训练/编码/排序forward/外部Gold/独立新任务/大型模型下载均0。
+本轮原首次启动因静态启动时限晚4秒被拦，0API/0目标native；一次短机械修复后23:53:29首真实请求，全部启动和失败记录保留。两任务完成于23:56:11，owned Job已停止，主队列未开。
+
+预印本候选AgentRewind、SWE-Doctor、PhoenixRepair等撤出基线候选，仅可参考设计。它们的合成源码接线检查不算真实模型/目标效果，也不占基线名额。旧本地7B的Agentless0/7保留为配置失败记录，不作为主竞争性结果或本文优势。
+
+Exp175首真实入口因Windows命令接口和持久会话失败停下，只有3次已结算Flash请求、费用上界0.01111584元。N3/Selector未完成，结果为工程UNKNOWN，不能补0。一次5分钟修复结束后没有继续请求。
+
+当前执行Exp176：六个固定稳定历史失败task，完整Agentless、本文语义修复，以及同样最多3条编辑证据但按逆时序的控制，共18流程重新运行。原生与模型预算匹配，逆时序控制不占外部论文基线名额。阶段1.20元上限，共用本窗口总5元，不重置旧费用。
+
+新的2026正式候选FramePilot/ADI（FSE2026，CCF A，DOI10.1145/3797126，2026-06-30在线）已核正式出版和完整ReAct+真实ADI动态分析源码，但Windows/Flash完整运行尚未知。正在做零付费真实合成接线检查，未有模型成绩，不计入有效基线或填0。
+
+正式来源：
+Agentless：https://doi.org/10.1145/3715754
+EnAgent：https://doi.org/10.1145/3744916.3787761
+CCF：https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/
+完整出版核验：formal_publication_gate/published_ccfa_gate.json
+真实小试主验收：exp174_root_initial_acceptance.json
+
+更新 2026-10-07T16:43:13.514957+00:00：窗口已知usage费用上界0.15356104元，25笔实际模型请求均结算，0在途；完整非零实际外部整体方法仍只有Agentless。第二项2026正式整体目标尚未完成。
