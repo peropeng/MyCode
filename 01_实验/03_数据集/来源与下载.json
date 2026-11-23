@@ -1,0 +1,140 @@
+{
+  "schema": "current-study-datasets/2",
+  "scope": "当前开题的三个数据集：AgenTracer、AFTraj、SWE-Gym；模型依赖不作为数据集条目。",
+  "basis": "03_开题/当前材料/开题报告_评议修订稿_v1.0.md：表5-1数据来源及用途",
+  "verified_at_utc": "2026-11-22T15:46:05.690785+00:00",
+  "datasets": [
+    {
+      "name": "AgenTracer",
+      "research_question": "RQ1",
+      "description": "根因排序模型学习，以及代码与数学任务比较。",
+      "source_url": "https://github.com/bingreeky/AgenTracer",
+      "version": "data-v1.0.0",
+      "license": "NOT_EXPLICITLY_DECLARED",
+      "downloads": [
+        {
+          "filename": "agentracer-data-v1.0.0.zip",
+          "url": "https://github.com/bingreeky/AgenTracer/releases/download/data-v1.0.0/agentracer-data-v1.0.0.zip",
+          "size": 23997287,
+          "sha256": "a4615b2defacc5ec181239da299055e240444b44b414bd7db3d1471c9aa5826d"
+        }
+      ],
+      "permission_note": "DO_NOT_ASSUME_PERMISSION; use upstream download and retain private original backup"
+    },
+    {
+      "name": "AFTraj",
+      "research_question": "RQ1",
+      "description": "不同记录形式下的根因排序评价。",
+      "source_url": "https://huggingface.co/datasets/ZBox008003/AFTraj",
+      "version": "b7cb236e348bb4ac10059dce4da91a05ee8cc8f7",
+      "license": "CC-BY-4.0 dataset; MIT companion code",
+      "downloads": [
+        {
+          "filename": "aftraj_safe.parquet",
+          "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_safe.parquet",
+          "size": 1393120,
+          "sha256": "cd16e0de24fa9f70f9832c7fee86ed2370d4d42deb8bdb6b97939c323aa8daa3"
+        },
+        {
+          "filename": "aftraj_unsafe.parquet",
+          "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_unsafe.parquet",
+          "size": 1252325,
+          "sha256": "f19d407898ebf32b32a2e99600f49f53a358ac2831fe437da3dc2a9fe25f8f41"
+        },
+        {
+          "filename": "splits_test.json",
+          "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/splits_test.json",
+          "size": 10940,
+          "sha256": "b0ac15a34ed051d571d76d537751a015d39a79408af0795723009182b9e76b8e"
+        }
+      ],
+      "permission_note": "按所列上游许可获取与保留署名；原数据不进入生成器可见输入，仍按原实验信息许可执行。"
+    },
+    {
+      "name": "SWE-Gym",
+      "research_question": "RQ2",
+      "description": "构造共同故障状态，评价软件任务恢复。",
+      "source_url": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym",
+      "version": {
+        "tasks": "bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb",
+        "public_history": "4aaa5a4a4b5861f4799d2336908760c190ac3b17"
+      },
+      "license": "MIT",
+      "downloads": [
+        {
+          "filename": "train-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym/resolve/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/data/train-00000-of-00001.parquet",
+          "size": 43644473,
+          "component": "tasks"
+        },
+        {
+          "filename": "train.success.oss-00000-of-00001.parquet",
+          "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet",
+          "size": 10379409,
+          "component": "public_history"
+        }
+      ],
+      "components": [
+        {
+          "id": "tasks",
+          "description": "可执行软件任务",
+          "source_url": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym",
+          "version": "bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb",
+          "license": "MIT",
+          "original_version_equivalence": "NOT_VERIFIED; official current pinned artifact is not a substitute for original sealed task/patch inventory"
+        },
+        {
+          "id": "public_history",
+          "description": "配套公共执行轨迹",
+          "source_url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories",
+          "version": "4aaa5a4a4b5861f4799d2336908760c190ac3b17",
+          "license": "MIT",
+          "original_version_equivalence": "Original raw parquet byte equality not compared in this audit; retain sealed selected public packs"
+        }
+      ],
+      "permission_note": "按官方来源取得任务与配套公共轨迹；沿用共同输入与测试信息许可。固定上游下载不替代已封存实验输入的原字节核对。"
+    }
+  ],
+  "download_checks": [
+    {
+      "url": "https://github.com/bingreeky/AgenTracer/releases/download/data-v1.0.0/agentracer-data-v1.0.0.zip",
+      "http_status": 200,
+      "content_length": "23997287",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_safe.parquet",
+      "http_status": 200,
+      "content_length": "1393120",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/aftraj_unsafe.parquet",
+      "http_status": 200,
+      "content_length": "1252325",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/ZBox008003/AFTraj/resolve/b7cb236e348bb4ac10059dce4da91a05ee8cc8f7/splits_test.json",
+      "http_status": 200,
+      "content_length": "10940",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-Gym/SWE-Gym/resolve/bb94ed9e39bbeb96a7fcbfb533b80f25a7fd59cb/data/train-00000-of-00001.parquet",
+      "http_status": 200,
+      "content_length": "43644473",
+      "body_read": false
+    },
+    {
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-SFT-Trajectories/resolve/4aaa5a4a4b5861f4799d2336908760c190ac3b17/data/train.success.oss-00000-of-00001.parquet",
+      "http_status": 200,
+      "content_length": "10379409",
+      "body_read": false
+    }
+  ],
+  "label_access": "No dataset label values parsed/evaluated. Only AFTraj splits raw bytes hashed in memory; no stored raw data.",
+  "new_training": false,
+  "new_model_generation_requests": 0,
+  "new_gold_evaluation": false
+}
