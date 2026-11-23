@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse, copy, hashlib, json, re
 
 ROOT=Path(__file__).resolve().parents[2]
-PROJECT=ROOT/'工作区/恢复/原始项目'
+PROJECT=ROOT/'09_工作区/恢复/原始项目'
 PATH_FIELDS=['business_root','support_root','public_view','frozen_root','pack','ranking_plan',
              'native_harness','original_contract','new_information_policy']
 REF_FIELDS=['task_path','asset_root','G_frozen_plan']
@@ -29,14 +29,14 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--task',required=True,help='原任务ID，仅作来源追溯')
     parser.add_argument('--python',required=True,type=Path,help='已重建的对应native环境解释器')
-    parser.add_argument('--output',required=True,type=Path,help='工作区/恢复目录下的新case.json路径')
+    parser.add_argument('--output',required=True,type=Path,help='09_工作区/恢复目录下的新case.json路径')
     args=parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9_-]+',args.task):parser.error('任务标识不安全')
     source=PROJECT/'02_工作区/01_工程/.rebuild/rq2-controls/selection'/args.task/'case.json'
     if not source.is_file():parser.error('先恢复完整研究档案，缺少原case')
     if not args.python.is_file():parser.error('先重建对应native环境')
     target=args.output.resolve()
-    if not target.is_relative_to((ROOT/'工作区/恢复').resolve()):parser.error('输出必须位于工作区/恢复忽略目录')
+    if not target.is_relative_to((ROOT/'09_工作区/恢复').resolve()):parser.error('输出必须位于09_工作区/恢复忽略目录')
     original=json.loads(source.read_text(encoding='utf-8'));view=build_view(original,PROJECT,args.python.resolve())
     required=[view[k] for k in PATH_FIELDS if k in view and k!='new_information_policy']
     required += [view['ref'][k] for k in REF_FIELDS if k in view['ref']]

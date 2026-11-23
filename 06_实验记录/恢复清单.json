@@ -154,7 +154,7 @@
   "API_configuration_required_before_new_generation": true,
   "key_management": {
     "source": "researcher-held local or offline credentials",
-    "default_local_path": "工作区/私有配置/mycode-recovery-key.json",
+    "default_local_path": "09_工作区/私有配置/mycode-recovery-key.json",
     "online_private_repository_required": false,
     "public_repository_contains_key": false,
     "portable_copy_required": true

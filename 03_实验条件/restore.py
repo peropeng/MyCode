@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def local_key(explicit=None):
     """只使用研究者明确传入或本机已保存的凭据，不访问在线密钥来源。"""
-    path=explicit if explicit is not None else ROOT/'工作区/私有配置/mycode-recovery-key.json'
+    path=explicit if explicit is not None else ROOT/'09_工作区/私有配置/mycode-recovery-key.json'
     return path if path.is_file() else None
 
 def digest(path):
@@ -94,18 +94,18 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--code',action='store_true',help='恢复公开代码原件与现有回放模型')
     parser.add_argument('--history',nargs='*',help='指定原件附件名；不列名称时恢复全部受保护附件')
-    parser.add_argument('--key-file',type=Path,help='本机解密密钥；省略时使用工作区/私有配置/mycode-recovery-key.json现存文件')
+    parser.add_argument('--key-file',type=Path,help='本机解密密钥；省略时使用09_工作区/私有配置/mycode-recovery-key.json现存文件')
     parser.add_argument('--archive-file',type=Path,help='离线使用已下载的代码附件')
     args=parser.parse_args()
     catalog=json.loads((ROOT/'06_实验记录/恢复清单.json').read_text(encoding='utf-8'))
-    work=ROOT/'工作区/恢复';cache=work/'下载';engine=work/'原始项目/02_工作区/01_工程'
+    work=ROOT/'09_工作区/恢复';cache=work/'下载';engine=work/'原始项目/02_工作区/01_工程'
     if args.code:
         row=catalog['public_code'];path=args.archive_file or download(row['url'],cache/'current-code.tar.gz',row['sha256'])
         if digest(path)!=row['sha256']:raise RuntimeError('代码附件校验失败')
         print(json.dumps({'restored_files':extract(path,work),'new_experiments':0},ensure_ascii=False))
     if args.history is not None:
         keyfile=local_key(args.key_file)
-        if keyfile is None:parser.error('缺少本机解密凭据；用--key-file指定，或先导入工作区/私有配置/mycode-recovery-key.json，密钥不能提交到公开仓库')
+        if keyfile is None:parser.error('缺少本机解密凭据；用--key-file指定，或先导入09_工作区/私有配置/mycode-recovery-key.json，密钥不能提交到公开仓库')
         if not engine.is_dir():parser.error('先使用--code恢复代码原件')
         names=args.history or [r['name'] for r in catalog['protected_archives']]
         for name in names:

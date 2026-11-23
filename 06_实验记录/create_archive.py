@@ -27,10 +27,10 @@ def main():
     args=parser.parse_args();source=args.input.resolve();target=args.output.resolve();keypath=args.key_file.resolve()
     if not source.is_dir():parser.error('输入不是目录')
     if target.is_relative_to(source):parser.error('输出不能放在待封存目录内部')
-    if target.is_relative_to(ROOT) and not target.is_relative_to((ROOT/'工作区').resolve()):
-        parser.error('仓库内归档输出只能放在工作区忽略目录')
-    if keypath.is_relative_to(ROOT) and not keypath.is_relative_to((ROOT/'工作区/私有配置').resolve()):
-        parser.error('仓库内密钥只能放在工作区/私有配置忽略目录')
+    if target.is_relative_to(ROOT) and not target.is_relative_to((ROOT/'09_工作区').resolve()):
+        parser.error('仓库内归档输出只能放在09_工作区忽略目录')
+    if keypath.is_relative_to(ROOT) and not keypath.is_relative_to((ROOT/'09_工作区/私有配置').resolve()):
+        parser.error('仓库内密钥只能放在09_工作区/私有配置忽略目录')
     if args.new_key:
         keypath.parent.mkdir(parents=True,exist_ok=True)
         with keypath.open('x',encoding='utf-8') as f:json.dump({'format':'MyCode/recovery/v1','key':base64.b64encode(os.urandom(32)).decode()},f)

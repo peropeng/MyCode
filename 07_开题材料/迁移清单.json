@@ -1,110 +1,140 @@
 {
-  "scope": "公开开题候选；未修改原件；Office副本保持原字节",
+  "scope": "原精选来源清单；同字节精选副本已合并，destination为唯一规范文件；Office内容未改写",
   "files": [
     {
       "source": "03_开题/01_当前材料_v1.0/开题报告_评议修订稿_v1.0.md",
-      "destination": "当前材料/开题报告_评议修订稿_v1.0.md",
+      "destination": "历版材料/01_当前材料_v1.0/开题报告_评议修订稿_v1.0.md",
       "bytes": 23109,
       "sha256": "9d7f507d9d2ede9729f67101bfabf0290622287a2e3d8296c30e247f0ac21a02",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "当前材料/开题报告_评议修订稿_v1.0.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/开题报告_评议修订稿_v1.0.docx",
-      "destination": "当前材料/开题报告_评议修订稿_v1.0.docx",
+      "destination": "历版材料/01_当前材料_v1.0/开题报告_评议修订稿_v1.0.docx",
       "bytes": 549721,
       "sha256": "ed57d9b1540620d9ced1721d2e975499facaba09a7b8c31b6c1e97fa1ba44122",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "当前材料/开题报告_评议修订稿_v1.0.docx",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/开题汇报_v1.0.pptx",
-      "destination": "当前材料/开题汇报_v1.0.pptx",
+      "destination": "历版材料/01_当前材料_v1.0/开题汇报_v1.0.pptx",
       "bytes": 3667587,
       "sha256": "f137d9e2eb0e114783af7d4c9a5506eaccad17ee836b782982b505d151d5edc8",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "当前材料/开题汇报_v1.0.pptx",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/01_方法图/评议修订/总体研究框图.svg",
-      "destination": "当前材料/01_方法图/评议修订/总体研究框图.svg",
+      "destination": "历版材料/01_当前材料_v1.0/01_方法图/评议修订/总体研究框图.svg",
       "bytes": 6858,
       "sha256": "774e777bf5768144b76583acde4e1daa7994ba31ff0548b5fd4875b8fed54dd4",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "当前材料/01_方法图/评议修订/总体研究框图.svg",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/开题报告_v1.0.md",
-      "destination": "早期全文及配套图表/开题报告_v1.0.md",
+      "destination": "历版材料/01_当前材料_v1.0/开题报告_v1.0.md",
       "bytes": 32160,
       "sha256": "82dd9186e74fd725ce59c90a7e16419308622eb155472db509bd2238423a50e1",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/开题报告_v1.0.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/01_方法图/01_总体研究框架_图3-1.svg",
-      "destination": "早期全文及配套图表/01_方法图/01_总体研究框架_图3-1.svg",
+      "destination": "历版材料/01_当前材料_v1.0/01_方法图/01_总体研究框架_图3-1.svg",
       "bytes": 11558,
       "sha256": "77e43bb6d73d5493a3f54bdd9dddca5943506b33ca72f0e89d6dd96581daf640",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/01_方法图/01_总体研究框架_图3-1.svg",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/01_方法图/02_根因排序模型_图3-2.svg",
-      "destination": "早期全文及配套图表/01_方法图/02_根因排序模型_图3-2.svg",
+      "destination": "历版材料/01_当前材料_v1.0/01_方法图/02_根因排序模型_图3-2.svg",
       "bytes": 15046,
       "sha256": "41aa1a8e86eed42977c5a3cb86c8cc56a77163fec08ff59a0c6541c96ebc472e",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/01_方法图/02_根因排序模型_图3-2.svg",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/01_方法图/03_运行故障恢复流程_图3-3.svg",
-      "destination": "早期全文及配套图表/01_方法图/03_运行故障恢复流程_图3-3.svg",
+      "destination": "历版材料/01_当前材料_v1.0/01_方法图/03_运行故障恢复流程_图3-3.svg",
       "bytes": 6997,
       "sha256": "e7cdded4d047fe6fcb165c1e82d50c0d9685d3d5d3001017cac7c8069cef39b0",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/01_方法图/03_运行故障恢复流程_图3-3.svg",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/02_方法表/01_数据来源与研究样本_表5-1.md",
-      "destination": "早期全文及配套图表/02_方法表/01_数据来源与研究样本_表5-1.md",
+      "destination": "历版材料/01_当前材料_v1.0/02_方法表/01_数据来源与研究样本_表5-1.md",
       "bytes": 609,
       "sha256": "f1033e11e9c1bf8c15905e2e63a1a3e2211983d5014ae394798fe30abe2e751f",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/02_方法表/01_数据来源与研究样本_表5-1.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/02_方法表/02_整体实验流程与计划工作量_表5-2.md",
-      "destination": "早期全文及配套图表/02_方法表/02_整体实验流程与计划工作量_表5-2.md",
+      "destination": "历版材料/01_当前材料_v1.0/02_方法表/02_整体实验流程与计划工作量_表5-2.md",
       "bytes": 710,
       "sha256": "41db0e7d76abbdd1d0f383f50cbc5c5a0080876c4388ad00fd01d2d8d8f9d1f1",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/02_方法表/02_整体实验流程与计划工作量_表5-2.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/02_方法表/03_主要评价指标_表5-3.md",
-      "destination": "早期全文及配套图表/02_方法表/03_主要评价指标_表5-3.md",
+      "destination": "历版材料/01_当前材料_v1.0/02_方法表/03_主要评价指标_表5-3.md",
       "bytes": 684,
       "sha256": "a560e5c88e58782a73f7819fd3d9ed1dff2772a5f60f16330d291056cad34c3d",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/02_方法表/03_主要评价指标_表5-3.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/02_方法表/04_运行故障诊断基线及正式发表时间_表5-4.md",
-      "destination": "早期全文及配套图表/02_方法表/04_运行故障诊断基线及正式发表时间_表5-4.md",
+      "destination": "历版材料/01_当前材料_v1.0/02_方法表/04_运行故障诊断基线及正式发表时间_表5-4.md",
       "bytes": 418,
       "sha256": "e2e1bc6268d11ad39de3fcfd19f8a13954a328dae7ed154919bcdd06793f0018",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/02_方法表/04_运行故障诊断基线及正式发表时间_表5-4.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/02_方法表/05_运行故障恢复基线及正式发表时间_表5-5.md",
-      "destination": "早期全文及配套图表/02_方法表/05_运行故障恢复基线及正式发表时间_表5-5.md",
+      "destination": "历版材料/01_当前材料_v1.0/02_方法表/05_运行故障恢复基线及正式发表时间_表5-5.md",
       "bytes": 461,
       "sha256": "19cac5756bc529e7b833458ee4a12520c8c04074750007cecb68b664e7a97975",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/02_方法表/05_运行故障恢复基线及正式发表时间_表5-5.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/02_方法表/06_核心模块消融_表5-6.md",
-      "destination": "早期全文及配套图表/02_方法表/06_核心模块消融_表5-6.md",
+      "destination": "历版材料/01_当前材料_v1.0/02_方法表/06_核心模块消融_表5-6.md",
       "bytes": 572,
       "sha256": "e3360d82682ad951927ac2dc137701a7cede9de4022a66f44c95d7f7ecbe5575",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "早期全文及配套图表/02_方法表/06_核心模块消融_表5-6.md",
+      "duplicate_selected_removed": true
     },
     {
       "source": "03_开题/01_当前材料_v1.0/术语与表达审核规则.md",
-      "destination": "写作约定/术语与表达审核规则.md",
+      "destination": "历版材料/01_当前材料_v1.0/术语与表达审核规则.md",
       "bytes": 1476,
       "sha256": "a9ed11b868cf3b988cc1d96d3c0996fdc4fa685ff7aa1a0091bc511bd24a5dc6",
-      "changed": false
+      "changed": false,
+      "previous_selected_destination": "写作约定/术语与表达审核规则.md",
+      "duplicate_selected_removed": true
     }
   ],
   "actual_current_ppt_slides": 34,

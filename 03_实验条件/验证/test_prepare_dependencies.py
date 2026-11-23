@@ -167,7 +167,7 @@ class DependencyTests(unittest.TestCase):
     def test_local_key_is_existing_private_file_or_explicit_file(self):
         with mock.patch.object(restore, 'ROOT', self.base):
             self.assertIsNone(restore.local_key())
-            default = self.base / '工作区/私有配置/mycode-recovery-key.json'
+            default = self.base / '09_工作区/私有配置/mycode-recovery-key.json'
             default.parent.mkdir(parents=True)
             default.write_text('synthetic key placeholder', encoding='utf-8')
             self.assertEqual(restore.local_key(), default)

@@ -9,7 +9,7 @@ import sys
 import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
-ENGINE = ROOT / '工作区/恢复/原始项目/02_工作区/01_工程'
+ENGINE = ROOT / '09_工作区/恢复/原始项目/02_工作区/01_工程'
 LEGACY_REPOSITORY = 'peropeng/graduate-thesis'
 RESTORE_CODE = 'python 03_实验条件/restore.py --code'
 RESTORE_INPUTS = 'python 03_实验条件/restore.py --history current-inputs-full.tar'

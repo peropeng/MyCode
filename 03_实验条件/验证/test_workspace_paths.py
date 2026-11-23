@@ -44,7 +44,7 @@ class WorkspaceTests(unittest.TestCase):
                 mock.patch.object(restore, 'download', side_effect=AssertionError('不应下载')), \
                 contextlib.redirect_stdout(io.StringIO()):
             restore.main()
-        self.assertEqual((self.base / '工作区/恢复/原始项目/02_工作区/01_工程/fixture.txt').read_bytes(), b'fixture')
+        self.assertEqual((self.base / '09_工作区/恢复/原始项目/02_工作区/01_工程/fixture.txt').read_bytes(), b'fixture')
         self.assertFalse((self.base / '本地恢复').exists())
 
     def test_dataset_download_uses_workspace_data(self):
@@ -59,11 +59,11 @@ class WorkspaceTests(unittest.TestCase):
                 mock.patch.object(fetch.urllib.request, 'urlopen', return_value=io.BytesIO(b'fixture')), \
                 contextlib.redirect_stdout(io.StringIO()):
             fetch.main()
-        self.assertEqual((self.base / '工作区/数据/合成来源/fixture.txt').read_bytes(), b'fixture')
+        self.assertEqual((self.base / '09_工作区/数据/合成来源/fixture.txt').read_bytes(), b'fixture')
 
     def test_ranking_fallback_uses_workspace_recovery_engine(self):
         ranking = load('workspace_ranking_fixture', '05_实验代码/根因排序/run_ranking.py')
-        engine = self.base / '工作区/恢复/原始项目/02_工作区/01_工程'
+        engine = self.base / '09_工作区/恢复/原始项目/02_工作区/01_工程'
         engine.mkdir(parents=True)
         with mock.patch.object(ranking, 'ROOT', self.base), mock.patch.object(sys, 'argv', [
                 'run_ranking.py', '--python', sys.executable]), mock.patch.object(ranking.subprocess, 'run') as run:
@@ -75,10 +75,10 @@ class WorkspaceTests(unittest.TestCase):
         source = self.base / 'synthetic-source'
         source.mkdir()
         (source / 'fixture.txt').write_bytes(b'fixture')
-        keyfile = self.base / '工作区/私有配置/synthetic.json'
+        keyfile = self.base / '09_工作区/私有配置/synthetic.json'
         keyfile.parent.mkdir(parents=True)
         keyfile.write_text(json.dumps({'key': base64.b64encode(b'x' * 32).decode()}), encoding='utf-8')
-        target = self.base / '工作区/封存/synthetic.enc'
+        target = self.base / '09_工作区/封存/synthetic.enc'
         with mock.patch.object(create, 'ROOT', self.base), mock.patch.object(sys, 'argv', [
                 'create_archive.py', '--input', str(source), '--output', str(target), '--key-file', str(keyfile)]), \
                 contextlib.redirect_stdout(io.StringIO()):
@@ -93,7 +93,7 @@ class WorkspaceTests(unittest.TestCase):
         target = self.base / '06_实验记录/forbidden.enc'
         with mock.patch.object(create, 'ROOT', self.base), mock.patch.object(sys, 'argv', [
                 'create_archive.py', '--input', str(source), '--output', str(target),
-                '--key-file', str(self.base / '工作区/私有配置/key.json')]), \
+                '--key-file', str(self.base / '09_工作区/私有配置/key.json')]), \
                 contextlib.redirect_stderr(io.StringIO()):
             with self.assertRaises(SystemExit):
                 create.main()
